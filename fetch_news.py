@@ -242,10 +242,23 @@ def main():
                 all_news.append(a)
         print(f"   {q}: {len(all_news)} 篇累计")
 
-    # 排序去重
-    all_news.sort(key=lambda x: x.get("published", ""), reverse=True)
+    # GPU 相关性过滤
+    GPU_KEYWORDS = [
+        "gpu", "nvidia", "amd", "intel gaudi", "tpu", "算力", "h100", "a100", "h200", "b200",
+        "cloud comput", "data center", "数据中心", "芯片", "chip", "ai model", "ai 模型",
+        "inference", "training", "训练", "推理", "cloud rent", "租赁", "server", "服务器",
+        "compute", "hpc", "supercomput", "超算", "aws", "azure", "google cloud", "阿里云",
+        "lambda labs", "coreweave", "runpod", "vast.ai", "deep learning", "深度学习",
+    ]
+    filtered = []
+    for a in all_news:
+        text = (a["title"] + " " + a.get("summary", "") + " " + a.get("full_text", "")[:500]).lower()
+        if any(kw in text for kw in GPU_KEYWORDS):
+            filtered.append(a)
+    if len(filtered) >= 5:
+        all_news = filtered
     all_news = all_news[:MAX_NEWS]
-    print(f"\n📋 最终 {len(all_news)} 篇 (已去重排序)")
+    print(f"\n📋 {len(all_news)} 篇 GPU 相关 (已过滤非GPU内容)")
 
     # 3. 对没有全文的文章进行提取
     need_extract = [a for a in all_news if not a.get("full_text") or len(a["full_text"]) < 200]
