@@ -25,6 +25,9 @@ except ImportError: pass
 HAS_TRANS = False
 try: from deep_translator import GoogleTranslator; HAS_TRANS = True
 except ImportError: pass
+PLAYWRIGHT_AVAILABLE = False
+try: from playwright.sync_api import sync_playwright; PLAYWRIGHT_AVAILABLE = True
+except ImportError: pass
 
 OUTPUT = Path(__file__).parent / "futures_news.js"
 TIMEOUT = 12
@@ -173,12 +176,31 @@ def scrape_direct_urls() -> list[dict]:
     """直接抓取已知URL的文章"""
     results = []
     for url, source, lang in KNOWN_URLS:
-        try:
-            r = requests.get(url, timeout=TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
-            if r.status_code != 200:
+        html = None
+        # 策略1: requests
+        for ua in ["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36",
+                    "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"]:
+            try:
+                r = requests.get(url, timeout=TIMEOUT, headers={"User-Agent": ua})
+                if r.status_code == 200 and len(r.text) > 5000:
+                    html = r.text
+                    break
+            except Exception:
                 continue
-            html = r.text
-        except Exception:
+        # 策略2: Playwright
+        if not html and PLAYWRIGHT_AVAILABLE:
+            try:
+                from playwright.sync_api import sync_playwright
+                with sync_playwright() as p:
+                    browser = p.chromium.launch(headless=True)
+                    page = browser.new_page()
+                    page.goto(url, timeout=15000, wait_until="load")
+                    page.wait_for_timeout(3000)
+                    html = page.content()
+                    browser.close()
+            except Exception:
+                pass
+        if not html:
             continue
 
         # 先用新浪专用提取器
