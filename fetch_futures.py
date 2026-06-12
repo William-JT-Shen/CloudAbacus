@@ -130,6 +130,82 @@ def extract_article(url):
         except: pass
     return result
 
+# 已知的高质量算力期货文章（直接抓取，绕过RSS搜索）
+KNOWN_URLS = [
+    ("https://finance.sina.com.cn/wm/2026-05-16/doc-inhyahas2588021.shtml", "新浪财经", "zh"),
+]
+
+
+def extract_sina_article(html: str) -> dict:
+    """新浪财经专用提取器"""
+    result = {}
+    if HAS_BS4:
+        try:
+            soup = BeautifulSoup(html, "html.parser")
+            # 新浪文章正文通常在 .article-content 或 #artibody 中
+            for sel in [".article-content", "#artibody", ".article-body", ".main-content"]:
+                div = soup.select_one(sel)
+                if div:
+                    text = div.get_text().strip()
+                    if len(text) > 200:
+                        result["full_text"] = text[:8000]
+                        break
+            # 提取图片
+            imgs = []
+            for sel in [".article-content img", "#artibody img", ".article-body img"]:
+                for img in soup.select(sel):
+                    src = img.get("src", "")
+                    if src.startswith("http") and not src.endswith(".svg"):
+                        imgs.append(src)
+            if imgs:
+                result["images"] = imgs[:5]
+        except Exception:
+            pass
+    return result
+
+
+def scrape_direct_urls() -> list[dict]:
+    """直接抓取已知URL的文章"""
+    results = []
+    for url, source, lang in KNOWN_URLS:
+        try:
+            r = requests.get(url, timeout=TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
+            if r.status_code != 200:
+                continue
+            html = r.text
+        except Exception:
+            continue
+
+        # 先用新浪专用提取器
+        extracted = extract_sina_article(html)
+        if not extracted.get("full_text"):
+            # 回退到通用提取器
+            extracted = extract_article(url)
+
+        if extracted.get("full_text") and len(extracted["full_text"]) > 200:
+            # 从HTML提取标题
+            title = ""
+            if HAS_BS4:
+                try:
+                    soup = BeautifulSoup(html, "html.parser")
+                    t = soup.find("title")
+                    if t:
+                        title = t.get_text().strip().split("|")[0].split("-")[0].strip()
+                except Exception:
+                    pass
+            results.append({
+                "title": title or url.split("/")[-1].replace(".shtml", ""),
+                "source": source,
+                "url": url,
+                "published": "2026-05-16",
+                "summary": extracted["full_text"][:400],
+                "full_text": extracted["full_text"],
+                "images": extracted.get("images", []),
+                "lang": lang,
+            })
+    return results
+
+
 def translate(text):
     if not HAS_TRANS or not text: return ""
     try:
@@ -166,6 +242,13 @@ def main():
         text = (a["title"]+" "+a.get("summary","")).lower()
         if any(kw in text for kw in FUTURES_KW): filtered.append(a)
     if len(filtered) >= 2: all_news = filtered
+    # 直接抓取已知URL
+    direct = scrape_direct_urls()
+    for a in direct:
+        k = a["title"][:60]
+        if k not in seen: seen.add(k); all_news.insert(0, a)
+    print(f"   📌 直接抓取: {len(direct)} 篇")
+
     # 提取全文
     need = [a for a in all_news if not a.get("full_text") or len(a["full_text"])<200]
     if need:
@@ -185,8 +268,8 @@ def main():
             a["translated"] = True
     else:
         for a in all_news: a["title_cn"]=a["summary_cn"]=a["full_text_cn"]=""; a["translated"]=False
-    # 过滤空文章
-    all_news = [a for a in all_news if a.get("full_text") and len(a["full_text"])>100]
+    # 过滤：保留有正文或来自已知来源的文章
+    all_news = [a for a in all_news if (a.get("full_text") and len(a["full_text"])>100) or a["source"] in ["新浪财经"]]
     # 合并旧文章
     existing = []
     if OUTPUT.exists():
