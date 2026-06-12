@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPU 算力价格对比 · 运算盘</title>
+  <style>
+    :root {
+      --bg: #0a0a14;
+      --card-bg: #141428;
+      --card-bg-hover: #1a1a35;
+      --text: #e2e8f0;
+      --text-secondary: #94a3b8;
+      --border: #2d2d50;
+      --accent: #8b5cf6;
+      --accent-light: #2d2b5e;
+      --accent-glow: rgba(139, 92, 246, 0.3);
+      --success: #10b981;
+      --success-light: #0d3329;
+      --warning: #f59e0b;
+      --warning-light: #332808;
+      --danger: #ef4444;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+      --shadow: 0 4px 20px rgba(0,0,0,0.4), 0 0 30px rgba(139, 92, 246, 0.05);
+      --shadow-lg: 0 10px 40px rgba(0,0,0,0.5), 0 0 60px rgba(139, 92, 246, 0.1);
+      --radius: 12px;
+      --radius-sm: 8px;
+      --transition: 0.2s ease;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* 动态深紫色背景渲染 */
+    body::before {
+      content: ''; position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 80% 50% at 20% 10%, rgba(139, 92, 246, 0.12) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 60% at 80% 80%, rgba(99, 102, 241, 0.1) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 40% at 50% 50%, rgba(168, 85, 247, 0.06) 0%, transparent 70%);
+      animation: bgPulse 8s ease-in-out infinite alternate;
+    }
+    @keyframes bgPulse {
+      0% { opacity: 0.7; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.05); }
+      100% { opacity: 0.7; transform: scale(1); }
+    }
+    /* 星点粒子 */
+    body::after {
+      content: ''; position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.15), transparent),
+        radial-gradient(1px 1px at 25% 45%, rgba(255,255,255,0.1), transparent),
+        radial-gradient(1.5px 1.5px at 40% 20%, rgba(168,85,247,0.2), transparent),
+        radial-gradient(1px 1px at 55% 70%, rgba(255,255,255,0.12), transparent),
+        radial-gradient(1.5px 1.5px at 70% 30%, rgba(139,92,246,0.18), transparent),
+        radial-gradient(1px 1px at 85% 60%, rgba(255,255,255,0.1), transparent),
+        radial-gradient(1px 1px at 15% 80%, rgba(99,102,241,0.15), transparent),
+        radial-gradient(1.5px 1.5px at 60% 85%, rgba(255,255,255,0.12), transparent);
+      animation: starTwinkle 4s ease-in-out infinite alternate;
+    }
+    @keyframes starTwinkle {
+      0% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+
+    .app-container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; position: relative; z-index: 1; }
+
+    /* ===== Header ===== */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .header-left { display: flex; align-items: center; gap: 0.75rem; }
+    .logo { font-size: 1.6rem; font-weight: 800; color: #e2e8f0; letter-spacing: -0.5px; }
+    .back-link {
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      padding: 0.5rem 0.9rem;
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); text-decoration: none;
+      font-size: 0.85rem; color: var(--text-secondary); transition: all var(--transition);
+    }
+    .back-link:hover { background: #2d2b5e; color: var(--text); border-color: var(--accent); }
+
+    .update-badge {
+      font-size: 0.8rem; color: #fbbf24; background: rgba(245, 158, 11, 0.1);
+      padding: 0.3rem 0.7rem; border-radius: 20px; white-space: nowrap;
+      border: 1px solid rgba(245, 158, 11, 0.2);
+    }
+
+    /* ===== Stats Row ===== */
+    .stats-row {
+      display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;
+    }
+    .stat-card {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 0.75rem 1.25rem;
+      box-shadow: var(--shadow-sm); text-align: center; min-width: 100px;
+    }
+    .stat-card .stat-num { font-size: 1.3rem; font-weight: 700; color: var(--accent); }
+    .stat-card .stat-label { font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.1rem; }
+    .stat-card.best .stat-num { color: var(--success); }
+    .stat-card.worst .stat-num { color: var(--danger); }
+
+    /* ===== GPU Selector ===== */
+    .gpu-selector {
+      display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.25rem;
+    }
+    .gpu-chip {
+      padding: 0.5rem 0.85rem;
+      border: 1.5px solid var(--border); border-radius: 24px;
+      background: var(--card-bg); cursor: pointer;
+      font-size: 0.82rem; font-weight: 500; color: var(--text-secondary);
+      transition: all var(--transition); white-space: nowrap;
+      user-select: none;
+    }
+    .gpu-chip:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); box-shadow: 0 0 12px var(--accent-glow); }
+    .gpu-chip.active {
+      background: var(--accent); color: white; border-color: var(--accent);
+      font-weight: 600; box-shadow: 0 0 20px var(--accent-glow);
+    }
+
+    /* ===== Toolbar ===== */
+    .toolbar {
+      display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; align-items: center;
+    }
+    .currency-toggle {
+      display: flex; background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); overflow: hidden;
+    }
+    .currency-toggle button {
+      padding: 0.6rem 1.1rem; border: none; background: transparent;
+      cursor: pointer; font-size: 0.88rem; font-weight: 500; color: var(--text-secondary);
+      transition: all var(--transition); white-space: nowrap;
+    }
+    .currency-toggle button.active { background: var(--accent); color: white; box-shadow: 0 0 12px var(--accent-glow); }
+    .currency-toggle button:hover:not(.active) { background: var(--accent-light); color: var(--accent); }
+
+    .rate-badge {
+      font-size: 0.78rem; color: var(--text-secondary); background: var(--card-bg);
+      padding: 0.4rem 0.7rem; border-radius: 20px; border: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    .sort-btns { display: flex; gap: 0.4rem; margin-left: auto; }
+    .sort-btn {
+      padding: 0.45rem 0.75rem; border: 1px solid var(--border); border-radius: 6px;
+      background: var(--card-bg); cursor: pointer; font-size: 0.8rem; color: var(--text-secondary);
+      transition: all var(--transition); white-space: nowrap;
+    }
+    .sort-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+    .sort-btn.active { background: var(--accent-light); color: var(--accent); border-color: var(--accent); }
+
+    .result-info {
+      font-size: 0.85rem; color: var(--text-secondary); white-space: nowrap;
+    }
+
+    /* ===== Table ===== */
+    .table-wrapper {
+      overflow-x: auto; background: var(--card-bg); border-radius: var(--radius);
+      box-shadow: var(--shadow); border: 1px solid var(--border);
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    thead th {
+      background: rgba(45, 43, 94, 0.5); padding: 0.8rem 0.85rem; text-align: left;
+      font-weight: 600; font-size: 0.8rem; color: var(--text-secondary);
+      border-bottom: 2px solid var(--border); white-space: nowrap; user-select: none;
+    }
+    tbody td {
+      padding: 0.7rem 0.85rem; border-bottom: 1px solid rgba(45, 45, 80, 0.5);
+      vertical-align: middle; color: var(--text);
+    }
+    tbody tr:hover td { background: var(--card-bg-hover); }
+
+    /* Best price row highlight */
+    tbody tr.best-price td { background: rgba(16, 185, 129, 0.08); }
+    tbody tr.best-price:hover td { background: rgba(16, 185, 129, 0.15); }
+    tbody tr.best-price .price-cell { color: var(--success); font-weight: 700; font-size: 1rem; text-shadow: 0 0 8px rgba(16, 185, 129, 0.3); }
+    .best-badge {
+      display: inline-block; background: var(--success); color: #0d3329;
+      font-size: 0.65rem; padding: 0.1rem 0.45rem; border-radius: 10px;
+      margin-left: 0.3rem; font-weight: 600; vertical-align: middle;
+    }
+
+    .td-platform { font-weight: 600; color: var(--text); }
+    .td-country { white-space: nowrap; font-size: 0.85rem; }
+    .price-cell { font-weight: 600; color: var(--text); font-variant-numeric: tabular-nums; font-family: 'SF Mono', 'Consolas', monospace; }
+    .td-note { font-size: 0.78rem; color: var(--text-secondary); max-width: 180px; }
+    .td-link a {
+      display: inline-block; padding: 0.35rem 0.65rem; background: var(--accent-light);
+      color: #b4a5f7; border-radius: 5px; text-decoration: none;
+      font-size: 0.75rem; font-weight: 500; transition: all var(--transition); white-space: nowrap;
+    }
+    .td-link a:hover { background: var(--accent); color: white; box-shadow: 0 0 10px var(--accent-glow); }
+
+    .ranking-dot {
+      display: inline-block; width: 18px; height: 18px; border-radius: 50%;
+      text-align: center; line-height: 18px; font-size: 0.7rem; font-weight: 700;
+      margin-right: 0.4rem; vertical-align: middle;
+    }
+    .rank-1 { background: #fbbf24; color: #78350f; }
+    .rank-2 { background: #94a3b8; color: #1e293b; }
+    .rank-3 { background: #fb923c; color: #7c2d12; }
+
+    .no-data { text-align: center; padding: 3rem 1rem; color: var(--text-secondary); }
+
+    /* ===== Disclaimer ===== */
+    .disclaimer {
+      display: flex; gap: 0.75rem; align-items: flex-start;
+      margin-top: 1.5rem; padding: 0.9rem 1.1rem;
+      background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: var(--radius-sm); font-size: 0.8rem; color: #fbbf24; line-height: 1.5;
+    }
+    .disclaimer-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: 1px; }
+
+    /* ===== Footer ===== */
+    .footer { text-align: center; padding: 1.5rem 0 0.5rem; font-size: 0.78rem; color: #64748b; }
+
+    /* ===== Card Grid View ===== */
+    .card-grid { display: none; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0.9rem; }
+    .card-grid.show { display: grid; }
+    .price-card {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.1rem;
+      box-shadow: var(--shadow); transition: all var(--transition);
+      display: flex; flex-direction: column; gap: 0.5rem;
+    }
+    .price-card:hover {
+      transform: translateY(-2px); box-shadow: var(--shadow-lg);
+      border-color: var(--accent);
+    }
+    .price-card .pc-header {
+      display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem;
+    }
+    .price-card .pc-platform { font-weight: 700; font-size: 0.95rem; color: var(--text); }
+    .price-card .pc-country {
+      font-size: 0.72rem; color: var(--text-secondary); background: rgba(139,92,246,0.12);
+      padding: 0.15rem 0.5rem; border-radius: 12px; white-space: nowrap; flex-shrink: 0;
+    }
+    .price-card .pc-gpu {
+      font-size: 0.8rem; color: #b4a5f7; font-weight: 500;
+      padding: 0.2rem 0.55rem; background: rgba(139,92,246,0.1); border-radius: 4px;
+      display: inline-block; align-self: flex-start;
+    }
+    .price-card .pc-sparkline {
+      width: 100%; height: 55px; margin: 0.2rem 0;
+      position: relative;
+    }
+    .price-card .pc-sparkline svg { width: 100%; height: 100%; display: block; }
+    .price-card .pc-price-row {
+      display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem;
+    }
+    .price-card .pc-price {
+      font-size: 1.4rem; font-weight: 800; color: #e2e8f0;
+      font-family: 'SF Mono','Consolas',monospace;
+    }
+    .price-card .pc-change {
+      font-size: 0.78rem; font-weight: 600; padding: 0.15rem 0.5rem; border-radius: 8px;
+    }
+    .pc-change.up { color: #34d399; background: rgba(16,185,129,0.12); }
+    .pc-change.down { color: #f87171; background: rgba(239,68,68,0.12); }
+    .pc-change.flat { color: #94a3b8; background: rgba(148,163,184,0.1); }
+    .price-card .pc-range {
+      font-size: 0.72rem; color: var(--text-secondary);
+      display: flex; gap: 0.6rem; align-items: center;
+    }
+    .price-card .pc-range span { white-space: nowrap; }
+    .price-card .pc-links { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+    .price-card .pc-links a {
+      padding: 0.35rem 0.65rem; border-radius: 5px; font-size: 0.73rem;
+      font-weight: 500; text-decoration: none; transition: all var(--transition);
+    }
+    .pc-link-web {
+      background: var(--accent); color: white;
+    }
+    .pc-link-web:hover { background: #a78bfa; box-shadow: 0 0 8px var(--accent-glow); }
+    .pc-link-price {
+      background: rgba(168,85,247,0.18); color: #d8b4fe; border: 1px solid rgba(168,85,247,0.3);
+    }
+    .pc-link-price:hover { background: rgba(168,85,247,0.35); color: #ede9fe; }
+
+    .view-toggle { display: flex; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
+    .view-toggle button {
+      padding: 0.55rem 0.85rem; border: none; background: transparent;
+      cursor: pointer; font-size: 0.82rem; color: var(--text-secondary); transition: all var(--transition); white-space: nowrap;
+    }
+    .view-toggle button.active { background: var(--accent); color: white; box-shadow: 0 0 10px var(--accent-glow); }
+    .view-toggle button:hover:not(.active) { background: var(--accent-light); color: var(--accent); }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      .app-container { padding: 0.75rem; }
+      .header { flex-direction: column; align-items: flex-start; }
+      .gpu-chip { padding: 0.4rem 0.65rem; font-size: 0.75rem; }
+      .toolbar { flex-direction: column; align-items: stretch; }
+      .sort-btns { margin-left: 0; }
+      table { font-size: 0.78rem; }
+      thead th, tbody td { padding: 0.5rem 0.55rem; }
+    }
+    /* ===== History Chart Modal ===== */
+    .modal-overlay {
+      display: none; position: fixed; inset: 0; z-index: 2000;
+      background: rgba(10,10,20,0.75); backdrop-filter: blur(6px);
+      justify-content: center; align-items: flex-start; padding: 2rem 1rem; overflow-y: auto;
+    }
+    .modal-overlay.show { display: flex; }
+    .modal-dialog {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: var(--radius); box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 60px var(--accent-glow);
+      width: 100%; max-width: 750px; animation: modalIn 0.25s ease;
+    }
+    @keyframes modalIn {
+      from { opacity:0; transform:translateY(-20px) scale(0.96); }
+      to { opacity:1; transform:translateY(0) scale(1); }
+    }
+    .modal-header {
+      display: flex; align-items: flex-start; justify-content: space-between;
+      padding: 1.2rem 1.4rem; border-bottom: 1px solid var(--border); gap: 1rem;
+    }
+    .modal-header h2 { font-size: 1.15rem; color: var(--text); }
+    .modal-close {
+      background: none; border: none; font-size: 1.2rem; cursor: pointer;
+      color: #64748b; padding: 0.2rem 0.5rem; border-radius: 6px;
+    }
+    .modal-close:hover { background: var(--accent-light); color: #e2e8f0; }
+    .modal-body { padding: 1rem 1.4rem 1.4rem; }
+    .modal-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+    .modal-table th { background: rgba(45,43,94,0.4); padding: 0.5rem 0.7rem; text-align: left; font-size: 0.75rem; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+    .modal-table td { padding: 0.45rem 0.7rem; border-bottom: 1px solid rgba(45,45,80,0.4); color: var(--text); font-size: 0.8rem; }
+    .modal-table tr:hover td { background: var(--card-bg-hover); }
+    .hist-stat { text-align: center; min-width: 80px; }
+    .hist-stat .val { font-size: 1.2rem; font-weight: 700; }
+    .hist-stat .lbl { font-size: 0.68rem; color: var(--text-secondary); margin-top: 0.1rem; }
+
+  </style>
+</head>
+<body>
+
+<div class="app-container">
+  <!-- ===== Header ===== -->
+  <div class="header">
+    <div class="header-left">
+      <a href="home_page.html" class="back-link">← 返回看板</a>
+      <div class="logo">💰 GPU 算力价格对比</div>
+    </div>
+    <div class="update-badge" id="updateBadge">📅 加载中...</div>
+  </div>
+
+  <!-- ===== Stats Row ===== -->
+  <div class="stats-row" id="statsRow">
+    <div class="stat-card"><div class="stat-num" id="statCount">-</div><div class="stat-label">可选平台</div></div>
+    <div class="stat-card best"><div class="stat-num" id="statBest">-</div><div class="stat-label">最低价格</div></div>
+    <div class="stat-card worst"><div class="stat-num" id="statWorst">-</div><div class="stat-label">最高价格</div></div>
+    <div class="stat-card"><div class="stat-num" id="statSavings">-</div><div class="stat-label">价差倍数</div></div>
+  </div>
+
+  <!-- ===== GPU Selector ===== -->
+  <div class="gpu-selector" id="gpuSelector"></div>
+
+  <!-- ===== Toolbar ===== -->
+  <div class="toolbar">
+    <div class="currency-toggle">
+      <button id="btnUSD" class="active">💵 美元 (USD)</button>
+      <button id="btnCNY">💴 人民币 (CNY)</button>
+    </div>
+    <span class="rate-badge" id="rateBadge">参考汇率：1 USD ≈ 7.25 CNY</span>
+    <div class="sort-btns">
+      <button class="sort-btn active" data-sort="price-asc">💰 价格从低到高</button>
+      <button class="sort-btn" data-sort="price-desc">📈 价格从高到低</button>
+      <button class="sort-btn" data-sort="name">🔤 按平台名</button>
+    </div>
+    <div class="view-toggle">
+      <button id="btnCardView2" class="active">📊 卡片</button>
+      <button id="btnTableView2">📋 表格</button>
+    </div>
+    <span class="result-info" id="resultInfo"></span>
+  </div>
+
+  <!-- ===== Price Table ===== -->
+  <div class="table-wrapper" id="tableWrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>排名</th>
+          <th>平台</th>
+          <th>国家/地区</th>
+          <th>价格 <span id="priceHeader">(USD/hr)</span></th>
+          <th>方案类型</th>
+          <th>备注</th>
+          <th>价格页面</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+  <!-- ===== Card Grid View ===== -->
+  <div class="card-grid" id="cardGrid"></div>
+  <div class="no-data" id="noData" style="display:none;">🔍 该 GPU 型号暂无价格数据</div>
+
+  <!-- ===== Disclaimer ===== -->
+  <div class="disclaimer">
+    <span class="disclaimer-icon">⚠️</span>
+    <div>
+      <strong>重要提示：</strong>以上价格均为各平台官网<strong>公开参考价格</strong>（截至 2025-06-12），非实时价格。
+      实际价格可能因承诺使用折扣、竞价实例、区域差异、税费等因素而不同。
+      标注"市场浮动价（起）"的平台（如 Vast.ai、TensorDock）为去中心化市场，价格实时波动。
+      <strong>建议点击"价格页面"链接查看最新官方报价。</strong>
+    </div>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <div class="footer">运算盘 CloudAbacus · 仅供参考，实际价格以各平台官网为准</div>
+</div>
+
+<!-- ===== 数据文件 ===== -->
+<script src="pricing.js"></script>
+<script src="pricing_live.js"></script>
+<script src="price_history.js"></script>
+
+<!-- ===== 国旗映射 ===== -->
+<script>
+const FLAGS = {
+  '美国': '🇺🇸', '中国': '🇨🇳', '日本': '🇯🇵', '韩国': '🇰🇷',
+  '德国': '🇩🇪', '法国': '🇫🇷', '英国': '🇬🇧', '瑞士': '🇨🇭',
+  '荷兰': '🇳🇱', '芬兰': '🇫🇮', '意大利': '🇮🇹',
+  '俄罗斯': '🇷🇺', '印度': '🇮🇳', '加拿大': '🇨🇦', '立陶宛': '🇱🇹',
+  '卢森堡': '🇱🇺', '斯洛文尼亚': '🇸🇮', '南非': '🇿🇦',
+  '冰岛': '🇮🇸', '冰岛/德国': '🇮🇸🇩🇪',
+  '美国/法国': '🇺🇸🇫🇷', '英国/美国': '🇬🇧🇺🇸', '美国/英国': '🇺🇸🇬🇧'
+};
+function getFlag(c) { return FLAGS[c] || '🌐'; }
+</script>
+
+<!-- ===== 主逻辑 ===== -->
+<script>
+(function() {
+  'use strict';
+
+  // ===== 数据合并：实时数据优先，fallback 到参考数据 =====
+  var pricingLive = window.GPU_PRICING_LIVE || {};
+  var pricingRef = window.GPU_PRICING || {};
+  var fetchedAt = window.PRICE_FETCHED_AT || null;
+  var scrapeSources = window.PRICE_SCRAPE_SOURCES || {};
+
+  // 合并策略：live 数据覆盖同 GPU 同 platform 的参考数据
+  var pricing = JSON.parse(JSON.stringify(pricingRef)); // deep copy
+  var liveCount = 0;
+  Object.keys(pricingLive).forEach(function(gpu) {
+    if (!pricing[gpu]) pricing[gpu] = [];
+    var liveEntries = pricingLive[gpu];
+    liveEntries.forEach(function(liveEntry) {
+      // 查找是否已有同平台条目
+      var idx = pricing[gpu].findIndex(function(e) {
+        return e.platform === liveEntry.platform;
+      });
+      if (idx >= 0) {
+        pricing[gpu][idx] = liveEntry;
+        pricing[gpu][idx]._live = true;
+      } else {
+        liveEntry._live = true;
+        pricing[gpu].push(liveEntry);
+      }
+      liveCount++;
+    });
+  });
+
+  var gpuKeys = Object.keys(pricing);
+  var currentGpu = gpuKeys[0] || '';
+  var currency = 'USD';
+  var rate = 7.25;
+  var sortMode = 'price-asc';
+
+  // 更新状态徽章
+  var $updateBadge = document.getElementById('updateBadge');
+  if (fetchedAt) {
+    var displayTime = fetchedAt.replace('T', ' ').slice(0, 19);
+    $updateBadge.innerHTML = '🟢 实时抓取 · ' + displayTime + ' · ' + liveCount + ' 条实时价格';
+    $updateBadge.style.background = 'rgba(16, 185, 129, 0.12)';
+    $updateBadge.style.color = '#34d399';
+    $updateBadge.style.border = '1px solid rgba(16, 185, 129, 0.25)';
+  } else {
+    $updateBadge.innerHTML = '🟡 参考数据 · 未找到实时价格文件 · 运行 fetch_prices.py 获取';
+  }
+
+  // DOM refs
+  var $gpuSelector = document.getElementById('gpuSelector');
+  var $tableBody = document.getElementById('tableBody');
+  var $btnUSD = document.getElementById('btnUSD');
+  var $btnCNY = document.getElementById('btnCNY');
+  var $priceHeader = document.getElementById('priceHeader');
+  var $rateBadge = document.getElementById('rateBadge');
+  var $resultInfo = document.getElementById('resultInfo');
+  var $noData = document.getElementById('noData');
+
+  // Render GPU selector chips
+  function renderGpuSelector() {
+    $gpuSelector.innerHTML = gpuKeys.map(function(key) {
+      var active = key === currentGpu ? ' active' : '';
+      return '<span class="gpu-chip' + active + '" data-gpu="' + esc(key) + '">' + esc(key) + '</span>';
+    }).join('');
+  }
+
+  // Format price (handles null = "需询价")
+  function formatPrice(usd) {
+    if (usd === null || usd === undefined) return '需询价';
+    if (currency === 'USD') return '$' + usd.toFixed(2);
+    return '¥' + (usd * rate).toFixed(2);
+  }
+
+  function isPriced(usd) {
+    return usd !== null && usd !== undefined;
+  }
+
+  // Render table
+  function renderTable() {
+    if ($cardGrid) $cardGrid.classList.remove('show');
+    var tw = document.querySelector('.table-wrapper');
+    if (tw) tw.style.display = '';
+    if ($tableWrapper) $tableWrapper.classList.add('show');
+
+    var data = pricing[currentGpu] || [];
+
+    if (data.length === 0) {
+      $tableBody.innerHTML = '';
+      $noData.style.display = 'block';
+      document.getElementById('statCount').textContent = '0';
+      document.getElementById('statBest').textContent = '-';
+      document.getElementById('statWorst').textContent = '-';
+      document.getElementById('statSavings').textContent = '-';
+      $resultInfo.textContent = '';
+      return;
+    }
+    $noData.style.display = 'none';
+
+    // Sort (null prices go to the end)
+    var sorted = data.slice();
+    if (sortMode === 'price-asc') {
+      sorted.sort(function(a, b) {
+        if (!isPriced(a.price_usd) && !isPriced(b.price_usd)) return 0;
+        if (!isPriced(a.price_usd)) return 1;
+        if (!isPriced(b.price_usd)) return -1;
+        return a.price_usd - b.price_usd;
+      });
+    } else if (sortMode === 'price-desc') {
+      sorted.sort(function(a, b) {
+        if (!isPriced(a.price_usd) && !isPriced(b.price_usd)) return 0;
+        if (!isPriced(a.price_usd)) return 1;
+        if (!isPriced(b.price_usd)) return -1;
+        return b.price_usd - a.price_usd;
+      });
+    } else if (sortMode === 'name') {
+      sorted.sort(function(a, b) { return a.platform.toLowerCase().localeCompare(b.platform.toLowerCase()); });
+    }
+
+    // Find min/max among priced entries only
+    var pricedOnly = sorted.filter(function(r) { return isPriced(r.price_usd); });
+    var unpricedCount = sorted.length - pricedOnly.length;
+    var minPrice = pricedOnly.length > 0 ? pricedOnly[0].price_usd : null;
+    var maxPrice = pricedOnly.length > 0 ? pricedOnly[pricedOnly.length - 1].price_usd : null;
+    var savings = (minPrice && maxPrice && minPrice > 0) ? (maxPrice / minPrice).toFixed(1) : '-';
+
+    // Stats
+    document.getElementById('statCount').textContent = sorted.length;
+    document.getElementById('statBest').textContent = minPrice !== null ? formatPrice(minPrice) : '-';
+    document.getElementById('statWorst').textContent = maxPrice !== null ? formatPrice(maxPrice) : '-';
+    document.getElementById('statSavings').textContent = savings !== '-' ? savings + 'x' : '-';
+    var infoText = pricedOnly.length + ' 个有公开报价';
+    if (unpricedCount > 0) infoText += ' · ' + unpricedCount + ' 个需询价';
+    $resultInfo.textContent = infoText;
+
+    // Table rows
+    var html = '';
+    sorted.forEach(function(row, i) {
+      var isPricedRow = isPriced(row.price_usd);
+      var isBest = isPricedRow && pricedOnly.length > 0 && row.price_usd === pricedOnly[0].price_usd;
+      var priceDisplay = formatPrice(row.price_usd);
+      var rankClass = i === 0 ? 'rank-1' : (i === 1 ? 'rank-2' : (i === 2 ? 'rank-3' : ''));
+      var bestClass = isBest ? ' best-price' : '';
+
+      var sourceBadge = row._live ? '<span style="font-size:0.6rem;background:rgba(16,185,129,0.2);color:#34d399;padding:1px 5px;border-radius:8px;margin-left:4px;" title="实时抓取数据">🟢实时</span>' : '';
+      html += '<tr class="' + bestClass + '">' +
+        '<td><span class="ranking-dot ' + rankClass + '">' + (i + 1) + '</span></td>' +
+        '<td class="td-platform">' + esc(row.platform) + (isBest ? '<span class="best-badge">最低价</span>' : '') + sourceBadge + '</td>' +
+        '<td class="td-country">' + getFlag(row.country) + ' ' + esc(row.country) + '</td>' +
+        '<td class="price-cell">' + priceDisplay + '</td>' +
+        '<td>' + esc(row.plan) + '</td>' +
+        '<td class="td-note">' + esc(row.note || '') + '</td>' +
+        '<td class="td-link"><a href="' + esc(row.pricing_url) + '" target="_blank" rel="noopener">查看价格 →</a></td>' +
+      '</tr>';
+    });
+    $tableBody.innerHTML = html;
+  }
+
+  // Switch currency
+  function switchCurrency(cur) {
+    currency = cur;
+    if (cur === 'USD') {
+      $btnUSD.classList.add('active');
+      $btnCNY.classList.remove('active');
+      $priceHeader.textContent = '(USD/hr)';
+      $rateBadge.textContent = '参考汇率：1 USD ≈ 7.25 CNY';
+    } else {
+      $btnCNY.classList.add('active');
+      $btnUSD.classList.remove('active');
+      $priceHeader.textContent = '(CNY/hr)';
+      $rateBadge.textContent = '参考汇率：1 USD ≈ 7.25 CNY · 实际汇率可能有波动';
+    }
+    if (currentView === 'card') renderCards();
+    else renderTable();
+  }
+
+  // Switch GPU
+  function switchGpu(gpu) {
+    currentGpu = gpu;
+    // Update chip active state
+    document.querySelectorAll('.gpu-chip').forEach(function(chip) {
+      chip.classList.toggle('active', chip.dataset.gpu === gpu);
+    });
+    if (currentView === 'card') renderCards();
+    else renderTable();
+  }
+
+  function esc(str) {
+    if (!str) return '';
+    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // Init
+  // ===== 历史价格数据 =====
+  var priceHistory = null;
+  var currentView = 'card'; // 'card' | 'table'
+
+  function loadHistory() {
+    if (window.PRICE_HISTORY_DATA && window.PRICE_HISTORY_DATA.snapshots) {
+      priceHistory = window.PRICE_HISTORY_DATA.snapshots;
+    } else {
+      priceHistory = [];
+    }
+    return Promise.resolve();
+  }
+
+  // ===== SVG Sparkline 生成 =====
+  function renderSparkline(points, w, h) {
+    if (!points || points.length < 2) return '';
+    var min = Math.min.apply(null, points);
+    var max = Math.max.apply(null, points);
+    var range = max - min || 1;
+    var pad = 4; // padding
+
+    // 构建 polyline points
+    var stepX = (w - pad * 2) / (points.length - 1);
+    var linePts = [];
+    var areaPts = [];
+    points.forEach(function(v, i) {
+      var x = pad + i * stepX;
+      var y = pad + (h - pad * 2) * (1 - (v - min) / range);
+      linePts.push(x.toFixed(1) + ',' + y.toFixed(1));
+      areaPts.push(x.toFixed(1) + ',' + y.toFixed(1));
+    });
+    // 闭合填充区域
+    areaPts.push((w - pad).toFixed(1) + ',' + (h - pad).toFixed(1));
+    areaPts.push(pad.toFixed(1) + ',' + (h - pad).toFixed(1));
+
+    var isUp = points[points.length - 1] >= points[0];
+    var lineColor = isUp ? '#34d399' : '#f87171';
+    var fillColor = isUp ? 'rgba(52,211,153,0.12)' : 'rgba(248,113,113,0.1)';
+
+    return '<svg viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none">' +
+      '<polygon points="' + areaPts.join(' ') + '" fill="' + fillColor + '"/>' +
+      '<polyline points="' + linePts.join(' ') + '" fill="none" stroke="' + lineColor + '" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
+      // 当前价圆点
+      '<circle cx="' + linePts[linePts.length-1].split(',')[0] + '" cy="' + linePts[linePts.length-1].split(',')[1] + '" r="2.5" fill="' + lineColor + '"/>' +
+      // min 线
+      '<line x1="' + pad + '" y1="' + (pad + (h - pad*2) * (1 - (min - min) / range)).toFixed(1) + '" x2="' + (w-pad) + '" y2="' + (pad + (h - pad*2) * (1 - (min - min) / range)).toFixed(1) + '" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="3,3"/>' +
+      '</svg>';
+  }
+
+  // 获取某 GPU + 平台的历史价格序列（大小写不敏感匹配）
+  function getPriceHistory(gpuName, platformName) {
+    if (!priceHistory || priceHistory.length === 0) return [];
+    var gpuLower = gpuName.toLowerCase();
+    var platLower = platformName.toLowerCase();
+    var result = [];
+    priceHistory.forEach(function(snap) {
+      // 遍历所有 GPU key 做大小写不敏感匹配
+      var gpuPrices = null;
+      var gpuKeys = Object.keys(snap.prices);
+      for (var i = 0; i < gpuKeys.length; i++) {
+        if (gpuKeys[i].toLowerCase() === gpuLower) {
+          gpuPrices = snap.prices[gpuKeys[i]];
+          break;
+        }
+      }
+      if (!gpuPrices) return;
+      // 同样做平台名大小写不敏感匹配
+      for (var j = 0; j < gpuPrices.length; j++) {
+        if (gpuPrices[j].platform.toLowerCase() === platLower) {
+          result.push(gpuPrices[j].price_usd);
+          break;
+        }
+      }
+    });
+    return result;
+  }
+
+  // ===== 渲染卡片视图 =====
+  var $cardGrid = document.getElementById('cardGrid');
+  var $tableWrapper = document.getElementById('tableWrapper');
+
+  function renderCards() {
+    if (!$cardGrid) return;
+    $cardGrid.classList.add('show');
+    if ($tableWrapper) $tableWrapper.classList.remove('show');
+    var tw = document.querySelector('.table-wrapper');
+    if (tw) tw.style.display = 'none';
+
+    var data = pricing[currentGpu] || [];
+    if (data.length === 0) {
+      $cardGrid.innerHTML = '';
+      $noData.style.display = 'block';
+      return;
+    }
+    $noData.style.display = 'none';
+
+    // 按价格排序
+    var sorted = data.slice();
+    sorted.sort(function(a, b) {
+      if (!isPriced(a.price_usd)) return 1;
+      if (!isPriced(b.price_usd)) return -1;
+      return a.price_usd - b.price_usd;
+    });
+
+    var html = '';
+    sorted.forEach(function(row) {
+      var priceDisplay = formatPrice(row.price_usd);
+      var histPoints = getPriceHistory(currentGpu, row.platform);
+      var sparkline = renderSparkline(histPoints, 280, 55);
+
+      // 计算涨跌
+      var changeHtml = '';
+      if (histPoints.length >= 7) {
+        var oldPrice = histPoints[0];
+        var curPrice = histPoints[histPoints.length - 1];
+        var delta = curPrice - oldPrice;
+        var pct = oldPrice > 0 ? (delta / oldPrice * 100) : 0;
+        if (Math.abs(pct) < 0.5) {
+          changeHtml = '<span class="pc-change flat">→ 持平</span>';
+        } else if (pct > 0) {
+          changeHtml = '<span class="pc-change up">↑ +' + pct.toFixed(1) + '%</span>';
+        } else {
+          changeHtml = '<span class="pc-change down">↓ ' + pct.toFixed(1) + '%</span>';
+        }
+      } else if (histPoints.length >= 2) {
+        var first = histPoints[0], last = histPoints[histPoints.length-1];
+        var d = ((last - first) / first * 100);
+        if (Math.abs(d) < 0.5) changeHtml = '<span class="pc-change flat">→ 0%</span>';
+        else if (d > 0) changeHtml = '<span class="pc-change up">↑ +' + d.toFixed(1) + '%</span>';
+        else changeHtml = '<span class="pc-change down">↓ ' + d.toFixed(1) + '%</span>';
+      }
+
+      // 价格区间
+      var rangeHtml = '';
+      if (histPoints.length >= 2) {
+        var hMin = Math.min.apply(null, histPoints);
+        var hMax = Math.max.apply(null, histPoints);
+        rangeHtml = '<div class="pc-range"><span>📉 最低 ' + formatPrice(hMin) + '</span><span>📈 最高 ' + formatPrice(hMax) + '</span></div>';
+      }
+
+      html += '<div class="price-card">' +
+        '<div class="pc-header">' +
+          '<div class="pc-platform">' + esc(row.platform) + (row._live ? ' <span style="font-size:0.6rem;background:rgba(16,185,129,0.2);color:#34d399;padding:1px 4px;border-radius:6px;">🟢实时</span>' : '') + '</div>' +
+          '<div class="pc-country">' + getFlag(row.country) + ' ' + esc(row.country || '') + '</div>' +
+        '</div>' +
+        '<span class="pc-gpu">' + esc(currentGpu) + '</span>' +
+        '<div class="pc-sparkline">' + (sparkline || '<div style="color:var(--text-secondary);font-size:0.7rem;text-align:center;padding-top:18px;">历史数据不足</div>') + '</div>' +
+        '<div class="pc-price-row">' +
+          '<span class="pc-price">' + priceDisplay + '</span>' +
+          changeHtml +
+        '</div>' +
+        rangeHtml +
+        '<div class="pc-links">' +
+          '<a href="' + esc(row.pricing_url) + '" target="_blank" rel="noopener" class="pc-link-web">🌐 官网</a>' +
+          '<a href="javascript:void(0)" class="pc-link-price pc-hist-btn" data-gpu="' + esc(currentGpu) + '" data-platform="' + esc(row.platform) + '">📈 历史走势</a>' +
+        '</div>' +
+      '</div>';
+    });
+    $cardGrid.innerHTML = html;
+
+    // 更新统计和结果信息
+    var pricedCnt = sorted.filter(function(r) { return isPriced(r.price_usd); }).length;
+    var unpricedCnt = sorted.length - pricedCnt;
+    var info = pricedCnt + ' 个报价';
+    if (unpricedCnt > 0) info += ' · ' + unpricedCnt + ' 个需询价';
+
+    // 计算最低/最高/价差
+    var pricedOnly = sorted.filter(function(r) { return isPriced(r.price_usd); });
+    var minP = pricedOnly.length > 0 ? pricedOnly[0].price_usd : null;
+    var maxP = pricedOnly.length > 0 ? pricedOnly[pricedOnly.length-1].price_usd : null;
+    var spread = (minP && maxP && minP > 0) ? (maxP / minP).toFixed(1) : '-';
+
+    document.getElementById('statCount').textContent = sorted.length;
+    document.getElementById('statBest').textContent = minP !== null ? formatPrice(minP) : '-';
+    document.getElementById('statWorst').textContent = maxP !== null ? formatPrice(maxP) : '-';
+    document.getElementById('statSavings').textContent = spread !== '-' ? spread + 'x' : '-';
+    $resultInfo.textContent = info;
+  }
+
+  function switchView(view) {
+    currentView = view;
+    if (view === 'card') {
+      document.getElementById('btnCardView2').classList.add('active');
+      document.getElementById('btnTableView2').classList.remove('active');
+      renderCards();
+    } else {
+      document.getElementById('btnTableView2').classList.add('active');
+      document.getElementById('btnCardView2').classList.remove('active');
+      renderTable();
+    }
+  }
+
+  // ===== 历史图表弹窗 =====
+  window.__openHistChart = function(gpuName, platformName) {
+    var histPoints = getPriceHistory(gpuName, platformName);
+    if (histPoints.length < 2) {
+      alert('该 GPU 暂无足够的历史数据（需积累多日数据）');
+      return;
+    }
+
+    // 弹窗 DOM
+    var overlay = document.getElementById('histModalOverlay');
+    document.getElementById('histTitle').textContent = platformName + ' · ' + gpuName;
+    document.getElementById('histSubtitle').textContent = '近 ' + histPoints.length + ' 天价格走势';
+
+    // 构建大尺寸 SVG 图表
+    var svg = buildDetailChart(histPoints, gpuName, platformName);
+    document.getElementById('histChartSvg').innerHTML = svg;
+
+    // 统计卡片
+    var min = Math.min.apply(null, histPoints);
+    var max = Math.max.apply(null, histPoints);
+    var avg = (histPoints.reduce(function(a,b){return a+b;},0) / histPoints.length);
+    var first = histPoints[0], last = histPoints[histPoints.length-1];
+    var delta = last - first;
+    var pct = first > 0 ? (delta / first * 100) : 0;
+    var trendColor = delta >= 0 ? '#34d399' : '#f87171';
+    var trendIcon = delta >= 0 ? '↑' : '↓';
+
+    document.getElementById('histStats').innerHTML =
+      '<div class="hist-stat"><div class="val" style="color:#e2e8f0;">' + formatPrice(last) + '</div><div class="lbl">当前价格</div></div>' +
+      '<div class="hist-stat"><div class="val" style="color:' + trendColor + ';">' + trendIcon + ' ' + Math.abs(pct).toFixed(1) + '%</div><div class="lbl">' + histPoints.length + '日涨跌</div></div>' +
+      '<div class="hist-stat"><div class="val" style="color:#f59e0b;">' + formatPrice(min) + '</div><div class="lbl">最低</div></div>' +
+      '<div class="hist-stat"><div class="val" style="color:#ef4444;">' + formatPrice(max) + '</div><div class="lbl">最高</div></div>' +
+      '<div class="hist-stat"><div class="val" style="color:#94a3b8;">' + formatPrice(avg) + '</div><div class="lbl">平均</div></div>';
+
+    // 数据表格
+    var tableHtml = '';
+    var snapDates = getHistoryDates(gpuName, platformName);
+    histPoints.forEach(function(p, i) {
+      var prevP = i > 0 ? histPoints[i-1] : p;
+      var d = p - prevP;
+      var arrow = d > 0.005 ? '🔺' : (d < -0.005 ? '🔻' : '→');
+      var dateStr = snapDates[i] || ('Day -' + (histPoints.length - i));
+      tableHtml += '<tr><td>' + dateStr + '</td><td style="font-family:monospace;font-weight:600;">' + formatPrice(p) + '</td><td>' + arrow + ' ' + (d >= 0 ? '+' : '') + formatPrice(d) + '</td></tr>';
+    });
+    document.getElementById('histTableBody').innerHTML = tableHtml;
+
+    overlay.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  };
+
+  // 获取历史日期标签
+  function getHistoryDates(gpuName, platformName) {
+    if (!priceHistory) return [];
+    var dates = [];
+    var gpuLower = gpuName.toLowerCase();
+    var platLower = platformName.toLowerCase();
+    priceHistory.forEach(function(snap) {
+      var keys = Object.keys(snap.prices);
+      for (var i = 0; i < keys.length; i++) {
+        if (keys[i].toLowerCase() === gpuLower) {
+          var entries = snap.prices[keys[i]];
+          for (var j = 0; j < entries.length; j++) {
+            if (entries[j].platform.toLowerCase() === platLower) {
+              dates.push(snap.date);
+              break;
+            }
+          }
+          break;
+        }
+      }
+    });
+    return dates;
+  }
+
+  // 生成大尺寸详细折线图 SVG
+  function buildDetailChart(points, gpuName, platformName) {
+    var W = 700, H = 260, pad = {top: 30, right: 20, bottom: 40, left: 60};
+    var plotW = W - pad.left - pad.right;
+    var plotH = H - pad.top - pad.bottom;
+    var min = Math.min.apply(null, points);
+    var max = Math.max.apply(null, points);
+    var range = max - min || 1;
+    // 扩展 y 范围 10%
+    var yMin = min - range * 0.1;
+    var yMax = max + range * 0.1;
+    var yRange = yMax - yMin;
+    var n = points.length;
+
+    var svgParts = [];
+
+    // 背景网格
+    var gridLines = 5;
+    for (var g = 0; g <= gridLines; g++) {
+      var gy = pad.top + (plotH / gridLines) * g;
+      var val = yMax - (yRange / gridLines) * g;
+      svgParts.push('<line x1="' + pad.left + '" y1="' + gy.toFixed(1) + '" x2="' + (W-pad.right) + '" y2="' + gy.toFixed(1) + '" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>');
+      svgParts.push('<text x="' + (pad.left-8) + '" y="' + (gy+4).toFixed(1) + '" text-anchor="end" fill="#94a3b8" font-size="10">$' + val.toFixed(2) + '</text>');
+    }
+
+    // 数据线
+    var linePts = [], areaPts = [];
+    for (var i = 0; i < n; i++) {
+      var x = pad.left + (plotW / (n - 1)) * i;
+      var y = pad.top + plotH * (1 - (points[i] - yMin) / yRange);
+      linePts.push(x.toFixed(1) + ',' + y.toFixed(1));
+      areaPts.push(x.toFixed(1) + ',' + y.toFixed(1));
+    }
+    areaPts.push((pad.left + plotW).toFixed(1) + ',' + (pad.top + plotH).toFixed(1));
+    areaPts.push(pad.left.toFixed(1) + ',' + (pad.top + plotH).toFixed(1));
+
+    var lineColor = points[n-1] >= points[0] ? '#34d399' : '#f87171';
+    svgParts.push('<polygon points="' + areaPts.join(' ') + '" fill="' + (lineColor === '#34d399' ? 'rgba(52,211,153,0.08)' : 'rgba(248,113,113,0.06)') + '"/>');
+    svgParts.push('<polyline points="' + linePts.join(' ') + '" fill="none" stroke="' + lineColor + '" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>');
+
+    // 数据点圆点
+    for (var i = 0; i < n; i++) {
+      var xy = linePts[i].split(',');
+      svgParts.push('<circle cx="' + xy[0] + '" cy="' + xy[1] + '" r="4" fill="' + lineColor + '" stroke="#141428" stroke-width="2"/>');
+    }
+
+    // 均值线
+    var avg = points.reduce(function(a,b){return a+b;},0) / n;
+    var avgY = pad.top + plotH * (1 - (avg - yMin) / yRange);
+    svgParts.push('<line x1="' + pad.left + '" y1="' + avgY.toFixed(1) + '" x2="' + (pad.left+plotW) + '" y2="' + avgY.toFixed(1) + '" stroke="#f59e0b" stroke-width="1" stroke-dasharray="6,4"/>');
+    svgParts.push('<text x="' + (pad.left+plotW) + '" y="' + (avgY-6).toFixed(1) + '" text-anchor="end" fill="#f59e0b" font-size="10">均值 $' + avg.toFixed(2) + '</text>');
+
+    // X 轴日期标签
+    var snapDates = getHistoryDates(gpuName, platformName);
+    for (var i = 0; i < n; i++) {
+      var x = pad.left + (plotW / (n - 1)) * i;
+      var label = snapDates[i] ? snapDates[i].slice(5) : ''; // MM-DD
+      if (label) {
+        svgParts.push('<text x="' + x.toFixed(1) + '" y="' + (H-8) + '" text-anchor="middle" fill="#64748b" font-size="9">' + label + '</text>');
+      }
+    }
+
+    return svgParts.join('');
+  }
+
+  // 弹窗关闭
+  document.addEventListener('click', function(e) {
+    if (e.target.id === 'histModalOverlay') {
+      document.getElementById('histModalOverlay').classList.remove('show');
+      document.body.style.overflow = '';
+    }
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      document.getElementById('histModalOverlay').classList.remove('show');
+      document.body.style.overflow = '';
+    }
+  });
+  // 关闭按钮需要在 DOM 就绪后绑定
+  setTimeout(function() {
+    var closeBtn = document.getElementById('histModalClose');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', function() {
+        document.getElementById('histModalOverlay').classList.remove('show');
+        document.body.style.overflow = '';
+      });
+    }
+  }, 100);
+
+  function init() {
+    if (gpuKeys.length === 0) {
+      $noData.style.display = 'block';
+      $noData.textContent = '⚠️ 未能加载价格数据，请确保 pricing.js 文件存在。';
+      return;
+    }
+
+    // 加载历史数据后再渲染
+    loadHistory().then(function() {
+      renderGpuSelector();
+      if (currentView === 'card') renderCards();
+      else renderTable();
+    });
+
+    // GPU chip clicks
+    $gpuSelector.addEventListener('click', function(e) {
+      var chip = e.target.closest('.gpu-chip');
+      if (!chip) return;
+      switchGpu(chip.dataset.gpu);
+    });
+
+    // Card/Table view toggle
+    document.getElementById('btnCardView2').addEventListener('click', function() { switchView('card'); });
+    document.getElementById('btnTableView2').addEventListener('click', function() { switchView('table'); });
+
+    // 历史图表按钮（事件委托）
+    document.getElementById('cardGrid').addEventListener('click', function(e) {
+      var btn = e.target.closest('.pc-hist-btn');
+      if (!btn) return;
+      e.preventDefault();
+      var gpu = btn.getAttribute('data-gpu');
+      var plat = btn.getAttribute('data-platform');
+      if (gpu && plat) window.__openHistChart(gpu, plat);
+    });
+
+    // Currency toggle
+    $btnUSD.addEventListener('click', function() { switchCurrency('USD'); });
+    $btnCNY.addEventListener('click', function() { switchCurrency('CNY'); });
+
+    // Sort buttons
+    document.querySelectorAll('.sort-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.sort-btn').forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        sortMode = btn.dataset.sort;
+        renderTable();
+      });
+    });
+  }
+
+  init();
+})();
+</script>
+
+<!-- ===== History Detail Modal ===== -->
+<div class="modal-overlay" id="histModalOverlay">
+  <div class="modal-dialog" id="histModal">
+    <div class="modal-header">
+      <div>
+        <h2 id="histTitle"></h2>
+        <span style="font-size:0.8rem;color:var(--text-secondary);" id="histSubtitle"></span>
+      </div>
+      <button class="modal-close" id="histModalClose">✕</button>
+    </div>
+    <div class="modal-body" style="max-height:60vh;">
+      <div style="width:100%;height:260px;" id="histChartContainer">
+        <svg id="histChartSvg" viewBox="0 0 700 260" preserveAspectRatio="xMidYMid meet" style="width:100%;height:100%;"></svg>
+      </div>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:0.8rem;" id="histStats"></div>
+      <table class="modal-table" style="margin-top:0.8rem;">
+        <thead><tr><th>日期</th><th>价格 (USD/hr)</th><th>涨跌</th></tr></thead>
+        <tbody id="histTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

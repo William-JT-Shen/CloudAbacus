@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Screenshots from scraper
+vast_screenshot.png
+
+# API keys
+工作文件夹/1. GPU 租赁市场查询.py
+工作文件夹/1. GPU 租赁市场查询/
+
+# API keys (if any in the future)
+*api_key*
+*secret*
+.env
