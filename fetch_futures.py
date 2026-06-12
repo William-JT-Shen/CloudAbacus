@@ -34,6 +34,7 @@ FULLTEXT_FEEDS = [
     ("https://feeds.reuters.com/reuters/businessNews", "Reuters", "en"),
     ("https://www.36kr.com/feed", "36氪", "zh"),
     ("https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", "NYT Tech", "en"),
+    ("https://finance.sina.com.cn/roll/rss.xml", "新浪财经", "zh"),
 ]
 
 # Google News 搜索（期货专题）
@@ -48,6 +49,8 @@ QUERIES = [
     ("GPU 算力 衍生品 合约", "zh-CN"),
     ("芝商所 Silicon Data GPU 算力", "en"),
     ("算力 期货 交易所 上市", "zh-CN"),
+    ("site:sina.com.cn 算力 期货", "zh-CN"),
+    ("site:sina.com.cn GPU 算力", "zh-CN"),
 ]
 
 MAX_NEWS = 15

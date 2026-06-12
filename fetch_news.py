@@ -52,6 +52,7 @@ FULLTEXT_FEEDS = [
     ("https://feeds.arstechnica.com/arstechnica/index", "Ars Technica", "en"),
     ("https://www.36kr.com/feed", "36氪", "zh"),
     ("https://www.jiqizhixin.com/rss", "机器之心", "zh"),
+    ("https://finance.sina.com.cn/roll/rss.xml", "新浪财经", "zh"),
 ]
 
 # ====== Google News 搜索词 ======
