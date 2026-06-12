@@ -39,7 +39,7 @@ try:
 except ImportError:
     pass
 
-OUTPUT = Path(__file__).parent / "news.js"
+OUTPUT = Path(__file__).parent / "futures_news.js"
 TIMEOUT = 12
 MAX_NEWS = 20
 
@@ -280,7 +280,7 @@ def main():
 
     # 2. Google News 搜索
     print("\n🔍 Google News:")
-    for q, hl in GOOGLE_NEWS_QUERIES:
+    for q, hl in FUTURES_QUERIES:
         url = f"https://news.google.com/rss/search?q={quote(q)}&hl={hl}&ceid={hl}"
         for a in fetch_rss(url):
             a["lang"] = "zh" if "zh" in hl else "en"

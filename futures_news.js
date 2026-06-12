@@ -1,0 +1,2 @@
+var NEWS_FETCHED_AT = "2026-06-12T15:30:00Z";
+var GPU_NEWS = [];

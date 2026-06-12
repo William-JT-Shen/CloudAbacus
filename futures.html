@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPU 算力期货资讯 · 运算盘</title>
+  <style>
+    :root{--bg:#0a0a14;--card:#141428;--text:#e2e8f0;--t2:#94a3b8;--border:#2d2d50;--accent:#8b5cf6;--r:12px;--rs:8px}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+    body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse 80% 50% at 20% 10%,rgba(139,92,246,.1) 0%,transparent 60%),radial-gradient(ellipse 60% 60% at 80% 80%,rgba(99,102,241,.08) 0%,transparent 60%)}
+    .container{max-width:900px;margin:0 auto;padding:1.5rem;position:relative;z-index:1}
+    .header{display:flex;align-items:center;gap:.75rem;margin-bottom:1.5rem;flex-wrap:wrap}
+    .header h1{font-size:1.6rem;color:var(--text)}
+    .btn-back{display:inline-flex;align-items:center;gap:.3rem;padding:.45rem .85rem;border-radius:var(--rs);text-decoration:none;font-size:.82rem;background:rgba(139,92,246,.12);border:1px solid rgba(139,92,246,.3);color:#b4a5f7;transition:all .2s}
+    .btn-back:hover{background:rgba(139,92,246,.25)}
+    .badge{font-size:.78rem;color:#34d399;background:rgba(16,185,129,.1);padding:.3rem .7rem;border-radius:20px;border:1px solid rgba(16,185,129,.2)}
+
+    .news-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:1.2rem 1.4rem;margin-bottom:.9rem;box-shadow:0 4px 20px rgba(0,0,0,.2);transition:all .2s;text-decoration:none;display:block;color:inherit}
+    .news-card:hover{border-color:var(--accent);box-shadow:0 4px 25px rgba(139,92,246,.15)}
+    .nc-title{font-size:1.05rem;font-weight:700;color:var(--text);margin-bottom:.3rem;line-height:1.4}
+    .nc-meta{font-size:.75rem;color:var(--t2);margin-bottom:.4rem;display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
+    .nc-summary{font-size:.85rem;color:var(--t2);line-height:1.6}
+    .nc-lang{padding:.1rem .4rem;border-radius:4px;font-size:.65rem}
+    .nc-lang.zh{background:rgba(16,185,129,.15);color:#34d399}
+    .nc-lang.en{background:rgba(245,158,11,.15);color:#fbbf24}
+    .nc-imgs{display:flex;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+    .nc-imgs img{max-height:80px;border-radius:6px;border:1px solid var(--border);object-fit:cover}
+
+    .no-data{text-align:center;padding:3rem;color:var(--t2)}
+    .footer{text-align:center;padding:2rem 0 1rem;font-size:.78rem;color:#475569}
+    @media(max-width:768px){.container{padding:.75rem}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <a href="home.html" class="btn-back">← 返回首页</a>
+    <h1>📰 GPU 算力期货资讯</h1>
+    <span class="badge" id="badge">加载中...</span>
+  </div>
+  <div id="list"></div>
+  <div class="no-data" id="noData" style="display:none">暂无新闻数据</div>
+  <div class="footer">运算盘 CloudAbacus · 新闻自动更新 · Google News</div>
+</div>
+
+<script src="futures_news.js"></script>
+<script>
+(function(){
+  var news=window.GPU_NEWS||[],t=window.NEWS_FETCHED_AT||'';
+  var list=document.getElementById('list'),no=document.getElementById('noData'),badge=document.getElementById('badge');
+  badge.textContent=t?'🟢 更新于 '+t.replace('T',' ').slice(0,16):'🟡 暂无';
+  if(!news.length){no.style.display='block';return}
+  function e(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+  news.forEach(function(a,i){
+    var lt=a.lang==='zh'?'<span class="nc-lang zh">中文</span>':'<span class="nc-lang en">English</span>';
+    var imgs='';
+    if(a.images&&a.images.length)imgs='<div class="nc-imgs">'+a.images.map(function(u){return'<img src="'+e(u)+'" loading="lazy" onerror="this.style.display=\'none\'">'}).join('')+'</div>';
+    var card='<a href="article.html?id='+i+'" class="news-card">'+
+      '<div class="nc-title">'+e(a.title_cn||a.title)+'</div>'+
+      '<div class="nc-meta">'+lt+' <span>'+e(a.source)+'</span> <span>'+e(a.published||'')+'</span></div>'+
+      '<div class="nc-summary">'+e((a.summary_cn||a.summary).slice(0,200))+'</div>'+imgs+'</a>';
+    list.innerHTML+=card;
+  });
+})();
+</script>
+</body>
+</html>

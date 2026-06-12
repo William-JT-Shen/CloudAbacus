@@ -35,7 +35,8 @@ jobs:
 
       - name: 抓取新闻
         run: |
-          python fetch_news.py || echo "新闻抓取失败，继续执行"
+          python fetch_news.py || echo "新闻抓取失败"
+          python fetch_futures.py || echo "期货新闻抓取失败"
 
       - name: 提交更新
         run: |
@@ -44,7 +45,7 @@ jobs:
           git add pricing_live.js
           git add price_history.js
           git add price_history.json
-          git add news.js || true
+          git add news.js futures_news.js || true
           # 仅在有变更时提交
           if git diff --staged --quiet; then
             echo "没有新数据，跳过提交"
