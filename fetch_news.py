@@ -66,7 +66,7 @@ def fetch_rss(query: str, hl: str) -> list[dict]:
         results.append({
             "title": title, "source": source,
             "url": e.get("link", ""),
-            "published": e.get("published", ""),
+            "published": parse_date(e.get("published", "")),
             "summary": clean_html(e.get("summary", ""))[:400],
             "lang": "zh" if "zh" in hl else "en",
         })
@@ -122,12 +122,32 @@ def scrape_article(url: str) -> dict:
 
 
 def translate(text: str) -> str:
+    """翻译文本，自动分块处理长文本"""
     if not HAS_TRANS or not text:
         return ""
     try:
-        return GoogleTranslator(source='en', target='zh-CN').translate(text[:1000])
+        translator = GoogleTranslator(source='en', target='zh-CN')
+        if len(text) <= 4000:
+            return translator.translate(text)
+        # 分块翻译
+        chunks = []
+        for i in range(0, len(text), 4000):
+            chunk = text[i:i+4000]
+            chunks.append(translator.translate(chunk))
+        return " ".join(chunks)
     except Exception:
         return ""
+
+
+def parse_date(date_str: str) -> str:
+    """解析 RFC 2822 日期为 YYYY-MM-DD"""
+    if not date_str:
+        return ""
+    try:
+        from email.utils import parsedate_to_datetime
+        return parsedate_to_datetime(date_str).strftime("%Y-%m-%d")
+    except Exception:
+        return date_str[:10] if len(date_str) >= 10 else date_str
 
 
 def main():
@@ -163,15 +183,22 @@ def main():
         im = len(a.get('images',[]))
         print(f"   {i+1}. {a['title'][:40]}...  ({n} 字, {im} 图)")
 
-    # 翻译
-    if HAS_TRANS and en_count > 0:
-        print(f"\n🌐 翻译 {en_count} 篇英文...")
+    # 翻译（标题+摘要+全文都翻）
+    if HAS_TRANS:
+        to_translate = sum(1 for a in all_news if a["lang"] == "en")
+        if to_translate > 0:
+            print(f"\n🌐 翻译 {to_translate} 篇英文（标题+摘要+全文）...")
         for a in all_news:
             if a["lang"] == "en":
                 a["title_cn"] = translate(a["title"])
                 a["summary_cn"] = translate(a["summary"])
-                a["full_text_cn"] = translate(a.get("full_text", ""))
+                full = a.get("full_text", "")
+                a["full_text_cn"] = translate(full) if len(full) > 50 else ""
                 a["translated"] = bool(a.get("title_cn"))
+                print(f"   ✅ {a['title'][:40]}... ({len(a.get('full_text_cn',''))}字)")
+            else:
+                a["title_cn"] = a["summary_cn"] = a["full_text_cn"] = ""
+                a["translated"] = False
     else:
         for a in all_news:
             a["title_cn"] = a["summary_cn"] = a["full_text_cn"] = ""
