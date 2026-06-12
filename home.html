@@ -18,17 +18,9 @@
       position: relative;
     }
 
-    /* ===== 泡泡画布 ===== */
-    #bubblesCanvas {
-      position: fixed; inset: 0; z-index: 0;
-    }
+    #bubblesCanvas { position: fixed; inset: 0; z-index: 0; }
 
-    /* ===== 主内容 ===== */
-    .hero {
-      position: relative; z-index: 10;
-      text-align: center;
-      padding: 2rem;
-    }
+    .hero { position: relative; z-index: 10; text-align: center; padding: 2rem; }
 
     .hero h1 {
       font-size: clamp(2.5rem, 8vw, 5rem);
@@ -54,57 +46,35 @@
       font-weight: 300;
     }
 
-    .hero .buttons {
-      display: flex;
-      gap: 1.5rem;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
+    .hero .buttons { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
 
     .hero .btn {
-      display: inline-block;
-      padding: 1rem 2.2rem;
-      border-radius: 50px;
-      font-size: 1.05rem;
-      font-weight: 600;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      cursor: pointer;
-      border: none;
-      letter-spacing: 0.5px;
-      position: relative;
-      overflow: hidden;
+      display: inline-block; padding: 1rem 2.2rem; border-radius: 50px;
+      font-size: 1.05rem; font-weight: 600; text-decoration: none;
+      transition: all 0.3s ease; cursor: pointer; border: none;
+      letter-spacing: 0.5px; position: relative; overflow: hidden;
     }
 
     .btn-primary {
       background: linear-gradient(135deg, #8b5cf6, #6366f1);
-      color: white;
-      box-shadow: 0 4px 25px rgba(139,92,246,0.35);
+      color: white; box-shadow: 0 4px 25px rgba(139,92,246,0.35);
     }
-    .btn-primary:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 40px rgba(139,92,246,0.55);
-    }
+    .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 40px rgba(139,92,246,0.55); }
 
     .btn-secondary {
-      background: rgba(139,92,246,0.12);
-      color: #d8b4fe;
+      background: rgba(139,92,246,0.12); color: #d8b4fe;
       border: 1.5px solid rgba(139,92,246,0.4);
     }
     .btn-secondary:hover {
-      background: rgba(139,92,246,0.25);
-      border-color: #a78bfa;
-      transform: translateY(-3px);
-      box-shadow: 0 8px 30px rgba(139,92,246,0.25);
+      background: rgba(139,92,246,0.25); border-color: #a78bfa;
+      transform: translateY(-3px); box-shadow: 0 8px 30px rgba(139,92,246,0.25);
     }
 
     .btn .icon { margin-right: 0.4rem; }
 
-    /* ===== Footer ===== */
     .footer {
       position: fixed; bottom: 1.5rem; z-index: 10;
-      color: #475569; font-size: 0.78rem;
-      text-align: center; width: 100%;
+      color: #475569; font-size: 0.78rem; text-align: center; width: 100%;
     }
   </style>
 </head>
@@ -141,27 +111,25 @@
   resize();
   window.addEventListener('resize', resize);
 
-  // 泡泡色系：深紫 + 靛蓝 + 淡紫
   var colors = [
-    'rgba(139,92,246,0.25)',
-    'rgba(99,102,241,0.2)',
+    'rgba(139,92,246,0.22)',
     'rgba(168,85,247,0.18)',
-    'rgba(124,58,237,0.22)',
-    'rgba(79,70,229,0.15)',
-    'rgba(192,132,252,0.2)',
+    'rgba(192,132,252,0.15)',
+    'rgba(99,102,241,0.2)',
+    'rgba(167,139,250,0.16)',
+    'rgba(147,51,234,0.14)',
   ];
 
   for (var i = 0; i < BUBBLE_COUNT; i++) {
     bubbles.push({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
-      r: Math.random() * 80 + 20,           // 半径 20-100
-      vx: (Math.random() - 0.5) * 0.4,      // 水平速度
-      vy: (Math.random() - 0.5) * 0.4,      // 垂直速度
+      r: Math.random() * 100 + 40,
+      vx: (Math.random() - 0.5) * 0.3,
+      vy: (Math.random() - 0.5) * 0.3,
       color: colors[Math.floor(Math.random() * colors.length)],
-      opacity: Math.random() * 0.5 + 0.15,
-      pulse: Math.random() * Math.PI * 2,    // 呼吸动画相位
-      pulseSpeed: Math.random() * 0.01 + 0.005,
+      pulse: Math.random() * Math.PI * 2,
+      pulseSpeed: Math.random() * 0.008 + 0.004,
     });
   }
 
@@ -170,52 +138,40 @@
 
     for (var i = 0; i < bubbles.length; i++) {
       var b = bubbles[i];
-
-      // 呼吸效果
       b.pulse += b.pulseSpeed;
-      var scale = 1 + Math.sin(b.pulse) * 0.08;
-
-      // 移动
+      var scale = 1 + Math.sin(b.pulse) * 0.06;
       b.x += b.vx;
       b.y += b.vy;
-
-      // 边界回弹
       if (b.x < -b.r) b.x = canvas.width + b.r;
       if (b.x > canvas.width + b.r) b.x = -b.r;
       if (b.y < -b.r) b.y = canvas.height + b.r;
       if (b.y > canvas.height + b.r) b.y = -b.r;
 
-      // 绘制泡泡
+      // 纯柔光阴影 — 无实心泡泡，只有粉色光晕
       var r = b.r * scale;
-      var grad = ctx.createRadialGradient(b.x - r*0.2, b.y - r*0.2, r*0.05, b.x, b.y, r);
-      grad.addColorStop(0, 'rgba(255,255,255,0.06)');
-      grad.addColorStop(0.3, b.color);
+      var grad = ctx.createRadialGradient(b.x, b.y, 0, b.x, b.y, r);
+      grad.addColorStop(0, b.color);
+      grad.addColorStop(0.35, b.color);
       grad.addColorStop(1, 'rgba(0,0,0,0)');
 
       ctx.beginPath();
       ctx.arc(b.x, b.y, r, 0, Math.PI * 2);
       ctx.fillStyle = grad;
       ctx.fill();
-
-      // 高光点
-      ctx.beginPath();
-      ctx.arc(b.x - r*0.25, b.y - r*0.3, r*0.1, 0, Math.PI*2);
-      ctx.fillStyle = 'rgba(255,255,255,0.08)';
-      ctx.fill();
     }
 
-    // 泡泡之间连线（距离近的）
+    // 近距离连线
     for (var i = 0; i < bubbles.length; i++) {
       for (var j = i + 1; j < bubbles.length; j++) {
         var dx = bubbles[i].x - bubbles[j].x;
         var dy = bubbles[i].y - bubbles[j].y;
         var dist = Math.sqrt(dx*dx + dy*dy);
         if (dist < 180) {
-          var alpha = (1 - dist/180) * 0.06;
+          var alpha = (1 - dist/180) * 0.05;
           ctx.beginPath();
           ctx.moveTo(bubbles[i].x, bubbles[i].y);
           ctx.lineTo(bubbles[j].x, bubbles[j].y);
-          ctx.strokeStyle = 'rgba(139,92,246,' + alpha + ')';
+          ctx.strokeStyle = 'rgba(168,85,247,' + alpha + ')';
           ctx.lineWidth = 1;
           ctx.stroke();
         }
