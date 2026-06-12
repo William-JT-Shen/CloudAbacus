@@ -242,23 +242,26 @@ def main():
                 all_news.append(a)
         print(f"   {q}: {len(all_news)} 篇累计")
 
-    # GPU 相关性过滤
-    GPU_KEYWORDS = [
-        "gpu", "nvidia", "amd", "intel gaudi", "tpu", "算力", "h100", "a100", "h200", "b200",
-        "cloud comput", "data center", "数据中心", "芯片", "chip", "ai model", "ai 模型",
-        "inference", "training", "训练", "推理", "cloud rent", "租赁", "server", "服务器",
-        "compute", "hpc", "supercomput", "超算", "aws", "azure", "google cloud", "阿里云",
-        "lambda labs", "coreweave", "runpod", "vast.ai", "deep learning", "深度学习",
+    # 严格 GPU 算力相关过滤
+    MUST_HAVE = ["gpu", "算力"]  # 至少包含一个
+    RENTAL_KW = [
+        "rent", "租赁", "租", "price", "价格", "定价", "cost", "费用",
+        "cloud", "云", "cluster", "集群", "server", "服务器", "data center", "数据中心",
+        "期货", "futures", "market", "市场", "exchange", "交易",
+        "h100", "a100", "h200", "b200", "nvidia", "amd instinct", "tpu",
+        "coreweave", "vast.ai", "runpod", "lambda labs", "tensordock",
+        "compute", "computing", "infra", "infrastructure",
     ]
     filtered = []
     for a in all_news:
-        text = (a["title"] + " " + a.get("summary", "") + " " + a.get("full_text", "")[:500]).lower()
-        if any(kw in text for kw in GPU_KEYWORDS):
+        text = (a["title"] + " " + a.get("summary", "") + " " + a.get("full_text", "")[:300]).lower()
+        if any(kw in text for kw in MUST_HAVE) and any(kw in text for kw in RENTAL_KW):
             filtered.append(a)
-    if len(filtered) >= 5:
+    if len(filtered) >= 3:
         all_news = filtered
-    all_news = all_news[:MAX_NEWS]
-    print(f"\n📋 {len(all_news)} 篇 GPU 相关 (已过滤非GPU内容)")
+    else:
+        all_news = all_news[:MAX_NEWS]  # 如果过滤后太少，保留原始
+    print(f"\n📋 {len(all_news)} 篇 GPU算力租赁相关 (严格过滤)")
 
     # 3. 对没有全文的文章进行提取
     need_extract = [a for a in all_news if not a.get("full_text") or len(a["full_text"]) < 200]
@@ -291,14 +294,46 @@ def main():
             a["title_cn"] = a["summary_cn"] = a["full_text_cn"] = ""
             a["translated"] = False
 
-    # 5. 统计
+    # 5. 合并旧新闻（不删除已有文章）
+    existing = []
+    if OUTPUT.exists():
+        try:
+            raw = OUTPUT.read_text(encoding="utf-8")
+            m = re.search(r'GPU_NEWS\s*=\s*(\[.*\]);', raw, re.DOTALL)
+            if m:
+                existing = json.loads(m.group(1))
+                print(f"\n📚 已加载 {len(existing)} 篇旧新闻，将合并")
+        except Exception:
+            pass
+    # 去重：按标题前60字符
+    existing_titles = {a["title"][:60] for a in existing}
+    new_added = 0
+    for a in all_news:
+        if a["title"][:60] not in existing_titles:
+            existing.insert(0, a)  # 新文章插到最前面
+            existing_titles.add(a["title"][:60])
+            new_added += 1
+    # 保留最多 100 篇
+    existing.sort(key=lambda x: x.get("published", ""), reverse=True)
+    all_news = existing[:100]
+    print(f"   新增 {new_added} 篇，总计 {len(all_news)} 篇")
+
+    # 6. 过滤掉无内容文章（没有全文也没有摘要的）
+    all_news = [a for a in all_news if (a.get("full_text") and len(a["full_text"]) > 100) or (a.get("summary") and len(a["summary"]) > 30)]
+    print(f"   过滤空内容后: {len(all_news)} 篇")
+    en = sum(1 for a in all_news if a["lang"] == "en")
+    ft = sum(1 for a in all_news if a.get("full_text") and len(a["full_text"]) > 200)
+    im = sum(1 for a in all_news if a.get("images"))
+    tr = sum(1 for a in all_news if a.get("translated"))
+
+    # 7. 统计
     zh = sum(1 for a in all_news if a["lang"] == "zh")
     en = sum(1 for a in all_news if a["lang"] == "en")
     ft = sum(1 for a in all_news if a.get("full_text") and len(a["full_text"]) > 200)
     im = sum(1 for a in all_news if a.get("images"))
     tr = sum(1 for a in all_news if a.get("translated"))
 
-    # 6. 写入
+    # 8. 写入
     t = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     with open(OUTPUT, "w", encoding="utf-8") as f:
         f.write(f"// GPU 算力新闻 v3\n// 生成: {t}\n")

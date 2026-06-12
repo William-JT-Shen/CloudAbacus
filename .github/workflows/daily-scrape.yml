@@ -2,8 +2,8 @@ name: 每日 GPU 价格抓取
 
 on:
   schedule:
-    # 每天 UTC 8:00 (北京时间 16:00) 运行
-    - cron: '0 8 * * *'
+    # 每 4 小时运行一次 (UTC 0,4,8,12,16,20)
+    - cron: '0 */4 * * *'
   # 允许手动触发
   workflow_dispatch:
 
