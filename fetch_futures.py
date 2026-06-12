@@ -261,21 +261,26 @@ def main():
             a["lang"] = "zh" if "zh" in hl else "en"
             k = a["title"][:60]
             if k not in seen: seen.add(k); all_news.append(a)
-    # 相关性过滤（至少要有期货/衍生品关键词）
-    FUTURES_KW = ["futures","future","期货","derivative","衍生品","芝商所","CME","ICE","commodity",
-                   "contract","合约","exchange","交易所","financial","金融","asset","资产","index",
-                   "gpu","算力","compute","cloud","rental","租赁","定价","price","benchmark"]
-    filtered = []
-    for a in all_news:
-        text = (a["title"]+" "+a.get("summary","")).lower()
-        if any(kw in text for kw in FUTURES_KW): filtered.append(a)
-    if len(filtered) >= 2: all_news = filtered
-    # 直接抓取已知URL
+    # 直接抓取已知URL（最先加入，保证不被过滤）
     direct = scrape_direct_urls()
+    print(f"   📌 直接抓取: {len(direct)} 篇")
     for a in direct:
         k = a["title"][:60]
         if k not in seen: seen.add(k); all_news.insert(0, a)
-    print(f"   📌 直接抓取: {len(direct)} 篇")
+
+    # 相关性过滤（至少要有期货/衍生品关键词，但直接抓取的文章豁免）
+    FUTURES_KW = ["futures","future","期货","derivative","衍生品","芝商所","CME","ICE","commodity",
+                   "contract","合约","exchange","交易所","financial","金融","asset","资产","index",
+                   "gpu","算力","compute","cloud","rental","租赁","定价","price","benchmark"]
+    direct_sources = {s for _, s, _ in KNOWN_URLS}
+    filtered = []
+    for a in all_news:
+        if a["source"] in direct_sources:
+            filtered.append(a)  # 已知来源直接保留
+        else:
+            text = (a["title"]+" "+a.get("summary","")).lower()
+            if any(kw in text for kw in FUTURES_KW): filtered.append(a)
+    if len(filtered) >= 1: all_news = filtered
 
     # 提取全文
     need = [a for a in all_news if not a.get("full_text") or len(a["full_text"])<200]
