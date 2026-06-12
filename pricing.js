@@ -35,7 +35,8 @@ var GPU_PRICING = {
     { platform: "IBM Cloud", price_usd: null, plan: "询价", country: "美国", region: "北美", note: "企业级 GPU 裸金属，需联系销售", pricing_url: "https://www.ibm.com/cloud/gpu" },
     { platform: "Oracle Cloud Infrastructure", price_usd: 3.00, plan: "按需", country: "美国", region: "北美", note: "低延迟 RDMA 网络", pricing_url: "https://www.oracle.com/cloud/compute/pricing/" },
     { platform: "Cudo Compute", price_usd: 1.90, plan: "市场浮动价", country: "英国", region: "欧洲", note: "去中心化云市场", pricing_url: "https://www.cudocompute.com/#pricing" },
-    { platform: "Cirrascale", price_usd: null, plan: "询价", country: "美国", region: "北美", note: "大规模 GPU 集群，需联系销售", pricing_url: "https://www.cirrascale.com/cloud-services/" }
+    { platform: "Cirrascale", price_usd: null, plan: "询价", country: "美国", region: "北美", note: "大规模 GPU 集群，需联系销售", pricing_url: "https://www.cirrascale.com/cloud-services/" },
+    { platform: "AutoDL", price_usd: 3.20, plan: "按需", country: "中国", region: "亚太", note: "国内领先 GPU 租赁，预装 DL 环境", pricing_url: "https://www.autodl.com/price" }
   ],
 
   "NVIDIA H200": [
@@ -73,7 +74,8 @@ var GPU_PRICING = {
     { platform: "华为云 (Huawei Cloud)", price_usd: 2.40, plan: "按需", country: "中国", region: "亚太", note: "集成 ModelArts", pricing_url: "https://www.huaweicloud.com/intl/en-us/pricing.html#/ecs" },
     { platform: "百度智能云 (Baidu AI Cloud)", price_usd: 2.30, plan: "按需", country: "中国", region: "亚太", note: "含昆仑芯片选项", pricing_url: "https://cloud.baidu.com/product/gpu.html" },
     { platform: "G-Core Labs", price_usd: 1.70, plan: "按需", country: "卢森堡", region: "欧洲", note: "全球边缘 GPU 优化", pricing_url: "https://gcore.com/cloud/gpu-cloud" },
-    { platform: "LeaderGPU", price_usd: 1.60, plan: "按需", country: "法国", region: "欧洲", note: "欧洲/美国节点", pricing_url: "https://www.leadergpu.com/pricing" }
+    { platform: "LeaderGPU", price_usd: 1.60, plan: "按需", country: "法国", region: "欧洲", note: "欧洲/美国节点", pricing_url: "https://www.leadergpu.com/pricing" },
+    { platform: "AutoDL", price_usd: 2.20, plan: "按需", country: "中国", region: "亚太", note: "国内领先 GPU 租赁，预装 DL 环境", pricing_url: "https://www.autodl.com/price" }
   ],
 
   "NVIDIA A100 (40GB PCIe)": [
@@ -135,6 +137,7 @@ var GPU_PRICING = {
     { platform: "Massed Compute", price_usd: 0.55, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.massedcompute.com/pricing" },
     { platform: "FluidStack", price_usd: 0.65, plan: "按需", country: "英国/美国", region: "北美", note: "", pricing_url: "https://www.fluidstack.io/pricing" },
     { platform: "Matpool (矩池云)", price_usd: 0.50, plan: "按需", country: "中国", region: "亚太", note: "国内高校和竞赛首选", pricing_url: "https://matpool.com/pricing" },
+    { platform: "AutoDL", price_usd: 0.48, plan: "按需", country: "中国", region: "亚太", note: "国内领先 GPU 租赁，预装 DL 环境", pricing_url: "https://www.autodl.com/price" },
     { platform: "Cudo Compute", price_usd: 0.35, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/#pricing" },
     { platform: "Salad", price_usd: 0.20, plan: "分布式云", country: "美国", region: "北美", note: "利用闲置消费级 GPU", pricing_url: "https://salad.com/pricing" },
     { platform: "Vultr", price_usd: 0.79, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.vultr.com/products/cloud-gpu/#pricing" },
@@ -174,6 +177,7 @@ var GPU_PRICING = {
     { platform: "Vast.ai", price_usd: 0.15, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "全球最低 GPU 价格之一", pricing_url: "https://vast.ai/pricing" },
     { platform: "TensorDock", price_usd: 0.30, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/pricing" },
     { platform: "Matpool (矩池云)", price_usd: 0.35, plan: "按需", country: "中国", region: "亚太", note: "", pricing_url: "https://matpool.com/pricing" },
+    { platform: "AutoDL", price_usd: 0.30, plan: "按需", country: "中国", region: "亚太", note: "国内领先 GPU 租赁", pricing_url: "https://www.autodl.com/price" },
     { platform: "Cudo Compute", price_usd: 0.20, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/#pricing" },
     { platform: "Salad", price_usd: 0.12, plan: "分布式云", country: "美国", region: "北美", note: "", pricing_url: "https://salad.com/pricing" }
   ],

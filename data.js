@@ -96,6 +96,7 @@ var GPU_PLATFORMS = [
   { name: "联通云 (China Unicom Cloud)", country: "中国", region: "亚太", website: "https://www.cucloud.cn/product/gpu.html", pricing_url: "https://www.cucloud.cn/product/gpu.html", gpu_types: "NVIDIA T4, V100, A100", description: "联通云 GPU 服务器，结合联通 5G 和边缘网络，低延迟推理服务。" },
   { name: "浪潮云 (Inspur Cloud)", country: "中国", region: "亚太", website: "https://cloud.inspur.com/product/gpu/", pricing_url: "https://cloud.inspur.com/product/gpu/", gpu_types: "NVIDIA A100, V100, T4", description: "浪潮集团旗下 GPU 云，HPC 传统优势，专注科学计算、AI 建模和工程仿真。" },
   { name: "矩池云 (Matpool)", country: "中国", region: "亚太", website: "https://matpool.com/", pricing_url: "https://matpool.com/pricing", gpu_types: "NVIDIA RTX 3090, A100, V100, RTX 4090", description: "国内 GPU 租赁平台，即时短期实例，在高校学生和 AI 竞赛参与者中很受欢迎。" },
+  { name: "AutoDL", country: "中国", region: "亚太", website: "https://www.autodl.com", pricing_url: "https://www.autodl.com/price", gpu_types: "NVIDIA H100, A100, RTX 4090, RTX 3090, V100, T4, L20, A40", description: "国内领先 GPU 租赁平台，按小时计费，预装深度学习环境一键部署，深受高校和 AI 开发者青睐。" },
   { name: "并行科技 (Paratera)", country: "中国", region: "亚太", website: "https://www.paratera.com/", pricing_url: "https://www.paratera.com/", gpu_types: "NVIDIA A100, V100, 多种 GPU", description: "高性能计算云，可扩展 GPU 节点，服务高校和工业界仿真、AI 和生命科学。" },
   { name: "极视角 (Video++ AI Cloud)", country: "中国", region: "亚太", website: "https://www.videopuzzles.com/", pricing_url: "https://www.videopuzzles.com/", gpu_types: "NVIDIA T4, V100, A100", description: "AI 视频识别 GPU 云，中国视频分析和内容理解领域，提供易用的 Web 控制台。" },
 
