@@ -49,8 +49,13 @@ QUERIES = [
     ("GPU 算力 衍生品 合约", "zh-CN"),
     ("芝商所 Silicon Data GPU 算力", "en"),
     ("算力 期货 交易所 上市", "zh-CN"),
-    ("site:sina.com.cn 算力 期货", "zh-CN"),
-    ("site:sina.com.cn GPU 算力", "zh-CN"),
+    ("算力 GPU 租赁 市场 金融", "zh-CN"),
+    ("GPU cloud compute derivatives financial", "en"),
+    ("AI算力 资产化 大宗商品 期货", "zh-CN"),
+    ("GPU compute index pricing benchmark", "en"),
+    ("云计算 GPU 定价 金融 衍生品", "zh-CN"),
+    ("芝商所 Silicon Data 算力期货 推出", "zh-CN"),
+    ("芝商所 CME 算力 合约 2026", "zh-CN"),
 ]
 
 MAX_NEWS = 15
@@ -236,7 +241,8 @@ def main():
             if k not in seen: seen.add(k); all_news.append(a)
     # 相关性过滤（至少要有期货/衍生品关键词）
     FUTURES_KW = ["futures","future","期货","derivative","衍生品","芝商所","CME","ICE","commodity",
-                   "contract","合约","exchange","交易所","financial","金融","asset","资产","index"]
+                   "contract","合约","exchange","交易所","financial","金融","asset","资产","index",
+                   "gpu","算力","compute","cloud","rental","租赁","定价","price","benchmark"]
     filtered = []
     for a in all_news:
         text = (a["title"]+" "+a.get("summary","")).lower()
