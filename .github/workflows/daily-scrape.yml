@@ -36,9 +36,6 @@ jobs:
       - name: 抓取新闻
         run: |
           python fetch_news.py || echo "新闻抓取失败，继续执行"
-        run: |
-          python fetch_prices.py --playwright --save-history
-          echo "SCRAPE_TIME=$(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_ENV
 
       - name: 提交更新
         run: |
