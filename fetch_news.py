@@ -73,10 +73,20 @@ def fetch_rss(query: str, hl: str) -> list[dict]:
     return results
 
 
+def resolve_url(url: str) -> str:
+    """解析 Google News 重定向链接为真实 URL"""
+    try:
+        r = requests.head(url, timeout=TIMEOUT, allow_redirects=True, headers={"User-Agent": "Mozilla/5.0"})
+        return r.url
+    except Exception:
+        return url
+
+
 def scrape_article(url: str) -> dict:
     """提取全文和图片"""
+    real_url = resolve_url(url)
     try:
-        r = requests.get(url, timeout=TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
+        r = requests.get(real_url, timeout=TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
         if r.status_code != 200:
             return {}
         html = r.text
@@ -142,10 +152,16 @@ def main():
     en_count = sum(1 for a in all_news if a["lang"] == "en")
     print(f"\n📄 抓取全文 ({len(all_news)} 篇)...")
     for i, a in enumerate(all_news):
+        real = resolve_url(a["url"])
+        if real != a["url"]:
+            a["source_url"] = a["url"]
+            a["url"] = real
         full = scrape_article(a["url"])
         a["full_text"] = full.get("full_text", "")
         a["images"] = full.get("images", [])
-        print(f"   {i+1}. {a['title'][:40]}...  ({len(a.get('full_text',''))} 字, {len(a.get('images',[]))} 图)")
+        n = len(a.get('full_text',''))
+        im = len(a.get('images',[]))
+        print(f"   {i+1}. {a['title'][:40]}...  ({n} 字, {im} 图)")
 
     # 翻译
     if HAS_TRANS and en_count > 0:
