@@ -1,16 +1,7 @@
 // GPU 算力新闻 v3
-// 生成: 2026-06-12T15:22:11Z
-var NEWS_FETCHED_AT = "2026-06-12T15:22:11Z";
+// 生成: 2026-06-12T15:27:21Z
+var NEWS_FETCHED_AT = "2026-06-12T15:27:21Z";
 var GPU_NEWS = [
-  {
-    "title": "AI世界的“原油期货”要来了：芝商所官宣将推出算力期货市场",
-    "source": "财联社",
-    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB1NXZMVWl6N1JYV2xKd0V1ajlGdk1Dem10ajR5RUx6WXJpc1FoV3N4OFJvdHZfdXFjUFJDSi1zR0gxeWhTZWM5Nw?oc=5",
-    "published": "2026-06-12",
-    "summary": "AI世界的“原油期货”要来了：芝商所官宣将推出算力期货市场&nbsp;&nbsp;财联社",
-    "full_text": "",
-    "lang": "zh"
-  },
   {
     "title": "Pokémon Go players unwittingly contributed to tech with military drone uses",
     "source": "Ars Technica",
@@ -23,15 +14,6 @@ var GPU_NEWS = [
     "summary_cn": "将 Pokémon Go 数据重新用于人工智能训练的做法继续受到密切关注。",
     "full_text_cn": "全球 Pokémon Go 热潮达到顶峰十年后，一家人工智能公司一直在使用数百万玩家捕捉到的数十亿张现实世界图像来开发用于送货机器人和可能的军用无人机的导航技术。对于增强现实手机游戏来说，这代表着一个有趣但可能令人不安的遗产，它激励游戏玩家捕捉实体社区和地标的智能手机短视频。\nNiantic Spatial 于 2025 年 5 月从 Pokémon Go 游戏开发商 Niantic 中分拆出来，此前 Niantic 将其 Pokémon Go 等授权游戏单独出售给沙特支持的视频游戏发行商 Scopely。但在此交易之前，Niantic 公开宣布计划使用数百万 Pokémon Go 玩家的扫描数据以及该公司 Scaniverse 应用程序用户捕获的数据来训练和开发“大型地理空间模型”——一个物理世界的 3D 模型，根据应用程序用户扫描现实世界位置提供的地理定位图像进行训练。\n“地面扫描是帮助训练 Niantic Spatial 真实世界基础模型的一个组成部分，即学习识别和解释物理空间的人工智能系统，”Niantic Spatial 的一位发言人告诉 Ars。 “这些模型是训练的产物，不是底层扫描的副本或访问底层扫描的手段，这些扫描是公共兴趣点，例如雕像和喷泉。”阅读全文\n评论",
     "translated": true
-  },
-  {
-    "title": "大摩“中性”看待AI云新贵Nebius：客户需求远超供给，算力短缺成增长掣肘",
-    "source": "Moomoo",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nWTJBTjMtZ2xjN05lWU82bzNCeGdjN2xlRTdxSlRhVjF2TmdQTm1nWFpHNmJ5Vmx6SkkweTlMMWIxOHRfZE8tcjg2V3R2Vk1ybmJiN0J3Vmk4UQ?oc=5",
-    "published": "2026-06-11",
-    "summary": "大摩“中性”看待AI云新贵Nebius：客户需求远超供给，算力短缺成增长掣肘&nbsp;&nbsp;Moomoo",
-    "full_text": "",
-    "lang": "zh"
   },
   {
     "title": "Amazon&#8217;s data centers used 2.5 billion gallons of water last year",
@@ -70,31 +52,6 @@ var GPU_NEWS = [
     "title_cn": "特德·克鲁兹 (Ted Cruz) 和罗恩·怀登 (Ron Wyden) 试图通过两党 JAWBONE 法案对抗审查制度",
     "summary_cn": "克鲁兹/怀登法案将帮助美国人就审查制度起诉联邦官员。",
     "full_text_cn": "美国参议员特德·克鲁兹（德克萨斯州共和党）和罗恩·怀登（俄勒冈州民主党）今天提出了《JAWBONE 法案》，这项拟议的法律可能会引发针对试图强迫广播公司或科技平台限制言论的联邦官员的诉讼。\n《反对武器化官僚过度网络表达法》将禁止联邦机构和雇员强迫或试图强迫广播公司和在线服务或人工智能服务提供商改变内容。该法案可能适用于联邦通信委员会主席布伦丹·卡尔一再试图向电视网络和广播公司施压，或政府对社交媒体公司和人工智能聊天机器人制造商施加的压力。\n该法案将为“喋喋不休”的受害者设立私人诉讼权，让人们在法庭上获得赔偿损失。言论受到压制的个人可以对政府官员提起诉讼，拟议的法律可以由州检察长通过民事诉讼来执行。阅读全文\n评论",
-    "translated": true
-  },
-  {
-    "title": "高端算力紧缺，英伟达云端GPU租价大涨，天弘中证全指通信设备指数基金(A/C：020899/020900)聚焦算力光模块龙头享红利",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPcU9KNTNNN3JPdWFHbzJtb3ZHWXp1bG1wQ3ROSURmVXNSUEpqODQ1dnNNbEhaVEpfWXdfVGVCXzZEUE94LTJka2dpS0JPaUlpVVVpdm1peGN6RlRaZEt6SERCR2UxTlJYSmRkZDZiNXZHcGNrUmxVOGFDQTRMNFdYa0ZnTGs1cWN5TWVnN1ZLNzhCY1BfMDVTdkhDdEE0Q1pZeWlBeTEyaW5iWTk3dXczbEx5RGhnREFyLUtkMGlnc182elV1YjNfUVRIejdiNUdiRlJpRnZuVWZxZVlQOUlnLXM1dXhtOS1fYU1EVTRJT2RudzJ1bF9kMkY1aDZQQy0xU2RtU25oajczNkNBemFTLWIwTmdZS3VvOVlIdTZNaGZlQnhSVUN4YXBlc0w1eFhRQ1ZtSlZjQXJneDA?oc=5",
-    "published": "2026-06-11",
-    "summary": "高端算力紧缺，英伟达云端GPU租价大涨，天弘中证全指通信设备指数基金(A/C：020899/020900)聚焦算力光模块龙头享红利&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Apple Extends Private Cloud Compute to Google Cloud on Nvidia Blackwell GPUs",
-    "source": "MLQ.ai",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcFFJYmk2eVRxUW1vOW5fTzBQQUl2NWlHZ2ZkQ1JhZHYxQWptNmIyVDVYSVhQb21NTW02NkRLVjRiQWN1V2M3WWl1ZFFsam91WUNJMVdYYmFyYWJpcHVDNFdyenhtZTJrbWVoVFZ2bWROTzdyRzlfY2tkN2V0YmE5TVBFa0JfVGcwYVpaWVhTWEJLSDZkTWZISlEwYmlJQQ?oc=5",
-    "published": "2026-06-10",
-    "summary": "Apple Extends Private Cloud Compute to Google Cloud on Nvidia Blackwell GPUs&nbsp;&nbsp;MLQ.ai",
-    "full_text": "",
-    "lang": "en",
-    "title_cn": "Apple 将私有云计算扩展到基于 Nvidia Blackwell GPU 的 Google Cloud",
-    "summary_cn": "Apple 将私有云计算扩展到基于 Nvidia Blackwell GPU 的 Google Cloud MLQ.ai",
-    "full_text_cn": "",
     "translated": true
   },
   {
@@ -150,196 +107,6 @@ var GPU_NEWS = [
     "translated": true
   },
   {
-    "title": "谷歌豪掷300亿美元向SpaceX租算力！xAI成算力新巨头，11万颗英伟达GPU救急Gemini",
-    "source": "Sina finance",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tQWw2VnVxdjFqWk00bHN3d3F5d1VwYnRjb1lXM1VGemJYVGdzM2NueW9XWW9Lc1p3YTlKR1A1alMtUmY3WkxzY1BWd0k5X2U5b3pjbG8taHBjWWcyNGw5bXRfU2tDaXJ3UGxWWTR3UGo0RDIwSndlUnVlakZTTjA?oc=5",
-    "published": "2026-06-08",
-    "summary": "谷歌豪掷300亿美元向SpaceX租算力！xAI成算力新巨头，11万颗英伟达GPU救急Gemini&nbsp;&nbsp;Sina finance",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "谷歌携手SpaceX达成算力合作 租赁11万颗英伟达GPU",
-    "source": "驱动之家",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8yY2wyRzUzSzM2UjRzeXdhWGIxdGhDVFQ0MmNkbFNSUzJPUmlIMmFIMHlUS3FpR2w5X01BWV8yV0l5Q2JmaF9hUjlwcXhwN3ZlS0puRVpvd1c?oc=5",
-    "published": "2026-06-07",
-    "summary": "谷歌携手SpaceX达成算力合作 租赁11万颗英伟达GPU&nbsp;&nbsp;驱动之家",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "合计700亿美元！SpaceX先后与Anthropic和谷歌签下大单，“算力租赁”ARR高达260亿美元",
-    "source": "华尔街见闻",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SN0Q3aGx3VlhKWmNaNkFXYl9JVkRKVVhEZm1VbGtOWm1tZnlaUG1wa1ZRelZrRUlxUW9RT2tuSTUzMjk0aE1tUGlWbXQ4LURaeGdn?oc=5",
-    "published": "2026-06-06",
-    "summary": "合计700亿美元！SpaceX先后与Anthropic和谷歌签下大单，“算力租赁”ARR高达260亿美元&nbsp;&nbsp;华尔街见闻",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "算力租赁洞察：行业最近发生了什么？算力租赁投资框架拆解",
-    "source": "雪球",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvWTJFdlJzNDhoWmRBMnhHcEYtcjBTR2R4TDctNGVtQmFzWVM1N2VIb0Q0RmJvc3V4YW5HaERlUWZtUEh2TGhpeGRqaVFlWDFq?oc=5",
-    "published": "2026-05-24",
-    "summary": "算力租赁洞察：行业最近发生了什么？算力租赁投资框架拆解&nbsp;&nbsp;雪球",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "AI 'compute capacity anxiety' reignites! NVIDIA H100 GPU rental prices rise, cloud providers like NEBIUS (NBIS.US) surge in response",
-    "source": "Moomoo",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbG1OTDBiZC1JdDZyVDlpbkFmRkJQajV0TDcySTdaUlQyUXBzSTUzY0YxV1dkSWQ5VWdkWHdvN0NvaHVwcE1GV05pRnFHQkRqYXlpcDFaRW9QQUpMckdaRDdJUV9SbFNZalB4MWFudGZhZkJ1Y3lwVlFKUlBrLU4wTEZyc1NlR1FKaDl6T19BMm4yTmZuWm94dTNZZnI0LTFFNEpXWkVId1Nmc3AyTXc?oc=5",
-    "published": "2026-05-21",
-    "summary": "AI 'compute capacity anxiety' reignites! NVIDIA H100 GPU rental prices rise, cloud providers like NEBIUS (NBIS.US) surge in response&nbsp;&nbsp;Moomoo",
-    "full_text": "",
-    "lang": "en",
-    "title_cn": "AI“计算能力焦虑”重燃！ NVIDIA H100 GPU租赁价格上涨，NEBIUS (NBIS.US)等云提供商响应激增",
-    "summary_cn": "AI“计算能力焦虑”重燃！ NVIDIA H100 GPU 租赁价格上涨，NEBIUS (NBIS.US) 等云提供商响应激增 &nbsp; &nbsp;Moomoo",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "ICE moves to list futures on GPU compute, putting AI infrastructure on the trading floor",
-    "source": "Startup Fortune",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUDhmdjk2bWx1OGFXMy1acXhYTmJIaFpKajh1X3dpWVE5V1NuaUpwYUVwTVFhRlduSEhsdnE4MzdkUGhDRmZvZUY0enlNQ1BJcDFIcGQ4R0JuSlNNMnJkbERzWTBpRTJZLVBZVk1aQWQtTmlKY0RpOWNERDVfaHBHU3JLVHBtcV9rcF9KcXVYd1VUVzdUb2M2YVI3dTZPZzBRLXN0NXoxUTEzTGd0cW1NdHFZdWRRQQ?oc=5",
-    "published": "2026-05-19",
-    "summary": "ICE moves to list futures on GPU compute, putting AI infrastructure on the trading floor&nbsp;&nbsp;Startup Fortune",
-    "full_text": "",
-    "lang": "en",
-    "title_cn": "ICE 开始上市 GPU 计算期货，将人工智能基础设施置于交易大厅",
-    "summary_cn": "ICE 开始上市 GPU 计算期货，将人工智能基础设施置于交易大厅 创业财富",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "算力金融化稳步推进，产业链景气度延续",
-    "source": "21财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaTh4dTVjX3hyUkYycFhJaTRkb1dWSUhWbWhBQktvVGp0cXBEQ3dNYmtydHpvMFlTRWhRQkRfYkVUN0hST0tUdndxTDVjdDVvM2todDRyUU1EaC1KYVB5a0N5NUNnbTl3ZzF5aDRiWHU2cXU1dnA4MjdUN2s0ZkNiYkZsRVVBTHgyejVObFFsZw?oc=5",
-    "published": "2026-05-15",
-    "summary": "算力金融化稳步推进，产业链景气度延续&nbsp;&nbsp;21财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Nvidia Blackwell GPU Rental Hits .08/hr: Inside the 48% Surge [2026]",
-    "source": "tech-insider.org",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdUdMV0ZBR2cyT0hRbUFZR2ZNWmNvSndyeGdHMFpxMV83M1F6ZUg1OVo3eXRBYjhydE1RNXNPNHZ2aFROaHA5RXRTS2ctYkZ1QXQ2MU5PNng0YXRNTkp4eGxYT3BTTDd3WFdBdm52d2s0d1JvWjdkUE53U3pGRVBJbEs4aFg2ZVpp?oc=5",
-    "published": "2026-05-13",
-    "summary": "Nvidia Blackwell GPU Rental Hits .08/hr: Inside the 48% Surge [2026]&nbsp;&nbsp;tech-insider.org",
-    "full_text": "",
-    "lang": "en",
-    "title_cn": "Nvidia Blackwell GPU 租金达到 0.08/小时：激增 48% [2026]",
-    "summary_cn": "Nvidia Blackwell GPU 租金达到 0.08/小时：激增 48% [2026]&nbsp;&nbsp;tech-insider.org",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "“云圈”涨价 算力竞争转向拼效能",
-    "source": "世界互联网大会",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XYldUbEFzR0pEWU9VajhpQi0tT2FtQXZLMXljUnBHS2h6OUZiMkZLRm5yREgxZWduSjdQRlk5Rmdxa2l6TUl0Y1c1OG1BR2xjN2FoWmdEWEkwNVBCRF81bVVPdGpLM1pCeXc?oc=5",
-    "published": "2026-05-09",
-    "summary": "“云圈”涨价 算力竞争转向拼效能&nbsp;&nbsp;世界互联网大会",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "算力租赁隐秘江湖：赢家藏在巨头指缝间",
-    "source": "caijing.com.cn",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxdlM4eWs4VzNEVElLM0lBWFRUQ0VZZ3dGRE8xVGVxRmtJVldGYmk1MzE2Vk1lbGhpX0s0d0tONkFrU25PbVV0NWFOb3Y2RGh0YmxF?oc=5",
-    "published": "2026-05-08",
-    "summary": "算力租赁隐秘江湖：赢家藏在巨头指缝间&nbsp;&nbsp;caijing.com.cn",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "From GPUs to AI factories: Inside the Nvidia-Google Cloud superstack",
-    "source": "SiliconANGLE",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN21MaU9WY3ZScnMxb0VGMU4tQlFqTDZzM2xqX3ZSdjMtOVlqdENDNkNjc1hQbTRxQUVkWkZaci1TX0NqNjVFSDRSa2dkM1BsMzgzZHNWcU1VNnAtRDdaUXcwYWNuLXFqR0pSeUdrUlRTY0s5OTFkNVJwb1gyQWZxWXBxQ1RhbjlLemt4ODlaSXB1aXg5VzZr?oc=5",
-    "published": "2026-04-23",
-    "summary": "From GPUs to AI factories: Inside the Nvidia-Google Cloud superstack&nbsp;&nbsp;SiliconANGLE",
-    "full_text": "",
-    "lang": "en",
-    "title_cn": "从 GPU 到人工智能工厂：Nvidia-Google Cloud 超级堆栈内部",
-    "summary_cn": "从 GPU 到人工智能工厂：Nvidia-Google Cloud 超级堆栈内部&nbsp;&nbsp;SiliconANGLE",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "How Much Do GPU Clusters Really Cost?",
-    "source": "SemiAnalysis",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TX2tVVVA2Z3AxN0h2elVKWjNvRXI3UUt5c0MtbWJ5WUZ3UkNwRzJyeC01eDloSGpqamphSkhWSzExZkFvQkd0LVhVNmhyQkh3dDFuTjI2d29hZ2s4TXlka3dNTzFaOEhsMHIzeDZVVFN3Y2I3M0VXZjF3YVFBY28?oc=5",
-    "published": "2026-04-20",
-    "summary": "How Much Do GPU Clusters Really Cost?&nbsp;&nbsp;SemiAnalysis",
-    "full_text": "",
-    "lang": "en",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ],
-    "title_cn": "GPU 集群的实际成本是多少？",
-    "summary_cn": "GPU 集群的实际成本是多少？&nbsp;&nbsp;SemiAnalysis",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "GPU租金飙涨！高端算力持续紧缺 多只算力租赁概念股获资金青睐",
-    "source": "东方财富",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iSmRCNEc1NzduUEhPbnVWSnlReTBMUjIyUXQwUWpTQVdTNF9QblVoMGtBMm5jcG5VY2VZdmJFcmQxVFI3cTdlVi1kRllMZWxOcklWcWlqOW9pMGY2eHNKWlktb1ZPbEU?oc=5",
-    "published": "2026-04-14",
-    "summary": "GPU租金飙涨！高端算力持续紧缺 多只算力租赁概念股获资金青睐&nbsp;&nbsp;东方财富",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "NVIDIA (NVDA) GPU Rental Prices Surge in Cloud Data Centers",
-    "source": "GuruFocus",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQXRFUTE0U0dNdTdha2V2MGZZMEpzRTc5WjRmMnRCVVJ2Tll1RUZyVWpmUElKUEtPdEMxbm1IMkdUT3pNLWVkaWhiVzRMeXdHaERsVGYxRnpSZ3A0WmR6ajZjYTlYVzdRc0dUZnFOMGJFek5JZFZVeU5iRmhDaTcyWkUzSTJ1Rzh4LWwtTGxIcmphejRuN2ViZXgwS1pqcHAwUmJuUXlGTXBzeVc4?oc=5",
-    "published": "2026-04-13",
-    "summary": "NVIDIA (NVDA) GPU Rental Prices Surge in Cloud Data Centers&nbsp;&nbsp;GuruFocus",
-    "full_text": "",
-    "lang": "en",
-    "title_cn": "NVIDIA (NVDA) 云数据中心 GPU 租赁价格飙升",
-    "summary_cn": "云数据中心的 NVIDIA (NVDA) GPU 租赁价格飙升 &nbsp;&nbsp;GuruFocus",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "Why Nvidia GPU prices are 'going nuts,' according to one CEO",
-    "source": "Business Insider",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVzFQQm5KYXNXZ0tBZ3JoRC1Xd2E5eGlRMXpxMDQ4UWFBb09WNy03OE1fek1FQm5vZEYxRTgwQW85TXcxcXJJNl9xRHRJQzRHN2pweVpJbUtMQWUyYndMYkpJYTZEU0NLU0k2ZDU4VEVNUFYtQmpCbEU1cDRQRzJUQmxTaUN4ZzRFZW02OVQzZ2U4RXNiQnVpeg?oc=5",
-    "published": "2026-04-06",
-    "summary": "Why Nvidia GPU prices are 'going nuts,' according to one CEO&nbsp;&nbsp;Business Insider",
-    "full_text": "",
-    "lang": "en",
-    "title_cn": "一位首席执行官表示，为何 Nvidia GPU 价格“疯涨”",
-    "summary_cn": "一位首席执行官表示，为什么 Nvidia GPU 价格“疯涨”&nbsp;&nbsp;Business Insider",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "source": "VentureBeat AI",
     "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
@@ -351,18 +118,6 @@ var GPU_NEWS = [
     "summary_cn": "总部位于旧金山的云平台 Railway 在没有花费一美元营销费用的情况下悄悄聚集了 200 万开发人员。该平台周四宣布，由于人工智能应用程序需求的激增暴露了传统云基础设施的局限性，该平台在 B 轮融资中筹集了 1 亿美元。TQ Ventures 领投，FPV Ventures、Redpoint 和 Unusual Ventures 跟投。这项投资将铁路视为最重要的基础设施建设之一",
     "full_text_cn": "Railway 是一家总部位于旧金山的云平台，在没有花费一美元营销费用的情况下悄然聚集了 200 万开发人员。该平台周四宣布，由于人工智能应用程序需求的激增暴露了传统云基础设施的局限性，该平台在 B 轮融资中筹集了 1 亿美元。\nTQ Ventures 领投，FPV Ventures、Redpoint 和 Unusual Ventures 跟投。这项投资将 Railway 视为人工智能热潮期间出现的最重要的基础设施初创公司之一，利用了开发人员对亚马逊网络服务和谷歌云等传统平台的复杂性和成本的不满。\n“随着人工智能模型编写代码的能力越来越强，越来越多的人开始问这个古老的问题：我在哪里以及如何运行我的应用程序？” 28 岁的 Railway 创始人兼首席执行官杰克·库珀 (Jake Cooper) 在接受 VentureBeat 独家采访时说道。 “上一代云原语速度缓慢且过时，而现在随着人工智能使一切变得更快，团队根本无法跟上。”\n对于一家在云计算行业开辟了非常规道路的公司来说，这笔资金是一个巨大的加速。在本轮融资之前，Railway 总共筹集了 2400 万美元，其中包括 2022 年从 Redpoint 获得的 2000 万美元 A 轮融资。该公司现在每月处理超过 1000 万次部署，并通过其边缘网络处理超过 1 万亿个请求，这些指标可与规模更大、资金更充足的竞争对手相媲美。\n为什么三分钟的部署时间在人工智能编码助手时代变得不可接受\nRailway 的宣传基于一个简单的观察：开发人员用来部署和管理软件的工具是为较慢的时代而设计的。使用行业标准基础设施工具 Terraform 进行标准构建和部署周期需要两到三分钟。这种延迟曾经是可以忍受的，但现在已成为一个关键瓶颈，因为 Claude、ChatGPT 和 Cursor 等人工智能编码助手可以在几秒钟内生成工作代码。\n库珀告诉 VentureBeat：“当神圣的智能可以在三秒钟内解决任何问题时，这些系统的合并就会成为瓶颈。” “对于人类来说，在 10 秒或更短的时间内完成部署确实很酷，但现在对于特工来说却是赌注。”\n该公司声称其平台可在一秒内完成部署，速度足以跟上人工智能生成的代码的步伐。客户报告称，与传统云提供商相比，开发人员速度提高了十倍，成本节省高达 65%。\n这些数字直接来自企业客户，而不是内部基准。 G2X 是一个为 100,000 家联邦承包商提供服务的平台，其首席技术官 Daniel Lobaton 测量到迁移到 Railway 后部署速度提高了 7 倍，成本降低了 87%。他的基础设施费用从每月 15,000 美元下降到大约 1,000 美元。\n洛巴顿说：“以前在基础设施上需要花一周时间才能完成的工作，现在在铁路上只需一天就能完成。” “如果我想启动一项新服务并测试不同的架构，那么我们的旧设置将花费很长时间。在 Railway 中，我可以在两分钟内启动六项服务。”\n放弃谷歌云并从头开始建设数据中心的有争议的决定\nRailway 与 Render 和 Fly.io 等竞争对手的区别在于其垂直整合的深度。 2024 年，该公司做出了一个不同寻常的决定，完全放弃谷歌云并建立自己的数据中心，此举呼应了著名的艾伦·凯格言：“真正认真对待软件的人应该制造自己的硬件。”\n“我们希望以一种能够打造差异化体验的方式设计硬件，”库珀说。 “完全控制网络、计算和存储层使我们能够真正快速地构建和部署循环，这种循环使我们能够以‘代理速度’移动，同时保持 100% 最平稳的运行。”\n这种方法在最近大范围停电期间取得了成效 这影响了主要的云提供商——Railway 始终保持在线状态。\n这种从头到尾的控制使得定价比超大规模企业低约 50%，比新云初创公司低三到四倍。 Railway 按实际计算使用量按秒收费：每 GB 内存 0.00000386 美元，每 vCPU 秒 0.00000772 美元，每 GB 存储 0.00000006 美元。闲置虚拟机不收取任何费用，这与传统的云模型形成鲜明对比，在传统的云模型中，客户无论是否使用都为预配置的容量付费。\n“传统观点认为，大公司拥有规模经济，可以提供更好的定价，”库珀指出。 “但是，当他们对云中通常闲置的虚拟机进行收费时，而我们专门构建了一切以适应这些机器上更高的密度，那么您就有了很大的机会。”\n30名员工如何打造年收入千万的平台\nRailway 凭借仅 30 名员工的团队就实现了规模，年收入达数千万美元——即使对于老牌软件公司来说，每名员工的收入比例也是非常出色的。该公司去年的收入增长了 3.5 倍，并且继续以每月 15% 的速度增长。\n库珀强调，此次筹款是战略性的，而非必要的。 “我们已经违约了；我们没有理由筹集资金，”他说。 “我们筹集资金是因为我们看到了加速发展的巨大机会，而不是因为我们需要生存。”\n该公司去年才聘用了第一位销售人员，并且仅聘用了两名解决方案工程师。 Railway 的 200 万用户中几乎所有用户都是通过口碑发现该平台的——开发人员告诉其他开发人员一个真正有效的工具。\n“我们基本上做了标准的工程工作：如果你建造它，他们就会来，”库珀回忆道。 “从某种程度上来说，他们来了。”\n从副业项目到财富 500 强部署：铁路公司不太可能的扩张\n尽管有草根开发者社区，Railway 已经在大型组织中取得了重大进展。该公司声称，31% 的财富 500 强公司现在使用其平台，尽管部署范围从公司范围的基础设施到单个团队项目。\n著名客户包括忠诚度计划公司 Bilt； Intuit 的 GoCo 子公司； TripAdvisor 的游轮评论家；和米高梅度假村。 Kernel 是一家由 Y Combinator 支持的初创公司，为 1,000 多家公司提供人工智能基础设施，在 Railway 上运行其整个面向客户的系统，每月费用为 444 美元。\n“我之前的公司 Clever 以 5 亿美元的价格出售，我有六名全职工程师负责管理 AWS，”Kernel 首席技术官 Rafael Garcia 说道。 “现在我一共有六名工程师，他们都专注于产品。铁路正是我希望在 2012 年拥有的工具。”\n对于企业客户，Railway 提供安全认证，包括 SOC 2 Type 2 合规性和 HIPAA 就绪性，并可根据要求提供业务伙伴协议。该平台提供单点登录身份验证、全面的审核日志以及通过“自带云”配置在客户现有云环境中部署的选项。\n企业定价从自定义级别开始，包括用于扩展日志保留的特定附加组件（每月 200 美元）、HIPAA BAA（1,000 美元）、SLO 企业支持（2,000 美元）和专用虚拟机（10,000 美元）。\n这家初创公司采取大胆战略，挑战亚马逊、谷歌和新一代云竞争对手\nRailway 进入了一个拥挤的市场，该市场不仅包括超大规模云提供商（Amazon Web Services、Microsoft Azure 和 Google Cloud Platform），还包括越来越多以开发人员为中心的平台，如 Vercel、Render、Fly.io 和 Heroku。\n库珀认为，铁路公司的竞争对手分为两个阵营，两个阵营都没有完全致力于人工智能所需的新基础设施模式。\n“超大规模企业有两个相互竞争的系统，他们并没有全力以赴地采用新模型，因为他们的",
     "translated": true
-  },
-  {
-    "title": "2026算力市场开局：显卡商转行炒内存 “套牌车”混进服务器 业内驳算力泡沫论|传真",
-    "source": "财联社",
-    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBCblRmdXYxTy1hUHpWVlc4YTVSMDduazRiTW95SzNFVlkyYnVYTnJhSEk5YWVsQUo0aE0wTW8tZkp4OW03bHJ1Ug?oc=5",
-    "published": "2026-01-22",
-    "summary": "2026算力市场开局：显卡商转行炒内存 “套牌车”混进服务器 业内驳算力泡沫论|传真&nbsp;&nbsp;财联社",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   },
   {
     "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",

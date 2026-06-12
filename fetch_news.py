@@ -318,9 +318,9 @@ def main():
     all_news = existing[:100]
     print(f"   新增 {new_added} 篇，总计 {len(all_news)} 篇")
 
-    # 6. 过滤掉无内容文章（没有全文也没有摘要的）
-    all_news = [a for a in all_news if (a.get("full_text") and len(a["full_text"]) > 100) or (a.get("summary") and len(a["summary"]) > 30)]
-    print(f"   过滤空内容后: {len(all_news)} 篇")
+    # 6. 过滤：只保留成功抓取到正文的文章
+    all_news = [a for a in all_news if a.get("full_text") and len(a["full_text"]) > 100]
+    print(f"   过滤无正文后: {len(all_news)} 篇")
     en = sum(1 for a in all_news if a["lang"] == "en")
     ft = sum(1 for a in all_news if a.get("full_text") and len(a["full_text"]) > 200)
     im = sum(1 for a in all_news if a.get("images"))

@@ -88,10 +88,7 @@
   else if(hasSummary)zhText=a.summary_cn||a.summary;
 
   if(zhText&&zhText.length>10){
-    html+='<section><h2>📖 '+(hasFullCn||(a.lang==='zh'&&hasFullEn)?'中文版':'内容摘要')+'</h2>';
-    if(!hasFullCn&&!(a.lang==='zh'&&hasFullEn)){
-      html+='<p style="color:#f59e0b;font-size:.8rem;margin-bottom:.8rem">⚠️ 该文章来源网站阻止自动抓取，以下为 RSS 摘要。请点击底部链接查看完整原文。</p>';
-    }
+    html+='<section><h2>📖 中文版</h2>';
     zhText.split('\n\n').forEach(function(p){if(p.trim())html+='<p>'+e(p.trim())+'</p>'});
     html+='</section>';
   }
