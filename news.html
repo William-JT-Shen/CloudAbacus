@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPU 算力资讯 · 运算盘</title>
+  <style>
+    :root {
+      --bg: #0a0a14; --card-bg: #141428; --text: #e2e8f0;
+      --text-secondary: #94a3b8; --border: #2d2d50;
+      --accent: #8b5cf6; --accent-light: #2d2b5e;
+      --radius: 12px; --radius-sm: 8px; --transition: 0.2s ease;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh;
+    }
+    body::before {
+      content: ''; position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 80% 50% at 20% 10%, rgba(139,92,246,0.1) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 60% at 80% 80%, rgba(99,102,241,0.08) 0%, transparent 60%);
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1.5rem; position: relative; z-index: 1; }
+
+    .header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .header h1 { font-size: 1.6rem; color: var(--text); }
+    .back-link {
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      padding: 0.45rem 0.85rem; border-radius: var(--radius-sm); text-decoration: none;
+      font-size: 0.82rem; transition: all var(--transition);
+      background: rgba(139,92,246,0.12); border: 1px solid rgba(139,92,246,0.3); color: #b4a5f7;
+    }
+    .back-link:hover { background: rgba(139,92,246,0.25); }
+    .update-badge {
+      font-size: 0.78rem; color: #34d399; background: rgba(16,185,129,0.1);
+      padding: 0.3rem 0.7rem; border-radius: 20px; border: 1px solid rgba(16,185,129,0.2);
+    }
+
+    .news-card {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.2rem 1.4rem; margin-bottom: 0.9rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2); transition: all var(--transition);
+    }
+    .news-card:hover { border-color: var(--accent); box-shadow: 0 4px 25px rgba(139,92,246,0.1); }
+    .news-card .nc-title { font-size: 1.05rem; font-weight: 700; color: var(--text); margin-bottom: 0.4rem; line-height: 1.4; }
+    .news-card .nc-title a { color: inherit; text-decoration: none; }
+    .news-card .nc-title a:hover { color: #c4b5fd; }
+    .news-card .nc-meta {
+      font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.5rem;
+      display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;
+    }
+    .nc-lang { padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.65rem; }
+    .nc-lang.zh { background: rgba(16,185,129,0.15); color: #34d399; }
+    .nc-lang.en { background: rgba(245,158,11,0.15); color: #fbbf24; }
+    .news-card .nc-summary { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; }
+    .news-card .nc-original {
+      margin-top: 0.5rem; padding: 0.6rem 0.8rem;
+      background: rgba(255,255,255,0.02); border-left: 2px solid rgba(139,92,246,0.3);
+      border-radius: 0 6px 6px 0; font-size: 0.78rem; color: #64748b;
+    }
+    .news-card .nc-original strong { color: #94a3b8; }
+    .news-card .nc-source {
+      margin-top: 0.6rem; font-size: 0.75rem;
+    }
+    .news-card .nc-source a { color: #8b5cf6; text-decoration: none; }
+    .news-card .nc-source a:hover { text-decoration: underline; }
+
+    .no-data { text-align: center; padding: 3rem; color: var(--text-secondary); }
+    .footer { text-align: center; padding: 2rem 0 1rem; font-size: 0.78rem; color: #475569; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <a href="home.html" class="back-link">← 返回首页</a>
+    <h1>📰 GPU 算力资讯</h1>
+    <span class="update-badge" id="updateBadge">加载中...</span>
+  </div>
+
+  <div id="newsList"></div>
+  <div class="no-data" id="noData" style="display:none;">暂无新闻数据，请运行 fetch_news.py</div>
+
+  <div class="footer">运算盘 CloudAbacus · 新闻自动更新 · 来源：Google News</div>
+</div>
+
+<script src="news.js"></script>
+<script>
+(function() {
+  var news = window.GPU_NEWS || [];
+  var fetchedAt = window.NEWS_FETCHED_AT || '';
+  var list = document.getElementById('newsList');
+  var noData = document.getElementById('noData');
+  var badge = document.getElementById('updateBadge');
+
+  if (fetchedAt) {
+    badge.textContent = '🟢 更新于 ' + fetchedAt.replace('T',' ').slice(0,16);
+  } else {
+    badge.textContent = '🟡 暂无数据';
+  }
+
+  if (!news.length) {
+    noData.style.display = 'block';
+    return;
+  }
+
+  function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+  var html = '';
+  news.forEach(function(a) {
+    var langTag = a.lang === 'zh' ? '<span class="nc-lang zh">中文</span>' : '<span class="nc-lang en">English</span>';
+    var title = a.title_cn || a.title;
+    var summary = a.summary_cn || a.summary;
+    var hasTranslation = a.translated && a.lang === 'en';
+
+    html += '<div class="news-card">' +
+      '<div class="nc-title"><a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(title) + '</a></div>' +
+      '<div class="nc-meta">' + langTag + ' <span>' + esc(a.source) + '</span> <span>' + (a.published || '') + '</span></div>' +
+      '<div class="nc-summary">' + esc(summary) + '</div>';
+
+    if (hasTranslation) {
+      html += '<div class="nc-original"><strong>英文原文：</strong><br>' +
+        esc(a.title) + '<br>' + esc(a.summary) + '</div>';
+    }
+
+    html += '<div class="nc-source">🔗 来源：<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.url) + '</a></div>' +
+      '</div>';
+  });
+  list.innerHTML = html;
+})();
+</script>
+</body>
+</html>
