@@ -76,24 +76,37 @@
   html+=a.lang==='zh'?'<span class="lang-tag zh">中文</span>':'<span class="lang-tag en">English</span>';
   html+='<span>'+e(a.source)+'</span><span>'+e(a.published||'')+'</span></div>';
 
-  // 中文版本（翻译后的全文或原文）
-  var zhText=a.full_text_cn||a.summary_cn||(a.lang==='zh'?a.full_text||a.summary:'')||'';
-  if(zhText){
+  // 构建内容
+  var hasFullCn=a.full_text_cn&&a.full_text_cn.length>50;
+  var hasFullEn=a.full_text&&a.full_text.length>50;
+
+  // 中文版：优先全文翻译 → 中文原文全文 → 摘要翻译 → 中文原文摘要
+  var zhText='';
+  if(hasFullCn)zhText=a.full_text_cn;
+  else if(a.lang==='zh'&&hasFullEn)zhText=a.full_text;
+  else if(a.summary_cn&&a.summary_cn.length>20)zhText=a.summary_cn;
+  else if(a.lang==='zh'&&a.summary)zhText=a.summary;
+
+  if(zhText&&zhText.length>10&&zhText!=='Google News'){
     html+='<section><h2>📖 中文版</h2>';
     zhText.split('\n\n').forEach(function(p){if(p.trim())html+='<p>'+e(p.trim())+'</p>'});
     html+='</section>';
+  }else if(a.summary){
+    html+='<section><h2>📖 内容摘要</h2><p>'+e(a.summary_cn||a.summary)+'</p></section>';
   }
 
-  // 图片
+  // 配图
   if(a.images&&a.images.length){
     html+='<section><h2>🖼️ 配图</h2>';
     a.images.forEach(function(u){html+='<img src="'+e(u)+'" loading="lazy" onerror="this.style.display=\'none\'">'});
     html+='</section>';
   }
 
-  // 英文原文（仅当原文是英文时显示）
+  // 英文原文
   if(a.lang==='en'){
-    var enText=a.full_text||a.summary||'';
+    var enText='';
+    if(hasFullEn)enText=a.full_text;
+    else if(a.summary&&a.summary.length>20)enText=a.summary;
     if(enText){
       html+='<section><h2>🇬🇧 英文原文</h2><div class="en-block">';
       enText.split('\n\n').forEach(function(p){if(p.trim())html+='<p>'+e(p.trim())+'</p>'});
