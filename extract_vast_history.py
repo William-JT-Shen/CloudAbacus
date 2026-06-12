@@ -29,7 +29,7 @@ except ImportError:
     print("❌ 请先安装 Playwright: pip install playwright && playwright install chromium")
     sys.exit(1)
 
-CODE_DIR = Path(__file__).parent / "code"
+CODE_DIR = Path(__file__).parent  # 所有文件在项目根目录
 OUTPUT_FILE = CODE_DIR / "price_history.js"
 
 

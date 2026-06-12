@@ -39,7 +39,7 @@ if sys.platform == 'win32':
 # ============================================================
 # 配置
 # ============================================================
-CODE_DIR   = Path(__file__).parent / "code"
+CODE_DIR   = Path(__file__).parent  # 所有文件在项目根目录
 OUTPUT_LIVE = CODE_DIR / "pricing_live.js"
 OUTPUT_HIST = CODE_DIR / "price_history.js"
 OUTPUT_HIST_JSON = CODE_DIR / "price_history.json"
