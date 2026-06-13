@@ -35,6 +35,7 @@ jobs:
 
       - name: 抓取新闻
         run: |
+          python scrape_sina.py || echo "Sina scrape failed"
           python fetch_news.py || echo "新闻抓取失败"
           python fetch_futures.py || echo "期货新闻抓取失败"
 
