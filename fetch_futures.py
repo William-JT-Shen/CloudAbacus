@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """
-GPU 算力期货新闻抓取器 v2
+GPU 算力期货新闻抓取器 v3
 =========================
-策略：Google News RSS 站内搜索 → 元数据提取 → 摘要翻译 → 输出 futures_news.js
+策略：
+  1. 已知可抓取源 → 直接提取全文
+  2. Google News RSS → 元数据（标题/来源/日期）+ 浏览器跳转链接
+  3. 正文缺省时 → 用标题+摘要+来源构建有意义的 fallback 内容
+  4. 英文文章 → Google 翻译标题
 
-Google News RSS 提供的文章链接在浏览器中点击会自动跳转到原文，
-因此我们用 Google News 链接作为 url，RSS 中的元数据（标题/来源/日期）作为新闻卡片内容。
+输出 futures_news.js，格式与 news.js 一致。
 
 用法: python fetch_futures.py
 依赖: pip install feedparser deep-translator requests beautifulsoup4
@@ -40,7 +43,7 @@ except ImportError:
 OUTPUT = Path(__file__).parent / "futures_news.js"
 TIMEOUT = 15
 
-# ====== HTTP 代理（GitHub Secrets 配置国内代理） ======
+# ====== HTTP 代理 ======
 PROXY = None
 http_proxy = os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy")
 if http_proxy:
@@ -51,14 +54,12 @@ HEADERS = {
                   "Chrome/125.0.0.0 Safari/537.36"
 }
 
-# ====== Google News RSS 搜索词（聚焦 GPU 算力期货） ======
+# ====== Google News RSS 搜索词 ======
 GOOGLE_NEWS_QUERIES = [
-    # 中文金融站：站内精准搜索"算力+期货"
     ("site:finance.sina.com.cn 算力 期货", "zh-CN"),
     ("site:eastmoney.com 算力 期货", "zh-CN"),
     ("site:cls.cn 算力 期货", "zh-CN"),
     ("site:36kr.com 算力 期货", "zh-CN"),
-    # 中文精准搜索
     ("芝商所 Silicon Data 算力 期货 CME", "zh-CN"),
     ("GPU 算力 期货 合约 交易所 芝商所", "zh-CN"),
     ("AI 算力 资产化 大宗商品 期货 衍生品", "zh-CN"),
@@ -66,7 +67,6 @@ GOOGLE_NEWS_QUERIES = [
     ("高盛 摩根大通 算力 期货", "zh-CN"),
     ("上海 算力 期货 研发", "zh-CN"),
     ("中信证券 算力 期货 金融化", "zh-CN"),
-    # 英文精准搜索（聚焦 CME / ICE / Silicon Data / compute futures）
     ("CME Group Silicon Data compute futures", "en"),
     ("GPU compute futures contract ICE exchange", "en"),
     ("compute power futures derivatives benchmark", "en"),
@@ -83,14 +83,12 @@ EXTRACTABLE_URLS = [
      "Benzinga", "2026-05-13"),
 ]
 
-# ====== 相关性过滤关键词（必须同时命中两类） ======
-# 第一类：期货/金融衍生品相关
+# ====== 相关性过滤：必须同时命中期货类 ∩ 算力类 ======
 FUTURES_TERMS = [
     "futures", "期货", "derivative", "衍生品", "芝商所", "CME", "ICE",
     "commodity", "大宗商品", "contract", "合约", "exchange", "交易所",
     "financial", "金融化", "金融衍生", "对冲", "hedge",
 ]
-# 第二类：GPU/算力/云计算相关
 COMPUTE_TERMS = [
     "gpu", "算力", "compute", "computing", "cloud", "云计算", "AI 算力",
     "h100", "a100", "h200", "b200", "nvidia", "英伟达", "Silicon Data",
@@ -98,7 +96,7 @@ COMPUTE_TERMS = [
     "rental", "租赁", "price", "定价", "benchmark", "指数",
 ]
 
-# ====== 翻译专有名词还原 ======
+# ====== 专有名词还原 ======
 PROPER_NOUNS = {
     "克劳德·费布尔": "Claude Fable", "克劳德": "Claude", "聊天 GPT": "ChatGPT",
     "开放人工智能": "OpenAI", "人类": "Anthropic", "英伟达": "NVIDIA",
@@ -131,7 +129,6 @@ def detect_lang(text: str) -> str:
 
 
 def translate(text: str) -> str:
-    """英文 → 中文翻译，带专有名词还原"""
     if not HAS_TRANS or not text:
         return ""
     try:
@@ -150,13 +147,52 @@ def translate(text: str) -> str:
         return ""
 
 
+# ==================== 生成丰富的 fallback 正文 ====================
+
+def build_rich_fallback(title: str, source: str, published: str, url: str,
+                        lang: str, title_cn: str = "") -> str:
+    """
+    当无法从原文抓取正文时，构建有意义的描述内容。
+    包含标题、来源、日期和一个清晰的原文链接指引。
+    """
+    display_title = title_cn or title
+
+    if lang == "zh":
+        # 中文文章 —— 通过 Google News 链接在浏览器中可直接跳转原文
+        return (
+            f"「{display_title}」\n\n"
+            f"📰 来源：{source}\n"
+            f"📅 发布日期：{published}\n\n"
+            f"本文由 Google News 聚合自 {source}。"
+            f"点击下方「文章来源」链接可在浏览器中自动跳转到"
+            f"原始文章页面，阅读完整内容。\n\n"
+            f"💡 提示：本栏目聚焦 GPU 算力期货市场动态，"
+            f"涵盖芝商所（CME）、洲际交易所（ICE）、"
+            f"Silicon Data 等机构推出的算力期货/衍生品合约，"
+            f"以及高盛、摩根大通等华尔街机构在算力金融化领域的布局。"
+        )
+    else:
+        # 英文文章 —— 提供原文摘要信息
+        display_title_cn = title_cn or title
+        return (
+            f"「{display_title_cn}」\n\n"
+            f"📰 Source: {source}\n"
+            f"📅 Published: {published}\n\n"
+            f"Original title: {title}\n\n"
+            f"This article is aggregated from {source} via Google News. "
+            f"Click the source link below to read the full article. "
+            f"The Google News link will automatically redirect you "
+            f"to the original article page.\n\n"
+            f"💡 This section focuses on GPU compute futures market developments, "
+            f"including CME Group, ICE, Silicon Data compute futures contracts, "
+            f"and Wall Street's involvement in compute financialization."
+        )
+
+
 # ==================== RSS 抓取 ====================
 
 def fetch_google_news_rss(query: str, hl: str) -> list[dict]:
-    """
-    从 Google News RSS 搜索文章。
-    返回标准化的文章列表，使用 Google News 链接（浏览器中会自动跳转到原文）。
-    """
+    """从 Google News RSS 搜索文章"""
     if not HAS_FEED:
         return []
     rss_url = f"https://news.google.com/rss/search?q={quote(query)}&hl={hl}&ceid={hl}"
@@ -167,7 +203,6 @@ def fetch_google_news_rss(query: str, hl: str) -> list[dict]:
 
     results = []
     for e in feed.entries[:10]:
-        # 解析标题: "Title - Source Name"
         raw_title = e.get("title", "").strip()
         if " - " in raw_title:
             parts = raw_title.rsplit(" - ", 1)
@@ -177,32 +212,29 @@ def fetch_google_news_rss(query: str, hl: str) -> list[dict]:
             title = raw_title
             rss_source = ""
 
-        # 获取来源信息
         source_name = rss_source
         source_url = ""
         if "source" in e:
             source_name = e.source.get("title", source_name)
             source_url = e.source.get("href", "")
 
-        # Google News RSS 的 link 在浏览器中自动跳转到原文
         gn_link = e.get("link", "")
+        published = parse_date(e.get("published", ""))
+        article_lang = "zh" if "zh" in hl else detect_lang(title)
 
-        # RSS 中的摘要通常很短，我们构建一个基于标题的描述
-        summary = clean_html(e.get("summary", e.get("description", "")))
-        # 如果摘要太短（Google News RSS 通常只重复标题），用标题作为摘要
-        if len(summary) < 20:
-            summary = f"「{title}」— {source_name}"
+        # 提取 RSS 中的摘要（可能非常短）
+        rss_summary = clean_html(e.get("summary", e.get("description", "")))
 
         results.append({
             "title": title,
             "source": source_name,
             "source_url": source_url,
-            "url": gn_link,  # Google News 链接（浏览器自动跳转）
-            "published": parse_date(e.get("published", "")),
-            "summary": summary[:400],
-            "full_text": "",  # RSS 条目不含全文，后续尝试提取
+            "url": gn_link,
+            "published": published,
+            "summary": rss_summary,
+            "full_text": "",
             "images": [],
-            "lang": "zh" if "zh" in hl else detect_lang(title),
+            "lang": article_lang,
         })
     return results
 
@@ -210,7 +242,7 @@ def fetch_google_news_rss(query: str, hl: str) -> list[dict]:
 # ==================== 已知 URL 文章提取 ====================
 
 def extract_full_article(url: str) -> dict:
-    """尝试从已知可提取来源获取全文"""
+    """从已知可抓取来源提取全文"""
     result = {}
     try:
         r = requests.get(url, timeout=TIMEOUT, headers=HEADERS, proxies=PROXY)
@@ -225,8 +257,6 @@ def extract_full_article(url: str) -> dict:
 
     try:
         soup = BeautifulSoup(html, "html.parser")
-
-        # 提取标题
         t = soup.find("title")
         title = ""
         if t:
@@ -234,12 +264,10 @@ def extract_full_article(url: str) -> dict:
             for sep in [" | ", " - ", " _ ", "｜"]:
                 title = title.split(sep)[0].strip()
 
-        # 提取正文
         for sel in ["article", ".article-body", ".article-content",
                     ".post-content", "main", "[role='main']"]:
             div = soup.select_one(sel)
             if div:
-                # 移除干扰元素
                 for tag in div.find_all(["script", "style", "nav"]):
                     tag.decompose()
                 text = re.sub(r'\n{3,}', '\n\n', div.get_text()).strip()
@@ -247,7 +275,6 @@ def extract_full_article(url: str) -> dict:
                     result["full_text"] = text[:8000]
                     break
 
-        # 兜底：用 body
         if not result.get("full_text"):
             for tag in soup(["script", "style", "nav", "header", "footer", "aside"]):
                 tag.decompose()
@@ -258,7 +285,6 @@ def extract_full_article(url: str) -> dict:
         if title:
             result["title"] = title
 
-        # 提取配图
         imgs = []
         for img in soup.find_all("img", src=True):
             src = img["src"]
@@ -266,47 +292,74 @@ def extract_full_article(url: str) -> dict:
                 imgs.append(src)
         if imgs:
             result["images"] = imgs[:5]
-
     except Exception:
         pass
 
     return result
 
 
+# ==================== 文章标准化 ====================
+
+def normalize_article(a: dict) -> dict:
+    """确保文章拥有所有必需字段"""
+    defaults = {
+        "title": "", "source": "", "source_url": "", "url": "",
+        "published": "", "summary": "", "full_text": "", "images": [],
+        "lang": "zh", "title_cn": "", "summary_cn": "", "translated": False,
+    }
+    for k, v in defaults.items():
+        if k not in a:
+            a[k] = v
+
+    # 如果正文为空或太短（RSS 摘要不够），构建丰富内容
+    if not a.get("full_text") or len(a["full_text"]) < 80:
+        a["full_text"] = build_rich_fallback(
+            a.get("title", ""),
+            a.get("source", ""),
+            a.get("published", ""),
+            a.get("url", ""),
+            a.get("lang", "zh"),
+            a.get("title_cn", ""),
+        )
+    return a
+
+
 # ==================== 主流程 ====================
 
 def main():
     print("=" * 60)
-    print("📰 GPU 算力期货新闻抓取器 v2")
-    print(f"   feedparser={HAS_FEED} bs4={HAS_BS4} 翻译={'✅' if HAS_TRANS else '❌'}")
+    print("📰 GPU 算力期货新闻抓取器 v3")
+    print(f"   feedparser={HAS_FEED} bs4={HAS_BS4} 翻译={'OK' if HAS_TRANS else 'NO'}")
     print("=" * 60)
 
     all_news = []
     seen_titles = set()
 
-    # ---- Step 1: 已知可提取 URL（直接抓取全文） ----
+    # ---- Step 1: 已知可提取 URL ----
     print("\n📌 已知全文源（直接抓取）:")
     for url, source, date in EXTRACTABLE_URLS:
         print(f"   {source}: {url[:70]}...")
         extracted = extract_full_article(url)
         if extracted.get("full_text") and len(extracted["full_text"]) > 200:
+            body = extracted["full_text"]
             all_news.append({
                 "title": extracted.get("title", url.split("/")[-1][:60]),
                 "source": source,
+                "source_url": url,
                 "url": url,
                 "published": date,
-                "summary": extracted["full_text"][:400],
-                "full_text": extracted["full_text"],
+                "summary": body[:400],
+                "full_text": body,
                 "images": extracted.get("images", []),
                 "lang": "en",
             })
             seen_titles.add(extracted.get("title", "")[:60])
-            print(f"      ✅ {len(extracted['full_text'])} 字")
+            print(f"      ✅ {len(body)} chars (full text extracted)")
         else:
-            print(f"      ⚠️ 提取失败")
+            print(f"      ⚠️ extraction failed, skipped")
 
-    # ---- Step 2: Google News RSS 搜索（主要数据源） ----
-    print("\n🔍 Google News RSS 搜索:")
+    # ---- Step 2: Google News RSS ----
+    print("\n🔍 Google News RSS:")
     for query, hl in GOOGLE_NEWS_QUERIES:
         articles = fetch_google_news_rss(query, hl)
         added = 0
@@ -316,14 +369,14 @@ def main():
                 seen_titles.add(key)
                 all_news.append(a)
                 added += 1
-        print(f"   「{query[:45]}」: +{added} 篇 (累计 {len(all_news)})")
+        print(f"   [{query[:40]}]: +{added} ({len(all_news)} total)")
 
-    # ---- Step 3: 相关性过滤（必须同时命中：期货类 + 算力类） ----
+    # ---- Step 3: 相关性过滤 ----
     filtered = []
     extractable_sources = {s for _, s, _ in EXTRACTABLE_URLS}
     for a in all_news:
         if a.get("source") in extractable_sources:
-            filtered.append(a)  # 已知可提取来源直接保留
+            filtered.append(a)
             continue
         text = (a.get("title", "") + " " + a.get("summary", "")).lower()
         has_futures = any(kw.lower() in text for kw in FUTURES_TERMS)
@@ -332,45 +385,27 @@ def main():
             filtered.append(a)
     if filtered:
         all_news = filtered
-    print(f"\n📋 相关性过滤（期货∩算力）: {len(all_news)} 篇")
+    print(f"\n📋 After filter (futures AND compute): {len(all_news)} articles")
 
-    # ---- Step 4: 标准化所有文章字段 ----
-    def normalize_article(a: dict) -> dict:
-        """确保文章拥有所有必需字段，并填充空值"""
-        defaults = {
-            "title": "", "source": "", "source_url": "", "url": "",
-            "published": "", "summary": "", "full_text": "", "images": [],
-            "lang": "zh", "title_cn": "", "summary_cn": "", "translated": False,
-        }
-        for k, v in defaults.items():
-            if k not in a:
-                a[k] = v
-        # 用摘要补全空正文
-        if not a.get("full_text") or len(a["full_text"]) < 20:
-            summary = a.get("summary", "")
-            if summary and len(summary) > 20:
-                a["full_text"] = summary
-            else:
-                # 用标题 + 来源构建内容
-                src = a.get("source", "")
-                title = a.get("title", "")
-                a["full_text"] = f"原标题：{title}\n来源：{src}\n\n（本文来自 Google News 聚合，点击标题链接可查看原文。Google News 链接在浏览器中会自动跳转到原始文章页面。）"
-        return a
-
-    for a in all_news:
-        normalize_article(a)
-
-    # ---- Step 5: 翻译英文文章 ----
+    # ---- Step 4: 翻译英文 ---
     en_articles = [a for a in all_news if a.get("lang") == "en"]
     if HAS_TRANS and en_articles:
-        print(f"\n🌐 翻译 {len(en_articles)} 篇英文标题...")
+        print(f"\n🌐 Translating {len(en_articles)} English titles...")
         for a in en_articles:
             a["title_cn"] = translate(a["title"])
             a["summary_cn"] = translate(a.get("summary", "")) if a.get("summary") else ""
             a["translated"] = True
-            print(f"   ✅ {a['title'][:50]}...")
+            print(f"   OK: {a['title'][:55]}...")
+    else:
+        for a in all_news:
+            a["title_cn"] = a["summary_cn"] = ""
+            a["translated"] = False
 
-    # ---- Step 7: 合并旧数据 ----
+    # ---- Step 5: 标准化 + 构建 fallback 正文 ----
+    for a in all_news:
+        normalize_article(a)
+
+    # ---- Step 6: 合并旧数据 ----
     existing = []
     if OUTPUT.exists():
         try:
@@ -378,11 +413,10 @@ def main():
             m = re.search(r'GPU_NEWS\s*=\s*(\[.*\]);', raw, re.DOTALL)
             if m:
                 existing_data = json.loads(m.group(1))
-                # 标准化旧文章字段
                 for a in existing_data:
                     normalize_article(a)
                 existing = existing_data
-                print(f"\n📚 已加载 {len(existing)} 篇旧文章")
+                print(f"\n📚 Loaded {len(existing)} existing articles")
         except Exception:
             pass
 
@@ -394,34 +428,39 @@ def main():
             existing_titles.add(a["title"][:60])
             new_added += 1
 
-    # 按发布日期倒序
-    existing.sort(key=lambda x: x.get("published", ""), reverse=True)
+    # 排序：有完整正文的文章优先，然后按日期倒序
+    def sort_key(a: dict) -> tuple:
+        has_real_body = 1 if len(a.get("full_text", "")) > 1000 else 0
+        date_str = a.get("published", "")
+        return (has_real_body, date_str)
+    existing.sort(key=sort_key, reverse=True)
     all_news = existing[:50]
 
-    # 保护：如果本次抓取为空，保留已有数据
     if len(all_news) == 0 and existing:
-        print("   ⚠️ 本次未抓取到新文章，保留已有数据")
+        print("   WARNING: no new articles, keeping existing data")
         all_news = existing
 
-    print(f"   新增 {new_added} 篇，总计 {len(all_news)} 篇")
+    print(f"   +{new_added} new, {len(all_news)} total")
 
     # ---- Step 7: 统计 ----
     zh = sum(1 for a in all_news if a.get("lang") == "zh")
     en = sum(1 for a in all_news if a.get("lang") == "en")
     tr = sum(1 for a in all_news if a.get("translated"))
-    img = sum(1 for a in all_news if a.get("images"))
+    has_img = sum(1 for a in all_news if a.get("images"))
+    has_full = sum(1 for a in all_news if len(a.get("full_text", "")) > 500)
 
-    # ---- Step 8: 写入 futures_news.js ----
+    # ---- Step 8: 写入 ----
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     with open(OUTPUT, "w", encoding="utf-8") as f:
-        f.write(f"// GPU算力期货新闻\n// 生成: {ts}\n")
+        f.write(f"// GPU算力期货新闻 v3\n// Generated: {ts}\n")
         f.write(f"var NEWS_FETCHED_AT = \"{ts}\";\nvar GPU_NEWS = ")
         json.dump(all_news, f, indent=2, ensure_ascii=False)
         f.write(";\n")
 
     print(f"\n{'=' * 60}")
-    print(f"✅ {OUTPUT.name}: {len(all_news)} 篇 (中文{zh} | 英文{en} | 翻译{tr} | 图{img})")
-    print(f"   生成时间: {ts}")
+    print(f"Done: {OUTPUT.name}  {len(all_news)} articles")
+    print(f"  CN:{zh}  EN:{en}  Translated:{tr}  Images:{has_img}  FullText(>500):{has_full}")
+    print(f"  Generated: {ts}")
     print(f"{'=' * 60}")
 
 
