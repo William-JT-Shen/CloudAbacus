@@ -31,9 +31,11 @@
     .en-block{background:rgba(255,255,255,.02);border-left:3px solid rgba(139,92,246,.35);border-radius:0 6px 6px 0;padding:1rem 1.2rem;margin:1rem 0}
     .en-block p{color:#94a3b8;font-size:.86rem;line-height:1.9}
 
-    .source{background:var(--card);border:1px solid var(--border);border-radius:var(--rs);padding:.9rem 1.1rem;margin-top:2rem}
-    .source a{color:var(--accent);text-decoration:none;word-break:break-all}
-    .source a:hover{text-decoration:underline}
+    .source-box{background:var(--card);border:1px solid var(--border);border-radius:var(--rs);padding:1.2rem;margin-top:2rem;text-align:center}
+    .source-box a{color:var(--accent);text-decoration:none;word-break:break-all}
+    .source-box a:hover{text-decoration:underline}
+    .btn-read{display:inline-block;padding:.7rem 2rem;background:linear-gradient(135deg,#8b5cf6,#6366f1);color:#fff!important;border-radius:50px;text-decoration:none;font-weight:600;font-size:.9rem;transition:all .2s}
+    .btn-read:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(139,92,246,.4)}
 
     .error{text-align:center;padding:4rem 1rem;color:var(--t2)}
     .footer{text-align:center;padding:2rem 0 1rem;font-size:.78rem;color:#475569}
@@ -44,8 +46,8 @@
 <body>
 <div class="container">
   <div class="nav">
-    <a href="futures.html" class="nav-list">📋 返回资讯列表</a>
-    <a href="home.html" class="nav-back">← 返回首页</a>
+    <a href="futures.html" class="nav-list">&larr; 返回资讯列表</a>
+    <a href="home.html" class="nav-back">&larr; 返回首页</a>
   </div>
 
   <div id="content"></div>
@@ -63,58 +65,49 @@
   function e(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 
   if(isNaN(id)||id<0||id>=news.length){
-    el.innerHTML='<div class="error"><h2>📭 文章未找到</h2><p>请返回资讯列表选择文章</p></div>';
+    el.innerHTML='<div class="error"><h2>Article Not Found</h2><p>Please return to the news list and select an article</p></div>';
     return;
   }
 
   var a=news[id];
-  document.title=e(a.title_cn||a.title)+' · 运算盘';
+  document.title=e(a.title_cn||a.title)+' · CloudAbacus';
 
   var html='<article>';
   html+='<h1>'+e(a.title_cn||a.title)+'</h1>';
   html+='<div class="meta">';
-  html+=a.lang==='zh'?'<span class="lang-tag zh">中文</span>':'<span class="lang-tag en">English</span>';
-  html+='<span>'+e(a.source)+'</span><span>'+e(a.published||'')+'</span></div>';
+  html+=a.lang==='zh'?'<span class="lang-tag zh">'+e(a.source)+'</span>':'<span class="lang-tag en">'+e(a.source)+'</span>';
+  html+='<span>'+e(a.published||'')+'</span></div>';
 
-  // 构建内容
-  var hasFullCn=a.full_text_cn&&a.full_text_cn.length>50;
-  var hasFullEn=a.full_text&&a.full_text.length>50;
-  var hasSummary=(a.summary_cn||a.summary||'').length>20;
-
-  // 中文版
-  var zhText='';
-  if(hasFullCn)zhText=a.full_text_cn;
-  else if(a.lang==='zh'&&hasFullEn)zhText=a.full_text;
-  else if(hasSummary)zhText=a.summary_cn||a.summary;
-
-  if(zhText&&zhText.length>10){
-    html+='<section><h2>📖 中文版</h2>';
-    zhText.split('\n\n').forEach(function(p){if(p.trim())html+='<p>'+e(p.trim())+'</p>'});
-    html+='</section>';
-  }
-
-  // 配图
+  // Images
   if(a.images&&a.images.length){
-    html+='<section><h2>🖼️ 配图</h2>';
+    html+='<section><h2>Images</h2>';
     a.images.forEach(function(u){html+='<img src="'+e(u)+'" loading="lazy" onerror="this.style.display=\'none\'">'});
     html+='</section>';
   }
 
-  // 英文原文
-  if(a.lang==='en'){
-    var enText='';
-    if(hasFullEn)enText=a.full_text;
-    else if(a.summary&&a.summary.length>20)enText=a.summary;
-    if(enText){
-      html+='<section><h2>🇬🇧 英文原文</h2><div class="en-block">';
-      enText.split('\n\n').forEach(function(p){if(p.trim())html+='<p>'+e(p.trim())+'</p>'});
-      html+='</div></section>';
-    }
+  // Main content
+  var bodyText='';
+  if(a.full_text_cn&&a.full_text_cn.length>50)bodyText=a.full_text_cn;
+  else if(a.full_text&&a.full_text.length>50)bodyText=a.full_text;
+
+  if(bodyText){
+    html+='<section><h2>Content</h2>';
+    bodyText.split('\n\n').forEach(function(p){if(p.trim())html+='<p>'+e(p.trim())+'</p>'});
+    html+='</section>';
   }
 
-  // 来源
-  html+='<div class="source">🔗 <strong>文章来源：</strong><a href="'+e(a.url)+'" target="_blank" rel="noopener">'+e(a.url)+'</a>';
-  if(a.source_url)html+='<br><small>原始链接：'+e(a.source_url)+'</small>';
+  // English original (only when article is English AND has different full_text than displayed)
+  if(a.lang==='en'&&a.full_text&&a.full_text.length>50&&a.full_text!==bodyText){
+    html+='<section><h2>English Original</h2><div class="en-block">';
+    a.full_text.split('\n\n').forEach(function(p){if(p.trim())html+='<p>'+e(p.trim())+'</p>'});
+    html+='</div></section>';
+  }
+
+  // Read original button
+  html+='<div class="source-box">';
+  html+='<p style="color:var(--t2);font-size:.85rem;margin-bottom:.8rem;">Aggregated from <strong>'+e(a.source)+'</strong> via Google News</p>';
+  html+='<a href="'+e(a.url)+'" target="_blank" rel="noopener" class="btn-read">Read Original Article &rarr;</a>';
+  if(a.source_url)html+='<br><small style="color:var(--t2);display:inline-block;margin-top:.6rem;">Source site: '+e(a.source_url)+'</small>';
   html+='</div></article>';
 
   el.innerHTML=html;

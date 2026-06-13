@@ -387,7 +387,7 @@ def main():
         all_news = filtered
     print(f"\n📋 After filter (futures AND compute): {len(all_news)} articles")
 
-    # ---- Step 4: 翻译英文 ---
+    # ---- Step 4: 翻译英文标题 ----
     en_articles = [a for a in all_news if a.get("lang") == "en"]
     if HAS_TRANS and en_articles:
         print(f"\n🌐 Translating {len(en_articles)} English titles...")
@@ -401,9 +401,19 @@ def main():
             a["title_cn"] = a["summary_cn"] = ""
             a["translated"] = False
 
-    # ---- Step 5: 标准化 + 构建 fallback 正文 ----
+    # ---- Step 5: 标准化 + 构建 fallback 正文（此时 title_cn 已有） ----
     for a in all_news:
         normalize_article(a)
+
+    # ---- Step 5b: 对英文文章的 fallback 正文做翻译 ----
+    if HAS_TRANS:
+        for a in en_articles:
+            ft = a.get("full_text", "")
+            # 只翻译 fallback 内容（短的），不翻译长文章（真实的全文）
+            if ft and len(ft) < 1500:
+                translated_body = translate(ft)
+                if translated_body:
+                    a["full_text_cn"] = translated_body
 
     # ---- Step 6: 合并旧数据 ----
     existing = []
