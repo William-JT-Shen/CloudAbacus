@@ -355,11 +355,13 @@
   }
 
   function travelGlow(from, to) {
+    dbg('travelGlow '+from+' -> '+to);
     var key = glowEdgeKey(from,to);
     var info = edgeInfo[key];
-    if(!info) return;
+    if(!info) { dbg('  NO edgeInfo for '+key); return; }
+    dbg('  key='+key+' gid='+info.gid+' len='+info.len);
     var gel = document.getElementById(info.gid);
-    if(!gel) return;
+    if(!gel) { dbg('  NO element '+info.gid); return; }
 
     // Set edge direction from→to
     var fc = nodeCoords[from], tc = nodeCoords[to];
@@ -370,19 +372,23 @@
     gel.setAttribute('stroke-dasharray', info.len);
     gel.setAttribute('stroke-dashoffset', info.len);
     gel.classList.add('active');
+    dbg('  edge setup done, starting animateDash');
 
     // Phase 1: dash travels from→to (3s)
-    animateDash(gel, info.len, 0, 3000, 'ease-in-out', function() {
+    animateDash(gel, info.len, 0, 3000, function() {
+      dbg('  phase1 done, lighting '+to);
       // Phase 2: dash reached target → light node
       setHalo(to, true);
 
       // Phase 2b: fade dash away past target (1.5s)
-      animateDash(gel, 0, -info.len, 1500, 'ease-out', function() {
+      animateDash(gel, 0, -info.len, 1500, function() {
+        dbg('  phase2 done, hiding edge');
         gel.classList.remove('active');
       });
 
       // Phase 3: after 3s total on node, pick next
       setTimeout(function() {
+        dbg('  phase3: turning off '+to+' and pickNext');
         setHalo(to, false);
         busy = false;
         pickNext(to);
@@ -390,16 +396,19 @@
     });
   }
 
+  function dbg(msg) { console.log('[LOGO]', msg); }
+
   function pickNext(fromNode) {
+    dbg('pickNext from='+fromNode+' prev='+prevNode);
     var neighbors = graph[fromNode] || [];
-    // Exclude previous node to avoid back-and-forth
     var candidates = neighbors.filter(function(n) { return n !== prevNode; });
+    dbg('  neighbors='+JSON.stringify(neighbors)+' candidates='+JSON.stringify(candidates));
     if(candidates.length === 0) candidates = neighbors;
     if(candidates.length === 0) {
-      // Isolated node, pick any
       candidates = Object.keys(graph).filter(function(n) { return n !== fromNode; });
     }
     var next = candidates[Math.floor(Math.random() * candidates.length)];
+    dbg('  next='+next);
     prevNode = fromNode;
     currentNode = next;
     busy = true;
@@ -410,10 +419,12 @@
   var allNodes = Object.keys(graph);
   var start = allNodes[Math.floor(Math.random() * allNodes.length)];
   currentNode = start;
+  dbg('start='+start);
   setHalo(start, true);
 
   // After 3s, first jump
   setTimeout(function() {
+    dbg('initial timeout: turning off '+start);
     setHalo(start, false);
     pickNext(start);
   }, 3000);
