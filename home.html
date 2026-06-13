@@ -104,7 +104,8 @@
         .node { fill: url(#g); }
         .link { stroke: url(#g2); stroke-width:1.5; opacity:.5; }
         .glow-edge { stroke:#fbbf24; stroke-width:2.5; stroke-linecap:round;
-          transition: stroke-dashoffset 3s ease-in-out; }
+          opacity:0; transition: stroke-dashoffset 3s ease-in-out; }
+        .glow-edge.active { opacity:1; }
         .glow-halo { fill:url(#glowGrad); opacity:0;
           transition: opacity .6s ease, r .6s ease; }
         .glow-halo.on { opacity:1; }
@@ -347,11 +348,12 @@
     gel.setAttribute('x1', fc[0]); gel.setAttribute('y1', fc[1]);
     gel.setAttribute('x2', tc[0]); gel.setAttribute('y2', tc[1]);
 
-    // Set dasharray and start offset (hidden at 'from' end)
+    // Start: dash hidden at 'from' end, make edge visible
     gel.setAttribute('stroke-dasharray', info.len);
     gel.setAttribute('stroke-dashoffset', info.len);
+    gel.classList.add('active'); // show gold edge
 
-    // Animate: offset travels from len→0, dash moves from→to
+    // Phase 1: dash travels from→to over 3s
     requestAnimationFrame(function() {
       gel.style.transition = 'none';
       gel.setAttribute('stroke-dashoffset', info.len);
@@ -361,14 +363,15 @@
       });
     });
 
-    // After 3s: edge travel complete, light target node
+    // Phase 2 (after 3s): edge reached target → light node, fade edge
     setTimeout(function() {
       setHalo(to, true);
-      // Fade edge: offset 0 → -len (dash moves past the end, disappearing)
-      gel.style.transition = 'stroke-dashoffset 1.5s ease-out';
+      gel.style.transition = 'stroke-dashoffset 1.5s ease-out, opacity .8s ease-out';
       gel.setAttribute('stroke-dashoffset', -info.len);
+      // After edge fully faded, hide it
+      setTimeout(function() { gel.classList.remove('active'); }, 800);
 
-      // After 3s node glow, pick next
+      // Phase 3 (after 3s): node glow done → pick next
       setTimeout(function() {
         setHalo(to, false);
         busy = false;
