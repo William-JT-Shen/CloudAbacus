@@ -168,7 +168,6 @@
     <circle cx="100" cy="165" r="6" fill="url(#g)"/><circle cx="122" cy="165" r="6" fill="url(#g)" opacity=".7"/>
     <circle cx="145" cy="165" r="6" fill="url(#g)"/>
   </svg>
-  <div id="dbg" style="font-size:10px;color:#94a3b8;min-height:3em;margin-bottom:.5rem;font-family:monospace;max-width:400px;margin-left:auto;margin-right:auto;word-break:break-all"></div>
   <h1>云算盘 CloudAbacus</h1>
   <p class="subtitle">全球 GPU 算力平台看板 · 一站式查阅全球 GPU 租赁平台信息</p>
   <div class="buttons">
@@ -351,9 +350,6 @@
       var v=Math.round(e.len*(1 - (t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2)));
       gel.setAttribute('stroke-dashoffset',v);
       if(i>=steps){ clearInterval(iv);
-        // Dash reached target -> light target node (CSS transition opacity 1s)
-        halo(to,true);
-        log('lit:'+to);
 
         // Fade edge out (30 steps, dash slides past target)
         var j=0, iv2=setInterval(function(){
