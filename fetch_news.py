@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """
-GPU 算力新闻抓取器 v3
-=====================
-多源抓取：Google News RSS + 全文本 RSS 源 + 多引擎文章提取。
-英文自动翻译。输出 news.js。
+GPU 算力租赁新闻抓取器 v4
+=========================
+Google News RSS 站内搜索 → 元数据提取 → 翻译 → 输出 news.js
 
 用法: python fetch_news.py
-依赖: pip install feedparser deep-translator trafilatura requests newspaper3k
+依赖: pip install feedparser deep-translator requests beautifulsoup4
 """
 
-import json, re, sys, io
+import json, re, sys, io, os
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -17,112 +16,90 @@ from urllib.parse import quote
 if sys.platform == 'win32':
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-try: import feedparser
-except ImportError: print("pip install feedparser"); sys.exit(1)
-try: import requests
-except ImportError: print("pip install requests"); sys.exit(1)
-
-# 文章提取器
-HAS_TRAF, HAS_NEWS, HAS_BS4 = False, False, False
-try: import trafilatura; HAS_TRAF = True
-except ImportError: pass
-try: from newspaper import Article; HAS_NEWS = True
-except ImportError: pass
-try: from bs4 import BeautifulSoup; HAS_BS4 = True
-except ImportError: pass
-
-# 翻译
-HAS_TRANS = False
 try:
-    from deep_translator import GoogleTranslator
-    HAS_TRANS = True
+    import requests
 except ImportError:
-    pass
+    print("pip install requests"); sys.exit(1)
+try:
+    from bs4 import BeautifulSoup; HAS_BS4 = True
+except ImportError:
+    HAS_BS4 = False
+
+try:
+    import feedparser; HAS_FEED = True
+except ImportError:
+    HAS_FEED = False
+try:
+    from deep_translator import GoogleTranslator; HAS_TRANS = True
+except ImportError:
+    HAS_TRANS = False
 
 OUTPUT = Path(__file__).parent / "news.js"
-TIMEOUT = 12
-MAX_NEWS = 20
+TIMEOUT = 15
 
+# ====== HTTP 代理 ======
+PROXY = None
+http_proxy = os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy")
+if http_proxy:
+    PROXY = {"http": http_proxy, "https": os.environ.get("HTTPS_PROXY", http_proxy)}
 
-# ====== 全文本 RSS 源（文章内容直接包含在 feed 中） ======
-FULLTEXT_FEEDS = [
-    ("https://techcrunch.com/category/artificial-intelligence/feed/", "TechCrunch AI", "en"),
-    ("https://venturebeat.com/category/ai/feed/", "VentureBeat AI", "en"),
-    ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge AI", "en"),
-    ("https://feeds.arstechnica.com/arstechnica/index", "Ars Technica", "en"),
-    ("https://www.36kr.com/feed", "36氪", "zh"),
-    ("https://www.jiqizhixin.com/rss", "机器之心", "zh"),
-    ("https://finance.sina.com.cn/roll/rss.xml", "新浪财经", "zh"),
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "Chrome/125.0.0.0 Safari/537.36"
+}
+
+# ====== Google News RSS 搜索词（聚焦 GPU 算力租赁） ======
+GOOGLE_NEWS_QUERIES = [
+    # 中文：站内精准搜索
+    ("site:36kr.com GPU 算力 租赁", "zh-CN"),
+    ("site:finance.sina.com.cn GPU 算力 租赁 价格", "zh-CN"),
+    ("site:eastmoney.com 算力 租赁", "zh-CN"),
+    ("site:jiqizhixin.com GPU 算力 租赁", "zh-CN"),
+    # 中文精准搜索
+    ("GPU 算力 租赁 价格 市场", "zh-CN"),
+    ("H100 A100 GPU 租赁 云服务", "zh-CN"),
+    ("GPU 云 服务器 租用 价格", "zh-CN"),
+    ("AI 算力 租用 成本 定价", "zh-CN"),
+    ("NVIDIA GPU 云计算 租赁 市场", "zh-CN"),
+    ("CoreWeave GPU 算力 租赁", "zh-CN"),
+    # 英文精准搜索
+    ("GPU cloud rental pricing market", "en"),
+    ("H100 A100 GPU instance pricing comparison", "en"),
+    ("GPU compute rental cloud provider", "en"),
+    ("CoreWeave RunPod Vast.ai GPU pricing", "en"),
+    ("GPU cloud computing cost benchmark", "en"),
+    ("NVIDIA GPU server rental data center", "en"),
 ]
 
-# ====== Google News 搜索词 ======
-# 通用 GPU 算力资讯
-GENERAL_QUERIES = [
-    ("GPU 算力 租赁", "zh-CN"),
-    ("GPU cloud rental price", "en"),
-    ("NVIDIA GPU cloud computing", "en"),
-    ("AI 算力 市场 云服务", "zh-CN"),
+# ====== 相关性过滤：必须同时命中 租赁/价格类 ∩ GPU/算力类 ======
+RENTAL_TERMS = [
+    "rent", "rental", "租赁", "租用", "price", "pricing", "价格", "定价",
+    "cost", "费用", "成本", "instance", "实例", "provider", "供应商",
+    "market", "市场", "cloud", "云", "server", "服务器", "hosting",
+    "deploy", "部署", "cluster", "集群", "platform", "平台",
 ]
-# GPU 算力期货专题
-FUTURES_QUERIES = [
-    ("GPU 算力 期货 衍生品", "zh-CN"),
-    ("GPU compute futures derivatives", "en"),
-    ("芝商所 GPU 算力 期货 CME", "zh-CN"),
-    ("GPU cloud rental futures contract", "en"),
-    ("算力金融化 期货 合约", "zh-CN"),
-    ("ICE GPU futures exchange", "en"),
-    ("GPU commodity trading futures", "en"),
-]
-FUTURES_FEEDS = [
-    ("https://news.google.com/rss/search?q=GPU+compute+futures+contract&hl=en&ceid=en", "Google News Futures", "en"),
-    ("https://news.google.com/rss/search?q=算力+期货+衍生品&hl=zh-CN&ceid=zh-CN", "Google News 算力期货", "zh"),
+COMPUTE_TERMS = [
+    "gpu", "算力", "compute", "computing", "nvidia", "英伟达",
+    "h100", "a100", "h200", "b200", "amd instinct", "tpu",
+    "coreweave", "vast.ai", "runpod", "lambda labs", "tensordock",
+    "paperspace", "datacrunch", "ai", "人工智能", "machine learning",
+    "chip", "芯片", "processor", "data center", "数据中心",
 ]
 
+# ====== 专有名词还原 ======
+PROPER_NOUNS = {
+    "克劳德·费布尔": "Claude Fable", "克劳德": "Claude", "聊天 GPT": "ChatGPT",
+    "开放人工智能": "OpenAI", "人类": "Anthropic", "英伟达": "NVIDIA",
+    "谷歌": "Google", "微软": "Microsoft", "太空探索": "SpaceX",
+    "核心编织": "CoreWeave", "运行舱": "RunPod", "浩瀚": "Vast.ai",
+    "张量码头": "TensorDock", "拉姆达实验室": "Lambda Labs",
+}
+
+
+# ==================== 工具函数 ====================
 
 def clean_html(text: str) -> str:
     return re.sub(r'<[^>]+>', '', text).strip()
-
-
-def resolve_url(url: str) -> str:
-    try:
-        r = requests.head(url, timeout=TIMEOUT, allow_redirects=True,
-                          headers={"User-Agent": "Mozilla/5.0"})
-        return r.url
-    except Exception:
-        return url
-
-
-def fetch_rss(url: str) -> list[dict]:
-    """通用 RSS 抓取"""
-    try:
-        feed = feedparser.parse(url)
-    except Exception:
-        return []
-    results = []
-    for e in feed.entries[:10]:
-        title = e.get("title", "").strip()
-        # 清理 Google News 标题格式 "Title - Source"
-        if " - " in title:
-            parts = title.rsplit(" - ", 1)
-            title, source = parts[0].strip(), parts[1].strip()
-        else:
-            source = feed.feed.get("title", "")
-        summary = clean_html(e.get("summary", e.get("description", "")))
-        # 有些 RSS 提供 content:encoded（全文）
-        content = ""
-        if "content" in e:
-            content = clean_html(e["content"][0].get("value", ""))
-        elif "content:encoded" in e:
-            content = clean_html(e["content:encoded"])
-        results.append({
-            "title": title, "source": source,
-            "url": e.get("link", ""),
-            "published": parse_date(e.get("published", "")),
-            "summary": summary[:500],
-            "full_text": content[:8000] if content else "",
-            "lang": "zh" if any("一" <= c <= "鿿" for c in title[:20]) else "en",
-        })
-    return results
 
 
 def parse_date(date_str: str) -> str:
@@ -135,108 +112,12 @@ def parse_date(date_str: str) -> str:
         return date_str[:10] if len(date_str) >= 10 else date_str
 
 
-def extract_article(url: str) -> dict:
-    """多引擎文章提取：trafilatura → newspaper3k → BeautifulSoup"""
-    html = None
-    real_url = resolve_url(url)
-    try:
-        r = requests.get(real_url, timeout=TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
-        if r.status_code == 200:
-            html = r.text
-    except Exception:
-        pass
+def detect_lang(text: str) -> str:
+    if not text:
+        return "en"
+    cn_chars = sum(1 for c in text[:50] if '一' <= c <= '鿿')
+    return "zh" if cn_chars >= 2 else "en"
 
-    if not html:
-        return {}
-
-    result = {}
-
-    # 引擎 1: trafilatura
-    if HAS_TRAF:
-        try:
-            doc = trafilatura.extract(html, output_format="json", with_metadata=True, include_images=True)
-            if doc:
-                d = json.loads(doc)
-                text = d.get("text", "")
-                if len(text) > 100:
-                    result["full_text"] = text[:8000]
-                imgs = d.get("images", [])
-                if imgs:
-                    result["images"] = [i.get("src", i) if isinstance(i, dict) else str(i) for i in imgs[:5]]
-        except Exception:
-            pass
-
-    # 引擎 2: newspaper3k
-    if (not result.get("full_text") or len(result["full_text"]) < 200) and HAS_NEWS:
-        try:
-            from newspaper import Config
-            config = Config()
-            config.browser_user_agent = "Mozilla/5.0"
-            art = Article(real_url, config=config)
-            art.download()
-            art.parse()
-            text = art.text
-            if len(text) > 100:
-                result["full_text"] = text[:8000]
-            if not result.get("images") and art.top_image:
-                result["images"] = [art.top_image]
-            if art.images and not result.get("images"):
-                result["images"] = list(art.images)[:5]
-        except Exception:
-            pass
-
-    # 引擎 3: BeautifulSoup fallback
-    if (not result.get("full_text") or len(result["full_text"]) < 200) and HAS_BS4:
-        try:
-            soup = BeautifulSoup(html, "html.parser")
-            for tag in soup(["script", "style", "nav", "header", "footer", "aside"]):
-                tag.decompose()
-            text = soup.get_text()
-            text = re.sub(r'\n{3,}', '\n\n', text).strip()
-            if len(text) > 100:
-                result["full_text"] = text[:8000]
-            if not result.get("images"):
-                imgs = []
-                for img in soup.find_all("img", src=True)[:5]:
-                    src = img["src"]
-                    if src.startswith("http"):
-                        imgs.append(src)
-                if imgs:
-                    result["images"] = imgs
-        except Exception:
-            pass
-
-    return result
-
-
-# 专有名词（翻译后还原）
-PROPER_NOUNS = {
-    "克劳德·费布尔": "Claude Fable",
-    "克劳德": "Claude",
-    "费布尔": "Fable",
-    "聊天 GPT": "ChatGPT",
-    "开放人工智能": "OpenAI",
-    "人类": "Anthropic",
-    "英伟达": "NVIDIA",
-    "AMD公司": "AMD",
-    "英特尔": "Intel",
-    "谷歌": "Google",
-    "微软": "Microsoft",
-    "亚马逊": "Amazon",
-    "元": "Meta",
-    "太空探索": "SpaceX",
-    "星链": "Starlink",
-    "核心编织": "CoreWeave",
-    "运行舱": "RunPod",
-    "拉姆达实验室": "Lambda Labs",
-    "纸张空间": "Paperspace",
-    "浩瀚": "Vast.ai",
-    "张量码头": "TensorDock",
-    "数据紧缩": "DataCrunch",
-    "深寻": "DeepSeek",
-    "阿瓦塔": "Avataar",
-    "赛克": "Theker",
-}
 
 def translate(text: str) -> str:
     if not HAS_TRANS or not text:
@@ -247,9 +128,9 @@ def translate(text: str) -> str:
         else:
             chunks = []
             for i in range(0, len(text), 4000):
-                chunks.append(GoogleTranslator(source='en', target='zh-CN').translate(text[i:i+4000]))
+                chunks.append(GoogleTranslator(source='en', target='zh-CN')
+                              .translate(text[i:i + 4000]))
             result = " ".join(chunks)
-        # 还原专有名词
         for cn, en in PROPER_NOUNS.items():
             result = result.replace(cn, en)
         return result
@@ -257,144 +138,226 @@ def translate(text: str) -> str:
         return ""
 
 
+def build_rich_fallback(title: str, source: str, published: str,
+                        lang: str, title_cn: str = "") -> str:
+    """构建有意义的 fallback 正文"""
+    display_title = title_cn or title
+    if lang == "zh":
+        return (
+            f"「{display_title}」\n\n"
+            f"来源：{source}\n"
+            f"发布日期：{published}\n\n"
+            f"本文由 Google News 聚合自 {source}。"
+            f"点击卡片可跳转到原始文章页面阅读完整内容。\n\n"
+            f"本栏目聚焦 GPU 算力租赁市场动态，"
+            f"涵盖 H100/A100/H200/B200 等 GPU 云租赁价格、"
+            f"CoreWeave/RunPod/Vast.ai/Lambda Labs 等平台定价、"
+            f"以及 GPU 云计算市场的供需变化与成本趋势。"
+        )
+    else:
+        return (
+            f"「{display_title}」\n\n"
+            f"Source: {source}\n"
+            f"Published: {published}\n\n"
+            f"Original: {title}\n\n"
+            f"This article is aggregated from {source} via Google News. "
+            f"Click the card to read the full article. "
+            f"The Google News link will redirect you to the original page.\n\n"
+            f"This section covers GPU compute rental market trends, "
+            f"including H100/A100/H200/B200 cloud pricing, "
+            f"CoreWeave/RunPod/Vast.ai/Lambda Labs rates, "
+            f"and GPU cloud supply-demand dynamics."
+        )
+
+
+# ==================== RSS 抓取 ====================
+
+def fetch_google_news_rss(query: str, hl: str) -> list[dict]:
+    """从 Google News RSS 搜索文章"""
+    if not HAS_FEED:
+        return []
+    rss_url = f"https://news.google.com/rss/search?q={quote(query)}&hl={hl}&ceid={hl}"
+    try:
+        feed = feedparser.parse(rss_url)
+    except Exception:
+        return []
+
+    results = []
+    for e in feed.entries[:10]:
+        raw_title = e.get("title", "").strip()
+        if " - " in raw_title:
+            parts = raw_title.rsplit(" - ", 1)
+            title = parts[0].strip()
+            rss_source = parts[1].strip()
+        else:
+            title = raw_title
+            rss_source = ""
+
+        source_name = rss_source
+        source_url = ""
+        if "source" in e:
+            source_name = e.source.get("title", source_name)
+            source_url = e.source.get("href", "")
+
+        gn_link = e.get("link", "")
+        published = parse_date(e.get("published", ""))
+        article_lang = "zh" if "zh" in hl else detect_lang(title)
+        rss_summary = clean_html(e.get("summary", e.get("description", "")))
+
+        results.append({
+            "title": title,
+            "source": source_name,
+            "source_url": source_url,
+            "url": gn_link,
+            "published": published,
+            "summary": rss_summary,
+            "full_text": "",
+            "images": [],
+            "lang": article_lang,
+        })
+    return results
+
+
+# ==================== 标准化 ====================
+
+def normalize_article(a: dict) -> dict:
+    """确保文章拥有所有必需字段"""
+    defaults = {
+        "title": "", "source": "", "source_url": "", "url": "",
+        "published": "", "summary": "", "full_text": "", "images": [],
+        "lang": "zh", "title_cn": "", "summary_cn": "", "translated": False,
+    }
+    for k, v in defaults.items():
+        if k not in a:
+            a[k] = v
+
+    if not a.get("full_text") or len(a["full_text"]) < 80:
+        a["full_text"] = build_rich_fallback(
+            a.get("title", ""), a.get("source", ""),
+            a.get("published", ""), a.get("lang", "zh"),
+            a.get("title_cn", ""),
+        )
+    return a
+
+
+# ==================== 主流程 ====================
+
 def main():
     print("=" * 60)
-    print("📰 GPU 算力新闻抓取器 v3（多源+多引擎）")
-    print(f"   提取器: trafilatura={HAS_TRAF} newspaper3k={HAS_NEWS} bs4={HAS_BS4}")
-    print(f"   翻译器: {'✅' if HAS_TRANS else '❌'}")
+    print("GPU 算力租赁新闻抓取器 v4")
+    print(f"   feedparser={HAS_FEED} bs4={HAS_BS4} translate={'OK' if HAS_TRANS else 'NO'}")
     print("=" * 60)
 
-    all_news, seen_urls, seen_titles = [], set(), set()
+    all_news = []
+    seen_titles = set()
 
-    # 1. 全文本 RSS 源
-    print("\n📡 全文本 RSS 源:")
-    for url, source, lang in FULLTEXT_FEEDS:
-        print(f"   {source} ...")
-        for a in fetch_rss(url):
-            a["lang"] = lang
-            a["source"] = source
+    # ---- Step 1: Google News RSS ----
+    print("\nGoogle News RSS:")
+    for query, hl in GOOGLE_NEWS_QUERIES:
+        articles = fetch_google_news_rss(query, hl)
+        added = 0
+        for a in articles:
             key = a["title"][:60]
             if key not in seen_titles:
                 seen_titles.add(key)
                 all_news.append(a)
-        print(f"      ✅ {len(all_news)} 篇累计")
+                added += 1
+        print(f"   [{query[:45]}]: +{added} ({len(all_news)} total)")
 
-    # 2. Google News 搜索
-    print("\n🔍 Google News:")
-    for q, hl in GOOGLE_NEWS_QUERIES:
-        url = f"https://news.google.com/rss/search?q={quote(q)}&hl={hl}&ceid={hl}"
-        for a in fetch_rss(url):
-            a["lang"] = "zh" if "zh" in hl else "en"
-            key = a["title"][:60]
-            if key not in seen_titles and a["url"] not in seen_urls:
-                seen_titles.add(key)
-                seen_urls.add(a["url"])
-                all_news.append(a)
-        print(f"   {q}: {len(all_news)} 篇累计")
-
-    # 严格 GPU 算力相关过滤
-    MUST_HAVE = ["gpu", "算力"]  # 至少包含一个
-    RENTAL_KW = [
-        "rent", "租赁", "租", "price", "价格", "定价", "cost", "费用",
-        "cloud", "云", "cluster", "集群", "server", "服务器", "data center", "数据中心",
-        "期货", "futures", "market", "市场", "exchange", "交易",
-        "h100", "a100", "h200", "b200", "nvidia", "amd instinct", "tpu",
-        "coreweave", "vast.ai", "runpod", "lambda labs", "tensordock",
-        "compute", "computing", "infra", "infrastructure",
-    ]
+    # ---- Step 2: 相关性过滤 (rental AND compute) ----
     filtered = []
     for a in all_news:
-        text = (a["title"] + " " + a.get("summary", "") + " " + a.get("full_text", "")[:300]).lower()
-        if any(kw in text for kw in MUST_HAVE) and any(kw in text for kw in RENTAL_KW):
+        text = (a.get("title", "") + " " + a.get("summary", "")).lower()
+        has_rental = any(kw.lower() in text for kw in RENTAL_TERMS)
+        has_compute = any(kw.lower() in text for kw in COMPUTE_TERMS)
+        if has_rental and has_compute:
             filtered.append(a)
-    if len(filtered) >= 3:
+    if filtered:
         all_news = filtered
-    else:
-        all_news = all_news[:MAX_NEWS]  # 如果过滤后太少，保留原始
-    print(f"\n📋 {len(all_news)} 篇 GPU算力租赁相关 (严格过滤)")
+    print(f"\nAfter filter (rental AND compute): {len(all_news)} articles")
 
-    # 3. 对没有全文的文章进行提取
-    need_extract = [a for a in all_news if not a.get("full_text") or len(a["full_text"]) < 200]
-    if need_extract:
-        print(f"\n📄 文章提取 ({len(need_extract)} 篇需要)...")
-        for i, a in enumerate(need_extract):
-            full = extract_article(a["url"])
-            if full.get("full_text"):
-                a["full_text"] = full["full_text"]
-            if full.get("images"):
-                a["images"] = full["images"]
-            n = len(a.get("full_text", ""))
-            im = len(a.get("images", []))
-            print(f"   {i+1}. {a['title'][:35]}... ({n}字, {im}图)")
-
-    # 4. 翻译
-    en_articles = [a for a in all_news if a["lang"] == "en"]
+    # ---- Step 3: 翻译英文标题 ----
+    en_articles = [a for a in all_news if a.get("lang") == "en"]
     if HAS_TRANS and en_articles:
-        print(f"\n🌐 翻译 {len(en_articles)} 篇英文...")
+        print(f"\nTranslating {len(en_articles)} English titles...")
         for a in en_articles:
             a["title_cn"] = translate(a["title"])
-            a["summary_cn"] = translate(a["summary"]) if a.get("summary") else ""
-            full = a.get("full_text", "")
-            a["full_text_cn"] = translate(full) if len(full) > 200 else ""
+            a["summary_cn"] = translate(a.get("summary", "")) if a.get("summary") else ""
             a["translated"] = True
-            fc = len(a.get("full_text_cn", ""))
-            print(f"   ✅ {a['title'][:35]}... (全文{fc}字)")
+            print(f"   OK: {a['title'][:55]}...")
     else:
         for a in all_news:
-            a["title_cn"] = a["summary_cn"] = a["full_text_cn"] = ""
+            a["title_cn"] = a["summary_cn"] = ""
             a["translated"] = False
 
-    # 5. 合并旧新闻（不删除已有文章）
+    # ---- Step 4: 标准化 + 构建 fallback ----
+    for a in all_news:
+        normalize_article(a)
+
+    # ---- Step 5: 翻译英文 fallback 正文 ----
+    if HAS_TRANS:
+        for a in en_articles:
+            ft = a.get("full_text", "")
+            if ft and len(ft) < 1500:
+                translated_body = translate(ft)
+                if translated_body:
+                    a["full_text_cn"] = translated_body
+
+    # ---- Step 6: 合并旧数据 ----
     existing = []
     if OUTPUT.exists():
         try:
             raw = OUTPUT.read_text(encoding="utf-8")
             m = re.search(r'GPU_NEWS\s*=\s*(\[.*\]);', raw, re.DOTALL)
             if m:
-                existing = json.loads(m.group(1))
-                print(f"\n📚 已加载 {len(existing)} 篇旧新闻，将合并")
+                existing_data = json.loads(m.group(1))
+                for a in existing_data:
+                    normalize_article(a)
+                existing = existing_data
+                print(f"\nLoaded {len(existing)} existing articles")
         except Exception:
             pass
-    # 去重：按标题前60字符
+
     existing_titles = {a["title"][:60] for a in existing}
     new_added = 0
     for a in all_news:
         if a["title"][:60] not in existing_titles:
-            existing.insert(0, a)  # 新文章插到最前面
+            existing.insert(0, a)
             existing_titles.add(a["title"][:60])
             new_added += 1
-    # 保留最多 100 篇
-    existing.sort(key=lambda x: x.get("published", ""), reverse=True)
-    all_news = existing[:100]
-    print(f"   新增 {new_added} 篇，总计 {len(all_news)} 篇")
 
-    # 6. 过滤：只保留成功抓取到正文的文章
-    all_news = [a for a in all_news if a.get("full_text") and len(a["full_text"]) > 100]
-    print(f"   过滤无正文后: {len(all_news)} 篇")
-    en = sum(1 for a in all_news if a["lang"] == "en")
-    ft = sum(1 for a in all_news if a.get("full_text") and len(a["full_text"]) > 200)
-    im = sum(1 for a in all_news if a.get("images"))
+    # 排序：有真实正文的优先，然后按日期倒序
+    def sort_key(a: dict) -> tuple:
+        has_real_body = 1 if len(a.get("full_text", "")) > 1000 else 0
+        date_str = a.get("published", "")
+        return (has_real_body, date_str)
+    existing.sort(key=sort_key, reverse=True)
+    all_news = existing[:50]
+
+    if len(all_news) == 0 and existing:
+        print("   WARNING: no new articles, keeping existing data")
+        all_news = existing
+
+    print(f"   +{new_added} new, {len(all_news)} total")
+
+    # ---- Step 7: 统计 ----
+    zh = sum(1 for a in all_news if a.get("lang") == "zh")
+    en = sum(1 for a in all_news if a.get("lang") == "en")
     tr = sum(1 for a in all_news if a.get("translated"))
 
-    # 7. 统计
-    zh = sum(1 for a in all_news if a["lang"] == "zh")
-    en = sum(1 for a in all_news if a["lang"] == "en")
-    ft = sum(1 for a in all_news if a.get("full_text") and len(a["full_text"]) > 200)
-    im = sum(1 for a in all_news if a.get("images"))
-    tr = sum(1 for a in all_news if a.get("translated"))
-
-    # 8. 写入
-    t = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # ---- Step 8: 写入 news.js ----
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     with open(OUTPUT, "w", encoding="utf-8") as f:
-        f.write(f"// GPU 算力新闻 v3\n// 生成: {t}\n")
-        f.write(f"var NEWS_FETCHED_AT = \"{t}\";\nvar GPU_NEWS = ")
+        f.write(f"// GPU算力租赁新闻 v4\n// Generated: {ts}\n")
+        f.write(f"var NEWS_FETCHED_AT = \"{ts}\";\nvar GPU_NEWS = ")
         json.dump(all_news, f, indent=2, ensure_ascii=False)
         f.write(";\n")
 
-    print(f"\n{'='*60}")
-    print(f"✅ {OUTPUT.name}: {len(all_news)} 篇")
-    print(f"   中文{zh} | 英文{en} | 全文{ft} | 图片{im} | 翻译{tr}")
-    print(f"{'='*60}")
+    print(f"\n{'=' * 60}")
+    print(f"Done: {OUTPUT.name}  {len(all_news)} articles")
+    print(f"  CN:{zh}  EN:{en}  Translated:{tr}")
+    print(f"  Generated: {ts}")
+    print(f"{'=' * 60}")
 
 
 if __name__ == "__main__":
