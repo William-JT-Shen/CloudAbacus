@@ -103,9 +103,9 @@
       <style>
         .node { fill: url(#g); }
         .link { stroke: url(#g2); stroke-width:1.5; opacity:.5; }
-        .glow-edge { stroke:#fbbf24; stroke-width:2.5; stroke-linecap:round; opacity:0; }
+        .glow-edge { stroke:#fbbf24; stroke-width:2.5; stroke-linecap:round; opacity:0; transition: opacity .4s ease; }
         .glow-edge.active { opacity:1; }
-        .glow-halo { fill:url(#glowGrad); opacity:0; }
+        .glow-halo { fill:url(#glowGrad); opacity:0; transition: opacity 1s ease; }
         .glow-halo.on { opacity:1; }
       </style>
     </defs>
@@ -333,26 +333,29 @@
     var e=edges[k]; if(!e){ log('NOEDGE '+k); return; }
     var gel=document.getElementById(e.gid); if(!gel){ log('NOEL '+e.gid); return; }
 
-    // Set direction
+    // Set direction (x1,y1 = from, x2,y2 = to)
     var fc=coords[from],tc=coords[to];
     gel.setAttribute('x1',fc[0]); gel.setAttribute('y1',fc[1]);
     gel.setAttribute('x2',tc[0]); gel.setAttribute('y2',tc[1]);
     gel.setAttribute('stroke-dasharray',Math.round(e.len));
     gel.setAttribute('stroke-dashoffset',Math.round(e.len));
-    gel.classList.add('active');
-    log('edge:'+e.gid+' len='+Math.round(e.len));
+    gel.classList.add('active'); // edge appears (CSS transition opacity .4s)
+    
+    // Source node fades out as edge starts traveling (1s CSS transition)
+    setTimeout(function(){ halo(from,false); }, 200);
+    log('edge:'+e.gid+' srcFade:'+from);
 
-    // Animate dash with setInterval (60 steps over 3s)
+    // Animate dash traveling from->to over 3s (60 steps)
     var steps=60, i=0, iv=setInterval(function(){
       i++; var t=i/steps;
       var v=Math.round(e.len*(1 - (t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2)));
       gel.setAttribute('stroke-dashoffset',v);
       if(i>=steps){ clearInterval(iv);
-        // Edge reached target - light node
+        // Dash reached target -> light target node (CSS transition opacity 1s)
         halo(to,true);
         log('lit:'+to);
 
-        // Fade edge out (30 steps over 1.5s)
+        // Fade edge out (30 steps, dash slides past target)
         var j=0, iv2=setInterval(function(){
           j++; var t2=j/30;
           gel.setAttribute('stroke-dashoffset',Math.round(-e.len*(t2<.5?2*t2*t2:1-Math.pow(-2*t2+2,2)/2)));
@@ -361,7 +364,7 @@
           }
         },50);
 
-        // After 3s on node, next jump
+        // Node stays lit 3s, then fade out + next jump
         setTimeout(function(){ halo(to,false); jump(to); },3000);
       }
     },50);
