@@ -168,6 +168,7 @@
     <circle cx="100" cy="165" r="6" fill="url(#g)"/><circle cx="122" cy="165" r="6" fill="url(#g)" opacity=".7"/>
     <circle cx="145" cy="165" r="6" fill="url(#g)"/>
   </svg>
+  <div id="dbg" style="font-size:10px;color:#94a3b8;min-height:3em;margin-bottom:.5rem;font-family:monospace;max-width:400px;margin-left:auto;margin-right:auto;word-break:break-all"></div>
   <h1>云算盘 CloudAbacus</h1>
   <p class="subtitle">全球 GPU 算力平台看板 · 一站式查阅全球 GPU 租赁平台信息</p>
   <div class="buttons">
@@ -278,153 +279,99 @@
 </script>
 
 <script>
-// Logo smooth edge-travel glow animation
+// Logo animation with on-screen debug
 (function(){
-  var svg = document.getElementById('logo');
-  if(!svg) return;
+  var dbgEl=document.getElementById('dbg');
+  function log(m){ if(dbgEl)dbgEl.textContent=(dbgEl.textContent+m).slice(-300); console.log(m); }
 
-  var graph = {
-    n0: ['n1','n2','n3'],
-    n1: ['n0','n2','n5'],
-    n2: ['n0','n1','n3'],
-    n3: ['n0','n2','n6'],
-    n4: ['n5'],
-    n5: ['n1','n4','n6'],
-    n6: ['n3','n5','n7'],
-    n7: ['n6']
+  var svg=document.getElementById('logo');
+  if(!svg){ log('NO SVG'); return; }
+
+  var graph={
+    n0:['n1','n2','n3'], n1:['n0','n2','n5'], n2:['n0','n1','n3'],
+    n3:['n0','n2','n6'], n4:['n5'], n5:['n1','n4','n6'],
+    n6:['n3','n5','n7'], n7:['n6']
   };
+  var coords={ n0:[100,28],n1:[50,62],n2:[100,55],n3:[150,62], n4:[28,96],n5:[78,90],n6:[122,90],n7:[172,96] };
 
-  // Edge length computation
-  function edgeLen(ax,ay,bx,by) {
-    return Math.sqrt((bx-ax)*(bx-ax)+(by-ay)*(by-ay));
+  function halo(id,on){
+    var h=document.getElementById('h'+id.slice(1));
+    if(h){ if(on)h.classList.add('on'); else h.classList.remove('on'); }
   }
 
-  var nodeCoords = {
-    n0:[100,28], n1:[50,62], n2:[100,55], n3:[150,62],
-    n4:[28,96], n5:[78,90], n6:[122,90], n7:[172,96]
-  };
-
-  // Precompute edge lengths and glow-edge IDs
-  var edgeInfo = {};
-  Object.keys(graph).forEach(function(a) {
-    graph[a].forEach(function(b) {
-      var key = [a,b].sort().join('-');
-      if(edgeInfo[key]) return;
-      var ca = nodeCoords[a], cb = nodeCoords[b];
-      var len = edgeLen(ca[0],ca[1],cb[0],cb[1]);
-      var gid = 'g' + key.replace('n','').replace('-','');
-      edgeInfo[key] = {len:len, gid:gid, nodes:[a,b]};
-      // Set initial dasharray
-      var gel = document.getElementById(gid);
-      if(gel) { gel.setAttribute('stroke-dasharray',len); gel.setAttribute('stroke-dashoffset',len); }
+  // Precompute edges
+  var edges={};
+  Object.keys(graph).forEach(function(a){
+    graph[a].forEach(function(b){
+      var k=[a,b].sort().join('-');
+      if(edges[k])return;
+      var ca=coords[a],cb=coords[b];
+      var L=Math.sqrt((cb[0]-ca[0])**2+(cb[1]-ca[1])**2);
+      var gid='g'+k.replace(/n/g,'').replace(/-/g,'');
+      edges[k]={len:L, gid:gid};
+      var gel=document.getElementById(gid);
+      if(gel){ gel.setAttribute('stroke-dasharray',Math.round(L)); gel.setAttribute('stroke-dashoffset',Math.round(L)); }
     });
   });
+  log('edges:'+Object.keys(edges).length);
 
-  function glowEdgeKey(a,b) { return [a,b].sort().join('-'); }
+  var prev=null, cur=null;
 
-  var currentNode = null;
-  var prevNode = null;
-  var busy = false;
-
-  function setHalo(nodeId, on) {
-    var h = document.getElementById('h'+nodeId.slice(1));
-    if(h) {
-      if(on) h.classList.add('on');
-      else h.classList.remove('on');
-    }
+  function jump(from){
+    var nb=graph[from]||[];
+    var cand=nb.filter(function(n){return n!==prev;});
+    if(!cand.length) cand=nb;
+    if(!cand.length) cand=Object.keys(graph).filter(function(n){return n!==from;});
+    var to=cand[Math.floor(Math.random()*cand.length)];
+    log(from+'->'+to);
+    prev=from; cur=to;
+    glowEdge(from,to);
   }
 
-  // Simple step-based animation (no requestAnimationFrame for reliability)
-  function animateDash(gel, fromVal, toVal, duration, callback) {
-    var steps = 60, interval = duration / steps;
-    var current = 0, val = fromVal;
-    var timer = setInterval(function() {
-      current++;
-      var t = current / steps;
-      var e = t < 0.5 ? 2*t*t : 1 - Math.pow(-2*t + 2, 2) / 2; // ease-in-out
-      val = fromVal + (toVal - fromVal) * e;
-      gel.setAttribute('stroke-dashoffset', val);
-      if(current >= steps) {
-        clearInterval(timer);
-        gel.setAttribute('stroke-dashoffset', toVal);
-        if(callback) callback();
-      }
-    }, interval);
-  }
+  function glowEdge(from,to){
+    var k=[from,to].sort().join('-');
+    var e=edges[k]; if(!e){ log('NOEDGE '+k); return; }
+    var gel=document.getElementById(e.gid); if(!gel){ log('NOEL '+e.gid); return; }
 
-  function travelGlow(from, to) {
-    dbg('travelGlow '+from+' -> '+to);
-    var key = glowEdgeKey(from,to);
-    var info = edgeInfo[key];
-    if(!info) { dbg('  NO edgeInfo for '+key); return; }
-    dbg('  key='+key+' gid='+info.gid+' len='+Math.round(info.len));
-    var gel = document.getElementById(info.gid);
-    if(!gel) { dbg('  NO element '+info.gid); return; }
-
-    // Set edge direction from→to
-    var fc = nodeCoords[from], tc = nodeCoords[to];
-    gel.setAttribute('x1', fc[0]); gel.setAttribute('y1', fc[1]);
-    gel.setAttribute('x2', tc[0]); gel.setAttribute('y2', tc[1]);
-
-    // Init: dash hidden, edge becomes visible
-    gel.setAttribute('stroke-dasharray', Math.round(info.len));
-    gel.setAttribute('stroke-dashoffset', Math.round(info.len));
+    // Set direction
+    var fc=coords[from],tc=coords[to];
+    gel.setAttribute('x1',fc[0]); gel.setAttribute('y1',fc[1]);
+    gel.setAttribute('x2',tc[0]); gel.setAttribute('y2',tc[1]);
+    gel.setAttribute('stroke-dasharray',Math.round(e.len));
+    gel.setAttribute('stroke-dashoffset',Math.round(e.len));
     gel.classList.add('active');
-    dbg('  edge setup OK, starting dash animation');
+    log('edge:'+e.gid+' len='+Math.round(e.len));
 
-    // Phase 1: dash travels from→to (3s)
-    animateDash(gel, info.len, 0, 3000, function() {
-      dbg('  phase1 DONE, lighting node '+to);
-      setHalo(to, true);
+    // Animate dash with setInterval (60 steps over 3s)
+    var steps=60, i=0, iv=setInterval(function(){
+      i++; var t=i/steps;
+      var v=Math.round(e.len*(1 - (t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2)));
+      gel.setAttribute('stroke-dashoffset',v);
+      if(i>=steps){ clearInterval(iv);
+        // Edge reached target - light node
+        halo(to,true);
+        log('lit:'+to);
 
-      // Phase 2: fade dash away (1.5s)
-      animateDash(gel, 0, -info.len, 1500, function() {
-        dbg('  phase2 DONE, hiding edge');
-        gel.classList.remove('active');
-      });
+        // Fade edge out (30 steps over 1.5s)
+        var j=0, iv2=setInterval(function(){
+          j++; var t2=j/30;
+          gel.setAttribute('stroke-dashoffset',Math.round(-e.len*(t2<.5?2*t2*t2:1-Math.pow(-2*t2+2,2)/2)));
+          if(j>=30){ clearInterval(iv2); gel.classList.remove('active');
+            gel.setAttribute('stroke-dashoffset',Math.round(e.len));
+          }
+        },50);
 
-      // Phase 3: after 3s on node, next jump
-      setTimeout(function() {
-        dbg('  phase3: turning off '+to);
-        setHalo(to, false);
-        busy = false;
-        pickNext(to);
-      }, 3000);
-    });
+        // After 3s on node, next jump
+        setTimeout(function(){ halo(to,false); jump(to); },3000);
+      }
+    },50);
   }
 
-  function dbg(msg) { console.log('[LOGO]', msg); }
-
-  function pickNext(fromNode) {
-    dbg('pickNext from='+fromNode+' prev='+prevNode);
-    var neighbors = graph[fromNode] || [];
-    var candidates = neighbors.filter(function(n) { return n !== prevNode; });
-    dbg('  neighbors='+JSON.stringify(neighbors)+' candidates='+JSON.stringify(candidates));
-    if(candidates.length === 0) candidates = neighbors;
-    if(candidates.length === 0) {
-      candidates = Object.keys(graph).filter(function(n) { return n !== fromNode; });
-    }
-    var next = candidates[Math.floor(Math.random() * candidates.length)];
-    dbg('  next='+next);
-    prevNode = fromNode;
-    currentNode = next;
-    busy = true;
-    travelGlow(fromNode, next);
-  }
-
-  // Start: light up a random node first
-  var allNodes = Object.keys(graph);
-  var start = allNodes[Math.floor(Math.random() * allNodes.length)];
-  currentNode = start;
-  dbg('start='+start);
-  setHalo(start, true);
-
-  // After 3s, first jump
-  setTimeout(function() {
-    dbg('initial timeout: turning off '+start);
-    setHalo(start, false);
-    pickNext(start);
-  }, 3000);
+  // Start
+  var all=Object.keys(graph);
+  var s=all[Math.floor(Math.random()*all.length)];
+  cur=s; halo(s,true); log('START:'+s);
+  setTimeout(function(){ halo(s,false); jump(s); },3000);
 })();
 </script>
 
