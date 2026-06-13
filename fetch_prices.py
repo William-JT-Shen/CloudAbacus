@@ -482,10 +482,11 @@ def scrape_matpool_playwright() -> list[dict]:
 # 通用平台爬虫（requests 模式 or Playwright fallback）
 # ============================================================
 
-def scrape_generic(name: str, url: str, use_pw: bool = False) -> list[dict]:
+def scrape_generic(name: str, url: str, use_pw: bool = False,
+                   pw_fallback: bool = False) -> list[dict]:
     """
-    通用爬虫：先尝试 requests，如果设了 use_pw 则用 Playwright。
-    适用于大多数静态定价页面。
+    通用爬虫：默认用 requests，如果 use_pw=True 则用 Playwright。
+    若 pw_fallback=True 且 requests 失败，自动回退到 Playwright。
     """
     print(f"🔍 {name} ...")
     if use_pw:
@@ -500,12 +501,26 @@ def scrape_generic(name: str, url: str, use_pw: bool = False) -> list[dict]:
     # requests 模式
     html = get(url)
     if not html:
+        if pw_fallback:
+            # 回退到 Playwright
+            print(f"  🔄 requests 失败，回退到 Playwright ...")
+            results = scrape_with_playwright(url, name, wait_sec=6, wait_until="networkidle")
+            if results:
+                mark_ok(name, len(results))
+                return results
         return mark_failed(name, "无法访问定价页面")
 
     results = extract_prices(html, COMMON_GPUS)
     if results:
         mark_ok(name, len(results))
         return results
+    # 如果 requests 提取不到数据且允许回退，尝试 Playwright
+    if pw_fallback:
+        print(f"  🔄 requests 未提取到数据，回退到 Playwright ...")
+        results = scrape_with_playwright(url, name, wait_sec=6, wait_until="networkidle")
+        if results:
+            mark_ok(name, len(results))
+            return results
     mark_failed(name, "未能解析价格数据")
     return []
 
@@ -650,7 +665,7 @@ def main():
                         continue
                 else:
                     # 通用爬虫
-                    results = scrape_generic(name, url, use_pw=use_pw)
+                    results = scrape_generic(name, url, use_pw=(use_pw and needs_pw), pw_fallback=use_pw)
 
                 if results:
                     all_data[name] = results
