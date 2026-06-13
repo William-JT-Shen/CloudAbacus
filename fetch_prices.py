@@ -243,13 +243,13 @@ def normalize_gpu_name(raw: str) -> str:
 # ============================================================
 
 def scrape_lambda():
-    """Lambda Labs: 修复版 - 多 URL 回退"""
-    print("🔍 Lambda Labs ...")
+    """Lambda Labs → lambda.ai: 域名已迁移，多 URL 回退"""
+    print("🔍 Lambda Labs (lambda.ai) ...")
     urls = [
+        "https://lambda.ai/pricing",
+        "https://lambdalabs.com/pricing",
         "https://lambdalabs.com/service/gpu-cloud/pricing",
         "https://lambdalabs.com/gpu-cloud",
-        "https://lambdalabs.com/service/gpu-cloud",
-        "https://lambdalabs.com/pricing",
     ]
     html = None
     for url in urls:
@@ -257,13 +257,13 @@ def scrape_lambda():
         if html:
             break
     if not html:
-        return mark_failed("Lambda Labs", "所有 URL 均无法访问")
+        return mark_failed("Lambda Labs", "所有 URL 均无法访问 (lambda.ai 需 JS 渲染)")
 
     results = extract_prices(html, COMMON_GPUS)
     if results:
         mark_ok("Lambda Labs", len(results))
         return results
-    mark_failed("Lambda Labs", "未能解析价格数据（页面结构可能变更）")
+    mark_failed("Lambda Labs", "未能解析价格数据（SPA 页面需 Playwright 渲染）")
     return []
 
 
@@ -417,34 +417,40 @@ def scrape_vast_playwright() -> list[dict]:
 
 
 def scrape_lambda_playwright() -> list[dict]:
-    """Lambda Labs: Playwright 修复版 - networkidle + 更长等待"""
-    print("🔍 Lambda Labs (Playwright) ...")
+    """Lambda.ai: Playwright 修复版 — 域名已迁移到 lambda.ai"""
+    print("🔍 Lambda Labs (lambda.ai Playwright) ...")
     urls = [
+        "https://lambda.ai/pricing",
+        "https://lambdalabs.com/pricing",
         "https://lambdalabs.com/service/gpu-cloud/pricing",
-        "https://lambdalabs.com/gpu-cloud",
-        "https://lambdalabs.com/service/gpu-cloud",
     ]
     for url in urls:
         results = scrape_with_playwright(url, "Lambda Labs",
-                                          wait_sec=8, wait_until="networkidle")
+                                          wait_sec=12, wait_until="domcontentloaded")
         if results:
             mark_ok("Lambda Labs", len(results))
             return results
     if scrape_log.get("Lambda Labs", {}).get("status") != "failed":
-        mark_failed("Lambda Labs", "所有 URL 均未提取到价格数据")
+        mark_failed("Lambda Labs", "所有 URL 均未提取到价格数据（SPA 动态加载，可能需要更长的等待时间）")
     return []
 
 
 def scrape_datacrunch_playwright() -> list[dict]:
-    """DataCrunch: Playwright 抓取"""
-    print("🔍 DataCrunch (Playwright) ...")
-    results = scrape_with_playwright("https://datacrunch.io/pricing", "DataCrunch",
-                                      wait_sec=6, wait_until="networkidle")
-    if results:
-        mark_ok("DataCrunch", len(results))
-        return results
+    """DataCrunch → Verda: 已更名为 verda.com"""
+    print("🔍 DataCrunch/Verda (Playwright) ...")
+    urls = [
+        "https://verda.com/pricing",
+        "https://datacrunch.io/pricing",
+        "https://verda.com/gpu-cloud",
+    ]
+    for url in urls:
+        results = scrape_with_playwright(url, "DataCrunch",
+                                          wait_sec=10, wait_until="domcontentloaded")
+        if results:
+            mark_ok("DataCrunch", len(results))
+            return results
     if scrape_log.get("DataCrunch", {}).get("status") != "failed":
-        mark_failed("DataCrunch", "未提取到价格数据")
+        mark_failed("DataCrunch", "Verda 页面未提取到价格数据（可能需要更长的 JS 等待时间）")
     return []
 
 
@@ -532,16 +538,16 @@ def scrape_generic(name: str, url: str, use_pw: bool = False,
 # 按优先级排序：越靠前越重要
 
 CORE_PLATFORMS = [
-    # --- 核心高频平台 (每个周期都抓) ---
-    ("Vast.ai",      "https://vast.ai/pricing",                    True),
-    ("RunPod",       "https://www.runpod.io/pricing",              False),
-    ("Lambda Labs",  "https://lambdalabs.com/service/gpu-cloud/pricing", True),
-    ("CoreWeave",    "https://www.coreweave.com/pricing",          False),
-    ("TensorDock",   "https://www.tensordock.com/",               False),
-    ("Paperspace",   "https://www.paperspace.com/pricing",         False),
-    ("JarvisLabs",   "https://jarvislabs.ai/pricing/",            False),
-    ("DataCrunch",   "https://datacrunch.io/pricing",             True),
-    ("AutoDL",       "https://www.autodl.com/price",              True),
+    ("Vast.ai",      "https://vast.ai/pricing",                              True),
+    ("RunPod",       "https://www.runpod.io/pricing",                        False),
+    ("Lambda Labs",  "https://lambda.ai/pricing",                            True),
+    ("CoreWeave",    "https://www.coreweave.com/pricing",                    False),
+    ("TensorDock",   "https://www.tensordock.com/",                          False),
+    ("Paperspace",   "https://www.paperspace.com/pricing",                   False),
+    ("JarvisLabs",   "https://jarvislabs.ai/pricing/",                       False),
+    ("DataCrunch",   "https://verda.com/pricing",                            True),
+    # AutoDL 需要中国大陆 IP 才能访问，GitHub Actions 环境下自动跳过
+    # ("AutoDL",     "https://www.autodl.com/price",                         True),
 ]
 
 EXTENDED_PLATFORMS = [
