@@ -336,6 +336,24 @@
     }
   }
 
+  // RAF-based animation (no CSS transition, works everywhere)
+  function animateDash(gel, fromVal, toVal, duration, easing, callback) {
+    var start = performance.now();
+    function step(ts) {
+      var t = Math.min((ts - start) / duration, 1);
+      // ease-in-out
+      var e = t < 0.5 ? 2*t*t : 1 - Math.pow(-2*t + 2, 2) / 2;
+      gel.setAttribute('stroke-dashoffset', fromVal + (toVal - fromVal) * e);
+      if(t < 1) {
+        requestAnimationFrame(step);
+      } else {
+        gel.setAttribute('stroke-dashoffset', toVal);
+        if(callback) callback();
+      }
+    }
+    requestAnimationFrame(step);
+  }
+
   function travelGlow(from, to) {
     var key = glowEdgeKey(from,to);
     var info = edgeInfo[key];
@@ -343,39 +361,33 @@
     var gel = document.getElementById(info.gid);
     if(!gel) return;
 
-    // Ensure glow edge x1,y1 matches 'from' so dash travels from→to
+    // Set edge direction from→to
     var fc = nodeCoords[from], tc = nodeCoords[to];
     gel.setAttribute('x1', fc[0]); gel.setAttribute('y1', fc[1]);
     gel.setAttribute('x2', tc[0]); gel.setAttribute('y2', tc[1]);
 
-    // Set dash pattern (attribute is fine, not animated)
+    // Init: dash hidden at 'from' end, edge becomes visible
     gel.setAttribute('stroke-dasharray', info.len);
-    // Set initial offset via STYLE (so CSS transition can see it)
-    gel.style.transition = 'none';
-    gel.style.strokeDashoffset = info.len;
-    gel.classList.add('active'); // show gold edge
+    gel.setAttribute('stroke-dashoffset', info.len);
+    gel.classList.add('active');
 
-    // Phase 1: dash travels from→to over 3s (animate CSS property)
-    requestAnimationFrame(function() {
-      gel.style.transition = 'stroke-dashoffset 3s ease-in-out';
-      gel.style.strokeDashoffset = '0';
-    });
-
-    // Phase 2 (after 3s): edge reached target → light node, fade edge
-    setTimeout(function() {
+    // Phase 1: dash travels from→to (3s)
+    animateDash(gel, info.len, 0, 3000, 'ease-in-out', function() {
+      // Phase 2: dash reached target → light node
       setHalo(to, true);
-      gel.style.transition = 'stroke-dashoffset 1.5s ease-out, opacity 0.6s ease-out';
-      gel.style.strokeDashoffset = -info.len;
-      // After edge faded, hide it
-      setTimeout(function() { gel.classList.remove('active'); }, 600);
 
-      // Phase 3 (after 3s): node glow done → pick next
+      // Phase 2b: fade dash away past target (1.5s)
+      animateDash(gel, 0, -info.len, 1500, 'ease-out', function() {
+        gel.classList.remove('active');
+      });
+
+      // Phase 3: after 3s total on node, pick next
       setTimeout(function() {
         setHalo(to, false);
         busy = false;
         pickNext(to);
       }, 3000);
-    }, 3000);
+    });
   }
 
   function pickNext(fromNode) {
