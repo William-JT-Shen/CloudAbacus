@@ -271,7 +271,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.51
+            "price_usd": 0.49
           }
         ],
         "RTX 5080": [
@@ -283,7 +283,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5070 TI": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.17
+            "price_usd": 0.16
           }
         ],
         "RTX 5070": [
@@ -331,7 +331,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3090 / 3090 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.23
+            "price_usd": 0.21
           }
         ],
         "NVIDIA RTX 3080 / 3080 Ti": [
@@ -389,7 +389,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.87
+            "price_usd": 0.84
           },
           {
             "platform": "JarvisLabs",
@@ -408,20 +408,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.29
           }
         ],
-        "NVIDIA L40S": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.8
-          },
-          {
-            "platform": "CoreWeave",
-            "price_usd": 2.25
-          }
-        ],
         "RTX 2080": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.13
+          }
+        ],
+        "NVIDIA L40S": [
+          {
+            "platform": "CoreWeave",
+            "price_usd": 2.25
           }
         ],
         "NVIDIA GH200": [
