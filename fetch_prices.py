@@ -532,6 +532,62 @@ def scrape_generic(name: str, url: str, use_pw: bool = False,
 
 
 # ============================================================
+# 平台 → 定价页面 URL 映射
+# ============================================================
+# 用于 "历史走势" 和 "查看价格" 链接，直接跳转到该平台的 GPU 价格文档
+PRICING_URLS = {
+    # --- 核心平台 ---
+    "Vast.ai":          "https://vast.ai/pricing",
+    "RunPod":           "https://www.runpod.io/pricing",
+    "Lambda Labs":      "https://lambda.ai/pricing",
+    "CoreWeave":        "https://www.coreweave.com/pricing",
+    "TensorDock":       "https://www.tensordock.com/cloud-gpus.html",
+    "Paperspace":       "https://www.paperspace.com/pricing",
+    "JarvisLabs":       "https://jarvislabs.ai/pricing/",
+    "DataCrunch":       "https://verda.com/pricing",
+    "AutoDL":           "https://www.autodl.com/price",
+    "Matpool":          "https://matpool.com/pricing",
+
+    # --- 欧洲平台 ---
+    "Hetzner":          "https://www.hetzner.com/cloud/gpu/",
+    "OVHcloud":         "https://www.ovhcloud.com/en/public-cloud/prices/",
+    "Scaleway":         "https://www.scaleway.com/en/gpu-instances/",
+    "Genesis Cloud":    "https://genesiscloud.com/pricing",
+    "NexGen Cloud":     "https://www.nexgencloud.com/pricing",
+    "Cudo Compute":     "https://www.cudocompute.com/products/virtual-machines",
+    "G-Core Labs":      "https://gcore.com/cloud/gpu-cloud",
+    "Cherry Servers":   "https://www.cherryservers.com/pricing/gpu-servers",
+    "LeaderGPU":        "https://www.leadergpu.com/pricing",
+    "Leaseweb":         "https://www.leaseweb.com/en/dedicated-servers/gpu",
+    "Hostkey":          "https://www.hostkey.com/gpu-servers",
+    "UpCloud":          "https://upcloud.com/pricing/",
+    "Exoscale":         "https://www.exoscale.com/gpu/",
+    "21Cloud":          "https://www.21cloud.com/cloud/gpu-cloud",
+    "Servers.com":      "https://www.servers.com/gpu-servers/",
+    "Mystic AI":        "https://mystic.ai/pricing",
+
+    # --- 北美平台 ---
+    "DigitalOcean":     "https://www.digitalocean.com/pricing/gpu-droplets",
+    "Vultr":            "https://www.vultr.com/products/cloud-gpu/",
+    "FluidStack":       "https://www.fluidstack.io/pricing",
+    "Massed Compute":   "https://www.massedcompute.com/pricing",
+    "Salad":            "https://salad.com/pricing",
+    "Hivelocity":       "https://www.hivelocity.net/products/gpu-servers/",
+    "SabrePC":          "https://www.sabrepc.com/hpc-cloud",
+    "Bizon":            "https://bizon.ai/pricing",
+    "DataPacket":       "https://www.datapacket.com/gpu-hosting",
+    "ServerMania":      "https://www.servermania.com/gpu-servers.htm",
+    "Monster API":      "https://monsterapi.ai/pricing",
+    "Cerebrium":        "https://www.cerebrium.ai/pricing",
+
+    # --- 大厂平台 ---
+    "Google Cloud":     "https://cloud.google.com/compute/gpus-pricing",
+    "IBM Cloud":        "https://www.ibm.com/cloud/gpu",
+    "Oracle Cloud":     "https://www.oracle.com/cloud/compute/pricing/",
+}
+
+
+# ============================================================
 # 平台注册表
 # ============================================================
 # 格式: (平台名, URL, 是否需要 Playwright)
@@ -542,7 +598,7 @@ CORE_PLATFORMS = [
     ("RunPod",       "https://www.runpod.io/pricing",                        False),
     ("Lambda Labs",  "https://lambda.ai/pricing",                            True),
     ("CoreWeave",    "https://www.coreweave.com/pricing",                    False),
-    ("TensorDock",   "https://www.tensordock.com/",                          False),
+    ("TensorDock",   "https://www.tensordock.com/cloud-gpus.html",             False),
     ("Paperspace",   "https://www.paperspace.com/pricing",                   False),
     ("JarvisLabs",   "https://jarvislabs.ai/pricing/",                       False),
     ("DataCrunch",   "https://verda.com/pricing",                            True),
@@ -557,7 +613,7 @@ EXTENDED_PLATFORMS = [
     ("Scaleway",        "https://www.scaleway.com/en/gpu-instances/",        False),
     ("Genesis Cloud",   "https://genesiscloud.com/pricing",                  False),
     ("NexGen Cloud",    "https://www.nexgencloud.com/pricing",               False),
-    ("Cudo Compute",    "https://www.cudocompute.com/",                      False),
+    ("Cudo Compute",    "https://www.cudocompute.com/products/virtual-machines", False),
     ("G-Core Labs",     "https://gcore.com/cloud/gpu-cloud",                 False),
     ("Cherry Servers",  "https://www.cherryservers.com/pricing/gpu-servers", False),
     ("LeaderGPU",       "https://www.leadergpu.com/pricing",                 False),
@@ -691,6 +747,7 @@ def main():
             label = entry["gpu"]
             if label not in gpu_categories:
                 gpu_categories[label] = []
+            pricing_url = PRICING_URLS.get(plat_name, "")
             gpu_categories[label].append({
                 "platform": plat_name,
                 "price_usd": entry["price_usd"],
@@ -698,7 +755,7 @@ def main():
                 "country": "",
                 "region": "",
                 "note": f"🟢 实时抓取 · {fetched_at}",
-                "pricing_url": "",
+                "pricing_url": pricing_url,
                 "source": "scraped"
             })
 
@@ -797,7 +854,7 @@ def main():
 
 # 重导出旧版函数引用以兼容 main() 中的 custom_scrapers 字典
 scrape_coreweave = lambda: scrape_generic("CoreWeave", "https://www.coreweave.com/pricing")
-scrape_tensordock = lambda: scrape_generic("TensorDock", "https://www.tensordock.com/")
+scrape_tensordock = lambda: scrape_generic("TensorDock", "https://www.tensordock.com/cloud-gpus.html")
 scrape_datacrunch = lambda: scrape_generic("DataCrunch", "https://datacrunch.io/pricing")
 scrape_paperspace = lambda: scrape_generic("Paperspace", "https://www.paperspace.com/pricing")
 scrape_jarvislabs = lambda: scrape_generic("JarvisLabs", "https://jarvislabs.ai/pricing/")

@@ -260,6 +260,8 @@
       width: 100%; height: 55px; margin: 0.2rem 0;
       position: relative;
     }
+    .pc-sparkline-clickable { cursor: pointer; border-radius: 6px; transition: background 0.2s; }
+    .pc-sparkline-clickable:hover { background: rgba(139, 92, 246, 0.08); }
     .price-card .pc-sparkline svg { width: 100%; height: 100%; display: block; }
     .price-card .pc-price-row {
       display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem;
@@ -781,21 +783,23 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
         rangeHtml = '<div class="pc-range"><span>📉 最低 ' + formatPrice(hMin) + '</span><span>📈 最高 ' + formatPrice(hMax) + '</span></div>';
       }
 
+      var pricingUrl = row.pricing_url || '';
+      var histUrl = pricingUrl || row.website || '';
+      var sparklineClickable = (histPoints.length >= 2) ? ' pc-sparkline-clickable' : '';
       html += '<div class="price-card">' +
         '<div class="pc-header">' +
           '<div class="pc-platform">' + esc(row.platform) + (row._live ? ' <span style="font-size:0.6rem;background:rgba(16,185,129,0.2);color:#34d399;padding:1px 4px;border-radius:6px;">🟢实时</span>' : '') + '</div>' +
           '<div class="pc-country">' + getFlag(row.country) + ' ' + esc(row.country || '') + '</div>' +
         '</div>' +
         '<span class="pc-gpu">' + esc(currentGpu) + '</span>' +
-        '<div class="pc-sparkline">' + (sparkline || '<div style="color:var(--text-secondary);font-size:0.7rem;text-align:center;padding-top:18px;">历史数据不足</div>') + '</div>' +
+        '<div class="pc-sparkline' + sparklineClickable + '" data-gpu="' + esc(currentGpu) + '" data-platform="' + esc(row.platform) + '" title="点击查看历史价格走势">' + (sparkline || '<div style="color:var(--text-secondary);font-size:0.7rem;text-align:center;padding-top:18px;">历史数据不足</div>') + '</div>' +
         '<div class="pc-price-row">' +
           '<span class="pc-price">' + priceDisplay + '</span>' +
           changeHtml +
         '</div>' +
         rangeHtml +
         '<div class="pc-links">' +
-          '<a href="' + esc(row.pricing_url) + '" target="_blank" rel="noopener" class="pc-link-web">🌐 官网</a>' +
-          '<a href="javascript:void(0)" class="pc-link-price pc-hist-btn" data-gpu="' + esc(currentGpu) + '" data-platform="' + esc(row.platform) + '">📈 历史走势</a>' +
+          (histUrl ? '<a href="' + esc(histUrl) + '" target="_blank" rel="noopener" class="pc-link-price" title="查看该平台 GPU 价格文档">📈 价格文档</a>' : '') +
         '</div>' +
       '</div>';
     });
@@ -1021,13 +1025,13 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
     document.getElementById('btnCardView2').addEventListener('click', function() { switchView('card'); });
     document.getElementById('btnTableView2').addEventListener('click', function() { switchView('table'); });
 
-    // 历史图表按钮（事件委托）
+    // 历史图表按钮（事件委托）—— 点击 sparkline 打开历史走势弹窗
     document.getElementById('cardGrid').addEventListener('click', function(e) {
-      var btn = e.target.closest('.pc-hist-btn');
-      if (!btn) return;
+      var sparkline = e.target.closest('.pc-sparkline-clickable');
+      if (!sparkline) return;
       e.preventDefault();
-      var gpu = btn.getAttribute('data-gpu');
-      var plat = btn.getAttribute('data-platform');
+      var gpu = sparkline.getAttribute('data-gpu');
+      var plat = sparkline.getAttribute('data-platform');
       if (gpu && plat) window.__openHistChart(gpu, plat);
     });
 

@@ -7,14 +7,14 @@ var GPU_PRICING = {
 
   // ==================== NVIDIA H100 / H200 ====================
   "NVIDIA H100 (80GB SXM)": [
-    { platform: "Lambda Labs", price_usd: 2.49, plan: "按需", country: "美国", region: "北美", note: "预装 DL 框架", pricing_url: "https://lambdalabs.com/service/gpu-cloud/pricing" },
+    { platform: "Lambda Labs", price_usd: 2.49, plan: "按需", country: "美国", region: "北美", note: "预装 DL 框架", pricing_url: "https://lambda.ai/pricing" },
     { platform: "RunPod (Secure Cloud)", price_usd: 2.69, plan: "按需", country: "美国", region: "北美", note: "企业级安全云", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "RunPod (Community Cloud)", price_usd: 1.99, plan: "社区云", country: "美国", region: "北美", note: "性价比方案", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "Vast.ai", price_usd: 1.50, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "去中心化市场，价格实时波动", pricing_url: "https://vast.ai/pricing" },
-    { platform: "TensorDock", price_usd: 1.40, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "裸金属即时部署", pricing_url: "https://www.tensordock.com/pricing" },
+    { platform: "TensorDock", price_usd: 1.40, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "裸金属即时部署", pricing_url: "https://www.tensordock.com/cloud-gpus.html" },
     { platform: "CoreWeave", price_usd: 2.06, plan: "按需", country: "美国", region: "北美", note: "Kubernetes 原生 GPU 云", pricing_url: "https://www.coreweave.com/pricing" },
     { platform: "Paperspace", price_usd: 3.18, plan: "按需", country: "美国", region: "北美", note: "集成 Gradient 笔记本", pricing_url: "https://www.paperspace.com/pricing" },
-    { platform: "DataCrunch", price_usd: 2.10, plan: "按需", country: "芬兰", region: "欧洲", note: "欧洲高性价比 GPU 云", pricing_url: "https://datacrunch.io/pricing" },
+    { platform: "DataCrunch", price_usd: 2.10, plan: "按需", country: "芬兰", region: "欧洲", note: "欧洲高性价比 GPU 云", pricing_url: "https://verda.com/pricing" },
     { platform: "FluidStack", price_usd: 1.80, plan: "按需", country: "英国/美国", region: "北美", note: "液冷服务器集群", pricing_url: "https://www.fluidstack.io/pricing" },
     { platform: "Massed Compute", price_usd: 1.70, plan: "按需", country: "美国", region: "北美", note: "大内存配置可选", pricing_url: "https://www.massedcompute.com/pricing" },
     { platform: "Genesis Cloud", price_usd: 2.50, plan: "按需", country: "冰岛/德国", region: "欧洲", note: "100%可再生能源", pricing_url: "https://genesiscloud.com/pricing" },
@@ -34,13 +34,13 @@ var GPU_PRICING = {
     { platform: "Hetzner", price_usd: 2.20, plan: "按需", country: "德国", region: "欧洲", note: "德国高性价比方案", pricing_url: "https://www.hetzner.com/cloud/gpu/" },
     { platform: "IBM Cloud", price_usd: null, plan: "询价", country: "美国", region: "北美", note: "企业级 GPU 裸金属，需联系销售", pricing_url: "https://www.ibm.com/cloud/gpu" },
     { platform: "Oracle Cloud Infrastructure", price_usd: 3.00, plan: "按需", country: "美国", region: "北美", note: "低延迟 RDMA 网络", pricing_url: "https://www.oracle.com/cloud/compute/pricing/" },
-    { platform: "Cudo Compute", price_usd: 1.90, plan: "市场浮动价", country: "英国", region: "欧洲", note: "去中心化云市场", pricing_url: "https://www.cudocompute.com/#pricing" },
+    { platform: "Cudo Compute", price_usd: 1.90, plan: "市场浮动价", country: "英国", region: "欧洲", note: "去中心化云市场", pricing_url: "https://www.cudocompute.com/products/virtual-machines" },
     { platform: "Cirrascale", price_usd: null, plan: "询价", country: "美国", region: "北美", note: "大规模 GPU 集群，需联系销售", pricing_url: "https://www.cirrascale.com/cloud-services/" },
     { platform: "AutoDL", price_usd: 3.20, plan: "按需", country: "中国", region: "亚太", note: "国内领先 GPU 租赁，预装 DL 环境", pricing_url: "https://www.autodl.com/price" }
   ],
 
   "NVIDIA H200": [
-    { platform: "Lambda Labs", price_usd: 3.29, plan: "按需", country: "美国", region: "北美", note: "最新一代 H200 GPU", pricing_url: "https://lambdalabs.com/service/gpu-cloud/pricing" },
+    { platform: "Lambda Labs", price_usd: 3.29, plan: "按需", country: "美国", region: "北美", note: "最新一代 H200 GPU", pricing_url: "https://lambda.ai/pricing" },
     { platform: "CoreWeave", price_usd: 2.80, plan: "按需", country: "美国", region: "北美", note: "大规模 H200 集群", pricing_url: "https://www.coreweave.com/pricing" },
     { platform: "AWS (Amazon EC2)", price_usd: 5.50, plan: "按需(p5e)", country: "美国", region: "北美", note: "即将大规模可用", pricing_url: "https://aws.amazon.com/ec2/pricing/on-demand/" },
     { platform: "NVIDIA DGX Cloud", price_usd: 6.00, plan: "全托管（起）", country: "美国", region: "北美", note: "DGX GB200 系统", pricing_url: "https://www.nvidia.com/en-us/data-center/dgx-cloud/" },
@@ -49,14 +49,14 @@ var GPU_PRICING = {
 
   // ==================== NVIDIA A100 ====================
   "NVIDIA A100 (80GB SXM)": [
-    { platform: "Lambda Labs", price_usd: 1.29, plan: "按需", country: "美国", region: "北美", note: "性价比突出的 A100", pricing_url: "https://lambdalabs.com/service/gpu-cloud/pricing" },
+    { platform: "Lambda Labs", price_usd: 1.29, plan: "按需", country: "美国", region: "北美", note: "性价比突出的 A100", pricing_url: "https://lambda.ai/pricing" },
     { platform: "RunPod (Secure Cloud)", price_usd: 1.69, plan: "按需", country: "美国", region: "北美", note: "企业安全云", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "RunPod (Community Cloud)", price_usd: 1.29, plan: "社区云", country: "美国", region: "北美", note: "高性价比", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "Vast.ai", price_usd: 0.50, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "全球最低 A100 价格之一", pricing_url: "https://vast.ai/pricing" },
-    { platform: "TensorDock", price_usd: 0.80, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "裸金属即时部署", pricing_url: "https://www.tensordock.com/pricing" },
+    { platform: "TensorDock", price_usd: 0.80, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "裸金属即时部署", pricing_url: "https://www.tensordock.com/cloud-gpus.html" },
     { platform: "CoreWeave", price_usd: 1.20, plan: "按需", country: "美国", region: "北美", note: "Kubernetes 原生", pricing_url: "https://www.coreweave.com/pricing" },
     { platform: "Paperspace", price_usd: 1.79, plan: "按需", country: "美国", region: "北美", note: "含 Gradient 平台", pricing_url: "https://www.paperspace.com/pricing" },
-    { platform: "DataCrunch", price_usd: 1.10, plan: "按需", country: "芬兰", region: "欧洲", note: "欧洲低价 GPU 云", pricing_url: "https://datacrunch.io/pricing" },
+    { platform: "DataCrunch", price_usd: 1.10, plan: "按需", country: "芬兰", region: "欧洲", note: "欧洲低价 GPU 云", pricing_url: "https://verda.com/pricing" },
     { platform: "Genesis Cloud", price_usd: 0.90, plan: "按需", country: "冰岛/德国", region: "欧洲", note: "100%可再生能源", pricing_url: "https://genesiscloud.com/pricing" },
     { platform: "FluidStack", price_usd: 1.10, plan: "按需", country: "英国/美国", region: "北美", note: "液冷 GPU 集群", pricing_url: "https://www.fluidstack.io/pricing" },
     { platform: "Massed Compute", price_usd: 1.20, plan: "按需", country: "美国", region: "北美", note: "大内存配置", pricing_url: "https://www.massedcompute.com/pricing" },
@@ -69,7 +69,7 @@ var GPU_PRICING = {
     { platform: "阿里云 (Alibaba Cloud)", price_usd: 2.80, plan: "按需", country: "中国", region: "亚太", note: "亚洲区域覆盖广", pricing_url: "https://www.alibabacloud.com/product/ecs/pricing" },
     { platform: "DigitalOcean", price_usd: 2.00, plan: "按需(GPU Droplets)", country: "美国", region: "北美", note: "Paperspace 集成", pricing_url: "https://www.digitalocean.com/pricing/gpu-droplets" },
     { platform: "Vultr", price_usd: 1.90, plan: "按需", country: "美国", region: "北美", note: "全球多区域", pricing_url: "https://www.vultr.com/products/cloud-gpu/#pricing" },
-    { platform: "Cudo Compute", price_usd: 0.85, plan: "市场浮动价", country: "英国", region: "欧洲", note: "去中心化云", pricing_url: "https://www.cudocompute.com/#pricing" },
+    { platform: "Cudo Compute", price_usd: 0.85, plan: "市场浮动价", country: "英国", region: "欧洲", note: "去中心化云", pricing_url: "https://www.cudocompute.com/products/virtual-machines" },
     { platform: "腾讯云 (Tencent Cloud)", price_usd: 2.50, plan: "按需", country: "中国", region: "亚太", note: "GN 系列 GPU 实例", pricing_url: "https://buy.cloud.tencent.com/price/cvm/overview" },
     { platform: "华为云 (Huawei Cloud)", price_usd: 2.40, plan: "按需", country: "中国", region: "亚太", note: "集成 ModelArts", pricing_url: "https://www.huaweicloud.com/intl/en-us/pricing.html#/ecs" },
     { platform: "百度智能云 (Baidu AI Cloud)", price_usd: 2.30, plan: "按需", country: "中国", region: "亚太", note: "含昆仑芯片选项", pricing_url: "https://cloud.baidu.com/product/gpu.html" },
@@ -79,19 +79,19 @@ var GPU_PRICING = {
   ],
 
   "NVIDIA A100 (40GB PCIe)": [
-    { platform: "Lambda Labs", price_usd: 1.09, plan: "按需", country: "美国", region: "北美", note: "经济型 A100", pricing_url: "https://lambdalabs.com/service/gpu-cloud/pricing" },
+    { platform: "Lambda Labs", price_usd: 1.09, plan: "按需", country: "美国", region: "北美", note: "经济型 A100", pricing_url: "https://lambda.ai/pricing" },
     { platform: "Vast.ai", price_usd: 0.40, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "极低价格", pricing_url: "https://vast.ai/pricing" },
-    { platform: "TensorDock", price_usd: 0.65, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "裸金属部署", pricing_url: "https://www.tensordock.com/pricing" },
-    { platform: "DataCrunch", price_usd: 0.90, plan: "按需", country: "芬兰", region: "欧洲", note: "欧洲 GPU 云", pricing_url: "https://datacrunch.io/pricing" },
+    { platform: "TensorDock", price_usd: 0.65, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "裸金属部署", pricing_url: "https://www.tensordock.com/cloud-gpus.html" },
+    { platform: "DataCrunch", price_usd: 0.90, plan: "按需", country: "芬兰", region: "欧洲", note: "欧洲 GPU 云", pricing_url: "https://verda.com/pricing" },
     { platform: "CoreWeave", price_usd: 1.00, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.coreweave.com/pricing" },
     { platform: "Google Cloud (GCP)", price_usd: 2.00, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://cloud.google.com/compute/gpus-pricing" },
-    { platform: "Cudo Compute", price_usd: 0.60, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/#pricing" }
+    { platform: "Cudo Compute", price_usd: 0.60, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/products/virtual-machines" }
   ],
 
   // ==================== NVIDIA L40S / L4 ====================
   "NVIDIA L40S": [
     { platform: "CoreWeave", price_usd: 1.27, plan: "按需", country: "美国", region: "北美", note: "推理性价比突出", pricing_url: "https://www.coreweave.com/pricing" },
-    { platform: "Lambda Labs", price_usd: 1.49, plan: "按需", country: "美国", region: "北美", note: "推理优化 GPU", pricing_url: "https://lambdalabs.com/service/gpu-cloud/pricing" },
+    { platform: "Lambda Labs", price_usd: 1.49, plan: "按需", country: "美国", region: "北美", note: "推理优化 GPU", pricing_url: "https://lambda.ai/pricing" },
     { platform: "RunPod (Community Cloud)", price_usd: 0.99, plan: "社区云", country: "美国", region: "北美", note: "推理优化方案", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "Vast.ai", price_usd: 0.60, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://vast.ai/pricing" },
     { platform: "NexGen Cloud", price_usd: 1.30, plan: "按需", country: "英国", region: "欧洲", note: "水力发电驱动", pricing_url: "https://www.nexgencloud.com/pricing" },
@@ -111,15 +111,15 @@ var GPU_PRICING = {
 
   // ==================== NVIDIA RTX 6000 Ada / A6000 / A40 ====================
   "NVIDIA RTX 6000 Ada / A6000": [
-    { platform: "Lambda Labs", price_usd: 0.79, plan: "按需", country: "美国", region: "北美", note: "入门级数据中心 GPU", pricing_url: "https://lambdalabs.com/service/gpu-cloud/pricing" },
+    { platform: "Lambda Labs", price_usd: 0.79, plan: "按需", country: "美国", region: "北美", note: "入门级数据中心 GPU", pricing_url: "https://lambda.ai/pricing" },
     { platform: "RunPod (Secure Cloud)", price_usd: 0.99, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "RunPod (Community Cloud)", price_usd: 0.69, plan: "社区云", country: "美国", region: "北美", note: "", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "Vast.ai", price_usd: 0.35, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://vast.ai/pricing" },
     { platform: "Vast.ai (RTX 6000 Ada)", price_usd: 0.38, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "Ada 架构，48GB 显存", pricing_url: "https://vast.ai/pricing" },
-    { platform: "TensorDock", price_usd: 0.55, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/pricing" },
+    { platform: "TensorDock", price_usd: 0.55, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/cloud-gpus.html" },
     { platform: "JarvisLabs", price_usd: 0.80, plan: "按需", country: "印度", region: "亚太", note: "预装 DL 框架", pricing_url: "https://jarvislabs.ai/pricing/" },
     { platform: "Paperspace", price_usd: 0.89, plan: "按需", country: "美国", region: "北美", note: "Gradient 集成", pricing_url: "https://www.paperspace.com/pricing" },
-    { platform: "DataCrunch", price_usd: 0.70, plan: "按需", country: "芬兰", region: "欧洲", note: "", pricing_url: "https://datacrunch.io/pricing" }
+    { platform: "DataCrunch", price_usd: 0.70, plan: "按需", country: "芬兰", region: "欧洲", note: "", pricing_url: "https://verda.com/pricing" }
   ],
 
   "NVIDIA A40": [
@@ -133,30 +133,30 @@ var GPU_PRICING = {
     { platform: "RunPod (Community Cloud)", price_usd: 0.69, plan: "社区云", country: "美国", region: "北美", note: "消费级 GPU 性价比之王，24GB 显存", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "RunPod (Secure Cloud)", price_usd: 0.99, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "Vast.ai", price_usd: 0.25, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "最低价但供给波动大", pricing_url: "https://vast.ai/pricing" },
-    { platform: "TensorDock", price_usd: 0.40, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/pricing" },
+    { platform: "TensorDock", price_usd: 0.40, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/cloud-gpus.html" },
     { platform: "Massed Compute", price_usd: 0.55, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.massedcompute.com/pricing" },
     { platform: "FluidStack", price_usd: 0.65, plan: "按需", country: "英国/美国", region: "北美", note: "", pricing_url: "https://www.fluidstack.io/pricing" },
     { platform: "Matpool (矩池云)", price_usd: 0.50, plan: "按需", country: "中国", region: "亚太", note: "国内高校和竞赛首选", pricing_url: "https://matpool.com/pricing" },
     { platform: "AutoDL", price_usd: 0.48, plan: "按需", country: "中国", region: "亚太", note: "国内领先 GPU 租赁，预装 DL 环境", pricing_url: "https://www.autodl.com/price" },
-    { platform: "Cudo Compute", price_usd: 0.35, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/#pricing" },
+    { platform: "Cudo Compute", price_usd: 0.35, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/products/virtual-machines" },
     { platform: "Salad", price_usd: 0.20, plan: "分布式云", country: "美国", region: "北美", note: "利用闲置消费级 GPU", pricing_url: "https://salad.com/pricing" },
     { platform: "Vultr", price_usd: 0.79, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.vultr.com/products/cloud-gpu/#pricing" },
-    { platform: "DataCrunch", price_usd: 0.60, plan: "按需", country: "芬兰", region: "欧洲", note: "", pricing_url: "https://datacrunch.io/pricing" }
+    { platform: "DataCrunch", price_usd: 0.60, plan: "按需", country: "芬兰", region: "欧洲", note: "", pricing_url: "https://verda.com/pricing" }
   ],
 
   // 以下消费级 GPU 型号主要来源于 vast.ai 市场
   "NVIDIA RTX 4080 / 4080 Super": [
     { platform: "Vast.ai", price_usd: 0.18, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "16GB 显存，推理/微调好选择", pricing_url: "https://vast.ai/pricing" },
     { platform: "RunPod (Community Cloud)", price_usd: 0.49, plan: "社区云", country: "美国", region: "北美", note: "", pricing_url: "https://www.runpod.io/pricing" },
-    { platform: "TensorDock", price_usd: 0.30, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/pricing" },
-    { platform: "Cudo Compute", price_usd: 0.25, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/#pricing" },
+    { platform: "TensorDock", price_usd: 0.30, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/cloud-gpus.html" },
+    { platform: "Cudo Compute", price_usd: 0.25, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/products/virtual-machines" },
     { platform: "Salad", price_usd: 0.15, plan: "分布式云", country: "美国", region: "北美", note: "闲置 GPU 分布式网络", pricing_url: "https://salad.com/pricing" }
   ],
 
   "NVIDIA RTX 4070 Ti / 4070 Ti Super": [
     { platform: "Vast.ai", price_usd: 0.13, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "12GB/16GB 显存，轻量推理", pricing_url: "https://vast.ai/pricing" },
     { platform: "RunPod (Community Cloud)", price_usd: 0.39, plan: "社区云", country: "美国", region: "北美", note: "", pricing_url: "https://www.runpod.io/pricing" },
-    { platform: "TensorDock", price_usd: 0.22, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/pricing" },
+    { platform: "TensorDock", price_usd: 0.22, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/cloud-gpus.html" },
     { platform: "Salad", price_usd: 0.12, plan: "分布式云", country: "美国", region: "北美", note: "", pricing_url: "https://salad.com/pricing" }
   ],
 
@@ -175,17 +175,17 @@ var GPU_PRICING = {
   "NVIDIA RTX 3090 / 3090 Ti": [
     { platform: "RunPod (Community Cloud)", price_usd: 0.39, plan: "社区云", country: "美国", region: "北美", note: "24GB 显存，极致性价比", pricing_url: "https://www.runpod.io/pricing" },
     { platform: "Vast.ai", price_usd: 0.15, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "全球最低 GPU 价格之一", pricing_url: "https://vast.ai/pricing" },
-    { platform: "TensorDock", price_usd: 0.30, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/pricing" },
+    { platform: "TensorDock", price_usd: 0.30, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/cloud-gpus.html" },
     { platform: "Matpool (矩池云)", price_usd: 0.35, plan: "按需", country: "中国", region: "亚太", note: "", pricing_url: "https://matpool.com/pricing" },
     { platform: "AutoDL", price_usd: 0.30, plan: "按需", country: "中国", region: "亚太", note: "国内领先 GPU 租赁", pricing_url: "https://www.autodl.com/price" },
-    { platform: "Cudo Compute", price_usd: 0.20, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/#pricing" },
+    { platform: "Cudo Compute", price_usd: 0.20, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/products/virtual-machines" },
     { platform: "Salad", price_usd: 0.12, plan: "分布式云", country: "美国", region: "北美", note: "", pricing_url: "https://salad.com/pricing" }
   ],
 
   "NVIDIA RTX 3080 / 3080 Ti": [
     { platform: "Vast.ai", price_usd: 0.10, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "10GB/12GB 显存，Ampere 性价比款", pricing_url: "https://vast.ai/pricing" },
     { platform: "RunPod (Community Cloud)", price_usd: 0.29, plan: "社区云", country: "美国", region: "北美", note: "", pricing_url: "https://www.runpod.io/pricing" },
-    { platform: "TensorDock", price_usd: 0.20, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/pricing" },
+    { platform: "TensorDock", price_usd: 0.20, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/cloud-gpus.html" },
     { platform: "Salad", price_usd: 0.09, plan: "分布式云", country: "美国", region: "北美", note: "", pricing_url: "https://salad.com/pricing" }
   ],
 
@@ -202,7 +202,7 @@ var GPU_PRICING = {
   // ==================== NVIDIA RTX 20 系列 ====================
   "NVIDIA RTX 2080 Ti": [
     { platform: "Vast.ai", price_usd: 0.08, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "11GB 显存，Turing 旗舰", pricing_url: "https://vast.ai/pricing" },
-    { platform: "TensorDock", price_usd: 0.18, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/pricing" }
+    { platform: "TensorDock", price_usd: 0.18, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://www.tensordock.com/cloud-gpus.html" }
   ],
 
   "NVIDIA RTX 2080 / 2070": [
