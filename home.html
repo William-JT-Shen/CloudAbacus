@@ -336,22 +336,22 @@
     }
   }
 
-  // RAF-based animation (no CSS transition, works everywhere)
-  function animateDash(gel, fromVal, toVal, duration, easing, callback) {
-    var start = performance.now();
-    function step(ts) {
-      var t = Math.min((ts - start) / duration, 1);
-      // ease-in-out
-      var e = t < 0.5 ? 2*t*t : 1 - Math.pow(-2*t + 2, 2) / 2;
-      gel.setAttribute('stroke-dashoffset', fromVal + (toVal - fromVal) * e);
-      if(t < 1) {
-        requestAnimationFrame(step);
-      } else {
+  // Simple step-based animation (no requestAnimationFrame for reliability)
+  function animateDash(gel, fromVal, toVal, duration, callback) {
+    var steps = 60, interval = duration / steps;
+    var current = 0, val = fromVal;
+    var timer = setInterval(function() {
+      current++;
+      var t = current / steps;
+      var e = t < 0.5 ? 2*t*t : 1 - Math.pow(-2*t + 2, 2) / 2; // ease-in-out
+      val = fromVal + (toVal - fromVal) * e;
+      gel.setAttribute('stroke-dashoffset', val);
+      if(current >= steps) {
+        clearInterval(timer);
         gel.setAttribute('stroke-dashoffset', toVal);
         if(callback) callback();
       }
-    }
-    requestAnimationFrame(step);
+    }, interval);
   }
 
   function travelGlow(from, to) {
@@ -359,7 +359,7 @@
     var key = glowEdgeKey(from,to);
     var info = edgeInfo[key];
     if(!info) { dbg('  NO edgeInfo for '+key); return; }
-    dbg('  key='+key+' gid='+info.gid+' len='+info.len);
+    dbg('  key='+key+' gid='+info.gid+' len='+Math.round(info.len));
     var gel = document.getElementById(info.gid);
     if(!gel) { dbg('  NO element '+info.gid); return; }
 
@@ -368,27 +368,26 @@
     gel.setAttribute('x1', fc[0]); gel.setAttribute('y1', fc[1]);
     gel.setAttribute('x2', tc[0]); gel.setAttribute('y2', tc[1]);
 
-    // Init: dash hidden at 'from' end, edge becomes visible
-    gel.setAttribute('stroke-dasharray', info.len);
-    gel.setAttribute('stroke-dashoffset', info.len);
+    // Init: dash hidden, edge becomes visible
+    gel.setAttribute('stroke-dasharray', Math.round(info.len));
+    gel.setAttribute('stroke-dashoffset', Math.round(info.len));
     gel.classList.add('active');
-    dbg('  edge setup done, starting animateDash');
+    dbg('  edge setup OK, starting dash animation');
 
     // Phase 1: dash travels from→to (3s)
     animateDash(gel, info.len, 0, 3000, function() {
-      dbg('  phase1 done, lighting '+to);
-      // Phase 2: dash reached target → light node
+      dbg('  phase1 DONE, lighting node '+to);
       setHalo(to, true);
 
-      // Phase 2b: fade dash away past target (1.5s)
+      // Phase 2: fade dash away (1.5s)
       animateDash(gel, 0, -info.len, 1500, function() {
-        dbg('  phase2 done, hiding edge');
+        dbg('  phase2 DONE, hiding edge');
         gel.classList.remove('active');
       });
 
-      // Phase 3: after 3s total on node, pick next
+      // Phase 3: after 3s on node, next jump
       setTimeout(function() {
-        dbg('  phase3: turning off '+to+' and pickNext');
+        dbg('  phase3: turning off '+to);
         setHalo(to, false);
         busy = false;
         pickNext(to);
