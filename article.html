@@ -2,8 +2,9 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>运算盘 · GPU 算力租赁资讯</title>
+  <title>云算盘 · GPU 算力租赁资讯</title>
   <style>
     :root{--bg:#0a0a14;--card:#141428;--text:#e2e8f0;--t2:#94a3b8;--border:#2d2d50;--accent:#8b5cf6;--r:12px;--rs:8px}
     *{box-sizing:border-box;margin:0;padding:0}
@@ -49,7 +50,7 @@
   </div>
 
   <div id="content"></div>
-  <div class="footer">运算盘 CloudAbacus · 新闻数据每日自动更新</div>
+  <div class="footer">云算盘 CloudAbacus · 新闻数据每日自动更新</div>
 </div>
 
 <script src="news.js"></script>
@@ -68,7 +69,7 @@
   }
 
   var a=news[id];
-  document.title=e(a.title_cn||a.title)+' · 运算盘';
+  document.title=e(a.title_cn||a.title)+' · 云算盘';
 
   var html='<article>';
   html+='<h1>'+e(a.title_cn||a.title)+'</h1>';
