@@ -460,6 +460,7 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
   var scrapeSources = window.PRICE_SCRAPE_SOURCES || {};
 
   // 合并策略：live 数据覆盖同 GPU 同 platform 的参考数据
+  // ⚠️ 若 live 数据缺少 pricing_url/country/region，从参考数据继承
   var pricing = JSON.parse(JSON.stringify(pricingRef)); // deep copy
   var liveCount = 0;
   Object.keys(pricingLive).forEach(function(gpu) {
@@ -471,6 +472,11 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
         return e.platform === liveEntry.platform;
       });
       if (idx >= 0) {
+        // 保留参考数据中的 pricing_url / country / region（若 live 数据为空）
+        var refEntry = pricing[gpu][idx];
+        if (!liveEntry.pricing_url && refEntry.pricing_url) liveEntry.pricing_url = refEntry.pricing_url;
+        if (!liveEntry.country && refEntry.country) liveEntry.country = refEntry.country;
+        if (!liveEntry.region && refEntry.region) liveEntry.region = refEntry.region;
         pricing[gpu][idx] = liveEntry;
         pricing[gpu][idx]._live = true;
       } else {
