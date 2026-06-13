@@ -1,46 +1,7 @@
 // GPU算力期货新闻 v3
-// Generated: 2026-06-13T04:45:14Z
-var NEWS_FETCHED_AT = "2026-06-13T04:45:14Z";
+// Generated: 2026-06-13T06:13:00Z
+var NEWS_FETCHED_AT = "2026-06-13T06:13:00Z";
 var GPU_NEWS = [
-  {
-    "title": "Place Your Bets – Futures Traders Are About To See The Launch Of AI Semiconductor Contracts",
-    "source": "Benzinga",
-    "source_url": "https://www.benzinga.com/news/topics/26/05/52762722/place-your-bets-futures-traders-are-about-to-see-the-launch-of-ai-semiconductor-contracts",
-    "url": "https://www.benzinga.com/news/topics/26/05/52762722/place-your-bets-futures-traders-are-about-to-see-the-launch-of-ai-semiconductor-contracts",
-    "published": "2026-05-13",
-    "summary": "Place Your Bets – Futures Traders Are About To See The Launch Of AI Semiconductor Contracts - CME Group ( - BenzingaBenzingaEspañaItalia대한민국日本FrançaisMy AccountBenzinga EdgeBenzinga ResearchBenzinga ProLoginGet Benzinga Pro Data & APIsEventsPremarketAdvertiseContributeEspañaItalia대한민국日本FrançaisLoginRegisterBenzingaPremium Services Financial News Financial NewsLarge Cap StocksSmall-Cap StocksInside",
-    "full_text": "Place Your Bets – Futures Traders Are About To See The Launch Of AI Semiconductor Contracts - CME Group ( - BenzingaBenzingaEspañaItalia대한민국日本FrançaisMy AccountBenzinga EdgeBenzinga ResearchBenzinga ProLoginGet Benzinga Pro Data & APIsEventsPremarketAdvertiseContributeEspañaItalia대한민국日本FrançaisLoginRegisterBenzingaPremium Services Financial News Financial NewsLarge Cap StocksSmall-Cap StocksInsider TradesEarningsTechnologyAI NewsPersonal FinanceETF NewsCrypto NewsDividend NewsLatest RumorsLatest Offerings NewsInvestment Ideas Investment IdeasStock of the DayStock Whisper IndexAnalyst RatingsAnalyst ColorFinancial AdvisorsGovernment TradesTrading IdeasStock ScreenerMarkets MarketsPremarket MoversAfter HoursOptionsETFsCommoditiesPrediction MarketsPrivate MarketsBondsFuturesForexTop Stocks Top StocksApple (AAPL)Tesla (TSLA)Amazon (AMZN)Nvidia (NVDA)Alphabet (GOOGL)Meta Platforms (META)Microsoft (MSFT)StreetTracks Gold Shares (GLD)IBIT Bitcoin Trust (IBIT)Top Value StocksTop Momentum StocksTop Growth StocksTop Quality StocksLearn LearnInvesting GuidesPersonal FinanceMortgagesBest Credit CardsBest Dividend StocksBest Swing Trade StocksInvestment Ideas Investment IdeasStock of the DayStock Whisper IndexAnalyst RatingsAnalyst ColorFinancial AdvisorsGovernment TradesTrading IdeasStock ScreenerMarkets MarketsPremarket MoversAfter HoursOptionsETFsCommoditiesPrediction MarketsPrivate MarketsBondsFuturesForexTop Stocks Top StocksApple (AAPL)Tesla (TSLA)Amazon (AMZN)Nvidia (NVDA)Alphabet (GOOGL)Meta Platforms (META)Microsoft (MSFT)StreetTracks Gold Shares (GLD)IBIT Bitcoin Trust (IBIT)Top Value StocksTop Momentum StocksTop Growth StocksTop Quality StocksLearn LearnInvesting GuidesPersonal FinanceMortgagesBest Credit CardsBest Dividend StocksBest Swing Trade StocksResearchMy StocksToolsFree Benzinga Pro Trial CalendarsAnalyst Ratings CalendarConference Call CalendarDividend CalendarEarnings CalendarEconomic CalendarEvents CalendarFDA CalendarGuidance CalendarIPO CalendarM&A CalendarUnusual Options Activity CalendarSPAC CalendarStock Split CalendarTrade IdeasStock ReportsInsider TradesTrade Idea FeedAnalyst RatingsUnusual Options ActivityHeatmapsFree NewsletterGovernment TradesPerfect Stock PortfolioEasy Income PortfolioShort InterestMost ShortedLargest IncreaseLargest DecreaseCalculatorsOptions Profit CalculatorMargin CalculatorForex Profit Calculator100x Options Profit CalculatorCovered Call CalculatorCash-Secured Put CalculatorLong Call CalculatorLong Put CalculatorScreenersStock ScreenerTop Momentum StocksTop Quality StocksTop Value StocksTop Growth StocksCompare Best StocksBest Momentum StocksBest Quality StocksBest Value StocksBest Growth StocksRecentMarkets May 23, 2026 1:01 PM 7 min read Place Your Bets – Futures Traders Are About To See The Launch Of AI Semiconductor ContractsCME Group (NYSE:CME) and data provider Silicon Data are partnering on a brand new market, allowing traders to place bets and hedge their investment risk on GPU price indexes.Futures traders will have access to contracts on a \"compute futures market,\" which will track the underlying price of AI semiconductors.AI Chips Arrive On The Financial Trading Stage With billions of dollars being invested in GPUs and AI infrastructure, the new market will give investors and traders the ability to lock in the price of computing capacity based on a GPU benchmark, the companies said in a joint statement released last week.Don't Miss:\"GPU markets have historically lacked standardized reference pricing,\" Silicon Data CEO Carmen Li said in the statement. \"The launch of compute futures is an important step toward giving AI builders, cloud providers, and investors more reliable tools for valuation, hedging, and long-term planning.\"The partnership will bring trusted compute pricing data together with a regulated derivatives provider to create \"a more mature and risk-manageable financial market,\" Li added.As new futures markets tied to AI infrastructure and semiconductor pricing continue to emerge, some active traders are exploring firms like Apex Trader Funding, which gives eligible traders the opportunity to qualify for funded futures trading accounts through a performance evaluation process.The new market still has to clear regulatory hurdles, but is expected to land on CME exchanges later this year, according to the companies.See Also: This Lithium Breakthrough Is Turning Heads on Wall Street — See Why Investors Are WatchingAI Capex Spend Drives GPU Pricing VolatilityThe arrival of a futures trading contract for chip prices comes as Wall Street continues to project huge capital expenditure in the AI sector, which is adding volatility to the semiconductor market.Read Next: \nWhat If Your Investment Income Didn't Rely Entirely on Market Swings? Some Investors Are Taking a Different Approach\nThis Under-$1 Pre-IPO AI Company Is Still Open to Retail Investors — Learn More\nBuilding Wealth Across More Than Just the MarketRad AIImmersedConnect InvestrHealthrHealth is building a space-tested diagnostics platform designed to bring lab-quality blood testing closer to patients in minutes rather than weeks. Originally validated in collaboration with NASA for use aboard the International Space Station, the technology is now being adapted for at-home and point-of-care settings to address widespread delays in diagnostic access.Backed by institutions including NASA and the NIH, rHealth is targeting the large global diagnostics market with a multi-test platform and a model built around devices, consumables, and software. With FDA registration in progress, the company is positioning itself as a potential shift toward faster, more decentralized healthcare testing.ArrivedMasterworksLightstoneAdviserMatchAccredited Debt ReliefImage: ShutterstockMarket News and Data brought to you by Benzinga APIs© 2026 Benzinga.com. Benzinga does not provide investment advice. All rights reserved.To add Benzinga News as your preferred source on Google, click here.Posted In: MarketsBZ-REALESTATEConnect With Us                                             About BenzingaAbout UsCareersAdvertiseContact UsMarket ResourcesAdvanced Stock Screener ToolsOptions Trading Chain AnalysisComprehensive Earnings CalendarDividend Investor Calendar and AlertsEconomic Calendar and Market EventsIPO Calendar and New ListingsMarket Outlook and AnalysisWall Street Analyst Ratings and TargetsTrading Tools & EducationBenzinga Pro Trading PlatformOptions Trading Strategies and NewsStock Market Trading Ideas and AnalysisTechnical Analysis Charts and IndicatorsFundamental Analysis and ValuationDay Trading Guides and StrategiesLive Investor EventsPre-market Stock Analysis and NewsCryptocurrency Market Analysis and NewsRing the BellA newsletter built for market enthusiasts by market enthusiasts. Top stories, top movers, and trade ideas delivered to your inbox every weekday before and after the market closes.SubscribeTerms & Conditions Do Not Sell My Personal Data/Privacy PolicyDisclaimer Service StatusSitemap© 2026 Benzinga | All Rights Reservedby Kevin George Benzinga Staff WriterFollowFlipboardIcon version of the Flipboard logoCMECME Group Inc$270.000.17%Overview\nOne futures evaluation could unlock access to significantly more buying power—see how Apex Trader Funding works.\nThe Difference Between a Fragmented Plan and an Integrated One Often Comes Down to Structure — See How PCM Encore Brings Investment, Tax, and Estate Planning Into Alignment.\nJ.P. Morgan analyst Samik Chatterjee recently raised his expectations for the top U.S. hyperscalers to spend $200 billion in 2026, according to media reports. The AI buildout is driving prices for memory chips higher in 2026, as chipmakers prioritize large customers, leading to supply shortages.Building a resilient portfolio means thinking beyond a single asset or market trend. Economic cycles shift, sectors rise and fall, and no one investment performs well in every environment. That's why many investors look to diversify with",
-    "images": [
-      "https://cdn.benzinga.com/cdn-cgi/image/width=1300,format=auto,quality=85/files/images/story/2025/07/24/article-header-background-image.png",
-      "https://cdn.benzinga.com/cdn-cgi/image/width=1300,format=auto,quality=85/files/images/story/2025/07/24/article-header-background-image.png",
-      "https://cdn.benzinga.com/cdn-cgi/image/width=850,format=auto,quality=85/files/images/story/2026/05/23/Semiconductor-Or-Microchip-Concepts-tech.jpeg",
-      "https://cdn.benzinga.com/cdn-cgi/image/width=850,format=auto,quality=85/files/images/story/2026/05/23/Semiconductor-Or-Microchip-Concepts-tech.jpeg",
-      "https://image-util.benzinga.com/api/v2/logos/file/image/1156375/mark_vector_light__c0d0fdb5010dcb30cb08a96f3ee19589.svg?x-bz-cred=sb~8wd0bR8CPZ4wS4iNzupIjz4WNk8y9lqr_ZkFB_Zb3wG3q8vi4cPF2AVHWSpULZq7_HvgNdqvW5ap8gh63kQiZlxzCu5oBKBLdtgXAmaFWGdaCluPc3wmDHhLboP2Z50L3QpUWvf-TbRkSICTxaomzLCZF5p2&x-bz-exp=1781412002&x-bz-security-isin=&x-bz-security-symbol=CME&x-bz-signature=21d5139fbf0e9ddee1e1134ef080834ade0e5c8fd6f6c373286e5913e2bb5147"
-    ],
-    "lang": "en",
-    "title_cn": "下注——期货交易者即将看到人工智能半导体合约的推出",
-    "summary_cn": "下注 – 期货交易者即将看到人工智能半导体合约的推出 - CME Group ( - BenzingaBenzingaEspañaItalia대한민국日本Français我的账户Benzinga EdgeBenzinga ResearchBenzinga ProLogin获取 Benzinga Pro 数据 & API活动上市前广告贡献西班牙意大利대한민국日本Français登录注册Benzinga高级服务财经新闻财经新闻大盘股小盘股内部",
-    "translated": true
-  },
-  {
-    "title": "Is CME Group Expanding Into the Compute Futures Market?",
-    "source": "Nasdaq",
-    "source_url": "https://www.nasdaq.com/articles/cme-group-expanding-compute-futures-market",
-    "url": "https://www.nasdaq.com/articles/cme-group-expanding-compute-futures-market",
-    "published": "2026-05-13",
-    "summary": "AAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nStocks\n\n      Is CME Group Expanding Into the Compute Futures Market?\n    \n\nMay 13, 2026",
-    "full_text": "AAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nAAPL\n\nTSLA\n\nAMZN\n\nMETA\n\nAMD\n\nNVDA\n\nPEP\n\nCOST\n\nADBE\n\nGOOG\n\nAMGN\n\nHON\n\nINTC\n\nINTU\n\nNFLX\n\nADP\n\nSBUX\n\nMRNA\n\nStocks\n\n      Is CME Group Expanding Into the Compute Futures Market?\n    \n\nMay 13, 2026 — 12:00 pm EDT\n\n      Written by\n                        Zacks Equity Research for                             \n        \n\nZacks->\n\nCME Group Inc. CME is expanding its presence in next-generation financial markets through a partnership with Silicon Data, which is backed by global trading firm DRW, to launch a first-of-its-kind compute futures market later this year, pending regulatory approval. The initiative highlights CME’s strategy to capitalize on the rapidly growing AI infrastructure economy by introducing risk-management tools tied to compute and GPU pricing.The new futures contracts will be based on Silicon Data’s daily GPU benchmark indices for on-demand rental rates, allowing traders, financial institutions, AI developers and cloud-service providers to manage volatility and price risk in the expanding compute market. As demand for GPUs and AI infrastructure continues to surge, pricing across compute markets has remained fragmented and volatile due to differences among providers, regions and contract structures.By introducing standardized futures tied to transparent benchmark pricing, CME brings the scale, market structure and credibility needed to help transform compute from an opaque operational cost into a more mature and risk-manageable financial market. The launch of compute futures is an important step toward giving AI builders, cloud providers and investors more reliable tools for valuation, hedging and long-term planning as demand for compute continues to accelerate.The development aligns with CME Group’s strategy to expand into emerging asset classes tied to rising AI and cloud infrastructure demand. Growing adoption of compute futures could drive higher trading volumes, clearing activity and revenue diversification over time while strengthening CME’s position in evolving derivatives markets.How Are Competitors Faring?Peers like Nasdaq, Inc. NDAQ and London Stock Exchange Group plc LSEGY are also increasing investments in next-generation financial infrastructure through strategic technology partnerships.Nasdaq has expanded its collaboration with Amazon Web Services to modernize global capital markets infrastructure, cloud-enabled trading systems and AI-powered market solutions. The partnership reflects Nasdaq’s broader strategy to build scalable and resilient financial ecosystems capable of supporting future trading and data demands driven by AI and cloud adoption.LSEGY has strengthened its partnership with Amazon Web Services to migrate more of its markets, risk intelligence and analytics infrastructure to the cloud. The move is aimed at improving resilience, accelerating product innovation and enhancing large-scale data and risk analysis capabilities.CME’s Price Performance, Valuation & EstimatesShares of CME have risen 6.5% over the past year against the industry's decline of 6.9%.Image Source: Zacks Investment ResearchFrom a valuation standpoint, CME Group trades at a forward price-to-earnings ratio of 22.97X, up from the industry average of 20.90X.Image Source: Zacks Investment ResearchThe Zacks Consensus Estimate for CME Group’s 2026 earnings is pegged at $12.26 per share, implying a 9.5% jump from the year-ago period.Image Source: Zacks Investment ResearchCME currently carries a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\tZacks' Research Chief Names \"Stock Most Likely to Double\"\n\n\tOur team of experts has just released the 5 stocks with the greatest probability of gaining +100% or more in the coming months. Of those 5, Director of Research Sheraz Mian highlights the one stock set to climb highest.\n\n\tThis top pick is a little-known satellite-based communications firm. Space is projected to become a trillion dollar industry, and this company's customer base is growing fast. Analysts have forecasted a major revenue breakout in 2025. Of course, all our elite picks aren't winners but this one could far surpass earlier Zacks' Stocks Set to Double like Hims & Hers Health, which shot up +209%.Free: See Our Top Stock And 4 Runners UpWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free reportCME Group Inc. (CME) : Free Stock Analysis ReportNasdaq, Inc. (NDAQ) : Free Stock Analysis ReportLondon Stock Exchange Group plc - Unsponsored ADR (LSEGY) : Free Stock Analysis ReportThis article originally published on Zacks Investment Research (zacks.com).Zacks Investment Research\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.\n\n        Tags\n      \nStocks\n\nZacks\n\n          Zacks is the leading investment research firm focusing on stock research, analysis and recommendations. In 1978, our founder discovered the power of earnings estimate revisions to enable profitable investment decisions. Today, that discovery is still the heart of the Zacks Rank. A wealth of resources for individual investors is available at www.zacks.com.       \n\nMore articles by this source->\n\nStocks mentioned\n\nCME\n\nNDAQ\n\nMore Related Articles\n  \n\nThis data feed is not available at this time.\n\n            Data is currently not available\n        \n\n•\n\n  Sign up for the TradeTalks newsletter to receive your weekly dose of trading news, trends and education. Delivered Wednesdays.",
-    "images": [
-      "https://staticx-tuner.zacks.com/images/articles/charts/dd/160257.jpg?v=302636747",
-      "https://staticx-tuner.zacks.com/images/articles/charts/17/160258.jpg?v=187014601",
-      "https://staticx-tuner.zacks.com/images/articles/charts/02/160260.jpg?v=1735282957",
-      "https://www.nasdaq.com/akam/13/pixel_6f4d97d4?a=dD1mZDRiYjVjOWU1MmNiNTUxYzA3NWNiMTYxNmQ0ZjU0ZmU2YmE2Yzc2JmpzPW9mZg=="
-    ],
-    "lang": "en",
-    "title_cn": "芝商所是否正在进军计算期货市场？",
-    "summary_cn": "AAPL\n\n特斯拉\n\n亚马逊\n\n梅塔\n\nAMD\n\nNVDA\n\nPEP\n\n成本\n\n阿德贝\n\nGoogle\n\nAMGN\n\n荣誉勋章\n\n国际贸易中心\n\n英图\n\nNFLX\n\n腺苷二磷酸\n\nSBUX\n\n信使核糖核酸\n\nAAPL\n\n特斯拉\n\n亚马逊\n\n梅塔\n\nAMD\n\nNVDA\n\nPEP\n\n成本\n\n阿德贝\n\nGoogle\n\nAMGN\n\n荣誉勋章\n\n国际贸易中心\n\n英图\n\nNFLX\n\n腺苷二磷酸\n\nSBUX\n\n信使核糖核酸\n\nAAPL\n\n特斯拉\n\n亚马逊\n\n梅塔\n\nAMD\n\nNVDA\n\nPEP\n\n成本\n\n阿德贝\n\nGoogle\n\nAMGN\n\n荣誉勋章\n\n国际贸易中心\n\n英图\n\nNFLX\n\n腺苷二磷酸\n\nSBUX\n\n信使核糖核酸\n\n股票\n\n      芝商所是否正在进军计算期货市场？\n    \n\n2026 年 5 月 13 日",
-    "translated": true
-  },
   {
     "title": "AI世界的“原油期货”要来了：芝商所官宣将推出算力期货市场",
     "source": "财联社",
@@ -85,12 +46,12 @@ var GPU_NEWS = [
   },
   {
     "title": "算力金融化“寻锚”",
-    "source": "QQ News",
+    "source": "qq.com",
     "source_url": "https://news.qq.com",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iUXRFWExEUklDWmc4OVRnYWs0TENfVGJtVy14V0MxOFhPZnpwOEVPa2VxM0NtSUk1dWxHbS13WFJNRGEtbTY5dVFmQXdxd2VyRlpTSHpR?oc=5",
     "published": "2026-06-11",
-    "summary": "算力金融化“寻锚”&nbsp;&nbsp;QQ News",
-    "full_text": "「算力金融化“寻锚”」\n\n📰 来源：QQ News\n📅 发布日期：2026-06-11\n\n本文由 Google News 聚合自 QQ News。点击下方「文章来源」链接可在浏览器中自动跳转到原始文章页面，阅读完整内容。\n\n💡 提示：本栏目聚焦 GPU 算力期货市场动态，涵盖芝商所（CME）、洲际交易所（ICE）、Silicon Data 等机构推出的算力期货/衍生品合约，以及高盛、摩根大通等华尔街机构在算力金融化领域的布局。",
+    "summary": "算力金融化“寻锚”&nbsp;&nbsp;qq.com",
+    "full_text": "「算力金融化“寻锚”」\n\n📰 来源：qq.com\n📅 发布日期：2026-06-11\n\n本文由 Google News 聚合自 qq.com。点击下方「文章来源」链接可在浏览器中自动跳转到原始文章页面，阅读完整内容。\n\n💡 提示：本栏目聚焦 GPU 算力期货市场动态，涵盖芝商所（CME）、洲际交易所（ICE）、Silicon Data 等机构推出的算力期货/衍生品合约，以及高盛、摩根大通等华尔街机构在算力金融化领域的布局。",
     "images": [],
     "lang": "zh",
     "title_cn": "",
@@ -123,7 +84,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "高盛和摩根大通在人工智能需求中探索 GPU 未来",
     "summary_cn": "高盛和摩根大通在人工智能需求中探索 GPU 未来 &nbsp;&nbsp;GuruFocus",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「高盛和摩根大通在人工智能需求中探索GPU未来」\n\n📰 来源：GuruFocus\n📅 发布时间：2026-06-09\n\n原标题：高盛和摩根大通在人工智能需求中探索 GPU 未来\n\n本文是通过 Google 新闻从 GuruFocus 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "Goldman, JPMorgan Explore AI Compute Futures Trading",
@@ -137,7 +99,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "高盛、摩根大通探索人工智能计算期货交易",
     "summary_cn": "高盛、摩根大通探索人工智能计算期货交易&nbsp;&nbsp;让我们数据科学",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「高盛、摩根大通探索人工智能计算期货交易」\n\n📰 来源：让我们数据科学\n📅 发布时间：2026-06-09\n\n原标题：高盛、摩根大通探索AI计算期货交易\n\n本文是通过 Google 新闻从 Let's Data Science 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "高盛与摩根大通探索算力期货交易以对冲AI融资风险 多家交易所与机构争相布局新兴市场",
@@ -193,7 +156,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "高盛和摩根大通在人工智能热潮中探索 GPU 未来",
     "summary_cn": "高盛和摩根大通在人工智能热潮中探索 GPU 未来 &nbsp;&nbsp;GuruFocus",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「高盛和摩根大通在人工智能热潮中探索 GPU 未来」\n\n📰 来源：GuruFocus\n📅 发布时间：2026-06-08\n\n原标题：高盛和摩根大通在人工智能热潮中探索 GPU 未来\n\n本文是通过 Google 新闻从 GuruFocus 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "Goldman Sachs and JPMorgan Chase explore the financialization of computing power, planning to launch GPU leasing futures to hedge AI risks",
@@ -207,7 +171,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "高盛联手摩根大通探索算力金融化，拟推出GPU租赁期货对冲AI风险",
     "summary_cn": "高盛携手摩根大通探索算力金融化，计划推出GPU租赁期货对冲AI风险 WEEX",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「高盛联手摩根大通探索力算金融化，拟推出GPU租赁期货对冲AI风险」\n\n📰 来源：WEEX\n📅 发布时间：2026-06-08\n\n原标题：高盛联手摩根大通探索算力金融化，拟推出GPU租赁期货对冲AI风险\n\n本文通过 Google 新闻从 WEEX 汇总。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "Goldman Sachs and JPMorgan explore the financialization of computing power, planning to launch GPU rental futures to hedge AI risks",
@@ -221,7 +186,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "高盛与摩根大通探索算力金融化，计划推出GPU租赁期货对冲AI风险",
     "summary_cn": "高盛与摩根大通探索算力金融化，计划推出GPU租赁期货对冲AI风险 Bitget",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「高盛与摩根大通探索算力金融化，计划推出GPU租赁期货对冲AI风险」\n\n📰 来源：Bitget\n📅 发布时间：2026-06-08\n\n原标题：高盛联合摩根大通探索算力金融化，拟推出GPU租赁期货对冲AI风险\n\n本文来自 Bitget 通过 Google 新闻汇总。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "Wall Street Tests New Ways To Price AI Compute",
@@ -235,7 +201,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "华尔街测试人工智能计算定价的新方法",
     "summary_cn": "华尔街测试人工智能计算定价的新方法",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「华尔街人工智能测试计算定价的新方法」\n\n📰 来源：Finimize\n📅 发布时间：2026-06-08\n\n原标题：华尔街测试人工智能计算定价的新方法\n\n本文是通过 Google 新闻从 Finimize 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "Goldman, JPMorgan Explore Trading Compute Futures as AI Financing Hedge",
@@ -249,21 +216,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "高盛和摩根大通探索计算期货交易作为人工智能融资对冲",
     "summary_cn": "高盛和摩根大通探索计算期货交易作为人工智能融资对冲&nbsp;&nbsp;信息",
-    "translated": true
-  },
-  {
-    "title": "高盛和摩根大通考虑推出与GPU租赁价格挂钩的期货",
-    "source": "富途牛牛",
-    "source_url": "https://news.futunn.com",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pVVRCMTNUT21zaklCb0YtbHpEU2R1UGhYWTFaX2Q3UFUzTzJLTkgtS05iNXVxaXdTOVlxLWxkaElpWHZXNXFNbHVkV3k2dw?oc=5",
-    "published": "2026-06-08",
-    "summary": "高盛和摩根大通考虑推出与GPU租赁价格挂钩的期货&nbsp;&nbsp;富途牛牛",
-    "full_text": "「高盛和摩根大通考虑推出与GPU租赁价格挂钩的期货」\n\n📰 来源：富途牛牛\n📅 发布日期：2026-06-08\n\n本文由 Google News 聚合自 富途牛牛。点击下方「文章来源」链接可在浏览器中自动跳转到原始文章页面，阅读完整内容。\n\n💡 提示：本栏目聚焦 GPU 算力期货市场动态，涵盖芝商所（CME）、洲际交易所（ICE）、Silicon Data 等机构推出的算力期货/衍生品合约，以及高盛、摩根大通等华尔街机构在算力金融化领域的布局。",
-    "images": [],
-    "lang": "zh",
-    "title_cn": "",
-    "summary_cn": "",
-    "translated": false
+    "translated": true,
+    "full_text_cn": "「高盛和摩根大通探索计算期货交易作为人工智能融资对冲」\n\n📰 来源：资讯\n📅 发布时间：2026-06-08\n\n原标题：高盛、摩根大通探索交易计算期货作为人工智能融资对冲\n\n本文摘自 Google 新闻的信息。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "经济学家宋清辉：算力期货孕育A股新机遇，四大板块料享红利",
@@ -319,7 +273,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "为什么基准完整性将决定印度电力期货的成功",
     "summary_cn": "为什么基准完整性将决定印度电力期货的成功 ET Edge Insights",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「为什么基准主流将决定印度电力期货的成功」\n\n📰 来源：ET Edge Insights\n📅 发布时间：2026-06-06\n\n原标题：为什么基准完整性将决定印度电力期货的成功\n\n本文是通过 Google 新闻从 ET Edge Insights 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "新华能源周报丨上海：做好电力期货、算力期货研发准备；今夏国家电网最大用电负荷同比增约6%",
@@ -413,20 +368,6 @@ var GPU_NEWS = [
     "published": "2026-06-04",
     "summary": "AI时代的“算力”期货市场什么样？&nbsp;&nbsp;Sina finance",
     "full_text": "「AI时代的“算力”期货市场什么样？」\n\n📰 来源：Sina finance\n📅 发布日期：2026-06-04\n\n本文由 Google News 聚合自 Sina finance。点击下方「文章来源」链接可在浏览器中自动跳转到原始文章页面，阅读完整内容。\n\n💡 提示：本栏目聚焦 GPU 算力期货市场动态，涵盖芝商所（CME）、洲际交易所（ICE）、Silicon Data 等机构推出的算力期货/衍生品合约，以及高盛、摩根大通等华尔街机构在算力金融化领域的布局。",
-    "images": [],
-    "lang": "zh",
-    "title_cn": "",
-    "summary_cn": "",
-    "translated": false
-  },
-  {
-    "title": "上海明确加快推出液化天然气期货期权，研发电力、算力期货",
-    "source": "新浪财经",
-    "source_url": "https://cj.sina.cn",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfSTBuZFpqRDA5T1l2RE5xWXBfWGNQTWwtVlNBdjNCVU9MdmhRRlByTjVtRDZFYUR6X1dwX1RkTzhxREwyQ2J5Z1d1YzREcjItNFFRUW5oYnAyMWlJZTlrZkc0ZHYzWVo5UXlVNFUxTQ?oc=5",
-    "published": "2026-06-03",
-    "summary": "上海明确加快推出液化天然气期货期权，研发电力、算力期货&nbsp;&nbsp;新浪财经",
-    "full_text": "「上海明确加快推出液化天然气期货期权，研发电力、算力期货」\n\n📰 来源：新浪财经\n📅 发布日期：2026-06-03\n\n本文由 Google News 聚合自 新浪财经。点击下方「文章来源」链接可在浏览器中自动跳转到原始文章页面，阅读完整内容。\n\n💡 提示：本栏目聚焦 GPU 算力期货市场动态，涵盖芝商所（CME）、洲际交易所（ICE）、Silicon Data 等机构推出的算力期货/衍生品合约，以及高盛、摩根大通等华尔街机构在算力金融化领域的布局。",
     "images": [],
     "lang": "zh",
     "title_cn": "",
@@ -585,7 +526,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "ICE 创纪录的能源 OI 和 GPU 期货推动是否会改变洲际交易所 (ICE) 的投资案例？",
     "summary_cn": "ICE 创纪录的能源 OI 和 GPU 期货推动是否会改变洲际交易所 (ICE) 的投资案例？&nbsp;&nbsp;simplywall.st",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「ICE创纪录的能源OI和GPU期货推动是否会改变洲际交易所（ICE）的投资案例？」\n\n📰 来源：simplywall.st\n📅 发布时间：2026-05-31\n\n原标题：ICE创纪录的能源OI和GPU期货推动是否会改变洲际交易所（ICE）的投资案例？\n\n本文是通过 Google 新闻从 simplewall.st 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "09:32:37【香港交易所回应“算力期货布局规划”：暂无评论可提供，将来如有相关信息将及时公布】",
@@ -613,7 +555,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "华尔街巨头争先恐后买入GPU期货，加密市场已然打响。",
     "summary_cn": "华尔街巨头争相买入GPU期货，加密市场已然打响。&nbsp;&nbsp;PANews",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「华尔街各方争先恐后买入GPU期货，加密市场已然打响。」\n\n📰 来源：PANews\n📅 发布时间：2026-05-22\n\n原标题：华尔街巨头争相买入GPU期货，加密市场已然打响\n\n本文是通过 Google 新闻从 PANews 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "华尔街巨头抢滩GPU期货，加密市场已经提前开打",
@@ -655,7 +598,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "洲际交易所和 Ornn 推出 GPU 计算期货合约套件",
     "summary_cn": "洲际交易所和 Ornn 推出 GPU 计算期货合约套件 Pulse 2.0",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「洲际交易所和 Ornn 推出 GPU 计算期货一致性套件」\n\n📰 来源：Pulse 2.0\n📅 发布时间：2026-05-21\n\n原标题：洲际交易所和 Ornn 推出 GPU 计算期货合约套件\n\n本文是通过 Google 新闻从 Pulse 2.0 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "Intercontinental Exchange (ICE) To Launch GPU Compute Futures Contracts Suite To Bring Transparency To GPU Costs",
@@ -669,7 +613,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "洲际交易所 (ICE) 将推出 GPU 计算期货合约套件，以提高 GPU 成本的透明度",
     "summary_cn": "洲际交易所 (ICE) 将推出 GPU 计算期货合约套件，以提高 GPU 成本的透明度 雅虎财经",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「洲际交易所（ICE）将推出GPU计算期货一致性套件，以提高GPU成本的透明度」\n\n📰 资料来源：雅虎财经\n📅 发布时间：2026-05-21\n\n原标题：洲际交易所（ICE）将推出GPU计算期货合约套件，为GPU成本带来透明度\n\n本文是通过 Google 新闻从雅虎财经汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "How ICE’s Planned GPU Compute Futures Could Reshape Intercontinental Exchange (ICE) Investors’ AI Narrative",
@@ -683,7 +628,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "ICE 计划的 GPU 计算未来如何重塑洲际交易所 (ICE) 投资者的人工智能叙事",
     "summary_cn": "ICE 计划的 GPU 计算未来如何重塑洲际交易所 (ICE) 投资者的人工智能叙事 雅虎财经",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「ICE 计划的 GPU 计算未来如何完成洲际交易所（ICE）投资者的人工智能叙述」\n\n📰 资料来源：雅虎财经\n📅 发布时间：2026-05-20\n\n原标题：ICE 计划的 GPU 计算未来如何重塑洲际交易所 (ICE) 投资者的人工智能叙事\n\n本文是通过 Google 新闻从雅虎财经汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "DERIVSOURCE: CME Group, Silicon Data to Launch Futures for Computing Power",
@@ -697,7 +643,8 @@ var GPU_NEWS = [
     "lang": "en",
     "title_cn": "DERIVSOURCE：CME 集团与 Silicon Data 推出计算能力期货",
     "summary_cn": "DERIVSOURCE：CME 集团和 Silicon Data 将推出计算能力期货交易者杂志",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「DERIVSOURCE：CME 集团与 Silicon Data 推出计算能力期货」\n\n📰 来源：《交易者杂志》\n📅 发布时间：2026-05-20\n\n原标题：DERIVSOURCE：CME 集团、Silicon Data 推出算力期货\n\n本文是通过 Google 新闻从 Traders Magazine 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   },
   {
     "title": "ICE moves to list futures on GPU compute, putting AI infrastructure on the trading floor",
@@ -706,11 +653,72 @@ var GPU_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUDhmdjk2bWx1OGFXMy1acXhYTmJIaFpKajh1X3dpWVE5V1NuaUpwYUVwTVFhRlduSEhsdnE4MzdkUGhDRmZvZUY0enlNQ1BJcDFIcGQ4R0JuSlNNMnJkbERzWTBpRTJZLVBZVk1aQWQtTmlKY0RpOWNERDVfaHBHU3JLVHBtcV9rcF9KcXVYd1VUVzdUb2M2YVI3dTZPZzBRLXN0NXoxUTEzTGd0cW1NdHFZdWRRQQ?oc=5",
     "published": "2026-05-19",
     "summary": "ICE moves to list futures on GPU compute, putting AI infrastructure on the trading floor&nbsp;&nbsp;Startup Fortune",
-    "full_text": "「ICE moves to list futures on GPU compute, putting AI infrastructure on the trading floor」\n\n📰 Source: Startup Fortune\n📅 Published: 2026-05-19\n\nOriginal title: ICE moves to list futures on GPU compute, putting AI infrastructure on the trading floor\n\nThis article is aggregated from Startup Fortune via Google News. Click the source link below to read the full article. The Google News link will automatically redirect you to the original article page.\n\n💡 This section focuses on GPU compute futures market developments, including CME Group, ICE, Silicon Data compute futures contracts, and Wall Street's involvement in compute financialization.",
+    "full_text": "「ICE 开始上市 GPU 计算期货，将人工智能基础设施置于交易大厅」\n\n📰 Source: Startup Fortune\n📅 Published: 2026-05-19\n\nOriginal title: ICE moves to list futures on GPU compute, putting AI infrastructure on the trading floor\n\nThis article is aggregated from Startup Fortune via Google News. Click the source link below to read the full article. The Google News link will automatically redirect you to the original article page.\n\n💡 This section focuses on GPU compute futures market developments, including CME Group, ICE, Silicon Data compute futures contracts, and Wall Street's involvement in compute financialization.",
     "images": [],
     "lang": "en",
-    "title_cn": "",
+    "title_cn": "ICE 开始上市 GPU 计算期货，将人工智能基础设施置于交易大厅",
     "summary_cn": "ICE 开始上市 GPU 计算期货，将人工智能基础设施置于交易大厅 创业财富",
-    "translated": true
+    "translated": true,
+    "full_text_cn": "「ICE开始上市GPU计算期货，将人工智能基础设施安置交易大厅」\n\n📰 来源：《创业财富》\n📅 发布时间：2026-05-19\n\n原标题：ICE 开始上市 GPU 计算期货，将人工智能基础设施放到交易大厅\n\n本文是通过 Google 新闻从 Startup Fortune 汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
+  },
+  {
+    "title": "ICE, Ornn plan to launch GPU compute futures contracts",
+    "source": "FX News Group",
+    "source_url": "https://fxnewsgroup.com",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0pTRzhYTjktUGp1WGVvdVBpeF9VQlV4dlR0b3hUMG1VNXhYblN0Rk1QM3kwLURhemZjYnE3NU0yRFFQcE9MR1V1aThpcnNMR3U1dzBRNzU0WEF1ajlLSmtrMnJJdFdEMTgtcmdfOXluSGlYc0x0R01mVzVTa3V5TFlhQWd4SEtON01UNTdCa2wtdjFieWJHUG9vVkFjUUdM?oc=5",
+    "published": "2026-05-19",
+    "summary": "ICE, Ornn plan to launch GPU compute futures contracts&nbsp;&nbsp;FX News Group",
+    "full_text": "「ICE 和 Ornn 计划推出 GPU 计算期货合约」\n\n📰 Source: FX News Group\n📅 Published: 2026-05-19\n\nOriginal title: ICE, Ornn plan to launch GPU compute futures contracts\n\nThis article is aggregated from FX News Group via Google News. Click the source link below to read the full article. The Google News link will automatically redirect you to the original article page.\n\n💡 This section focuses on GPU compute futures market developments, including CME Group, ICE, Silicon Data compute futures contracts, and Wall Street's involvement in compute financialization.",
+    "images": [],
+    "lang": "en",
+    "title_cn": "ICE 和 Ornn 计划推出 GPU 计算期货合约",
+    "summary_cn": "ICE 和 Ornn 计划推出 GPU 计算期货合约 FX News Group",
+    "translated": true,
+    "full_text_cn": "「ICE 和 Ornn 计划推出 GPU 计算期货合约」\n\n📰 来源：FX新闻组\n📅 发布时间：2026-05-19\n\n原标题：ICE、Ornn计划推出GPU计算期货合约\n\n本文是通过 Google 新闻从 FX 新闻组汇总的。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
+  },
+  {
+    "title": "ICE and Ornn to launch GPU compute futures contracts",
+    "source": "Blockspace Media",
+    "source_url": "https://blockspace.media",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZDdIMFlGS2RrUU1Dczh6ZmthY1JsMktiSWlCdVVfZGFBSHllTnp2MGJRTmdWSTNXMGNCQkFTZ1N4dVZpaWVrajYzLVBVSGxua291dERDWmdzWkpaTC1Hd2lPZmE1OWdXUE0wMUNGeDJFdmpMN3ppcWxIZlFjd0JWQmR3?oc=5",
+    "published": "2026-05-19",
+    "summary": "ICE and Ornn to launch GPU compute futures contracts&nbsp;&nbsp;Blockspace Media",
+    "full_text": "「ICE 和 Ornn 将推出 GPU 计算期货合约」\n\n📰 Source: Blockspace Media\n📅 Published: 2026-05-19\n\nOriginal title: ICE and Ornn to launch GPU compute futures contracts\n\nThis article is aggregated from Blockspace Media via Google News. Click the source link below to read the full article. The Google News link will automatically redirect you to the original article page.\n\n💡 This section focuses on GPU compute futures market developments, including CME Group, ICE, Silicon Data compute futures contracts, and Wall Street's involvement in compute financialization.",
+    "images": [],
+    "lang": "en",
+    "title_cn": "ICE 和 Ornn 将推出 GPU 计算期货合约",
+    "summary_cn": "ICE 和 Ornn 将推出 GPU 计算期货合约 Blockspace Media",
+    "translated": true,
+    "full_text_cn": "「ICE 和 Ornn 将推出 GPU 计算期货合约」\n\n📰 来源：Blockspace Media\n📅 发布时间：2026-05-19\n\n原标题：ICE 和 Ornn 推出 GPU 计算期货合约\n\n本文通过 Google 新闻从 Blockspace Media 汇总。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
+  },
+  {
+    "title": "NYSE’s Owner Plans Its Own Futures Market for Computing Power",
+    "source": "Bloomberg.com",
+    "source_url": "https://www.bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUXVkZ2dmeHgwdERhYXZEQVZFMFlDb3BCSVdadGJGZEJtOTBheTg3RGltMFN1cTJqeC15WEdsYnBXdkRIZFpEQWI1aExuR2RsU1VNZElFRlZkTkZMZW1QTUJUMlR3MUQxRHNwc0JYaEZEU3Z0Z3h3cFBUek1uMmY2bkd4WUhTU2Z6OVJSVHlEWjhPeGZuZ3lEMjFaQzcyOV9vUUxHYWJ5V2Q2ZUg0eGdqeHZ3?oc=5",
+    "published": "2026-05-19",
+    "summary": "NYSE’s Owner Plans Its Own Futures Market for Computing Power&nbsp;&nbsp;Bloomberg.com",
+    "full_text": "「纽约证券交易所所有者计划建立自己的计算能力期货市场」\n\n📰 Source: Bloomberg.com\n📅 Published: 2026-05-19\n\nOriginal title: NYSE’s Owner Plans Its Own Futures Market for Computing Power\n\nThis article is aggregated from Bloomberg.com via Google News. Click the source link below to read the full article. The Google News link will automatically redirect you to the original article page.\n\n💡 This section focuses on GPU compute futures market developments, including CME Group, ICE, Silicon Data compute futures contracts, and Wall Street's involvement in compute financialization.",
+    "images": [],
+    "lang": "en",
+    "title_cn": "纽约证券交易所所有者计划建立自己的计算能力期货市场",
+    "summary_cn": "纽约证券交易所所有者计划建立自己的计算能力期货市场&nbsp;&nbsp;Bloomberg.com",
+    "translated": true,
+    "full_text_cn": "「纽约证券交易所业主计划建立自己的计算能力期货市场」\n\n📰 资料来源：Bloomberg.com\n📅 发布时间：2026-05-19\n\n原标题：纽交所所有者规划自己的算力期货市场\n\n本文通过 Google 新闻从 Bloomberg.com 汇总。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
+  },
+  {
+    "title": "ICE and Ornn to Launch GPU Compute Futures Contracts",
+    "source": "Business Wire",
+    "source_url": "https://www.businesswire.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONldNR3JRUVNPeXhFZGlma2FVbjRHWkZORjVyZFQtTlFiTWtESGpYdW9yU2g0cDFWVkhFdmIxY2hHODA5LU5MaEpKenE4VzFCYm1kcTZyMzVjZjVCc1Z2ODlDZGRENkh1enpkNFlFTy1zQ0FDcXlkeDJRN1RPejZpQmNMLU42MXRac3hFUDR4VUNndlYtVTd2WkZ1eDRFbWZqUjJhSW5hNm95RGpueEE?oc=5",
+    "published": "2026-05-19",
+    "summary": "ICE and Ornn to Launch GPU Compute Futures Contracts&nbsp;&nbsp;Business Wire",
+    "full_text": "「ICE 和 Ornn 将推出 GPU 计算期货合约」\n\n📰 Source: Business Wire\n📅 Published: 2026-05-19\n\nOriginal title: ICE and Ornn to Launch GPU Compute Futures Contracts\n\nThis article is aggregated from Business Wire via Google News. Click the source link below to read the full article. The Google News link will automatically redirect you to the original article page.\n\n💡 This section focuses on GPU compute futures market developments, including CME Group, ICE, Silicon Data compute futures contracts, and Wall Street's involvement in compute financialization.",
+    "images": [],
+    "lang": "en",
+    "title_cn": "ICE 和 Ornn 将推出 GPU 计算期货合约",
+    "summary_cn": "ICE 和 Ornn 将推出 GPU 计算期货合约 Business Wire",
+    "translated": true,
+    "full_text_cn": "「ICE 和 Ornn 将推出 GPU 计算期货合约」\n\n📰 资料来源：美国商业资讯\n📅 发布时间：2026-05-19\n\n原标题：ICE 和 Ornn 将推出 GPU 计算期货合约\n\n本文通过 Google 新闻从美国商业资讯汇总。单击下面的源链接阅读全文。 Google 新闻链接会自动将您重定向到原始文章页面。\n\n💡本节重点介绍GPU计算期货市场发展，包括CME Group、ICE、Silicon Data计算期货合约，以及华尔街对计算金融化的参与。"
   }
 ];

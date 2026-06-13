@@ -1,6 +1,6 @@
 // GPU算力租赁新闻 v4
-// Generated: 2026-06-13T06:06:19Z
-var NEWS_FETCHED_AT = "2026-06-13T06:06:19Z";
+// Generated: 2026-06-13T06:14:05Z
+var NEWS_FETCHED_AT = "2026-06-13T06:14:05Z";
 var GPU_NEWS = [
   {
     "title": "算力价格大幅下降_新浪新闻",
@@ -517,6 +517,21 @@ var GPU_NEWS = [
     "full_text_cn": "「NVIDIA (NVDA) 云数据中心 GPU 租赁价格激增」\n\n资料来源：GuruFocus\n发布时间：2026-04-13\n\n原文：NVIDIA (NVDA) 云数据中心 GPU 租赁价格飙升\n\n本文是通过 Google 新闻从 GuruFocus 汇总的。单击卡片即可阅读全文。 Google 新闻链接会将您重定向到原始页面。\n\n本节涵盖 GPU 计算租赁市场趋势，包括 H100/A100/H200/B200 云定价、CoreWeave/RunPod/Vast.ai/Lambda Labs 费率以及 GPU 云供需动态。"
   },
   {
+    "title": "Why Are GPU Prices Skyrocketing Out of Control?",
+    "source": "WEEX",
+    "source_url": "https://www.weex.com",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMWZzbUVDdVJQdl9TM041Zk04RWVrcFZ2b2w0TV9qRWNHczRvanQwd0pfejB6TU9sQV80RlNtNE9NcDg5VmYxZEQ5ZVplQVhPblhORHEzc3VOMnQ4WnB1N0x1Tl9iNkZnbl9PTkg1aE5UMmZEdGFCblFhNHEtN0RlV3hzMkVScFh1aGZhN283SQ?oc=5",
+    "published": "2026-04-07",
+    "summary": "Why Are GPU Prices Skyrocketing Out of Control?&nbsp;&nbsp;WEEX",
+    "full_text": "「为何 GPU 价格疯涨失控？」\n\nSource: WEEX\nPublished: 2026-04-07\n\nOriginal: Why Are GPU Prices Skyrocketing Out of Control?\n\nThis article is aggregated from WEEX via Google News. Click the card to read the full article. The Google News link will redirect you to the original page.\n\nThis section covers GPU compute rental market trends, including H100/A100/H200/B200 cloud pricing, CoreWeave/RunPod/Vast.ai/Lambda Labs rates, and GPU cloud supply-demand dynamics.",
+    "images": [],
+    "lang": "en",
+    "title_cn": "为何 GPU 价格疯涨失控？",
+    "summary_cn": "为什么 GPU 价格疯涨失控？&nbsp;&nbsp;WEEX",
+    "translated": true,
+    "full_text_cn": "「GPU价格为何疯涨失控？」\n\n来源：WEEX\n发布时间：2026-04-07\n\n原文：GPU 价格为何疯涨失控？\n\n本文通过 Google 新闻从 WEEX 汇总。单击卡片即可阅读全文。 Google 新闻链接会将您重定向到原始页面。\n\n本节涵盖 GPU 计算租赁市场趋势，包括 H100/A100/H200/B200 云定价、CoreWeave/RunPod/Vast.ai/Lambda Labs 费率以及 GPU 云供需动态。"
+  },
+  {
     "title": "Why Nvidia GPU prices are 'going nuts,' according to one CEO",
     "source": "Business Insider",
     "source_url": "https://www.businessinsider.com",
@@ -585,7 +600,7 @@ var GPU_NEWS = [
     "images": [],
     "lang": "en",
     "title_cn": "为什么开发人员选择无合同 GPU 部署",
-    "summary_cn": "",
+    "summary_cn": "为什么开发人员选择无合同 GPU 部署&nbsp;&nbsp;businesscloud.co.uk",
     "translated": true,
     "full_text_cn": "「为什么开发人员选择无合同GPU部署」\n\n资料来源：businesscloud.co.uk\n发布时间：2026-03-24\n\n原文：为什么开发人员选择无合同 GPU 部署\n\n本文是通过 Google 新闻从businesscloud.co.uk 汇总的。单击卡片即可阅读全文。 Google 新闻链接会将您重定向到原始页面。\n\n本节涵盖 GPU 计算租赁市场趋势，包括 H100/A100/H200/B200 云定价、CoreWeave/RunPod/Vast.ai/Lambda Labs 费率以及 GPU 云供需动态。"
   },
@@ -703,20 +718,5 @@ var GPU_NEWS = [
     "title_cn": "",
     "summary_cn": "",
     "translated": false
-  },
-  {
-    "title": "Sold Out Cloud: How GPU Demand Created a New Rental Market",
-    "source": "inc.com",
-    "source_url": "https://www.inc.com",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGhfczZySFhKUzZhenVJUkhyS3F6a1pEcXhtb09wUVREN01aRkVmNjl6VVFqR3dRaktkS1UwQUZQakJIM1laX0RpYW1saW93WDBMNFRvV0VEOU4tTnBDTWJYSy1BaUV6LWdjZ3VQTmVoenJnanM2VWJxY1V4eUZHZ0FuYzdIT0RhUkxTWngwLTlhSXJ6b2RFZC1uQlVTZFRBRWVCSzFSeXVYQQ?oc=5",
-    "published": "2025-12-09",
-    "summary": "Sold Out Cloud: How GPU Demand Created a New Rental Market&nbsp;&nbsp;inc.com",
-    "full_text": "「云计算已售罄：GPU 需求如何创造新的租赁市场」\n\nSource: inc.com\nPublished: 2025-12-09\n\nOriginal: Sold Out Cloud: How GPU Demand Created a New Rental Market\n\nThis article is aggregated from inc.com via Google News. Click the card to read the full article. The Google News link will redirect you to the original page.\n\nThis section covers GPU compute rental market trends, including H100/A100/H200/B200 cloud pricing, CoreWeave/RunPod/Vast.ai/Lambda Labs rates, and GPU cloud supply-demand dynamics.",
-    "images": [],
-    "lang": "en",
-    "title_cn": "云计算已售罄：GPU 需求如何创造新的租赁市场",
-    "summary_cn": "售空云：GPU 需求如何创造新的租赁市场 &nbsp;&nbsp;inc.com",
-    "translated": true,
-    "full_text_cn": "「云计算已售先：GPU 需求如何创造新的租赁市场」\n\n资料来源：inc.com\n发布时间：2025-12-09\n\n原文：Sold Out Cloud：GPU 需求如何创造新的租赁市场\n\n本文是通过 Google 新闻从 inc.com 汇总的。单击卡片即可阅读全文。 Google 新闻链接会将您重定向到原始页面。\n\n本节涵盖 GPU 计算租赁市场趋势，包括 H100/A100/H200/B200 云定价、CoreWeave/RunPod/Vast.ai/Lambda Labs 费率以及 GPU 云供需动态。"
   }
 ];

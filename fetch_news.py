@@ -326,12 +326,8 @@ def main():
             existing_titles.add(a["title"][:60])
             new_added += 1
 
-    # 排序：有真实正文的优先，然后按日期倒序
-    def sort_key(a: dict) -> tuple:
-        has_real_body = 1 if len(a.get("full_text", "")) > 1000 else 0
-        date_str = a.get("published", "")
-        return (has_real_body, date_str)
-    existing.sort(key=sort_key, reverse=True)
+    # 按发布日期倒序（最新在前）
+    existing.sort(key=lambda x: x.get("published", ""), reverse=True)
     all_news = existing[:50]
 
     if len(all_news) == 0 and existing:
