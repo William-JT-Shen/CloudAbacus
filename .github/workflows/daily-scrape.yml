@@ -34,6 +34,9 @@ jobs:
           echo "SCRAPE_TIME=$(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_ENV
 
       - name: 抓取新闻
+        env:
+          HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
+          HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
         run: |
           python scrape_sina.py || echo "Sina scrape failed"
           python fetch_news.py || echo "新闻抓取失败"

@@ -17,6 +17,15 @@ except ImportError as e:
 URL = "https://finance.sina.com.cn/wm/2026-05-16/doc-inhyahas2588021.shtml"
 OUTPUT = Path(__file__).parent / "futures_news.js"
 
+# 代理配置（从环境变量读取）
+PROXY = None
+import os
+http_proxy = os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy")
+https_proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
+if http_proxy:
+    PROXY = {"http": http_proxy, "https": https_proxy or http_proxy}
+    print(f"Using proxy: {http_proxy}")
+
 print("=" * 50)
 print("Scraping Sina article...")
 print(URL)
@@ -24,7 +33,7 @@ print("=" * 50)
 
 # 1. Fetch
 try:
-    r = requests.get(URL, timeout=20, headers={
+    r = requests.get(URL, timeout=20, proxies=PROXY, headers={
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36"
     })
     r.raise_for_status()
