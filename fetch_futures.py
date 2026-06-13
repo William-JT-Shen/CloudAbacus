@@ -51,27 +51,27 @@ HEADERS = {
                   "Chrome/125.0.0.0 Safari/537.36"
 }
 
-# ====== Google News RSS 搜索词（站内精准搜索） ======
+# ====== Google News RSS 搜索词（聚焦 GPU 算力期货） ======
 GOOGLE_NEWS_QUERIES = [
-    # 中文金融站：站内搜索"算力+期货"
+    # 中文金融站：站内精准搜索"算力+期货"
     ("site:finance.sina.com.cn 算力 期货", "zh-CN"),
     ("site:eastmoney.com 算力 期货", "zh-CN"),
     ("site:cls.cn 算力 期货", "zh-CN"),
     ("site:36kr.com 算力 期货", "zh-CN"),
     # 中文精准搜索
-    ("芝商所 Silicon Data 算力 期货", "zh-CN"),
-    ("GPU 算力 期货 合约 交易所", "zh-CN"),
-    ("AI 算力 资产化 大宗商品 期货", "zh-CN"),
-    ("算力 金融化 衍生品 GPU", "zh-CN"),
-    # 英文金融站：站内搜索
-    ("site:reuters.com GPU compute futures", "en"),
-    ("site:bloomberg.com GPU compute futures", "en"),
-    ("site:coindesk.com GPU compute futures", "en"),
-    # 英文精准搜索
-    ("CME Group silicon data compute futures", "en"),
-    ("GPU cloud rental futures derivatives contract", "en"),
-    ("compute power futures exchange benchmark", "en"),
-    ("GPU commodity trading futures index", "en"),
+    ("芝商所 Silicon Data 算力 期货 CME", "zh-CN"),
+    ("GPU 算力 期货 合约 交易所 芝商所", "zh-CN"),
+    ("AI 算力 资产化 大宗商品 期货 衍生品", "zh-CN"),
+    ("算力 金融化 衍生品 GPU 期货", "zh-CN"),
+    ("高盛 摩根大通 算力 期货", "zh-CN"),
+    ("上海 算力 期货 研发", "zh-CN"),
+    ("中信证券 算力 期货 金融化", "zh-CN"),
+    # 英文精准搜索（聚焦 CME / ICE / Silicon Data / compute futures）
+    ("CME Group Silicon Data compute futures", "en"),
+    ("GPU compute futures contract ICE exchange", "en"),
+    ("compute power futures derivatives benchmark", "en"),
+    ("Goldman JPMorgan AI compute futures trading", "en"),
+    ("Silicon Data GPU cloud futures market", "en"),
 ]
 
 # ====== 已知可提取全文的 URL ======
@@ -83,13 +83,19 @@ EXTRACTABLE_URLS = [
      "Benzinga", "2026-05-13"),
 ]
 
-# ====== 相关性过滤关键词 ======
-FUTURES_KW = [
-    "futures", "future", "期货", "derivative", "衍生品", "芝商所", "CME", "ICE",
-    "commodity", "contract", "合约", "exchange", "交易所", "financial", "金融",
-    "asset", "资产", "index", "指数", "gpu", "算力", "compute", "cloud",
-    "rental", "租赁", "定价", "price", "benchmark", "Silicon Data",
-    "纳斯达克", "Nasdaq", "Benzinga", "listing", "上市", "对冲",
+# ====== 相关性过滤关键词（必须同时命中两类） ======
+# 第一类：期货/金融衍生品相关
+FUTURES_TERMS = [
+    "futures", "期货", "derivative", "衍生品", "芝商所", "CME", "ICE",
+    "commodity", "大宗商品", "contract", "合约", "exchange", "交易所",
+    "financial", "金融化", "金融衍生", "对冲", "hedge",
+]
+# 第二类：GPU/算力/云计算相关
+COMPUTE_TERMS = [
+    "gpu", "算力", "compute", "computing", "cloud", "云计算", "AI 算力",
+    "h100", "a100", "h200", "b200", "nvidia", "英伟达", "Silicon Data",
+    "chip", "芯片", "processor", "处理器", "data center", "数据中心",
+    "rental", "租赁", "price", "定价", "benchmark", "指数",
 ]
 
 # ====== 翻译专有名词还原 ======
@@ -312,19 +318,21 @@ def main():
                 added += 1
         print(f"   「{query[:45]}」: +{added} 篇 (累计 {len(all_news)})")
 
-    # ---- Step 3: 相关性过滤 ----
+    # ---- Step 3: 相关性过滤（必须同时命中：期货类 + 算力类） ----
     filtered = []
     extractable_sources = {s for _, s, _ in EXTRACTABLE_URLS}
     for a in all_news:
         if a.get("source") in extractable_sources:
             filtered.append(a)  # 已知可提取来源直接保留
-        else:
-            text = (a.get("title", "") + " " + a.get("summary", "")).lower()
-            if any(kw.lower() in text for kw in FUTURES_KW):
-                filtered.append(a)
+            continue
+        text = (a.get("title", "") + " " + a.get("summary", "")).lower()
+        has_futures = any(kw.lower() in text for kw in FUTURES_TERMS)
+        has_compute = any(kw.lower() in text for kw in COMPUTE_TERMS)
+        if has_futures and has_compute:
+            filtered.append(a)
     if filtered:
         all_news = filtered
-    print(f"\n📋 相关性过滤后: {len(all_news)} 篇")
+    print(f"\n📋 相关性过滤（期货∩算力）: {len(all_news)} 篇")
 
     # ---- Step 4: 标准化所有文章字段 ----
     def normalize_article(a: dict) -> dict:

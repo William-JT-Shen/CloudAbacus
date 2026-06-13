@@ -56,7 +56,7 @@
     var lt=a.lang==='zh'?'<span class="nc-lang zh">中文</span>':'<span class="nc-lang en">English</span>';
     var imgs='';
     if(a.images&&a.images.length)imgs='<div class="nc-imgs">'+a.images.map(function(u){return'<img src="'+e(u)+'" loading="lazy" onerror="this.style.display=\'none\'">'}).join('')+'</div>';
-    var card='<a href="article.html?id='+i+'" class="news-card">'+
+    var card='<a href="futures_article.html?id='+i+'" class="news-card">'+
       '<div class="nc-title">'+e(a.title_cn||a.title)+'</div>'+
       '<div class="nc-meta">'+lt+' <span>'+e(a.source)+'</span> <span>'+e(a.published||'')+'</span></div>'+
       '<div class="nc-summary">'+e((a.summary_cn||a.summary).slice(0,200))+'</div>'+imgs+'</a>';
