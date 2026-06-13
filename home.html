@@ -95,15 +95,23 @@
         <stop offset="0%" style="stop-color:#c4b5fd"/>
         <stop offset="100%" style="stop-color:#8b5cf6"/>
       </linearGradient>
+      <radialGradient id="glowGrad">
+        <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1"/>
+        <stop offset="70%" style="stop-color:#fbbf24;stop-opacity:.4"/>
+        <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:0"/>
+      </radialGradient>
       <style>
-        .node { fill: url(#g); transition: all .35s ease; }
-        .node.lit { fill: #fbbf24; filter: drop-shadow(0 0 14px #fbbf24); }
-        .link { stroke: url(#g2); stroke-width:1.5; opacity:.5; transition: all .35s ease; }
-        .link.lit { stroke: #fbbf24; opacity:1; stroke-width:2; filter: drop-shadow(0 0 6px #fbbf24); }
+        .node { fill: url(#g); }
+        .link { stroke: url(#g2); stroke-width:1.5; opacity:.5; }
+        .glow-edge { stroke:#fbbf24; stroke-width:2.5; stroke-linecap:round;
+          transition: stroke-dashoffset 3s ease-in-out; }
+        .glow-halo { fill:url(#glowGrad); opacity:0;
+          transition: opacity .6s ease, r .6s ease; }
+        .glow-halo.on { opacity:1; }
       </style>
     </defs>
 
-    <!-- Cloud nodes with IDs -->
+    <!-- Cloud nodes (n0-n7) -->
     <circle id="n0" cx="100" cy="28" r="10" class="node"/>
     <circle id="n1" cx="50" cy="62" r="14" class="node"/>
     <circle id="n2" cx="100" cy="55" r="12" class="node"/>
@@ -113,19 +121,41 @@
     <circle id="n6" cx="122" cy="90" r="13" class="node"/>
     <circle id="n7" cx="172" cy="96" r="11" class="node"/>
 
-    <!-- Links between cloud nodes -->
-    <line id="l01" x1="100" y1="28" x2="50" y2="62" class="link"/>
-    <line id="l02" x1="100" y1="28" x2="100" y2="55" class="link"/>
-    <line id="l03" x1="100" y1="28" x2="150" y2="62" class="link"/>
-    <line id="l12" x1="50" y1="62" x2="100" y2="55" class="link"/>
-    <line id="l23" x1="100" y1="55" x2="150" y2="62" class="link"/>
-    <line id="l15" x1="50" y1="62" x2="78" y2="90" class="link"/>
-    <line id="l36" x1="150" y1="62" x2="122" y2="90" class="link"/>
-    <line id="l45" x1="28" y1="96" x2="78" y2="90" class="link"/>
-    <line id="l56" x1="78" y1="90" x2="122" y2="90" class="link"/>
-    <line id="l67" x1="122" y1="90" x2="172" y2="96" class="link"/>
+    <!-- Node glow halos (hidden until lit) -->
+    <circle id="h0" cx="100" cy="28" r="18" class="glow-halo"/>
+    <circle id="h1" cx="50" cy="62" r="22" class="glow-halo"/>
+    <circle id="h2" cx="100" cy="55" r="20" class="glow-halo"/>
+    <circle id="h3" cx="150" cy="62" r="22" class="glow-halo"/>
+    <circle id="h4" cx="28" cy="96" r="19" class="glow-halo"/>
+    <circle id="h5" cx="78" cy="90" r="21" class="glow-halo"/>
+    <circle id="h6" cx="122" cy="90" r="21" class="glow-halo"/>
+    <circle id="h7" cx="172" cy="96" r="19" class="glow-halo"/>
 
-    <!-- Abacus rails and beads (static, subtle glow) -->
+    <!-- Normal edges -->
+    <line id="e01" x1="100" y1="28" x2="50" y2="62" class="link"/>
+    <line id="e02" x1="100" y1="28" x2="100" y2="55" class="link"/>
+    <line id="e03" x1="100" y1="28" x2="150" y2="62" class="link"/>
+    <line id="e12" x1="50" y1="62" x2="100" y2="55" class="link"/>
+    <line id="e23" x1="100" y1="55" x2="150" y2="62" class="link"/>
+    <line id="e15" x1="50" y1="62" x2="78" y2="90" class="link"/>
+    <line id="e36" x1="150" y1="62" x2="122" y2="90" class="link"/>
+    <line id="e45" x1="28" y1="96" x2="78" y2="90" class="link"/>
+    <line id="e56" x1="78" y1="90" x2="122" y2="90" class="link"/>
+    <line id="e67" x1="122" y1="90" x2="172" y2="96" class="link"/>
+
+    <!-- Glow overlay edges (same coords, gold, animated stroke-dashoffset) -->
+    <line id="g01" x1="100" y1="28" x2="50" y2="62" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+    <line id="g02" x1="100" y1="28" x2="100" y2="55" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+    <line id="g03" x1="100" y1="28" x2="150" y2="62" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+    <line id="g12" x1="50" y1="62" x2="100" y2="55" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+    <line id="g23" x1="100" y1="55" x2="150" y2="62" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+    <line id="g15" x1="50" y1="62" x2="78" y2="90" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+    <line id="g36" x1="150" y1="62" x2="122" y2="90" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+    <line id="g45" x1="28" y1="96" x2="78" y2="90" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+    <line id="g56" x1="78" y1="90" x2="122" y2="90" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+    <line id="g67" x1="122" y1="90" x2="172" y2="96" class="glow-edge" stroke-dasharray="0" stroke-dashoffset="0"/>
+
+    <!-- Abacus (static) -->
     <line x1="40" y1="125" x2="160" y2="125" stroke="url(#g)" stroke-width="3" stroke-linecap="round" opacity=".7"/>
     <line x1="40" y1="145" x2="160" y2="145" stroke="url(#g)" stroke-width="3" stroke-linecap="round" opacity=".7"/>
     <line x1="40" y1="165" x2="160" y2="165" stroke="url(#g)" stroke-width="3" stroke-linecap="round" opacity=".7"/>
@@ -249,12 +279,11 @@
 </script>
 
 <script>
-// Logo jumping glow animation
+// Logo smooth edge-travel glow animation
 (function(){
   var svg = document.getElementById('logo');
   if(!svg) return;
 
-  // Adjacency graph: node_id -> [neighbor_ids]
   var graph = {
     n0: ['n1','n2','n3'],
     n1: ['n0','n2','n5'],
@@ -266,71 +295,115 @@
     n7: ['n6']
   };
 
-  // Edge IDs connecting node pairs (sorted for lookup)
-  var edgeMap = {
-    'n0-n1':'l01','n0-n2':'l02','n0-n3':'l03',
-    'n1-n2':'l12','n2-n3':'l23',
-    'n1-n5':'l15','n3-n6':'l36',
-    'n4-n5':'l45','n5-n6':'l56','n6-n7':'l67'
+  // Edge length computation
+  function edgeLen(ax,ay,bx,by) {
+    return Math.sqrt((bx-ax)*(bx-ax)+(by-ay)*(by-ay));
+  }
+
+  var nodeCoords = {
+    n0:[100,28], n1:[50,62], n2:[100,55], n3:[150,62],
+    n4:[28,96], n5:[78,90], n6:[122,90], n7:[172,96]
   };
 
-  function edgeId(a,b) {
-    var key = [a,b].sort().join('-');
-    return edgeMap[key] || null;
-  }
+  // Precompute edge lengths and glow-edge IDs
+  var edgeInfo = {};
+  Object.keys(graph).forEach(function(a) {
+    graph[a].forEach(function(b) {
+      var key = [a,b].sort().join('-');
+      if(edgeInfo[key]) return;
+      var ca = nodeCoords[a], cb = nodeCoords[b];
+      var len = edgeLen(ca[0],ca[1],cb[0],cb[1]);
+      var gid = 'g' + key.replace('n','').replace('-','');
+      edgeInfo[key] = {len:len, gid:gid, nodes:[a,b]};
+      // Set initial dasharray
+      var gel = document.getElementById(gid);
+      if(gel) { gel.setAttribute('stroke-dasharray',len); gel.setAttribute('stroke-dashoffset',len); }
+    });
+  });
+
+  function glowEdgeKey(a,b) { return [a,b].sort().join('-'); }
 
   var currentNode = null;
-  var glowTimer = null;
+  var prevNode = null;
+  var busy = false;
 
-  function clearGlow() {
-    if(currentNode) {
-      svg.getElementById(currentNode).classList.remove('lit');
-      // Clear adjacent edges
-      var neighbors = graph[currentNode] || [];
-      neighbors.forEach(function(nb) {
-        var eid = edgeId(currentNode, nb);
-        if(eid) svg.getElementById(eid).classList.remove('lit');
+  function setHalo(nodeId, on) {
+    var h = document.getElementById('h'+nodeId.slice(1));
+    if(h) {
+      if(on) h.classList.add('on');
+      else h.classList.remove('on');
+    }
+  }
+
+  function travelGlow(from, to) {
+    var key = glowEdgeKey(from,to);
+    var info = edgeInfo[key];
+    if(!info) return;
+    var gel = document.getElementById(info.gid);
+    if(!gel) return;
+
+    // Ensure glow edge x1,y1 matches 'from' so dash travels from→to
+    var fc = nodeCoords[from], tc = nodeCoords[to];
+    gel.setAttribute('x1', fc[0]); gel.setAttribute('y1', fc[1]);
+    gel.setAttribute('x2', tc[0]); gel.setAttribute('y2', tc[1]);
+
+    // Set dasharray and start offset (hidden at 'from' end)
+    gel.setAttribute('stroke-dasharray', info.len);
+    gel.setAttribute('stroke-dashoffset', info.len);
+
+    // Animate: offset travels from len→0, dash moves from→to
+    requestAnimationFrame(function() {
+      gel.style.transition = 'none';
+      gel.setAttribute('stroke-dashoffset', info.len);
+      requestAnimationFrame(function() {
+        gel.style.transition = 'stroke-dashoffset 3s ease-in-out';
+        gel.setAttribute('stroke-dashoffset', '0');
       });
-    }
-  }
-
-  function setGlow(nodeId) {
-    svg.getElementById(nodeId).classList.add('lit');
-    // Light up adjacent edges
-    var neighbors = graph[nodeId] || [];
-    neighbors.forEach(function(nb) {
-      var eid = edgeId(nodeId, nb);
-      if(eid) svg.getElementById(eid).classList.add('lit');
     });
+
+    // After 3s: edge travel complete, light target node
+    setTimeout(function() {
+      setHalo(to, true);
+      // Fade edge: offset 0 → -len (dash moves past the end, disappearing)
+      gel.style.transition = 'stroke-dashoffset 1.5s ease-out';
+      gel.setAttribute('stroke-dashoffset', -info.len);
+
+      // After 3s node glow, pick next
+      setTimeout(function() {
+        setHalo(to, false);
+        busy = false;
+        pickNext(to);
+      }, 3000);
+    }, 3000);
   }
 
-  function jump() {
-    var neighbors;
-    if(currentNode) {
-      neighbors = graph[currentNode] || [];
-    } else {
-      // First jump: pick any node
-      neighbors = Object.keys(graph);
+  function pickNext(fromNode) {
+    var neighbors = graph[fromNode] || [];
+    // Exclude previous node to avoid back-and-forth
+    var candidates = neighbors.filter(function(n) { return n !== prevNode; });
+    if(candidates.length === 0) candidates = neighbors;
+    if(candidates.length === 0) {
+      // Isolated node, pick any
+      candidates = Object.keys(graph).filter(function(n) { return n !== fromNode; });
     }
-
-    var next;
-    if(neighbors.length > 0) {
-      next = neighbors[Math.floor(Math.random() * neighbors.length)];
-    } else {
-      next = Object.keys(graph)[Math.floor(Math.random() * Object.keys(graph).length)];
-    }
-
-    clearGlow();
+    var next = candidates[Math.floor(Math.random() * candidates.length)];
+    prevNode = fromNode;
     currentNode = next;
-    setGlow(currentNode);
-
-    // Next jump in 600-1200ms
-    var delay = 600 + Math.random() * 600;
-    glowTimer = setTimeout(jump, delay);
+    busy = true;
+    travelGlow(fromNode, next);
   }
 
-  // Start
-  jump();
+  // Start: light up a random node first
+  var allNodes = Object.keys(graph);
+  var start = allNodes[Math.floor(Math.random() * allNodes.length)];
+  currentNode = start;
+  setHalo(start, true);
+
+  // After 3s, first jump
+  setTimeout(function() {
+    setHalo(start, false);
+    pickNext(start);
+  }, 3000);
 })();
 </script>
 
