@@ -361,7 +361,7 @@
         },50);
 
         // Node stays lit 3s, then fade out + next jump
-        setTimeout(function(){ halo(to,false); jump(to); },3000);
+        setTimeout(function(){ jump(to); },3000);
       }
     },50);
   }
@@ -370,7 +370,7 @@
   var all=Object.keys(graph);
   var s=all[Math.floor(Math.random()*all.length)];
   cur=s; halo(s,true); log('START:'+s);
-  setTimeout(function(){ halo(s,false); jump(s); },3000);
+  setTimeout(function(){ jump(s); },3000);
 })();
 </script>
 
