@@ -318,6 +318,10 @@ def main():
     all_news = existing[:50]
     # 排序
     all_news.sort(key=lambda x: x.get("published",""), reverse=True)
+    # 保护：如果本次抓取为空，保留已有数据不覆盖
+    if len(all_news) == 0 and existing:
+        print("   ⚠️ 本次未抓取到新文章，保留已有数据")
+        all_news = existing
     # 写入
     t = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     with open(OUTPUT,"w",encoding="utf-8") as f:
