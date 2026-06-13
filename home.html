@@ -278,99 +278,126 @@
 </script>
 
 <script>
-// Logo animation with on-screen debug
+// Logo animation: golden light jumps between nodes, edges as bridges
+// - Source node fades to purple AFTER golden disconnects from it
+// - Target node fades to golden WHEN edge's golden light reaches it
 (function(){
-  var dbgEl=document.getElementById('dbg');
-  function log(m){ if(dbgEl)dbgEl.textContent=(dbgEl.textContent+m).slice(-300); console.log(m); }
+  var svg = document.getElementById('logo');
+  if (!svg) return;
 
-  var svg=document.getElementById('logo');
-  if(!svg){ log('NO SVG'); return; }
-
-  var graph={
-    n0:['n1','n2','n3'], n1:['n0','n2','n5'], n2:['n0','n1','n3'],
-    n3:['n0','n2','n6'], n4:['n5'], n5:['n1','n4','n6'],
-    n6:['n3','n5','n7'], n7:['n6']
+  var graph = {
+    n0: ['n1','n2','n3'], n1: ['n0','n2','n5'], n2: ['n0','n1','n3'],
+    n3: ['n0','n2','n6'], n4: ['n5'], n5: ['n1','n4','n6'],
+    n6: ['n3','n5','n7'], n7: ['n6']
   };
-  var coords={ n0:[100,28],n1:[50,62],n2:[100,55],n3:[150,62], n4:[28,96],n5:[78,90],n6:[122,90],n7:[172,96] };
+  var coords = {
+    n0: [100,28], n1: [50,62], n2: [100,55], n3: [150,62],
+    n4: [28,96], n5: [78,90], n6: [122,90], n7: [172,96]
+  };
 
-  function halo(id,on){
-    var h=document.getElementById('h'+id.slice(1));
-    if(h){ if(on)h.classList.add('on'); else h.classList.remove('on'); }
+  function halo(id, on) {
+    var h = document.getElementById('h' + id.slice(1));
+    if (h) {
+      if (on) h.classList.add('on');
+      else h.classList.remove('on');
+    }
   }
 
-  // Precompute edges
-  var edges={};
-  Object.keys(graph).forEach(function(a){
-    graph[a].forEach(function(b){
-      var k=[a,b].sort().join('-');
-      if(edges[k])return;
-      var ca=coords[a],cb=coords[b];
-      var L=Math.sqrt((cb[0]-ca[0])**2+(cb[1]-ca[1])**2);
-      var gid='g'+k.replace(/n/g,'').replace(/-/g,'');
-      edges[k]={len:L, gid:gid};
-      var gel=document.getElementById(gid);
-      if(gel){ gel.setAttribute('stroke-dasharray',Math.round(L)); gel.setAttribute('stroke-dashoffset',Math.round(L)); }
+  // Precompute edges: length + glow-element id
+  var edges = {};
+  Object.keys(graph).forEach(function(a) {
+    graph[a].forEach(function(b) {
+      var k = [a, b].sort().join('-');
+      if (edges[k]) return;
+      var ca = coords[a], cb = coords[b];
+      var L = Math.sqrt(Math.pow(cb[0] - ca[0], 2) + Math.pow(cb[1] - ca[1], 2));
+      var gid = 'g' + k.replace(/n/g, '').replace(/-/g, '');
+      edges[k] = { len: L, gid: gid };
+      var gel = document.getElementById(gid);
+      if (gel) {
+        gel.setAttribute('stroke-dasharray', Math.round(L));
+        gel.setAttribute('stroke-dashoffset', Math.round(L));
+      }
     });
   });
-  log('edges:'+Object.keys(edges).length);
 
-  var prev=null, cur=null;
+  var prev = null;
 
-  function jump(from){
-    var nb=graph[from]||[];
-    var cand=nb.filter(function(n){return n!==prev;});
-    if(!cand.length) cand=nb;
-    if(!cand.length) cand=Object.keys(graph).filter(function(n){return n!==from;});
-    var to=cand[Math.floor(Math.random()*cand.length)];
-    log(from+'->'+to);
-    prev=from; cur=to;
-    glowEdge(from,to);
+  function jump(from) {
+    var nb = graph[from] || [];
+    var cand = nb.filter(function(n) { return n !== prev; });
+    if (!cand.length) cand = nb;
+    if (!cand.length) cand = Object.keys(graph).filter(function(n) { return n !== from; });
+    var to = cand[Math.floor(Math.random() * cand.length)];
+    prev = from;
+    glowEdge(from, to);
   }
 
-  function glowEdge(from,to){
-    var k=[from,to].sort().join('-');
-    var e=edges[k]; if(!e){ log('NOEDGE '+k); return; }
-    var gel=document.getElementById(e.gid); if(!gel){ log('NOEL '+e.gid); return; }
+  function glowEdge(from, to) {
+    var k = [from, to].sort().join('-');
+    var e = edges[k];
+    if (!e) return;
+    var gel = document.getElementById(e.gid);
+    if (!gel) return;
 
-    // Set direction (x1,y1 = from, x2,y2 = to)
-    var fc=coords[from],tc=coords[to];
-    gel.setAttribute('x1',fc[0]); gel.setAttribute('y1',fc[1]);
-    gel.setAttribute('x2',tc[0]); gel.setAttribute('y2',tc[1]);
-    gel.setAttribute('stroke-dasharray',Math.round(e.len));
-    gel.setAttribute('stroke-dashoffset',Math.round(e.len));
-    gel.classList.add('active'); // edge appears (CSS transition opacity .4s)
-    
-    // Source node fades out as edge starts traveling (1s CSS transition)
-    setTimeout(function(){ halo(from,false); }, 200);
-    log('edge:'+e.gid+' srcFade:'+from);
+    // Set direction: x1,y1 = source, x2,y2 = target
+    var fc = coords[from], tc = coords[to];
+    gel.setAttribute('x1', fc[0]); gel.setAttribute('y1', fc[1]);
+    gel.setAttribute('x2', tc[0]); gel.setAttribute('y2', tc[1]);
+    gel.setAttribute('stroke-dasharray', Math.round(e.len));
+    gel.setAttribute('stroke-dashoffset', Math.round(e.len));
+    gel.classList.add('active'); // golden edge appears (0.4s CSS transition)
 
-    // Animate dash traveling from->to over 3s (60 steps)
-    var steps=60, i=0, iv=setInterval(function(){
-      i++; var t=i/steps;
-      var v=Math.round(e.len*(1 - (t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2)));
-      gel.setAttribute('stroke-dashoffset',v);
-      if(i>=steps){ clearInterval(iv);
+    // --- Source: fade to purple AFTER golden disconnects from it ---
+    // Brief 350ms delay so the golden connection is visible before fading
+    setTimeout(function() {
+      halo(from, false); // 1s CSS transition for gradual fade
+    }, 350);
 
-        // Fade edge out (30 steps, dash slides past target)
-        var j=0, iv2=setInterval(function(){
-          j++; var t2=j/30;
-          gel.setAttribute('stroke-dashoffset',Math.round(-e.len*(t2<.5?2*t2*t2:1-Math.pow(-2*t2+2,2)/2)));
-          if(j>=30){ clearInterval(iv2); gel.classList.remove('active');
-            gel.setAttribute('stroke-dashoffset',Math.round(e.len));
-          }
-        },50);
+    // --- Animate golden dash traveling source -> target over 3s ---
+    var totalSteps = 60;  // 60 steps × 50ms = 3000ms
+    var targetGlowAt = 40; // step 40 = 2.0s: target starts glowing (1s transition → fully golden as dash arrives at 3s)
+    var i = 0;
+    var iv = setInterval(function() {
+      i++;
+      var t = i / totalSteps;
+      // ease-in-out for natural movement
+      var progress = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+      gel.setAttribute('stroke-dashoffset', Math.round(e.len * (1 - progress)));
 
-        // Node stays lit 3s, then fade out + next jump
-        setTimeout(function(){ jump(to); },3000);
+      // --- Target: become golden WHEN edge's terminal reaches it ---
+      if (i === targetGlowAt) {
+        halo(to, true); // 1s CSS transition — gradually golden as dash approaches
       }
-    },50);
+
+      if (i >= totalSteps) {
+        clearInterval(iv);
+
+        // Fade edge out: dash slides past target and dissipates
+        var j = 0;
+        var iv2 = setInterval(function() {
+          j++;
+          var t2 = j / 30;
+          var fp = t2 < 0.5 ? 2 * t2 * t2 : 1 - Math.pow(-2 * t2 + 2, 2) / 2;
+          gel.setAttribute('stroke-dashoffset', Math.round(-e.len * fp));
+          if (j >= 30) {
+            clearInterval(iv2);
+            gel.classList.remove('active'); // edge fades out (0.4s CSS transition)
+            gel.setAttribute('stroke-dashoffset', Math.round(e.len)); // reset for next use
+          }
+        }, 50);
+
+        // Pause 3s with target lit, then next jump
+        setTimeout(function() { jump(to); }, 3000);
+      }
+    }, 50);
   }
 
-  // Start
-  var all=Object.keys(graph);
-  var s=all[Math.floor(Math.random()*all.length)];
-  cur=s; halo(s,true); log('START:'+s);
-  setTimeout(function(){ jump(s); },3000);
+  // --- Start: pick a random node, light it up, then jump ---
+  var all = Object.keys(graph);
+  var start = all[Math.floor(Math.random() * all.length)];
+  halo(start, true); // 1s CSS transition: gradually golden
+  setTimeout(function() { jump(start); }, 3000);
 })();
 </script>
 
