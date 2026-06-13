@@ -461,16 +461,25 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
 
   // 合并策略：live 数据覆盖同 GPU 同 platform 的参考数据
   // ⚠️ 若 live 数据缺少 pricing_url/country/region，从参考数据继承
+  // ⚠️ 支持模糊匹配平台名（如 "RunPod" ↔ "RunPod (Secure Cloud)"）
   var pricing = JSON.parse(JSON.stringify(pricingRef)); // deep copy
   var liveCount = 0;
   Object.keys(pricingLive).forEach(function(gpu) {
     if (!pricing[gpu]) pricing[gpu] = [];
     var liveEntries = pricingLive[gpu];
     liveEntries.forEach(function(liveEntry) {
-      // 查找是否已有同平台条目
+      // 查找是否已有同平台条目（先精确匹配，再前缀/包含匹配）
       var idx = pricing[gpu].findIndex(function(e) {
         return e.platform === liveEntry.platform;
       });
+      if (idx < 0) {
+        // 精确匹配失败 → 尝试模糊匹配（live名是ref名的前缀，或ref名包含live名）
+        idx = pricing[gpu].findIndex(function(e) {
+          return e.platform.indexOf(liveEntry.platform) === 0 ||
+                 liveEntry.platform.indexOf(e.platform) === 0 ||
+                 e.platform.indexOf(liveEntry.platform) >= 0;
+        });
+      }
       if (idx >= 0) {
         // 保留参考数据中的 pricing_url / country / region（若 live 数据为空）
         var refEntry = pricing[gpu][idx];
