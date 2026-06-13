@@ -16,20 +16,24 @@
     .btn-back:hover{background:rgba(139,92,246,.25)}
     .badge{font-size:.78rem;color:#34d399;background:rgba(16,185,129,.1);padding:.3rem .7rem;border-radius:20px;border:1px solid rgba(16,185,129,.2)}
 
-    .news-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:1.2rem 1.4rem;margin-bottom:.9rem;box-shadow:0 4px 20px rgba(0,0,0,.2);transition:all .2s;text-decoration:none;display:block;color:inherit}
-    .news-card:hover{border-color:var(--accent);box-shadow:0 4px 25px rgba(139,92,246,.15)}
-    .nc-title{font-size:1.05rem;font-weight:700;color:var(--text);margin-bottom:.3rem;line-height:1.4}
-    .nc-meta{font-size:.75rem;color:var(--t2);margin-bottom:.4rem;display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
-    .nc-summary{font-size:.85rem;color:var(--t2);line-height:1.6}
-    .nc-lang{padding:.1rem .4rem;border-radius:4px;font-size:.65rem}
-    .nc-lang.zh{background:rgba(16,185,129,.15);color:#34d399}
-    .nc-lang.en{background:rgba(245,158,11,.15);color:#fbbf24}
-    .nc-imgs{display:flex;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
-    .nc-imgs img{max-height:80px;border-radius:6px;border:1px solid var(--border);object-fit:cover}
+    .news-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:1rem 1.2rem;margin-bottom:.75rem;box-shadow:0 4px 20px rgba(0,0,0,.2);transition:all .2s;text-decoration:none;display:flex;gap:.85rem;align-items:flex-start;color:inherit;position:relative}
+    .news-card:hover{border-color:var(--accent);box-shadow:0 4px 25px rgba(139,92,246,.15);transform:translateY(-1px)}
+    .nc-favicon{flex-shrink:0;width:36px;height:36px;border-radius:6px;background:rgba(139,92,246,.1);display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .nc-favicon img{width:20px;height:20px;object-fit:contain}
+    .nc-favicon .fallback{font-size:.75rem;font-weight:700;color:#8b5cf6}
+    .nc-body{flex:1;min-width:0}
+    .nc-title{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:.25rem;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .nc-meta{font-size:.72rem;color:var(--t2);display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
+    .nc-lang{padding:.1rem .4rem;border-radius:4px;font-size:.62rem;font-weight:600}
+    .nc-lang.zh{background:rgba(16,185,129,.12);color:#34d399}
+    .nc-lang.en{background:rgba(245,158,11,.12);color:#fbbf24}
+    .nc-source-tag{color:var(--t2);font-weight:500}
+    .nc-external{position:absolute;top:.6rem;right:.75rem;font-size:.7rem;color:var(--t2);opacity:.5}
+    .news-card:hover .nc-external{opacity:1;color:var(--accent)}
 
     .no-data{text-align:center;padding:3rem;color:var(--t2)}
     .footer{text-align:center;padding:2rem 0 1rem;font-size:.78rem;color:#475569}
-    @media(max-width:768px){.container{padding:.75rem}}
+    @media(max-width:768px){.container{padding:.75rem}.nc-title{font-size:.9rem}}
   </style>
 </head>
 <body>
@@ -41,7 +45,7 @@
   </div>
   <div id="list"></div>
   <div class="no-data" id="noData" style="display:none">暂无新闻数据</div>
-  <div class="footer">运算盘 CloudAbacus · 新闻自动更新 · Google News</div>
+  <div class="footer">运算盘 CloudAbacus · 点击卡片直接跳转原文 · 数据每日自动更新</div>
 </div>
 
 <script src="futures_news.js"></script>
@@ -51,15 +55,35 @@
   var list=document.getElementById('list'),no=document.getElementById('noData'),badge=document.getElementById('badge');
   badge.textContent=t?'🟢 更新于 '+t.replace('T',' ').slice(0,16):'🟡 暂无';
   if(!news.length){no.style.display='block';return}
+
   function e(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
-  news.forEach(function(a,i){
-    var lt=a.lang==='zh'?'<span class="nc-lang zh">中文</span>':'<span class="nc-lang en">English</span>';
-    var imgs='';
-    if(a.images&&a.images.length)imgs='<div class="nc-imgs">'+a.images.map(function(u){return'<img src="'+e(u)+'" loading="lazy" onerror="this.style.display=\'none\'">'}).join('')+'</div>';
-    var card='<a href="futures_article.html?id='+i+'" class="news-card">'+
-      '<div class="nc-title">'+e(a.title_cn||a.title)+'</div>'+
-      '<div class="nc-meta">'+lt+' <span>'+e(a.source)+'</span> <span>'+e(a.published||'')+'</span></div>'+
-      '<div class="nc-summary">'+e((a.summary_cn||a.summary).slice(0,200))+'</div>'+imgs+'</a>';
+  function domain(u){try{return new URL(u).hostname.replace('www.','')}catch(e){return''}}
+
+  news.forEach(function(a){
+    var langTag=a.lang==='zh'?'<span class="nc-lang zh">中</span>':'<span class="nc-lang en">EN</span>';
+    var srcDomain=domain(a.source_url||'');
+    var faviconHtml='';
+    if(srcDomain){
+      faviconHtml='<img src="https://icons.duckduckgo.com/ip3/'+e(srcDomain)+'.ico" loading="lazy" onerror="this.parentElement.innerHTML=\'<span class=fallback>'+e((a.source||'?')[0])+'</span>\'">';
+    } else {
+      faviconHtml='<span class="fallback">'+e((a.source||'?')[0])+'</span>';
+    }
+
+    var displayTitle=a.title_cn||a.title;
+    var displayDate=a.published||'';
+
+    var card='<a href="'+e(a.url)+'" target="_blank" rel="noopener" class="news-card">'+
+      '<div class="nc-favicon">'+faviconHtml+'</div>'+
+      '<div class="nc-body">'+
+        '<div class="nc-title">'+e(displayTitle)+'</div>'+
+        '<div class="nc-meta">'+
+          langTag+
+          '<span class="nc-source-tag">'+e(a.source)+'</span>'+
+          '<span>'+e(displayDate)+'</span>'+
+        '</div>'+
+      '</div>'+
+      '<span class="nc-external">↗</span>'+
+    '</a>';
     list.innerHTML+=card;
   });
 })();
