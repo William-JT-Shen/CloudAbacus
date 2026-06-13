@@ -235,7 +235,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.39
+            "price_usd": 2.27
           },
           {
             "platform": "CoreWeave",
@@ -271,13 +271,13 @@ var PRICE_HISTORY_DATA = {
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.48
+            "price_usd": 0.47
           }
         ],
         "RTX 5080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.25
+            "price_usd": 0.26
           }
         ],
         "RTX 5070 TI": [
@@ -331,7 +331,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3090 / 3090 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.21
+            "price_usd": 0.2
           }
         ],
         "NVIDIA RTX 3080 / 3080 Ti": [
@@ -379,7 +379,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.41
+            "price_usd": 3.29
           },
           {
             "platform": "CoreWeave",
