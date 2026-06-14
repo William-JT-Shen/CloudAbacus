@@ -482,7 +482,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.4
+            "price_usd": 0.39
           },
           {
             "platform": "TensorDock",
@@ -528,7 +528,7 @@
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.23
           }
         ],
         "NVIDIA RTX 4060 Ti": [
@@ -558,7 +558,7 @@
         "NVIDIA RTX 3080 / 3080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.12
+            "price_usd": 0.11
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
@@ -600,7 +600,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.27
+            "price_usd": 3.25
           },
           {
             "platform": "CoreWeave",

@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-14T10:55:50Z
-var NEWS_FETCHED_AT="2026-06-14T10:55:50Z";
+// 生成:2026-06-14T14:23:07Z
+var NEWS_FETCHED_AT="2026-06-14T14:23:07Z";
 var GPU_NEWS=[
+  {
+    "title": "又一金属吃到\"算力溢价\"，碳酸锂期货重回17万元关口",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUZ2NXUERFMDl3cklmM2xfcUZRSG9wNHRqTEF0Vi1TbVcwS1d4WUtGc04teldxYW0yR2xscFZwZ2E3aGROeUxSanVmU2tlcVBVQWFHTlA2dGdMTkVJWGRrbzdDVFN6V25MaEQ0bHRWaFZPLWl1RklYNQ?oc=5",
+    "published": "2026-06-14",
+    "summary": "又一金属吃到\"算力溢价\"，碳酸锂期货重回17万元关口&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "9点1氪｜SpaceX市值破2.1万亿美元，马斯克身家达巴菲特7倍；胖东来回应“员工不值这么多钱”等言论；FIFA联名款labubu世界杯销量暴涨30倍",
     "source": "36氪",
