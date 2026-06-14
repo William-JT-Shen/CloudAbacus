@@ -26,7 +26,7 @@ var GPU_PRICING = {
     { platform: "Microsoft Azure", price_usd: 4.30, plan: "按需(ND H100 v5)", country: "美国", region: "北美", note: "含 Azure ML，预留实例折扣", pricing_url: "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/" },
     { platform: "NVIDIA DGX Cloud", price_usd: 5.00, plan: "全托管（起）", country: "美国", region: "北美", note: "DGX 全栈 AI 超算服务", pricing_url: "https://www.nvidia.com/en-us/data-center/dgx-cloud/" },
     { platform: "DigitalOcean", price_usd: 3.20, plan: "按需(GPU Droplets)", country: "美国", region: "北美", note: "集成 Paperspace Gradient", pricing_url: "https://www.digitalocean.com/pricing/gpu-droplets" },
-    { platform: "Vultr", price_usd: 2.99, plan: "按需", country: "美国", region: "北美", note: "全球30+数据中心", pricing_url: "https://www.vultr.com/products/cloud-gpu/#pricing" },
+    { platform: "Vultr", price_usd: 2.99, plan: "按需", country: "美国", region: "北美", note: "全球30+数据中心", pricing_url: "https://www.vultr.com/products/cloud-gpu/" },
     { platform: "阿里云 (Alibaba Cloud)", price_usd: 3.80, plan: "按需", country: "中国", region: "亚太", note: "亚洲节点覆盖广，支持竞价", pricing_url: "https://www.alibabacloud.com/product/ecs/pricing" },
     { platform: "腾讯云 (Tencent Cloud)", price_usd: 3.60, plan: "按需", country: "中国", region: "亚太", note: "GN10Xp 系列实例", pricing_url: "https://buy.cloud.tencent.com/price/cvm/overview" },
     { platform: "华为云 (Huawei Cloud)", price_usd: 3.50, plan: "按需", country: "中国", region: "亚太", note: "集成 ModelArts AI 平台", pricing_url: "https://www.huaweicloud.com/intl/en-us/pricing.html#/ecs" },
@@ -68,7 +68,7 @@ var GPU_PRICING = {
     { platform: "Microsoft Azure", price_usd: 2.60, plan: "按需(ND A100 v4)", country: "美国", region: "北美", note: "含 Azure ML", pricing_url: "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/" },
     { platform: "阿里云 (Alibaba Cloud)", price_usd: 2.80, plan: "按需", country: "中国", region: "亚太", note: "亚洲区域覆盖广", pricing_url: "https://www.alibabacloud.com/product/ecs/pricing" },
     { platform: "DigitalOcean", price_usd: 2.00, plan: "按需(GPU Droplets)", country: "美国", region: "北美", note: "Paperspace 集成", pricing_url: "https://www.digitalocean.com/pricing/gpu-droplets" },
-    { platform: "Vultr", price_usd: 1.90, plan: "按需", country: "美国", region: "北美", note: "全球多区域", pricing_url: "https://www.vultr.com/products/cloud-gpu/#pricing" },
+    { platform: "Vultr", price_usd: 1.90, plan: "按需", country: "美国", region: "北美", note: "全球多区域", pricing_url: "https://www.vultr.com/products/cloud-gpu/" },
     { platform: "Cudo Compute", price_usd: 0.85, plan: "市场浮动价", country: "英国", region: "欧洲", note: "去中心化云", pricing_url: "https://www.cudocompute.com/products/virtual-machines" },
     { platform: "腾讯云 (Tencent Cloud)", price_usd: 2.50, plan: "按需", country: "中国", region: "亚太", note: "GN 系列 GPU 实例", pricing_url: "https://buy.cloud.tencent.com/price/cvm/overview" },
     { platform: "华为云 (Huawei Cloud)", price_usd: 2.40, plan: "按需", country: "中国", region: "亚太", note: "集成 ModelArts", pricing_url: "https://www.huaweicloud.com/intl/en-us/pricing.html#/ecs" },
@@ -96,7 +96,7 @@ var GPU_PRICING = {
     { platform: "Vast.ai", price_usd: 0.60, plan: "市场浮动价（起）", country: "美国", region: "北美", note: "", pricing_url: "https://vast.ai/pricing" },
     { platform: "NexGen Cloud", price_usd: 1.30, plan: "按需", country: "英国", region: "欧洲", note: "水力发电驱动", pricing_url: "https://www.nexgencloud.com/pricing" },
     { platform: "Scaleway", price_usd: 1.40, plan: "按需", country: "法国", region: "欧洲", note: "法国环保云", pricing_url: "https://www.scaleway.com/en/gpu-instances/" },
-    { platform: "Vultr", price_usd: 1.50, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.vultr.com/products/cloud-gpu/#pricing" },
+    { platform: "Vultr", price_usd: 1.50, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.vultr.com/products/cloud-gpu/" },
     { platform: "OVHcloud", price_usd: 1.60, plan: "按需", country: "法国", region: "欧洲", note: "", pricing_url: "https://www.ovhcloud.com/en/public-cloud/prices/" },
     { platform: "火山引擎 (Volcengine)", price_usd: 1.30, plan: "按需", country: "中国", region: "亚太", note: "", pricing_url: "https://www.volcengine.com/product/gpu" }
   ],
@@ -140,7 +140,7 @@ var GPU_PRICING = {
     { platform: "AutoDL", price_usd: 0.48, plan: "按需", country: "中国", region: "亚太", note: "国内领先 GPU 租赁，预装 DL 环境", pricing_url: "https://www.autodl.com/price" },
     { platform: "Cudo Compute", price_usd: 0.35, plan: "市场浮动价", country: "英国", region: "欧洲", note: "", pricing_url: "https://www.cudocompute.com/products/virtual-machines" },
     { platform: "Salad", price_usd: 0.20, plan: "分布式云", country: "美国", region: "北美", note: "利用闲置消费级 GPU", pricing_url: "https://salad.com/pricing" },
-    { platform: "Vultr", price_usd: 0.79, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.vultr.com/products/cloud-gpu/#pricing" },
+    { platform: "Vultr", price_usd: 0.79, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.vultr.com/products/cloud-gpu/" },
     { platform: "DataCrunch", price_usd: 0.60, plan: "按需", country: "芬兰", region: "欧洲", note: "", pricing_url: "https://verda.com/pricing" }
   ],
 
@@ -218,7 +218,7 @@ var GPU_PRICING = {
     { platform: "OVHcloud", price_usd: 0.45, plan: "按需", country: "法国", region: "欧洲", note: "", pricing_url: "https://www.ovhcloud.com/en/public-cloud/prices/" },
     { platform: "阿里云 (Alibaba Cloud)", price_usd: 0.40, plan: "按需", country: "中国", region: "亚太", note: "", pricing_url: "https://www.alibabacloud.com/product/ecs/pricing" },
     { platform: "腾讯云 (Tencent Cloud)", price_usd: 0.38, plan: "按需", country: "中国", region: "亚太", note: "", pricing_url: "https://buy.cloud.tencent.com/price/cvm/overview" },
-    { platform: "Vultr", price_usd: 0.50, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.vultr.com/products/cloud-gpu/#pricing" },
+    { platform: "Vultr", price_usd: 0.50, plan: "按需", country: "美国", region: "北美", note: "", pricing_url: "https://www.vultr.com/products/cloud-gpu/" },
     { platform: "Google Colab", price_usd: 0.00, plan: "免费层", country: "美国", region: "北美", note: "免费版提供 T4; Pro $9.99/月起", pricing_url: "https://colab.research.google.com/signup" }
   ],
 
