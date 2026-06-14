@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-06-13T21:24:45Z
-var NEWS_FETCHED_AT="2026-06-13T21:24:45Z";
+// 生成:2026-06-14T04:59:38Z
+var NEWS_FETCHED_AT="2026-06-14T04:59:38Z";
 var GPU_NEWS=[
   {
     "title": "9点1氪｜SpaceX市值破2.1万亿美元，马斯克身家达巴菲特7倍；胖东来回应“员工不值这么多钱”等言论；FIFA联名款labubu世界杯销量暴涨30倍",
@@ -159,6 +159,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "算力期货来了！",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jRmtpeFVxUVlpM0JCUjN0Ung3d09aQ08zYkxkM1lseHd5cjd4dDBncm5TN3RrVUw4alFtVGMxUlRWZV9mOHZscjFEWG5hRUJXOVlsZEpmUWo0MUhxY3ZveWp4UUloVDZmQ2VXYzdWSDRDSEVk?oc=5",
+    "published": "2026-05-16",
+    "summary": "算力期货来了！&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "ç®åæè´§æ¥äºï¼",
     "source": "新浪财经",
     "url": "https://finance.sina.com.cn/wm/2026-05-16/doc-inhyahas2588021.shtml",
@@ -169,5 +181,17 @@ var GPU_NEWS=[
       "https://n.sinaimg.cn/zhuanlan/transform/170/w85h85/20221230/f01f-b20f33f6583ea1f69aefeedf1b86f051.jpg"
     ],
     "lang": "zh"
+  },
+  {
+    "title": "芝商所“算力期货”登场：算力将成为AI时代“新石油”还是华尔街的新赌桌？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWksyeUp3WUFoMWdfVG90WTk4U2k0a3dCREJycFZvNmdlb0h3VHVybGZUWjV1NHllZEdGUVJzV192YVVtQ29NeVZHZmpoSFBYdW0wMWJPU3kyUEl6RlB6NzhQRTQ4OXEwbXRHUERBS3pheDlLSUtEZmc1ZlV6eXNNMWxXbHEtRlhoMndrZ0RqLWtaQVlR?oc=5",
+    "published": "2026-05-13",
+    "summary": "芝商所“算力期货”登场：算力将成为AI时代“新石油”还是华尔街的新赌桌？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
   }
 ];
