@@ -613,20 +613,12 @@
           {
             "platform": "CoreWeave",
             "price_usd": 6.31
-          },
-          {
-            "platform": "DigitalOcean",
-            "price_usd": 3.44
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 3.62
           }
         ],
         "NVIDIA H100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 2.39
+            "price_usd": 2.34
           },
           {
             "platform": "RunPod",
@@ -639,26 +631,6 @@
           {
             "platform": "TensorDock",
             "price_usd": 2.25
-          },
-          {
-            "platform": "Paperspace",
-            "price_usd": 2.24
-          },
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 2.69
-          },
-          {
-            "platform": "OVHcloud",
-            "price_usd": 2.99
-          },
-          {
-            "platform": "DigitalOcean",
-            "price_usd": 3.39
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 2.73
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
@@ -669,14 +641,6 @@
           {
             "platform": "TensorDock",
             "price_usd": 2.25
-          },
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 1.49
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 1.35
           }
         ],
         "NVIDIA RTX 6000 Ada / A6000": [
@@ -687,10 +651,6 @@
           {
             "platform": "TensorDock",
             "price_usd": 0.75
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 0.57
           }
         ],
         "NVIDIA A40": [
@@ -715,70 +675,12 @@
           {
             "platform": "CoreWeave",
             "price_usd": 2.25
-          },
-          {
-            "platform": "OVHcloud",
-            "price_usd": 1.8
-          },
-          {
-            "platform": "DigitalOcean",
-            "price_usd": 1.57
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 0.88
           }
         ],
         "NVIDIA V100": [
           {
             "platform": "TensorDock",
             "price_usd": 1.5
-          },
-          {
-            "platform": "Paperspace",
-            "price_usd": 1.84
-          },
-          {
-            "platform": "OVHcloud",
-            "price_usd": 0.77
-          }
-        ],
-        "NVIDIA A100 (40GB PCIe)": [
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 1.49
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 1.35
-          }
-        ],
-        "NVIDIA L4": [
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 0.44
-          },
-          {
-            "platform": "OVHcloud",
-            "price_usd": 1.0
-          },
-          {
-            "platform": "DigitalOcean",
-            "price_usd": 1.0
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 1.0
-          }
-        ],
-        "NVIDIA T4": [
-          {
-            "platform": "OVHcloud",
-            "price_usd": 0.43
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 1.0
           }
         ]
       }
