@@ -332,6 +332,68 @@ def scrape_vast():
     return []
 
 
+def scrape_tensordock_dedicated():
+    """TensorDock 专用爬虫: 精确提取 GPU 卡价格 (避免抓到资源配置总价)
+    TensorDock 页面在每个 GPU 卡片中显示 "from $X.XX/hr" 的 GPU 起价,
+    同时在其他位置可能显示含 vCPU+RAM 的整机价格。
+    此爬虫针对 GPU 卡片区域进行匹配, 优先匹配离 GPU 名称最近的 $ 数字。"""
+    print("🔍 TensorDock (dedicated) ...")
+    html = get("https://www.tensordock.com/cloud-gpus.html")
+    if not html:
+        return mark_failed("TensorDock", "无法访问 cloud-gpus.html")
+
+    results = []
+    seen = set()
+
+    # TensorDock 页面 GPU 卡片: 每个 GPU 名称后紧跟 "from $X.XX/hr" 格式
+    # 策略: 找 GPU 名称, 在最近的 200 字符内找第一个 \$X.XX 数字
+    td_gpu_patterns = [
+        (r'(?:>|\s)(H100\b[^<]*)',                       "NVIDIA H100 (80GB SXM)"),
+        (r'(?:>|\s)(A100\b[^<]*?(?:80\s*GB|SXM4)[^<]*)', "NVIDIA A100 (80GB SXM)"),
+        (r'(?:>|\s)(A100\b[^<]*?(?:40\s*GB|PCIe)[^<]*)', "NVIDIA A100 (40GB PCIe)"),
+        (r'(?:>|\s)(A6000\b[^<]*)',                       "NVIDIA RTX 6000 Ada / A6000"),
+        (r'(?:>|\s)(RTX\s*6000\s*Ada[^<]*)',              "NVIDIA RTX 6000 Ada / A6000"),
+        (r'(?:>|\s)(RTX\s*4090[^<]*)',                    "NVIDIA RTX 4090"),
+        (r'(?:>|\s)(RTX\s*3090[^<]*)',                    "NVIDIA RTX 3090 / 3090 Ti"),
+        (r'(?:>|\s)(L40S?\b[^<]*)',                       "NVIDIA L40S"),
+        (r'(?:>|\s)(V100\b[^<]*?(?:SXM|16\s*GB|32\s*GB|Volta)[^<]*)',   "NVIDIA V100"),
+        (r'(?:>|\s)(RTX\s*A?4000[^<]*)',                  "RTX A4000"),
+        (r'(?:>|\s)(A40\b[^<]*)',                         "NVIDIA A40"),
+    ]
+
+    for gpu_re, label in td_gpu_patterns:
+        lo, hi = PRICE_RANGES.get(label, (0.01, 1000))
+        # 找 GPU 名称，然后在最近的 200 字符内找第一个价格
+        for gpu_match in re.finditer(gpu_re, html, re.IGNORECASE):
+            ctx_end = min(len(html), gpu_match.end() + 200)
+            context = html[gpu_match.start():ctx_end]
+            # 找最近的 $X.XX (优先匹配 "from $" 或 "Starting at $" 格式)
+            price_matches = list(re.finditer(r'\$(\d+\.?\d{0,2})', context))
+            for price_match in price_matches:
+                try:
+                    price = float(price_match.group(1).replace(',', ''))
+                    if lo <= price <= hi and label not in seen:
+                        seen.add(label)
+                        results.append({"gpu": label, "price_usd": price, "plan": "GPU起价"})
+                        break
+                except ValueError:
+                    continue
+            if label in seen:
+                break
+
+    if results:
+        mark_ok("TensorDock", len(results))
+        return results
+
+    # 回退: 尝试通用提取
+    results = extract_prices(html, COMMON_GPUS)
+    if results:
+        mark_ok("TensorDock", len(results))
+        return results
+    mark_failed("TensorDock", "未能解析价格数据")
+    return []
+
+
 # ============================================================
 # Playwright 浏览器自动化抓取
 # ============================================================
@@ -704,7 +766,7 @@ def main():
             "RunPod":       (scrape_runpod, scrape_runpod),
             "Vast.ai":      (scrape_vast, scrape_vast_playwright),
             "CoreWeave":    (scrape_coreweave, scrape_coreweave),
-            "TensorDock":   (scrape_tensordock, scrape_tensordock),
+            "TensorDock":   (scrape_tensordock_dedicated, scrape_tensordock),
             "DataCrunch":   (scrape_datacrunch, scrape_datacrunch_playwright),
             "Paperspace":   (scrape_paperspace, scrape_paperspace),
             "JarvisLabs":   (scrape_jarvislabs, scrape_jarvislabs),
@@ -855,6 +917,8 @@ def main():
 # 重导出旧版函数引用以兼容 main() 中的 custom_scrapers 字典
 scrape_coreweave = lambda: scrape_generic("CoreWeave", "https://www.coreweave.com/pricing")
 scrape_tensordock = lambda: scrape_generic("TensorDock", "https://www.tensordock.com/cloud-gpus.html")
+# ⚠️ TensorDock 需要更精确的专用爬虫以避免抓取到资源总价而非GPU价格
+# 见下方 scrape_tensordock_dedicated 函数
 scrape_datacrunch = lambda: scrape_generic("DataCrunch", "https://datacrunch.io/pricing")
 scrape_paperspace = lambda: scrape_generic("Paperspace", "https://www.paperspace.com/pricing")
 scrape_jarvislabs = lambda: scrape_generic("JarvisLabs", "https://jarvislabs.ai/pricing/")
