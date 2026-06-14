@@ -1,5 +1,6 @@
 # ============================================================
-# GPU 租赁可用量爬取 (Vast.ai 公开 API)
+# GPU 租赁规模爬取 (Vast.ai 公开 API)
+# 数据维度: 总机器数 / 已租出 / 可租赁
 # ============================================================
 
 import requests
@@ -10,7 +11,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
 
 
 def _normalize_gpu_name(raw):
-    """简化的 GPU 名称规范化 (避免循环导入)"""
+    """简化的 GPU 名称规范化"""
     raw = raw.strip()
     mapping = {
         'h100 sxm': 'NVIDIA H100 (80GB SXM)', 'h100': 'NVIDIA H100 (80GB SXM)',
@@ -41,10 +42,10 @@ def _normalize_gpu_name(raw):
     return mapping.get(key, raw)
 
 
-def scrape_vast_availability():
-    """从 Vast.ai 公开 API (无需认证) 获取每种 GPU 的可租赁数量。
-    返回: { gpu_normalized_name: {machines, total_gpus, rentable_machines, rentable_gpus} }"""
-    print("📦 抓取 Vast.ai GPU 租赁可用量 ...")
+def scrape_vast_rental_scale():
+    """从 Vast.ai 公开 API 获取每种 GPU 的: 总机器数 / 已租出 / 可租。
+    返回: { gpu_name: {total_machines, total_gpus, rented_machines, rented_gpus, ...} }"""
+    print("📊 抓取 Vast.ai GPU 租赁规模 (总/已租/可租) ...")
     try:
         r = requests.get("https://console.vast.ai/api/v0/bundles/",
                          timeout=TIMEOUT, headers={"User-Agent": UA, "Accept": "application/json"})
@@ -61,35 +62,43 @@ def scrape_vast_availability():
     for o in offers:
         gpu_raw = o.get("gpu_name", "").strip()
         num_gpus = int(o.get("num_gpus", 1))
+        rented = o.get("rented", False)
         rentable = o.get("rentable", False)
         if not gpu_raw:
             continue
         gpu_label = _normalize_gpu_name(gpu_raw)
         if gpu_label not in gpu_stats:
-            gpu_stats[gpu_label] = {"machines": 0, "total_gpus": 0, "rentable_machines": 0, "rentable_gpus": 0}
-        gpu_stats[gpu_label]["machines"] += 1
+            gpu_stats[gpu_label] = {
+                "total_machines": 0, "total_gpus": 0,
+                "rented_machines": 0, "rented_gpus": 0,
+                "rentable_machines": 0, "rentable_gpus": 0,
+            }
+        gpu_stats[gpu_label]["total_machines"] += 1
         gpu_stats[gpu_label]["total_gpus"] += num_gpus
+        if rented:
+            gpu_stats[gpu_label]["rented_machines"] += 1
+            gpu_stats[gpu_label]["rented_gpus"] += num_gpus
         if rentable:
             gpu_stats[gpu_label]["rentable_machines"] += 1
             gpu_stats[gpu_label]["rentable_gpus"] += num_gpus
 
-    total_m = sum(s["machines"] for s in gpu_stats.values())
+    total_m = sum(s["total_machines"] for s in gpu_stats.values())
     total_g = sum(s["total_gpus"] for s in gpu_stats.values())
-    print(f"  ✅ Vast.ai: {total_m} 台机器 / {total_g} 张GPU / {len(gpu_stats)} 种GPU 可租赁")
+    rented_g = sum(s["rented_gpus"] for s in gpu_stats.values())
+    print(f"  ✅ Vast.ai: 总{total_g}张GPU / 已租{rented_g}张 / 可租{total_g - rented_g}张 / {len(gpu_stats)}种GPU")
     return gpu_stats
 
 
-# 全局可用量数据
-_vast_availability = {}
+# 全局数据
+_vast_rental_scale = {}
 
 
-def get_availability_str(platform: str, gpu_label: str) -> str:
-    """返回某平台某 GPU 的可用量描述字符串"""
-    if platform == "Vast.ai" and _vast_availability:
-        gpu_stats = _vast_availability.get(gpu_label, {})
-        if gpu_stats:
-            m = gpu_stats.get("rentable_machines", gpu_stats.get("machines", 0))
-            g = gpu_stats.get("rentable_gpus", gpu_stats.get("total_gpus", 0))
-            if m > 0:
-                return f"{m}台机/{g}张卡"
+def get_rental_scale_str(platform: str, gpu_label: str) -> str:
+    """返回租赁规模字符串: '共X张' (仅 Vast.ai 公开此数据)"""
+    if platform == "Vast.ai" and _vast_rental_scale:
+        stats = _vast_rental_scale.get(gpu_label, {})
+        if stats:
+            total = stats.get("total_gpus", 0)
+            if total > 0:
+                return f"共{total}张"
     return ""

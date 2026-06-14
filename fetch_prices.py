@@ -43,7 +43,7 @@ if sys.platform == 'win32':
 # ============================================================
 # 配置
 # ============================================================
-from _availability import scrape_vast_availability, get_availability_str
+from _availability import scrape_vast_rental_scale, get_rental_scale_str
 
 CODE_DIR   = Path(__file__).parent
 OUTPUT_LIVE = CODE_DIR / "pricing_live.js"
@@ -800,14 +800,14 @@ def main():
                 print(f"  ❌ 异常: {e}")
 
     # ============================================================
-    # 抓取 GPU 租赁可用量 (Vast.ai 公开 API)
+    # 抓取 GPU 租赁规模 (Vast.ai 公开 API: 总GPU / 已租 / 可租)
     # ============================================================
     try:
         import _availability
-        _availability._vast_availability.clear()
-        _availability._vast_availability.update(scrape_vast_availability())
+        _availability._vast_rental_scale.clear()
+        _availability._vast_rental_scale.update(scrape_vast_rental_scale())
     except Exception as e:
-        print(f"  ⚠️ 租赁量抓取异常: {e}")
+        print(f"  ⚠️ 租赁规模抓取异常: {e}")
 
     # ============================================================
     # 生成 pricing_live.js
@@ -822,7 +822,7 @@ def main():
             if label not in gpu_categories:
                 gpu_categories[label] = []
             pricing_url = PRICING_URLS.get(plat_name, "")
-            avail_str = get_availability_str(plat_name, label)
+            avail_str = get_rental_scale_str(plat_name, label)
             gpu_categories[label].append({
                 "platform": plat_name,
                 "price_usd": entry["price_usd"],

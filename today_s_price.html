@@ -256,10 +256,10 @@
       padding: 0.2rem 0.55rem; background: rgba(139,92,246,0.1); border-radius: 4px;
       display: inline-block; align-self: flex-start;
     }
-    .price-card .pc-avail {
-      font-size: 0.7rem; color: #fbbf24; font-weight: 600;
-      padding: 0.15rem 0.5rem; background: rgba(245,158,11,0.1);
-      border: 1px solid rgba(245,158,11,0.2); border-radius: 4px;
+    .price-card .pc-scale {
+      font-size: 0.68rem; color: #60a5fa; font-weight: 600;
+      padding: 0.15rem 0.5rem; background: rgba(96,165,250,0.1);
+      border: 1px solid rgba(96,165,250,0.2); border-radius: 4px;
       display: inline-block; align-self: flex-start;
     }
     .price-card .pc-sparkline {
@@ -814,7 +814,7 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
           '<div class="pc-country">' + getFlag(row.country) + ' ' + esc(row.country || '') + '</div>' +
         '</div>' +
         '<span class="pc-gpu">' + esc(currentGpu) + '</span>' +
-        (row.availability ? '<span class="pc-avail" title="当前可租赁的机器/GPU 数量">📦 ' + esc(row.availability) + '</span>' : '') +
+        (row.availability ? '<span class="pc-scale" title="该平台该型号GPU总规模 (仅Vast.ai公开此数据)">📊 ' + esc(row.availability) + '</span>' : '') +
         '<div class="pc-sparkline' + sparklineClickable + '" data-gpu="' + esc(currentGpu) + '" data-platform="' + esc(row.platform) + '" title="点击查看历史价格走势">' + (sparkline || '<div style="color:var(--text-secondary);font-size:0.7rem;text-align:center;padding-top:18px;">历史数据不足</div>') + '</div>' +
         '<div class="pc-price-row">' +
           '<span class="pc-price">' + priceDisplay + '</span>' +
