@@ -61,12 +61,15 @@ scrape_log = {}
 # ============================================================
 # 工具函数
 # ============================================================
-def get(url: str) -> str | None:
-    """HTTP GET，返回文本，失败返回 None"""
+def get(url: str, accept_any_status: bool = False) -> str | None:
+    """HTTP GET，返回文本，失败返回 None
+    accept_any_status: 若为 True，即使非 200 也返回内容（用于 SPA 返回 404 但有内容的场景）"""
     try:
         r = requests.get(url, timeout=TIMEOUT, headers={"User-Agent": UA}, allow_redirects=True)
         if r.status_code == 200:
             return r.text
+        if accept_any_status and len(r.text) > 5000:
+            return r.text  # SPA 页面可能返回 404 但包含实际内容
         return None
     except Exception:
         return None
@@ -96,7 +99,7 @@ PRICE_RANGES = {
     "NVIDIA RTX 4070 Ti / 4070":       (0.08, 0.80),
     "NVIDIA RTX 4060 Ti":              (0.05, 0.50),
     "NVIDIA RTX 3090 / 3090 Ti":       (0.08, 0.80),
-    "NVIDIA RTX 3080 / 3080 Ti":       (0.06, 0.60),
+    "NVIDIA RTX 3080 / 3080 Ti":       (0.06, 1.20),  # 含服务器溢价
     "NVIDIA RTX 3070 / 3070 Ti":       (0.04, 0.50),
     "NVIDIA RTX 3060 / 3060 Ti":       (0.03, 0.40),
     "NVIDIA RTX 2080 Ti":              (0.05, 0.50),
@@ -116,12 +119,18 @@ PRICE_RANGES = {
 }
 
 
-def extract_prices(html: str, gpu_map: list[tuple[str, str, str]]) -> list[dict]:
-    """从 HTML 中提取 GPU 价格（带合理性校验）"""
+def extract_prices(html: str, gpu_map: list[tuple[str, str, str]],
+                   currency: str = "USD") -> list[dict]:
+    """从 HTML 中提取 GPU 价格（带合理性校验）
+    currency: "USD" 或 "EUR" — 欧元价格会自动转换为美元"""
     results = []
     seen = set()
+    eur_to_usd = 1.08  # EUR → USD 汇率（近似）
     for gpu_re, price_re, label in gpu_map:
         lo, hi = PRICE_RANGES.get(label, (0.01, 1000))
+        # 欧元价格范围 = USD 范围 / 汇率
+        if currency == "EUR":
+            lo, hi = lo / eur_to_usd, hi / eur_to_usd
         for gpu_match in re.finditer(gpu_re, html, re.IGNORECASE):
             ctx_start = max(0, gpu_match.start() - 100)
             ctx_end = min(len(html), gpu_match.end() + 500)
@@ -132,7 +141,8 @@ def extract_prices(html: str, gpu_map: list[tuple[str, str, str]]) -> list[dict]
                     price = float(price_str)
                     if lo <= price <= hi and label not in seen:
                         seen.add(label)
-                        results.append({"gpu": label, "price_usd": price})
+                        price_usd = round(price * eur_to_usd, 2) if currency == "EUR" else price
+                        results.append({"gpu": label, "price_usd": price_usd})
                         break
                 except (ValueError, IndexError):
                     continue
@@ -201,6 +211,43 @@ COMMON_GPUS = [
 ]
 
 
+# 欧元价格模式 (用于欧洲平台)
+# 格式: €X.XX/h, €X.XX per hour, X.XX €/h 等
+COMMON_GPUS_EUR = [
+    (r'H200\b',                   r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA H200"),
+    (r'GH200\b',                  r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA GH200"),
+    (r'H100\b.*?80\s*GB',         r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA H100 (80GB SXM)"),
+    (r'H100\b(?!.*SXM)',          r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA H100 (80GB SXM)"),
+    (r'A100\b.*?80\s*GB',         r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA A100 (80GB SXM)"),
+    (r'A100\b.*?40\s*GB',         r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA A100 (40GB PCIe)"),
+    (r'L40S\b',                   r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA L40S"),
+    (r'L4\b(?!\d)',               r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA L4"),
+    (r'A40\b(?!\d)',              r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA A40"),
+    (r'T4\b(?!\d)',               r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA T4"),
+    (r'V100\b',                   r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA V100"),
+    (r'A6000\b.*?Ada',            r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 6000 Ada / A6000"),
+    (r'RTX\s*A?6000\b(?!.*Ada)',  r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 6000 Ada / A6000"),
+    (r'RTX\s*5090\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "RTX 5090"),
+    (r'RTX\s*5080\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "RTX 5080"),
+    (r'RTX\s*5070\s*Ti',         r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "RTX 5070 Ti"),
+    (r'RTX\s*5070\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "RTX 5070"),
+    (r'RTX\s*5060\s*Ti',         r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "RTX 5060 Ti"),
+    (r'RTX\s*5060\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "RTX 5060"),
+    (r'RTX\s*4090\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 4090"),
+    (r'RTX\s*4080\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 4080 / 4080 Super"),
+    (r'RTX\s*4070\s*Ti',         r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 4070 Ti / 4070"),
+    (r'RTX\s*4070\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 4070 Ti / 4070"),
+    (r'RTX\s*4060\s*Ti',         r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 4060 Ti"),
+    (r'RTX\s*3090\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 3090 / 3090 Ti"),
+    (r'RTX\s*3080\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 3080 / 3080 Ti"),
+    (r'RTX\s*3070\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 3070 / 3070 Ti"),
+    (r'RTX\s*3060\b',             r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA RTX 3060 / 3060 Ti"),
+    (r'P100\b',                   r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA Tesla P100 / P40"),
+    (r'P40\b',                    r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA Tesla P100 / P40"),
+    (r'K80\b',                    r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA Tesla K80 / M40 / M60"),
+]
+
+
 def normalize_gpu_name(raw: str) -> str:
     """将各平台原始 GPU 名规范化"""
     raw = raw.strip()
@@ -237,6 +284,12 @@ def normalize_gpu_name(raw: str) -> str:
         'rx 6700 xt': 'AMD Radeon RX 6800 / 6700 XT',
     }
     key = raw.lower().replace('nvidia ', '').replace('geforce ', '').replace('amd ', '').strip()
+    # 去除 VRAM 后缀，如 "RTX 5090 (32 GB)" → "RTX 5090"
+    key = re.sub(r'\s*\(\d+\s*GB\)', '', key, flags=re.IGNORECASE).strip()
+    # 去除 "Ti Super" → "Ti" (如 "RTX 4070 Ti Super" → "RTX 4070 Ti")
+    key = re.sub(r'\s*Ti\s+Super', ' Ti', key, flags=re.IGNORECASE).strip()
+    # 去除 "Super" 后缀
+    key = re.sub(r'\s+Super', '', key, flags=re.IGNORECASE).strip()
     return mapping.get(key, raw)
 
 
@@ -397,20 +450,68 @@ def scrape_tensordock_dedicated():
 
 
 # ============================================================
+# JS 内嵌数据提取器（价格存在 <script> 标签的 JS 对象中）
+# ============================================================
+
+def extract_prices_from_js_object(html: str, obj_name: str,
+                                   gpu_key: str = "name",
+                                   price_key: str = "basePrice") -> list[dict]:
+    """从 HTML 中提取 JS 对象里的 GPU 价格数据。
+    适用于 Salad 等将价格嵌入 <script> 的平台。
+    例如: const GPU_DATA = { gpus: [{ name: "RTX 4090", basePrice: 0.16 }] }"""
+    # 匹配 JS 对象定义（支持 const/var/let）
+    pat = rf'(?:const|var|let)\s+{obj_name}\s*=\s*(\{{.*?\}})\s*;'
+    m = re.search(pat, html, re.DOTALL)
+    if not m:
+        return []
+
+    obj_text = m.group(1)
+    results = []
+    seen = set()
+
+    # 在每个对象中递归查找 GPU 条目
+    # 匹配 { name: "...", basePrice: X.XX } 模式
+    item_pat = r'\{\s*' + gpu_key + r'\s*:\s*["\']([^"\']+)["\'].*?' + price_key + r'\s*:\s*(\d+\.?\d*)'
+    for item_m in re.finditer(item_pat, obj_text, re.IGNORECASE | re.DOTALL):
+        gpu_raw = item_m.group(1).strip()
+        try:
+            price = float(item_m.group(2))
+        except ValueError:
+            continue
+        gpu_label = normalize_gpu_name(gpu_raw)
+        lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+        if lo <= price <= hi and gpu_label not in seen:
+            seen.add(gpu_label)
+            results.append({"gpu": gpu_label, "price_usd": price, "plan": "市场价"})
+
+    return results
+
+
+# ============================================================
 # Playwright 浏览器自动化抓取
 # ============================================================
 
-def extract_prices_from_text(text: str) -> list[dict]:
-    """从纯文本中提取 GPU 价格（Playwright 渲染后的文本）"""
+def extract_prices_from_text(text: str, currency: str = "USD") -> list[dict]:
+    """从纯文本中提取 GPU 价格（Playwright 渲染后的文本）
+    currency: "USD" 用 $ 匹配, "EUR" 用 € 匹配并转美元"""
     full_text = ' '.join(text.split('\n'))
+    eur_to_usd = 1.08
+    currency_char = '[$]' if currency == 'USD' else '[€]'
+
     patterns = [
-        (r'(RTX\s*\d{4}(?:\s*Ti)?(?:Super)?)\b.*?\$(\d+\.?\d{0,2})\s*/\s*(?:hr|hour|h)', False),
-        (r'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?\$(\d+\.?\d{0,2})\s*/\s*(?:hr|hour|h)', False),
-        (r'\$(\d+\.?\d{0,2})\s*/\s*(?:hr|hour|h).{0,50}?\b(RTX\s*\d{4}|H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4)\b', True),
+        # $X.XX/hr or €X.XX/hr after GPU name
+        (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?{currency_char}(\d+\.?\d{{0,2}})\s*/\s*(?:hr|hour|h)', False),
+        (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?{currency_char}(\d+\.?\d{{0,2}})\s*/\s*(?:hr|hour|h)', False),
+        # Price before GPU name
+        (rf'{currency_char}(\d+\.?\d{{0,2}})\s*/\s*(?:hr|hour|h).{{0,50}}?\b(RTX\s*\d{{4}}|H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4)\b', True),
+        # Per-second pricing: $0.000123/sec → convert to hourly
+        (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?{currency_char}(\d+\.?\d{{0,8}})\s*/\s*(?:sec|second|s)\b', False),
+        (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?{currency_char}(\d+\.?\d{{0,8}})\s*/\s*(?:sec|second|s)\b', False),
     ]
     results = []
     seen = set()
     for pattern, swap_groups in patterns:
+        is_per_sec = 'sec|second|s' in pattern.split('(?:')[-1] if '(?:' in pattern else False
         for m in re.finditer(pattern, full_text, re.IGNORECASE):
             gpu_raw = (m.group(2) if swap_groups else m.group(1)).strip()
             price_str = (m.group(1) if swap_groups else m.group(2)).strip()
@@ -418,6 +519,10 @@ def extract_prices_from_text(text: str) -> list[dict]:
                 price = float(price_str.replace(',', ''))
             except ValueError:
                 continue
+            if is_per_sec:
+                price = price * 3600  # 每秒 → 每小时
+            if currency == 'EUR':
+                price = price * eur_to_usd
             gpu_label = normalize_gpu_name(gpu_raw)
             lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
             if not (lo <= price <= hi):
@@ -425,13 +530,15 @@ def extract_prices_from_text(text: str) -> list[dict]:
             if gpu_label in seen:
                 continue
             seen.add(gpu_label)
+            price = round(price, 2)
             results.append({"gpu": gpu_label, "price_usd": price, "plan": "市场价"})
     return results
 
 
 def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
-                           wait_until: str = "load") -> list[dict]:
-    """用 Playwright 无头浏览器访问页面，等待 JS 渲染后提取文本"""
+                           wait_until: str = "load", is_eur: bool = False) -> list[dict]:
+    """用 Playwright 无头浏览器访问页面，等待 JS 渲染后提取文本
+    is_eur: 也尝试欧元价格模式"""
     if not PLAYWRIGHT_AVAILABLE:
         scrape_log[platform_name] = {"status": "failed", "gpu_count": 0,
                                       "error": "Playwright 未安装"}
@@ -450,6 +557,26 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
                 pass  # 即使超时也继续
             page.wait_for_timeout(wait_sec * 1000)
 
+            # 尝试关闭 Cookie / 弹窗
+            dismiss_selectors = [
+                "button:has-text('Accept All')",
+                "button:has-text('Accept')",
+                "button:has-text('OK')",
+                "button:has-text('Got it')",
+                "button:has-text('Decline')",
+                "[aria-label='Close']",
+                ".cookie-accept",
+            ]
+            for sel in dismiss_selectors:
+                try:
+                    btn = page.locator(sel).first
+                    if btn.is_visible(timeout=1000):
+                        btn.click()
+                        page.wait_for_timeout(2000)
+                        break
+                except Exception:
+                    continue
+
             body_text = page.inner_text("body")
             try:
                 main_text = page.inner_text("main") or page.inner_text("#__next") or page.inner_text(".content")
@@ -458,6 +585,8 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
                 pass
             browser.close()
             results = extract_prices_from_text(body_text)
+            if not results and is_eur:
+                results = extract_prices_from_text(body_text, currency="EUR")
     except Exception as e:
         scrape_log[platform_name] = {"status": "failed", "gpu_count": 0, "error": str(e)[:100]}
         print(f"  ❌ Playwright 异常: {e}")
@@ -549,14 +678,558 @@ def scrape_matpool_playwright() -> list[dict]:
 
 
 # ============================================================
+# 专用爬虫：JS 内嵌数据平台
+# ============================================================
+
+def scrape_salad():
+    """Salad: https://salad.com/pricing — 价格在 GPU_DATA JS 对象中"""
+    print("🔍 Salad ...")
+    html = get("https://salad.com/pricing")
+    if not html:
+        return mark_failed("Salad", "无法访问定价页面")
+
+    results = extract_prices_from_js_object(html, "GPU_DATA", "name", "basePrice")
+    if results:
+        mark_ok("Salad", len(results))
+        return results
+
+    # 回退: 试试通用提取
+    results = extract_prices(html, COMMON_GPUS)
+    if results:
+        mark_ok("Salad", len(results))
+        return results
+    mark_failed("Salad", "未能解析 JS 内嵌价格数据")
+    return []
+
+
+def scrape_hostkey():
+    """Hostkey: https://hostkey.com/gpu-dedicated-servers/ — JSON-LD 嵌入数据 + 欧元月租→小时转换"""
+    print("🔍 Hostkey ...")
+    html = get("https://hostkey.com/gpu-dedicated-servers/")
+    if not html:
+        return mark_failed("Hostkey", "无法访问定价页面")
+
+    results = []
+    seen = set()
+    eur_to_usd = 1.08
+    hours_per_month = 730  # 月租 → 时租 转换
+
+    # 从 JSON-LD 提取产品数据
+    for m in re.finditer(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+                         html, re.DOTALL):
+        try:
+            data = json.loads(m.group(1))
+            if not isinstance(data, dict) or 'itemListElement' not in data:
+                continue
+            items = data['itemListElement']
+            if len(items) < 10:
+                continue  # 不是产品列表
+
+            for item in items:
+                prod = item.get('item', {})
+                offers = prod.get('offers', {})
+                if not isinstance(offers, dict):
+                    continue
+                price_eur = offers.get('price')
+                if not price_eur:
+                    continue
+                try:
+                    price_eur = float(price_eur)
+                except (ValueError, TypeError):
+                    continue
+
+                # 从 additionalProperty 提取 GPU 型号
+                gpu_raw = None
+                for prop in prod.get('additionalProperty', []):
+                    if prop.get('name', '').lower() == 'gpu':
+                        val = str(prop.get('value', ''))
+                        # 格式: "1xRTX 4090 24GB" → 提取 GPU 型号
+                        # 去掉数量和 VRAM
+                        gpu_part = re.sub(r'^\d+x\s*', '', val)
+                        gpu_part = re.sub(r'\s*\d+\s*GB$', '', gpu_part, flags=re.IGNORECASE)
+                        gpu_raw = gpu_part.strip()
+                        break
+
+                if not gpu_raw:
+                    continue
+
+                gpu_label = normalize_gpu_name(gpu_raw)
+                lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+
+                # 月租转时租
+                price_hourly_eur = price_eur / hours_per_month
+                price_hourly_usd = round(price_hourly_eur * eur_to_usd, 2)
+
+                if lo <= price_hourly_usd <= hi and gpu_label not in seen:
+                    seen.add(gpu_label)
+                    results.append({
+                        "gpu": gpu_label,
+                        "price_usd": price_hourly_usd,
+                        "plan": f"月租€{price_eur}/月 ≈ €{price_hourly_eur:.3f}/时"
+                    })
+
+        except (json.JSONDecodeError, ValueError, KeyError):
+            continue
+
+    if results:
+        mark_ok("Hostkey", len(results))
+        return results
+
+    # 回退: 尝试 EUR 模式
+    results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
+    if results:
+        mark_ok("Hostkey", len(results))
+        return results
+    mark_failed("Hostkey", "未能解析 JSON-LD 价格数据")
+    return []
+
+
+def scrape_upcloud():
+    """UpCloud: https://upcloud.com/pricing/ — 欧元定价"""
+    print("🔍 UpCloud ...")
+    html = get("https://upcloud.com/pricing/")
+    if not html:
+        return mark_failed("UpCloud", "无法访问定价页面")
+
+    results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
+    if not results:
+        results = extract_prices(html, COMMON_GPUS)
+    if results:
+        mark_ok("UpCloud", len(results))
+        return results
+    mark_failed("UpCloud", "未能解析价格数据")
+    return []
+
+
+def scrape_hetzner():
+    """Hetzner: https://www.hetzner.com/cloud/gpu/ — 页面 JS 动态渲染，尝试多 URL"""
+    print("🔍 Hetzner ...")
+    urls = [
+        "https://www.hetzner.com/cloud/gpu/",
+        "https://www.hetzner.com/cloud",
+    ]
+    for url in urls:
+        html = get(url)
+        if not html:
+            continue
+        # Hetzner 可能用欧元
+        results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
+        if not results:
+            results = extract_prices(html, COMMON_GPUS)
+        if results:
+            mark_ok("Hetzner", len(results))
+            return results
+    mark_failed("Hetzner", "页面可能为 JS 动态渲染，需 Playwright")
+    return []
+
+
+def scrape_nexgen_cloud():
+    """NexGen Cloud / Hyperstack: https://www.hyperstack.cloud/gpu-pricing — GPU 价格在静态 HTML 中"""
+    print("🔍 NexGen Cloud (Hyperstack) ...")
+    # 主 URL: Hyperstack (NexGen 的 GPU 云品牌)
+    html = get("https://www.hyperstack.cloud/gpu-pricing")
+    if not html:
+        # 回退: NexGen 主站
+        html = get("https://www.nexgencloud.com/gpu-pricing", accept_any_status=True)
+    if html:
+        results = extract_prices(html, COMMON_GPUS)
+        if results:
+            mark_ok("NexGen Cloud", len(results))
+            return results
+
+    # Playwright 回退
+    if PLAYWRIGHT_AVAILABLE:
+        print("  🌐 启动无头浏览器 (Hyperstack) ...")
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                page = browser.new_page()
+                try:
+                    page.goto("https://www.hyperstack.cloud/gpu-pricing",
+                              timeout=45000, wait_until="domcontentloaded")
+                except Exception:
+                    pass
+                page.wait_for_timeout(8000)
+                body_text = page.inner_text("body")
+                browser.close()
+                results = extract_prices_from_text(body_text)
+        except Exception as e:
+            scrape_log["NexGen Cloud"] = {"status": "failed", "gpu_count": 0,
+                                           "error": str(e)[:100]}
+            print(f"  ❌ Playwright 异常: {e}")
+            return []
+
+    if results:
+        mark_ok("NexGen Cloud", len(results))
+        return results
+    if scrape_log.get("NexGen Cloud", {}).get("status") != "failed":
+        mark_failed("NexGen Cloud", "未提取到价格数据")
+    return []
+
+
+def scrape_cerebrium():
+    """Cerebrium: https://www.cerebrium.ai/pricing — 按秒计费，需 Playwright + 特殊提取"""
+    print("🔍 Cerebrium ...")
+    html = get("https://www.cerebrium.ai/pricing")
+    if html:
+        # Cerebrium 的 price 可能在 JS 对象中（非标准格式）
+        # 尝试从 JSON-LD 的 featureList 获取 GPU 列表 + 页面文本获取价格
+        results = extract_prices(html, COMMON_GPUS)
+        if results:
+            mark_ok("Cerebrium", len(results))
+            return results
+
+    # Playwright 回退（Cerebrium 按秒计费，价格很低如 $0.0001/sec）
+    results = scrape_with_playwright("https://www.cerebrium.ai/pricing",
+                                      "Cerebrium", wait_sec=10,
+                                      wait_until="networkidle")
+    if results:
+        mark_ok("Cerebrium", len(results))
+        return results
+    if scrape_log.get("Cerebrium", {}).get("status") != "failed":
+        mark_failed("Cerebrium", "未提取到价格数据（按秒计费，格式特殊）")
+    return []
+
+
+def scrape_scaleway():
+    """Scaleway: 通过 Next.js _next/data API 提取 GPU 实例价格"""
+    print("🔍 Scaleway ...")
+    eur_to_usd = 1.08
+
+    # 通过 Scaleway 的 Next.js 数据端点获取 GPU 实例定价
+    # 该 JSON 包含所有 GPU 实例配置及价格
+    api_url = "https://www.scaleway.com/_next/data/2NEWDwU6v2yJrs1U_gmSZ/en/gpu-instances.json?slug=en&slug=gpu-instances"
+    try:
+        r = requests.get(api_url, timeout=TIMEOUT, headers={"User-Agent": UA})
+        if r.status_code != 200:
+            return mark_failed("Scaleway", f"API 返回 {r.status_code}")
+        data = r.json()
+    except Exception as e:
+        return mark_failed("Scaleway", f"API 请求失败: {e}")
+
+    data_str = json.dumps(data)
+
+    # GPU 实例产品名格式: H100-SXM-8-80G, L40S-2-48G, L4-1-24G
+    # 价格在 nanos/units 字段中。两阶段提取: 先找产品名, 再找其价格
+    gpu_base_prices = {}  # {gpu_label: (min_price_eur, vcpus)}
+
+    # 匹配所有 GPU 产品条目 (name + nanos + units)
+    product_blocks = re.findall(
+        r'"name"\s*:\s*"((?:H100-SXM|H100|L40S|L4|B300-SXM|GH200|A100|H200|B200)'
+        r'-\d+-\d+G)".*?"nanos"\s*:\s*(\d+).*?"units"\s*:\s*(\d+)',
+        data_str, re.IGNORECASE
+    )
+
+    for product_name, nanos_str, units_str in product_blocks:
+        # 解析产品名: H100-SXM-8-80G → gpu_model=H100-SXM, vcpus=8, vram=80
+        parts = product_name.split('-')
+        if len(parts) < 3:
+            continue
+        # 重组 GPU 型号 (可能含 SXM 后缀)
+        if parts[1].upper() == 'SXM' and len(parts) >= 4:
+            gpu_model = f"{parts[0]}-{parts[1]}".upper()
+            vcpus = int(parts[2])
+        else:
+            gpu_model = parts[0].upper()
+            vcpus = int(parts[1])
+
+        nanos = int(nanos_str)
+        units = int(units_str)
+        price_eur = (units * 1_000_000_000 + nanos) / 1_000_000_000
+
+        # 标准化 GPU 名称
+        gpu_label = normalize_gpu_name(gpu_model)
+
+        if gpu_label not in gpu_base_prices or vcpus < gpu_base_prices[gpu_label][1]:
+            gpu_base_prices[gpu_label] = (price_eur, vcpus)
+
+    if not gpu_base_prices:
+        # 回退到通用提取
+        html = get("https://www.scaleway.com/en/pricing/")
+        if html:
+            results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
+            if results:
+                mark_ok("Scaleway", len(results))
+                return results
+        return mark_failed("Scaleway", "未找到 GPU 产品价格数据")
+
+    results = []
+    seen = set()
+    for gpu_label, (price_eur, _vcpus) in gpu_base_prices.items():
+        price_usd = round(price_eur * eur_to_usd, 2)
+        lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+        if lo <= price_usd <= hi and gpu_label not in seen:
+            seen.add(gpu_label)
+            results.append({
+                "gpu": gpu_label,
+                "price_usd": price_usd,
+                "plan": f"€{price_eur:.2f}/时 (最小配置)"
+            })
+
+    if results:
+        mark_ok("Scaleway", len(results))
+        return results
+    mark_failed("Scaleway", "GPU 价格超出合理范围")
+    return []
+
+
+def scrape_cudo_compute():
+    """Cudo Compute: Elementor 选项卡 AJAX 加载, API 被 WAF 封锁.
+    当前技术限制: 选项卡内容需真实浏览器交互触发, 且无公开 API.
+    如需获取数据, 建议手动访问 https://www.cudocompute.com/pricing"""
+    print("🔍 Cudo Compute ...")
+    # 尝试 pricing 页面
+    html = get("https://www.cudocompute.com/pricing")
+    if html:
+        results = extract_prices(html, COMMON_GPUS)
+        if not results:
+            results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
+        if results:
+            mark_ok("Cudo Compute", len(results))
+            return results
+
+    # Playwright 回退 (Elementor 选项卡需要真实点击, 自动化受限)
+    if PLAYWRIGHT_AVAILABLE:
+        print("  🌐 启动无头浏览器 (Cudo Compute) ...")
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                page = browser.new_page()
+                try:
+                    page.goto("https://www.cudocompute.com/pricing",
+                              timeout=45000, wait_until="domcontentloaded")
+                except Exception:
+                    pass
+                page.wait_for_timeout(10000)
+                # 尝试接受 Cookie
+                try:
+                    btn = page.locator("button:has-text('Accept')").first
+                    if btn.is_visible(timeout=2000):
+                        btn.click()
+                        page.wait_for_timeout(2000)
+                except Exception:
+                    pass
+                # 尝试点击所有可能的选项卡触发元素
+                page.evaluate("() => { document.querySelectorAll('[class*=\"tab\"], [role=\"tab\"]').forEach(e => e.click()); }")
+                page.wait_for_timeout(8000)
+                body_text = page.inner_text("body")
+                browser.close()
+                results = extract_prices_from_text(body_text)
+                if not results:
+                    results = extract_prices_from_text(body_text, currency="EUR")
+        except Exception as e:
+            print(f"  ⚠️ Playwright 异常: {e}")
+            results = []
+
+    if results:
+        mark_ok("Cudo Compute", len(results))
+        return results
+
+    mark_failed("Cudo Compute", "Elementor 选项卡 AJAX 动态加载, 需手动交互或 API 授权")
+    return []
+
+
+def scrape_exoscale():
+    """Exoscale: 通过公开 API https://portal.exoscale.com/api/pricing/ 提取 GPU 价格"""
+    print("🔍 Exoscale ...")
+
+    # GPU 型号映射: API key name → standard GPU label
+    # ⚠️ 按 key 长度降序排列，避免短 key 错误匹配 (如 "gpu" 匹配到 "gpua5000")
+    GPU_KEY_MAP = [
+        ("gpurtx6000pro", "NVIDIA RTX 6000 Ada / A6000"),
+        ("gpu3080ti",     "NVIDIA RTX 3080 / 3080 Ti"),
+        ("gpua5000",      "NVIDIA RTX A5000"),
+        ("gpua30",        "NVIDIA A30"),
+        ("gpu3",          "NVIDIA T4"),
+        ("gpu2",          "NVIDIA V100"),
+        ("gpu",           "NVIDIA Tesla P100 / P40"),
+    ]
+
+    results = []
+    seen = set()
+
+    # 从 opencompute 端点获取 GPU 实例价格 (取 _small = 最小配置)
+    endpoints = [
+        ("https://portal.exoscale.com/api/pricing/opencompute", "_small"),
+        ("https://portal.exoscale.com/api/pricing/ai", ""),  # AI 专用推理端点
+    ]
+
+    for api_url, size_suffix in endpoints:
+        try:
+            r = requests.get(api_url, timeout=TIMEOUT, headers={"User-Agent": UA})
+            if r.status_code != 200:
+                continue
+            data = r.json()
+        except Exception:
+            continue
+
+        # 优先用 USD，回退到 EUR
+        prices = data.get("usd", data.get("eur", {}))
+        for key, price_str in prices.items():
+            # 只取 GPU 相关条目
+            if not any(t in key.lower() for t in ['gpu', 'rtx', 'a5000', 'a30']):
+                continue
+            # 只取最小配置（_small 后缀或无后缀的 AI 专用）
+            if size_suffix and not key.endswith(size_suffix):
+                continue
+            if key == "model":  # 跳过非 GPU 条目
+                continue
+
+            try:
+                price_usd = float(price_str)
+            except ValueError:
+                continue
+
+            # 根据 API key 找到标准 GPU 名称
+            gpu_label = None
+            for api_key, label in GPU_KEY_MAP:
+                if api_key in key:
+                    gpu_label = label
+                    break
+            if not gpu_label:
+                continue
+
+            lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+            # Exoscale 含服务器硬件(vCPU+RAM), 放宽上限 50%
+            hi = hi * 1.5
+            if lo <= price_usd <= hi and gpu_label not in seen:
+                seen.add(gpu_label)
+                results.append({
+                    "gpu": gpu_label,
+                    "price_usd": round(price_usd, 2),
+                    "plan": "最小配置 (API)"
+                })
+
+    if results:
+        mark_ok("Exoscale", len(results))
+        return results
+
+    # 回退
+    html = get("https://www.exoscale.com/pricing/")
+    if html:
+        results = extract_prices(html, COMMON_GPUS)
+        if not results:
+            results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
+        if results:
+            mark_ok("Exoscale", len(results))
+            return results
+
+    mark_failed("Exoscale", "API 未提取到 GPU 价格")
+    return []
+
+
+# ============================================================
 # 通用平台爬虫（requests 模式 or Playwright fallback）
 # ============================================================
 
+def scrape_tencent_cloud():
+    """腾讯云: 通过 workbench API 获取 GPU 实例定价 (CNY/月 → USD/时)"""
+    print("🔍 腾讯云 (Tencent Cloud) ...")
+    if not PLAYWRIGHT_AVAILABLE:
+        return mark_failed("腾讯云", "需要 Playwright 获取 API 数据")
+
+    # GPU 实例族 → GPU 型号映射
+    GPU_FAMILY_MAP = {
+        "HCCG5v":   "NVIDIA H100 (80GB SXM)",   # H100
+        "GT4":      "NVIDIA A100 (80GB SXM)",   # A100
+        "GC50sg":   "NVIDIA L40S",              # L40S / L20
+        "GI3X":     "NVIDIA L40S",              # L40S
+        "GN10Xp":   "NVIDIA V100",              # V100
+        "GN10X":    "NVIDIA V100",              # V100
+        "GN7vi":    "NVIDIA T4",                # T4
+        "GN7":      "NVIDIA T4",                # T4
+        "PTX1":     "NVIDIA H200",              # H20/H800
+        "BMG5t":    "NVIDIA Tesla P100 / P40",  # 旧 GPU
+    }
+    CNY_PER_USD = 7.25   # 人民币→美元汇率
+    HOURS_PER_MONTH = 730
+
+    results = []
+    seen = set()
+
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+
+            api_response = []
+
+            def handle_response(response):
+                if 'DescribeZoneInstanceConfigInfos' in response.url and response.ok:
+                    try:
+                        data = response.json()
+                        instances = data.get('data', {}).get('Response', {}).get('InstanceTypeQuotaSet', [])
+                        api_response.extend(instances)
+                    except Exception:
+                        pass
+
+            page.on('response', handle_response)
+
+            try:
+                page.goto('https://buy.cloud.tencent.com/price/cvm/overview',
+                          timeout=45000, wait_until='domcontentloaded')
+            except Exception:
+                pass
+            page.wait_for_timeout(15000)
+            browser.close()
+
+            if not api_response:
+                return mark_failed("腾讯云", "未捕获到 API 响应")
+
+            # 解析 GPU 实例, 取每族最小配置的价格
+            family_min_price = {}  # {family: (min_price_cny_monthly, gpu_label, instance_type)}
+
+            for inst in api_response:
+                gpu_count = inst.get('Gpu', 0)
+                if gpu_count <= 0:
+                    continue
+                itype = inst['InstanceType']
+                # 提取实例族 (字母前缀)
+                family_match = re.match(r'^([A-Z]+\d*[a-z]*)\.', itype)
+                if not family_match:
+                    continue
+                family = family_match.group(1)
+                gpu_label = GPU_FAMILY_MAP.get(family)
+                if not gpu_label:
+                    continue
+
+                price_info = inst.get('Price', {})
+                monthly_price = price_info.get('OriginalPrice', 0)
+                if monthly_price <= 0:
+                    continue
+
+                # 取该族中单 GPU 价格最低的实例
+                price_per_gpu = monthly_price / gpu_count
+                if family not in family_min_price or price_per_gpu < family_min_price[family][0]:
+                    family_min_price[family] = (price_per_gpu, gpu_label, itype)
+
+            # 转换为 USD/小时
+            for family, (price_cny_per_gpu_monthly, gpu_label, itype) in family_min_price.items():
+                price_usd_hourly = round(price_cny_per_gpu_monthly / HOURS_PER_MONTH / CNY_PER_USD, 2)
+                lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+                if lo <= price_usd_hourly <= hi and gpu_label not in seen:
+                    seen.add(gpu_label)
+                    results.append({
+                        "gpu": gpu_label,
+                        "price_usd": price_usd_hourly,
+                        "plan": f"月付¥{price_cny_per_gpu_monthly:.0f}/GPU ({itype})"
+                    })
+
+        if results:
+            mark_ok("腾讯云", len(results))
+            return results
+        return mark_failed("腾讯云", "GPU 价格超出合理范围")
+
+    except Exception as e:
+        return mark_failed("腾讯云", f"Playwright 异常: {str(e)[:80]}")
+
+
 def scrape_generic(name: str, url: str, use_pw: bool = False,
-                   pw_fallback: bool = False) -> list[dict]:
+                   pw_fallback: bool = False, is_eur_platform: bool = False) -> list[dict]:
     """
     通用爬虫：默认用 requests，如果 use_pw=True 则用 Playwright。
     若 pw_fallback=True 且 requests 失败，自动回退到 Playwright。
+    is_eur_platform: 额外尝试欧元价格模式
     """
     print(f"🔍 {name} ...")
     if use_pw:
@@ -571,6 +1244,9 @@ def scrape_generic(name: str, url: str, use_pw: bool = False,
     # requests 模式
     html = get(url)
     if not html:
+        # 有些 SPA 页面返回 404 但仍有内容 — 尝试宽容模式
+        html = get(url, accept_any_status=True)
+    if not html:
         if pw_fallback:
             # 回退到 Playwright
             print(f"  🔄 requests 失败，回退到 Playwright ...")
@@ -580,7 +1256,11 @@ def scrape_generic(name: str, url: str, use_pw: bool = False,
                 return results
         return mark_failed(name, "无法访问定价页面")
 
+    # 尝试 USD 模式
     results = extract_prices(html, COMMON_GPUS)
+    if not results and is_eur_platform:
+        # 欧洲平台额外尝试 EUR 模式
+        results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
     if results:
         mark_ok(name, len(results))
         return results
@@ -615,15 +1295,15 @@ PRICING_URLS = {
     # --- 欧洲平台 ---
     "Hetzner":          "https://www.hetzner.com/cloud/gpu/",
     "OVHcloud":         "https://www.ovhcloud.com/en/public-cloud/prices/",
-    "Scaleway":         "https://www.scaleway.com/en/gpu-instances/",
+    "Scaleway":         "https://www.scaleway.com/en/pricing/",
     "Genesis Cloud":    "https://genesiscloud.com/pricing",
-    "NexGen Cloud":     "https://www.nexgencloud.com/pricing",
-    "Cudo Compute":     "https://www.cudocompute.com/products/virtual-machines",
+    "NexGen Cloud":     "https://www.hyperstack.cloud/gpu-pricing",
+    "Cudo Compute":     "https://www.cudocompute.com/products/clusters",
     "G-Core Labs":      "https://gcore.com/cloud/gpu-cloud",
     "Cherry Servers":   "https://www.cherryservers.com/pricing/gpu-servers",
     "LeaderGPU":        "https://www.leadergpu.com/pricing",
     "Leaseweb":         "https://www.leaseweb.com/en/dedicated-servers/gpu",
-    "Hostkey":          "https://www.hostkey.com/gpu-servers",
+    "Hostkey":          "https://hostkey.com/gpu-dedicated-servers/",
     "UpCloud":          "https://upcloud.com/pricing/",
     "Exoscale":         "https://www.exoscale.com/gpu/",
     "21Cloud":          "https://www.21cloud.com/cloud/gpu-cloud",
@@ -648,6 +1328,13 @@ PRICING_URLS = {
     "Google Cloud":     "https://cloud.google.com/compute/gpus-pricing",
     "IBM Cloud":        "https://www.ibm.com/cloud/gpu",
     "Oracle Cloud":     "https://www.oracle.com/cloud/compute/pricing/",
+
+    # --- 中国平台 ---
+    "腾讯云":            "https://buy.cloud.tencent.com/price/cvm/overview",
+    "阿里云":            "https://www.aliyun.com/price/detail/ecs",
+    "华为云":            "https://www.huaweicloud.com/pricing/calculator.html",
+    "火山引擎":          "https://www.volcengine.com/product/gpu",
+    "AutoDL":           "https://www.autodl.com/price",
 }
 
 
@@ -672,18 +1359,18 @@ CORE_PLATFORMS = [
 
 EXTENDED_PLATFORMS = [
     # --- 欧洲平台 ---
-    ("Hetzner",         "https://www.hetzner.com/cloud/gpu/",                False),
+    ("Hetzner",         "https://www.hetzner.com/cloud/gpu/",                False),  # 已添加专用爬虫
     ("OVHcloud",        "https://www.ovhcloud.com/en/public-cloud/prices/",  False),
     ("Scaleway",        "https://www.scaleway.com/en/gpu-instances/",        False),
     ("Genesis Cloud",   "https://genesiscloud.com/pricing",                  False),
-    ("NexGen Cloud",    "https://www.nexgencloud.com/pricing",               False),
-    ("Cudo Compute",    "https://www.cudocompute.com/products/virtual-machines", False),
+    ("NexGen Cloud",    "https://www.hyperstack.cloud/gpu-pricing",           False),  # URL 已修正
+    ("Cudo Compute",    "https://www.cudocompute.com/products/clusters",     False),  # URL 已修正
     ("G-Core Labs",     "https://gcore.com/cloud/gpu-cloud",                 False),
     ("Cherry Servers",  "https://www.cherryservers.com/pricing/gpu-servers", False),
     ("LeaderGPU",       "https://www.leadergpu.com/pricing",                 False),
     ("Leaseweb",        "https://www.leaseweb.com/en/dedicated-servers/gpu", False),
-    ("Hostkey",         "https://www.hostkey.com/gpu-servers",               False),
-    ("UpCloud",         "https://upcloud.com/pricing/",                      False),
+    ("Hostkey",         "https://hostkey.com/gpu-dedicated-servers/",        False),  # 已添加专用爬虫 (EUR)
+    ("UpCloud",         "https://upcloud.com/pricing/",                      False),  # 已添加专用爬虫 (EUR)
     ("Exoscale",        "https://www.exoscale.com/gpu/",                     False),
     ("21Cloud",         "https://www.21cloud.com/cloud/gpu-cloud",           False),
     ("Servers.com",     "https://www.servers.com/gpu-servers/",             False),
@@ -694,7 +1381,7 @@ EXTENDED_PLATFORMS = [
     ("Vultr",           "https://www.vultr.com/products/cloud-gpu/",        False),
     ("FluidStack",      "https://www.fluidstack.io/pricing",                 False),
     ("Massed Compute",  "https://www.massedcompute.com/pricing",            False),
-    ("Salad",           "https://salad.com/pricing",                         False),
+    ("Salad",           "https://salad.com/pricing",                         False),  # 已添加专用爬虫 (JS内嵌数据)
     ("Hivelocity",      "https://www.hivelocity.net/products/gpu-servers/", False),
     ("SabrePC",         "https://www.sabrepc.com/hpc-cloud",                False),
     ("Bizon",           "https://bizon.ai/pricing",                          False),
@@ -703,8 +1390,14 @@ EXTENDED_PLATFORMS = [
     ("Monster API",     "https://monsterapi.ai/pricing",                     False),
     ("Cerebrium",       "https://www.cerebrium.ai/pricing",                  False),
 
-    # --- 中国平台 (需要 Playwright) ---
+    # --- 中国平台 (需要 Playwright 或 API 拦截) ---
     ("Matpool",         "https://matpool.com/pricing",                       True),
+    ("腾讯云",          "https://buy.cloud.tencent.com/price/cvm/overview",  True),
+    ("阿里云",          "https://www.aliyun.com/price/detail/ecs",           True),
+    ("华为云",          "https://www.huaweicloud.com/pricing/calculator.html", True),
+    ("火山引擎",        "https://www.volcengine.com/product/gpu",           True),
+    # AutoDL 需要中国大陆 IP
+    # ("AutoDL",        "https://www.autodl.com/price",                     True),
 
     # --- 大厂平台 (页面结构复杂，成功率较低但不妨一试) ---
     ("Google Cloud",    "https://cloud.google.com/compute/gpus-pricing",    False),
@@ -774,7 +1467,25 @@ def main():
             "JarvisLabs":   (scrape_jarvislabs, scrape_jarvislabs),
             "AutoDL":       (None, scrape_autodl_playwright),  # 必须 Playwright
             "Matpool":      (None, scrape_matpool_playwright),  # 必须 Playwright
+            # 新增专用爬虫 (v4.1)
+            "Salad":        (scrape_salad, scrape_salad),       # JS 内嵌数据
+            "Hostkey":      (scrape_hostkey, scrape_hostkey),   # JSON-LD 欧元月租
+            "UpCloud":      (scrape_upcloud, scrape_upcloud),   # 欧元定价
+            "Hetzner":      (scrape_hetzner, scrape_hetzner),   # 多URL/欧元
+            "NexGen Cloud": (scrape_nexgen_cloud, scrape_nexgen_cloud),  # SPA+EUR
+            "Cerebrium":    (scrape_cerebrium, scrape_cerebrium),        # 按秒计费
+            "Scaleway":     (scrape_scaleway, scrape_scaleway),          # SPA+EUR
+            "Cudo Compute": (scrape_cudo_compute, scrape_cudo_compute),  # SPA+EUR
+            "Exoscale":     (scrape_exoscale, scrape_exoscale),          # SPA+EUR
+            # 中国平台
+            "腾讯云":       (None, scrape_tencent_cloud),             # Playwright API 拦截
         }
+
+        # 欧元定价平台列表 (通用爬虫对这些平台额外尝试 EUR 模式)
+        EUR_PLATFORMS = {"OVHcloud", "Scaleway", "Genesis Cloud", "NexGen Cloud",
+                         "G-Core Labs", "Cherry Servers", "LeaderGPU", "Leaseweb",
+                         "Exoscale", "Cudo Compute", "21Cloud", "Servers.com",
+                         "Mystic AI", "Hetzner", "Hostkey", "UpCloud"}
 
         for name, url, needs_pw in platforms:
             try:
@@ -790,8 +1501,10 @@ def main():
                         print(f"  ⏭️ 跳过（需要 Playwright 模式）")
                         continue
                 else:
-                    # 通用爬虫
-                    results = scrape_generic(name, url, use_pw=(use_pw and needs_pw), pw_fallback=use_pw)
+                    # 通用爬虫 (欧洲平台额外尝试 EUR 模式)
+                    is_eur = name in EUR_PLATFORMS
+                    results = scrape_generic(name, url, use_pw=(use_pw and needs_pw),
+                                             pw_fallback=use_pw, is_eur_platform=is_eur)
 
                 if results:
                     all_data[name] = results
