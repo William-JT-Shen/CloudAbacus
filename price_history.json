@@ -688,14 +688,212 @@
     {
       "date": "2026-06-15",
       "prices": {
+        "RTX 5090": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.45
+          },
+          {
+            "platform": "Hostkey",
+            "price_usd": 0.75
+          }
+        ],
+        "NVIDIA RTX 4090": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.37
+          },
+          {
+            "platform": "RunPod",
+            "price_usd": 0.34
+          },
+          {
+            "platform": "TensorDock",
+            "price_usd": 0.35
+          },
+          {
+            "platform": "Hostkey",
+            "price_usd": 1.11
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.16
+          }
+        ],
+        "RTX 5080": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.24
+          }
+        ],
+        "RTX 5070 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.16
+          }
+        ],
+        "RTX 5070": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.13
+          }
+        ],
+        "RTX 5060 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.11
+          }
+        ],
+        "RTX 5060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.09
+          }
+        ],
+        "NVIDIA RTX 4080 / 4080 Super": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.21
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.11
+          }
+        ],
+        "NVIDIA RTX 4060 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.11
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.08
+          }
+        ],
+        "NVIDIA RTX 4070 Ti / 4070": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.11
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.08
+          }
+        ],
+        "NVIDIA RTX 3090 / 3090 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.19
+          },
+          {
+            "platform": "TensorDock",
+            "price_usd": 0.35
+          },
+          {
+            "platform": "Hostkey",
+            "price_usd": 0.47
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.1
+          }
+        ],
+        "NVIDIA RTX 3080 / 3080 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.11
+          },
+          {
+            "platform": "Hostkey",
+            "price_usd": 0.28
+          },
+          {
+            "platform": "Exoscale",
+            "price_usd": 0.92
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.08
+          }
+        ],
+        "NVIDIA RTX 3070 / 3070 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.09
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.06
+          }
+        ],
+        "NVIDIA RTX 3060 / 3060 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.08
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.04
+          }
+        ],
+        "RTX 8000": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.24
+          }
+        ],
+        "RTX 6000": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.13
+          }
+        ],
+        "NVIDIA RTX 2080 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.07
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.06
+          }
+        ],
+        "RTX 5880": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.48
+          }
+        ],
+        "NVIDIA H200": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 3.29
+          },
+          {
+            "platform": "CoreWeave",
+            "price_usd": 6.31
+          },
+          {
+            "platform": "DigitalOcean",
+            "price_usd": 3.44
+          },
+          {
+            "platform": "Massed Compute",
+            "price_usd": 3.62
+          },
+          {
+            "platform": "Cerebrium",
+            "price_usd": 4.2
+          }
+        ],
         "NVIDIA H100 (80GB SXM)": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 2.39
+          },
           {
             "platform": "RunPod",
             "price_usd": 1.99
-          },
-          {
-            "platform": "Lambda Labs",
-            "price_usd": 6.69
           },
           {
             "platform": "CoreWeave",
@@ -740,66 +938,20 @@
           {
             "platform": "Cerebrium",
             "price_usd": 3.4
-          }
-        ],
-        "NVIDIA RTX 4090": [
-          {
-            "platform": "RunPod",
-            "price_usd": 0.34
           },
           {
-            "platform": "TensorDock",
-            "price_usd": 0.35
-          },
-          {
-            "platform": "Hostkey",
-            "price_usd": 1.11
-          },
-          {
-            "platform": "Salad",
-            "price_usd": 0.16
-          }
-        ],
-        "NVIDIA H200": [
-          {
-            "platform": "Lambda Labs",
-            "price_usd": 6.99
-          },
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.31
-          },
-          {
-            "platform": "DigitalOcean",
-            "price_usd": 3.44
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 3.62
-          },
-          {
-            "platform": "Cerebrium",
-            "price_usd": 4.2
-          }
-        ],
-        "NVIDIA GH200": [
-          {
-            "platform": "Lambda Labs",
-            "price_usd": 6.99
-          },
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.5
+            "platform": "腾讯云",
+            "price_usd": 1.89
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
           {
-            "platform": "Lambda Labs",
-            "price_usd": 3.99
+            "platform": "Vast.ai",
+            "price_usd": 0.87
           },
           {
             "platform": "TensorDock",
-            "price_usd": 1.8
+            "price_usd": 2.25
           },
           {
             "platform": "JarvisLabs",
@@ -816,56 +968,20 @@
           {
             "platform": "Cerebrium",
             "price_usd": 2.1
-          }
-        ],
-        "NVIDIA A100 (40GB PCIe)": [
-          {
-            "platform": "Lambda Labs",
-            "price_usd": 2.79
           },
           {
-            "platform": "TensorDock",
-            "price_usd": 1.5
-          },
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 1.49
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 1.35
-          }
-        ],
-        "NVIDIA V100": [
-          {
-            "platform": "Lambda Labs",
-            "price_usd": 1.99
-          },
-          {
-            "platform": "TensorDock",
-            "price_usd": 0.95
-          },
-          {
-            "platform": "Paperspace",
-            "price_usd": 1.84
-          },
-          {
-            "platform": "OVHcloud",
-            "price_usd": 0.77
-          },
-          {
-            "platform": "Exoscale",
-            "price_usd": 1.38
+            "platform": "腾讯云",
+            "price_usd": 2.45
           }
         ],
         "NVIDIA RTX 6000 Ada / A6000": [
           {
-            "platform": "Lambda Labs",
-            "price_usd": 1.99
+            "platform": "Vast.ai",
+            "price_usd": 0.39
           },
           {
             "platform": "TensorDock",
-            "price_usd": 0.45
+            "price_usd": 0.75
           },
           {
             "platform": "Exoscale",
@@ -876,20 +992,32 @@
             "price_usd": 0.57
           }
         ],
-        "RTX 6000": [
+        "NVIDIA A40": [
           {
-            "platform": "Lambda Labs",
-            "price_usd": 1.09
+            "platform": "Vast.ai",
+            "price_usd": 0.29
+          }
+        ],
+        "RTX 2080": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.13
+          },
+          {
+            "platform": "Salad",
+            "price_usd": 0.05
+          }
+        ],
+        "NVIDIA GH200": [
+          {
+            "platform": "CoreWeave",
+            "price_usd": 6.5
           }
         ],
         "NVIDIA L40S": [
           {
             "platform": "CoreWeave",
             "price_usd": 2.25
-          },
-          {
-            "platform": "TensorDock",
-            "price_usd": 0.95
           },
           {
             "platform": "OVHcloud",
@@ -910,26 +1038,38 @@
           {
             "platform": "Cerebrium",
             "price_usd": 1.95
-          }
-        ],
-        "NVIDIA RTX 3090 / 3090 Ti": [
-          {
-            "platform": "TensorDock",
-            "price_usd": 0.2
           },
           {
-            "platform": "Hostkey",
-            "price_usd": 0.47
-          },
-          {
-            "platform": "Salad",
-            "price_usd": 0.1
+            "platform": "腾讯云",
+            "price_usd": 2.22
           }
         ],
-        "RTX A4000": [
+        "NVIDIA V100": [
           {
             "platform": "TensorDock",
-            "price_usd": 0.1
+            "price_usd": 1.5
+          },
+          {
+            "platform": "Paperspace",
+            "price_usd": 1.84
+          },
+          {
+            "platform": "OVHcloud",
+            "price_usd": 0.77
+          },
+          {
+            "platform": "Exoscale",
+            "price_usd": 1.38
+          }
+        ],
+        "NVIDIA A100 (40GB PCIe)": [
+          {
+            "platform": "JarvisLabs",
+            "price_usd": 1.49
+          },
+          {
+            "platform": "Massed Compute",
+            "price_usd": 1.35
           }
         ],
         "NVIDIA L4": [
@@ -974,26 +1114,16 @@
           {
             "platform": "Cerebrium",
             "price_usd": 0.59
+          },
+          {
+            "platform": "腾讯云",
+            "price_usd": 0.47
           }
         ],
         "6000 PRO": [
           {
             "platform": "Hostkey",
             "price_usd": 2.81
-          }
-        ],
-        "NVIDIA RTX 3080 / 3080 Ti": [
-          {
-            "platform": "Hostkey",
-            "price_usd": 0.28
-          },
-          {
-            "platform": "Exoscale",
-            "price_usd": 0.92
-          },
-          {
-            "platform": "Salad",
-            "price_usd": 0.08
           }
         ],
         "7900XTX": [
@@ -1026,12 +1156,6 @@
             "price_usd": 0.32
           }
         ],
-        "RTX 5090": [
-          {
-            "platform": "Hostkey",
-            "price_usd": 0.75
-          }
-        ],
         "1080Ti": [
           {
             "platform": "Hostkey",
@@ -1062,58 +1186,16 @@
             "price_usd": 0.09
           }
         ],
-        "NVIDIA RTX 4080 / 4080 Super": [
-          {
-            "platform": "Salad",
-            "price_usd": 0.11
-          }
-        ],
         "RTX 4070 Ti Super (16 GB)": [
           {
             "platform": "Salad",
             "price_usd": 0.09
           }
         ],
-        "NVIDIA RTX 4070 Ti / 4070": [
-          {
-            "platform": "Salad",
-            "price_usd": 0.08
-          }
-        ],
-        "NVIDIA RTX 4060 Ti": [
-          {
-            "platform": "Salad",
-            "price_usd": 0.08
-          }
-        ],
-        "NVIDIA RTX 3070 / 3070 Ti": [
-          {
-            "platform": "Salad",
-            "price_usd": 0.06
-          }
-        ],
-        "NVIDIA RTX 3060 / 3060 Ti": [
-          {
-            "platform": "Salad",
-            "price_usd": 0.04
-          }
-        ],
         "RTX 3050 (8 GB)": [
           {
             "platform": "Salad",
             "price_usd": 0.03
-          }
-        ],
-        "NVIDIA RTX 2080 Ti": [
-          {
-            "platform": "Salad",
-            "price_usd": 0.06
-          }
-        ],
-        "RTX 2080": [
-          {
-            "platform": "Salad",
-            "price_usd": 0.05
           }
         ],
         "RTX 2070 (8 GB)": [

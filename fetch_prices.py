@@ -824,46 +824,50 @@ def scrape_hetzner():
 
 
 def scrape_nexgen_cloud():
-    """NexGen Cloud / Hyperstack: https://www.hyperstack.cloud/gpu-pricing — GPU 价格在静态 HTML 中"""
+    """NexGen Cloud / Hyperstack: 从各 GPU 独立页面提取准确价格。
+    /gpu-pricing 页面 GPU 名称与价格卡片不在同一 DOM 区域，容易产生错误匹配。"""
     print("🔍 NexGen Cloud (Hyperstack) ...")
-    # 主 URL: Hyperstack (NexGen 的 GPU 云品牌)
+
+    # 各 GPU 的独立定价页面 (每个页面只列该 GPU 的价格，避免错配)
+    GPU_PAGES = {
+        "https://www.hyperstack.cloud/nvidia-h100-sxm":    "NVIDIA H100 (80GB SXM)",
+        "https://www.hyperstack.cloud/h100-pcie":          "NVIDIA H100 (80GB SXM)",  # H100 PCIe variant
+        "https://www.hyperstack.cloud/a100":               "NVIDIA A100 (80GB SXM)",
+        "https://www.hyperstack.cloud/nvidia-hgx-b300":    "NVIDIA H200",            # B300 ≈ H200 tier
+        "https://www.hyperstack.cloud/nvidia-gb300-nvl72": "NVIDIA GH200",           # GB300 ≈ GH200 tier
+    }
+
+    results = []
+    seen = set()
+
+    for url, gpu_label in GPU_PAGES.items():
+        html = get(url)
+        if not html:
+            continue
+        # 在独立页面中提取该 GPU 的价格 (页面只含一种 GPU, 避免导航菜单干扰)
+        page_results = extract_prices(html, COMMON_GPUS)
+        for r in page_results:
+            # 修正 GPU 名称为预期型号 (页面内无其他 GPU 干扰)
+            r["gpu"] = gpu_label
+            # 取该 GPU 的最低价格
+            if gpu_label not in seen:
+                seen.add(gpu_label)
+                results.append(r)
+                print(f"    {gpu_label}: \${r['price_usd']}/hr from {url.split('/')[-1]}")
+
+    if results:
+        mark_ok("NexGen Cloud", len(results))
+        return results
+
+    # 回退: 尝试通用提取
     html = get("https://www.hyperstack.cloud/gpu-pricing")
-    if not html:
-        # 回退: NexGen 主站
-        html = get("https://www.nexgencloud.com/gpu-pricing", accept_any_status=True)
     if html:
         results = extract_prices(html, COMMON_GPUS)
         if results:
             mark_ok("NexGen Cloud", len(results))
             return results
 
-    # Playwright 回退
-    if PLAYWRIGHT_AVAILABLE:
-        print("  🌐 启动无头浏览器 (Hyperstack) ...")
-        try:
-            with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True)
-                page = browser.new_page()
-                try:
-                    page.goto("https://www.hyperstack.cloud/gpu-pricing",
-                              timeout=45000, wait_until="domcontentloaded")
-                except Exception:
-                    pass
-                page.wait_for_timeout(8000)
-                body_text = page.inner_text("body")
-                browser.close()
-                results = extract_prices_from_text(body_text)
-        except Exception as e:
-            scrape_log["NexGen Cloud"] = {"status": "failed", "gpu_count": 0,
-                                           "error": str(e)[:100]}
-            print(f"  ❌ Playwright 异常: {e}")
-            return []
-
-    if results:
-        mark_ok("NexGen Cloud", len(results))
-        return results
-    if scrape_log.get("NexGen Cloud", {}).get("status") != "failed":
-        mark_failed("NexGen Cloud", "未提取到价格数据")
+    mark_failed("NexGen Cloud", "所有页面均未提取到价格数据")
     return []
 
 
