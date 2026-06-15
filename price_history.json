@@ -719,7 +719,7 @@
         "RTX 5080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.23
           }
         ],
         "RTX 5070 TI": [
@@ -752,13 +752,13 @@
             "price_usd": 0.2
           }
         ],
-        "NVIDIA RTX 4060 Ti": [
+        "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.11
           }
         ],
-        "NVIDIA RTX 4070 Ti / 4070": [
+        "NVIDIA RTX 4060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.11
@@ -821,7 +821,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.35
+            "price_usd": 3.34
           },
           {
             "platform": "CoreWeave",
