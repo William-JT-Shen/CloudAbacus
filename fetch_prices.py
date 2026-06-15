@@ -92,7 +92,7 @@ PRICE_RANGES = {
     "NVIDIA L4":                       (0.15, 1.50),
     "NVIDIA A40":                      (0.25, 2.00),
     "NVIDIA T4":                       (0.10, 1.00),
-    "NVIDIA V100":                     (0.20, 3.00),
+    "NVIDIA V100":                     (0.10, 3.00),  # 含 TensorDock 低价
     "NVIDIA RTX 6000 Ada / A6000":     (0.25, 2.00),
     "NVIDIA RTX 4090":                 (0.15, 1.50),
     "NVIDIA RTX 4080 / 4080 Super":    (0.10, 1.20),
@@ -388,10 +388,7 @@ def scrape_vast():
 
 
 def scrape_tensordock_dedicated():
-    """TensorDock 专用爬虫: 精确提取 GPU 卡价格 (避免抓到资源配置总价)
-    TensorDock 页面在每个 GPU 卡片中显示 "from $X.XX/hr" 的 GPU 起价,
-    同时在其他位置可能显示含 vCPU+RAM 的整机价格。
-    此爬虫针对 GPU 卡片区域进行匹配, 优先匹配离 GPU 名称最近的 $ 数字。"""
+    """TensorDock: 从 HTML 表格直接提取 GPU 价格 (<th>GPU名</th><td>\$X.XX</td>)"""
     print("🔍 TensorDock (dedicated) ...")
     html = get("https://www.tensordock.com/cloud-gpus.html")
     if not html:
@@ -400,52 +397,63 @@ def scrape_tensordock_dedicated():
     results = []
     seen = set()
 
-    # TensorDock 页面 GPU 卡片: 每个 GPU 名称后紧跟 "from $X.XX/hr" 格式
-    # 策略: 找 GPU 名称, 在最近的 200 字符内找第一个 \$X.XX 数字
-    td_gpu_patterns = [
-        (r'(?:>|\s)(H100\b[^<]*)',                       "NVIDIA H100 (80GB SXM)"),
-        (r'(?:>|\s)(A100\b[^<]*?(?:80\s*GB|SXM4)[^<]*)', "NVIDIA A100 (80GB SXM)"),
-        (r'(?:>|\s)(A100\b[^<]*?(?:40\s*GB|PCIe)[^<]*)', "NVIDIA A100 (40GB PCIe)"),
-        (r'(?:>|\s)(A6000\b[^<]*)',                       "NVIDIA RTX 6000 Ada / A6000"),
-        (r'(?:>|\s)(RTX\s*6000\s*Ada[^<]*)',              "NVIDIA RTX 6000 Ada / A6000"),
-        (r'(?:>|\s)(RTX\s*4090[^<]*)',                    "NVIDIA RTX 4090"),
-        (r'(?:>|\s)(RTX\s*3090[^<]*)',                    "NVIDIA RTX 3090 / 3090 Ti"),
-        (r'(?:>|\s)(L40S?\b[^<]*)',                       "NVIDIA L40S"),
-        (r'(?:>|\s)(V100\b[^<]*?(?:SXM|16\s*GB|32\s*GB|Volta)[^<]*)',   "NVIDIA V100"),
-        (r'(?:>|\s)(RTX\s*A?4000[^<]*)',                  "RTX A4000"),
-        (r'(?:>|\s)(A40\b[^<]*)',                         "NVIDIA A40"),
-    ]
+    # TensorDock 页面使用表格: <th>GPU名</th><td>$X.XX</td>
+    # 直接匹配每一行的 GPU 名称和价格
+    table_rows = re.findall(
+        r'<th[^>]*>\s*([^<]+?)\s*</th>\s*<td[^>]*>\s*\$(\d+\.?\d{0,2})\s*</td>',
+        html, re.IGNORECASE
+    )
 
-    for gpu_re, label in td_gpu_patterns:
-        lo, hi = PRICE_RANGES.get(label, (0.01, 1000))
-        # 找 GPU 名称，然后在最近的 200 字符内找第一个价格
-        for gpu_match in re.finditer(gpu_re, html, re.IGNORECASE):
-            ctx_end = min(len(html), gpu_match.end() + 200)
-            context = html[gpu_match.start():ctx_end]
-            # 找最近的 $X.XX (优先匹配 "from $" 或 "Starting at $" 格式)
-            price_matches = list(re.finditer(r'\$(\d+\.?\d{0,2})', context))
-            for price_match in price_matches:
-                try:
-                    price = float(price_match.group(1).replace(',', ''))
-                    if lo <= price <= hi and label not in seen:
-                        seen.add(label)
-                        results.append({"gpu": label, "price_usd": price, "plan": "GPU起价"})
-                        break
-                except ValueError:
-                    continue
-            if label in seen:
-                break
+    for gpu_name, price_str in table_rows:
+        gpu_name = gpu_name.strip()
+        try:
+            price = float(price_str)
+        except ValueError:
+            continue
+
+        # 标准化 GPU 名称 (TensorDock 使用 "H100 SXM5 80GB" 等格式)
+        gpu_label = normalize_gpu_name(gpu_name)
+        # 处理 TensorDock 特有的命名: "H100 SXM5 80GB" → "NVIDIA H100 (80GB SXM)"
+        # normalize_gpu_name 对某些名称可能不完美，手动映射
+        name_lower = gpu_name.lower()
+        if 'h100' in name_lower and 'sxm' in name_lower:
+            gpu_label = "NVIDIA H100 (80GB SXM)"
+        elif 'h100' in name_lower and 'pci' in name_lower:
+            gpu_label = "NVIDIA H100 (80GB SXM)"
+        elif 'a100' in name_lower and 'sxm' in name_lower:
+            gpu_label = "NVIDIA A100 (80GB SXM)"
+        elif 'a100' in name_lower and 'pci' in name_lower:
+            gpu_label = "NVIDIA A100 (40GB PCIe)"
+        elif 'v100' in name_lower:
+            gpu_label = "NVIDIA V100"
+        elif 'a6000' in name_lower:
+            gpu_label = "NVIDIA RTX 6000 Ada / A6000"
+        elif 'rtx 6000 ada' in name_lower:
+            gpu_label = "NVIDIA RTX 6000 Ada / A6000"
+        elif 'rtx 4090' in name_lower:
+            gpu_label = "NVIDIA RTX 4090"
+        elif 'rtx 3090' in name_lower:
+            gpu_label = "NVIDIA RTX 3090 / 3090 Ti"
+        elif 'l40' in name_lower:
+            gpu_label = "NVIDIA L40S"
+        else:
+            gpu_label = normalize_gpu_name(gpu_name)
+
+        lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+        if lo <= price <= hi and gpu_label not in seen:
+            seen.add(gpu_label)
+            results.append({"gpu": gpu_label, "price_usd": price, "plan": "GPU起价"})
 
     if results:
         mark_ok("TensorDock", len(results))
         return results
 
-    # 回退: 尝试通用提取
+    # 回退: 通用提取
     results = extract_prices(html, COMMON_GPUS)
     if results:
         mark_ok("TensorDock", len(results))
         return results
-    mark_failed("TensorDock", "未能解析价格数据")
+    mark_failed("TensorDock", "未能从表格提取价格")
     return []
 
 
@@ -901,8 +909,17 @@ def scrape_scaleway():
     eur_to_usd = 1.08
 
     # 通过 Scaleway 的 Next.js 数据端点获取 GPU 实例定价
-    # 该 JSON 包含所有 GPU 实例配置及价格
-    api_url = "https://www.scaleway.com/_next/data/2NEWDwU6v2yJrs1U_gmSZ/en/gpu-instances.json?slug=en&slug=gpu-instances"
+    # 先获取当前 build ID (Next.js 每次部署会更新)
+    html = get("https://www.scaleway.com/en/gpu-instances/")
+    build_id = None
+    if html:
+        m = re.search(r'\"buildId\"\s*:\s*\"([^\"]+)\"', html)
+        if m:
+            build_id = m.group(1)
+    if not build_id:
+        return mark_failed("Scaleway", "无法获取 Next.js build ID")
+
+    api_url = f"https://www.scaleway.com/_next/data/{build_id}/en/gpu-instances.json?slug=en&slug=gpu-instances"
     try:
         r = requests.get(api_url, timeout=TIMEOUT, headers={"User-Agent": UA})
         if r.status_code != 200:
@@ -1174,7 +1191,7 @@ def scrape_tencent_cloud():
                           timeout=45000, wait_until='domcontentloaded')
             except Exception:
                 pass
-            page.wait_for_timeout(15000)
+            page.wait_for_timeout(20000)  # 等待 API 响应 (腾讯云可能较慢)
             browser.close()
 
             if not api_response:
@@ -1465,7 +1482,7 @@ def main():
             "RunPod":       (scrape_runpod, scrape_runpod),
             "Vast.ai":      (scrape_vast, scrape_vast_playwright),
             "CoreWeave":    (scrape_coreweave, scrape_coreweave),
-            "TensorDock":   (scrape_tensordock_dedicated, scrape_tensordock),
+            "TensorDock":   (scrape_tensordock_dedicated, scrape_tensordock_dedicated),
             "DataCrunch":   (scrape_datacrunch, scrape_datacrunch_playwright),
             "Paperspace":   (scrape_paperspace, scrape_paperspace),
             "JarvisLabs":   (scrape_jarvislabs, scrape_jarvislabs),

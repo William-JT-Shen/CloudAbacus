@@ -787,7 +787,7 @@
           },
           {
             "platform": "TensorDock",
-            "price_usd": 0.35
+            "price_usd": 0.2
           },
           {
             "platform": "Hostkey",
@@ -916,8 +916,12 @@
             "price_usd": 2.99
           },
           {
+            "platform": "Scaleway",
+            "price_usd": 3.1
+          },
+          {
             "platform": "NexGen Cloud",
-            "price_usd": 1.37
+            "price_usd": 1.9
           },
           {
             "platform": "Hostkey",
@@ -951,11 +955,15 @@
           },
           {
             "platform": "TensorDock",
-            "price_usd": 2.25
+            "price_usd": 1.8
           },
           {
             "platform": "JarvisLabs",
             "price_usd": 1.49
+          },
+          {
+            "platform": "NexGen Cloud",
+            "price_usd": 1.35
           },
           {
             "platform": "Hostkey",
@@ -1020,8 +1028,16 @@
             "price_usd": 2.25
           },
           {
+            "platform": "TensorDock",
+            "price_usd": 0.95
+          },
+          {
             "platform": "OVHcloud",
             "price_usd": 1.8
+          },
+          {
+            "platform": "Scaleway",
+            "price_usd": 1.59
           },
           {
             "platform": "UpCloud",
@@ -1044,10 +1060,24 @@
             "price_usd": 2.22
           }
         ],
-        "NVIDIA V100": [
+        "NVIDIA A100 (40GB PCIe)": [
           {
             "platform": "TensorDock",
             "price_usd": 1.5
+          },
+          {
+            "platform": "JarvisLabs",
+            "price_usd": 1.49
+          },
+          {
+            "platform": "Massed Compute",
+            "price_usd": 1.35
+          }
+        ],
+        "NVIDIA V100": [
+          {
+            "platform": "TensorDock",
+            "price_usd": 0.17
           },
           {
             "platform": "Paperspace",
@@ -1062,14 +1092,10 @@
             "price_usd": 1.38
           }
         ],
-        "NVIDIA A100 (40GB PCIe)": [
+        "RTX A4000 16GB": [
           {
-            "platform": "JarvisLabs",
-            "price_usd": 1.49
-          },
-          {
-            "platform": "Massed Compute",
-            "price_usd": 1.35
+            "platform": "TensorDock",
+            "price_usd": 0.1
           }
         ],
         "NVIDIA L4": [
@@ -1082,8 +1108,8 @@
             "price_usd": 1.0
           },
           {
-            "platform": "NexGen Cloud",
-            "price_usd": 1.4
+            "platform": "Scaleway",
+            "price_usd": 0.85
           },
           {
             "platform": "UpCloud",
@@ -1118,6 +1144,18 @@
           {
             "platform": "腾讯云",
             "price_usd": 0.47
+          }
+        ],
+        "B300-SXM": [
+          {
+            "platform": "Scaleway",
+            "price_usd": 64.8
+          }
+        ],
+        "H100-SXM": [
+          {
+            "platform": "Scaleway",
+            "price_usd": 7.15
           }
         ],
         "6000 PRO": [
