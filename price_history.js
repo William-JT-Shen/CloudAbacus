@@ -703,7 +703,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.39
+            "price_usd": 0.37
           },
           {
             "platform": "TensorDock",
@@ -713,7 +713,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.47
+            "price_usd": 0.44
           }
         ],
         "RTX 5080": [
@@ -749,7 +749,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.21
           }
         ],
         "NVIDIA RTX 4060 Ti": [
