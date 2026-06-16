@@ -958,7 +958,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5060 TI": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.11
+            "price_usd": 0.1
           }
         ],
         "RTX 5060": [
@@ -1021,16 +1021,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.24
           }
         ],
-        "RTX 6000": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.13
-          }
-        ],
         "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
+          }
+        ],
+        "RTX 6000": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.63
           }
         ],
         "RTX 5880": [
@@ -1074,7 +1074,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.24
           }
         ],
         "NVIDIA L40S": [
