@@ -1598,7 +1598,6 @@ def main():
     # 保存/追加历史数据
     # ============================================================
     if "--save-history" in sys.argv:
-        today_str = datetime.now().strftime("%Y-%m-%d")
         history_data = {"snapshots": []}
         if OUTPUT_HIST.exists():
             try:
@@ -1609,23 +1608,29 @@ def main():
             except Exception:
                 pass
 
-        snap = {"date": today_str, "prices": {}}
-        for label, entries in gpu_categories.items():
-            snap["prices"][label] = [
-                {"platform": e["platform"], "price_usd": e["price_usd"]}
-                for e in entries
-            ]
+        # 兼容旧格式: {"date": ..., "prices": [{...}]} → {"ts": ..., "d": {...}}
+        for snap in history_data.get("snapshots", []):
+            if "date" in snap and "ts" not in snap:
+                snap["ts"] = snap.pop("date") + "T00:00:00Z"
+            if "prices" in snap and "d" not in snap:
+                old_prices = snap.pop("prices")
+                snap["d"] = {}
+                for gpu_label, entries in old_prices.items():
+                    if isinstance(entries, list):
+                        snap["d"][gpu_label] = {e["platform"]: e["price_usd"] for e in entries}
+                    else:
+                        snap["d"][gpu_label] = entries  # already compact
 
-        replaced = False
-        for i, s in enumerate(history_data["snapshots"]):
-            if s["date"] == today_str:
-                history_data["snapshots"][i] = snap
-                replaced = True
-                break
-        if not replaced:
-            history_data["snapshots"].append(snap)
-        if len(history_data["snapshots"]) > 90:
-            history_data["snapshots"] = history_data["snapshots"][-90:]
+        # 新快照 — 使用精确时间戳 + 压缩格式 (GPU → Platform → price_usd)
+        snap = {"ts": fetched_at, "d": {}}
+        for label, entries in gpu_categories.items():
+            snap["d"][label] = {e["platform"]: e["price_usd"] for e in entries}
+
+        # 始终追加，不覆盖
+        history_data["snapshots"].append(snap)
+        # 保留最近 1000 条（约 1 个月数据 @ 30次/天）
+        if len(history_data["snapshots"]) > 1000:
+            history_data["snapshots"] = history_data["snapshots"][-1000:]
 
         with open(OUTPUT_HIST, "w", encoding="utf-8") as f:
             f.write("var PRICE_HISTORY_DATA = ")
@@ -1635,8 +1640,8 @@ def main():
         with open(OUTPUT_HIST_JSON, "w", encoding="utf-8") as f:
             json.dump(history_data, f, indent=2, ensure_ascii=False)
 
-        action = "更新" if replaced else "追加"
-        print(f"📝 历史数据已{action}: {OUTPUT_HIST.name} (共 {len(history_data['snapshots'])} 天)")
+        print(f"📝 历史数据已追加: {OUTPUT_HIST.name} (共 {len(history_data['snapshots'])} 个快照, "
+              f"最新: {fetched_at})")
 
     # ============================================================
     # 总结

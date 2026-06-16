@@ -714,27 +714,57 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
       '</svg>';
   }
 
+  // 格式化时间戳为显示标签
+  // 自动判断: 数据跨度 ≤ 24h → "HH:MM"; > 24h → "MM-DD HH"
+  var _formatTsCache = {};
+  function formatTsLabel(tsStr) {
+    if (!tsStr) return '';
+    if (_formatTsCache[tsStr]) return _formatTsCache[tsStr];
+    // 解析 ISO 8601: "2026-06-15T13:09:18Z" 或 "2026-06-15" (旧格式)
+    var parts = tsStr.split('T');
+    var datePart = parts[0] || '';
+    var timePart = (parts[1] || '00:00:00').replace('Z', '');
+    var hhmm = timePart.slice(0, 5); // "13:09"
+    var mmdd = datePart.slice(5);     // "06-15"
+    // 返回完整信息，由调用方根据上下文截取
+    var label = { hhmm: hhmm, mmdd: mmdd, full: mmdd + ' ' + hhmm };
+    _formatTsCache[tsStr] = label;
+    return label;
+  }
+
   // 获取某 GPU + 平台的历史价格序列（大小写不敏感匹配）
+  // 支持新旧两种数据格式: snap.d (新, 嵌套dict) 或 snap.prices (旧, 对象数组)
   function getPriceHistory(gpuName, platformName) {
     if (!priceHistory || priceHistory.length === 0) return [];
     var gpuLower = gpuName.toLowerCase();
     var platLower = platformName.toLowerCase();
     var result = [];
     priceHistory.forEach(function(snap) {
-      // 遍历所有 GPU key 做大小写不敏感匹配
-      var gpuPrices = null;
-      var gpuKeys = Object.keys(snap.prices);
+      // 新格式: snap.d = { "GPU": { "Platform": price_usd } }
+      var dataDict = snap.d || snap.prices;
+      if (!dataDict) return;
+      var gpuKeys = Object.keys(dataDict);
       for (var i = 0; i < gpuKeys.length; i++) {
         if (gpuKeys[i].toLowerCase() === gpuLower) {
-          gpuPrices = snap.prices[gpuKeys[i]];
-          break;
-        }
-      }
-      if (!gpuPrices) return;
-      // 同样做平台名大小写不敏感匹配
-      for (var j = 0; j < gpuPrices.length; j++) {
-        if (gpuPrices[j].platform.toLowerCase() === platLower) {
-          result.push(gpuPrices[j].price_usd);
+          var platformPrices = dataDict[gpuKeys[i]];
+          if (typeof platformPrices === 'object' && !Array.isArray(platformPrices)) {
+            // 新格式 (嵌套 dict): { "Vast.ai": 2.27, "RunPod": 1.99 }
+            var platKeys = Object.keys(platformPrices);
+            for (var k = 0; k < platKeys.length; k++) {
+              if (platKeys[k].toLowerCase() === platLower) {
+                result.push(platformPrices[platKeys[k]]);
+                break;
+              }
+            }
+          } else if (Array.isArray(platformPrices)) {
+            // 旧格式 (对象数组): [{ "platform": "Vast.ai", "price_usd": 2.27 }]
+            for (var j = 0; j < platformPrices.length; j++) {
+              if (platformPrices[j].platform.toLowerCase() === platLower) {
+                result.push(platformPrices[j].price_usd);
+                break;
+              }
+            }
+          }
           break;
         }
       }
@@ -871,7 +901,20 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
     // 弹窗 DOM
     var overlay = document.getElementById('histModalOverlay');
     document.getElementById('histTitle').textContent = platformName + ' · ' + gpuName;
-    document.getElementById('histSubtitle').textContent = '近 ' + histPoints.length + ' 天价格走势';
+    // 动态副标题: 根据实际时间跨度显示
+    var snapDates = getHistoryDates(gpuName, platformName);
+    var timeSpanHours = 0;
+    var subTitle = histPoints.length + ' 个数据点';
+    if (snapDates.length >= 2) {
+      var t0 = new Date(snapDates[0]), t1 = new Date(snapDates[snapDates.length-1]);
+      timeSpanHours = (t1 - t0) / 3600000;
+      if (timeSpanHours < 24) {
+        subTitle = '近 ' + timeSpanHours.toFixed(0) + ' 小时价格走势 (' + histPoints.length + ' 个数据点)';
+      } else {
+        subTitle = '近 ' + (timeSpanHours / 24).toFixed(1) + ' 天价格走势 (' + histPoints.length + ' 个数据点)';
+      }
+    }
+    document.getElementById('histSubtitle').textContent = subTitle;
 
     // 构建大尺寸 SVG 图表
     var svg = buildDetailChart(histPoints, gpuName, platformName);
@@ -889,19 +932,20 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
 
     document.getElementById('histStats').innerHTML =
       '<div class="hist-stat"><div class="val" style="color:#e2e8f0;">' + formatPrice(last) + '</div><div class="lbl">当前价格</div></div>' +
-      '<div class="hist-stat"><div class="val" style="color:' + trendColor + ';">' + trendIcon + ' ' + Math.abs(pct).toFixed(1) + '%</div><div class="lbl">' + histPoints.length + '日涨跌</div></div>' +
+      '<div class="hist-stat"><div class="val" style="color:' + trendColor + ';">' + trendIcon + ' ' + Math.abs(pct).toFixed(1) + '%</div><div class="lbl">' + (timeSpanHours < 24 ? Math.round(timeSpanHours) + 'h涨跌' : Math.round(timeSpanHours / 24) + '日涨跌') + '</div></div>' +
       '<div class="hist-stat"><div class="val" style="color:#f59e0b;">' + formatPrice(min) + '</div><div class="lbl">最低</div></div>' +
       '<div class="hist-stat"><div class="val" style="color:#ef4444;">' + formatPrice(max) + '</div><div class="lbl">最高</div></div>' +
       '<div class="hist-stat"><div class="val" style="color:#94a3b8;">' + formatPrice(avg) + '</div><div class="lbl">平均</div></div>';
 
     // 数据表格
     var tableHtml = '';
-    var snapDates = getHistoryDates(gpuName, platformName);
     histPoints.forEach(function(p, i) {
       var prevP = i > 0 ? histPoints[i-1] : p;
       var d = p - prevP;
       var arrow = d > 0.005 ? '🔺' : (d < -0.005 ? '🔻' : '→');
-      var dateStr = snapDates[i] || ('Day -' + (histPoints.length - i));
+      var tsLabel = formatTsLabel(snapDates[i]);
+      // 根据数据时间跨度选择格式: ≤24h 显示 HH:MM, >24h 显示 MM-DD HH:MM
+      var dateStr = tsLabel ? (timeSpanHours <= 24 ? tsLabel.hhmm : tsLabel.full) : ('#' + (i + 1));
       tableHtml += '<tr><td>' + dateStr + '</td><td style="font-family:monospace;font-weight:600;">' + formatPrice(p) + '</td><td>' + arrow + ' ' + (d >= 0 ? '+' : '') + formatPrice(d) + '</td></tr>';
     });
     document.getElementById('histTableBody').innerHTML = tableHtml;
@@ -910,21 +954,36 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
     document.body.style.overflow = 'hidden';
   };
 
-  // 获取历史日期标签
+  // 获取历史日期/时间标签（返回 ISO 时间戳字符串数组）
   function getHistoryDates(gpuName, platformName) {
     if (!priceHistory) return [];
     var dates = [];
     var gpuLower = gpuName.toLowerCase();
     var platLower = platformName.toLowerCase();
     priceHistory.forEach(function(snap) {
-      var keys = Object.keys(snap.prices);
+      var snapTime = snap.ts || snap.date || '';
+      var dataDict = snap.d || snap.prices;
+      if (!dataDict) return;
+      var keys = Object.keys(dataDict);
       for (var i = 0; i < keys.length; i++) {
         if (keys[i].toLowerCase() === gpuLower) {
-          var entries = snap.prices[keys[i]];
-          for (var j = 0; j < entries.length; j++) {
-            if (entries[j].platform.toLowerCase() === platLower) {
-              dates.push(snap.date);
-              break;
+          var platformPrices = dataDict[keys[i]];
+          if (typeof platformPrices === 'object' && !Array.isArray(platformPrices)) {
+            // 新格式
+            var platKeys = Object.keys(platformPrices);
+            for (var k = 0; k < platKeys.length; k++) {
+              if (platKeys[k].toLowerCase() === platLower) {
+                dates.push(snapTime);
+                break;
+              }
+            }
+          } else if (Array.isArray(platformPrices)) {
+            // 旧格式
+            for (var j = 0; j < platformPrices.length; j++) {
+              if (platformPrices[j].platform.toLowerCase() === platLower) {
+                dates.push(snapTime);
+                break;
+              }
             }
           }
           break;
@@ -986,11 +1045,29 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
     svgParts.push('<line x1="' + pad.left + '" y1="' + avgY.toFixed(1) + '" x2="' + (pad.left+plotW) + '" y2="' + avgY.toFixed(1) + '" stroke="#f59e0b" stroke-width="1" stroke-dasharray="6,4"/>');
     svgParts.push('<text x="' + (pad.left+plotW) + '" y="' + (avgY-6).toFixed(1) + '" text-anchor="end" fill="#f59e0b" font-size="10">均值 $' + avg.toFixed(2) + '</text>');
 
-    // X 轴日期标签
+    // X 轴日期标签 — 根据时间跨度自动选择格式
+    // ≤24h → "HH:MM", >24h → "MM-DD" (密集时每隔N个标一个)
     var snapDates = getHistoryDates(gpuName, platformName);
+    var timeSpanHours = 0;
+    if (snapDates.length >= 2) {
+      timeSpanHours = (new Date(snapDates[snapDates.length-1]) - new Date(snapDates[0])) / 3600000;
+    }
+    // 标签步长: 标签过多时每隔 step 个显示一个
+    var labelStep = n > 48 ? Math.ceil(n / 24) : (n > 24 ? 2 : 1);
     for (var i = 0; i < n; i++) {
+      if (i % labelStep !== 0 && i !== n - 1) continue; // 始终显示最后一个
       var x = pad.left + (plotW / (n - 1)) * i;
-      var label = snapDates[i] ? snapDates[i].slice(5) : ''; // MM-DD
+      var tsLabel = formatTsLabel(snapDates[i]);
+      var label = '';
+      if (tsLabel) {
+        if (timeSpanHours <= 24) {
+          label = tsLabel.hhmm;           // "13:09"
+        } else if (timeSpanHours <= 168) {
+          label = tsLabel.mmdd + ' ' + tsLabel.hhmm; // "06-15 13:09" (≤7天)
+        } else {
+          label = tsLabel.mmdd;           // "06-15" (>7天)
+        }
+      }
       if (label) {
         svgParts.push('<text x="' + x.toFixed(1) + '" y="' + (H-8) + '" text-anchor="middle" fill="#64748b" font-size="9">' + label + '</text>');
       }
