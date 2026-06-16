@@ -559,8 +559,9 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
+            page.set_default_timeout(60000)
             try:
-                page.goto(url, timeout=45000, wait_until=wait_until)
+                page.goto(url, timeout=60000, wait_until=wait_until)
             except Exception:
                 pass  # 即使超时也继续
             page.wait_for_timeout(wait_sec * 1000)
@@ -568,26 +569,40 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
             # 尝试关闭 Cookie / 弹窗
             dismiss_selectors = [
                 "button:has-text('Accept All')",
+                "button:has-text('Accept All Cookies')",
                 "button:has-text('Accept')",
                 "button:has-text('OK')",
                 "button:has-text('Got it')",
                 "button:has-text('Decline')",
+                "button:has-text('Deny')",
                 "[aria-label='Close']",
+                "[aria-label='Dismiss']",
                 ".cookie-accept",
+                ".cc-btn",
+                "#onetrust-accept-btn-handler",
             ]
             for sel in dismiss_selectors:
                 try:
                     btn = page.locator(sel).first
-                    if btn.is_visible(timeout=1000):
+                    if btn.is_visible(timeout=2000):
                         btn.click()
                         page.wait_for_timeout(2000)
                         break
                 except Exception:
                     continue
 
+            # 滚动页面以触发懒加载内容
+            try:
+                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                page.wait_for_timeout(2000)
+            except Exception:
+                pass
+
             body_text = page.inner_text("body")
             try:
-                main_text = page.inner_text("main") or page.inner_text("#__next") or page.inner_text(".content")
+                main_text = (page.inner_text("main") or page.inner_text("#__next") or
+                           page.inner_text("#root") or page.inner_text(".content") or
+                           page.inner_text("[role='main']"))
                 body_text = main_text + "\n" + body_text
             except Exception:
                 pass
@@ -627,7 +642,10 @@ def scrape_lambda_playwright() -> list[dict]:
     ]
     for url in urls:
         results = scrape_with_playwright(url, "Lambda Labs",
-                                          wait_sec=12, wait_until="domcontentloaded")
+                                          wait_sec=14, wait_until="networkidle")
+        if not results:
+            results = scrape_with_playwright(url, "Lambda Labs",
+                                              wait_sec=14, wait_until="load")
         if results:
             mark_ok("Lambda Labs", len(results))
             return results
@@ -646,7 +664,10 @@ def scrape_datacrunch_playwright() -> list[dict]:
     ]
     for url in urls:
         results = scrape_with_playwright(url, "DataCrunch",
-                                          wait_sec=10, wait_until="domcontentloaded")
+                                          wait_sec=14, wait_until="networkidle")
+        if not results:
+            results = scrape_with_playwright(url, "DataCrunch",
+                                              wait_sec=14, wait_until="load")
         if results:
             mark_ok("DataCrunch", len(results))
             return results
@@ -810,24 +831,40 @@ def scrape_upcloud():
 
 
 def scrape_hetzner():
-    """Hetzner: https://www.hetzner.com/cloud/gpu/ — 页面 JS 动态渲染，尝试多 URL"""
+    """Hetzner: https://www.hetzner.com/cloud/gpu/ — requests 优先，失败回退 Playwright"""
     print("🔍 Hetzner ...")
     urls = [
         "https://www.hetzner.com/cloud/gpu/",
         "https://www.hetzner.com/cloud",
     ]
+    # 第一步: 尝试 requests (Hetzner 部分页面仍可静态解析)
     for url in urls:
         html = get(url)
         if not html:
             continue
-        # Hetzner 可能用欧元
         results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
         if not results:
             results = extract_prices(html, COMMON_GPUS)
         if results:
             mark_ok("Hetzner", len(results))
             return results
-    mark_failed("Hetzner", "页面可能为 JS 动态渲染，需 Playwright")
+
+    # 第二步: requests 失败，回退到 Playwright 浏览器渲染
+    if PLAYWRIGHT_AVAILABLE:
+        print("  🔄 requests 未提取到数据，回退到 Playwright ...")
+        for url in urls:
+            results = scrape_with_playwright(url, "Hetzner", wait_sec=12, wait_until="networkidle")
+            if not results:
+                results = scrape_with_playwright(url, "Hetzner", wait_sec=12, wait_until="load")
+            if results:
+                # 欧元价格转换
+                for r in results:
+                    if r.get("plan") == "市场价":
+                        r["plan"] = "€/时按需"
+                mark_ok("Hetzner", len(results))
+                return results
+
+    mark_failed("Hetzner", "页面 JS 动态渲染，Playwright 也未提取到价格数据")
     return []
 
 
@@ -995,13 +1032,19 @@ def scrape_scaleway():
 
 
 def scrape_cudo_compute():
-    """Cudo Compute: Elementor 选项卡 AJAX 加载, API 被 WAF 封锁.
-    当前技术限制: 选项卡内容需真实浏览器交互触发, 且无公开 API.
-    如需获取数据, 建议手动访问 https://www.cudocompute.com/pricing"""
+    """Cudo Compute: 尝试定价页 + GPU 产品页，含 Playwright 交互回退."""
     print("🔍 Cudo Compute ...")
-    # 尝试 pricing 页面
-    html = get("https://www.cudocompute.com/pricing")
-    if html:
+    # URL 列表 (pricing 页 + 直接 GPU 产品页)
+    urls = [
+        "https://www.cudocompute.com/pricing",
+        "https://www.cudocompute.com/products/clusters",
+        "https://www.cudocompute.com/products/gpu",
+    ]
+    # 第一步: 尝试 requests
+    for url in urls:
+        html = get(url)
+        if not html:
+            continue
         results = extract_prices(html, COMMON_GPUS)
         if not results:
             results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
@@ -1009,7 +1052,7 @@ def scrape_cudo_compute():
             mark_ok("Cudo Compute", len(results))
             return results
 
-    # Playwright 回退 (Elementor 选项卡需要真实点击, 自动化受限)
+    # 第二步: Playwright 回退 (尝试更全面的交互)
     if PLAYWRIGHT_AVAILABLE:
         print("  🌐 启动无头浏览器 (Cudo Compute) ...")
         try:
@@ -1018,21 +1061,29 @@ def scrape_cudo_compute():
                 page = browser.new_page()
                 try:
                     page.goto("https://www.cudocompute.com/pricing",
-                              timeout=45000, wait_until="domcontentloaded")
+                              timeout=45000, wait_until="networkidle")
                 except Exception:
-                    pass
+                    try:
+                        page.goto("https://www.cudocompute.com/pricing",
+                                  timeout=45000, wait_until="load")
+                    except Exception:
+                        pass
+                page.wait_for_timeout(12000)
+                # 接受 Cookie
+                for btn_text in ['Accept', 'Accept All', 'OK', 'Got it', 'Decline']:
+                    try:
+                        btn = page.locator(f"button:has-text('{btn_text}')").first
+                        if btn.is_visible(timeout=2000):
+                            btn.click()
+                            page.wait_for_timeout(2000)
+                            break
+                    except Exception:
+                        continue
+                # 点击所有可能的 GPU 选项卡
+                page.evaluate("""() => {
+                    document.querySelectorAll('[class*="tab"], [role="tab"], [class*="pricing"], .elementor-tab-title, .e-n-tab-title').forEach(e => { try { e.click(); } catch(ex) {} });
+                }""")
                 page.wait_for_timeout(10000)
-                # 尝试接受 Cookie
-                try:
-                    btn = page.locator("button:has-text('Accept')").first
-                    if btn.is_visible(timeout=2000):
-                        btn.click()
-                        page.wait_for_timeout(2000)
-                except Exception:
-                    pass
-                # 尝试点击所有可能的选项卡触发元素
-                page.evaluate("() => { document.querySelectorAll('[class*=\"tab\"], [role=\"tab\"]').forEach(e => e.click()); }")
-                page.wait_for_timeout(8000)
                 body_text = page.inner_text("body")
                 browser.close()
                 results = extract_prices_from_text(body_text)
@@ -1254,7 +1305,7 @@ def scrape_generic(name: str, url: str, use_pw: bool = False,
     """
     print(f"🔍 {name} ...")
     if use_pw:
-        results = scrape_with_playwright(url, name, wait_sec=6, wait_until="networkidle")
+        results = scrape_with_playwright(url, name, wait_sec=12, wait_until="networkidle")
         if results:
             mark_ok(name, len(results))
             return results
@@ -1271,7 +1322,7 @@ def scrape_generic(name: str, url: str, use_pw: bool = False,
         if pw_fallback:
             # 回退到 Playwright
             print(f"  🔄 requests 失败，回退到 Playwright ...")
-            results = scrape_with_playwright(url, name, wait_sec=6, wait_until="networkidle")
+            results = scrape_with_playwright(url, name, wait_sec=12, wait_until="networkidle")
             if results:
                 mark_ok(name, len(results))
                 return results
@@ -1288,7 +1339,7 @@ def scrape_generic(name: str, url: str, use_pw: bool = False,
     # 如果 requests 提取不到数据且允许回退，尝试 Playwright
     if pw_fallback:
         print(f"  🔄 requests 未提取到数据，回退到 Playwright ...")
-        results = scrape_with_playwright(url, name, wait_sec=6, wait_until="networkidle")
+        results = scrape_with_playwright(url, name, wait_sec=12, wait_until="networkidle")
         if results:
             mark_ok(name, len(results))
             return results
@@ -1380,50 +1431,50 @@ CORE_PLATFORMS = [
 
 EXTENDED_PLATFORMS = [
     # --- 欧洲平台 ---
-    ("Hetzner",         "https://www.hetzner.com/cloud/gpu/",                False),  # 已添加专用爬虫
+    ("Hetzner",         "https://www.hetzner.com/cloud/gpu/",                True),   # SPA, 需 Playwright
     ("OVHcloud",        "https://www.ovhcloud.com/en/public-cloud/prices/",  False),
     ("Scaleway",        "https://www.scaleway.com/en/gpu-instances/",        False),
-    ("Genesis Cloud",   "https://genesiscloud.com/pricing",                  False),
-    ("NexGen Cloud",    "https://www.hyperstack.cloud/gpu-pricing",           False),  # URL 已修正
-    ("Cudo Compute",    "https://www.cudocompute.com/products/clusters",     False),  # URL 已修正
-    ("G-Core Labs",     "https://gcore.com/cloud/gpu-cloud",                 False),
-    ("Cherry Servers",  "https://www.cherryservers.com/pricing/gpu-servers", False),
-    ("LeaderGPU",       "https://www.leadergpu.com/pricing",                 False),
-    ("Leaseweb",        "https://www.leaseweb.com/en/dedicated-servers/gpu", False),
+    ("Genesis Cloud",   "https://genesiscloud.com/pricing",                  True),   # SPA, 需 Playwright
+    ("NexGen Cloud",    "https://www.hyperstack.cloud/gpu-pricing",           False),
+    ("Cudo Compute",    "https://www.cudocompute.com/products/clusters",     True),   # SPA, 需 Playwright
+    ("G-Core Labs",     "https://gcore.com/cloud/gpu-cloud",                 True),   # SPA, 需 Playwright
+    ("Cherry Servers",  "https://www.cherryservers.com/pricing/gpu-servers", True),   # SPA, 需 Playwright
+    ("LeaderGPU",       "https://www.leadergpu.com/pricing",                 True),   # SPA, 需 Playwright
+    ("Leaseweb",        "https://www.leaseweb.com/en/dedicated-servers/gpu", True),   # SPA, 需 Playwright
     ("Hostkey",         "https://hostkey.com/gpu-dedicated-servers/",        False),  # 已添加专用爬虫 (EUR)
     ("UpCloud",         "https://upcloud.com/pricing/",                      False),  # 已添加专用爬虫 (EUR)
     ("Exoscale",        "https://www.exoscale.com/gpu/",                     False),
-    ("21Cloud",         "https://www.21cloud.com/cloud/gpu-cloud",           False),
-    ("Servers.com",     "https://www.servers.com/gpu-servers/",             False),
-    ("Mystic AI",       "https://mystic.ai/pricing",                         False),
+    ("21Cloud",         "https://www.21cloud.com/cloud/gpu-cloud",           True),   # SPA, 需 Playwright
+    ("Servers.com",     "https://www.servers.com/gpu-servers/",             True),   # SPA, 需 Playwright
+    ("Mystic AI",       "https://www.mystic.ai/pricing",                      True),   # SPA, 需 Playwright
 
     # --- 北美平台 ---
     ("DigitalOcean",    "https://www.digitalocean.com/pricing/gpu-droplets", False),
-    ("Vultr",           "https://www.vultr.com/products/cloud-gpu/",        False),
-    ("FluidStack",      "https://www.fluidstack.io/pricing",                 False),
+    ("Vultr",           "https://www.vultr.com/products/cloud-gpu/",        True),   # SPA, 需 Playwright
+    ("FluidStack",      "https://www.fluidstack.io/pricing",                 True),   # SPA, 需 Playwright
     ("Massed Compute",  "https://www.massedcompute.com/pricing",            False),
     ("Salad",           "https://salad.com/pricing",                         False),  # 已添加专用爬虫 (JS内嵌数据)
-    ("Hivelocity",      "https://www.hivelocity.net/products/gpu-servers/", False),
-    ("SabrePC",         "https://www.sabrepc.com/hpc-cloud",                False),
-    ("Bizon",           "https://bizon.ai/pricing",                          False),
-    ("DataPacket",      "https://www.datapacket.com/gpu-hosting",           False),
-    ("ServerMania",     "https://www.servermania.com/gpu-servers.htm",      False),
-    ("Monster API",     "https://monsterapi.ai/pricing",                     False),
+    ("Hivelocity",      "https://www.hivelocity.net/products/gpu-servers/", True),   # SPA, 需 Playwright
+    ("SabrePC",         "https://www.sabrepc.com/hpc-cloud",                True),   # SPA, 需 Playwright
+    ("Bizon",           "https://bizon.ai/pricing",                          True),   # SPA, 需 Playwright
+    ("DataPacket",      "https://www.datapacket.com/gpu-hosting",           True),   # SPA, 需 Playwright
+    ("ServerMania",     "https://www.servermania.com/gpu-servers.htm",      True),   # SPA, 需 Playwright
+    ("Monster API",     "https://monsterapi.ai/pricing",                     True),   # SPA, 需 Playwright
     ("Cerebrium",       "https://www.cerebrium.ai/pricing",                  False),
 
     # --- 中国平台 (需要 Playwright 或 API 拦截) ---
     ("Matpool",         "https://matpool.com/pricing",                       True),
     ("腾讯云",          "https://buy.cloud.tencent.com/price/cvm/overview",  True),
-    ("阿里云",          "https://www.aliyun.com/price/detail/ecs",           True),
+    ("阿里云",          "https://www.alibabacloud.com/product/ecs/pricing",  True),   # 国际站, 海外IP可访问
     ("华为云",          "https://www.huaweicloud.com/pricing/calculator.html", True),
     ("火山引擎",        "https://www.volcengine.com/product/gpu",           True),
     # AutoDL 需要中国大陆 IP
     # ("AutoDL",        "https://www.autodl.com/price",                     True),
 
-    # --- 大厂平台 (页面结构复杂，成功率较低但不妨一试) ---
-    ("Google Cloud",    "https://cloud.google.com/compute/gpus-pricing",    False),
-    ("IBM Cloud",       "https://www.ibm.com/cloud/gpu",                    False),
-    ("Oracle Cloud",    "https://www.oracle.com/cloud/compute/pricing/",    False),
+    # --- 大厂平台 (SPA 定价页面) ---
+    ("Google Cloud",    "https://cloud.google.com/compute/gpus-pricing",    True),   # SPA, 需 Playwright
+    ("IBM Cloud",       "https://www.ibm.com/cloud/gpu",                    True),   # SPA, 需 Playwright
+    ("Oracle Cloud",    "https://www.oracle.com/cloud/compute/pricing/",    True),   # SPA, 需 Playwright
 ]
 
 
@@ -1669,13 +1720,15 @@ def main():
 
 
 # 重导出旧版函数引用以兼容 main() 中的 custom_scrapers 字典
-scrape_coreweave = lambda: scrape_generic("CoreWeave", "https://www.coreweave.com/pricing")
-scrape_tensordock = lambda: scrape_generic("TensorDock", "https://www.tensordock.com/cloud-gpus.html")
+def scrape_coreweave():
+    """CoreWeave: requests 优先, 失败回退 Playwright"""
+    return scrape_generic("CoreWeave", "https://www.coreweave.com/pricing", use_pw=False, pw_fallback=True)
+scrape_tensordock = lambda: scrape_generic("TensorDock", "https://www.tensordock.com/cloud-gpus.html", use_pw=False, pw_fallback=True)
 # ⚠️ TensorDock 需要更精确的专用爬虫以避免抓取到资源总价而非GPU价格
 # 见下方 scrape_tensordock_dedicated 函数
-scrape_datacrunch = lambda: scrape_generic("DataCrunch", "https://datacrunch.io/pricing")
-scrape_paperspace = lambda: scrape_generic("Paperspace", "https://www.paperspace.com/pricing")
-scrape_jarvislabs = lambda: scrape_generic("JarvisLabs", "https://jarvislabs.ai/pricing/")
+scrape_datacrunch = lambda: scrape_generic("DataCrunch", "https://datacrunch.io/pricing", use_pw=False, pw_fallback=True)
+scrape_paperspace = lambda: scrape_generic("Paperspace", "https://www.paperspace.com/pricing", use_pw=False, pw_fallback=True)
+scrape_jarvislabs = lambda: scrape_generic("JarvisLabs", "https://jarvislabs.ai/pricing/", use_pw=False, pw_fallback=True)
 
 
 if __name__ == "__main__":
