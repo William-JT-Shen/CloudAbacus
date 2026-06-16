@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-16T13:04:11Z
-var NEWS_FETCHED_AT="2026-06-16T13:04:11Z";
+// 生成:2026-06-16T19:46:08Z
+var NEWS_FETCHED_AT="2026-06-16T19:46:08Z";
 var GPU_NEWS=[
+  {
+    "title": "摩根大通2026年下半年展望：AI仍是主引擎 看好风险资产",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HRWNUeEE3VWxPTGpvSFlNU2FNVzl3NVFMTl82akJubDVFU3BqNjBidEVDMEg1OERlQ25FM3dTRjl0VUNhamhFTVExb2lRVDJDVnZUVmcyX3RTSG4wczNfOFJuNHFUS2ZlSDlJS1U0UUlseGJsY0t4Wg?oc=5",
+    "published": "2026-06-16",
+    "summary": "摩根大通2026年下半年展望：AI仍是主引擎 看好风险资产&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "乘新浪潮之势，建智造创新之城，2026年番禺产业高质量发展招商大会圆满举行",
     "source": "36氪",
