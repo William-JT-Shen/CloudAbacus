@@ -898,7 +898,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.34
+            "price_usd": 2.39
           },
           {
             "platform": "CoreWeave",
@@ -1006,7 +1006,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.09
           }
         ],
         "NVIDIA RTX 3060 / 3060 Ti": [
@@ -1042,7 +1042,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.21
+            "price_usd": 3.22
           },
           {
             "platform": "CoreWeave",
