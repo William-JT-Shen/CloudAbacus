@@ -1203,7 +1203,7 @@
         "NVIDIA RTX 4060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.09
+            "price_usd": 0.1
           }
         ],
         "RTX 4060": [
@@ -1263,7 +1263,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.12
+            "price_usd": 3.17
           },
           {
             "platform": "CoreWeave",
@@ -1292,16 +1292,20 @@
             "price_usd": 0.29
           }
         ],
+        "NVIDIA L40S": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 1.2
+          },
+          {
+            "platform": "CoreWeave",
+            "price_usd": 2.25
+          }
+        ],
         "RTX 2080": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
-          }
-        ],
-        "NVIDIA L40S": [
-          {
-            "platform": "CoreWeave",
-            "price_usd": 2.25
           }
         ],
         "NVIDIA GH200": [
