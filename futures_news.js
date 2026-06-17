@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-16T22:23:05Z
-var NEWS_FETCHED_AT="2026-06-16T22:23:05Z";
+// 生成:2026-06-17T05:02:24Z
+var NEWS_FETCHED_AT="2026-06-17T05:02:24Z";
 var GPU_NEWS=[
+  {
+    "title": "像对冲原油一样对冲算力？全球首个AI计算期货合约呼之欲出",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQN0tTY0IzVHNQLU5pMFR2UDhON0FBSHYyLUhUNWh1OHlBZVk3bnRZRm8xa1lTQVV6LU5JdkZIMFJQSWVaVzJKcG40SjgxaUt1ZGZWalF5M1hLTXBvNkdBN2JWcnVrRXlIbzVJczZweGNic2tvbldEajJoUFNfb1Q2VnM4TVliT1pQUlViRENjN1R2R3FFOTZ1RkRFZjhkeU9ybWNPNXAwV2ZSelIwQ3ducTR3RUJ6TkZpdTNKUWVDd1hqWVVQRzVSM0FKb1RaQTZURmVLV2RkRzFTRXU3WWN3SmZtTQ?oc=5",
+    "published": "2026-06-17",
+    "summary": "像对冲原油一样对冲算力？全球首个AI计算期货合约呼之欲出&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "五矿期货接受《21世纪经济报道》采访，解读5月PPI数据",
     "source": "新浪财经",
