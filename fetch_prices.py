@@ -1600,6 +1600,7 @@ def main():
     print("\n" + "=" * 60)
     print("📝 生成输出文件 ...")
 
+    # 构建本次抓取到的 gpu_categories
     gpu_categories = {}
     for plat_name, gpus in all_data.items():
         for entry in gpus:
@@ -1619,6 +1620,43 @@ def main():
                 "availability": avail_str,
                 "source": "scraped"
             })
+
+    # 部分模式 (--vast-only / --quick): 读取现有 pricing_live.js 并合并
+    # 避免覆盖其他平台的实时数据
+    merged_from_existing = 0
+    if (vast_only or quick_mode) and OUTPUT_LIVE.exists():
+        try:
+            raw_existing = OUTPUT_LIVE.read_text(encoding="utf-8")
+            # 解析现有 GPU_PRICING_LIVE
+            m_existing = re.search(r'GPU_PRICING_LIVE\s*=\s*(\{.*?\});\s*$', raw_existing, re.DOTALL)
+            if m_existing:
+                existing_live = json.loads(m_existing.group(1))
+                # 解析现有 PRICE_SCRAPE_SOURCES
+                m_src = re.search(r'PRICE_SCRAPE_SOURCES\s*=\s*(\{.*?\});', raw_existing, re.DOTALL)
+                existing_sources = json.loads(m_src.group(1)) if m_src else {}
+                # 本次抓取到的平台名集合
+                scraped_platforms = set(all_data.keys())
+                # 遍历现有数据，保留非本次抓取平台的条目
+                for gpu_label, entries in existing_live.items():
+                    if gpu_label not in gpu_categories:
+                        gpu_categories[gpu_label] = []
+                    existing_entries = []
+                    for e in entries:
+                        if e.get("source") != "scraped":
+                            existing_entries.append(e)
+                            continue
+                        if e["platform"] not in scraped_platforms:
+                            existing_entries.append(e)
+                            merged_from_existing += 1
+                    # 先放现有条目(非本次平台), 再放本次抓取的条目
+                    gpu_categories[gpu_label] = existing_entries + gpu_categories.get(gpu_label, [])
+                # 合并 scrape_log: 保留现有成功平台的记录
+                for plat, info in existing_sources.items():
+                    if plat not in scrape_log and info.get("status") == "ok":
+                        scrape_log[plat] = info
+                print(f"  📥 从现有文件合并了 {merged_from_existing} 条其他平台的实时数据")
+        except Exception as e:
+            print(f"  ⚠️ 读取现有 pricing_live.js 失败 ({e})，将仅使用本次抓取数据")
 
     CODE_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -1643,7 +1681,8 @@ def main():
         f.write("};\n")
 
     total = sum(len(v) for v in all_data.values())
-    print(f"✅ {OUTPUT_LIVE.name}: {len(gpu_categories)} GPU 类别, {total} 条价格")
+    print(f"✅ {OUTPUT_LIVE.name}: {len(gpu_categories)} GPU 类别, {total} 条本次新价格"
+          + (f" (+{merged_from_existing} 条保留)" if merged_from_existing else ""))
 
     # ============================================================
     # 保存/追加历史数据
