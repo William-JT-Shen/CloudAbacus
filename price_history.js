@@ -1344,7 +1344,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.31
+            "price_usd": 2.27
           },
           {
             "platform": "CoreWeave",
@@ -1449,16 +1449,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.11
           }
         ],
-        "NVIDIA RTX 3070 / 3070 Ti": [
+        "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.08
           }
         ],
-        "NVIDIA RTX 3060 / 3060 Ti": [
+        "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.07
           }
         ],
         "RTX 8000": [

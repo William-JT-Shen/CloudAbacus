@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-06-18T04:51:17Z
-var NEWS_FETCHED_AT="2026-06-18T04:51:17Z";
+// 生成:2026-06-18T11:57:49Z
+var NEWS_FETCHED_AT="2026-06-18T11:57:49Z";
 var GPU_NEWS=[
   {
     "title": "像对冲原油一样对冲算力？全球首个AI计算期货合约呼之欲出",
@@ -247,6 +247,18 @@ var GPU_NEWS=[
       "https://n.sinaimg.cn/zhuanlan/transform/170/w85h85/20221230/f01f-b20f33f6583ea1f69aefeedf1b86f051.jpg"
     ],
     "lang": "zh"
+  },
+  {
+    "title": "全球首创！芝商所联手SiliconData推出算力期货市场",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYjBEamFtbXBDS3JHVXc0WFlBM1BXM0pNMWI3ZmcxMmE0cVdMUVN6b2FpcmVTRnVzeTRHNlVQQms4M1o3c3ZzbGc3bVgtUnRxcTZUOFZfeWh4Y2JPWXBRN0VtVnh1eVhPZHdKbTBEWVJleGxYcU9wdEJZV2RFZ2pJaFdvR0xiU2lpUEE?oc=5",
+    "published": "2026-05-13",
+    "summary": "全球首创！芝商所联手SiliconData推出算力期货市场&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
   },
   {
     "title": "“算力是21世纪的新石油”：芝商所准备推出算力期货",
