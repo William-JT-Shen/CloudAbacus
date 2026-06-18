@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-06-18T15:50:06Z
-var NEWS_FETCHED_AT="2026-06-18T15:50:06Z";
+// 生成:2026-06-18T22:30:48Z
+var NEWS_FETCHED_AT="2026-06-18T22:30:48Z";
 var GPU_NEWS=[
   {
     "title": "像对冲原油一样对冲算力？全球首个AI计算期货合约呼之欲出",
@@ -247,6 +247,18 @@ var GPU_NEWS=[
       "https://n.sinaimg.cn/zhuanlan/transform/170/w85h85/20221230/f01f-b20f33f6583ea1f69aefeedf1b86f051.jpg"
     ],
     "lang": "zh"
+  },
+  {
+    "title": "中信证券：算力期货或将年内落地，算力金融化元年开启",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KYnZqMnU0WUFVQ2xJQlVLTFBrMWN0bkU1UjRUaXhNVUQwUGJEeGJhcmJuMUoxTF9DYlc0cmtJZGF0azZMc2lwWUtwLS10aUpEQnJub2RsSzhVWlFCSmxmbS1obnpMVUN4ZlNoVGZxdERQaWNqZThOVg?oc=5",
+    "published": "2026-05-14",
+    "summary": "中信证券：算力期货或将年内落地，算力金融化元年开启&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
   },
   {
     "title": "全球首创！芝商所联手SiliconData推出算力期货市场",
