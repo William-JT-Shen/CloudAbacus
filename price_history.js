@@ -1691,13 +1691,13 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.05
           }
         ],
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.6
+            "price_usd": 0.59
           }
         ],
         "RTX 5880": [
@@ -1709,7 +1709,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.17
+            "price_usd": 3.27
           },
           {
             "platform": "CoreWeave",
