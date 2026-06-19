@@ -1661,7 +1661,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3090 / 3090 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.19
+            "price_usd": 0.17
           }
         ],
         "NVIDIA RTX 3080 / 3080 Ti": [
@@ -1709,7 +1709,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.16
+            "price_usd": 3.17
           },
           {
             "platform": "CoreWeave",
