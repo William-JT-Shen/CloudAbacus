@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-06-19T12:18:01Z
-var NEWS_FETCHED_AT="2026-06-19T12:18:01Z";
+// 生成:2026-06-19T18:07:06Z
+var NEWS_FETCHED_AT="2026-06-19T18:07:06Z";
 var GPU_NEWS=[
+  {
+    "title": "美股休市，三大股指期货集体下跌，黄金、油价走低",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2YnRIQ1hNeTgtNVN3djN4QW1ZeF9zdmJsTGxnSnRGOXdvMmJkWXF3b2FLRF9UUE1obTlQUF9OdjZ0cFdoZUl1OFRaMWJmMUhyZlBXcmJzY2lCUXdwR2FIWUduV21nNXBFT0tkWnB5cDRDTjNrUGVDSA?oc=5",
+    "published": "2026-06-19",
+    "summary": "美股休市，三大股指期货集体下跌，黄金、油价走低&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "金融监管总局：鼓励有条件的大型金融机构向中小金融机构输出算力服务",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2ZFVQb0xDcHlIeElqcW1YQ1lqZHk3cnV6NDcxUXI0U2dTRGo0UElYVTZpeXNnQU16QThpV24zaXpUd3NIanRVd25nU3VidTA4WGo2alVXbzVMWVR6aHd5VnNJWHNoWm5lQlZ2OWRKellUaWhRRkdWRQ?oc=5",
+    "published": "2026-06-18",
+    "summary": "金融监管总局：鼓励有条件的大型金融机构向中小金融机构输出算力服务&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "新华社｜我国金属期货价格“输出”境外成熟市场",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SM0ViSU9oS01tb0JoUHBQa0ZvaHFhcV9uMlpmV01BaV9hdXVMeHB2MHN5MFp5QXJHX09helNfV2VEYUdfSmZnX0RnV3FrdERzUE5sRzVQVzFnbWdNRTg1R2hNVVBrbHI4aEVCSEh0OGxmR3k3SVE?oc=5",
+    "published": "2026-06-18",
+    "summary": "新华社｜我国金属期货价格“输出”境外成熟市场&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "像对冲原油一样对冲算力？全球首个AI计算期货合约呼之欲出",
     "source": "新浪财经",

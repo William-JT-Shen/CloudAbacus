@@ -1565,7 +1565,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.12
+            "price_usd": 2.27
           },
           {
             "platform": "CoreWeave",
@@ -1591,7 +1591,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.37
+            "price_usd": 0.36
           },
           {
             "platform": "TensorDock",
@@ -1673,7 +1673,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.07
           }
         ],
         "NVIDIA RTX 3060 / 3060 Ti": [
@@ -1697,7 +1697,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.59
+            "price_usd": 0.6
           }
         ],
         "RTX 5880": [
