@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-06-20T14:24:05Z
-var NEWS_FETCHED_AT="2026-06-20T14:24:05Z";
+// 生成:2026-06-20T17:43:29Z
+var NEWS_FETCHED_AT="2026-06-20T17:43:29Z";
 var GPU_NEWS=[
   {
     "title": "国际油价V型反弹，美股期货全线下跌",
@@ -374,6 +374,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWksyeUp3WUFoMWdfVG90WTk4U2k0a3dCREJycFZvNmdlb0h3VHVybGZUWjV1NHllZEdGUVJzV192YVVtQ29NeVZHZmpoSFBYdW0wMWJPU3kyUEl6RlB6NzhQRTQ4OXEwbXRHUERBS3pheDlLSUtEZmc1ZlV6eXNNMWxXbHEtRlhoMndrZ0RqLWtaQVlR?oc=5",
     "published": "2026-05-13",
     "summary": "芝商所“算力期货”登场：算力将成为AI时代“新石油”还是华尔街的新赌桌？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "国内商品期货涨跌不一 液化气涨超7%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkOEJKeFp2M2RDLTVWY2MzcWFRQ1JtZUplMW1WRVFRcWNpY25GVFhQNXJvQWQzdzVMeWxqaDJtZTFhQjBILUJHcHg0QVotdFlBT294R3hwdFJEQnVKQ0lPZWY4ekNLOHFaWUYyV2Q3a0JzZXd5QVgw?oc=5",
+    "published": "2026-03-20",
+    "summary": "国内商品期货涨跌不一 液化气涨超7%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
