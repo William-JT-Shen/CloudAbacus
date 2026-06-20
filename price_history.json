@@ -1790,7 +1790,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.09
+            "price_usd": 2.27
           },
           {
             "platform": "CoreWeave",
@@ -1850,7 +1850,7 @@
         "RTX 5060 TI": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.09
           }
         ],
         "RTX 5060": [
@@ -1922,7 +1922,7 @@
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.6
+            "price_usd": 0.59
           }
         ],
         "RTX 5880": [
@@ -1934,7 +1934,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.21
+            "price_usd": 3.17
           },
           {
             "platform": "CoreWeave",
@@ -1966,7 +1966,7 @@
         "NVIDIA L40S": [
           {
             "platform": "Vast.ai",
-            "price_usd": 1.2
+            "price_usd": 1.07
           },
           {
             "platform": "CoreWeave",

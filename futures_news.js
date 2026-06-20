@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-20T04:24:03Z
-var NEWS_FETCHED_AT="2026-06-20T04:24:03Z";
+// 生成:2026-06-20T10:39:51Z
+var NEWS_FETCHED_AT="2026-06-20T10:39:51Z";
 var GPU_NEWS=[
+  {
+    "title": "国际油价V型反弹，美股期货全线下跌",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9mTURfT1FhTnNDYXNTLUgwcnhzcFp3SHFrYVNobFJwcUFxMWNTZWgxYXpWUlVlTDg5SnlGNmxhUEoxeG45VDFNVXowV3VJaG91a2tRWkxjSE53SVJXWFVkT2NFckpDamktbGFGWjZIOTh3SV9EWHF1ag?oc=5",
+    "published": "2026-06-20",
+    "summary": "国际油价V型反弹，美股期货全线下跌&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "广东省：支持广州期货交易所丰富期货产品体系，完善全期货产业链",
     "source": "新浪财经",
@@ -20,6 +32,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2YnRIQ1hNeTgtNVN3djN4QW1ZeF9zdmJsTGxnSnRGOXdvMmJkWXF3b2FLRF9UUE1obTlQUF9OdjZ0cFdoZUl1OFRaMWJmMUhyZlBXcmJzY2lCUXdwR2FIWUduV21nNXBFT0tkWnB5cDRDTjNrUGVDSA?oc=5",
     "published": "2026-06-19",
     "summary": "美股休市，三大股指期货集体下跌，黄金、油价走低&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "盘前：纳指期货涨1.43% 8.3万亿美元期权今晚到期",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWHBMc1ZiblpzQ2MxS2dxMWlDMUJIclQ1MjBRZDJfcGluZmhTdnowaXRqbGdkUzBiVHZ4eGFTNzg3bHVNOVJLSUp5Um5XR0F2M2UxQ3llRzRITllvaXVtVVNFSW5BaTc2eFdoSENFd3VaRnhmeE52MUVidVlOUjJDRTQ1ZzhnYlE?oc=5",
+    "published": "2026-06-18",
+    "summary": "盘前：纳指期货涨1.43% 8.3万亿美元期权今晚到期&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
