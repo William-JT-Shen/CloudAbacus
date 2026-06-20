@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-19T21:17:33Z
-var NEWS_FETCHED_AT="2026-06-19T21:17:33Z";
+// 生成:2026-06-20T04:24:03Z
+var NEWS_FETCHED_AT="2026-06-20T04:24:03Z";
 var GPU_NEWS=[
+  {
+    "title": "广东省：支持广州期货交易所丰富期货产品体系，完善全期货产业链",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcC01OHNTMS1xVGJzQ1FBMnAzS0g1T000SWFoQ0RIYW10TzlPSVJvSVh2anlONXFBbzlIc09HcmhVVmVwTWZOcjJqWF9lSmV3bDBXQ0ROUmZJal94dmdyUTRjaXlTVk5oM2taMG44RjViX0VJeFlqcXRMaDctNUk3Zg?oc=5",
+    "published": "2026-06-19",
+    "summary": "广东省：支持广州期货交易所丰富期货产品体系，完善全期货产业链&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美股休市，三大股指期货集体下跌，黄金、油价走低",
     "source": "新浪财经",
