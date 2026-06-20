@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-06-20T10:39:51Z
-var NEWS_FETCHED_AT="2026-06-20T10:39:51Z";
+// 生成:2026-06-20T14:24:05Z
+var NEWS_FETCHED_AT="2026-06-20T14:24:05Z";
 var GPU_NEWS=[
   {
     "title": "国际油价V型反弹，美股期货全线下跌",
@@ -80,6 +80,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQN0tTY0IzVHNQLU5pMFR2UDhON0FBSHYyLUhUNWh1OHlBZVk3bnRZRm8xa1lTQVV6LU5JdkZIMFJQSWVaVzJKcG40SjgxaUt1ZGZWalF5M1hLTXBvNkdBN2JWcnVrRXlIbzVJczZweGNic2tvbldEajJoUFNfb1Q2VnM4TVliT1pQUlViRENjN1R2R3FFOTZ1RkRFZjhkeU9ybWNPNXAwV2ZSelIwQ3ducTR3RUJ6TkZpdTNKUWVDd1hqWVVQRzVSM0FKb1RaQTZURmVLV2RkRzFTRXU3WWN3SmZtTQ?oc=5",
     "published": "2026-06-17",
     "summary": "像对冲原油一样对冲算力？全球首个AI计算期货合约呼之欲出&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "弘业期货：公司更名为“苏豪弘业期货股份有限公司”，是基于长远战略发展做出的重要决策",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOWFUNlVYT3ItSUtocUFEc2ZtdExqVk9yeldtZEhzQTJsT1Q4Yzc4QTZjZW5CNVRQSEFTbktyUDJjM2pUX1dJZ3JEcEREUlJ3Q1FqcDVXLVEtY2pxZFI0QjB0R3R4YkhqN1JKa3ZMUjFzY284ZzN6ZVc4V29lZ1BMNkZ3b2FzMFVS?oc=5",
+    "published": "2026-06-16",
+    "summary": "弘业期货：公司更名为“苏豪弘业期货股份有限公司”，是基于长远战略发展做出的重要决策&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [

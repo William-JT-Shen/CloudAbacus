@@ -1832,13 +1832,13 @@ var PRICE_HISTORY_DATA = {
         "RTX 5080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.22
+            "price_usd": 0.23
           }
         ],
         "RTX 5070 TI": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.15
+            "price_usd": 0.16
           }
         ],
         "RTX 5070": [
@@ -1895,13 +1895,13 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.11
           }
         ],
-        "NVIDIA RTX 3070 / 3070 Ti": [
+        "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.08
           }
         ],
-        "NVIDIA RTX 3060 / 3060 Ti": [
+        "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
@@ -1922,7 +1922,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.59
+            "price_usd": 0.56
           }
         ],
         "RTX 5880": [
