@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-06-20T17:43:29Z
-var NEWS_FETCHED_AT="2026-06-20T17:43:29Z";
+// 生成:2026-06-20T21:26:34Z
+var NEWS_FETCHED_AT="2026-06-20T21:26:34Z";
 var GPU_NEWS=[
   {
     "title": "国际油价V型反弹，美股期货全线下跌",
@@ -8,6 +8,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9mTURfT1FhTnNDYXNTLUgwcnhzcFp3SHFrYVNobFJwcUFxMWNTZWgxYXpWUlVlTDg5SnlGNmxhUEoxeG45VDFNVXowV3VJaG91a2tRWkxjSE53SVJXWFVkT2NFckpDamktbGFGWjZIOTh3SV9EWHF1ag?oc=5",
     "published": "2026-06-20",
     "summary": "国际油价V型反弹，美股期货全线下跌&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "国际油价V型反弹，美股期货全线下跌，以色列“同意停火”后再次空袭黎巴嫩南部",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91bzRYOVo3SDA3Zzh3MzVxNTFRTWcweXBPNkt3QmZqanN2dDU5X1JaMjVKQnpHUXRUYWJNMDl5MlZXclBuSjB4ZmloVTNFSUxFVHVHS05MTmRtbFlpYk9CRUJkSkNGb0NfWk5ydDg5cTUyb1o4c2c?oc=5",
+    "published": "2026-06-19",
+    "summary": "国际油价V型反弹，美股期货全线下跌，以色列“同意停火”后再次空袭黎巴嫩南部&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
