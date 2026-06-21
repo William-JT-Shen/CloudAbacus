@@ -2015,7 +2015,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.13
+            "price_usd": 2.26
           },
           {
             "platform": "CoreWeave",
@@ -2129,7 +2129,7 @@
         "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.07
           }
         ],
         "RTX 8000": [
@@ -2159,7 +2159,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.16
+            "price_usd": 3.1
           },
           {
             "platform": "CoreWeave",
