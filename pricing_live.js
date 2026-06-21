@@ -1,8 +1,8 @@
 // 运算盘 · 实时 GPU 价格数据
-// 自动生成于: 2026-06-21T14:26:58Z
+// 自动生成于: 2026-06-21T17:46:04Z
 // ⚠️ 由 fetch_prices.py 自动生成，请勿手动编辑
 
-var PRICE_FETCHED_AT = "2026-06-21T14:26:58Z";
+var PRICE_FETCHED_AT = "2026-06-21T17:46:04Z";
 var PRICE_SCRAPE_SOURCES = {
   "Lambda Labs": {
     "status": "failed",
@@ -42,103 +42,103 @@ var PRICE_SCRAPE_SOURCES = {
 
 var GPU_PRICING_LIVE = {
   "NVIDIA H100 (80GB SXM)": [
-    { "platform": "RunPod", "price_usd": 1.99, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 2.0, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "CoreWeave", "price_usd": 6.16, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 5.0, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "Paperspace", "price_usd": 2.24, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "JarvisLabs", "price_usd": 2.69, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "RunPod", "price_usd": 1.99, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 2.25, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "CoreWeave", "price_usd": 6.16, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "TensorDock", "price_usd": 5.0, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "Paperspace", "price_usd": 2.24, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "JarvisLabs", "price_usd": 2.69, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA RTX 4090": [
-    { "platform": "RunPod", "price_usd": 0.34, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 0.35, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 0.35, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "RunPod", "price_usd": 0.34, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 0.35, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "TensorDock", "price_usd": 0.35, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 5090": [
-    { "platform": "Vast.ai", "price_usd": 0.43, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.43, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 5080": [
-    { "platform": "Vast.ai", "price_usd": 0.21, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.21, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 5070 TI": [
-    { "platform": "Vast.ai", "price_usd": 0.15, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.15, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 5070": [
-    { "platform": "Vast.ai", "price_usd": 0.13, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.13, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 5060 TI": [
-    { "platform": "Vast.ai", "price_usd": 0.09, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.09, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 5060": [
-    { "platform": "Vast.ai", "price_usd": 0.08, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.08, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA RTX 4080 / 4080 Super": [
-    { "platform": "Vast.ai", "price_usd": 0.2, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.2, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA RTX 4070 Ti / 4070": [
-    { "platform": "Vast.ai", "price_usd": 0.11, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.11, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA RTX 4060 Ti": [
-    { "platform": "Vast.ai", "price_usd": 0.09, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.09, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 4060": [
-    { "platform": "Vast.ai", "price_usd": 0.07, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.07, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA RTX 3090 / 3090 Ti": [
-    { "platform": "Vast.ai", "price_usd": 0.19, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.17, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA RTX 3080 / 3080 Ti": [
-    { "platform": "Vast.ai", "price_usd": 0.11, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.11, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA RTX 3070 / 3070 Ti": [
-    { "platform": "Vast.ai", "price_usd": 0.08, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.08, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA RTX 3060 / 3060 Ti": [
-    { "platform": "Vast.ai", "price_usd": 0.08, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.08, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 8000": [
-    { "platform": "Vast.ai", "price_usd": 0.24, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
-  ],
-  "NVIDIA RTX 2080 Ti": [
-    { "platform": "Vast.ai", "price_usd": 0.05, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.24, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 6000": [
-    { "platform": "Vast.ai", "price_usd": 0.53, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.13, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
+  ],
+  "NVIDIA RTX 2080 Ti": [
+    { "platform": "Vast.ai", "price_usd": 0.05, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 5880": [
-    { "platform": "Vast.ai", "price_usd": 0.48, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.48, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA H200": [
-    { "platform": "Vast.ai", "price_usd": 3.16, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "CoreWeave", "price_usd": 6.31, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 3.21, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "CoreWeave", "price_usd": 6.31, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA A100 (80GB SXM)": [
-    { "platform": "Vast.ai", "price_usd": 0.79, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "JarvisLabs", "price_usd": 1.49, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.73, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "JarvisLabs", "price_usd": 1.49, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA RTX 6000 Ada / A6000": [
-    { "platform": "Vast.ai", "price_usd": 0.39, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.39, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA A40": [
-    { "platform": "Vast.ai", "price_usd": 0.29, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.29, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA L40S": [
-    { "platform": "Vast.ai", "price_usd": 1.07, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" },
-    { "platform": "CoreWeave", "price_usd": 2.25, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 1.07, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" },
+    { "platform": "CoreWeave", "price_usd": 2.25, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "RTX 2080": [
-    { "platform": "Vast.ai", "price_usd": 0.07, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Vast.ai", "price_usd": 0.07, "plan": "市场价", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA GH200": [
-    { "platform": "CoreWeave", "price_usd": 6.5, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "CoreWeave", "price_usd": 6.5, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA V100": [
-    { "platform": "Paperspace", "price_usd": 1.84, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "Paperspace", "price_usd": 1.84, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA A100 (40GB PCIe)": [
-    { "platform": "JarvisLabs", "price_usd": 1.49, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "JarvisLabs", "price_usd": 1.49, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ],
   "NVIDIA L4": [
-    { "platform": "JarvisLabs", "price_usd": 0.44, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T14:26:58Z", "pricing_url": "", "source": "scraped" }
+    { "platform": "JarvisLabs", "price_usd": 0.44, "plan": "按需", "country": "", "region": "", "note": "🟢 实时抓取 · 2026-06-21T17:46:04Z", "pricing_url": "", "source": "scraped" }
   ]
 };
