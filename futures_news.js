@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-06-20T21:26:34Z
-var NEWS_FETCHED_AT="2026-06-20T21:26:34Z";
+// 生成:2026-06-21T05:08:01Z
+var NEWS_FETCHED_AT="2026-06-21T05:08:01Z";
 var GPU_NEWS=[
+  {
+    "title": "苏豪弘业期货2025年参保人数301人，较上期减少3人、同比下降0.99%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMXNQN05vY1FUaGd1TlNlQnRWX1NvdDFKZkwtY2FvcjlRZWpVSE42YjQtOFNFUUN1RTRlX0c0V3BwbHIzZ3N0UVRNMUd1dkFJRkg2THBUc3J1alJISmZqVEZUREwwZlN3ZE1YVXdNaENvZkticnp1NzBlSkg5VWlYSFY1YnNaU28?oc=5",
+    "published": "2026-06-21",
+    "summary": "苏豪弘业期货2025年参保人数301人，较上期减少3人、同比下降0.99%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "国内期货主力合约跌多涨少、乙烯产能进入集中整合期、全球原油库存将降至23年最低",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91NDI0cGtrSW51UjNzRmExVndFYXBIWS01MGlab3JiVTNNNzgxSUJVcVVpVVBHVllQTlhxekRSSDFUVzJvYndkYWlFeHlncXNVcmhsbnR5UFc0R1dCbHVwd29YcEpSV3RYTWo1a3ZrZWVQbzJHNWF4bw?oc=5",
+    "published": "2026-06-20",
+    "summary": "国内期货主力合约跌多涨少、乙烯产能进入集中整合期、全球原油库存将降至23年最低&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "国际油价V型反弹，美股期货全线下跌",
     "source": "新浪财经",
@@ -92,6 +116,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQN0tTY0IzVHNQLU5pMFR2UDhON0FBSHYyLUhUNWh1OHlBZVk3bnRZRm8xa1lTQVV6LU5JdkZIMFJQSWVaVzJKcG40SjgxaUt1ZGZWalF5M1hLTXBvNkdBN2JWcnVrRXlIbzVJczZweGNic2tvbldEajJoUFNfb1Q2VnM4TVliT1pQUlViRENjN1R2R3FFOTZ1RkRFZjhkeU9ybWNPNXAwV2ZSelIwQ3ducTR3RUJ6TkZpdTNKUWVDd1hqWVVQRzVSM0FKb1RaQTZURmVLV2RkRzFTRXU3WWN3SmZtTQ?oc=5",
     "published": "2026-06-17",
     "summary": "像对冲原油一样对冲算力？全球首个AI计算期货合约呼之欲出&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "Novig获美国商品期货交易委员会批准，体育预测市场行业竞争白热化",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUzY1dlhOVHJwQkhqTjNRYk1XRG1Qb2RXdlRWY2JBeVFuc0tpc2ZqNFlNTkplT1dFbTFKVmtFUWFMOWhmaFE1LU50ZlRJcGhOSDFab3pONFVJSzkxbEd3b3Q0T1Fvcm9DMjRkZk0zRG1kVnZhdmdXWDVuQkV4ZGU3UWZJYlJEeVk?oc=5",
+    "published": "2026-06-16",
+    "summary": "Novig获美国商品期货交易委员会批准，体育预测市场行业竞争白热化&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
