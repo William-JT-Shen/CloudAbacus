@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-21T21:25:01Z
-var NEWS_FETCHED_AT="2026-06-21T21:25:01Z";
+// 生成:2026-06-22T05:18:50Z
+var NEWS_FETCHED_AT="2026-06-22T05:18:50Z";
 var GPU_NEWS=[
+  {
+    "title": "五矿期货邀您共同参与第二十届全国期货（期权）实盘交易大赛！",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLUxEMl9WMzA3dUswY0FhdUxrTVNmNTllUVJSeUNaSEdsS3RnSmVzWGV2UkZGMzdrVGx4cWkzaFYxVGM0UXVOZmlsMzhEU2EwUktSb3JCRGhnTEE1N3FKSjEzRzJzcHdOM0xvVHY0d0FsVVpaaW11ajVzX2MyWmZwWTZXSURNNXgxOXRiakZR?oc=5",
+    "published": "2026-06-22",
+    "summary": "五矿期货邀您共同参与第二十届全国期货（期权）实盘交易大赛！&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "将引入境外交易者！碳酸锂期货迈出国际化关键一步",
     "source": "新浪财经",
