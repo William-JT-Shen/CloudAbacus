@@ -1645,124 +1645,159 @@ def scrape_exoscale():
 # ============================================================
 
 def scrape_alibaba_cloud_playwright() -> list[dict]:
-    """阿里云国际站: Playwright 抓取 GPU ECS 实例定价"""
-    print("🔍 阿里云 (Alibaba Cloud International) ...")
+    """阿里云: 国际站 ECS GPU 定价 (v6 增强 — 多 URL + API 拦截)"""
+    print("🔍 阿里云 (Alibaba Cloud) ...")
+    # 尝试多个 URL: 国际站 → 中国站 → 文档页
     urls = [
         "https://www.alibabacloud.com/product/ecs/pricing",
         "https://www.alibabacloud.com/product/gpu",
+        "https://www.aliyun.com/price/detail/ecs",
+        "https://help.aliyun.com/document_detail/25378.html",
     ]
     for url in urls:
-        results = scrape_with_playwright(url, "阿里云",
-                                          wait_sec=15, wait_until="networkidle",
-                                          poll_selector='table, [class*="price"], [class*="pricing"]')
-        if not results:
+        for wait_s, wait_u in [(15, "networkidle"), (20, "domcontentloaded"), (25, "load")]:
             results = scrape_with_playwright(url, "阿里云",
-                                              wait_sec=20, wait_until="domcontentloaded",
-                                              poll_selector='table, [class*="price"]')
-        if results:
-            mark_ok("阿里云", len(results))
-            return results
+                                              wait_sec=wait_s, wait_until=wait_u,
+                                              poll_selector='table, [class*="price"], [class*="pricing"]')
+            if results:
+                # 阿里云价格可能为 CNY/月，已在 extract_prices_from_text 中处理
+                mark_ok("阿里云", len(results))
+                return results
     if scrape_log.get("阿里云", {}).get("status") != "failed":
-        mark_failed("阿里云", "国际站未提取到 GPU 价格（SPA 动态加载或需登录）")
+        mark_failed("阿里云", "国际站/中国站均未提取到 GPU 价格")
     return []
 
 
 def scrape_huawei_cloud_playwright() -> list[dict]:
-    """华为云: Playwright 抓取 GPU 实例定价"""
+    """华为云: GPU 实例定价 (v6 增强 — 多 URL + 更长等待)"""
     print("🔍 华为云 (Huawei Cloud) ...")
     urls = [
         "https://www.huaweicloud.com/pricing/calculator.html",
         "https://www.huaweicloud.com/intl/en-us/pricing/calculator.html",
         "https://www.huaweicloud.com/intl/en-us/product/gpu.html",
+        "https://www.huaweicloud.com/pricing/calculator/gpu",
     ]
     for url in urls:
-        results = scrape_with_playwright(url, "华为云",
-                                          wait_sec=18, wait_until="networkidle",
-                                          poll_selector='table, [class*="price"], [class*="calculator"]')
-        if not results:
+        for wait_s, wait_u in [(20, "networkidle"), (30, "domcontentloaded")]:
             results = scrape_with_playwright(url, "华为云",
-                                              wait_sec=25, wait_until="domcontentloaded",
-                                              poll_selector='[class*="price"], [class*="card"]')
-        if results:
-            mark_ok("华为云", len(results))
-            return results
+                                              wait_sec=wait_s, wait_until=wait_u,
+                                              poll_selector='table, [class*="price"], [class*="calculator"], [class*="card"]')
+            if results:
+                mark_ok("华为云", len(results))
+                return results
     if scrape_log.get("华为云", {}).get("status") != "failed":
-        mark_failed("华为云", "未提取到 GPU 价格（计算器页面复杂，需人工验证）")
+        mark_failed("华为云", "未提取到 GPU 价格")
     return []
 
 
 def scrape_volcengine_playwright() -> list[dict]:
-    """火山引擎: Playwright 抓取 GPU 产品定价"""
+    """火山引擎: GPU 产品定价 (v6 增强)"""
     print("🔍 火山引擎 (Volcengine) ...")
     urls = [
         "https://www.volcengine.com/product/gpu",
         "https://www.volcengine.com/theme/3915373-R-7-1",
+        "https://www.volcengine.com/docs/6396/67790",
     ]
     for url in urls:
-        results = scrape_with_playwright(url, "火山引擎",
-                                          wait_sec=15, wait_until="networkidle",
-                                          poll_selector='table, [class*="price"], [class*="pricing"]')
-        if not results:
+        for wait_s, wait_u in [(15, "networkidle"), (25, "domcontentloaded")]:
             results = scrape_with_playwright(url, "火山引擎",
-                                              wait_sec=20, wait_until="domcontentloaded",
-                                              poll_selector='[class*="price"], [class*="card"]')
-        if results:
-            mark_ok("火山引擎", len(results))
-            return results
+                                              wait_sec=wait_s, wait_until=wait_u,
+                                              poll_selector='table, [class*="price"], [class*="pricing"], [class*="card"]')
+            if results:
+                mark_ok("火山引擎", len(results))
+                return results
     if scrape_log.get("火山引擎", {}).get("status") != "failed":
-        mark_failed("火山引擎", "未提取到 GPU 价格（SPA 或中文页面，需特殊处理）")
+        mark_failed("火山引擎", "未提取到 GPU 价格")
     return []
 
 
 def scrape_tencent_cloud():
-    """腾讯云: 通过 workbench API 获取 GPU 实例定价 (CNY/月 → USD/时)"""
+    """腾讯云: 通过 API 拦截获取 GPU 实例定价 (v6 增强版)"""
     print("🔍 腾讯云 (Tencent Cloud) ...")
     if not PLAYWRIGHT_AVAILABLE:
         return mark_failed("腾讯云", "需要 Playwright 获取 API 数据")
 
-    # GPU 实例族 → GPU 型号映射
+    # GPU 实例族 → GPU 型号映射 (扩展版)
     GPU_FAMILY_MAP = {
-        "HCCG5v":   "NVIDIA H100 (80GB SXM)",   # H100
-        "GT4":      "NVIDIA A100 (80GB SXM)",   # A100
-        "GC50sg":   "NVIDIA L40S",              # L40S / L20
-        "GI3X":     "NVIDIA L40S",              # L40S
-        "GN10Xp":   "NVIDIA V100",              # V100
-        "GN10X":    "NVIDIA V100",              # V100
-        "GN7vi":    "NVIDIA T4",                # T4
-        "GN7":      "NVIDIA T4",                # T4
-        "PTX1":     "NVIDIA H200",              # H20/H800
-        "BMG5t":    "NVIDIA Tesla P100 / P40",  # 旧 GPU
+        "HCCG5v":   "NVIDIA H100 (80GB SXM)",
+        "HCCPNV4h": "NVIDIA H100 (80GB SXM)",
+        "HCCPNV4s": "NVIDIA H100 (80GB SXM)",
+        "GT4":      "NVIDIA A100 (80GB SXM)",
+        "GC50sg":   "NVIDIA L40S",
+        "GI3X":     "NVIDIA L40S",
+        "GN10Xp":   "NVIDIA V100",
+        "GN10X":    "NVIDIA V100",
+        "GN7vi":    "NVIDIA T4",
+        "GN7":      "NVIDIA T4",
+        "PTX1":     "NVIDIA H200",
+        "BMG5t":    "NVIDIA Tesla P100 / P40",
+        "BMG5e":    "NVIDIA H20",
+        "BMG5i":    "NVIDIA L20",
+        "BMG5v":    "NVIDIA A800",
+        "GC49":     "NVIDIA A10G",
+        "GC49sg":   "NVIDIA A10G",
+        "GI1":      "NVIDIA T4",
+        "GNV4":     "NVIDIA A16",
     }
-    CNY_PER_USD = 7.25   # 人民币→美元汇率
+    CNY_PER_USD = 7.25
     HOURS_PER_MONTH = 730
-
     results = []
     seen = set()
 
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(headless=True, args=['--no-sandbox'])
             page = browser.new_page()
-
             api_response = []
 
             def handle_response(response):
-                if 'DescribeZoneInstanceConfigInfos' in response.url and response.ok:
+                # 捕获多种可能的价格 API 模式
+                url_lower = response.url.lower()
+                if response.ok and any(kw in url_lower for kw in
+                    ['describezoneinstance', 'instanceconfig', 'price', 'cvm', 'instance']):
                     try:
+                        ct = response.headers.get('content-type', '')
+                        if 'json' not in ct and 'text' not in ct:
+                            return
                         data = response.json()
-                        instances = data.get('data', {}).get('Response', {}).get('InstanceTypeQuotaSet', [])
-                        api_response.extend(instances)
+                        # 尝试多种 JSON 路径
+                        instances = (data.get('data', {}).get('Response', {}).get('InstanceTypeQuotaSet', []) or
+                                    data.get('Response', {}).get('InstanceTypeQuotaSet', []) or
+                                    data.get('InstanceTypeQuotaSet', []))
+                        if instances:
+                            api_response.extend(instances)
                     except Exception:
                         pass
 
             page.on('response', handle_response)
 
-            try:
-                page.goto('https://buy.cloud.tencent.com/price/cvm/overview',
-                          timeout=45000, wait_until='domcontentloaded')
-            except Exception:
-                pass
-            page.wait_for_timeout(20000)  # 等待 API 响应 (腾讯云可能较慢)
+            # 尝试多个 URL
+            for url in [
+                'https://buy.cloud.tencent.com/price/cvm/overview',
+                'https://buy.cloud.tencent.com/pricing/cvm/overview',
+                'https://cloud.tencent.com/document/product/560',
+            ]:
+                try:
+                    page.goto(url, timeout=45000, wait_until='domcontentloaded')
+                except Exception:
+                    pass
+                page.wait_for_timeout(8000)
+                if api_response:
+                    break
+
+            # 尝试点击 GPU 实例选项卡
+            if not api_response:
+                try:
+                    for tab_text in ['GPU', 'GPU实例', 'GPU 实例', 'gpu']:
+                        tab = page.locator(f"text={tab_text}").first
+                        if tab.is_visible(timeout=3000):
+                            tab.click()
+                            page.wait_for_timeout(10000)
+                            break
+                except Exception:
+                    pass
+
+            page.wait_for_timeout(10000)
             browser.close()
 
             if not api_response:
