@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-06-23T11:27:20Z
-var NEWS_FETCHED_AT="2026-06-23T11:27:20Z";
+// 生成:2026-06-23T15:20:30Z
+var NEWS_FETCHED_AT="2026-06-23T15:20:30Z";
 var GPU_NEWS=[
   {
     "title": "光大期货0623热点追踪：科技热潮降温 中证1000改变交易方向了吗？",
@@ -90,6 +90,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "本周期货行情解读和分析20260621",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYXdMM285U3lmVk5vMjU0QjlrSFVKUVp4UHdyV2J6dVRuSUNNTGkwWGgwQXBNSnRLQ3d4X3dDMWpINl9LMVVQQjhkeGJ1X2huSTZzUDhYb3ByY2NtZEVxTFVZRFVJd2N6NkFPU3dKdmhrSzFQMkxpcF9Pb3V1QV96ejdmWQ?oc=5",
+    "published": "2026-06-21",
+    "summary": "本周期货行情解读和分析20260621&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "将引入境外交易者！碳酸锂期货迈出国际化关键一步",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb0NIVGdYVHlPUzJ0eGo3ZE4ybHdwWjZrQk9yWUJlcmhjWFBtekRFOHZ2NW9KQmpDZ0lxQnVSTDA4RmdqNWoyRi1UNmNKcUcxeTdjQk5JVnJHWU1ONXBBbDRuZmpsNWtxcTZNNnMxdk9Ca1dKM0JBcUxZZU1BeEo3RlRvc0VpbmdIWjFQMEN5RFFBcW5pUnNibllndU5yOTA4XzA1NW5rb2ZwbVFwWjc2R0J0YlpocUVXSnp5SDFxOVYxT3ZubVVxWXF1VWJtSXhmU25YbHNvSQ?oc=5",
@@ -167,6 +179,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2YnRIQ1hNeTgtNVN3djN4QW1ZeF9zdmJsTGxnSnRGOXdvMmJkWXF3b2FLRF9UUE1obTlQUF9OdjZ0cFdoZUl1OFRaMWJmMUhyZlBXcmJzY2lCUXdwR2FIWUduV21nNXBFT0tkWnB5cDRDTjNrUGVDSA?oc=5",
     "published": "2026-06-19",
     "summary": "美股休市，三大股指期货集体下跌，黄金、油价走低&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "东吴期货研究所策略早参 |沃什首秀放鹰，美联储年内加息预期升温",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8xY1AwaTllVGZrVEQxRmNuMlZ0amRDajBaczdjQjBpV0FmS19yb2ctWTMwX0VlMGpTU0Jtb28zLUtYWm85aXFOMkw3S0dlcVl1bm5YazBkajQzQW9UVkttX3VQTEhqcDJ6dW92QUdMT3YxckJ4d2c?oc=5",
+    "published": "2026-06-18",
+    "summary": "东吴期货研究所策略早参 |沃什首秀放鹰，美联储年内加息预期升温&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -468,6 +492,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "上海：做好算力期货研发准备",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzJSVDA5NUNxbzYzN3pVVGhVTzRkVlBSZVJoY2NkRHdxSVF5Nm5pSkx2a3BhRGNLaVpZZUh3bktQa29oQkdfbm9SMEtHYWdLMzB4WU5KOUFoaWJvbDlVRm9xa1VLMnNRdWV1a3NtRGtkWGFRb0pQcC02TERVX1pDWk1xdTFYSkU?oc=5",
+    "published": "2026-06-01",
+    "summary": "上海：做好算力期货研发准备&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "香港交易所回应“算力期货布局规划”：暂无评论可提供",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EanRHVXRqWTV4cE43LVJjdkZIdGVrX0VpTjg3Y0hRQUNIOURMOWlVaXJYRzlCY1dKTjZiaW90aVFtQWhWRzFKVnRJYXJaT2NPbmxlUEtGVVJCd25ZR2Uwd3AzNVp5dmR2Ym9RSE44SQ?oc=5",
@@ -516,59 +552,23 @@ var GPU_NEWS=[
     "lang": "zh"
   },
   {
+    "title": "WTI原油期货涨超2%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92eUtQZmZXVzVFNmR5dzlWUklDTXpjSXNnTFZtOUtYMHUzeU5qYWFGS0lJNUQyY1FmdTltUVhfc2tuaFdSWjRfX25GZmNFY2hkdjlmY2IyUWxtcmsyaXEteHQwSktaY3VMd0dSdjdQdjlJWlZvaFNrVkd6aWVpN3c?oc=5",
+    "published": "2026-05-15",
+    "summary": "WTI原油期货涨超2%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "中信证券：算力期货或将年内落地，算力金融化元年开启",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KYnZqMnU0WUFVQ2xJQlVLTFBrMWN0bkU1UjRUaXhNVUQwUGJEeGJhcmJuMUoxTF9DYlc0cmtJZGF0azZMc2lwWUtwLS10aUpEQnJub2RsSzhVWlFCSmxmbS1obnpMVUN4ZlNoVGZxdERQaWNqZThOVg?oc=5",
     "published": "2026-05-14",
     "summary": "中信证券：算力期货或将年内落地，算力金融化元年开启&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "全球首创！芝商所联手SiliconData推出算力期货市场",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYjBEamFtbXBDS3JHVXc0WFlBM1BXM0pNMWI3ZmcxMmE0cVdMUVN6b2FpcmVTRnVzeTRHNlVQQms4M1o3c3ZzbGc3bVgtUnRxcTZUOFZfeWh4Y2JPWXBRN0VtVnh1eVhPZHdKbTBEWVJleGxYcU9wdEJZV2RFZ2pJaFdvR0xiU2lpUEE?oc=5",
-    "published": "2026-05-13",
-    "summary": "全球首创！芝商所联手SiliconData推出算力期货市场&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "“算力是21世纪的新石油”：芝商所准备推出算力期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBby1zeWtQZlVLSXpyTmFlRk9PTmRIQTQxWHhQVTlaaHVNaTRYem1udDgtUk5wYU1qSE9HNFlOZjdIUmhSUTlnMUtZbHRuMTFSOUpXdGpkYjNTVkxmdnlFTFV5dGMtejFWX1R2eFQyTnJ0OEVLX2N0QQ?oc=5",
-    "published": "2026-05-13",
-    "summary": "“算力是21世纪的新石油”：芝商所准备推出算力期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所“算力期货”登场：算力将成为AI时代“新石油”还是华尔街的新赌桌？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWksyeUp3WUFoMWdfVG90WTk4U2k0a3dCREJycFZvNmdlb0h3VHVybGZUWjV1NHllZEdGUVJzV192YVVtQ29NeVZHZmpoSFBYdW0wMWJPU3kyUEl6RlB6NzhQRTQ4OXEwbXRHUERBS3pheDlLSUtEZmc1ZlV6eXNNMWxXbHEtRlhoMndrZ0RqLWtaQVlR?oc=5",
-    "published": "2026-05-13",
-    "summary": "芝商所“算力期货”登场：算力将成为AI时代“新石油”还是华尔街的新赌桌？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内商品期货涨跌不一 液化气涨超7%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkOEJKeFp2M2RDLTVWY2MzcWFRQ1JtZUplMW1WRVFRcWNpY25GVFhQNXJvQWQzdzVMeWxqaDJtZTFhQjBILUJHcHg0QVotdFlBT294R3hwdFJEQnVKQ0lPZWY4ekNLOHFaWUYyV2Q3a0JzZXd5QVgw?oc=5",
-    "published": "2026-03-20",
-    "summary": "国内商品期货涨跌不一 液化气涨超7%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
