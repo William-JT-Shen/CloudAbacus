@@ -523,6 +523,23 @@ def normalize_gpu_name(raw: str) -> str:
         'mi250': 'AMD Radeon Instinct MI250', 'mi210': 'AMD Radeon Instinct MI210',
         'mi100': 'AMD Radeon Instinct MI100',
         'amd instinct mi300x': 'AMD Radeon Instinct MI300X',
+        # v6: Vast.ai 特有命名
+        'rtx 4070s ti': 'NVIDIA RTX 4070 Ti / 4070',
+        'rtx 4080s': 'NVIDIA RTX 4080 / 4080 Super',
+        'rtx pro 6000 ws': 'NVIDIA RTX 6000 Ada / A6000',
+        'rtx pro 6000 s': 'NVIDIA RTX 6000 Ada / A6000',
+        'rtx pro 5000': 'RTX 5000',
+        'rtx pro 4500': 'RTX 4500',
+        'h200 nvl': 'NVIDIA H200',
+        'h100 sxm': 'NVIDIA H100 (80GB SXM)',
+        'h100 pcie': 'NVIDIA H100 (80GB SXM)',
+        'h100 nvl': 'NVIDIA H100 (NVL)',
+        'a100 sxm': 'NVIDIA A100 (80GB SXM)',
+        'a100 pcie': 'NVIDIA A100 (40GB PCIe)',
+        'tesla v100': 'NVIDIA V100',
+        'tesla p100': 'NVIDIA Tesla P100 / P40',
+        'tesla t4': 'NVIDIA T4',
+        'tesla k80': 'NVIDIA Tesla K80 / M40 / M60',
     }
     key = raw.lower().replace('nvidia ', '').replace('geforce ', '').replace('amd ', '').strip()
     # 去除 VRAM 后缀，如 "RTX 5090 (32 GB)" → "RTX 5090"
@@ -592,17 +609,9 @@ def scrape_runpod():
 
 
 def scrape_vast():
-    """Vast.ai: https://vast.ai/pricing — requests 优先，失败自动回退 Playwright"""
-    print("🔍 Vast.ai ...")
-    html = get("https://vast.ai/pricing")
-    if not html:
-        # 尝试备用 URL
-        html = get("https://vast.ai/")
-    if not html and PLAYWRIGHT_AVAILABLE:
-        print("  🔄 requests 无法访问，回退 Playwright ...")
-        return scrape_vast_playwright()
-    if not html:
-        return mark_failed("Vast.ai", "无法访问定价页面（需 Playwright 或代理）")
+    """Vast.ai: 直接使用公开 API 获取价格 (v6)"""
+    print("🔍 Vast.ai (API) ...")
+    return scrape_vast_playwright()  # 统一走 API 路径
 
     results = []
     # vast.ai 常见的显示模式: RTX 4090 ... $0.25
@@ -756,16 +765,22 @@ def extract_prices_from_text(text: str, currency: str = "USD") -> list[dict]:
 
     if currency == 'CNY':
         # 人民币: ¥X,XXX.XX/月 或 X,XXX.XX元/月 → 转换为 USD/小时
+        # v6: 扩展 GPU 名覆盖 + 更多中文价格格式
+        _cn_gpus = r'H100|H200|H800|A100|A800|A10G|A16|A40|GH200|B200|B300|H20|L20|L40S?|L4\b|T4\b|V100|P100|P40|K80|M40|A6000|MI300X|RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?'
         cny_patterns = [
             # ¥X.XX/月 or ¥X.XX/小时 after GPU name
-            (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:月|month|mo)', False),
-            (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:月|month|mo)', False),
+            (rf'({_cn_gpus})\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:月|month|mo)', False),
             # X.XX元/月 after GPU name
-            (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?([\d,]+\.?\d*)\s*元\s*/\s*(?:月|month|mo)', False),
-            (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?([\d,]+\.?\d*)\s*元\s*/\s*(?:月|month|mo)', False),
-            # ¥X.XX/小时
-            (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:小时|h)', False),
-            (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:小时|h)', False),
+            (rf'({_cn_gpus})\b.*?([\d,]+\.?\d*)\s*元\s*/\s*(?:月|month|mo)', False),
+            # ¥X.XX/小时 or X.XX元/时
+            (rf'({_cn_gpus})\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:小时|时|h)', False),
+            (rf'({_cn_gpus})\b.*?([\d,]+\.?\d*)\s*元\s*/\s*(?:小时|时|h)', False),
+            # 按量付费: ¥X.XX/小时
+            (rf'按量付费.*?({_cn_gpus})\b.*?[¥￥]\s*([\d,]+\.?\d*)', True),
+            # 包年包月: ¥X,XXX/月
+            (rf'({_cn_gpus})\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/?\s*(?:每月|月付)', False),
+            # ￥X.XX/GPU/小时
+            (rf'[¥￥]\s*([\d,]+\.?\d*)\s*/\s*GPU\s*/\s*(?:小时|时).*?({_cn_gpus})\b', True),
         ]
         results = []
         seen = set()
@@ -795,17 +810,21 @@ def extract_prices_from_text(text: str, currency: str = "USD") -> list[dict]:
                 results.append({"gpu": gpu_label, "price_usd": price_usd, "plan": plan})
         return results
 
-    # USD / EUR 模式
+    # USD / EUR 模式 (v6: 扩展 GPU 型号覆盖)
     currency_char = '[$]' if currency == 'USD' else '[€]'
+    # 构建 GPU 名列表 (NVIDIA + AMD)
+    _gpu_names = r'H100|H200|H800|A100|A800|A6000|A10G|A16|A40|GH200|B200|B300|H20|L20|L40S?|L4\b|T4\b|V100|P100|P40|K80|M40|MI300X|MI250X|MI210|MI100|A5000|A4000|RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?'
     patterns = [
         # $X.XX/hr or €X.XX/hr after GPU name
-        (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?{currency_char}(\d+\.?\d{{0,2}})\s*/\s*(?:hr|hour|h)', False),
-        (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?{currency_char}(\d+\.?\d{{0,2}})\s*/\s*(?:hr|hour|h)', False),
+        (rf'({_gpu_names})\b.*?{currency_char}(\d+\.?\d{{0,2}})\s*/\s*(?:hr|hour|h)', False),
         # Price before GPU name
-        (rf'{currency_char}(\d+\.?\d{{0,2}})\s*/\s*(?:hr|hour|h).{{0,50}}?\b(RTX\s*\d{{4}}|H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4)\b', True),
+        (rf'{currency_char}(\d+\.?\d{{0,2}})\s*/\s*(?:hr|hour|h).{{0,50}}?({_gpu_names})\b', True),
         # Per-second pricing: $0.000123/sec → convert to hourly
-        (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?{currency_char}(\d+\.?\d{{0,8}})\s*/\s*(?:sec|second|s)\b', False),
-        (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?{currency_char}(\d+\.?\d{{0,8}})\s*/\s*(?:sec|second|s)\b', False),
+        (rf'({_gpu_names})\b.*?{currency_char}(\d+\.?\d{{0,8}})\s*/\s*(?:sec|second|s)\b', False),
+        # $X.XX per GPU / $X.XX/gpu
+        (rf'({_gpu_names})\b.*?{currency_char}(\d+\.?\d{{0,2}})\s*/?\s*(?:per\s+)?gpu', False),
+        # $X.XX (bare price near GPU name)
+        (rf'({_gpu_names})\b.{{0,200}}?{currency_char}(\d+\.?\d{{0,2}})\b(?!\s*/\s*(?:hr|hour|h|sec))', False),
     ]
     results = []
     seen = set()
@@ -848,11 +867,30 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
 
     print(f"  🌐 启动无头浏览器 ({platform_name}) ...")
     results = []
+    api_responses = []  # v6: 收集 API 响应
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True, args=['--no-sandbox'])
             page = browser.new_page()
             page.set_default_timeout(60000)
+
+            # v6: 拦截 API 响应，捕获 JSON 数据
+            def _capture_api(response):
+                try:
+                    ct = response.headers.get('content-type', '')
+                    if 'json' in ct and response.ok:
+                        url_lower = response.url.lower()
+                        # 捕获定价相关的 API 调用
+                        if any(kw in url_lower for kw in
+                               ['price', 'pricing', 'gpu', 'bundle', 'instance',
+                                'product', 'catalog', 'rate', 'offer', 'sku']):
+                            body = response.text()
+                            if 100 < len(body) < 500000:
+                                api_responses.append({'url': response.url, 'body': body[:50000]})
+                except Exception:
+                    pass
+            page.on('response', _capture_api)
+
             try:
                 page.goto(url, timeout=60000, wait_until=wait_until)
             except Exception:
@@ -944,6 +982,39 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
             # 文本提取不到则尝试 HTML 多策略提取
             if not results:
                 results = extract_prices_multistrategy(body_html, COMMON_GPUS, currency="EUR" if is_eur else "USD")
+
+            # v6: API 响应提取 — 从捕获的 JSON API 响应中提取价格
+            if not results and api_responses:
+                for resp in api_responses:
+                    try:
+                        data = json.loads(resp['body'])
+                    except Exception:
+                        continue
+                    # 递归搜索 GPU 价格数据
+                    def _search_json(obj, depth=0):
+                        if depth > 6:
+                            return
+                        if isinstance(obj, dict):
+                            # 查找包含 gpu_name/name + price/min_bid 的对象
+                            gpu = obj.get('gpu_name') or obj.get('name') or obj.get('gpu') or obj.get('instanceType') or obj.get('gpuType')
+                            price = obj.get('min_bid') or obj.get('price') or obj.get('dph') or obj.get('rate') or obj.get('price_usd') or obj.get('hourlyPrice') or obj.get('pricePerHour')
+                            if gpu and price is not None:
+                                try:
+                                    gpu_label = normalize_gpu_name(str(gpu))
+                                    p = float(str(price).replace(',', ''))
+                                    lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+                                    if 0.01 < p < 100 and lo <= p <= hi:
+                                        results.append({'gpu': gpu_label, 'price_usd': round(p, 2), 'plan': 'API数据'})
+                                except (ValueError, TypeError):
+                                    pass
+                            for v in obj.values():
+                                _search_json(v, depth + 1)
+                        elif isinstance(obj, list):
+                            for item in obj[:200]:
+                                _search_json(item, depth + 1)
+                    _search_json(data)
+                    if results:
+                        break
     except Exception as e:
         scrape_log[platform_name] = {"status": "failed", "gpu_count": 0, "error": str(e)[:100]}
         print(f"  ❌ Playwright 异常: {e}")
@@ -954,56 +1025,39 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
 # --- Playwright 专用爬虫 ---
 
 def scrape_vast_playwright() -> list[dict]:
-    """Vast.ai: Playwright 抓取 — v6 增强等待 + API 拦截"""
-    print("🔍 Vast.ai (Playwright v6) ...")
+    """Vast.ai: 通过公开 API 直接获取 GPU 价格 (v6)"""
+    print("🔍 Vast.ai (API) ...")
     results = []
-    # 尝试多种等待策略
-    for wait_sec, wait_until in [(15, "networkidle"), (20, "load"), (25, "domcontentloaded")]:
-        results = scrape_with_playwright("https://vast.ai/pricing", "Vast.ai",
-                                          wait_sec=wait_sec, wait_until=wait_until)
-        if results:
-            break
-    if not results:
-        # API 拦截策略: 直接访问 Vast.ai API
-        try:
-            from playwright.sync_api import sync_playwright
-            with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True, args=['--no-sandbox'])
-                page = browser.new_page()
-                api_data = []
-                def handle_response(response):
-                    if 'api/v0/bundles' in response.url and response.ok:
-                        try:
-                            data = response.json()
-                            offers = data.get('offers', [])
-                            api_data.extend(offers)
-                        except Exception:
-                            pass
-                page.on('response', handle_response)
-                try:
-                    page.goto("https://vast.ai/pricing", timeout=60000, wait_until="load")
-                except Exception:
-                    pass
-                page.wait_for_timeout(20000)
-                browser.close()
-                if api_data:
-                    seen = set()
-                    for o in api_data:
-                        gpu_name = o.get('gpu_name', '').strip()
-                        min_bid = float(o.get('min_bid', 0))
-                        if gpu_name and min_bid > 0.01:
-                            gpu_label = normalize_gpu_name(gpu_name)
-                            lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 100))
-                            if lo <= min_bid <= hi and gpu_label not in seen:
-                                seen.add(gpu_label)
-                                results.append({"gpu": gpu_label, "price_usd": min_bid, "plan": "市场价"})
-        except Exception:
-            pass
+    try:
+        r = requests.get("https://console.vast.ai/api/v0/bundles/",
+                         timeout=TIMEOUT, headers={"User-Agent": UA, "Accept": "application/json"})
+        if r.status_code != 200:
+            return mark_failed("Vast.ai", f"API 返回 {r.status_code}")
+        data = r.json()
+        offers = data.get("offers", [])
+    except Exception as e:
+        return mark_failed("Vast.ai", f"API 请求失败: {e}")
+
+    # 按 GPU 型号聚合，取每种 GPU 的最低价格
+    gpu_prices = {}  # {gpu_label: min_price}
+    for o in offers:
+        gpu_name = o.get("gpu_name", "").strip()
+        min_bid = float(o.get("min_bid", 0))
+        if not gpu_name or min_bid <= 0.01:
+            continue
+        gpu_label = normalize_gpu_name(gpu_name)
+        lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 100))
+        if lo <= min_bid <= hi:
+            if gpu_label not in gpu_prices or min_bid < gpu_prices[gpu_label]:
+                gpu_prices[gpu_label] = min_bid
+
+    results = [{"gpu": g, "price_usd": round(p, 2), "plan": "市场最低价"}
+               for g, p in gpu_prices.items()]
+
     if results:
         mark_ok("Vast.ai", len(results))
         return results
-    if scrape_log.get("Vast.ai", {}).get("status") != "failed":
-        mark_failed("Vast.ai", "未提取到价格数据（页面可能已重构）")
+    mark_failed("Vast.ai", "API 返回无有效 GPU 价格")
     return []
 
 
