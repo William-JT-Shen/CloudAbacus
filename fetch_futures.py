@@ -15,7 +15,7 @@ GPU 算力期货新闻抓取器 v3
 """
 
 import json, re, sys, io, os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import quote
 
@@ -492,7 +492,7 @@ def main():
     has_full = sum(1 for a in all_news if len(a.get("full_text", "")) > 500)
 
     # ---- Step 8: 写入 ----
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    ts = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:00") + " (北京时间)"
     with open(OUTPUT, "w", encoding="utf-8") as f:
         f.write(f"// GPU算力期货新闻 v3\n// Generated: {ts}\n")
         f.write(f"var NEWS_FETCHED_AT = \"{ts}\";\nvar GPU_NEWS = ")

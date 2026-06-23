@@ -31,7 +31,7 @@ jobs:
       - name: 运行价格爬虫
         run: |
           python fetch_prices.py --playwright
-          echo "SCRAPE_TIME=$(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_ENV
+          echo "SCRAPE_TIME=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M 北京时间')" >> $GITHUB_ENV
 
       - name: 抓取新闻
         continue-on-error: true
@@ -57,7 +57,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "没有新数据，跳过提交"
           else
-            git commit -m "📊 每小时价格更新 — ${{ env.SCRAPE_TIME }}"
+            git commit -m "GPU价格更新 · ${{ env.SCRAPE_TIME }}"
             git push
             echo "✅ 已提交并推送"
           fi

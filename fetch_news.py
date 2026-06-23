@@ -9,7 +9,7 @@ Google News RSS 站内搜索 → 元数据提取 → 翻译 → 输出 news.js
 """
 
 import json, re, sys, io, os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import quote
 
@@ -378,7 +378,7 @@ def main():
     tr = sum(1 for a in all_news if a.get("translated"))
 
     # ---- Step 8: 写入 news.js ----
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    ts = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:00") + " (北京时间)"
     with open(OUTPUT, "w", encoding="utf-8") as f:
         f.write(f"// GPU算力租赁新闻 v4\n// Generated: {ts}\n")
         f.write(f"var NEWS_FETCHED_AT = \"{ts}\";\nvar GPU_NEWS = ")

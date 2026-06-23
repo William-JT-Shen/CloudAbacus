@@ -22,7 +22,7 @@ import json
 import re
 import sys
 import io
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # Playwright 可选导入
@@ -60,7 +60,8 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
 TIMEOUT = 20
 
-fetched_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+BEIJING_TZ = timezone(timedelta(hours=8))
+fetched_at = datetime.now(BEIJING_TZ).strftime("%Y-%m-%d %H:00")  # 北京时间
 scrape_log = {}
 
 
@@ -591,11 +592,17 @@ def scrape_runpod():
 
 
 def scrape_vast():
-    """Vast.ai: https://vast.ai/pricing"""
+    """Vast.ai: https://vast.ai/pricing — requests 优先，失败自动回退 Playwright"""
     print("🔍 Vast.ai ...")
     html = get("https://vast.ai/pricing")
     if not html:
-        return mark_failed("Vast.ai", "无法访问定价页面")
+        # 尝试备用 URL
+        html = get("https://vast.ai/")
+    if not html and PLAYWRIGHT_AVAILABLE:
+        print("  🔄 requests 无法访问，回退 Playwright ...")
+        return scrape_vast_playwright()
+    if not html:
+        return mark_failed("Vast.ai", "无法访问定价页面（需 Playwright 或代理）")
 
     results = []
     # vast.ai 常见的显示模式: RTX 4090 ... $0.25
@@ -947,15 +954,56 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
 # --- Playwright 专用爬虫 ---
 
 def scrape_vast_playwright() -> list[dict]:
-    """Vast.ai: Playwright 抓取"""
-    print("🔍 Vast.ai (Playwright) ...")
-    results = scrape_with_playwright("https://vast.ai/pricing", "Vast.ai",
-                                      wait_sec=10, wait_until="networkidle")
+    """Vast.ai: Playwright 抓取 — v6 增强等待 + API 拦截"""
+    print("🔍 Vast.ai (Playwright v6) ...")
+    results = []
+    # 尝试多种等待策略
+    for wait_sec, wait_until in [(15, "networkidle"), (20, "load"), (25, "domcontentloaded")]:
+        results = scrape_with_playwright("https://vast.ai/pricing", "Vast.ai",
+                                          wait_sec=wait_sec, wait_until=wait_until)
+        if results:
+            break
+    if not results:
+        # API 拦截策略: 直接访问 Vast.ai API
+        try:
+            from playwright.sync_api import sync_playwright
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True, args=['--no-sandbox'])
+                page = browser.new_page()
+                api_data = []
+                def handle_response(response):
+                    if 'api/v0/bundles' in response.url and response.ok:
+                        try:
+                            data = response.json()
+                            offers = data.get('offers', [])
+                            api_data.extend(offers)
+                        except Exception:
+                            pass
+                page.on('response', handle_response)
+                try:
+                    page.goto("https://vast.ai/pricing", timeout=60000, wait_until="load")
+                except Exception:
+                    pass
+                page.wait_for_timeout(20000)
+                browser.close()
+                if api_data:
+                    seen = set()
+                    for o in api_data:
+                        gpu_name = o.get('gpu_name', '').strip()
+                        min_bid = float(o.get('min_bid', 0))
+                        if gpu_name and min_bid > 0.01:
+                            gpu_label = normalize_gpu_name(gpu_name)
+                            lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 100))
+                            if lo <= min_bid <= hi and gpu_label not in seen:
+                                seen.add(gpu_label)
+                                results.append({"gpu": gpu_label, "price_usd": min_bid, "plan": "市场价"})
+        except Exception:
+            pass
     if results:
         mark_ok("Vast.ai", len(results))
         return results
     if scrape_log.get("Vast.ai", {}).get("status") != "failed":
-        mark_failed("Vast.ai", "未提取到价格数据")
+        mark_failed("Vast.ai", "未提取到价格数据（页面可能已重构）")
     return []
 
 
@@ -1042,13 +1090,29 @@ def scrape_matpool_playwright() -> list[dict]:
 # ============================================================
 
 def scrape_salad():
-    """Salad: https://salad.com/pricing — 价格在 GPU_DATA JS 对象中"""
+    """Salad: https://salad.com/pricing — 价格在 GPU_DATA JS 对象中
+    requests 优先，失败自动回退 Playwright"""
     print("🔍 Salad ...")
     html = get("https://salad.com/pricing")
     if not html:
-        return mark_failed("Salad", "无法访问定价页面")
+        # 尝试备用域名
+        html = get("https://www.salad.com/pricing")
+    if not html and PLAYWRIGHT_AVAILABLE:
+        print("  🔄 requests 无法访问，回退 Playwright ...")
+        pw_results = scrape_with_playwright("https://salad.com/pricing", "Salad",
+                                            wait_sec=10, wait_until="networkidle")
+        if pw_results:
+            mark_ok("Salad", len(pw_results))
+            return pw_results
+    if not html:
+        return mark_failed("Salad", "无法访问定价页面（需 Playwright 或代理）")
 
     results = extract_prices_from_js_object(html, "GPU_DATA", "name", "basePrice")
+    if not results:
+        # 尝试别的 JS 变量名
+        results = extract_prices_from_js_object(html, "PRICING_DATA", "gpuName", "price")
+    if not results:
+        results = extract_prices_from_js_object(html, "__DATA__", "name", "pricePerHour")
     if results:
         mark_ok("Salad", len(results))
         return results
@@ -1058,7 +1122,8 @@ def scrape_salad():
     if results:
         mark_ok("Salad", len(results))
         return results
-    mark_failed("Salad", "未能解析 JS 内嵌价格数据")
+    if scrape_log.get("Salad", {}).get("status") != "failed":
+        mark_failed("Salad", "未能解析 JS 内嵌价格数据")
     return []
 
 
@@ -2049,7 +2114,7 @@ EXTENDED_PLATFORMS = [
 def main():
     print("=" * 60)
     print("🚀 运算盘 · GPU 实时价格爬虫 v4")
-    print(f"⏰ 开始时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"⏰ 开始时间: {datetime.now(BEIJING_TZ).strftime('%Y-%m-%d %H:%M:%S')} (北京时间)")
     print("=" * 60)
     print()
 
@@ -2189,8 +2254,10 @@ def main():
                 else:
                     # 通用爬虫 (欧洲平台额外尝试 EUR 模式)
                     is_eur = name in EUR_PLATFORMS
+                    # v6: 自动 Playwright 回退 — requests 失败时总是尝试 Playwright
+                    auto_pw_fallback = PLAYWRIGHT_AVAILABLE
                     results = scrape_generic(name, url, use_pw=(use_pw and needs_pw),
-                                             pw_fallback=use_pw, is_eur_platform=is_eur)
+                                             pw_fallback=auto_pw_fallback, is_eur_platform=is_eur)
 
                 if results:
                     all_data[name] = results
@@ -2229,7 +2296,7 @@ def main():
                 "plan": entry.get("plan", "按需"),
                 "country": "",
                 "region": "",
-                "note": f"🟢 实时抓取 · {fetched_at}",
+                "note": f"实时抓取 · {fetched_at} (北京时间)",
                 "pricing_url": pricing_url,
                 "availability": avail_str,
                 "source": "scraped"
@@ -2276,9 +2343,9 @@ def main():
 
     with open(OUTPUT_LIVE, "w", encoding="utf-8") as f:
         f.write("// 运算盘 · 实时 GPU 价格数据\n")
-        f.write(f"// 自动生成于: {fetched_at}\n")
+        f.write(f"// 自动生成于: {fetched_at} (北京时间)\n")
         f.write("// ⚠️ 由 fetch_prices.py 自动生成，请勿手动编辑\n\n")
-        f.write(f'var PRICE_FETCHED_AT = "{fetched_at}";\n')
+        f.write(f'var PRICE_FETCHED_AT = "{fetched_at} (北京时间)";\n')
         f.write(f"var PRICE_SCRAPE_SOURCES = {json.dumps(scrape_log, ensure_ascii=False, indent=2)};\n\n")
         f.write("var GPU_PRICING_LIVE = {\n")
         cats = list(gpu_categories.items())
@@ -2302,7 +2369,7 @@ def main():
     # 保存/追加历史数据
     # v6: 历史数据已暂停记录 — 待所有平台实时数据验证通过后恢复
     # ============================================================
-    SAVE_HISTORY = False  # ← 改为 True 以恢复历史数据记录
+    SAVE_HISTORY = True  # ← 实时数据已验证通过，恢复历史记录
 
     if SAVE_HISTORY:
         # --- price_history.js (紧凑格式：折线图用) ---
