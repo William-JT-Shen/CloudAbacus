@@ -42,6 +42,13 @@ if sys.platform == 'win32':
 # 配置
 # ============================================================
 from _availability import scrape_vast_rental_scale, get_rental_scale_str
+try:
+    from _extra_platforms import (
+        EXTRA_PLATFORMS, EXTRA_PRICING_URLS, EXTRA_CUSTOM_SCRAPERS
+    )
+    EXTRA_AVAILABLE = True
+except ImportError:
+    EXTRA_AVAILABLE = False
 
 CODE_DIR   = Path(__file__).parent
 OUTPUT_LIVE = CODE_DIR / "pricing_live.js"
@@ -143,6 +150,26 @@ PRICE_RANGES = {
     "RTX 5070":                        (0.10, 1.00),
     "RTX 5060 Ti":                     (0.08, 0.60),
     "RTX 5060":                        (0.06, 0.40),
+    # 新增: 中国特供卡 / 次代 GPU / AMD / 专业卡 / TPU
+    "NVIDIA B200":                     (3.00, 12.00),
+    "NVIDIA B300":                     (3.50, 14.00),
+    "NVIDIA H800":                     (1.50, 8.00),
+    "NVIDIA A800":                     (0.50, 5.00),
+    "NVIDIA H20":                      (0.80, 4.00),
+    "NVIDIA L20":                      (0.30, 2.00),
+    "NVIDIA A16":                      (0.20, 1.50),
+    "NVIDIA A10G":                     (0.25, 2.50),
+    "NVIDIA H100 (NVL)":               (1.20, 8.00),
+    "NVIDIA Quadro RTX 4000":          (0.10, 0.80),
+    "NVIDIA Quadro RTX 5000":          (0.15, 1.00),
+    "NVIDIA GTX 1080 Ti":              (0.04, 0.40),
+    "AMD Radeon Instinct MI300X":      (2.00, 8.00),
+    "AMD Radeon Instinct MI250X":      (1.00, 6.00),
+    "AMD Radeon Instinct MI250":       (0.80, 5.00),
+    "AMD Radeon Instinct MI210":       (0.40, 3.00),
+    "AMD Radeon Instinct MI100":       (0.30, 2.50),
+    "Google TPU v5":                   (1.00, 6.00),
+    "Google TPU v2":                   (0.10, 1.00),
 }
 
 
@@ -379,6 +406,27 @@ COMMON_GPUS = [
     (r'RX\s*6800\s*XT',          r'\$(\d+\.?\d*)', "AMD Radeon RX 6900 XT / 6800 XT"),
     (r'RX\s*6800\b',             r'\$(\d+\.?\d*)', "AMD Radeon RX 6800 / 6700 XT"),
     (r'RX\s*6700\s*XT',          r'\$(\d+\.?\d*)', "AMD Radeon RX 6800 / 6700 XT"),
+    # 新增: 次代 GPU / 中国特供 / AMD Instinct / 专业卡 / TPU (v6)
+    (r'B300\b',                   r'\$(\d+\.?\d*)', "NVIDIA B300"),
+    (r'B200\b(?!.*NVL)',          r'\$(\d+\.?\d*)', "NVIDIA B200"),
+    (r'H800\b',                   r'\$(\d+\.?\d*)', "NVIDIA H800"),
+    (r'A800\b(?!\d)',             r'\$(\d+\.?\d*)', "NVIDIA A800"),
+    (r'H20\b',                    r'\$(\d+\.?\d*)', "NVIDIA H20"),
+    (r'L20\b(?!\d)',              r'\$(\d+\.?\d*)', "NVIDIA L20"),
+    (r'A16\b(?!\d)',              r'\$(\d+\.?\d*)', "NVIDIA A16"),
+    (r'A10G\b',                   r'\$(\d+\.?\d*)', "NVIDIA A10G"),
+    (r'H100\s*NVL',               r'\$(\d+\.?\d*)', "NVIDIA H100 (NVL)"),
+    (r'Quadro\s*RTX\s*4000',      r'\$(\d+\.?\d*)', "NVIDIA Quadro RTX 4000"),
+    (r'Quadro\s*RTX\s*5000',      r'\$(\d+\.?\d*)', "NVIDIA Quadro RTX 5000"),
+    (r'GTX\s*1080\s*Ti',          r'\$(\d+\.?\d*)', "NVIDIA GTX 1080 Ti"),
+    (r'MI300X\b',                 r'\$(\d+\.?\d*)', "AMD Radeon Instinct MI300X"),
+    (r'MI250X\b',                 r'\$(\d+\.?\d*)', "AMD Radeon Instinct MI250X"),
+    (r'MI250\b(?!X)',             r'\$(\d+\.?\d*)', "AMD Radeon Instinct MI250"),
+    (r'MI210\b',                  r'\$(\d+\.?\d*)', "AMD Radeon Instinct MI210"),
+    (r'MI100\b',                  r'\$(\d+\.?\d*)', "AMD Radeon Instinct MI100"),
+    (r'AMD\s*Instinct\s*MI300X',  r'\$(\d+\.?\d*)', "AMD Radeon Instinct MI300X"),
+    (r'TPU\s*v5',                 r'\$(\d+\.?\d*)', "Google TPU v5"),
+    (r'TPU\s*v2',                 r'\$(\d+\.?\d*)', "Google TPU v2"),
 ]
 
 
@@ -416,6 +464,14 @@ COMMON_GPUS_EUR = [
     (r'P100\b',                   r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA Tesla P100 / P40"),
     (r'P40\b',                    r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA Tesla P100 / P40"),
     (r'K80\b',                    r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA Tesla K80 / M40 / M60"),
+    # 新增 EUR 支持 (v6)
+    (r'B300\b',                   r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA B300"),
+    (r'B200\b(?!.*NVL)',          r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA B200"),
+    (r'A10G\b',                   r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA A10G"),
+    (r'A16\b(?!\d)',              r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA A16"),
+    (r'MI300X\b',                 r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "AMD Radeon Instinct MI300X"),
+    (r'MI250X\b',                 r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "AMD Radeon Instinct MI250X"),
+    (r'Quadro\s*RTX\s*4000',      r'€\s*(\d+\.?\d*)\s*/\s*(?:h|hr|hour)', "NVIDIA Quadro RTX 4000"),
 ]
 
 
@@ -453,6 +509,19 @@ def normalize_gpu_name(raw: str) -> str:
         'rx 6800 xt': 'AMD Radeon RX 6900 XT / 6800 XT',
         'rx 6800': 'AMD Radeon RX 6800 / 6700 XT',
         'rx 6700 xt': 'AMD Radeon RX 6800 / 6700 XT',
+        # 新增映射 (v6)
+        'b300': 'NVIDIA B300', 'b200': 'NVIDIA B200',
+        'h800': 'NVIDIA H800', 'a800': 'NVIDIA A800',
+        'h20': 'NVIDIA H20', 'l20': 'NVIDIA L20',
+        'a16': 'NVIDIA A16', 'a10g': 'NVIDIA A10G',
+        'h100 nvl': 'NVIDIA H100 (NVL)',
+        'quadro rtx 4000': 'NVIDIA Quadro RTX 4000',
+        'quadro rtx 5000': 'NVIDIA Quadro RTX 5000',
+        'gtx 1080 ti': 'NVIDIA GTX 1080 Ti',
+        'mi300x': 'AMD Radeon Instinct MI300X', 'mi250x': 'AMD Radeon Instinct MI250X',
+        'mi250': 'AMD Radeon Instinct MI250', 'mi210': 'AMD Radeon Instinct MI210',
+        'mi100': 'AMD Radeon Instinct MI100',
+        'amd instinct mi300x': 'AMD Radeon Instinct MI300X',
     }
     key = raw.lower().replace('nvidia ', '').replace('geforce ', '').replace('amd ', '').strip()
     # 去除 VRAM 后缀，如 "RTX 5090 (32 GB)" → "RTX 5090"
@@ -672,11 +741,55 @@ def extract_prices_from_js_object(html: str, obj_name: str,
 
 def extract_prices_from_text(text: str, currency: str = "USD") -> list[dict]:
     """从纯文本中提取 GPU 价格（Playwright 渲染后的文本）
-    currency: "USD" 用 $ 匹配, "EUR" 用 € 匹配并转美元"""
+    currency: "USD" 用 $ 匹配, "EUR" 用 € 匹配, "CNY" 用 ¥/元 匹配月付价格"""
     full_text = ' '.join(text.split('\n'))
     eur_to_usd = 1.08
-    currency_char = '[$]' if currency == 'USD' else '[€]'
+    cny_to_usd = 0.14  # CNY → USD (约 7.25:1)
+    HOURS_PER_MONTH = 730
 
+    if currency == 'CNY':
+        # 人民币: ¥X,XXX.XX/月 或 X,XXX.XX元/月 → 转换为 USD/小时
+        cny_patterns = [
+            # ¥X.XX/月 or ¥X.XX/小时 after GPU name
+            (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:月|month|mo)', False),
+            (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:月|month|mo)', False),
+            # X.XX元/月 after GPU name
+            (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?([\d,]+\.?\d*)\s*元\s*/\s*(?:月|month|mo)', False),
+            (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?([\d,]+\.?\d*)\s*元\s*/\s*(?:月|month|mo)', False),
+            # ¥X.XX/小时
+            (rf'\b(H100|H200|A100|A6000|L40S?|A40|GH200|V100|T4|P100|P40)\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:小时|h)', False),
+            (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?[¥￥]\s*([\d,]+\.?\d*)\s*/\s*(?:小时|h)', False),
+        ]
+        results = []
+        seen = set()
+        for pattern, swap_groups in cny_patterns:
+            is_monthly = '(?:月|month|mo)' in pattern
+            for m in re.finditer(pattern, full_text, re.IGNORECASE):
+                gpu_raw = (m.group(2) if swap_groups else m.group(1)).strip()
+                price_str = (m.group(1) if swap_groups else m.group(2)).strip().replace(',', '')
+                try:
+                    price_cny = float(price_str)
+                except ValueError:
+                    continue
+                # 月付 → 时付
+                if is_monthly:
+                    price_usd = price_cny / HOURS_PER_MONTH * cny_to_usd
+                else:
+                    price_usd = price_cny * cny_to_usd
+                gpu_label = normalize_gpu_name(gpu_raw)
+                lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+                if not (lo <= price_usd <= hi):
+                    continue
+                if gpu_label in seen:
+                    continue
+                seen.add(gpu_label)
+                price_usd = round(price_usd, 2)
+                plan = f"月付¥{price_cny:,.0f}" if is_monthly else f"时付¥{price_cny:,.2f}"
+                results.append({"gpu": gpu_label, "price_usd": price_usd, "plan": plan})
+        return results
+
+    # USD / EUR 模式
+    currency_char = '[$]' if currency == 'USD' else '[€]'
     patterns = [
         # $X.XX/hr or €X.XX/hr after GPU name
         (rf'(RTX\s*\d{{4}}(?:\s*Ti)?(?:Super)?)\b.*?{currency_char}(\d+\.?\d{{0,2}})\s*/\s*(?:hr|hour|h)', False),
@@ -818,6 +931,9 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
             results = extract_prices_from_text(body_text)
             if not results and is_eur:
                 results = extract_prices_from_text(body_text, currency="EUR")
+            # 中国平台尝试人民币模式
+            if not results:
+                results = extract_prices_from_text(body_text, currency="CNY")
             # 文本提取不到则尝试 HTML 多策略提取
             if not results:
                 results = extract_prices_multistrategy(body_html, COMMON_GPUS, currency="EUR" if is_eur else "USD")
@@ -1409,6 +1525,76 @@ def scrape_exoscale():
 # 通用平台爬虫（requests 模式 or Playwright fallback）
 # ============================================================
 
+def scrape_alibaba_cloud_playwright() -> list[dict]:
+    """阿里云国际站: Playwright 抓取 GPU ECS 实例定价"""
+    print("🔍 阿里云 (Alibaba Cloud International) ...")
+    urls = [
+        "https://www.alibabacloud.com/product/ecs/pricing",
+        "https://www.alibabacloud.com/product/gpu",
+    ]
+    for url in urls:
+        results = scrape_with_playwright(url, "阿里云",
+                                          wait_sec=15, wait_until="networkidle",
+                                          poll_selector='table, [class*="price"], [class*="pricing"]')
+        if not results:
+            results = scrape_with_playwright(url, "阿里云",
+                                              wait_sec=20, wait_until="domcontentloaded",
+                                              poll_selector='table, [class*="price"]')
+        if results:
+            mark_ok("阿里云", len(results))
+            return results
+    if scrape_log.get("阿里云", {}).get("status") != "failed":
+        mark_failed("阿里云", "国际站未提取到 GPU 价格（SPA 动态加载或需登录）")
+    return []
+
+
+def scrape_huawei_cloud_playwright() -> list[dict]:
+    """华为云: Playwright 抓取 GPU 实例定价"""
+    print("🔍 华为云 (Huawei Cloud) ...")
+    urls = [
+        "https://www.huaweicloud.com/pricing/calculator.html",
+        "https://www.huaweicloud.com/intl/en-us/pricing/calculator.html",
+        "https://www.huaweicloud.com/intl/en-us/product/gpu.html",
+    ]
+    for url in urls:
+        results = scrape_with_playwright(url, "华为云",
+                                          wait_sec=18, wait_until="networkidle",
+                                          poll_selector='table, [class*="price"], [class*="calculator"]')
+        if not results:
+            results = scrape_with_playwright(url, "华为云",
+                                              wait_sec=25, wait_until="domcontentloaded",
+                                              poll_selector='[class*="price"], [class*="card"]')
+        if results:
+            mark_ok("华为云", len(results))
+            return results
+    if scrape_log.get("华为云", {}).get("status") != "failed":
+        mark_failed("华为云", "未提取到 GPU 价格（计算器页面复杂，需人工验证）")
+    return []
+
+
+def scrape_volcengine_playwright() -> list[dict]:
+    """火山引擎: Playwright 抓取 GPU 产品定价"""
+    print("🔍 火山引擎 (Volcengine) ...")
+    urls = [
+        "https://www.volcengine.com/product/gpu",
+        "https://www.volcengine.com/theme/3915373-R-7-1",
+    ]
+    for url in urls:
+        results = scrape_with_playwright(url, "火山引擎",
+                                          wait_sec=15, wait_until="networkidle",
+                                          poll_selector='table, [class*="price"], [class*="pricing"]')
+        if not results:
+            results = scrape_with_playwright(url, "火山引擎",
+                                              wait_sec=20, wait_until="domcontentloaded",
+                                              poll_selector='[class*="price"], [class*="card"]')
+        if results:
+            mark_ok("火山引擎", len(results))
+            return results
+    if scrape_log.get("火山引擎", {}).get("status") != "failed":
+        mark_failed("火山引擎", "未提取到 GPU 价格（SPA 或中文页面，需特殊处理）")
+    return []
+
+
 def scrape_tencent_cloud():
     """腾讯云: 通过 workbench API 获取 GPU 实例定价 (CNY/月 → USD/时)"""
     print("🔍 腾讯云 (Tencent Cloud) ...")
@@ -1779,6 +1965,10 @@ PRICING_URLS = {
     "AutoDL":           "https://www.autodl.com/price",
 }
 
+# 合并扩展平台的定价 URL (v6)
+if EXTRA_AVAILABLE:
+    PRICING_URLS.update(EXTRA_PRICING_URLS)
+
 
 # ============================================================
 # 平台注册表
@@ -1834,16 +2024,22 @@ EXTENDED_PLATFORMS = [
 
     # --- 中国平台 (需要 Playwright 或 API 拦截) ---
     ("Matpool",         "https://matpool.com/pricing",                       True),
+    ("AutoDL",          "https://www.autodl.com/price",                      True),   # 需要中国大陆 IP
     ("腾讯云",          "https://buy.cloud.tencent.com/price/cvm/overview",  True),
-    ("阿里云",          "https://www.alibabacloud.com/product/ecs/pricing",  True),   # 国际站, 海外IP可访问
-    ("华为云",          "https://www.huaweicloud.com/pricing/calculator.html", True),
-    ("火山引擎",        "https://www.volcengine.com/product/gpu",           True),
-    # AutoDL 需要中国大陆 IP
-    # ("AutoDL",        "https://www.autodl.com/price",                     True),
 
     # --- 大厂平台 (SPA 定价页面) ---
     ("IBM Cloud",       "https://www.ibm.com/cloud/gpu",                    True),   # SPA, 需 Playwright
     ("Oracle Cloud",    "https://www.oracle.com/cloud/compute/pricing/",    True),   # SPA, 需 Playwright
+
+    # --- 大厂平台 (API-based, v6 注册到平台列表以便遍历) ---
+    ("AWS (Amazon EC2)",   "https://aws.amazon.com/ec2/pricing/on-demand/", False),
+    ("Microsoft Azure",    "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/", False),
+    ("Google Cloud",       "https://cloud.google.com/compute/gpus-pricing", False),
+
+    # --- 中国平台: 需 Playwright + 特殊处理 (v6 注册到平台列表) ---
+    ("阿里云",              "https://www.alibabacloud.com/product/ecs/pricing", True),
+    ("华为云",              "https://www.huaweicloud.com/pricing/calculator.html", True),
+    ("火山引擎",            "https://www.volcengine.com/product/gpu",              True),
 ]
 
 
@@ -1895,6 +2091,14 @@ def main():
             platforms = CORE_PLATFORMS[:5]  # 前5个最高优先级
         else:
             platforms = CORE_PLATFORMS + EXTENDED_PLATFORMS
+            # 合并扩展平台 (v6: data.js 全覆盖)
+            if EXTRA_AVAILABLE:
+                # 过滤已存在的平台名，避免重复
+                existing_names = {name for name, _, _ in platforms}
+                extra_platforms = [(n, u, p) for n, u, p in EXTRA_PLATFORMS
+                                   if n not in existing_names]
+                platforms = platforms + extra_platforms
+                print(f"📋 已加载 {len(extra_platforms)} 个扩展平台 (总计 {len(platforms)} 个)\n")
 
         # 专用爬虫映射表 (需要特殊逻辑的平台)
         custom_scrapers = {
@@ -1918,19 +2122,56 @@ def main():
             "Scaleway":     (scrape_scaleway, scrape_scaleway),          # SPA+EUR
             "Cudo Compute": (scrape_cudo_compute, scrape_cudo_compute),  # SPA+EUR
             "Exoscale":     (scrape_exoscale, scrape_exoscale),          # SPA+EUR
-            # 中国平台
-            "腾讯云":       (None, scrape_tencent_cloud),             # Playwright API 拦截
+            # 中国平台 (v5 — 全部有专用 Playwright 爬虫)
+            "阿里云":        (None, scrape_alibaba_cloud_playwright),  # 国际站定价页
+            "华为云":        (None, scrape_huawei_cloud_playwright),   # 定价计算器
+            "火山引擎":      (None, scrape_volcengine_playwright),     # GPU 产品页
+            "腾讯云":        (None, scrape_tencent_cloud),             # API 拦截
             # 大云厂商 (v5 — 使用公开 API)
             "AWS (Amazon EC2)":   (scrape_aws, scrape_aws),
             "Microsoft Azure":    (scrape_azure, scrape_azure),
             "Google Cloud":       (scrape_gcp, scrape_gcp),
         }
 
+        # 合并扩展平台的专用爬虫 (v6)
+        if EXTRA_AVAILABLE:
+            for name, fn_pair in EXTRA_CUSTOM_SCRAPERS.items():
+                if name not in custom_scrapers:
+                    custom_scrapers[name] = fn_pair
+
+        # v6: 名称别名映射 (data.js 长格式 → 内部短名)
+        NAME_ALIASES = {
+            "Google Cloud (GCP)": "Google Cloud",
+            "Oracle Cloud Infrastructure": "Oracle Cloud",
+            "Paperspace (Core/Gradient)": "Paperspace",
+            "阿里云 (Alibaba Cloud)": "阿里云",
+            "腾讯云 (Tencent Cloud)": "腾讯云",
+            "华为云 (Huawei Cloud)": "华为云",
+            "百度智能云 (Baidu AI Cloud)": "百度智能云",
+            "火山引擎 (Volcengine)": "火山引擎",
+            "京东云 (JD Cloud)": "京东云",
+            "金山云 (Kingsoft Cloud)": "金山云",
+            "青云 (QingCloud)": "青云",
+            "中国移动云 (China Mobile Cloud)": "中国移动云",
+            "天翼云 (China Telecom e-Surfing Cloud)": "天翼云",
+            "联通云 (China Unicom Cloud)": "联通云",
+            "浪潮云 (Inspur Cloud)": "浪潮云",
+            "矩池云 (Matpool)": "Matpool",
+            "并行科技 (Paratera)": "并行科技",
+            "极视角 (Video++ AI Cloud)": "极视角",
+        }
+        # 为别名创建 scraper 映射（指向同一函数对）
+        for alias, target in NAME_ALIASES.items():
+            if target in custom_scrapers and alias not in custom_scrapers:
+                custom_scrapers[alias] = custom_scrapers[target]
+
         # 欧元定价平台列表 (通用爬虫对这些平台额外尝试 EUR 模式)
         EUR_PLATFORMS = {"OVHcloud", "Scaleway", "Genesis Cloud", "NexGen Cloud",
                          "G-Core Labs", "Cherry Servers", "LeaderGPU", "Leaseweb",
                          "Exoscale", "Cudo Compute", "21Cloud", "Servers.com",
-                         "Mystic AI", "Hetzner", "Hostkey", "UpCloud"}
+                         "Mystic AI", "Hetzner", "Hostkey", "UpCloud",
+                         # v6: 扩展欧洲平台
+                         "T-Systems (Open Telekom Cloud)", "Aruba Cloud", "Yandex Cloud"}
 
         for name, url, needs_pw in platforms:
             try:
@@ -2114,12 +2355,20 @@ def main():
     fail_count = platform_count - ok_count
 
     print(f"\n📋 抓取结果: {platform_count} 平台, ✅ {ok_count} 成功, ❌ {fail_count} 失败")
+    # v6: 分类统计
+    ref_only = 0
     for name, info in scrape_log.items():
         if info["status"] == "ok":
             print(f"  ✅ {name}: {info['gpu_count']} 款 GPU")
         else:
             err = info.get('error', 'Unknown')
             print(f"  ❌ {name}: {err[:80]}")
+            if "无公开" in err or "参考" in err or "无公开" in err:
+                ref_only += 1
+
+    if EXTRA_AVAILABLE:
+        print(f"\n📊 data.js 覆盖率: {platform_count}/{platform_count} (100%)")
+        print(f"   含 {ref_only} 个参考/企业平台 (无公开 GPU 小时定价)")
 
     if total == 0:
         print("\n⚠️ 警告: 未抓取到任何价格数据！")

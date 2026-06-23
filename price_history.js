@@ -1187,6 +1187,462 @@ var PRICE_HISTORY_DATA = {
           "Vast.ai": 0.07
         }
       }
+    },
+    {
+      "ts": "2026-06-23T08:39:01Z",
+      "d": {
+        "NVIDIA H200": {
+          "Vast.ai": 3.21,
+          "Lambda Labs": 6.99,
+          "CoreWeave": 6.31
+        },
+        "NVIDIA GH200": {
+          "Lambda Labs": 6.99,
+          "CoreWeave": 6.5
+        },
+        "NVIDIA H100 (80GB SXM)": {
+          "Vast.ai": 2.31,
+          "RunPod": 1.99,
+          "Lambda Labs": 6.69,
+          "CoreWeave": 6.16,
+          "TensorDock": 2.25
+        },
+        "NVIDIA A100 (80GB SXM)": {
+          "Vast.ai": 0.8,
+          "Lambda Labs": 3.99,
+          "TensorDock": 1.8
+        },
+        "NVIDIA A100 (40GB PCIe)": {
+          "Lambda Labs": 2.79,
+          "TensorDock": 1.5
+        },
+        "NVIDIA V100": {
+          "Lambda Labs": 1.99,
+          "TensorDock": 0.17
+        },
+        "NVIDIA RTX 6000 Ada / A6000": {
+          "Vast.ai": 0.39,
+          "Lambda Labs": 1.99,
+          "TensorDock": 0.75
+        },
+        "RTX 6000": {
+          "Vast.ai": 0.6,
+          "Lambda Labs": 1.09
+        },
+        "NVIDIA B200": {
+          "Lambda Labs": 9.86,
+          "CoreWeave": 8.6
+        },
+        "NVIDIA L40S": {
+          "CoreWeave": 2.25,
+          "TensorDock": 0.95
+        },
+        "NVIDIA RTX 4090": {
+          "Vast.ai": 0.36,
+          "RunPod": 0.34,
+          "TensorDock": 0.35
+        },
+        "NVIDIA RTX 3090 / 3090 Ti": {
+          "Vast.ai": 0.2,
+          "TensorDock": 0.2
+        },
+        "RTX A4000 16GB": {
+          "TensorDock": 0.1
+        },
+        "RTX 5090": {
+          "Vast.ai": 0.44
+        },
+        "RTX 5080": {
+          "Vast.ai": 0.23
+        },
+        "RTX 5070 Ti": {
+          "Vast.ai": 0.15
+        },
+        "RTX 5070": {
+          "Vast.ai": 0.13
+        },
+        "RTX 5060 Ti": {
+          "Vast.ai": 0.1
+        },
+        "RTX 5060": {
+          "Vast.ai": 0.08
+        },
+        "NVIDIA RTX 4080 / 4080 Super": {
+          "Vast.ai": 0.2
+        },
+        "NVIDIA RTX 4070 Ti / 4070": {
+          "Vast.ai": 0.11
+        },
+        "NVIDIA RTX 4060 Ti": {
+          "Vast.ai": 0.09
+        },
+        "NVIDIA RTX 3080 / 3080 Ti": {
+          "Vast.ai": 0.11
+        },
+        "NVIDIA RTX 3070 / 3070 Ti": {
+          "Vast.ai": 0.08
+        },
+        "NVIDIA RTX 3060 / 3060 Ti": {
+          "Vast.ai": 0.08
+        },
+        "RTX 8000": {
+          "Vast.ai": 0.24
+        },
+        "NVIDIA RTX 2080 Ti": {
+          "Vast.ai": 0.07
+        },
+        "RTX 5880": {
+          "Vast.ai": 0.48
+        },
+        "NVIDIA A40": {
+          "Vast.ai": 0.29
+        },
+        "RTX 2080": {
+          "Vast.ai": 0.07
+        }
+      }
+    },
+    {
+      "ts": "2026-06-23T08:41:19Z",
+      "d": {
+        "NVIDIA H100 (80GB SXM)": {
+          "Vast.ai": 2.31,
+          "RunPod": 1.99,
+          "Lambda Labs": 6.69,
+          "CoreWeave": 6.16,
+          "TensorDock": 2.25
+        },
+        "NVIDIA RTX 4090": {
+          "Vast.ai": 0.36,
+          "RunPod": 0.34,
+          "TensorDock": 0.35
+        },
+        "NVIDIA H200": {
+          "Vast.ai": 3.21,
+          "Lambda Labs": 6.99,
+          "CoreWeave": 6.31
+        },
+        "NVIDIA GH200": {
+          "Lambda Labs": 6.99,
+          "CoreWeave": 6.5
+        },
+        "NVIDIA A100 (80GB SXM)": {
+          "Vast.ai": 0.8,
+          "Lambda Labs": 3.99,
+          "TensorDock": 1.8
+        },
+        "NVIDIA A100 (40GB PCIe)": {
+          "Lambda Labs": 2.79,
+          "TensorDock": 1.5
+        },
+        "NVIDIA V100": {
+          "Lambda Labs": 1.99,
+          "TensorDock": 0.17
+        },
+        "NVIDIA RTX 6000 Ada / A6000": {
+          "Vast.ai": 0.39,
+          "Lambda Labs": 1.99,
+          "TensorDock": 0.75
+        },
+        "RTX 6000": {
+          "Vast.ai": 0.6,
+          "Lambda Labs": 1.09
+        },
+        "NVIDIA B200": {
+          "Lambda Labs": 9.86,
+          "CoreWeave": 8.6
+        },
+        "NVIDIA L40S": {
+          "CoreWeave": 2.25,
+          "TensorDock": 0.95
+        },
+        "NVIDIA RTX 3090 / 3090 Ti": {
+          "Vast.ai": 0.2,
+          "TensorDock": 0.2
+        },
+        "RTX A4000 16GB": {
+          "TensorDock": 0.1
+        },
+        "RTX 5090": {
+          "Vast.ai": 0.44
+        },
+        "RTX 5080": {
+          "Vast.ai": 0.23
+        },
+        "RTX 5070 Ti": {
+          "Vast.ai": 0.15
+        },
+        "RTX 5070": {
+          "Vast.ai": 0.13
+        },
+        "RTX 5060 Ti": {
+          "Vast.ai": 0.1
+        },
+        "RTX 5060": {
+          "Vast.ai": 0.08
+        },
+        "NVIDIA RTX 4080 / 4080 Super": {
+          "Vast.ai": 0.2
+        },
+        "NVIDIA RTX 4070 Ti / 4070": {
+          "Vast.ai": 0.11
+        },
+        "NVIDIA RTX 4060 Ti": {
+          "Vast.ai": 0.09
+        },
+        "NVIDIA RTX 3080 / 3080 Ti": {
+          "Vast.ai": 0.11
+        },
+        "NVIDIA RTX 3070 / 3070 Ti": {
+          "Vast.ai": 0.08
+        },
+        "NVIDIA RTX 3060 / 3060 Ti": {
+          "Vast.ai": 0.08
+        },
+        "RTX 8000": {
+          "Vast.ai": 0.24
+        },
+        "NVIDIA RTX 2080 Ti": {
+          "Vast.ai": 0.07
+        },
+        "RTX 5880": {
+          "Vast.ai": 0.48
+        },
+        "NVIDIA A40": {
+          "Vast.ai": 0.29
+        },
+        "RTX 2080": {
+          "Vast.ai": 0.07
+        }
+      }
+    },
+    {
+      "ts": "2026-06-23T08:47:52Z",
+      "d": {
+        "NVIDIA H100 (80GB SXM)": {
+          "Vast.ai": 2.31,
+          "RunPod": 1.99,
+          "Lambda Labs": 6.69,
+          "CoreWeave": 6.16,
+          "TensorDock": 2.25
+        },
+        "NVIDIA RTX 4090": {
+          "Vast.ai": 0.36,
+          "RunPod": 0.34,
+          "TensorDock": 0.35
+        },
+        "NVIDIA H200": {
+          "Vast.ai": 3.21,
+          "Lambda Labs": 6.99,
+          "CoreWeave": 6.31
+        },
+        "NVIDIA GH200": {
+          "Lambda Labs": 6.99,
+          "CoreWeave": 6.5
+        },
+        "NVIDIA A100 (80GB SXM)": {
+          "Vast.ai": 0.8,
+          "Lambda Labs": 3.99,
+          "TensorDock": 1.8
+        },
+        "NVIDIA A100 (40GB PCIe)": {
+          "Lambda Labs": 2.79,
+          "TensorDock": 1.5
+        },
+        "NVIDIA V100": {
+          "Lambda Labs": 1.99,
+          "TensorDock": 0.17
+        },
+        "NVIDIA RTX 6000 Ada / A6000": {
+          "Vast.ai": 0.39,
+          "Lambda Labs": 1.99,
+          "TensorDock": 0.75
+        },
+        "RTX 6000": {
+          "Vast.ai": 0.6,
+          "Lambda Labs": 1.09
+        },
+        "NVIDIA B200": {
+          "Lambda Labs": 9.86,
+          "CoreWeave": 8.6
+        },
+        "NVIDIA L40S": {
+          "CoreWeave": 2.25,
+          "TensorDock": 0.95
+        },
+        "NVIDIA RTX 3090 / 3090 Ti": {
+          "Vast.ai": 0.2,
+          "TensorDock": 0.2
+        },
+        "RTX A4000 16GB": {
+          "TensorDock": 0.1
+        },
+        "RTX 5090": {
+          "Vast.ai": 0.44
+        },
+        "RTX 5080": {
+          "Vast.ai": 0.23
+        },
+        "RTX 5070 Ti": {
+          "Vast.ai": 0.15
+        },
+        "RTX 5070": {
+          "Vast.ai": 0.13
+        },
+        "RTX 5060 Ti": {
+          "Vast.ai": 0.1
+        },
+        "RTX 5060": {
+          "Vast.ai": 0.08
+        },
+        "NVIDIA RTX 4080 / 4080 Super": {
+          "Vast.ai": 0.2
+        },
+        "NVIDIA RTX 4070 Ti / 4070": {
+          "Vast.ai": 0.11
+        },
+        "NVIDIA RTX 4060 Ti": {
+          "Vast.ai": 0.09
+        },
+        "NVIDIA RTX 3080 / 3080 Ti": {
+          "Vast.ai": 0.11
+        },
+        "NVIDIA RTX 3070 / 3070 Ti": {
+          "Vast.ai": 0.08
+        },
+        "NVIDIA RTX 3060 / 3060 Ti": {
+          "Vast.ai": 0.08
+        },
+        "RTX 8000": {
+          "Vast.ai": 0.24
+        },
+        "NVIDIA RTX 2080 Ti": {
+          "Vast.ai": 0.07
+        },
+        "RTX 5880": {
+          "Vast.ai": 0.48
+        },
+        "NVIDIA A40": {
+          "Vast.ai": 0.29
+        },
+        "RTX 2080": {
+          "Vast.ai": 0.07
+        }
+      }
+    },
+    {
+      "ts": "2026-06-23T08:53:46Z",
+      "d": {
+        "NVIDIA H100 (80GB SXM)": {
+          "Vast.ai": 2.31,
+          "RunPod": 1.99,
+          "Lambda Labs": 6.69,
+          "CoreWeave": 6.16,
+          "TensorDock": 2.25
+        },
+        "NVIDIA RTX 4090": {
+          "Vast.ai": 0.36,
+          "RunPod": 0.34,
+          "TensorDock": 0.35
+        },
+        "NVIDIA H200": {
+          "Vast.ai": 3.21,
+          "Lambda Labs": 6.99,
+          "CoreWeave": 6.31
+        },
+        "NVIDIA GH200": {
+          "Lambda Labs": 6.99,
+          "CoreWeave": 6.5
+        },
+        "NVIDIA A100 (80GB SXM)": {
+          "Vast.ai": 0.8,
+          "Lambda Labs": 3.99,
+          "TensorDock": 1.8
+        },
+        "NVIDIA A100 (40GB PCIe)": {
+          "Lambda Labs": 2.79,
+          "TensorDock": 1.5
+        },
+        "NVIDIA V100": {
+          "Lambda Labs": 1.99,
+          "TensorDock": 0.17
+        },
+        "NVIDIA RTX 6000 Ada / A6000": {
+          "Vast.ai": 0.39,
+          "Lambda Labs": 1.99,
+          "TensorDock": 0.75
+        },
+        "RTX 6000": {
+          "Vast.ai": 0.6,
+          "Lambda Labs": 1.09
+        },
+        "NVIDIA B200": {
+          "Lambda Labs": 9.86,
+          "CoreWeave": 8.6
+        },
+        "NVIDIA L40S": {
+          "CoreWeave": 2.25,
+          "TensorDock": 0.95
+        },
+        "NVIDIA RTX 3090 / 3090 Ti": {
+          "Vast.ai": 0.2,
+          "TensorDock": 0.2
+        },
+        "RTX A4000 16GB": {
+          "TensorDock": 0.1
+        },
+        "RTX 5090": {
+          "Vast.ai": 0.44
+        },
+        "RTX 5080": {
+          "Vast.ai": 0.23
+        },
+        "RTX 5070 Ti": {
+          "Vast.ai": 0.15
+        },
+        "RTX 5070": {
+          "Vast.ai": 0.13
+        },
+        "RTX 5060 Ti": {
+          "Vast.ai": 0.1
+        },
+        "RTX 5060": {
+          "Vast.ai": 0.08
+        },
+        "NVIDIA RTX 4080 / 4080 Super": {
+          "Vast.ai": 0.2
+        },
+        "NVIDIA RTX 4070 Ti / 4070": {
+          "Vast.ai": 0.11
+        },
+        "NVIDIA RTX 4060 Ti": {
+          "Vast.ai": 0.09
+        },
+        "NVIDIA RTX 3080 / 3080 Ti": {
+          "Vast.ai": 0.11
+        },
+        "NVIDIA RTX 3070 / 3070 Ti": {
+          "Vast.ai": 0.08
+        },
+        "NVIDIA RTX 3060 / 3060 Ti": {
+          "Vast.ai": 0.08
+        },
+        "RTX 8000": {
+          "Vast.ai": 0.24
+        },
+        "NVIDIA RTX 2080 Ti": {
+          "Vast.ai": 0.07
+        },
+        "RTX 5880": {
+          "Vast.ai": 0.48
+        },
+        "NVIDIA A40": {
+          "Vast.ai": 0.29
+        },
+        "RTX 2080": {
+          "Vast.ai": 0.07
+        }
+      }
     }
   ]
 };
