@@ -439,6 +439,7 @@
 <script src="pricing.js"></script>
 <script src="pricing_live.js"></script>
 <script src="price_history.js"></script>
+<script src="pricing_history.js"></script>
 
 <!-- ===== 国旗映射 ===== -->
 <script>
@@ -460,10 +461,39 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
   'use strict';
 
   // ===== 数据合并：实时数据优先，fallback 到参考数据 =====
+  // v5: 同时从 pricing_live.js（最新一次）和 pricing_history.js（累积所有平台）加载
   var pricingLive = window.GPU_PRICING_LIVE || {};
   var pricingRef = window.GPU_PRICING || {};
   var fetchedAt = window.PRICE_FETCHED_AT || null;
   var scrapeSources = window.PRICE_SCRAPE_SOURCES || {};
+
+  // 从累积历史中提取所有平台的最新数据（补充 pricing_live.js 未覆盖的平台）
+  var pricingHistory = window.GPU_PRICING_HISTORY || null;
+  if (pricingHistory && pricingHistory.snapshots && pricingHistory.snapshots.length > 0) {
+    // 从最新的快照获取数据（包含所有平台的完整条目）
+    var latestSnap = pricingHistory.snapshots[pricingHistory.snapshots.length - 1];
+    var histData = latestSnap.data || {};
+    // 用历史数据补充 pricingLive（不覆盖已有的 — pricing_live.js 是最新鲜的）
+    Object.keys(histData).forEach(function(gpu) {
+      if (!pricingLive[gpu]) {
+        pricingLive[gpu] = [];
+      }
+      var livePlatforms = {};
+      pricingLive[gpu].forEach(function(e) { livePlatforms[e.platform] = true; });
+      histData[gpu].forEach(function(e) {
+        if (!livePlatforms[e.platform]) {
+          pricingLive[gpu].push(e);  // 补充历史数据中的其他平台
+        }
+      });
+    });
+    // 使用最新的时间戳
+    if (!fetchedAt) fetchedAt = latestSnap.ts;
+    // 合并 scrape sources
+    var histSources = latestSnap.sources || {};
+    Object.keys(histSources).forEach(function(k) {
+      if (!scrapeSources[k]) scrapeSources[k] = histSources[k];
+    });
+  }
 
   // 合并策略：live 数据覆盖同 GPU 同 platform 的参考数据
   // ⚠️ 若 live 数据缺少 pricing_url/country/region，从参考数据继承
@@ -670,7 +700,22 @@ function getFlag(c) { return FLAGS[c] || '🌐'; }
   var currentView = 'card'; // 'card' | 'table'
 
   function loadHistory() {
-    if (window.PRICE_HISTORY_DATA && window.PRICE_HISTORY_DATA.snapshots) {
+    // v5: 优先从 pricing_history.js（完整格式）读取，回退到 price_history.js（紧凑格式）
+    if (window.GPU_PRICING_HISTORY && window.GPU_PRICING_HISTORY.snapshots) {
+      // 完整格式: {ts, sources, data: {GPU: [{platform, price_usd, ...}]}}
+      // 转换为紧凑格式兼容 getPriceHistory
+      priceHistory = window.GPU_PRICING_HISTORY.snapshots.map(function(snap) {
+        var compact = { ts: snap.ts, d: {} };
+        var data = snap.data || {};
+        Object.keys(data).forEach(function(gpu) {
+          compact.d[gpu] = {};
+          data[gpu].forEach(function(e) {
+            compact.d[gpu][e.platform] = e.price_usd;
+          });
+        });
+        return compact;
+      });
+    } else if (window.PRICE_HISTORY_DATA && window.PRICE_HISTORY_DATA.snapshots) {
       priceHistory = window.PRICE_HISTORY_DATA.snapshots;
     } else {
       priceHistory = [];

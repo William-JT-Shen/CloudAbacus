@@ -7,12 +7,10 @@
 
 用法:
   python fetch_prices.py                      # requests 模式（快速，适合静态页面）
-  python fetch_prices.py --save-history        # + 追加历史快照
   python fetch_prices.py --playwright          # Playwright 模式（浏览器渲染）
-  python fetch_prices.py --playwright --save-history  # 全功能
   python fetch_prices.py --vast-only           # 仅抓取 Vast.ai（适合高频运行）
-  python fetch_prices.py --vast-only --playwright --save-history
   python fetch_prices.py --quick               # 仅抓取高优先级平台（快速模式）
+注: 历史数据始终自动追加到 price_history.js / pricing_history.js
 
 依赖:
   pip install requests beautifulsoup4
@@ -49,6 +47,7 @@ CODE_DIR   = Path(__file__).parent
 OUTPUT_LIVE = CODE_DIR / "pricing_live.js"
 OUTPUT_HIST = CODE_DIR / "price_history.js"
 OUTPUT_HIST_JSON = CODE_DIR / "price_history.json"
+OUTPUT_HIST_FULL = CODE_DIR / "pricing_history.js"  # 完整历史快照（追加模式）
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
@@ -79,6 +78,34 @@ def find_between(text: str, start_pat: str, end_pat: str) -> str:
     """提取两个模式之间的文本"""
     m = re.search(start_pat + r'(.*?)' + end_pat, text, re.DOTALL)
     return m.group(1) if m else ""
+
+
+def atomic_write_js(path: Path, var_name: str, data: dict | list):
+    """原子写入 JS/JSON 文件：先写临时文件，再 rename（避免并发写入损坏）
+    若 var_name 为空字符串，则写入纯 JSON"""
+    tmp_path = path.with_suffix(".tmp")
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        if var_name:
+            f.write(f"var {var_name} = ")
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write(";\n" if var_name else "\n")
+    tmp_path.replace(path)  # Python 3.12: Path.replace() 在 POSIX 上是原子的
+
+
+def read_existing_js(path: Path, var_name: str) -> dict | list | None:
+    """读取 JS 文件中的 JSON 变量"""
+    if not path.exists():
+        return None
+    try:
+        raw = path.read_text(encoding="utf-8")
+        m = re.search(rf'{var_name}\s*=\s*(\{{.*?\}});', raw, re.DOTALL)
+        if not m:
+            m = re.search(rf'{var_name}\s*=\s*(\[.*?\]);', raw, re.DOTALL)
+        if m:
+            return json.loads(m.group(1))
+    except Exception:
+        pass
+    return None
 
 
 # 各 GPU 型号的合理小时价格范围 (美元)
@@ -148,6 +175,150 @@ def extract_prices(html: str, gpu_map: list[tuple[str, str, str]],
                     continue
             if label in seen:
                 break
+    return results
+
+
+# ============================================================
+# 多策略提取（v5 — 除正则外尝试 HTML 表格 / JSON-LD / Next.js 数据）
+# ============================================================
+def extract_from_html_table(html: str, gpu_map: list[tuple[str, str, str]],
+                            currency: str = "USD") -> list[dict]:
+    """从 HTML <table> 行中提取 GPU 价格：<tr><th>GPU名</th><td>$X.XX</td></tr>"""
+    results = []
+    seen = set()
+    eur_to_usd = 1.08
+    # 找所有带 <th> 的表格行（GPU 名在 th，价格在 td）
+    for row in re.finditer(r'<tr[^>]*>(.*?)</tr>', html, re.DOTALL | re.IGNORECASE):
+        cells = row.group(1)
+        # 提取 th 文本作为 GPU 候选名，td 文本作为价格候选
+        th_match = re.search(r'<th[^>]*>(.*?)</th>', cells, re.DOTALL | re.IGNORECASE)
+        if not th_match:
+            continue
+        gpu_text = re.sub(r'<[^>]+>', '', th_match.group(1)).strip()
+        # 匹配价格: $X.XX 或 €X.XX 在任意 td 中
+        for td_m in re.finditer(r'<td[^>]*>(.*?)</td>', cells, re.DOTALL | re.IGNORECASE):
+            td_text = re.sub(r'<[^>]+>', '', td_m.group(1)).strip()
+            price_m = re.search(r'[\$€](\d+\.?\d*)\s*(?:/hr|/hour|/h)?', td_text)
+            if not price_m:
+                continue
+            try:
+                price = float(price_m.group(1))
+            except ValueError:
+                continue
+            is_eur = '€' in price_m.group(0)
+            # 匹配 GPU 名称
+            for gpu_re, _, label in gpu_map:
+                lo, hi = PRICE_RANGES.get(label, (0.01, 1000))
+                if is_eur:
+                    lo, hi = lo / eur_to_usd, hi / eur_to_usd
+                if re.search(gpu_re, gpu_text, re.IGNORECASE) and lo <= price <= hi and label not in seen:
+                    seen.add(label)
+                    price_usd = round(price * eur_to_usd, 2) if is_eur else price
+                    results.append({"gpu": label, "price_usd": price_usd})
+                    break
+    return results
+
+
+def extract_from_json_ld(html: str, gpu_map: list[tuple[str, str, str]]) -> list[dict]:
+    """从 <script type='application/ld+json'> 结构化数据中提取价格"""
+    results = []
+    seen = set()
+    for script_m in re.finditer(r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+                                 html, re.DOTALL | re.IGNORECASE):
+        try:
+            data = json.loads(script_m.group(1))
+        except json.JSONDecodeError:
+            continue
+        # 递归搜索所有包含 "price" / "offers" 的嵌套对象
+        def _search(obj, path=""):
+            if isinstance(obj, dict):
+                for key in obj:
+                    if key.lower() in ("price", "offers", "pricecurrency", "unitprice"):
+                        _search(obj[key], f"{path}.{key}")
+                # 如果同时有 name 和 price 字段
+                name = obj.get("name", "")
+                price_val = obj.get("price") or obj.get("unitPrice")
+                if name and price_val is not None:
+                    try:
+                        price = float(str(price_val).replace(",", ""))
+                    except (ValueError, TypeError):
+                        return
+                    for gpu_re, _, label in gpu_map:
+                        lo, hi = PRICE_RANGES.get(label, (0.01, 1000))
+                        if re.search(gpu_re, str(name), re.IGNORECASE) and lo <= price <= hi and label not in seen:
+                            seen.add(label)
+                            results.append({"gpu": label, "price_usd": price})
+                            break
+            elif isinstance(obj, list):
+                for item in obj:
+                    _search(item, path)
+        _search(data)
+    return results
+
+
+def extract_from_next_data(html: str, gpu_map: list[tuple[str, str, str]]) -> list[dict]:
+    """从 Next.js __NEXT_DATA__ 或 Nuxt __NUXT__ JSON 中提取价格"""
+    results = []
+    seen = set()
+    patterns = [
+        r'<script[^>]*id=["\']__NEXT_DATA__["\'][^>]*>(.*?)</script>',
+        r'<script[^>]*>window\.__NUXT__\s*=\s*(\{.*?\})\s*;?\s*</script>',
+    ]
+    for pat in patterns:
+        for m in re.finditer(pat, html, re.DOTALL):
+            try:
+                data = json.loads(m.group(1))
+            except json.JSONDecodeError:
+                continue
+            # 递归深度搜索任何包含 "price" 和 GPU 名称的文本
+            def _search_deep(obj, depth=0):
+                if depth > 8:
+                    return
+                if isinstance(obj, dict):
+                    # 检查值中是否有 GPU 名称和价格
+                    vals = {str(v) for v in obj.values() if isinstance(v, (int, float, str))}
+                    price_vals = []
+                    for k, v in obj.items():
+                        if "price" in k.lower() and isinstance(v, (int, float)):
+                            price_vals.append(float(v))
+                    if price_vals:
+                        all_text = json.dumps(obj).lower()
+                        for gpu_re, _, label in gpu_map:
+                            if label in seen:
+                                continue
+                            lo, hi = PRICE_RANGES.get(label, (0.01, 1000))
+                            if re.search(gpu_re, all_text, re.IGNORECASE):
+                                for pv in price_vals:
+                                    if lo <= pv <= hi:
+                                        seen.add(label)
+                                        results.append({"gpu": label, "price_usd": round(pv, 2)})
+                                        break
+                    for v in obj.values():
+                        _search_deep(v, depth + 1)
+                elif isinstance(obj, list):
+                    for item in obj:
+                        _search_deep(item, depth + 1)
+            _search_deep(data)
+    return results
+
+
+def extract_prices_multistrategy(html: str, gpu_map: list[tuple[str, str, str]],
+                                  currency: str = "USD") -> list[dict]:
+    """多策略 GPU 价格提取：正则 → HTML表格 → JSON-LD → Next.js数据"""
+    # 策略 1: 标准正则提取（原有方法）
+    results = extract_prices(html, gpu_map, currency)
+    if results:
+        return results
+    # 策略 2: HTML 表格行提取
+    results = extract_from_html_table(html, gpu_map, currency)
+    if results:
+        return results
+    # 策略 3: JSON-LD 结构化数据
+    results = extract_from_json_ld(html, gpu_map)
+    if results:
+        return results
+    # 策略 4: Next.js / Nuxt 数据
+    results = extract_from_next_data(html, gpu_map)
     return results
 
 
@@ -544,9 +715,11 @@ def extract_prices_from_text(text: str, currency: str = "USD") -> list[dict]:
 
 
 def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
-                           wait_until: str = "load", is_eur: bool = False) -> list[dict]:
+                           wait_until: str = "load", is_eur: bool = False,
+                           poll_selector: str = None) -> list[dict]:
     """用 Playwright 无头浏览器访问页面，等待 JS 渲染后提取文本
-    is_eur: 也尝试欧元价格模式"""
+    is_eur: 也尝试欧元价格模式
+    poll_selector: 若提供，轮询等待此 CSS 选择器出现（用于 SPA 动态渲染）"""
     if not PLAYWRIGHT_AVAILABLE:
         scrape_log[platform_name] = {"status": "failed", "gpu_count": 0,
                                       "error": "Playwright 未安装"}
@@ -557,29 +730,49 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
     results = []
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(headless=True, args=['--no-sandbox'])
             page = browser.new_page()
             page.set_default_timeout(60000)
             try:
                 page.goto(url, timeout=60000, wait_until=wait_until)
             except Exception:
                 pass  # 即使超时也继续
-            page.wait_for_timeout(wait_sec * 1000)
 
-            # 尝试关闭 Cookie / 弹窗
+            # 轮询等待特定选择器（SPA 动态渲染）
+            if poll_selector:
+                for attempt in range(wait_sec * 2):  # 每 0.5s 检查一次
+                    try:
+                        if page.locator(poll_selector).first.is_visible(timeout=500):
+                            break
+                    except Exception:
+                        pass
+                    page.wait_for_timeout(500)
+            else:
+                page.wait_for_timeout(wait_sec * 1000)
+
+            # 尝试关闭 Cookie / 弹窗（v5 增加更多选择器）
             dismiss_selectors = [
                 "button:has-text('Accept All')",
                 "button:has-text('Accept All Cookies')",
                 "button:has-text('Accept')",
                 "button:has-text('OK')",
                 "button:has-text('Got it')",
+                "button:has-text('Continue')",
+                "button:has-text('Yes, I accept')",
+                "button:has-text('Allow all')",
+                "button:has-text('Allow All Cookies')",
                 "button:has-text('Decline')",
                 "button:has-text('Deny')",
+                "button:has-text('Reject All')",
                 "[aria-label='Close']",
                 "[aria-label='Dismiss']",
                 ".cookie-accept",
                 ".cc-btn",
                 "#onetrust-accept-btn-handler",
+                ".fc-cta-consent",
+                "[data-testid='cookie-banner'] button:first-child",
+                ".cookie-bar__accept",
+                "#cookies-eu-accept",
             ]
             for sel in dismiss_selectors:
                 try:
@@ -591,25 +784,43 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
                 except Exception:
                     continue
 
-            # 滚动页面以触发懒加载内容
+            # 多次滚动页面以触发懒加载内容（v5 增强）
             try:
-                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                page.wait_for_timeout(2000)
+                for _ in range(5):
+                    page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                    page.wait_for_timeout(1500)
+                # 最后滚回顶部
+                page.evaluate("window.scrollTo(0, 0)")
+                page.wait_for_timeout(1000)
             except Exception:
                 pass
 
+            # 提取文本和 HTML（v5: 双提取，HTML 供多策略解析使用）
             body_text = page.inner_text("body")
+            body_html = page.content()
             try:
                 main_text = (page.inner_text("main") or page.inner_text("#__next") or
                            page.inner_text("#root") or page.inner_text(".content") or
                            page.inner_text("[role='main']"))
                 body_text = main_text + "\n" + body_text
+                # 同时获取主区域的 HTML
+                try:
+                    main_html = (page.inner_html("main") or page.inner_html("#__next") or
+                                page.inner_html("#root") or page.inner_html(".content"))
+                    body_html = main_html + "\n" + body_html
+                except Exception:
+                    pass
             except Exception:
                 pass
             browser.close()
+
+            # 优先从文本提取
             results = extract_prices_from_text(body_text)
             if not results and is_eur:
                 results = extract_prices_from_text(body_text, currency="EUR")
+            # 文本提取不到则尝试 HTML 多策略提取
+            if not results:
+                results = extract_prices_multistrategy(body_html, COMMON_GPUS, currency="EUR" if is_eur else "USD")
     except Exception as e:
         scrape_log[platform_name] = {"status": "failed", "gpu_count": 0, "error": str(e)[:100]}
         print(f"  ❌ Playwright 异常: {e}")
@@ -633,7 +844,7 @@ def scrape_vast_playwright() -> list[dict]:
 
 
 def scrape_lambda_playwright() -> list[dict]:
-    """Lambda.ai: Playwright 修复版 — 域名已迁移到 lambda.ai"""
+    """Lambda.ai: Playwright 修复版 v5 — 域名已迁移到 lambda.ai，增强等待策略"""
     print("🔍 Lambda Labs (lambda.ai Playwright) ...")
     urls = [
         "https://lambda.ai/pricing",
@@ -641,38 +852,42 @@ def scrape_lambda_playwright() -> list[dict]:
         "https://lambdalabs.com/service/gpu-cloud/pricing",
     ]
     for url in urls:
-        results = scrape_with_playwright(url, "Lambda Labs",
-                                          wait_sec=14, wait_until="networkidle")
-        if not results:
+        # 尝试多种等待策略：先 networkidle + table 轮询，再 domcontentloaded
+        for wait_strategy in [("networkidle", 25, "table"), ("load", 20, "table"),
+                               ("domcontentloaded", 30, '[class*="price"]')]:
             results = scrape_with_playwright(url, "Lambda Labs",
-                                              wait_sec=14, wait_until="load")
-        if results:
-            mark_ok("Lambda Labs", len(results))
-            return results
+                                              wait_sec=wait_strategy[1],
+                                              wait_until=wait_strategy[0],
+                                              poll_selector=wait_strategy[2])
+            if results:
+                mark_ok("Lambda Labs", len(results))
+                return results
     if scrape_log.get("Lambda Labs", {}).get("status") != "failed":
-        mark_failed("Lambda Labs", "所有 URL 均未提取到价格数据（SPA 动态加载，可能需要更长的等待时间）")
+        mark_failed("Lambda Labs", "所有 URL 均未提取到价格数据（SPA 动态加载超时）")
     return []
 
 
 def scrape_datacrunch_playwright() -> list[dict]:
-    """DataCrunch → Verda: 已更名为 verda.com"""
+    """DataCrunch → Verda: 已更名为 verda.com，v5 增强 GPU 选项卡交互"""
     print("🔍 DataCrunch/Verda (Playwright) ...")
     urls = [
+        "https://verda.com/gpu-cloud",
         "https://verda.com/pricing",
         "https://datacrunch.io/pricing",
-        "https://verda.com/gpu-cloud",
     ]
     for url in urls:
         results = scrape_with_playwright(url, "DataCrunch",
-                                          wait_sec=14, wait_until="networkidle")
+                                          wait_sec=20, wait_until="networkidle",
+                                          poll_selector='[class*="price"], [class*="pricing"], table')
         if not results:
             results = scrape_with_playwright(url, "DataCrunch",
-                                              wait_sec=14, wait_until="load")
+                                              wait_sec=25, wait_until="domcontentloaded",
+                                              poll_selector='table, [class*="price"]')
         if results:
             mark_ok("DataCrunch", len(results))
             return results
     if scrape_log.get("DataCrunch", {}).get("status") != "failed":
-        mark_failed("DataCrunch", "Verda 页面未提取到价格数据（可能需要更长的 JS 等待时间）")
+        mark_failed("DataCrunch", "Verda 页面未提取到价格数据（SPA 动态加载超时）")
     return []
 
 
@@ -1296,6 +1511,161 @@ def scrape_tencent_cloud():
         return mark_failed("腾讯云", f"Playwright 异常: {str(e)[:80]}")
 
 
+# ============================================================
+# 大云厂商爬虫（AWS / Azure / GCP — 使用公开 API）
+# ============================================================
+
+def scrape_aws() -> list[dict]:
+    """AWS EC2 GPU 实例 — 使用公开 Price List API (无需认证)"""
+    print("🔍 AWS (EC2 GPU) ...")
+    results = []
+    # AWS GPU 实例类型到 GPU 标签的映射
+    GPU_INSTANCE_MAP = {
+        "p5.48xlarge": "NVIDIA H100 (80GB SXM)",
+        "p5e.48xlarge": "NVIDIA H200",
+        "p4d.24xlarge": "NVIDIA A100 (80GB SXM)",
+        "p4de.24xlarge": "NVIDIA A100 (80GB SXM)",
+        "g6.12xlarge": "NVIDIA L4",
+        "g6e.12xlarge": "NVIDIA L40S",
+        "g5.12xlarge": "NVIDIA A10G",
+        "g5g.8xlarge": "NVIDIA T4",
+        "g4dn.12xlarge": "NVIDIA T4",
+        "p3.16xlarge": "NVIDIA V100",
+    }
+    try:
+        # 使用 AWS Price List API 区域索引（仅 us-east-1 来减小体积）
+        index_url = "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/us-east-1/index.json"
+        r = requests.get(index_url, timeout=120, headers={"User-Agent": UA})
+        if r.status_code != 200:
+            mark_failed("AWS (Amazon EC2)", f"Price List API 返回 {r.status_code}")
+            return []
+        data = r.json()
+        products = data.get("products", {})
+        terms = data.get("terms", {}).get("OnDemand", {})
+
+        for sku, product in products.items():
+            attrs = product.get("attributes", {})
+            instance_type = attrs.get("instanceType", "")
+            if instance_type not in GPU_INSTANCE_MAP:
+                continue
+            gpu_label = GPU_INSTANCE_MAP[instance_type]
+            # 获取按需价格
+            sku_terms = terms.get(sku, {})
+            for offer_key, offer in sku_terms.items():
+                price_dim = offer.get("priceDimensions", {})
+                for pd_key, pd in price_dim.items():
+                    price_str = pd.get("pricePerUnit", {}).get("USD", "0")
+                    try:
+                        price = float(price_str)
+                    except ValueError:
+                        continue
+                    lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+                    if lo <= price <= hi:
+                        results.append({"gpu": gpu_label, "price_usd": price, "plan": "按需"})
+                    break  # 只取第一个有效价格
+                break
+        # 去重：同 GPU 型号取最低价
+        seen = {}
+        for r_item in results:
+            label = r_item["gpu"]
+            if label not in seen or r_item["price_usd"] < seen[label]["price_usd"]:
+                seen[label] = r_item
+        results = list(seen.values())
+    except Exception as e:
+        mark_failed("AWS (Amazon EC2)", f"API 异常: {e}")
+        return []
+    if results:
+        mark_ok("AWS (Amazon EC2)", len(results))
+    else:
+        mark_failed("AWS (Amazon EC2)", "未提取到 GPU 价格")
+    return results
+
+
+def scrape_azure() -> list[dict]:
+    """Azure GPU VM — 使用公开 Retail Prices API (无需认证)"""
+    print("🔍 Azure (GPU VM) ...")
+    results = []
+    AZURE_GPU_MAP = {
+        "NC A100 v4": "NVIDIA A100 (80GB SXM)",
+        "NC H100 v5": "NVIDIA H100 (80GB SXM)",
+        "ND H100 v5": "NVIDIA H100 (80GB SXM)",
+        "ND A100 v4": "NVIDIA A100 (80GB SXM)",
+        "NCas T4 v3": "NVIDIA T4",
+        "NC T4 v3": "NVIDIA T4",
+        "NV A10 v5": "NVIDIA A10G",
+        "NVads A10 v5": "NVIDIA A10G",
+    }
+    try:
+        # Azure Retail Prices API
+        url = "https://prices.azure.com/api/retail/prices"
+        params = {
+            "$filter": "serviceName eq 'Virtual Machines' and priceType eq 'Consumption' "
+                       "and contains(productName, 'GPU') and armRegionName eq 'eastus'",
+            "$top": 500
+        }
+        r = requests.get(url, params=params, timeout=60, headers={"User-Agent": UA})
+        if r.status_code != 200:
+            mark_failed("Microsoft Azure", f"Retail API 返回 {r.status_code}")
+            return []
+        data = r.json()
+        for item in data.get("Items", []):
+            product_name = item.get("productName", "")
+            # 匹配 GPU 型号
+            for vm_key, gpu_label in AZURE_GPU_MAP.items():
+                if vm_key.lower() in product_name.lower():
+                    price = float(item.get("retailPrice", 0))
+                    lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
+                    if lo <= price <= hi:
+                        results.append({"gpu": gpu_label, "price_usd": price, "plan": "按需"})
+                    break
+        # 去重取最低价
+        seen = {}
+        for r_item in results:
+            label = r_item["gpu"]
+            if label not in seen or r_item["price_usd"] < seen[label]["price_usd"]:
+                seen[label] = r_item
+        results = list(seen.values())
+    except Exception as e:
+        mark_failed("Microsoft Azure", f"API 异常: {e}")
+        return []
+    if results:
+        mark_ok("Microsoft Azure", len(results))
+    else:
+        mark_failed("Microsoft Azure", "未提取到 GPU 价格")
+    return results
+
+
+def scrape_gcp() -> list[dict]:
+    """Google Cloud GPU — 使用 GPU 定价页面的 JSON-LD 数据 + Playwright 回退"""
+    print("🔍 Google Cloud (GCP GPU) ...")
+    results = []
+    url = "https://cloud.google.com/compute/gpus-pricing"
+    html = get(url)
+    if html:
+        results = extract_from_json_ld(html, COMMON_GPUS)
+        if not results:
+            results = extract_from_next_data(html, COMMON_GPUS)
+    if not results:
+        # Playwright 回退
+        results = scrape_with_playwright(url, "Google Cloud",
+                                          wait_sec=15, wait_until="networkidle",
+                                          poll_selector='table, [class*="pricing"]')
+    if results:
+        # GCP 有时返回 per-GPU 价格，需要转换为 per-instance
+        # 过滤异常低价
+        valid = []
+        for r_item in results:
+            lo, hi = PRICE_RANGES.get(r_item["gpu"], (0.01, 1000))
+            if lo <= r_item["price_usd"] <= hi:
+                valid.append(r_item)
+        results = valid
+    if results:
+        mark_ok("Google Cloud", len(results))
+    else:
+        mark_failed("Google Cloud", "未提取到 GPU 价格")
+    return results
+
+
 def scrape_generic(name: str, url: str, use_pw: bool = False,
                    pw_fallback: bool = False, is_eur_platform: bool = False) -> list[dict]:
     """
@@ -1328,11 +1698,11 @@ def scrape_generic(name: str, url: str, use_pw: bool = False,
                 return results
         return mark_failed(name, "无法访问定价页面")
 
-    # 尝试 USD 模式
-    results = extract_prices(html, COMMON_GPUS)
+    # 多策略提取 (v5): 正则 → HTML表格 → JSON-LD → Next.js数据
+    results = extract_prices_multistrategy(html, COMMON_GPUS)
     if not results and is_eur_platform:
         # 欧洲平台额外尝试 EUR 模式
-        results = extract_prices(html, COMMON_GPUS_EUR, currency="EUR")
+        results = extract_prices_multistrategy(html, COMMON_GPUS_EUR, currency="EUR")
     if results:
         mark_ok(name, len(results))
         return results
@@ -1472,7 +1842,6 @@ EXTENDED_PLATFORMS = [
     # ("AutoDL",        "https://www.autodl.com/price",                     True),
 
     # --- 大厂平台 (SPA 定价页面) ---
-    ("Google Cloud",    "https://cloud.google.com/compute/gpus-pricing",    True),   # SPA, 需 Playwright
     ("IBM Cloud",       "https://www.ibm.com/cloud/gpu",                    True),   # SPA, 需 Playwright
     ("Oracle Cloud",    "https://www.oracle.com/cloud/compute/pricing/",    True),   # SPA, 需 Playwright
 ]
@@ -1535,7 +1904,7 @@ def main():
             "CoreWeave":    (scrape_coreweave, scrape_coreweave),
             "TensorDock":   (scrape_tensordock_dedicated, scrape_tensordock_dedicated),
             "DataCrunch":   (scrape_datacrunch, scrape_datacrunch_playwright),
-            "Paperspace":   (scrape_paperspace, scrape_paperspace),
+            "Paperspace":   (scrape_paperspace, scrape_paperspace_playwright),
             "JarvisLabs":   (scrape_jarvislabs, scrape_jarvislabs),
             "AutoDL":       (None, scrape_autodl_playwright),  # 必须 Playwright
             "Matpool":      (None, scrape_matpool_playwright),  # 必须 Playwright
@@ -1551,6 +1920,10 @@ def main():
             "Exoscale":     (scrape_exoscale, scrape_exoscale),          # SPA+EUR
             # 中国平台
             "腾讯云":       (None, scrape_tencent_cloud),             # Playwright API 拦截
+            # 大云厂商 (v5 — 使用公开 API)
+            "AWS (Amazon EC2)":   (scrape_aws, scrape_aws),
+            "Microsoft Azure":    (scrape_azure, scrape_azure),
+            "Google Cloud":       (scrape_gcp, scrape_gcp),
         }
 
         # 欧元定价平台列表 (通用爬虫对这些平台额外尝试 EUR 模式)
@@ -1685,53 +2058,53 @@ def main():
           + (f" (+{merged_from_existing} 条保留)" if merged_from_existing else ""))
 
     # ============================================================
-    # 保存/追加历史数据
+    # 保存/追加历史数据（始终执行，不再需要 --save-history 标志）
     # ============================================================
-    if "--save-history" in sys.argv:
-        history_data = {"snapshots": []}
-        if OUTPUT_HIST.exists():
-            try:
-                raw = OUTPUT_HIST.read_text(encoding="utf-8")
-                m = re.search(r'PRICE_HISTORY_DATA\s*=\s*(\{.*\});', raw, re.DOTALL)
-                if m:
-                    history_data = json.loads(m.group(1))
-            except Exception:
-                pass
+    # --- price_history.js (紧凑格式：折线图用) ---
+    history_data = read_existing_js(OUTPUT_HIST, "PRICE_HISTORY_DATA") or {"snapshots": []}
 
-        # 兼容旧格式: {"date": ..., "prices": [{...}]} → {"ts": ..., "d": {...}}
-        for snap in history_data.get("snapshots", []):
-            if "date" in snap and "ts" not in snap:
-                snap["ts"] = snap.pop("date") + "T00:00:00Z"
-            if "prices" in snap and "d" not in snap:
-                old_prices = snap.pop("prices")
-                snap["d"] = {}
-                for gpu_label, entries in old_prices.items():
-                    if isinstance(entries, list):
-                        snap["d"][gpu_label] = {e["platform"]: e["price_usd"] for e in entries}
-                    else:
-                        snap["d"][gpu_label] = entries  # already compact
+    # 兼容旧格式: {"date": ..., "prices": [{...}]} → {"ts": ..., "d": {...}}
+    for snap in history_data.get("snapshots", []):
+        if "date" in snap and "ts" not in snap:
+            snap["ts"] = snap.pop("date") + "T00:00:00Z"
+        if "prices" in snap and "d" not in snap:
+            old_prices = snap.pop("prices")
+            snap["d"] = {}
+            for gpu_label, entries in old_prices.items():
+                if isinstance(entries, list):
+                    snap["d"][gpu_label] = {e["platform"]: e["price_usd"] for e in entries}
+                else:
+                    snap["d"][gpu_label] = entries
 
-        # 新快照 — 使用精确时间戳 + 压缩格式 (GPU → Platform → price_usd)
-        snap = {"ts": fetched_at, "d": {}}
-        for label, entries in gpu_categories.items():
-            snap["d"][label] = {e["platform"]: e["price_usd"] for e in entries}
+    # 新快照 (紧凑格式)
+    compact_snap = {"ts": fetched_at, "d": {}}
+    for label, entries in gpu_categories.items():
+        compact_snap["d"][label] = {e["platform"]: e["price_usd"] for e in entries}
 
-        # 始终追加，不覆盖
-        history_data["snapshots"].append(snap)
-        # 保留最近 1000 条（约 1 个月数据 @ 30次/天）
-        if len(history_data["snapshots"]) > 1000:
-            history_data["snapshots"] = history_data["snapshots"][-1000:]
+    history_data["snapshots"].append(compact_snap)
+    if len(history_data["snapshots"]) > 1000:
+        history_data["snapshots"] = history_data["snapshots"][-1000:]
 
-        with open(OUTPUT_HIST, "w", encoding="utf-8") as f:
-            f.write("var PRICE_HISTORY_DATA = ")
-            json.dump(history_data, f, indent=2, ensure_ascii=False)
-            f.write(";\n")
+    atomic_write_js(OUTPUT_HIST, "PRICE_HISTORY_DATA", history_data)
+    atomic_write_js(OUTPUT_HIST_JSON, "", history_data)  # JSON 版本
+    print(f"📝 price_history.js: {len(history_data['snapshots'])} 个快照 (最新: {fetched_at})")
 
-        with open(OUTPUT_HIST_JSON, "w", encoding="utf-8") as f:
-            json.dump(history_data, f, indent=2, ensure_ascii=False)
+    # --- pricing_history.js (完整格式：所有字段，用于数据恢复和前端展示) ---
+    full_history = read_existing_js(OUTPUT_HIST_FULL, "GPU_PRICING_HISTORY") or {"snapshots": []}
 
-        print(f"📝 历史数据已追加: {OUTPUT_HIST.name} (共 {len(history_data['snapshots'])} 个快照, "
-              f"最新: {fetched_at})")
+    # 完整格式快照 (保留所有字段：platform, price_usd, plan, country, region, note, pricing_url, availability, source)
+    full_snap = {
+        "ts": fetched_at,
+        "sources": scrape_log,
+        "data": gpu_categories
+    }
+    full_history["snapshots"].append(full_snap)
+    # 保留最近 168 条（一周的每小时数据）
+    if len(full_history["snapshots"]) > 168:
+        full_history["snapshots"] = full_history["snapshots"][-168:]
+
+    atomic_write_js(OUTPUT_HIST_FULL, "GPU_PRICING_HISTORY", full_history)
+    print(f"📝 pricing_history.js: {len(full_history['snapshots'])} 个完整快照 (最新: {fetched_at})")
 
     # ============================================================
     # 总结
@@ -1766,6 +2139,23 @@ scrape_tensordock = lambda: scrape_generic("TensorDock", "https://www.tensordock
 # ⚠️ TensorDock 需要更精确的专用爬虫以避免抓取到资源总价而非GPU价格
 # 见下方 scrape_tensordock_dedicated 函数
 scrape_datacrunch = lambda: scrape_generic("DataCrunch", "https://datacrunch.io/pricing", use_pw=False, pw_fallback=True)
+def scrape_paperspace_playwright() -> list[dict]:
+    """Paperspace: 专用 Playwright 爬虫 v5 — 交互式 GPU 卡片定价页面"""
+    print("🔍 Paperspace (Playwright) ...")
+    results = scrape_with_playwright("https://www.paperspace.com/pricing", "Paperspace",
+                                      wait_sec=15, wait_until="networkidle",
+                                      poll_selector='[class*="price"], [class*="pricing"], [class*="gpu"]')
+    if not results:
+        results = scrape_with_playwright("https://www.paperspace.com/pricing", "Paperspace",
+                                          wait_sec=20, wait_until="domcontentloaded",
+                                          poll_selector='[class*="price"], [class*="card"]')
+    if results:
+        mark_ok("Paperspace", len(results))
+        return results
+    if scrape_log.get("Paperspace", {}).get("status") != "failed":
+        mark_failed("Paperspace", "未提取到 GPU 价格数据（SPA 动态加载超时）")
+    return []
+
 scrape_paperspace = lambda: scrape_generic("Paperspace", "https://www.paperspace.com/pricing", use_pw=False, pw_fallback=True)
 scrape_jarvislabs = lambda: scrape_generic("JarvisLabs", "https://jarvislabs.ai/pricing/", use_pw=False, pw_fallback=True)
 
