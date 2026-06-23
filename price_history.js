@@ -2461,7 +2461,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.23
+            "price_usd": 2.0
           },
           {
             "platform": "CoreWeave",
@@ -2497,7 +2497,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.42
+            "price_usd": 0.41
           }
         ],
         "RTX 5080": [

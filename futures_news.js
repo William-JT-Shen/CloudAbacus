@@ -1,7 +1,64 @@
 // GPU算力期货新闻
-// 生成:2026-06-23T04:13:07Z
-var NEWS_FETCHED_AT="2026-06-23T04:13:07Z";
+// 生成:2026-06-23T11:27:20Z
+var NEWS_FETCHED_AT="2026-06-23T11:27:20Z";
 var GPU_NEWS=[
+  {
+    "title": "光大期货0623热点追踪：科技热潮降温 中证1000改变交易方向了吗？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX2lyMHdiMDdQV0hFdjRjQ2g1djRqUkhEZ1pjbklPa19KX1g0UjBySjVuWm1kTTNsMV9rYXJvck8wZEN5T1haaFpuSlVmWGJNSnZhT0MxczZpZlFQSWwyRkg0M3ExemVXTlo4WE9IRlZkQkxYYlM0T2htZHhoa3pxQ0lNYw?oc=5",
+    "published": "2026-06-23",
+    "summary": "光大期货0623热点追踪：科技热潮降温 中证1000改变交易方向了吗？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "只租办公室的拼多多，在雄安买了一栋楼",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3865625576297476?f=rss",
+    "published": "2026-06-23",
+    "summary": "扎堆雄安的互联网大厂又多了一个。\n  6月21日，拼多多集团与中国电建完成正式签约，通过整体购置方式持有雄安·电建智汇城数字新消费电商产业园的办公楼。\n  这是拼多多第一次“买楼”。\n  \n  雄安新区产业园\n  拼多多自2015年9月正式成立上线以来，尽管已经发展到了约2.55万员工，超4300亿营收，但它始终采取轻资产办公模式，坚持不买楼、不盖楼。目前拼多多所在的办公地，包括金虹桥国际中心、艺丰中心、晶耀虹桥、星展银行大厦等地的办公楼都是租的。\n  不自建总部、分散租赁办公楼，甚至服务器、仓库等核心运营资产也大多采用租赁模式，减少资金沉淀，把资金都投入到供应链、补贴等公司运营环节，保持高效率，这几乎是拼多多的原则。\n  但这一次不同了，拼多多在雄安选择了买楼。并且，这一次拼多多的动作非常迅速。\n  2026年5月27日，拼多多在雄安注册了一家公司：拼多多信息技术服务（雄安）有限公司，注册资本家5亿元。\n  这家分公司的法人代表是拼多多集团Temu高级副总裁杨清勇，监事是拼多多集团执行总裁兼新拼姆总裁朱政，实控人为拼多多集团联合创始人、集团联席董事长兼联席CEO陈磊。\n  杨清勇属于",
+    "full_text": "只租办公室的拼多多，在雄安买了一栋楼\n扎堆雄安的互联网大厂又多了一个。\n6月21日，拼多多集团与中国电建完成正式签约，通过整体购置方式持有雄安·电建智汇城数字新消费电商产业园的办公楼。\n这是拼多多第一次“买楼”。\n雄安新区产业园\n拼多多自2015年9月正式成立上线以来，尽管已经发展到了约2.55万员工，超4300亿营收，但它始终采取轻资产办公模式，坚持不买楼、不盖楼。目前拼多多所在的办公地，包括金虹桥国际中心、艺丰中心、晶耀虹桥、星展银行大厦等地的办公楼都是租的。\n不自建总部、分散租赁办公楼，甚至服务器、仓库等核心运营资产也大多采用租赁模式，减少资金沉淀，把资金都投入到供应链、补贴等公司运营环节，保持高效率，这几乎是拼多多的原则。\n但这一次不同了，拼多多在雄安选择了买楼。并且，这一次拼多多的动作非常迅速。\n2026年5月27日，拼多多在雄安注册了一家公司：拼多多信息技术服务（雄安）有限公司，注册资本家5亿元。\n这家分公司的法人代表是拼多多集团Temu高级副总裁杨清勇，监事是拼多多集团执行总裁兼新拼姆总裁朱政，实控人为拼多多集团联合创始人、集团联席董事长兼联席CEO陈磊。\n杨清勇属于拼多多中层核心高管，直接统筹国内跨境招商政企合作线。这次由其牵头的雄安公司，定位：不做电商交易，聚焦大数据处理、云平台、数字化运维、平台合规审核、技术外包服务，是拼多多布局国家级数字新区的战略主体。\n图源：天眼查\n在雄安新公司注册成立的同时，拼多多就开始招人，6月10日首批150名员工正式入职。\n6月16日，拼多多集团执行总裁兼新拼姆总裁朱政一行到雄安新区考察调研，并与雄安新区管委会签订了《数字服务战略合作框架协议》。\n朱政说：拼多多集团将扎根雄安、服务雄安，加大资源投入与产业布局力度，积极探索更多合作潜能，落地更多业务场景，以数字技术赋能产业链上下游，搭建现代化、一体化供应链体系，以实际行动为深入推进雄安新区高质量建设和发展贡献力量。\n就在朱政去雄安的5天之后，6月21日，拼多多与中国电建旗下中电建河北雄安建设发展有限公司完成签约，官宣“买楼”。\n据了解，拼多多在雄安的新办公楼总高12层，是雄安·电建智汇城重点打造的主题楼宇之一，楼内配备大型会议中心和培训中心，并为员工配置了母婴室、休闲区等福利设施，预计将于7月底正式投入使用，园区食堂也正在筹备中。首批雄安公司员工目前在临时办公场所工作，届时，他们也将全员搬入新公办楼。\n拼多多雄安公司新办公楼\n拼多多雄安公司新办公楼就在雄安奥特莱斯对面，两条街外是雄安基金产业园和印象雄安景区。\n图源：高德地图\n拼多多释放消息说，未来雄安公司将为当地提供超5000个工作岗位。首批入职的150名新员工中，超8成来自京津冀地区，不乏来自河北高校的应届毕业生。而新办公楼周边立体化交通网络连接京津冀各地，也为新公司吸引各类优质人才创造了便捷条件。\n中国电建雄安·电建智汇城项目总建筑面积约166万平方米，整个项目非常大。拼多多买下的是铭智港西区1-4号楼的其中一栋，市场单价约1.3万-2.1万元/㎡。这个园区本身的定位就是“打造河北省电商产业示范基地、京津冀数字电商协同创新总部、国家级数字经济发展标杆园区”。\n相关数据\n还有一些问题：拼多多为什么愿意为办公楼“买单”了？并且把首站选择在了雄安？此前拼多多在北方并没有设立大型子公司或者分部，此举在公司战略上是有哪些考量？雄安又提供了哪些税收、补贴等优惠的条件？作者一并采访了拼多多，但对方表示以上信息外没有更多官方回复。\n有人猜测，拼多多改变策略砸钱买楼、建新公司，或与今年4月被开出15.22亿元的巨额罚单有关。当时，因为“幽灵外卖”乱象，几家大平台均被罚款，拼多多是七家涉事平台中处罚金额最高的。对此观点，拼多多并未予以回复。",
+    "lang": "zh"
+  },
+  {
+    "title": "国内商品期货夜盘开盘 LPG跌超2%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RTkJFVWwzX3ZuQmwtMThwazJYa2JMeVZfeDhmUmd0eXZDeG4wVU05ZUd6dHR6OGVONWhRVHEzZjZVbnZhS0FxTlFqUjlOSzlhRzRuVkoyNjNJdnNuX3VzNFVxMXdHNXU4UUl6V2dTd1I0a3ZYT0NMaw?oc=5",
+    "published": "2026-06-22",
+    "summary": "国内商品期货夜盘开盘 LPG跌超2%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "亚洲市场涨跌互现 美股期货走低 伊朗谈判进展属实 和平红利是否已消耗殆尽",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNckk5dzhVVTVxNy01akw2V2RqR295ZzlOcGJLb2JzU0VDU1cteEQ0d3o1U09aU0Q4QndwRlNLWVFaQlJFWlpnM19raVlfUGFjMFh3MU1IelFWc0dlaW15RHFQdDJoMTFMdHl5ZG9PNkxHeGVYcmZnOC1GVHRPOElVOHJPMTQwdEwzc1NOZXF2RQ?oc=5",
+    "published": "2026-06-22",
+    "summary": "亚洲市场涨跌互现 美股期货走低 伊朗谈判进展属实 和平红利是否已消耗殆尽&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "WTI 7月原油期货收跌2.32%，报74.82美元/桶",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM3l0bGVsOTdUcjZpQ2hpZVo4M0Y1cTZBWkFVU3lsSnV2ZzA1SnJQY25XM3c5Y0E0ZWd0NW52X2h2T0NlOTVqcE5GM2V1NkpRZ19wTlZZRV9XbktYbVBPY0V4cTRXSlotaklTQTItUnRzeWUtSUZyY2N3ZFJ6UV96aw?oc=5",
+    "published": "2026-06-22",
+    "summary": "WTI 7月原油期货收跌2.32%，报74.82美元/桶&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "补齐市场信息差！36氪股市舆情交流群开放，实物抽奖等你来！",
     "source": "36氪",
