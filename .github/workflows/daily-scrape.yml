@@ -34,12 +34,15 @@ jobs:
           echo "SCRAPE_TIME=$(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_ENV
 
       - name: 抓取新闻
+        continue-on-error: true
         env:
           HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
         run: |
-          python fetch_news.py || echo "新闻抓取失败"
-          python fetch_futures.py || echo "期货新闻抓取失败"
+          echo "📰 开始抓取 GPU 租赁新闻..."
+          python fetch_news.py && echo "✅ GPU 租赁新闻抓取完成" || echo "❌ GPU 租赁新闻抓取失败（将继续执行）"
+          echo "📰 开始抓取 GPU 期货新闻..."
+          python fetch_futures.py && echo "✅ GPU 期货新闻抓取完成" || echo "❌ GPU 期货新闻抓取失败（将继续执行）"
 
       - name: 提交更新
         run: |

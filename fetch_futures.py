@@ -132,18 +132,23 @@ def translate(text: str) -> str:
     if not HAS_TRANS or not text:
         return ""
     try:
-        if len(text) <= 4000:
-            result = GoogleTranslator(source='en', target='zh-CN').translate(text)
-        else:
+        from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
+        def _do_translate(t):
+            if len(t) <= 4000:
+                return GoogleTranslator(source='en', target='zh-CN').translate(t)
             chunks = []
-            for i in range(0, len(text), 4000):
+            for i in range(0, len(t), 4000):
                 chunks.append(GoogleTranslator(source='en', target='zh-CN')
-                              .translate(text[i:i + 4000]))
-            result = " ".join(chunks)
+                              .translate(t[i:i + 4000]))
+            return " ".join(chunks)
+
+        with ThreadPoolExecutor(max_workers=1) as executor:
+            future = executor.submit(_do_translate, text)
+            result = future.result(timeout=20)
         for cn, en in PROPER_NOUNS.items():
             result = result.replace(cn, en)
         return result
-    except Exception:
+    except (FuturesTimeout, Exception):
         return ""
 
 
@@ -192,12 +197,23 @@ def build_rich_fallback(title: str, source: str, published: str, url: str,
 # ==================== RSS 抓取 ====================
 
 def fetch_google_news_rss(query: str, hl: str) -> list[dict]:
-    """从 Google News RSS 搜索文章"""
+    """从 Google News RSS 搜索文章 (带超时的 requests + feedparser)"""
     if not HAS_FEED:
         return []
     rss_url = f"https://news.google.com/rss/search?q={quote(query)}&hl={hl}&ceid={hl}"
     try:
-        feed = feedparser.parse(rss_url)
+        # 先用 requests 获取 RSS XML（带超时），再用 feedparser 解析
+        r = requests.get(rss_url, timeout=TIMEOUT, headers=HEADERS, proxies=PROXY)
+        if r.status_code != 200:
+            print(f"   ⚠ HTTP {r.status_code} for: {query[:40]}")
+            return []
+        feed = feedparser.parse(r.content)
+    except requests.Timeout:
+        print(f"   ⏱ timeout ({TIMEOUT}s): {query[:40]}")
+        return []
+    except requests.RequestException as e:
+        print(f"   ❌ network error: {type(e).__name__} for: {query[:40]}")
+        return []
     except Exception:
         return []
 
