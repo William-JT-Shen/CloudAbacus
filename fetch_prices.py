@@ -2299,53 +2299,57 @@ def main():
           + (f" (+{merged_from_existing} 条保留)" if merged_from_existing else ""))
 
     # ============================================================
-    # 保存/追加历史数据（始终执行，不再需要 --save-history 标志）
+    # 保存/追加历史数据
+    # v6: 历史数据已暂停记录 — 待所有平台实时数据验证通过后恢复
     # ============================================================
-    # --- price_history.js (紧凑格式：折线图用) ---
-    history_data = read_existing_js(OUTPUT_HIST, "PRICE_HISTORY_DATA") or {"snapshots": []}
+    SAVE_HISTORY = False  # ← 改为 True 以恢复历史数据记录
 
-    # 兼容旧格式: {"date": ..., "prices": [{...}]} → {"ts": ..., "d": {...}}
-    for snap in history_data.get("snapshots", []):
-        if "date" in snap and "ts" not in snap:
-            snap["ts"] = snap.pop("date") + "T00:00:00Z"
-        if "prices" in snap and "d" not in snap:
-            old_prices = snap.pop("prices")
-            snap["d"] = {}
-            for gpu_label, entries in old_prices.items():
-                if isinstance(entries, list):
-                    snap["d"][gpu_label] = {e["platform"]: e["price_usd"] for e in entries}
-                else:
-                    snap["d"][gpu_label] = entries
+    if SAVE_HISTORY:
+        # --- price_history.js (紧凑格式：折线图用) ---
+        history_data = read_existing_js(OUTPUT_HIST, "PRICE_HISTORY_DATA") or {"snapshots": []}
 
-    # 新快照 (紧凑格式)
-    compact_snap = {"ts": fetched_at, "d": {}}
-    for label, entries in gpu_categories.items():
-        compact_snap["d"][label] = {e["platform"]: e["price_usd"] for e in entries}
+        # 兼容旧格式: {"date": ..., "prices": [{...}]} → {"ts": ..., "d": {...}}
+        for snap in history_data.get("snapshots", []):
+            if "date" in snap and "ts" not in snap:
+                snap["ts"] = snap.pop("date") + "T00:00:00Z"
+            if "prices" in snap and "d" not in snap:
+                old_prices = snap.pop("prices")
+                snap["d"] = {}
+                for gpu_label, entries in old_prices.items():
+                    if isinstance(entries, list):
+                        snap["d"][gpu_label] = {e["platform"]: e["price_usd"] for e in entries}
+                    else:
+                        snap["d"][gpu_label] = entries
 
-    history_data["snapshots"].append(compact_snap)
-    if len(history_data["snapshots"]) > 1000:
-        history_data["snapshots"] = history_data["snapshots"][-1000:]
+        # 新快照 (紧凑格式)
+        compact_snap = {"ts": fetched_at, "d": {}}
+        for label, entries in gpu_categories.items():
+            compact_snap["d"][label] = {e["platform"]: e["price_usd"] for e in entries}
 
-    atomic_write_js(OUTPUT_HIST, "PRICE_HISTORY_DATA", history_data)
-    atomic_write_js(OUTPUT_HIST_JSON, "", history_data)  # JSON 版本
-    print(f"📝 price_history.js: {len(history_data['snapshots'])} 个快照 (最新: {fetched_at})")
+        history_data["snapshots"].append(compact_snap)
+        if len(history_data["snapshots"]) > 1000:
+            history_data["snapshots"] = history_data["snapshots"][-1000:]
 
-    # --- pricing_history.js (完整格式：所有字段，用于数据恢复和前端展示) ---
-    full_history = read_existing_js(OUTPUT_HIST_FULL, "GPU_PRICING_HISTORY") or {"snapshots": []}
+        atomic_write_js(OUTPUT_HIST, "PRICE_HISTORY_DATA", history_data)
+        atomic_write_js(OUTPUT_HIST_JSON, "", history_data)  # JSON 版本
+        print(f"[HIST] price_history.js: {len(history_data['snapshots'])} snapshots (latest: {fetched_at})")
 
-    # 完整格式快照 (保留所有字段：platform, price_usd, plan, country, region, note, pricing_url, availability, source)
-    full_snap = {
-        "ts": fetched_at,
-        "sources": scrape_log,
-        "data": gpu_categories
-    }
-    full_history["snapshots"].append(full_snap)
-    # 保留最近 168 条（一周的每小时数据）
-    if len(full_history["snapshots"]) > 168:
-        full_history["snapshots"] = full_history["snapshots"][-168:]
+        # --- pricing_history.js (完整格式：所有字段) ---
+        full_history = read_existing_js(OUTPUT_HIST_FULL, "GPU_PRICING_HISTORY") or {"snapshots": []}
 
-    atomic_write_js(OUTPUT_HIST_FULL, "GPU_PRICING_HISTORY", full_history)
-    print(f"📝 pricing_history.js: {len(full_history['snapshots'])} 个完整快照 (最新: {fetched_at})")
+        full_snap = {
+            "ts": fetched_at,
+            "sources": scrape_log,
+            "data": gpu_categories
+        }
+        full_history["snapshots"].append(full_snap)
+        if len(full_history["snapshots"]) > 168:
+            full_history["snapshots"] = full_history["snapshots"][-168:]
+
+        atomic_write_js(OUTPUT_HIST_FULL, "GPU_PRICING_HISTORY", full_history)
+        print(f"[HIST] pricing_history.js: {len(full_history['snapshots'])} full snapshots (latest: {fetched_at})")
+    else:
+        print(f"[HIST] 历史数据记录已暂停 — 待实时数据验证通过后恢复")
 
     # ============================================================
     # 总结
