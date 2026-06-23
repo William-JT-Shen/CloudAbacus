@@ -1921,55 +1921,194 @@ def scrape_aws() -> list[dict]:
     return results
 
 
+def _azure_gpu_count(sku_name: str, gpu_label: str) -> int:
+    """根据 Azure SKU 名称估算 GPU 数量"""
+    s = sku_name.lower()
+    # NDv5 系列: 8 GPU per VM (H100/H200/MI300X)
+    if any(k in s for k in ['nd96is', 'nd96isr', 'nd96ams', 'nd96amsr', 'nd96asr']):
+        return 8
+    # NCv4 A100: 4/2/1 GPU based on vCPU count
+    if 'nc96ads_a100' in s: return 4
+    if 'nc48ads_a100' in s: return 2
+    if 'nc24ads_a100' in s: return 1
+    # NCv5 H100: 2/1 GPU
+    if 'nc80adis_h100' in s: return 2
+    if 'nc40ads_h100' in s or 'ncc40ads_h100' in s: return 1
+    # NCv3 T4: 4/1 GPU
+    if 'nc64as_t4' in s: return 4
+    if 'nc16as_t4' in s or 'nc8as_t4' in s or 'nc4as_t4' in s: return 1
+    # NVv5 A10: 1-6 GPU
+    if 'nv36ads_a10' in s or 'nv36adms_a10' in s: return 6
+    if 'nv18ads_a10' in s: return 3
+    if 'nv12ads_a10' in s: return 2
+    if 'nv6ads_a10' in s: return 1
+    # NVv4: fractional GPU
+    if 'nv32as_v4' in s: return 8
+    if 'nv16as_v4' in s: return 4
+    if 'nv8as_v4' in s: return 2
+    if 'nv4as_v4' in s: return 1
+    # NG V620
+    if 'ng32ads_v620' in s or 'ng32adms_v620' in s: return 4
+    if 'ng16ads_v620' in s: return 2
+    if 'ng8ads_v620' in s: return 1
+    # L-series L4: 4/1 GPU
+    if 'l48' in s: return 4
+    if 'l8' in s and ('l4' in s or 'as_v4' in s): return 1
+    # RTX: estimate from vCPU
+    if 'rtx6k' in s:
+        if 'nc16ds' in s: return 2
+        if 'nc8ds' in s: return 1
+    if 'rtxpro6000' in s:
+        # Based on vCPU count
+        import re
+        m = re.search(r'nc(\d+)', s)
+        if m:
+            vcpus = int(m.group(1))
+            if vcpus >= 256: return 8
+            if vcpus >= 128: return 4
+            if vcpus >= 64: return 2
+            return 1
+    return 1  # default
+
+
 def scrape_azure() -> list[dict]:
-    """Azure GPU VM — 使用公开 Retail Prices API (无需认证)"""
+    """Azure GPU VM — 使用公开 Retail Prices API v2 (全区域 + 全 GPU 型号覆盖)"""
     print("🔍 Azure (GPU VM) ...")
     results = []
-    AZURE_GPU_MAP = {
-        "NC A100 v4": "NVIDIA A100 (80GB SXM)",
-        "NC H100 v5": "NVIDIA H100 (80GB SXM)",
-        "ND H100 v5": "NVIDIA H100 (80GB SXM)",
-        "ND A100 v4": "NVIDIA A100 (80GB SXM)",
-        "NCas T4 v3": "NVIDIA T4",
-        "NC T4 v3": "NVIDIA T4",
-        "NV A10 v5": "NVIDIA A10G",
-        "NVads A10 v5": "NVIDIA A10G",
-    }
+    # SKU 名称 → 标准化 GPU 名称映射
+    AZURE_GPU_MAP = [
+        # (SKU 关键字, GPU 标签) — 按优先级排序
+        ("H200",                                  "NVIDIA H200"),
+        ("H100",                                  "NVIDIA H100 (80GB SXM)"),
+        ("A100",                                  "NVIDIA A100 (80GB SXM)"),
+        ("A10",                                   "NVIDIA A10G"),
+        ("L40s",                                  "NVIDIA L40S"),
+        ("L4",                                    "NVIDIA L4"),
+        ("T4",                                    "NVIDIA T4"),
+        ("MI300X",                                "AMD Radeon Instinct MI300X"),
+        ("V100",                                  "NVIDIA V100"),
+        ("P100",                                  "NVIDIA Tesla P100 / P40"),
+        ("RTXPRO6000",                            "NVIDIA RTX 6000 Ada / A6000"),
+        ("RTX6K",                                 "NVIDIA RTX 6000 Ada / A6000"),
+        ("V620",                                  None),                           # AMD Radeon Pro — 非AI GPU, 跳过
+        ("V710",                                  None),                           # AMD Radeon Pro — 非AI GPU, 跳过
+    ]
+    # GPU VM 家族 + 溢出关键词 (L4 等在 L 家族而非 NC/ND/NV/NG)
+    GPU_FAMILIES = ["NC", "ND", "NV", "NG"]
+    GPU_KEYWORDS = ["L4", "L40s"]  # 其他 GPU 关键词 (可能不在 NC/ND/NV/NG 家族中)
     try:
-        # Azure Retail Prices API
-        url = "https://prices.azure.com/api/retail/prices"
-        params = {
-            "$filter": "serviceName eq 'Virtual Machines' and priceType eq 'Consumption' "
-                       "and contains(productName, 'GPU') and armRegionName eq 'eastus'",
-            "$top": 500
-        }
-        r = requests.get(url, params=params, timeout=60, headers={"User-Agent": UA})
-        if r.status_code != 200:
-            mark_failed("Microsoft Azure", f"Retail API 返回 {r.status_code}")
-            return []
-        data = r.json()
-        for item in data.get("Items", []):
-            product_name = item.get("productName", "")
-            # 匹配 GPU 型号
-            for vm_key, gpu_label in AZURE_GPU_MAP.items():
-                if vm_key.lower() in product_name.lower():
-                    price = float(item.get("retailPrice", 0))
-                    lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
-                    if lo <= price <= hi:
-                        results.append({"gpu": gpu_label, "price_usd": price, "plan": "按需"})
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+        all_items = []
+
+        def _query_family(family):
+            items = []
+            url = "https://prices.azure.com/api/retail/prices"
+            filt = (
+                f"serviceName eq 'Virtual Machines' "
+                f"and priceType eq 'Consumption' "
+                f"and contains(armSkuName, '{family}')"
+            )
+            params = {"$filter": filt}
+            next_link = None
+            pages = 0
+            while pages < 5:
+                try:
+                    if next_link:
+                        r = requests.get(next_link, timeout=30, headers={"User-Agent": UA})
+                    else:
+                        r = requests.get(url, params=params, timeout=30, headers={"User-Agent": UA})
+                    if r.status_code != 200:
+                        break
+                    data = r.json()
+                    items.extend(data.get("Items", []))
+                    next_link = data.get("NextPageLink")
+                    if not next_link:
+                        break
+                    pages += 1
+                except Exception:
                     break
-        # 去重取最低价
-        seen = {}
-        for r_item in results:
-            label = r_item["gpu"]
-            if label not in seen or r_item["price_usd"] < seen[label]["price_usd"]:
-                seen[label] = r_item
-        results = list(seen.values())
+            return items
+
+        # 并行查询: 4 GPU 家族 + GPU 关键词
+        all_queries = list(GPU_FAMILIES) + list(GPU_KEYWORDS)
+        with ThreadPoolExecutor(max_workers=min(8, len(all_queries))) as executor:
+            futures = {executor.submit(_query_family, q): q for q in all_queries}
+            for future in as_completed(futures):
+                query = futures[future]
+                try:
+                    items = future.result()
+                    all_items.extend(items)
+                    print(f"    {query}: {len(items)} items")
+                except Exception as e:
+                    print(f"    {query}: ERROR {e}")
+
+        # 去重: (sku, region, price) 三元组
+        seen_keys = set()
+        unique_items = []
+        for item in all_items:
+            key = (item.get("armSkuName"), item.get("armRegionName"), item.get("retailPrice"))
+            if key not in seen_keys:
+                seen_keys.add(key)
+                unique_items.append(item)
+
+        print(f"    Total unique: {len(unique_items)}")
+
+        # 按 SKU → GPU 映射归类
+        sku_gpu_map = {}  # sku_name → (gpu_label, gpu_count)
+        for item in unique_items:
+            sku = item.get("armSkuName", "")
+            product = item.get("productName", "")
+            for sku_key, gpu_label in AZURE_GPU_MAP:
+                if sku_key.lower() in sku.lower() or sku_key.lower() in product.lower():
+                    if gpu_label is None:
+                        break  # 跳过非目标 GPU (如 V620/V710)
+                    sku_gpu_map[sku] = (gpu_label, _azure_gpu_count(sku, gpu_label))
+                    break
+
+        # 收集价格 (按 GPU 型号 → 最低 per-GPU 价)
+        gpu_prices = {}  # gpu_label → min_per_gpu_price
+        for item in unique_items:
+            sku = item.get("armSkuName", "")
+            if sku not in sku_gpu_map:
+                continue
+            gpu_label, gpu_count = sku_gpu_map[sku]
+            price = float(item.get("retailPrice", 0))
+            # 跳过明显异常的价格
+            if price <= 0 or price > 200:
+                continue
+            # 跳过 Spot / Low Priority / Reserved (关键词在产品名或 SKU 名中)
+            combined = (item.get("productName", "") + " " + sku).lower()
+            if any(kw in combined for kw in ["spot", "low priority", "reserved", "savings plan", "三年", "一年"]):
+                continue
+            # 计算 per-GPU 价格
+            per_gpu = round(price / gpu_count, 4)
+            # 检查 per-GPU 价格是否在合理范围内
+            lo, hi = PRICE_RANGES.get(gpu_label, (0.005, 100))
+            if not (lo * 0.5 <= per_gpu <= hi * 6):  # Azure 价格范围更宽 (VM 含计算资源)
+                continue
+            region = item.get("armRegionName", "")
+            if gpu_label not in gpu_prices or per_gpu < gpu_prices[gpu_label]["price_usd"]:
+                gpu_prices[gpu_label] = {
+                    "gpu": gpu_label,
+                    "price_usd": per_gpu,
+                    "plan": f"Azure VM ({gpu_count}× GPU)",
+                    "region": region,
+                    "sku": sku,
+                }
+
+        results = list(gpu_prices.values())
+        # 清理内部字段
+        for r in results:
+            r.pop("sku", None)
+            r.pop("region", None)
+
     except Exception as e:
         mark_failed("Microsoft Azure", f"API 异常: {e}")
         return []
     if results:
         mark_ok("Microsoft Azure", len(results))
+        for r in results[:8]:
+            print(f"    {r['gpu']}: \${r['price_usd']}/hr ({r['plan']})")
     else:
         mark_failed("Microsoft Azure", "未提取到 GPU 价格")
     return results
