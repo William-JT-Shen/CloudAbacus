@@ -119,18 +119,29 @@ def detect_lang(text: str) -> str:
     return "zh" if cn_chars >= 2 else "en"
 
 
+# 复用单个翻译器实例（避免每次创建 ThreadPoolExecutor 的开销）
+_TRANSLATOR = None
+def _get_translator():
+    global _TRANSLATOR
+    if _TRANSLATOR is None and HAS_TRANS:
+        _TRANSLATOR = GoogleTranslator(source='en', target='zh-CN')
+    return _TRANSLATOR
+
 def translate(text: str) -> str:
     if not HAS_TRANS or not text:
         return ""
     try:
         from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
+        translator = _get_translator()
+        if translator is None:
+            return ""
+
         def _do_translate(t):
             if len(t) <= 4000:
-                return GoogleTranslator(source='en', target='zh-CN').translate(t)
+                return translator.translate(t)
             chunks = []
             for i in range(0, len(t), 4000):
-                chunks.append(GoogleTranslator(source='en', target='zh-CN')
-                              .translate(t[i:i + 4000]))
+                chunks.append(translator.translate(t[i:i + 4000]))
             return " ".join(chunks)
 
         with ThreadPoolExecutor(max_workers=1) as executor:
@@ -178,25 +189,34 @@ def build_rich_fallback(title: str, source: str, published: str,
 # ==================== RSS 抓取 ====================
 
 def fetch_google_news_rss(query: str, hl: str) -> list[dict]:
-    """从 Google News RSS 搜索文章 (带超时的 requests + feedparser)"""
+    """从 Google News RSS 搜索文章 (带超时的 requests + feedparser，含重试)"""
     if not HAS_FEED:
         return []
     rss_url = f"https://news.google.com/rss/search?q={quote(query)}&hl={hl}&ceid={hl}"
-    try:
-        # 先用 requests 获取 RSS XML（带超时），再用 feedparser 解析
-        r = requests.get(rss_url, timeout=TIMEOUT, headers=HEADERS, proxies=PROXY)
-        if r.status_code != 200:
-            print(f"   ⚠ HTTP {r.status_code} for: {query[:40]}")
+
+    for attempt in range(2):  # 最多重试一次
+        try:
+            # 先用 requests 获取 RSS XML（带超时），再用 feedparser 解析
+            r = requests.get(rss_url, timeout=TIMEOUT, headers=HEADERS, proxies=PROXY)
+            if r.status_code != 200:
+                print(f"   ⚠ HTTP {r.status_code} for: {query[:40]}")
+                return []
+            feed = feedparser.parse(r.content)
+            break  # 成功，跳出重试循环
+        except requests.Timeout:
+            if attempt == 0:
+                print(f"   ⏱ timeout (attempt {attempt+1}), retrying: {query[:40]}")
+                continue
+            print(f"   ⏱ timeout ({TIMEOUT}s): {query[:40]}")
             return []
-        feed = feedparser.parse(r.content)
-    except requests.Timeout:
-        print(f"   ⏱ timeout ({TIMEOUT}s): {query[:40]}")
-        return []
-    except requests.RequestException as e:
-        print(f"   ❌ network error: {type(e).__name__} for: {query[:40]}")
-        return []
-    except Exception:
-        return []
+        except requests.RequestException as e:
+            if attempt == 0:
+                print(f"   🔄 {type(e).__name__} (attempt {attempt+1}), retrying: {query[:40]}")
+                continue
+            print(f"   ❌ network error: {type(e).__name__} for: {query[:40]}")
+            return []
+        except Exception:
+            return []
 
     results = []
     for e in feed.entries[:10]:

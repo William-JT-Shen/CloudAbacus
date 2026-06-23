@@ -1,6 +1,6 @@
 // GPU算力租赁新闻 v4
-// Generated: 2026-06-23T04:13:34Z
-var NEWS_FETCHED_AT = "2026-06-23T04:13:34Z";
+// Generated: 2026-06-23T04:28:29Z
+var NEWS_FETCHED_AT = "2026-06-23T04:28:29Z";
 var GPU_NEWS = [
   {
     "title": "GPU租赁价短期承压、交付周期拉长至15个月，英伟达(NVDA.US)是否被市场严重误读了？",
@@ -697,18 +697,18 @@ var GPU_NEWS = [
     "full_text_cn": "「Nvidia Blackwell GPU 租金达到 0.08/小时：突破 48% [2026]」\n\n资料来源：tech-insider.org\n发布时间：2026-05-13\n\n原文：Nvidia Blackwell GPU 租金达到 0.08/小时：飙升 48% [2026]\n\n本文是通过 Google 新闻从 tech-insider.org 汇总的。单击卡片即可阅读全文。 Google 新闻链接会将您重定向到原始页面。\n\n本节涵盖 GPU 计算租赁市场趋势，包括 H100/A100/H200/B200 云定价、CoreWeave/RunPod/Vast.ai/Lambda Labs 费率以及 GPU 云供需动态。"
   },
   {
-    "title": "CME to create futures market for computing power backing AI",
-    "source": "Crain's Chicago Business",
-    "source_url": "https://www.chicagobusiness.com",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTG5acmF6bTV0Y2cxM0tIQl9OZVJIeVVLT2VPWmM3a2h4bUtLZ1RsaTRmR2RaMVRIdjBiTmNsUFRUc0NiLUxnUHFpbTNrZDNJaU1rSUZpazZ2ZEZXLVdKOXNiNWp3QVNqSlZsRjV5R3ZUeHBELUhlTHlidl9oWTlDQWUwa2JpbTUwMVlMVHk0LTh4Vlo4Y1E0?oc=5",
+    "title": "Traders will soon be able to bet on computer chip prices as AI drives costs skyward",
+    "source": "CNBC",
+    "source_url": "https://www.cnbc.com",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV3ZRVVZpOXRSZ3lpbHFWVnNKblBYcmxCMjRpX2pKYS1NMHY0cWRRcXlXS1A5Y0tiZk9kdlhOS2lmRmtXR2FDdFVvcV9rYUFfc29LZUJTd3pRdEJxdlNOcVRXbExBTVc0V3NPNnU5cG1ONDUtMW9TbHFLOTFIX0JBdU5SelFkbGtOVnowekthQnFrMnVHV0E0RU5IakU3ZDZEek1WVnZTSVQ3Q1nSAbABQVVfeXFMTXFsU1UtbHlfTmE0aXZsVi1hSHZ6UTVyTk9mNnBDOWpGT3AyeURxTnVVcEZJU2R4aFREaVg0VENSQm1BYjVUZWxKUWtoaXpXUVJGNVprRzZSRFZGQnZPc2VNQXZ1dTRoQU9vbTZRWTN6QTBYdDRRdDY4QThHR3NJZHlqemFGVFZGWThXZ2Q5YXV6SFFrbmNXT3kzbWJBczZ3d0NnR2gtYldBc1lHZ0dqZXU?oc=5",
     "published": "2026-05-12",
-    "summary": "CME to create futures market for computing power backing AI&nbsp;&nbsp;Crain's Chicago Business",
-    "full_text": "「CME将创建支持人工智能的算力期货市场」\n\nSource: Crain's Chicago Business\nPublished: 2026-05-12\n\nOriginal: CME to create futures market for computing power backing AI\n\nThis article is aggregated from Crain's Chicago Business via Google News. Click the card to read the full article. The Google News link will redirect you to the original page.\n\nThis section covers GPU compute rental market trends, including H100/A100/H200/B200 cloud pricing, CoreWeave/RunPod/Vast.ai/Lambda Labs rates, and GPU cloud supply-demand dynamics.",
+    "summary": "Traders will soon be able to bet on computer chip prices as AI drives costs skyward&nbsp;&nbsp;CNBC",
+    "full_text": "「随着人工智能推动成本飙升，交易员很快就能押注计算机芯片价格」\n\nSource: CNBC\nPublished: 2026-05-12\n\nOriginal: Traders will soon be able to bet on computer chip prices as AI drives costs skyward\n\nThis article is aggregated from CNBC via Google News. Click the card to read the full article. The Google News link will redirect you to the original page.\n\nThis section covers GPU compute rental market trends, including H100/A100/H200/B200 cloud pricing, CoreWeave/RunPod/Vast.ai/Lambda Labs rates, and GPU cloud supply-demand dynamics.",
     "images": [],
     "lang": "en",
-    "title_cn": "CME将创建支持人工智能的算力期货市场",
-    "summary_cn": "CME 将创建支持人工智能的算力期货市场 &nbsp;&nbsp;Crain 的芝加哥商业",
+    "title_cn": "随着人工智能推动成本飙升，交易员很快就能押注计算机芯片价格",
+    "summary_cn": "随着人工智能推动成本飙升，交易员很快就能押注计算机芯片价格 &nbsp; &nbsp;CNBC",
     "translated": true,
-    "full_text_cn": "「CME 将创建支持人工智能的算力期货市场」\n\n资料来源：克雷恩芝加哥商业报\n发布时间：2026-05-12\n\n原文：CME 将创建支持人工智能的算力期货市场\n\n本文是通过 Google 新闻从 Crain's Chicago Business 汇总的。单击卡片即可阅读全文。 Google 新闻链接会将您重定向到原始页面。\n\n本节涵盖 GPU 计算租赁市场趋势，包括 H100/A100/H200/B200 云定价、CoreWeave/RunPod/Vast.ai/Lambda Labs 费率以及 GPU 云供需动态。"
+    "full_text_cn": "「随着人工智能推动成本激增，交易员很快就能押注计算机芯片价格」\n\n来源：CNBC\n发布时间：2026-05-12\n\n原文：随着人工智能推动成本飙升，交易员很快就能押注计算机芯片价格\n\n本文通过 Google 新闻从 CNBC 汇总。单击卡片即可阅读全文。 Google 新闻链接会将您重定向到原始页面。\n\n本节涵盖 GPU 计算租赁市场趋势，包括 H100/A100/H200/B200 云定价、CoreWeave/RunPod/Vast.ai/Lambda Labs 费率以及 GPU 云供需动态。"
   }
 ];
