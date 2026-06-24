@@ -2724,7 +2724,7 @@
         "RTX 5080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.21
+            "price_usd": 0.22
           }
         ],
         "RTX 5070 TI": [
@@ -2787,13 +2787,13 @@
             "price_usd": 0.11
           }
         ],
-        "NVIDIA RTX 3070 / 3070 Ti": [
+        "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.08
           }
         ],
-        "NVIDIA RTX 3060 / 3060 Ti": [
+        "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.08
@@ -2814,7 +2814,7 @@
         "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.05
           }
         ],
         "RTX 5880": [
