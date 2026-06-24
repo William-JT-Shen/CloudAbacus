@@ -22,6 +22,7 @@ import json
 import re
 import sys
 import io
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -874,19 +875,22 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
             page = browser.new_page()
             page.set_default_timeout(60000)
 
-            # v6: 拦截 API 响应，捕获 JSON 数据
+            # v7: 拦截 API 响应，捕获 JSON 数据 (扩展 GraphQL + 更多模式)
             def _capture_api(response):
                 try:
                     ct = response.headers.get('content-type', '')
-                    if 'json' in ct and response.ok:
+                    if ('json' in ct or 'javascript' in ct) and response.ok:
                         url_lower = response.url.lower()
-                        # 捕获定价相关的 API 调用
+                        # 扩展: 捕获定价/GPU/实例/配置相关的 API 调用 + GraphQL
                         if any(kw in url_lower for kw in
                                ['price', 'pricing', 'gpu', 'bundle', 'instance',
-                                'product', 'catalog', 'rate', 'offer', 'sku']):
+                                'product', 'catalog', 'rate', 'offer', 'sku',
+                                'graphql', 'query', 'config', 'calculator', 'bss',
+                                'describe', 'inquiry', 'ecs', 'cvm', 'vm', 'compute',
+                                'pricetab', 'ratingservice', 'zoneinstancesold']):
                             body = response.text()
-                            if 100 < len(body) < 500000:
-                                api_responses.append({'url': response.url, 'body': body[:50000]})
+                            if 100 < len(body) < 1000000:
+                                api_responses.append({'url': response.url, 'body': body[:80000]})
                 except Exception:
                     pass
             page.on('response', _capture_api)
@@ -954,6 +958,36 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
                 pass
 
             # 提取文本和 HTML（v5: 双提取，HTML 供多策略解析使用）
+            # v7: 先尝试提取 JS 状态中的结构化数据
+            js_state_data = ""
+            try:
+                js_state = page.evaluate("""() => {
+                    // React/Vue/Next.js 状态提取
+                    const sources = [];
+                    // Next.js
+                    if (window.__NEXT_DATA__) sources.push(JSON.stringify(window.__NEXT_DATA__));
+                    // Vue
+                    if (window.__NUXT__) sources.push(JSON.stringify(window.__NUXT__));
+                    if (window.__INITIAL_STATE__) sources.push(JSON.stringify(window.__INITIAL_STATE__));
+                    // 通用: 查找 window 上包含 price/pricing/gpu 的对象
+                    for (const k of Object.keys(window)) {
+                        if (k.toLowerCase().includes('price') || k.toLowerCase().includes('gpu') ||
+                            k.toLowerCase().includes('config') || k.toLowerCase().includes('pricing')) {
+                            try {
+                                const v = window[k];
+                                if (typeof v === 'object' && v !== null && !k.startsWith('on')) {
+                                    sources.push(k + '=' + JSON.stringify(v).substring(0, 50000));
+                                }
+                            } catch(e) {}
+                        }
+                    }
+                    return sources.join('\\n---\\n');
+                }""")
+                if js_state and len(js_state) > 10:
+                    js_state_data = js_state
+            except Exception:
+                pass
+
             body_text = page.inner_text("body")
             body_html = page.content()
             try:
@@ -1015,6 +1049,12 @@ def scrape_with_playwright(url: str, platform_name: str, wait_sec: int = 5,
                     _search_json(data)
                     if results:
                         break
+            # v7: JS 状态数据提取 — 从 window 对象中提取嵌入的 JSON 数据
+            if not results and js_state_data:
+                # 尝试从 JS 状态中提取 GPU 价格
+                results = extract_prices_from_text(js_state_data)
+                if not results:
+                    results = extract_prices_multistrategy(js_state_data, COMMON_GPUS, currency="USD")
     except Exception as e:
         scrape_log[platform_name] = {"status": "failed", "gpu_count": 0, "error": str(e)[:100]}
         print(f"  ❌ Playwright 异常: {e}")
@@ -1856,55 +1896,139 @@ def scrape_tencent_cloud():
 # ============================================================
 
 def scrape_aws() -> list[dict]:
-    """AWS EC2 GPU 实例 — 使用公开 Price List API (无需认证)"""
+    """AWS EC2 GPU 实例 — 使用公开 Price List API (多区域并行, 智能缓存)"""
     print("🔍 AWS (EC2 GPU) ...")
     results = []
-    # AWS GPU 实例类型到 GPU 标签的映射
+    # AWS GPU 实例类型 → GPU 标签映射 (扩展版, 含最新 B200/Blackwell)
     GPU_INSTANCE_MAP = {
-        "p5.48xlarge": "NVIDIA H100 (80GB SXM)",
-        "p5e.48xlarge": "NVIDIA H200",
-        "p4d.24xlarge": "NVIDIA A100 (80GB SXM)",
-        "p4de.24xlarge": "NVIDIA A100 (80GB SXM)",
-        "g6.12xlarge": "NVIDIA L4",
-        "g6e.12xlarge": "NVIDIA L40S",
-        "g5.12xlarge": "NVIDIA A10G",
-        "g5g.8xlarge": "NVIDIA T4",
-        "g4dn.12xlarge": "NVIDIA T4",
-        "p3.16xlarge": "NVIDIA V100",
+        # H200 / Blackwell
+        "p5e.48xlarge":   "NVIDIA H200",
+        "p5en.48xlarge":  "NVIDIA H200",
+        "p6.48xlarge":    "NVIDIA B200",
+        # H100
+        "p5.48xlarge":    "NVIDIA H100 (80GB SXM)",
+        "p5.24xlarge":    "NVIDIA H100 (80GB SXM)",
+        # A100
+        "p4d.24xlarge":   "NVIDIA A100 (80GB SXM)",
+        "p4de.24xlarge":  "NVIDIA A100 (80GB SXM)",
+        # L40S
+        "g6e.12xlarge":   "NVIDIA L40S",
+        "g6e.24xlarge":   "NVIDIA L40S",
+        "g6e.4xlarge":    "NVIDIA L40S",
+        "g6e.8xlarge":    "NVIDIA L40S",
+        "g6e.xlarge":     "NVIDIA L40S",
+        "g6e.2xlarge":    "NVIDIA L40S",
+        # L4
+        "g6.12xlarge":    "NVIDIA L4",
+        "g6.24xlarge":    "NVIDIA L4",
+        "g6.4xlarge":     "NVIDIA L4",
+        "g6.8xlarge":     "NVIDIA L4",
+        "g6.xlarge":      "NVIDIA L4",
+        "g6.2xlarge":     "NVIDIA L4",
+        # A10G
+        "g5.12xlarge":    "NVIDIA A10G",
+        "g5.24xlarge":    "NVIDIA A10G",
+        "g5.4xlarge":     "NVIDIA A10G",
+        "g5.8xlarge":     "NVIDIA A10G",
+        "g5.xlarge":      "NVIDIA A10G",
+        "g5.2xlarge":     "NVIDIA A10G",
+        # T4 / T4g
+        "g5g.8xlarge":    "NVIDIA T4",
+        "g5g.4xlarge":    "NVIDIA T4",
+        "g5g.xlarge":     "NVIDIA T4",
+        "g5g.2xlarge":    "NVIDIA T4",
+        "g4dn.12xlarge":  "NVIDIA T4",
+        "g4dn.8xlarge":   "NVIDIA T4",
+        "g4dn.4xlarge":   "NVIDIA T4",
+        "g4dn.xlarge":    "NVIDIA T4",
+        "g4dn.2xlarge":   "NVIDIA T4",
+        # V100
+        "p3.16xlarge":    "NVIDIA V100",
+        "p3.8xlarge":     "NVIDIA V100",
+        "p3.2xlarge":     "NVIDIA V100",
+        # P100 / K80
+        "p2.16xlarge":    "NVIDIA Tesla P100 / P40",
+        "p2.8xlarge":     "NVIDIA Tesla P100 / P40",
+        "p2.xlarge":      "NVIDIA Tesla P100 / P40",
+        # Trainium (AWS 自研)
+        "trn1.32xlarge":  "AWS Trainium",
+        "trn2.48xlarge":  "AWS Trainium2",
     }
+    # 主要区域 (价格差异最大的区域)
+    REGIONS = ["us-east-1", "us-west-2", "eu-west-1", "ap-northeast-1"]
     try:
-        # 使用 AWS Price List API 区域索引（仅 us-east-1 来减小体积）
-        index_url = "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/us-east-1/index.json"
-        r = requests.get(index_url, timeout=120, headers={"User-Agent": UA})
-        if r.status_code != 200:
-            mark_failed("AWS (Amazon EC2)", f"Price List API 返回 {r.status_code}")
-            return []
-        data = r.json()
-        products = data.get("products", {})
-        terms = data.get("terms", {}).get("OnDemand", {})
+        cache_dir = Path(__file__).parent / ".aws_cache"
+        cache_dir.mkdir(exist_ok=True)
 
-        for sku, product in products.items():
-            attrs = product.get("attributes", {})
-            instance_type = attrs.get("instanceType", "")
-            if instance_type not in GPU_INSTANCE_MAP:
-                continue
-            gpu_label = GPU_INSTANCE_MAP[instance_type]
-            # 获取按需价格
-            sku_terms = terms.get(sku, {})
-            for offer_key, offer in sku_terms.items():
-                price_dim = offer.get("priceDimensions", {})
-                for pd_key, pd in price_dim.items():
-                    price_str = pd.get("pricePerUnit", {}).get("USD", "0")
-                    try:
-                        price = float(price_str)
-                    except ValueError:
+        def _fetch_region(region):
+            cache_file = cache_dir / f"{region}.json"
+            # 使用缓存 (1小时有效)
+            if cache_file.exists():
+                mtime = cache_file.stat().st_mtime
+                if time.time() - mtime < 3600:
+                    with open(cache_file, "r", encoding="utf-8") as f:
+                        return json.load(f)
+            # 下载
+            url = f"https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/{region}/index.json"
+            r = requests.get(url, timeout=120, headers={"User-Agent": UA})
+            if r.status_code != 200:
+                return None
+            data = r.json()
+            # 只缓存需要的部分 (节省磁盘)
+            slim = {"products": {}, "terms": {"OnDemand": {}}}
+            for sku, product in data.get("products", {}).items():
+                attrs = product.get("attributes", {})
+                itype = attrs.get("instanceType", "")
+                if itype in GPU_INSTANCE_MAP:
+                    slim["products"][sku] = product
+            for sku in slim["products"]:
+                if sku in data.get("terms", {}).get("OnDemand", {}):
+                    slim["terms"]["OnDemand"][sku] = data["terms"]["OnDemand"][sku]
+            with open(cache_file, "w", encoding="utf-8") as f:
+                json.dump(slim, f)
+            return slim
+
+        # 并行下载多个区域
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+        with ThreadPoolExecutor(max_workers=min(4, len(REGIONS))) as executor:
+            futs = {executor.submit(_fetch_region, r): r for r in REGIONS}
+            for future in as_completed(futs):
+                region = futs[future]
+                try:
+                    data = future.result()
+                    if not data:
                         continue
-                    lo, hi = PRICE_RANGES.get(gpu_label, (0.01, 1000))
-                    if lo <= price <= hi:
-                        results.append({"gpu": gpu_label, "price_usd": price, "plan": "按需"})
-                    break  # 只取第一个有效价格
-                break
-        # 去重：同 GPU 型号取最低价
+                    products = data.get("products", {})
+                    terms = data.get("terms", {}).get("OnDemand", {})
+                    for sku, product in products.items():
+                        attrs = product.get("attributes", {})
+                        instance_type = attrs.get("instanceType", "")
+                        if instance_type not in GPU_INSTANCE_MAP:
+                            continue
+                        gpu_label = GPU_INSTANCE_MAP[instance_type]
+                        sku_terms = terms.get(sku, {})
+                        for offer in sku_terms.values():
+                            price_dim = offer.get("priceDimensions", {})
+                            for pd in price_dim.values():
+                                price_str = pd.get("pricePerUnit", {}).get("USD", "0")
+                                try:
+                                    price = float(price_str)
+                                except ValueError:
+                                    continue
+                                lo, hi = PRICE_RANGES.get(gpu_label, (0.005, 50))
+                                if lo * 0.5 <= price <= hi * 6:
+                                    results.append({
+                                        "gpu": gpu_label,
+                                        "price_usd": price,
+                                        "plan": f"AWS EC2 ({region})"
+                                    })
+                                break  # 第一个有效价格
+                            break
+                    print(f"    {region}: OK")
+                except Exception as e:
+                    print(f"    {region}: ERR {str(e)[:60]}")
+
+        # 去重: 同 GPU 型号取最低价
         seen = {}
         for r_item in results:
             label = r_item["gpu"]
@@ -1916,6 +2040,8 @@ def scrape_aws() -> list[dict]:
         return []
     if results:
         mark_ok("AWS (Amazon EC2)", len(results))
+        for r in results[:8]:
+            print(f"    {r['gpu']}: \${r['price_usd']}/hr ({r.get('plan', '')})")
     else:
         mark_failed("AWS (Amazon EC2)", "未提取到 GPU 价格")
     return results
