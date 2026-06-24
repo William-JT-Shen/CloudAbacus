@@ -1,517 +1,256 @@
-// 运算盘 · GPU 价格数据 (实时 + 参考)
-// 生成时间: 2026-06-24 18:00 (北京时间)
-// 实时平台: 21 | 参考平台: 122 | GPU分类: 83 | 总条目: 364
-// 覆盖 data.js 全部 106 个平台
+// 运算盘 · 实时 GPU 价格数据
+// 自动生成于: 2026-06-24 18:00 (北京时间)
+// ⚠️ 由 fetch_prices.py 自动生成，请勿手动编辑
 
 var PRICE_FETCHED_AT = "2026-06-24 18:00 (北京时间)";
 var PRICE_SCRAPE_SOURCES = {
-  "AWS (Amazon EC2)": {
+  "Vast.ai": {
     "status": "ok",
-    "gpu_count": 10
-  },
-  "Cerebrium": {
-    "status": "reference",
-    "gpu_count": 8
-  },
-  "CoreWeave": {
-    "status": "reference",
-    "gpu_count": 9
-  },
-  "DigitalOcean": {
-    "status": "reference",
-    "gpu_count": 6
-  },
-  "Exoscale": {
-    "status": "reference",
-    "gpu_count": 8
-  },
-  "Hostkey": {
-    "status": "reference",
-    "gpu_count": 15
-  },
-  "JarvisLabs": {
-    "status": "reference",
-    "gpu_count": 7
-  },
-  "Lambda Labs": {
-    "status": "reference",
-    "gpu_count": 8
-  },
-  "Massed Compute": {
-    "status": "reference",
-    "gpu_count": 9
-  },
-  "Microsoft Azure": {
-    "status": "reference",
-    "gpu_count": 9
-  },
-  "NexGen Cloud": {
-    "status": "reference",
-    "gpu_count": 4
-  },
-  "Oracle Cloud": {
-    "status": "ok",
-    "gpu_count": 8
-  },
-  "Paperspace": {
-    "status": "reference",
-    "gpu_count": 4
-  },
-  "Replicate": {
-    "status": "reference",
-    "gpu_count": 4
+    "gpu_count": 11
   },
   "RunPod": {
     "status": "ok",
     "gpu_count": 2
   },
-  "Salad": {
-    "status": "reference",
-    "gpu_count": 25
+  "Lambda Labs": {
+    "status": "ok",
+    "gpu_count": 9
   },
-  "Saturn Cloud": {
-    "status": "reference",
-    "gpu_count": 7
-  },
-  "Scaleway": {
+  "CoreWeave": {
     "status": "ok",
     "gpu_count": 5
   },
   "TensorDock": {
-    "status": "reference",
-    "gpu_count": 13
+    "status": "ok",
+    "gpu_count": 9
   },
-  "UpCloud": {
-    "status": "reference",
-    "gpu_count": 5
+  "AWS (Amazon EC2)": {
+    "status": "ok",
+    "gpu_count": 10
   },
-  "Vast.ai": {
-    "status": "reference",
-    "gpu_count": 30
-  },
-  "21Cloud": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Akamai Linode": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Akash Network": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Anyscale": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Applied Digital": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Aruba Cloud": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "AutoDL": {
-    "status": "reference",
-    "gpu_count": 4
-  },
-  "BentoML (BentoCloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Bizon": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Cherry Servers": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Cirrascale": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "CodeOcean": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Coiled": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Cudo Compute": {
-    "status": "reference",
-    "gpu_count": 6
-  },
-  "DataCrunch": {
-    "status": "reference",
-    "gpu_count": 5
-  },
-  "DataPacket": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Databricks": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Dedicated.com": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Deepnote": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Equinix Metal": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Fireworks.ai": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "FluidStack": {
-    "status": "reference",
-    "gpu_count": 3
-  },
-  "G-Core Labs": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "Genesis Cloud": {
-    "status": "reference",
-    "gpu_count": 3
-  },
-  "Golem Network": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Google Cloud (GCP)": {
-    "status": "reference",
+  "Oracle Cloud": {
+    "status": "ok",
     "gpu_count": 8
   },
-  "Google Colab": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "Hetzner": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "Hivelocity": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Hugging Face (Inference Endpoints)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "IBM Cloud": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "IIJ GIO": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "KT Cloud": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "LeaderGPU": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "Leaseweb": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Matpool (矩池云)": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "Mining Rig Rentals": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Modal": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Monster API": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Mystic AI": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "NVIDIA DGX Cloud": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "Naver Cloud": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "NiceHash": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "OVHcloud": {
-    "status": "reference",
+  "Scaleway": {
+    "status": "ok",
     "gpu_count": 5
-  },
-  "OctoML (OctoAI)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Oracle Cloud Infrastructure": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "PhoenixNAP": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Psychz": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Q Blocks": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "QuadraNet": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Rackspace Technology": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Render Network": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Rescale": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "RunPod (Community Cloud)": {
-    "status": "reference",
-    "gpu_count": 13
-  },
-  "RunPod (Secure Cloud)": {
-    "status": "reference",
-    "gpu_count": 4
-  },
-  "SabrePC": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Sakura Internet": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "ServerMania": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Servers.com": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "T-Systems (Open Telekom Cloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Together AI": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "TurnKey Internet": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "UCloud": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (1080 Ti)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (1080)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (6600 XT)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (6700 XT)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (6800 XT)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (6800)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (6900 XT)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (7600)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (7700 XT)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (7800 XT)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (7900 XT)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (7900 XTX)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (K80)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (M40)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (P100)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (P40)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vast.ai (RTX 6000 Ada)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "Vultr": {
-    "status": "reference",
-    "gpu_count": 5
-  },
-  "Yandex Cloud": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "上海超算中心 (SSCS)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "中国移动云 (China Mobile Cloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "之江实验室 (Zhejiang Lab)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "京东云 (JD Cloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "北京超级云计算中心 (BLSC)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "华为云 (Huawei Cloud)": {
-    "status": "reference",
-    "gpu_count": 3
-  },
-  "合肥先进计算中心 (Hefei ACC)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "国家超算天津中心 (NSCC-TJ)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "国家超算广州中心 (NSCC-GZ)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "国家超算无锡中心 (NSCC-WX)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "国家超算深圳中心 (NSCC-SZ)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "天翼云 (China Telecom e-Surfing Cloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "并行科技 (Paratera)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "极视角 (Video++ AI Cloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "浪潮云 (Inspur Cloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "火山引擎 (Volcengine)": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "百度智能云 (Baidu AI Cloud)": {
-    "status": "reference",
-    "gpu_count": 2
-  },
-  "联通云 (China Unicom Cloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "腾讯云 (Tencent Cloud)": {
-    "status": "reference",
-    "gpu_count": 3
-  },
-  "金山云 (Kingsoft Cloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "阿里云 (Alibaba Cloud)": {
-    "status": "reference",
-    "gpu_count": 3
-  },
-  "青云 (QingCloud)": {
-    "status": "reference",
-    "gpu_count": 1
-  },
-  "鹏城云脑 (Pengcheng Cloud Brain)": {
-    "status": "reference",
-    "gpu_count": 2
   }
 };
 
 var GPU_PRICING_LIVE = {
+  "NVIDIA V100": [
+    { "platform": "AWS (Amazon EC2)", "price_usd": 0.368, "plan": "AWS EC2 (eu-west-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
+    { "platform": "Saturn Cloud", "price_usd": 1.095, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://saturncloud.io/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Exoscale", "price_usd": 1.38, "plan": "最小配置 (API)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.exoscale.com/gpu/", "availability": "", "source": "scraped" },
+    { "platform": "Paperspace", "price_usd": 1.84, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.paperspace.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Oracle Cloud", "price_usd": 2.95, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Genesis Cloud", "price_usd": 0.6, "plan": "按需", "country": "冰岛/德国", "region": "欧洲", "note": "参考数据 · 可再生能源", "pricing_url": "https://genesiscloud.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "JarvisLabs", "price_usd": 0.7, "plan": "按需", "country": "印度", "region": "亚太", "note": "参考数据", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "reference" },
+    { "platform": "OVHcloud", "price_usd": 0.9, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.ovhcloud.com/en/public-cloud/prices/", "availability": "", "source": "reference" },
+    { "platform": "Google Cloud (GCP)", "price_usd": 1.8, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 上一代旗舰 GPU", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" },
+    { "platform": "Lambda Labs", "price_usd": 1.99, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "TensorDock", "price_usd": 0.17, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 0.11, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共30张", "source": "scraped" }
+  ],
+  "NVIDIA RTX 6000 Ada / A6000": [
+    { "platform": "Microsoft Azure", "price_usd": 0.1836, "plan": "Azure VM (1× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
+    { "platform": "Massed Compute", "price_usd": 0.57, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Exoscale", "price_usd": 2.15, "plan": "最小配置 (API)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.exoscale.com/gpu/", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai (RTX 6000 Ada)", "price_usd": 0.38, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · Ada 架构，48GB 显存", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Community Cloud)", "price_usd": 0.69, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "DataCrunch", "price_usd": 0.7, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "Lambda Labs", "price_usd": 0.79, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 入门级数据中心 GPU", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "reference" },
+    { "platform": "JarvisLabs", "price_usd": 0.8, "plan": "按需", "country": "印度", "region": "亚太", "note": "参考数据 · 预装 DL 框架", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "reference" },
+    { "platform": "Paperspace", "price_usd": 0.89, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · Gradient 集成", "pricing_url": "https://www.paperspace.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Secure Cloud)", "price_usd": 0.99, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "Lambda Labs", "price_usd": 1.99, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "TensorDock", "price_usd": 0.75, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 0.33, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共19张", "source": "scraped" }
+  ],
+  "RTX 5080": [
+    { "platform": "Vast.ai", "price_usd": 0.21, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共3张", "source": "scraped" }
+  ],
+  "RTX 5070 Ti": [
+    { "platform": "Vast.ai", "price_usd": 0.18, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共3张", "source": "scraped" }
+  ],
+  "RTX 5090": [
+    { "platform": "Hostkey", "price_usd": 0.75, "plan": "月租€510.0/月 ≈ €0.699/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 0.37, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共14张", "source": "scraped" }
+  ],
+  "RTX 5000": [
+    { "platform": "Vast.ai", "price_usd": 0.27, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "scraped" }
+  ],
+  "A100 SXM4": [
+    { "platform": "Vast.ai", "price_usd": 1.07, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共8张", "source": "scraped" }
+  ],
+  "NVIDIA RTX 4090": [
+    { "platform": "Salad", "price_usd": 0.16, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://salad.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Hostkey", "price_usd": 1.11, "plan": "月租€750.0/月 ≈ €1.027/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" },
+    { "platform": "Cudo Compute", "price_usd": 0.35, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
+    { "platform": "AutoDL", "price_usd": 0.48, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内领先 GPU 租赁，预装 DL 环境", "pricing_url": "https://www.autodl.com/price", "availability": "", "source": "reference" },
+    { "platform": "Matpool (矩池云)", "price_usd": 0.5, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内高校和竞赛首选", "pricing_url": "https://matpool.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "Massed Compute", "price_usd": 0.55, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "DataCrunch", "price_usd": 0.6, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "FluidStack", "price_usd": 0.65, "plan": "按需", "country": "英国/美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.fluidstack.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Community Cloud)", "price_usd": 0.69, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 消费级 GPU 性价比之王，24GB 显存", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "Vultr", "price_usd": 0.79, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.vultr.com/products/cloud-gpu/", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Secure Cloud)", "price_usd": 0.99, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "RunPod", "price_usd": 0.34, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "scraped" },
+    { "platform": "TensorDock", "price_usd": 0.35, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 0.27, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共8张", "source": "scraped" }
+  ],
+  "NVIDIA H100 (80GB SXM)": [
+    { "platform": "Microsoft Azure", "price_usd": 1.2899, "plan": "Azure VM (1× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
+    { "platform": "AWS (Amazon EC2)", "price_usd": 1.8432, "plan": "AWS EC2 (us-east-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
+    { "platform": "NexGen Cloud", "price_usd": 1.9, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.hyperstack.cloud/gpu-pricing", "availability": "", "source": "scraped" },
+    { "platform": "UpCloud", "price_usd": 1.93, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://upcloud.com/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Paperspace", "price_usd": 2.24, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.paperspace.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Hostkey", "price_usd": 2.35, "plan": "月租€1590.0/月 ≈ €2.178/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" },
+    { "platform": "Oracle Cloud", "price_usd": 2.5, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "JarvisLabs", "price_usd": 2.69, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Massed Compute", "price_usd": 2.73, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Saturn Cloud", "price_usd": 2.95, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://saturncloud.io/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Scaleway", "price_usd": 3.1, "plan": "€2.87/时 (最小配置)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.scaleway.com/en/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "DigitalOcean", "price_usd": 3.39, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "scraped" },
+    { "platform": "Cerebrium", "price_usd": 3.4, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Replicate", "price_usd": 5.49, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://replicate.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "IBM Cloud", "price_usd": 0, "plan": "询价", "country": "美国", "region": "北美", "note": "需询价 · 企业级 GPU 裸金属，需联系销售", "pricing_url": "https://www.ibm.com/cloud/gpu", "availability": "", "source": "reference" },
+    { "platform": "Cirrascale", "price_usd": 0, "plan": "询价", "country": "美国", "region": "北美", "note": "需询价 · 大规模 GPU 集群，需联系销售", "pricing_url": "https://www.cirrascale.com/cloud-services/", "availability": "", "source": "reference" },
+    { "platform": "FluidStack", "price_usd": 1.8, "plan": "按需", "country": "英国/美国", "region": "北美", "note": "参考数据 · 液冷服务器集群", "pricing_url": "https://www.fluidstack.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "Cudo Compute", "price_usd": 1.9, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据 · 去中心化云市场", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Community Cloud)", "price_usd": 1.99, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 性价比方案", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "DataCrunch", "price_usd": 2.1, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据 · 欧洲高性价比 GPU 云", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "Hetzner", "price_usd": 2.2, "plan": "按需", "country": "德国", "region": "欧洲", "note": "参考数据 · 德国高性价比方案", "pricing_url": "https://www.hetzner.com/cloud/gpu/", "availability": "", "source": "reference" },
+    { "platform": "OVHcloud", "price_usd": 2.4, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据 · 欧洲数据主权合规", "pricing_url": "https://www.ovhcloud.com/en/public-cloud/prices/", "availability": "", "source": "reference" },
+    { "platform": "Genesis Cloud", "price_usd": 2.5, "plan": "按需", "country": "冰岛/德国", "region": "欧洲", "note": "参考数据 · 100%可再生能源", "pricing_url": "https://genesiscloud.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Secure Cloud)", "price_usd": 2.69, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 企业级安全云", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "Vultr", "price_usd": 2.99, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 全球30+数据中心", "pricing_url": "https://www.vultr.com/products/cloud-gpu/", "availability": "", "source": "reference" },
+    { "platform": "Oracle Cloud Infrastructure", "price_usd": 3.0, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 低延迟 RDMA 网络", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "reference" },
+    { "platform": "火山引擎 (Volcengine)", "price_usd": 3.2, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 字节跳动旗下，弹性伸缩", "pricing_url": "https://www.volcengine.com/product/gpu", "availability": "", "source": "reference" },
+    { "platform": "AutoDL", "price_usd": 3.2, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内领先 GPU 租赁，预装 DL 环境", "pricing_url": "https://www.autodl.com/price", "availability": "", "source": "reference" },
+    { "platform": "Google Cloud (GCP)", "price_usd": 3.5, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 承诺使用折扣可达40%+，含 Vertex AI", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" },
+    { "platform": "华为云 (Huawei Cloud)", "price_usd": 3.5, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 集成 ModelArts AI 平台", "pricing_url": "https://www.huaweicloud.com/intl/en-us/pricing.html#/ecs", "availability": "", "source": "reference" },
+    { "platform": "腾讯云 (Tencent Cloud)", "price_usd": 3.6, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · GN10Xp 系列实例", "pricing_url": "https://buy.cloud.tencent.com/price/cvm/overview", "availability": "", "source": "reference" },
+    { "platform": "阿里云 (Alibaba Cloud)", "price_usd": 3.8, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 亚洲节点覆盖广，支持竞价", "pricing_url": "https://www.alibabacloud.com/product/ecs/pricing", "availability": "", "source": "reference" },
+    { "platform": "NVIDIA DGX Cloud", "price_usd": 5.0, "plan": "全托管（起）", "country": "美国", "region": "北美", "note": "参考数据 · DGX 全栈 AI 超算服务", "pricing_url": "https://www.nvidia.com/en-us/data-center/dgx-cloud/", "availability": "", "source": "reference" },
+    { "platform": "RunPod", "price_usd": 1.99, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Lambda Labs", "price_usd": 6.69, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "CoreWeave", "price_usd": 6.16, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "TensorDock", "price_usd": 2.25, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 1.47, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共5张", "source": "scraped" }
+  ],
+  "NVIDIA H200": [
+    { "platform": "AWS (Amazon EC2)", "price_usd": 1.8432, "plan": "AWS EC2 (us-east-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
+    { "platform": "Microsoft Azure", "price_usd": 2.12, "plan": "Azure VM (8× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
+    { "platform": "Oracle Cloud", "price_usd": 2.5, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Saturn Cloud", "price_usd": 2.95, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://saturncloud.io/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "DigitalOcean", "price_usd": 3.44, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "scraped" },
+    { "platform": "NexGen Cloud", "price_usd": 3.5, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.hyperstack.cloud/gpu-pricing", "availability": "", "source": "scraped" },
+    { "platform": "Massed Compute", "price_usd": 3.62, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Cerebrium", "price_usd": 4.2, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Lambda Labs", "price_usd": 3.29, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 最新一代 H200 GPU", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "reference" },
+    { "platform": "Google Cloud (GCP)", "price_usd": 4.5, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · A3 Mega 实例", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" },
+    { "platform": "NVIDIA DGX Cloud", "price_usd": 6.0, "plan": "全托管（起）", "country": "美国", "region": "北美", "note": "参考数据 · DGX GB200 系统", "pricing_url": "https://www.nvidia.com/en-us/data-center/dgx-cloud/", "availability": "", "source": "reference" },
+    { "platform": "Lambda Labs", "price_usd": 6.99, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "CoreWeave", "price_usd": 6.31, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 3.33, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共35张", "source": "scraped" }
+  ],
+  "NVIDIA B200": [
+    { "platform": "Oracle Cloud", "price_usd": 4.0, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "UpCloud", "price_usd": 4.86, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://upcloud.com/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Cerebrium", "price_usd": 6.01, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Lambda Labs", "price_usd": 9.86, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "CoreWeave", "price_usd": 8.6, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 4.04, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "scraped" }
+  ],
+  "NVIDIA B300": [
+    { "platform": "DigitalOcean", "price_usd": 5.65, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "scraped" }
+  ],
+  "NVIDIA GH200": [
+    { "platform": "Lambda Labs", "price_usd": 6.99, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "CoreWeave", "price_usd": 6.5, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" }
+  ],
+  "NVIDIA A100 (80GB SXM)": [
+    { "platform": "Microsoft Azure", "price_usd": 0.6799, "plan": "Azure VM (8× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
+    { "platform": "AWS (Amazon EC2)", "price_usd": 1.0368, "plan": "AWS EC2 (us-east-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
+    { "platform": "NexGen Cloud", "price_usd": 1.35, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.hyperstack.cloud/gpu-pricing", "availability": "", "source": "scraped" },
+    { "platform": "Massed Compute", "price_usd": 1.35, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "JarvisLabs", "price_usd": 1.49, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Hostkey", "price_usd": 1.92, "plan": "月租€1300.0/月 ≈ €1.781/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" },
+    { "platform": "Cerebrium", "price_usd": 2.1, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Oracle Cloud", "price_usd": 3.05, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Replicate", "price_usd": 3.51, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://replicate.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 0.5, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · 全球最低 A100 价格之一", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
+    { "platform": "Cudo Compute", "price_usd": 0.85, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据 · 去中心化云", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
+    { "platform": "Genesis Cloud", "price_usd": 0.9, "plan": "按需", "country": "冰岛/德国", "region": "欧洲", "note": "参考数据 · 100%可再生能源", "pricing_url": "https://genesiscloud.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "DataCrunch", "price_usd": 1.1, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据 · 欧洲低价 GPU 云", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "FluidStack", "price_usd": 1.1, "plan": "按需", "country": "英国/美国", "region": "北美", "note": "参考数据 · 液冷 GPU 集群", "pricing_url": "https://www.fluidstack.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "CoreWeave", "price_usd": 1.2, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · Kubernetes 原生", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Community Cloud)", "price_usd": 1.29, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 高性价比", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "OVHcloud", "price_usd": 1.5, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据 · 欧洲数据主权", "pricing_url": "https://www.ovhcloud.com/en/public-cloud/prices/", "availability": "", "source": "reference" },
+    { "platform": "Hetzner", "price_usd": 1.6, "plan": "按需", "country": "德国", "region": "欧洲", "note": "参考数据 · 德国高性价比", "pricing_url": "https://www.hetzner.com/cloud/gpu/", "availability": "", "source": "reference" },
+    { "platform": "LeaderGPU", "price_usd": 1.6, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据 · 欧洲/美国节点", "pricing_url": "https://www.leadergpu.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Secure Cloud)", "price_usd": 1.69, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 企业安全云", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "G-Core Labs", "price_usd": 1.7, "plan": "按需", "country": "卢森堡", "region": "欧洲", "note": "参考数据 · 全球边缘 GPU 优化", "pricing_url": "https://gcore.com/cloud/gpu-cloud", "availability": "", "source": "reference" },
+    { "platform": "Paperspace", "price_usd": 1.79, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 含 Gradient 平台", "pricing_url": "https://www.paperspace.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "Vultr", "price_usd": 1.9, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 全球多区域", "pricing_url": "https://www.vultr.com/products/cloud-gpu/", "availability": "", "source": "reference" },
+    { "platform": "DigitalOcean", "price_usd": 2.0, "plan": "按需(GPU Droplets)", "country": "美国", "region": "北美", "note": "参考数据 · Paperspace 集成", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "reference" },
+    { "platform": "AutoDL", "price_usd": 2.2, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内领先 GPU 租赁，预装 DL 环境", "pricing_url": "https://www.autodl.com/price", "availability": "", "source": "reference" },
+    { "platform": "百度智能云 (Baidu AI Cloud)", "price_usd": 2.3, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 含昆仑芯片选项", "pricing_url": "https://cloud.baidu.com/product/gpu.html", "availability": "", "source": "reference" },
+    { "platform": "华为云 (Huawei Cloud)", "price_usd": 2.4, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 集成 ModelArts", "pricing_url": "https://www.huaweicloud.com/intl/en-us/pricing.html#/ecs", "availability": "", "source": "reference" },
+    { "platform": "Google Cloud (GCP)", "price_usd": 2.5, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 承诺使用折扣可达40%+", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" },
+    { "platform": "腾讯云 (Tencent Cloud)", "price_usd": 2.5, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · GN 系列 GPU 实例", "pricing_url": "https://buy.cloud.tencent.com/price/cvm/overview", "availability": "", "source": "reference" },
+    { "platform": "阿里云 (Alibaba Cloud)", "price_usd": 2.8, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 亚洲区域覆盖广", "pricing_url": "https://www.alibabacloud.com/product/ecs/pricing", "availability": "", "source": "reference" },
+    { "platform": "Lambda Labs", "price_usd": 3.99, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "TensorDock", "price_usd": 1.8, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" }
+  ],
+  "NVIDIA A100 (40GB PCIe)": [
+    { "platform": "Massed Compute", "price_usd": 1.35, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "JarvisLabs", "price_usd": 1.49, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 0.4, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · 极低价格", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
+    { "platform": "Cudo Compute", "price_usd": 0.6, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
+    { "platform": "DataCrunch", "price_usd": 0.9, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据 · 欧洲 GPU 云", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "CoreWeave", "price_usd": 1.0, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "Lambda Labs", "price_usd": 1.09, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 经济型 A100", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "reference" },
+    { "platform": "Google Cloud (GCP)", "price_usd": 2.0, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" },
+    { "platform": "Lambda Labs", "price_usd": 2.79, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "TensorDock", "price_usd": 1.5, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" }
+  ],
+  "RTX 6000": [
+    { "platform": "Lambda Labs", "price_usd": 1.09, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" }
+  ],
+  "NVIDIA L40S": [
+    { "platform": "AWS (Amazon EC2)", "price_usd": 0.368, "plan": "AWS EC2 (us-east-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
+    { "platform": "Massed Compute", "price_usd": 0.88, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Oracle Cloud", "price_usd": 0.88, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "UpCloud", "price_usd": 1.2, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://upcloud.com/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "DigitalOcean", "price_usd": 1.57, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "scraped" },
+    { "platform": "Scaleway", "price_usd": 1.59, "plan": "€1.47/时 (最小配置)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.scaleway.com/en/pricing/", "availability": "", "source": "scraped" },
+    { "platform": "Cerebrium", "price_usd": 1.95, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 0.6, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Community Cloud)", "price_usd": 0.99, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 推理优化方案", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "NexGen Cloud", "price_usd": 1.3, "plan": "按需", "country": "英国", "region": "欧洲", "note": "参考数据 · 水力发电驱动", "pricing_url": "https://www.nexgencloud.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "火山引擎 (Volcengine)", "price_usd": 1.3, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据", "pricing_url": "https://www.volcengine.com/product/gpu", "availability": "", "source": "reference" },
+    { "platform": "Lambda Labs", "price_usd": 1.49, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 推理优化 GPU", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "reference" },
+    { "platform": "Vultr", "price_usd": 1.5, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.vultr.com/products/cloud-gpu/", "availability": "", "source": "reference" },
+    { "platform": "OVHcloud", "price_usd": 1.6, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.ovhcloud.com/en/public-cloud/prices/", "availability": "", "source": "reference" },
+    { "platform": "CoreWeave", "price_usd": 2.25, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "TensorDock", "price_usd": 0.95, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" }
+  ],
+  "NVIDIA RTX 3090 / 3090 Ti": [
+    { "platform": "Salad", "price_usd": 0.1, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://salad.com/pricing", "availability": "", "source": "scraped" },
+    { "platform": "Hostkey", "price_usd": 0.47, "plan": "月租€319.0/月 ≈ €0.437/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" },
+    { "platform": "Vast.ai", "price_usd": 0.15, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · 全球最低 GPU 价格之一", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
+    { "platform": "Cudo Compute", "price_usd": 0.2, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
+    { "platform": "AutoDL", "price_usd": 0.3, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内领先 GPU 租赁", "pricing_url": "https://www.autodl.com/price", "availability": "", "source": "reference" },
+    { "platform": "Matpool (矩池云)", "price_usd": 0.35, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据", "pricing_url": "https://matpool.com/pricing", "availability": "", "source": "reference" },
+    { "platform": "RunPod (Community Cloud)", "price_usd": 0.39, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 24GB 显存，极致性价比", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
+    { "platform": "TensorDock", "price_usd": 0.2, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" }
+  ],
+  "RTX A4000 16GB": [
+    { "platform": "TensorDock", "price_usd": 0.1, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 18:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" }
+  ],
   "1080": [
     { "platform": "Hostkey", "price_usd": 0.11, "plan": "月租€75.0/月 ≈ €0.103/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" }
   ],
@@ -526,9 +265,6 @@ var GPU_PRICING_LIVE = {
   ],
   "7900XTX": [
     { "platform": "Hostkey", "price_usd": 1.18, "plan": "月租€800.0/月 ≈ €1.096/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" }
-  ],
-  "A100 SXM4": [
-    { "platform": "Vast.ai", "price_usd": 1.07, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共8张", "source": "scraped" }
   ],
   "A4000": [
     { "platform": "Hostkey", "price_usd": 0.32, "plan": "月租€219.0/月 ≈ €0.300/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" }
@@ -598,51 +334,6 @@ var GPU_PRICING_LIVE = {
   "H100-SXM": [
     { "platform": "Scaleway", "price_usd": 7.15, "plan": "€6.62/时 (最小配置)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.scaleway.com/en/pricing/", "availability": "", "source": "scraped" }
   ],
-  "NVIDIA A100 (40GB PCIe)": [
-    { "platform": "Massed Compute", "price_usd": 1.35, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "JarvisLabs", "price_usd": 1.49, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 1.5, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 0.4, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · 极低价格", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
-    { "platform": "Cudo Compute", "price_usd": 0.6, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
-    { "platform": "DataCrunch", "price_usd": 0.9, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据 · 欧洲 GPU 云", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "CoreWeave", "price_usd": 1.0, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "Lambda Labs", "price_usd": 1.09, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 经济型 A100", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "reference" },
-    { "platform": "Google Cloud (GCP)", "price_usd": 2.0, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" }
-  ],
-  "NVIDIA A100 (80GB SXM)": [
-    { "platform": "Microsoft Azure", "price_usd": 0.6799, "plan": "Azure VM (8× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
-    { "platform": "AWS (Amazon EC2)", "price_usd": 1.0368, "plan": "AWS EC2 (us-east-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
-    { "platform": "NexGen Cloud", "price_usd": 1.35, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.hyperstack.cloud/gpu-pricing", "availability": "", "source": "scraped" },
-    { "platform": "Massed Compute", "price_usd": 1.35, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "JarvisLabs", "price_usd": 1.49, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 1.8, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
-    { "platform": "Hostkey", "price_usd": 1.92, "plan": "月租€1300.0/月 ≈ €1.781/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" },
-    { "platform": "Cerebrium", "price_usd": 2.1, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Lambda Labs", "price_usd": 2.79, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Oracle Cloud", "price_usd": 3.05, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "Replicate", "price_usd": 3.51, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://replicate.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 0.5, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · 全球最低 A100 价格之一", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
-    { "platform": "Cudo Compute", "price_usd": 0.85, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据 · 去中心化云", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
-    { "platform": "Genesis Cloud", "price_usd": 0.9, "plan": "按需", "country": "冰岛/德国", "region": "欧洲", "note": "参考数据 · 100%可再生能源", "pricing_url": "https://genesiscloud.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "DataCrunch", "price_usd": 1.1, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据 · 欧洲低价 GPU 云", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "FluidStack", "price_usd": 1.1, "plan": "按需", "country": "英国/美国", "region": "北美", "note": "参考数据 · 液冷 GPU 集群", "pricing_url": "https://www.fluidstack.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "CoreWeave", "price_usd": 1.2, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · Kubernetes 原生", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Community Cloud)", "price_usd": 1.29, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 高性价比", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "OVHcloud", "price_usd": 1.5, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据 · 欧洲数据主权", "pricing_url": "https://www.ovhcloud.com/en/public-cloud/prices/", "availability": "", "source": "reference" },
-    { "platform": "Hetzner", "price_usd": 1.6, "plan": "按需", "country": "德国", "region": "欧洲", "note": "参考数据 · 德国高性价比", "pricing_url": "https://www.hetzner.com/cloud/gpu/", "availability": "", "source": "reference" },
-    { "platform": "LeaderGPU", "price_usd": 1.6, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据 · 欧洲/美国节点", "pricing_url": "https://www.leadergpu.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Secure Cloud)", "price_usd": 1.69, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 企业安全云", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "G-Core Labs", "price_usd": 1.7, "plan": "按需", "country": "卢森堡", "region": "欧洲", "note": "参考数据 · 全球边缘 GPU 优化", "pricing_url": "https://gcore.com/cloud/gpu-cloud", "availability": "", "source": "reference" },
-    { "platform": "Paperspace", "price_usd": 1.79, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 含 Gradient 平台", "pricing_url": "https://www.paperspace.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "Vultr", "price_usd": 1.9, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 全球多区域", "pricing_url": "https://www.vultr.com/products/cloud-gpu/", "availability": "", "source": "reference" },
-    { "platform": "DigitalOcean", "price_usd": 2.0, "plan": "按需(GPU Droplets)", "country": "美国", "region": "北美", "note": "参考数据 · Paperspace 集成", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "reference" },
-    { "platform": "AutoDL", "price_usd": 2.2, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内领先 GPU 租赁，预装 DL 环境", "pricing_url": "https://www.autodl.com/price", "availability": "", "source": "reference" },
-    { "platform": "百度智能云 (Baidu AI Cloud)", "price_usd": 2.3, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 含昆仑芯片选项", "pricing_url": "https://cloud.baidu.com/product/gpu.html", "availability": "", "source": "reference" },
-    { "platform": "华为云 (Huawei Cloud)", "price_usd": 2.4, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 集成 ModelArts", "pricing_url": "https://www.huaweicloud.com/intl/en-us/pricing.html#/ecs", "availability": "", "source": "reference" },
-    { "platform": "Google Cloud (GCP)", "price_usd": 2.5, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 承诺使用折扣可达40%+", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" },
-    { "platform": "腾讯云 (Tencent Cloud)", "price_usd": 2.5, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · GN 系列 GPU 实例", "pricing_url": "https://buy.cloud.tencent.com/price/cvm/overview", "availability": "", "source": "reference" },
-    { "platform": "阿里云 (Alibaba Cloud)", "price_usd": 2.8, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 亚洲区域覆盖广", "pricing_url": "https://www.alibabacloud.com/product/ecs/pricing", "availability": "", "source": "reference" }
-  ],
   "NVIDIA A10G": [
     { "platform": "Microsoft Azure", "price_usd": 0.127, "plan": "Azure VM (2× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
     { "platform": "AWS (Amazon EC2)", "price_usd": 0.184, "plan": "AWS EC2 (eu-west-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" }
@@ -655,20 +346,6 @@ var GPU_PRICING_LIVE = {
     { "platform": "RunPod (Community Cloud)", "price_usd": 0.59, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 大显存推理方案", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
     { "platform": "CoreWeave", "price_usd": 1.0, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "reference" }
   ],
-  "NVIDIA B200": [
-    { "platform": "Oracle Cloud", "price_usd": 4.0, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "UpCloud", "price_usd": 4.86, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://upcloud.com/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 5.62, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Cerebrium", "price_usd": 6.01, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
-    { "platform": "CoreWeave", "price_usd": 8.6, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Lambda Labs", "price_usd": 9.86, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" }
-  ],
-  "NVIDIA B300": [
-    { "platform": "DigitalOcean", "price_usd": 5.65, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "scraped" }
-  ],
-  "NVIDIA GH200": [
-    { "platform": "CoreWeave", "price_usd": 6.5, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" }
-  ],
   "NVIDIA GTX 1070 / 1070 Ti": [
     { "platform": "Vast.ai", "price_usd": 0.04, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · 8GB 显存，最廉价 8GB 以上显存选项", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" }
   ],
@@ -679,63 +356,8 @@ var GPU_PRICING_LIVE = {
   "NVIDIA GTX 1660 / 1660 Ti / 1660 Super": [
     { "platform": "Vast.ai", "price_usd": 0.05, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · Turing 架构无 RT 核心，6GB 显存，极低价格", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" }
   ],
-  "NVIDIA H100 (80GB SXM)": [
-    { "platform": "Microsoft Azure", "price_usd": 1.2899, "plan": "Azure VM (1× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 1.47, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共2张", "source": "scraped" },
-    { "platform": "AWS (Amazon EC2)", "price_usd": 1.8432, "plan": "AWS EC2 (us-east-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
-    { "platform": "NexGen Cloud", "price_usd": 1.9, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.hyperstack.cloud/gpu-pricing", "availability": "", "source": "scraped" },
-    { "platform": "UpCloud", "price_usd": 1.93, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://upcloud.com/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "RunPod", "price_usd": 1.99, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Paperspace", "price_usd": 2.24, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.paperspace.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 2.25, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
-    { "platform": "Hostkey", "price_usd": 2.35, "plan": "月租€1590.0/月 ≈ €2.178/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" },
-    { "platform": "Oracle Cloud", "price_usd": 2.5, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "JarvisLabs", "price_usd": 2.69, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "Massed Compute", "price_usd": 2.73, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Saturn Cloud", "price_usd": 2.95, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://saturncloud.io/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "Scaleway", "price_usd": 3.1, "plan": "€2.87/时 (最小配置)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.scaleway.com/en/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "DigitalOcean", "price_usd": 3.39, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "scraped" },
-    { "platform": "Cerebrium", "price_usd": 3.4, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Lambda Labs", "price_usd": 3.99, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Replicate", "price_usd": 5.49, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://replicate.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "CoreWeave", "price_usd": 6.16, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "IBM Cloud", "price_usd": 0, "plan": "询价", "country": "美国", "region": "北美", "note": "需询价 · 企业级 GPU 裸金属，需联系销售", "pricing_url": "https://www.ibm.com/cloud/gpu", "availability": "", "source": "reference" },
-    { "platform": "Cirrascale", "price_usd": 0, "plan": "询价", "country": "美国", "region": "北美", "note": "需询价 · 大规模 GPU 集群，需联系销售", "pricing_url": "https://www.cirrascale.com/cloud-services/", "availability": "", "source": "reference" },
-    { "platform": "FluidStack", "price_usd": 1.8, "plan": "按需", "country": "英国/美国", "region": "北美", "note": "参考数据 · 液冷服务器集群", "pricing_url": "https://www.fluidstack.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "Cudo Compute", "price_usd": 1.9, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据 · 去中心化云市场", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Community Cloud)", "price_usd": 1.99, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 性价比方案", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "DataCrunch", "price_usd": 2.1, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据 · 欧洲高性价比 GPU 云", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "Hetzner", "price_usd": 2.2, "plan": "按需", "country": "德国", "region": "欧洲", "note": "参考数据 · 德国高性价比方案", "pricing_url": "https://www.hetzner.com/cloud/gpu/", "availability": "", "source": "reference" },
-    { "platform": "OVHcloud", "price_usd": 2.4, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据 · 欧洲数据主权合规", "pricing_url": "https://www.ovhcloud.com/en/public-cloud/prices/", "availability": "", "source": "reference" },
-    { "platform": "Genesis Cloud", "price_usd": 2.5, "plan": "按需", "country": "冰岛/德国", "region": "欧洲", "note": "参考数据 · 100%可再生能源", "pricing_url": "https://genesiscloud.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Secure Cloud)", "price_usd": 2.69, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 企业级安全云", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "Vultr", "price_usd": 2.99, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 全球30+数据中心", "pricing_url": "https://www.vultr.com/products/cloud-gpu/", "availability": "", "source": "reference" },
-    { "platform": "Oracle Cloud Infrastructure", "price_usd": 3.0, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 低延迟 RDMA 网络", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "reference" },
-    { "platform": "火山引擎 (Volcengine)", "price_usd": 3.2, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 字节跳动旗下，弹性伸缩", "pricing_url": "https://www.volcengine.com/product/gpu", "availability": "", "source": "reference" },
-    { "platform": "AutoDL", "price_usd": 3.2, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内领先 GPU 租赁，预装 DL 环境", "pricing_url": "https://www.autodl.com/price", "availability": "", "source": "reference" },
-    { "platform": "Google Cloud (GCP)", "price_usd": 3.5, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 承诺使用折扣可达40%+，含 Vertex AI", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" },
-    { "platform": "华为云 (Huawei Cloud)", "price_usd": 3.5, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 集成 ModelArts AI 平台", "pricing_url": "https://www.huaweicloud.com/intl/en-us/pricing.html#/ecs", "availability": "", "source": "reference" },
-    { "platform": "腾讯云 (Tencent Cloud)", "price_usd": 3.6, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · GN10Xp 系列实例", "pricing_url": "https://buy.cloud.tencent.com/price/cvm/overview", "availability": "", "source": "reference" },
-    { "platform": "阿里云 (Alibaba Cloud)", "price_usd": 3.8, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 亚洲节点覆盖广，支持竞价", "pricing_url": "https://www.alibabacloud.com/product/ecs/pricing", "availability": "", "source": "reference" },
-    { "platform": "NVIDIA DGX Cloud", "price_usd": 5.0, "plan": "全托管（起）", "country": "美国", "region": "北美", "note": "参考数据 · DGX 全栈 AI 超算服务", "pricing_url": "https://www.nvidia.com/en-us/data-center/dgx-cloud/", "availability": "", "source": "reference" }
-  ],
   "NVIDIA H100 (NVL)": [
     { "platform": "Massed Compute", "price_usd": 5.84, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" }
-  ],
-  "NVIDIA H200": [
-    { "platform": "AWS (Amazon EC2)", "price_usd": 1.8432, "plan": "AWS EC2 (us-east-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
-    { "platform": "Microsoft Azure", "price_usd": 2.12, "plan": "Azure VM (8× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
-    { "platform": "Oracle Cloud", "price_usd": 2.5, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "Saturn Cloud", "price_usd": 2.95, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://saturncloud.io/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 3.16, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共46张", "source": "scraped" },
-    { "platform": "DigitalOcean", "price_usd": 3.44, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "scraped" },
-    { "platform": "NexGen Cloud", "price_usd": 3.5, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.hyperstack.cloud/gpu-pricing", "availability": "", "source": "scraped" },
-    { "platform": "Massed Compute", "price_usd": 3.62, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Cerebrium", "price_usd": 4.2, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
-    { "platform": "CoreWeave", "price_usd": 6.31, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Lambda Labs", "price_usd": 3.29, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 最新一代 H200 GPU", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "reference" },
-    { "platform": "Google Cloud (GCP)", "price_usd": 4.5, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · A3 Mega 实例", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" },
-    { "platform": "NVIDIA DGX Cloud", "price_usd": 6.0, "plan": "全托管（起）", "country": "美国", "region": "北美", "note": "参考数据 · DGX GB200 系统", "pricing_url": "https://www.nvidia.com/en-us/data-center/dgx-cloud/", "availability": "", "source": "reference" }
   ],
   "NVIDIA L4": [
     { "platform": "Microsoft Azure", "price_usd": 0.075, "plan": "Azure VM (1× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
@@ -750,24 +372,6 @@ var GPU_PRICING_LIVE = {
     { "platform": "RunPod (Community Cloud)", "price_usd": 0.49, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
     { "platform": "CoreWeave", "price_usd": 0.5, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "reference" },
     { "platform": "Google Cloud (GCP)", "price_usd": 0.55, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 推理优化 GPU", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" }
-  ],
-  "NVIDIA L40S": [
-    { "platform": "AWS (Amazon EC2)", "price_usd": 0.368, "plan": "AWS EC2 (us-east-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
-    { "platform": "Massed Compute", "price_usd": 0.88, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Oracle Cloud", "price_usd": 0.88, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 0.95, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
-    { "platform": "UpCloud", "price_usd": 1.2, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://upcloud.com/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "DigitalOcean", "price_usd": 1.57, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.digitalocean.com/pricing/gpu-droplets", "availability": "", "source": "scraped" },
-    { "platform": "Scaleway", "price_usd": 1.59, "plan": "€1.47/时 (最小配置)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.scaleway.com/en/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "Cerebrium", "price_usd": 1.95, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.cerebrium.ai/pricing", "availability": "", "source": "scraped" },
-    { "platform": "CoreWeave", "price_usd": 2.25, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.coreweave.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 0.6, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Community Cloud)", "price_usd": 0.99, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 推理优化方案", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "NexGen Cloud", "price_usd": 1.3, "plan": "按需", "country": "英国", "region": "欧洲", "note": "参考数据 · 水力发电驱动", "pricing_url": "https://www.nexgencloud.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "火山引擎 (Volcengine)", "price_usd": 1.3, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据", "pricing_url": "https://www.volcengine.com/product/gpu", "availability": "", "source": "reference" },
-    { "platform": "Lambda Labs", "price_usd": 1.49, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 推理优化 GPU", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "reference" },
-    { "platform": "Vultr", "price_usd": 1.5, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.vultr.com/products/cloud-gpu/", "availability": "", "source": "reference" },
-    { "platform": "OVHcloud", "price_usd": 1.6, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.ovhcloud.com/en/public-cloud/prices/", "availability": "", "source": "reference" }
   ],
   "NVIDIA RTX 2080 / 2070": [
     { "platform": "Vast.ai", "price_usd": 0.06, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · Turing 架构中端卡", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" }
@@ -793,16 +397,6 @@ var GPU_PRICING_LIVE = {
     { "platform": "TensorDock", "price_usd": 0.2, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "reference" },
     { "platform": "RunPod (Community Cloud)", "price_usd": 0.29, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" }
   ],
-  "NVIDIA RTX 3090 / 3090 Ti": [
-    { "platform": "Salad", "price_usd": 0.1, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://salad.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 0.2, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
-    { "platform": "Hostkey", "price_usd": 0.47, "plan": "月租€319.0/月 ≈ €0.437/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 0.15, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · 全球最低 GPU 价格之一", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
-    { "platform": "Cudo Compute", "price_usd": 0.2, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
-    { "platform": "AutoDL", "price_usd": 0.3, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内领先 GPU 租赁", "pricing_url": "https://www.autodl.com/price", "availability": "", "source": "reference" },
-    { "platform": "Matpool (矩池云)", "price_usd": 0.35, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据", "pricing_url": "https://matpool.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Community Cloud)", "price_usd": 0.39, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 24GB 显存，极致性价比", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" }
-  ],
   "NVIDIA RTX 4060 Ti": [
     { "platform": "Salad", "price_usd": 0.08, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://salad.com/pricing", "availability": "", "source": "scraped" },
     { "platform": "Vast.ai", "price_usd": 0.08, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · 8GB/16GB 显存，入门推理", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" }
@@ -827,36 +421,6 @@ var GPU_PRICING_LIVE = {
     { "platform": "Cudo Compute", "price_usd": 0.25, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
     { "platform": "TensorDock", "price_usd": 0.3, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "reference" },
     { "platform": "RunPod (Community Cloud)", "price_usd": 0.49, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" }
-  ],
-  "NVIDIA RTX 4090": [
-    { "platform": "Salad", "price_usd": 0.16, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://salad.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 0.17, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共6张", "source": "scraped" },
-    { "platform": "RunPod", "price_usd": 0.34, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 0.35, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
-    { "platform": "Hostkey", "price_usd": 1.11, "plan": "月租€750.0/月 ≈ €1.027/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" },
-    { "platform": "Cudo Compute", "price_usd": 0.35, "plan": "市场浮动价", "country": "英国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.cudocompute.com/products/virtual-machines", "availability": "", "source": "reference" },
-    { "platform": "AutoDL", "price_usd": 0.48, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内领先 GPU 租赁，预装 DL 环境", "pricing_url": "https://www.autodl.com/price", "availability": "", "source": "reference" },
-    { "platform": "Matpool (矩池云)", "price_usd": 0.5, "plan": "按需", "country": "中国", "region": "亚太", "note": "参考数据 · 国内高校和竞赛首选", "pricing_url": "https://matpool.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "Massed Compute", "price_usd": 0.55, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "DataCrunch", "price_usd": 0.6, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "FluidStack", "price_usd": 0.65, "plan": "按需", "country": "英国/美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.fluidstack.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Community Cloud)", "price_usd": 0.69, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据 · 消费级 GPU 性价比之王，24GB 显存", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "Vultr", "price_usd": 0.79, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.vultr.com/products/cloud-gpu/", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Secure Cloud)", "price_usd": 0.99, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" }
-  ],
-  "NVIDIA RTX 6000 Ada / A6000": [
-    { "platform": "Microsoft Azure", "price_usd": 0.1836, "plan": "Azure VM (1× GPU)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
-    { "platform": "Massed Compute", "price_usd": 0.57, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.massedcompute.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 0.75, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai", "price_usd": 0.8, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共22张", "source": "scraped" },
-    { "platform": "Exoscale", "price_usd": 2.15, "plan": "最小配置 (API)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.exoscale.com/gpu/", "availability": "", "source": "scraped" },
-    { "platform": "Vast.ai (RTX 6000 Ada)", "price_usd": 0.38, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · Ada 架构，48GB 显存", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Community Cloud)", "price_usd": 0.69, "plan": "社区云", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" },
-    { "platform": "DataCrunch", "price_usd": 0.7, "plan": "按需", "country": "芬兰", "region": "欧洲", "note": "参考数据", "pricing_url": "https://verda.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "Lambda Labs", "price_usd": 0.79, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 入门级数据中心 GPU", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "reference" },
-    { "platform": "JarvisLabs", "price_usd": 0.8, "plan": "按需", "country": "印度", "region": "亚太", "note": "参考数据 · 预装 DL 框架", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "reference" },
-    { "platform": "Paperspace", "price_usd": 0.89, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · Gradient 集成", "pricing_url": "https://www.paperspace.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "RunPod (Secure Cloud)", "price_usd": 0.99, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://www.runpod.io/pricing", "availability": "", "source": "reference" }
   ],
   "NVIDIA RTX A5000": [
     { "platform": "Exoscale", "price_usd": 1.34, "plan": "最小配置 (API)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.exoscale.com/gpu/", "availability": "", "source": "scraped" }
@@ -888,20 +452,6 @@ var GPU_PRICING_LIVE = {
     { "platform": "Vast.ai (P100)", "price_usd": 0.1, "plan": "市场浮动价（起）", "country": "美国", "region": "北美", "note": "参考数据 · Pascal 架构，16GB 显存", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "reference" },
     { "platform": "Google Cloud (GCP)", "price_usd": 0.95, "plan": "按需(P100)", "country": "美国", "region": "北美", "note": "参考数据", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" }
   ],
-  "NVIDIA V100": [
-    { "platform": "Vast.ai", "price_usd": 0.11, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共30张", "source": "scraped" },
-    { "platform": "TensorDock", "price_usd": 0.17, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" },
-    { "platform": "AWS (Amazon EC2)", "price_usd": 0.368, "plan": "AWS EC2 (eu-west-1)", "country": "", "region": "", "note": "实时抓取 · 2026-06-24 09:00 (北京时间)", "pricing_url": "", "availability": "", "source": "scraped" },
-    { "platform": "Lambda Labs", "price_usd": 0.79, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://lambda.ai/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Saturn Cloud", "price_usd": 1.095, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://saturncloud.io/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "Exoscale", "price_usd": 1.38, "plan": "最小配置 (API)", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.exoscale.com/gpu/", "availability": "", "source": "scraped" },
-    { "platform": "Paperspace", "price_usd": 1.84, "plan": "按需", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.paperspace.com/pricing", "availability": "", "source": "scraped" },
-    { "platform": "Oracle Cloud", "price_usd": 2.95, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.oracle.com/cloud/compute/pricing/", "availability": "", "source": "scraped" },
-    { "platform": "Genesis Cloud", "price_usd": 0.6, "plan": "按需", "country": "冰岛/德国", "region": "欧洲", "note": "参考数据 · 可再生能源", "pricing_url": "https://genesiscloud.com/pricing", "availability": "", "source": "reference" },
-    { "platform": "JarvisLabs", "price_usd": 0.7, "plan": "按需", "country": "印度", "region": "亚太", "note": "参考数据", "pricing_url": "https://jarvislabs.ai/pricing/", "availability": "", "source": "reference" },
-    { "platform": "OVHcloud", "price_usd": 0.9, "plan": "按需", "country": "法国", "region": "欧洲", "note": "参考数据", "pricing_url": "https://www.ovhcloud.com/en/public-cloud/prices/", "availability": "", "source": "reference" },
-    { "platform": "Google Cloud (GCP)", "price_usd": 1.8, "plan": "按需", "country": "美国", "region": "北美", "note": "参考数据 · 上一代旗舰 GPU", "pricing_url": "https://cloud.google.com/compute/gpus-pricing", "availability": "", "source": "reference" }
-  ],
   "RTX 2060 (6 GB)": [
     { "platform": "Salad", "price_usd": 0.02, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://salad.com/pricing", "availability": "", "source": "scraped" }
   ],
@@ -918,23 +468,6 @@ var GPU_PRICING_LIVE = {
     { "platform": "Salad", "price_usd": 0.09, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://salad.com/pricing", "availability": "", "source": "scraped" }
   ],
   "RTX 4500": [
-    { "platform": "Vast.ai", "price_usd": 0.27, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "scraped" }
-  ],
-  "RTX 5000": [
-    { "platform": "Vast.ai", "price_usd": 1.07, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "", "source": "scraped" }
-  ],
-  "RTX 5070 Ti": [
-    { "platform": "Vast.ai", "price_usd": 0.13, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共2张", "source": "scraped" }
-  ],
-  "RTX 5080": [
-    { "platform": "Vast.ai", "price_usd": 0.21, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共4张", "source": "scraped" }
-  ],
-  "RTX 5090": [
-    { "platform": "Vast.ai", "price_usd": 0.32, "plan": "市场最低价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://vast.ai/pricing", "availability": "共17张", "source": "scraped" },
-    { "platform": "Hostkey", "price_usd": 0.75, "plan": "月租€510.0/月 ≈ €0.699/时", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://hostkey.com/gpu-dedicated-servers/", "availability": "", "source": "scraped" }
-  ],
-  "RTX A4000 16GB": [
-    { "platform": "TensorDock", "price_usd": 0.1, "plan": "GPU起价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://www.tensordock.com/cloud-gpus.html", "availability": "", "source": "scraped" }
   ],
   "RTX A5000 (24 GB)": [
     { "platform": "Salad", "price_usd": 0.09, "plan": "市场价", "country": "", "region": "", "note": "实时抓取 · 2026-06-23 21:00 (北京时间)", "pricing_url": "https://salad.com/pricing", "availability": "", "source": "scraped" }
