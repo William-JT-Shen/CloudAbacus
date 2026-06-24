@@ -2718,7 +2718,7 @@
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.41
+            "price_usd": 0.43
           }
         ],
         "RTX 5080": [
@@ -2814,7 +2814,7 @@
         "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.05
+            "price_usd": 0.06
           }
         ],
         "RTX 5880": [
@@ -2826,7 +2826,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.16
+            "price_usd": 3.21
           },
           {
             "platform": "CoreWeave",
