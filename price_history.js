@@ -2945,7 +2945,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.21
+            "price_usd": 0.23
           }
         ],
         "RTX 5070 TI": [
@@ -3047,7 +3047,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.13
+            "price_usd": 2.96
           },
           {
             "platform": "CoreWeave",
@@ -3057,7 +3057,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.77
+            "price_usd": 0.76
           },
           {
             "platform": "JarvisLabs",
