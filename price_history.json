@@ -3256,7 +3256,7 @@
         "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.05
+            "price_usd": 0.06
           }
         ],
         "RTX 5880": [
@@ -3268,7 +3268,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.33
+            "price_usd": 3.36
           },
           {
             "platform": "CoreWeave",
@@ -3278,7 +3278,7 @@
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.75
+            "price_usd": 0.76
           },
           {
             "platform": "JarvisLabs",

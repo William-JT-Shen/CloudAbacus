@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-06-26T04:23:41Z
-var NEWS_FETCHED_AT="2026-06-26T04:23:41Z";
+// 生成:2026-06-26T10:59:06Z
+var NEWS_FETCHED_AT="2026-06-26T10:59:06Z";
 var GPU_NEWS=[
   {
     "title": "8点1氪丨苹果宣布上调iPad及Mac价格；黄仁勋计划把50%或更多现金流返还股东；OpenAI发布首款AI芯片",
