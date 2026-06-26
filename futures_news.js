@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-26T14:42:55Z
-var NEWS_FETCHED_AT="2026-06-26T14:42:55Z";
+// 生成:2026-06-26T18:00:49Z
+var NEWS_FETCHED_AT="2026-06-26T18:00:49Z";
 var GPU_NEWS=[
+  {
+    "title": "价格风险催生对冲需求 电力期货上线仍需闯关",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYQVZfUktuWGFtQV8wZFZyYjdSRWVidXgwdmR0M1g2Z18yNG04Vm9RWEZ3bExka2VRaEczMU83ZDFzOE13RlZqMV8tZmdSOUhCVHhLNDVmbWF5UnR3bGFPQmtpeE5YSzcwbGJVbm41N2NkMjRVQy1LYg?oc=5",
+    "published": "2026-06-26",
+    "summary": "价格风险催生对冲需求 电力期货上线仍需闯关&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "8点1氪丨苹果宣布上调iPad及Mac价格；黄仁勋计划把50%或更多现金流返还股东；OpenAI发布首款AI芯片",
     "source": "36氪",
@@ -561,18 +573,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FVFJVOEcySTdpZVN5d2xJLUpKcElrbGZhNGhUaUxuOHBaS1VVOXZBVkM2YkFaaU44eHZfLTBacjc2dlZUNnpycHVBWER5dHE5NmtpWFZsTWEtbFlZNElVYmU1Y19ISm5vdDJfSEFhenY4WFZXWGc?oc=5",
     "published": "2026-06-14",
     "summary": "资金面收敛扰动期债价格—申万期货国债周报20260614&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "又一金属吃到\"算力溢价\"，碳酸锂期货重回17万元关口",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUZ2NXUERFMDl3cklmM2xfcUZRSG9wNHRqTEF0Vi1TbVcwS1d4WUtGc04teldxYW0yR2xscFZwZ2E3aGROeUxSanVmU2tlcVBVQWFHTlA2dGdMTkVJWGRrbzdDVFN6V25MaEQ0bHRWaFZPLWl1RklYNQ?oc=5",
-    "published": "2026-06-14",
-    "summary": "又一金属吃到\"算力溢价\"，碳酸锂期货重回17万元关口&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
