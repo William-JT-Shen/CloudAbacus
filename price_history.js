@@ -3135,6 +3135,10 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 5.0
           },
           {
+            "platform": "DataCrunch",
+            "price_usd": 3.25
+          },
+          {
             "platform": "Paperspace",
             "price_usd": 2.24
           },
@@ -3251,6 +3255,10 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "Vast.ai",
             "price_usd": 0.13
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.04
           }
         ],
         "NVIDIA RTX 2080 Ti": [
@@ -3268,17 +3276,25 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.36
+            "price_usd": 3.28
           },
           {
             "platform": "CoreWeave",
             "price_usd": 6.31
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 4.0
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.76
+            "price_usd": 0.77
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.79
           },
           {
             "platform": "JarvisLabs",
@@ -3289,6 +3305,10 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "Vast.ai",
             "price_usd": 0.39
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.93
           }
         ],
         "NVIDIA A40": [
@@ -3307,6 +3327,10 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "CoreWeave",
             "price_usd": 2.25
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.37
           }
         ],
         "NVIDIA GH200": [
@@ -3316,6 +3340,10 @@ var PRICE_HISTORY_DATA = {
           }
         ],
         "NVIDIA V100": [
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.89
+          },
           {
             "platform": "Paperspace",
             "price_usd": 1.84
