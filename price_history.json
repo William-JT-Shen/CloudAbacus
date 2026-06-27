@@ -3513,7 +3513,7 @@
         "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.05
           }
         ],
         "RTX 5880": [
@@ -3534,6 +3534,10 @@
           {
             "platform": "DataCrunch",
             "price_usd": 4.0
+          },
+          {
+            "platform": "JarvisLabs",
+            "price_usd": 3.99
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
