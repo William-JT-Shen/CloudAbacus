@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-28T14:08:28Z
-var NEWS_FETCHED_AT="2026-06-28T14:08:28Z";
+// 生成:2026-06-28T17:24:26Z
+var NEWS_FETCHED_AT="2026-06-28T17:24:26Z";
 var GPU_NEWS=[
+  {
+    "title": "两年期期货刚刚转为看涨 收益率触及4.18% 前端交易是否终于转向",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWU9KTnVqa2k4Z3MtVUF1V09JV3VhLUpIQVlaS1FuNndqLVk2Rm5lV3dWLWR3dW9keFpOQWZGTk1RQ3FWWk91WThULWlFTHpLUFVjRmtCM0Z6TW9MOENWZHFhNldwd1BtSG9idFhSeEh6aXZrcjZXUGt6eFA0eTBwT3gya0oyVERnSFR0cFRSQQ?oc=5",
+    "published": "2026-06-27",
+    "summary": "两年期期货刚刚转为看涨 收益率触及4.18% 前端交易是否终于转向&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "霍尔木兹危机推动周末交易 Hyperliquid原油期货交易量大增",
     "source": "新浪财经",
@@ -567,18 +579,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUUlfLVRQb29WZkN5azRvOUtqQ2VFS2FNN2FMdHo1NU1aTDF6Y0pxUVlaWmhBZlFyQmMwNGM3djRFUDdjemQ1MldHaVZENTFBeEpsNGc2ZVd6RGE5UEhWNFhmelR4ejROSlA0V3ZKSkVrVnlYQlFweHlFdEhlUmNlbDlkaEhBdmNjSm9pZlZB?oc=5",
     "published": "2026-06-16",
     "summary": "五矿期货接受《21世纪经济报道》采访，解读5月PPI数据&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "摩根大通2026年下半年展望：AI仍是主引擎 看好风险资产",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HRWNUeEE3VWxPTGpvSFlNU2FNVzl3NVFMTl82akJubDVFU3BqNjBidEVDMEg1OERlQ25FM3dTRjl0VUNhamhFTVExb2lRVDJDVnZUVmcyX3RTSG4wczNfOFJuNHFUS2ZlSDlJS1U0UUlseGJsY0t4Wg?oc=5",
-    "published": "2026-06-16",
-    "summary": "摩根大通2026年下半年展望：AI仍是主引擎 看好风险资产&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
