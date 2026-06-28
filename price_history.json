@@ -3762,7 +3762,7 @@
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.53
+            "price_usd": 0.55
           },
           {
             "platform": "DataCrunch",
@@ -3778,7 +3778,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.29
+            "price_usd": 3.28
           },
           {
             "platform": "CoreWeave",
