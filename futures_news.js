@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-06-28T10:34:45Z
-var NEWS_FETCHED_AT="2026-06-28T10:34:45Z";
+// 生成:2026-06-28T14:08:28Z
+var NEWS_FETCHED_AT="2026-06-28T14:08:28Z";
 var GPU_NEWS=[
   {
     "title": "霍尔木兹危机推动周末交易 Hyperliquid原油期货交易量大增",
