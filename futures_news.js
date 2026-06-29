@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-29T12:43:24Z
-var NEWS_FETCHED_AT="2026-06-29T12:43:24Z";
+// 生成:2026-06-29T18:18:45Z
+var NEWS_FETCHED_AT="2026-06-29T18:18:45Z";
 var GPU_NEWS=[
+  {
+    "title": "美国股指期货上涨 消息称美伊在周末冲突升级后暂停袭击",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdk9JUkNBMGxLMzlWa0w5X3AyM2Nvd1FJbTkxOE1uYVlheTJtMGtILXpYUWUzLW9McHlISUl2OTBXajRrbUs5eHdlVHI5UkttNEtZM0h2dzZOY1RxZ0VaelJjOTk5MlRCMU9kTXBhMmZhS1o1Rkdkc29BT3hxdWdFNDd6RGpRU3NPdHFUYlBuQQ?oc=5",
+    "published": "2026-06-29",
+    "summary": "美国股指期货上涨 消息称美伊在周末冲突升级后暂停袭击&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "烧光5000亿后，京东方开始给股民赚钱",
     "source": "36氪",
@@ -564,18 +576,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SM0ViSU9oS01tb0JoUHBQa0ZvaHFhcV9uMlpmV01BaV9hdXVMeHB2MHN5MFp5QXJHX09helNfV2VEYUdfSmZnX0RnV3FrdERzUE5sRzVQVzFnbWdNRTg1R2hNVVBrbHI4aEVCSEh0OGxmR3k3SVE?oc=5",
     "published": "2026-06-18",
     "summary": "新华社｜我国金属期货价格“输出”境外成熟市场&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所将就永续期货起诉美国商品期货交易委员会",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSHhkSzEtS3RLTGVzUWhjQWNsU2pPRjh1R2pPQ3JuU0o2YVp1YUdBbXZhRXlwLXFhbGNEdXRwd25oMExqMm1uNGN6dmg0dkNzVFBXRzFicEhtRVhDVnIzeVRoVWhyaTRSUUZKbm9TVFpWNFJFQ2xzUEtpN0N6MERabDJ1NnJMSHBxcG53bzRYSUNldjRRS2xzajhhbjI?oc=5",
-    "published": "2026-06-17",
-    "summary": "芝商所将就永续期货起诉美国商品期货交易委员会&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [

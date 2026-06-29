@@ -4021,7 +4021,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.55
+            "price_usd": 0.59
           },
           {
             "platform": "DataCrunch",
@@ -4037,7 +4037,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.29
+            "price_usd": 3.37
           },
           {
             "platform": "CoreWeave",
