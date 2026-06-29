@@ -3955,7 +3955,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.2
+            "price_usd": 0.19
           }
         ],
         "NVIDIA RTX 4070 Ti / 4070": [
@@ -3997,7 +3997,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.08
           }
         ],
         "RTX 8000": [
@@ -4012,10 +4012,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.05
           }
         ],
+        "RTX 2060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.04
+          }
+        ],
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.57
+            "price_usd": 0.55
           },
           {
             "platform": "DataCrunch",
@@ -4031,7 +4037,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.28
+            "price_usd": 3.29
           },
           {
             "platform": "CoreWeave",
@@ -4049,7 +4055,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.77
+            "price_usd": 0.73
           },
           {
             "platform": "DataCrunch",
