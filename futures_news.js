@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-06-28T21:13:57Z
-var NEWS_FETCHED_AT="2026-06-28T21:13:57Z";
+// 生成:2026-06-29T04:51:26Z
+var NEWS_FETCHED_AT="2026-06-29T04:51:26Z";
 var GPU_NEWS=[
+  {
+    "title": "人工智能算力正成为金融资产 高达85亿美元的GPU支持债务便是佐证",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVVzcFNtLVNMS3htckRwaW54ZVRtb3hvejRxYjFDd1VPSTZlNkJZQVdENy1zY0hpVFNRdUZKTml3RnVPTDVENTZDR1hCRUpHeW9CQi1FajhmX2R5ZFlXMk8tMi1Xc0RJUkRZaUJNV1JJMVBNdzdJWmROem83LXM0b2doUnNrWndaeTBoRlF4UQ?oc=5",
+    "published": "2026-06-28",
+    "summary": "人工智能算力正成为金融资产 高达85亿美元的GPU支持债务便是佐证&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "两年期期货刚刚转为看涨 收益率触及4.18% 前端交易是否终于转向",
     "source": "新浪财经",
@@ -20,6 +32,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZFA4TjFGMkJrbmI3TzJMcEtUVnpxSHB0d2gtbWVjU3RjekFMQ3ZXUHpNSEtNM3g5Y29VVGZiT2pHT1FjTmp2eS1lMG05Ylg3dHlLdGFBWFo3aHI4d3VzQUFDVHRGMTd6eHZvVTNESThKcWlQOENFdGdUMlBaSE9fczZMTVZWSC1nVjFBQ2d0NA?oc=5",
     "published": "2026-06-27",
     "summary": "霍尔木兹危机推动周末交易 Hyperliquid原油期货交易量大增&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "XRP期货与Solstice DeFi业务扩张显现机构层面转向趋势",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZDI2MHRnY0YxLXdHY1JOM3dYVWh6TE9lcVNHNFFHb1NRc1llMUJGelV5R0RHYlNfdF9vd21qd1Y0WktUbXR4NmE2VGNXeTIxMjAtTG9KQWp5M0oyczZaNHpRVkREd0I5R2taSWFVRkVCR01QR21sUlhOWTlBaHRwbHZrTFh6RWs4QlZhbDgzeElwYkw0eWJJdDJ4UTZBZw?oc=5",
+    "published": "2026-06-26",
+    "summary": "XRP期货与Solstice DeFi业务扩张显现机构层面转向趋势&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -555,30 +579,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQN0tTY0IzVHNQLU5pMFR2UDhON0FBSHYyLUhUNWh1OHlBZVk3bnRZRm8xa1lTQVV6LU5JdkZIMFJQSWVaVzJKcG40SjgxaUt1ZGZWalF5M1hLTXBvNkdBN2JWcnVrRXlIbzVJczZweGNic2tvbldEajJoUFNfb1Q2VnM4TVliT1pQUlViRENjN1R2R3FFOTZ1RkRFZjhkeU9ybWNPNXAwV2ZSelIwQ3ducTR3RUJ6TkZpdTNKUWVDd1hqWVVQRzVSM0FKb1RaQTZURmVLV2RkRzFTRXU3WWN3SmZtTQ?oc=5",
     "published": "2026-06-17",
     "summary": "像对冲原油一样对冲算力？全球首个AI计算期货合约呼之欲出&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Novig获美国商品期货交易委员会批准，体育预测市场行业竞争白热化",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUzY1dlhOVHJwQkhqTjNRYk1XRG1Qb2RXdlRWY2JBeVFuc0tpc2ZqNFlNTkplT1dFbTFKVmtFUWFMOWhmaFE1LU50ZlRJcGhOSDFab3pONFVJSzkxbEd3b3Q0T1Fvcm9DMjRkZk0zRG1kVnZhdmdXWDVuQkV4ZGU3UWZJYlJEeVk?oc=5",
-    "published": "2026-06-16",
-    "summary": "Novig获美国商品期货交易委员会批准，体育预测市场行业竞争白热化&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "弘业期货：公司更名为“苏豪弘业期货股份有限公司”，是基于长远战略发展做出的重要决策",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOWFUNlVYT3ItSUtocUFEc2ZtdExqVk9yeldtZEhzQTJsT1Q4Yzc4QTZjZW5CNVRQSEFTbktyUDJjM2pUX1dJZ3JEcEREUlJ3Q1FqcDVXLVEtY2pxZFI0QjB0R3R4YkhqN1JKa3ZMUjFzY284ZzN6ZVc4V29lZ1BMNkZ3b2FzMFVS?oc=5",
-    "published": "2026-06-16",
-    "summary": "弘业期货：公司更名为“苏豪弘业期货股份有限公司”，是基于长远战略发展做出的重要决策&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
