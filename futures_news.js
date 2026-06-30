@@ -1,7 +1,55 @@
 // GPU算力期货新闻
-// 生成:2026-06-30T18:08:50Z
-var NEWS_FETCHED_AT="2026-06-30T18:08:50Z";
+// 生成:2026-06-30T21:45:49Z
+var NEWS_FETCHED_AT="2026-06-30T21:45:49Z";
 var GPU_NEWS=[
+  {
+    "title": "【中航图说】防范非法证券期货基金活动警示案例",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbGpkdlN1ZXdPZDBGT2EyQmxTNmNkZngzendERjR5dklfSEdvcnd3NkEyZ193T2RsNU1TeWdEa1pLRFRMT1BzUkZoaTZVQXZGMXBTT2Z6QWoyNW9HOHNGME9BQmpBYTAwMkFLLUFXOEZaNE9OcUotaTEzUG45S0NqdHNmMURwRHU2cnc?oc=5",
+    "published": "2026-06-30",
+    "summary": "【中航图说】防范非法证券期货基金活动警示案例&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "永安期货2026年第一次临时股东会高票通过董监高薪酬管理办法 出席率达85.49%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM1hOOXd0blh6Zm8xMFlqV0pVbU8wYTEtb1ZxVXNrclZ2V3RlUXNMUjlWUlA3SHUyNFE1RFNWa0lHMy02UjY4dDNnZFBOSnY5U0RmVEZmY1ZlcW5RODV1R0hOVDhVRkFxekNEOXk5UjczcVFnY21EZE1QYVlkZWw0dVV5X202MU9MNnc?oc=5",
+    "published": "2026-06-30",
+    "summary": "永安期货2026年第一次临时股东会高票通过董监高薪酬管理办法 出席率达85.49%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "国投期货【进口铁矿周周递】20260629",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZDQydWI3VE5FTkEtNUp3WmJWWEoyRUl2Sjc0SlRETnVlYmhJbWJ3LUxDcWpuVkZTajg3QnVEMlBkbnE4NzhyUkY5ZW5zM0czZzdveGEtN3VHUjhMb0lUd05XeDZNOXpXRVNaY25uSG8yVWg0X1E?oc=5",
+    "published": "2026-06-29",
+    "summary": "国投期货【进口铁矿周周递】20260629&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国标普500电子迷你期货上涨0.70% 道指期货上涨0.38% 纳斯达克100期货上涨1.05%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaTFGVTNtZmNjTWdwaC1wXzgxRFJUVnJ0aDFEZ29JYXVVVVMxNG5ybTlCaXJnem0yeXBQblNCWXhud3Nka19ScW9IYW5UQWNPUVQ0aU85T1pzakQxY295MUc1Um4yWGRDTXEzYk1vY0s5cFRtejV6am5WRzM1WHVpcFlGR0dpVlRMM1ZMdld3WQ?oc=5",
+    "published": "2026-06-29",
+    "summary": "美国标普500电子迷你期货上涨0.70% 道指期货上涨0.38% 纳斯达克100期货上涨1.05%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美国股指期货上涨 消息称美伊在周末冲突升级后暂停袭击",
     "source": "新浪财经",
@@ -528,54 +576,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2YnRIQ1hNeTgtNVN3djN4QW1ZeF9zdmJsTGxnSnRGOXdvMmJkWXF3b2FLRF9UUE1obTlQUF9OdjZ0cFdoZUl1OFRaMWJmMUhyZlBXcmJzY2lCUXdwR2FIWUduV21nNXBFT0tkWnB5cDRDTjNrUGVDSA?oc=5",
     "published": "2026-06-19",
     "summary": "美股休市，三大股指期货集体下跌，黄金、油价走低&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "东吴期货研究所策略早参 |沃什首秀放鹰，美联储年内加息预期升温",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8xY1AwaTllVGZrVEQxRmNuMlZ0amRDajBaczdjQjBpV0FmS19yb2ctWTMwX0VlMGpTU0Jtb28zLUtYWm85aXFOMkw3S0dlcVl1bm5YazBkajQzQW9UVkttX3VQTEhqcDJ6dW92QUdMT3YxckJ4d2c?oc=5",
-    "published": "2026-06-18",
-    "summary": "东吴期货研究所策略早参 |沃什首秀放鹰，美联储年内加息预期升温&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "盘前：纳指期货涨1.43% 8.3万亿美元期权今晚到期",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWHBMc1ZiblpzQ2MxS2dxMWlDMUJIclQ1MjBRZDJfcGluZmhTdnowaXRqbGdkUzBiVHZ4eGFTNzg3bHVNOVJLSUp5Um5XR0F2M2UxQ3llRzRITllvaXVtVVNFSW5BaTc2eFdoSENFd3VaRnhmeE52MUVidVlOUjJDRTQ1ZzhnYlE?oc=5",
-    "published": "2026-06-18",
-    "summary": "盘前：纳指期货涨1.43% 8.3万亿美元期权今晚到期&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "金融监管总局：鼓励有条件的大型金融机构向中小金融机构输出算力服务",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2ZFVQb0xDcHlIeElqcW1YQ1lqZHk3cnV6NDcxUXI0U2dTRGo0UElYVTZpeXNnQU16QThpV24zaXpUd3NIanRVd25nU3VidTA4WGo2alVXbzVMWVR6aHd5VnNJWHNoWm5lQlZ2OWRKellUaWhRRkdWRQ?oc=5",
-    "published": "2026-06-18",
-    "summary": "金融监管总局：鼓励有条件的大型金融机构向中小金融机构输出算力服务&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "新华社｜我国金属期货价格“输出”境外成熟市场",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SM0ViSU9oS01tb0JoUHBQa0ZvaHFhcV9uMlpmV01BaV9hdXVMeHB2MHN5MFp5QXJHX09helNfV2VEYUdfSmZnX0RnV3FrdERzUE5sRzVQVzFnbWdNRTg1R2hNVVBrbHI4aEVCSEh0OGxmR3k3SVE?oc=5",
-    "published": "2026-06-18",
-    "summary": "新华社｜我国金属期货价格“输出”境外成熟市场&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
