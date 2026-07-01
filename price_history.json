@@ -4397,7 +4397,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.0
+            "price_usd": 1.99
           },
           {
             "platform": "CoreWeave",
@@ -4555,7 +4555,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.55
+            "price_usd": 3.5
           },
           {
             "platform": "CoreWeave",
