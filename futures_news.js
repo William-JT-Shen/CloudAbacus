@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-06-30T21:45:49Z
-var NEWS_FETCHED_AT="2026-06-30T21:45:49Z";
+// 生成:2026-07-01T04:46:27Z
+var NEWS_FETCHED_AT="2026-07-01T04:46:27Z";
 var GPU_NEWS=[
+  {
+    "title": "弘业期货涨2.01%，成交额1815.38万元，主力资金净流出125.96万元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN1lRUFQ3ZEtHZEV3OEVhY3VfazRFQm1EUExrZTl5SE1HdXVtaXI1VFhJT1NSaXkxU25EWkZ4UTFEN3h0T3N4bzJqemJTZVlyUkh0MnhzRWRlNnRzZjBDc0RqNXYxRkkxQS0tSHZ3TXgxZWJDc29LT0ZCcXNPak9sRVUyWFlza3VvVDdDXw?oc=5",
+    "published": "2026-07-01",
+    "summary": "弘业期货涨2.01%，成交额1815.38万元，主力资金净流出125.96万元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "交易所交易概念公司与Skylar Capital推出Skylar电力期货ETF（纽约证券交易所高增长板：MWHS） 为投资者提供布局美国电力经济新渠道",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQblZUQWN1V3NHMjU2anpvTHZzLWpiT2VZak80WDdoOS12T3NDQnl6Vkp4VElzbjUtdzE0dmdXZGJGMkF3Z1I3RmhUTi1pUnQ3YnlVRHJlZVo5UUJPVWZ5UFhaNjdtSUQtYXlrcXNHZ09ERng5NDI1bmU0RFFyNnRNZmVIMGpqOVlwYmlpZHlxSQ?oc=5",
+    "published": "2026-06-30",
+    "summary": "交易所交易概念公司与Skylar Capital推出Skylar电力期货ETF（纽约证券交易所高增长板：MWHS） 为投资者提供布局美国电力经济新渠道&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "【中航图说】防范非法证券期货基金活动警示案例",
     "source": "新浪财经",
@@ -552,30 +576,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91bzRYOVo3SDA3Zzh3MzVxNTFRTWcweXBPNkt3QmZqanN2dDU5X1JaMjVKQnpHUXRUYWJNMDl5MlZXclBuSjB4ZmloVTNFSUxFVHVHS05MTmRtbFlpYk9CRUJkSkNGb0NfWk5ydDg5cTUyb1o4c2c?oc=5",
     "published": "2026-06-19",
     "summary": "国际油价V型反弹，美股期货全线下跌，以色列“同意停火”后再次空袭黎巴嫩南部&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "广东省：支持广州期货交易所丰富期货产品体系，完善全期货产业链",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcC01OHNTMS1xVGJzQ1FBMnAzS0g1T000SWFoQ0RIYW10TzlPSVJvSVh2anlONXFBbzlIc09HcmhVVmVwTWZOcjJqWF9lSmV3bDBXQ0ROUmZJal94dmdyUTRjaXlTVk5oM2taMG44RjViX0VJeFlqcXRMaDctNUk3Zg?oc=5",
-    "published": "2026-06-19",
-    "summary": "广东省：支持广州期货交易所丰富期货产品体系，完善全期货产业链&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股休市，三大股指期货集体下跌，黄金、油价走低",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2YnRIQ1hNeTgtNVN3djN4QW1ZeF9zdmJsTGxnSnRGOXdvMmJkWXF3b2FLRF9UUE1obTlQUF9OdjZ0cFdoZUl1OFRaMWJmMUhyZlBXcmJzY2lCUXdwR2FIWUduV21nNXBFT0tkWnB5cDRDTjNrUGVDSA?oc=5",
-    "published": "2026-06-19",
-    "summary": "美股休市，三大股指期货集体下跌，黄金、油价走低&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
