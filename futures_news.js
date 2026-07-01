@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-01T14:54:44Z
-var NEWS_FETCHED_AT="2026-07-01T14:54:44Z";
+// 生成:2026-07-01T18:08:17Z
+var NEWS_FETCHED_AT="2026-07-01T18:08:17Z";
 var GPU_NEWS=[
   {
     "title": "ICE与NATIVX将推出能源归一化算力期货合约",

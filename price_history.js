@@ -4437,7 +4437,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.41
+            "price_usd": 0.4
           }
         ],
         "RTX 5080": [
@@ -4449,7 +4449,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5070 TI": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.14
+            "price_usd": 0.15
           }
         ],
         "RTX 5070": [
@@ -4555,7 +4555,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.5
+            "price_usd": 3.55
           },
           {
             "platform": "CoreWeave",
