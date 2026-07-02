@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-01T21:44:58Z
-var NEWS_FETCHED_AT="2026-07-01T21:44:58Z";
+// 生成:2026-07-02T04:13:41Z
+var NEWS_FETCHED_AT="2026-07-02T04:13:41Z";
 var GPU_NEWS=[
+  {
+    "title": "伊朗局势升级扭转6月收官态势 期货上涨 石油恐慌回归 交易窗口已开启",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWXdiQ2k0S2dKMlc3c0RPRE5pd1YyZlp4VHF4YUc5TVd1bHNMdzZLSGxYb3BwaHNjekZuTlFOVXlsVXdKNmdnQW1SLTBwS2g1SVctLTBtdURUS1U5SThrMlJoQnFSVlhGMTVRRzJ2X3AwMEpkc3g4STdOZXdEandKMGdUdGdOSVFleGRpSk5vQQ?oc=5",
+    "published": "2026-07-01",
+    "summary": "伊朗局势升级扭转6月收官态势 期货上涨 石油恐慌回归 交易窗口已开启&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美国股指期货交投气氛谨慎 交易员等待沃什讲话指引",
     "source": "新浪财经",
@@ -32,6 +44,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN1lRUFQ3ZEtHZEV3OEVhY3VfazRFQm1EUExrZTl5SE1HdXVtaXI1VFhJT1NSaXkxU25EWkZ4UTFEN3h0T3N4bzJqemJTZVlyUkh0MnhzRWRlNnRzZjBDc0RqNXYxRkkxQS0tSHZ3TXgxZWJDc29LT0ZCcXNPak9sRVUyWFlza3VvVDdDXw?oc=5",
     "published": "2026-07-01",
     "summary": "弘业期货涨2.01%，成交额1815.38万元，主力资金净流出125.96万元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "WTI 7月原油期货收跌1.77%报69.50美元/桶，6月份累计下跌超18.52%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlMyYm1GLTJtR3lHVEhwcEU2RVBpQVVWVDZGZjVFMXFhU3NpVUc5UmwzTlQwZ0RCYm1WY1lFQy1qOFk3QTdlcUQxWTZZTGxISEhrcXhNcW55cnI1T0FaQ3IxSWpyOHQwR0Z1N3VvaHcxT285d2I5TUZRWjZtcWNCazRFWU81UEZmekFCcjMtbw?oc=5",
+    "published": "2026-06-30",
+    "summary": "WTI 7月原油期货收跌1.77%报69.50美元/桶，6月份累计下跌超18.52%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -551,30 +575,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYXdMM285U3lmVk5vMjU0QjlrSFVKUVp4UHdyV2J6dVRuSUNNTGkwWGgwQXBNSnRLQ3d4X3dDMWpINl9LMVVQQjhkeGJ1X2huSTZzUDhYb3ByY2NtZEVxTFVZRFVJd2N6NkFPU3dKdmhrSzFQMkxpcF9Pb3V1QV96ejdmWQ?oc=5",
     "published": "2026-06-21",
     "summary": "本周期货行情解读和分析20260621&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "将引入境外交易者！碳酸锂期货迈出国际化关键一步",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb0NIVGdYVHlPUzJ0eGo3ZE4ybHdwWjZrQk9yWUJlcmhjWFBtekRFOHZ2NW9KQmpDZ0lxQnVSTDA4RmdqNWoyRi1UNmNKcUcxeTdjQk5JVnJHWU1ONXBBbDRuZmpsNWtxcTZNNnMxdk9Ca1dKM0JBcUxZZU1BeEo3RlRvc0VpbmdIWjFQMEN5RFFBcW5pUnNibllndU5yOTA4XzA1NW5rb2ZwbVFwWjc2R0J0YlpocUVXSnp5SDFxOVYxT3ZubVVxWXF1VWJtSXhmU25YbHNvSQ?oc=5",
-    "published": "2026-06-21",
-    "summary": "将引入境外交易者！碳酸锂期货迈出国际化关键一步&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "苏豪弘业期货2025年参保人数301人，较上期减少3人、同比下降0.99%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMXNQN05vY1FUaGd1TlNlQnRWX1NvdDFKZkwtY2FvcjlRZWpVSE42YjQtOFNFUUN1RTRlX0c0V3BwbHIzZ3N0UVRNMUd1dkFJRkg2THBUc3J1alJISmZqVEZUREwwZlN3ZE1YVXdNaENvZkticnp1NzBlSkg5VWlYSFY1YnNaU28?oc=5",
-    "published": "2026-06-21",
-    "summary": "苏豪弘业期货2025年参保人数301人，较上期减少3人、同比下降0.99%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
