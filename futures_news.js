@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-07-02T14:24:26Z
-var NEWS_FETCHED_AT="2026-07-02T14:24:26Z";
+// 生成:2026-07-02T18:00:49Z
+var NEWS_FETCHED_AT="2026-07-02T18:00:49Z";
 var GPU_NEWS=[
+  {
+    "title": "盘前：纳指期货涨0.25% 华尔街火速拆解算力过剩",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaThLUjRXUnh3d2ZodkllYzF0QjdsVWVRckJ4a3pUZHlSZlZZT01RT3lqaFFYTmt3Ym5nTUh1aGJPYk5nOEhzSE1lbnpZSFNIeW5ac1V6LTNrVnQ3ZHMwUUpsX1Bvand5X0tsc0ZILUpHSUZfX0JlVUh1U2JvXzUzVUNGaDQ2WnBMLWlGTGNzV0RCbWFlczA1S1lZbGFiVGFjaHIycHppSC1sMFJ3S0w2M2tmUm41UTZSUGNzWmZEbTBOeTAzRXlKcjdLUS11YWRuSHNfTHFIdFlDM2QwYnVv?oc=5",
+    "published": "2026-07-02",
+    "summary": "盘前：纳指期货涨0.25% 华尔街火速拆解算力过剩&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中国航运期货任重道远",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeDRUNlZiRmlZUGYyZWJfOEZZbFpjUWl0aWpEQUZQd29FYmItRm9CXzhzX19ESTRDbks4dzFacHhKMnRDMF9KNlhRdHRBRUF6SzM1d19fdEtBMjRkYmNqOE1OTjEwSU84eFJwLTVvS29waEFfamUtV290eXZHWWJvaQ?oc=5",
+    "published": "2026-07-01",
+    "summary": "中国航运期货任重道远&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "伊朗局势升级扭转6月收官态势 期货上涨 石油恐慌回归 交易窗口已开启",
     "source": "新浪财经",
@@ -104,6 +128,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM1hOOXd0blh6Zm8xMFlqV0pVbU8wYTEtb1ZxVXNrclZ2V3RlUXNMUjlWUlA3SHUyNFE1RFNWa0lHMy02UjY4dDNnZFBOSnY5U0RmVEZmY1ZlcW5RODV1R0hOVDhVRkFxekNEOXk5UjczcVFnY21EZE1QYVlkZWw0dVV5X202MU9MNnc?oc=5",
     "published": "2026-06-30",
     "summary": "永安期货2026年第一次临时股东会高票通过董监高薪酬管理办法 出席率达85.49%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国股指期货上涨 逢低买盘入场推动科技股领涨",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRE4yRGRwZUVIWGtyemwzYXJtanFnVUVfYzZBZHk2Rjdva0poSjh6UWdOMDdPMC1ycFJkSS1uMlljZDA1VWk5T2ZnWlRFSVlmT2RrLWE0d1FVemZVSk5ST0NVbFEzSUR2ajBfLUhaY1NmQ2RMSXdBa1NzcURXeFVNSXpUNzl6YUM5RUY5ZDlYaw?oc=5",
+    "published": "2026-06-29",
+    "summary": "美国股指期货上涨 逢低买盘入场推动科技股领涨&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -544,41 +580,5 @@ var GPU_NEWS=[
     "summary": "大公司：\n  赢创计划全球裁员3200人\n  赢创近日宣布，将延长“赢创定制”增效计划，涉及赢创全球所有业务及职能部门，拟裁减约3200个岗位，其中德国本土约占2150个。相关措施计划于2027年启动，持续至2029年底。6月22日，赢创确认，德国以外地区将削减1050个职位，中国区包含在内，但具体裁员数量尚未明确。“赢创定制”计划于2023年10月推出，原定目标为2026年底前累计削减约2800个岗位。今年5月，赢创曾表示该计划进展顺利并将实现既定降本目标。\n  韩国考虑对三星和SK海力士杠杆ETF采取单独措施\n  韩国金融监督院院长Lee Chan-jin表示，由于散户投资者对高风险产品的需求没有降温迹象，金融监管当局正在考虑对个股杠杆ETF采取单独的稳定措施。Lee在周一的新闻发布会上表示，个股杠杆ETF的副作用正在日益加剧。Lee表示，金融监督院正在调查未来资产的SpaceX IPO股票分配失败事件，旨在防止类似问题再次发生，从而保护投资者权益。\n  台积电28nm较年初减产25%\n  据报道，供应链人士指出，台积电28纳米主要生产基地Fab 15A月投片量从今年初的20万片，",
     "full_text": "氪星晚报｜赢创计划全球裁员3200人；台积电28nm较年初减产25%；三星电子向韩国所有员工开放ChatGPT和Codex\n大公司：\n赢创近日宣布，将延长“赢创定制”增效计划，涉及赢创全球所有业务及职能部门，拟裁减约3200个岗位，其中德国本土约占2150个。相关措施计划于2027年启动，持续至2029年底。6月22日，赢创确认，德国以外地区将削减1050个职位，中国区包含在内，但具体裁员数量尚未明确。“赢创定制”计划于2023年10月推出，原定目标为2026年底前累计削减约2800个岗位。今年5月，赢创曾表示该计划进展顺利并将实现既定降本目标。\n韩国金融监督院院长Lee Chan-jin表示，由于散户投资者对高风险产品的需求没有降温迹象，金融监管当局正在考虑对个股杠杆ETF采取单独的稳定措施。Lee在周一的新闻发布会上表示，个股杠杆ETF的副作用正在日益加剧。Lee表示，金融监督院正在调查未来资产的SpaceX IPO股票分配失败事件，旨在防止类似问题再次发生，从而保护投资者权益。\n据报道，供应链人士指出，台积电28纳米主要生产基地Fab 15A月投片量从今年初的20万片，已降至15万片，相较年初减少逾25%。台积电规划更多28纳米产能支持中间层，逐渐退出低毛利订单。\n近日，从木林森全资子公司新余木林森电子有限公司获悉，受原材料玻璃布影响，PCB生产所需的原材料覆铜板价格持续大幅上涨，且货源紧缺，导致PCB核心主材覆铜板成本大幅飙升。为持续保证优质产品及更好的服务，协同市场的发展平衡供需方共同利益，公司慎重研究决定于2026年6月17日起，将对全线PCB产品价格进行再次上调10%。此前，公司已于2026年6月12日对全线PCB产品价格上调20%。（\nOpenAI宣布，三星电子正在向全球员工部署ChatGPT Enterprise（企业版）和Codex，以加速公司内部对AI的采用。根据协议，ChatGPT和Codex将提供给韩国所有三星电子员工，以及全球范围内所有设备体验（DX）部门员工。这是OpenAI迄今为止最大的企业级部署之一。三星电子将在其运营中全面使用ChatGPT和Codex，涵盖研发、制造、营销、企业职能以及其他业务领域。\n新产品：\n36氪获悉，6月22日，阿里巴巴发布视频生成模型HappyHorse 1.1，较1.0版本，在动态表现力、主体一致性、指令遵循、视觉质感和音频能力等维度系统性升级。HappyHorse官网、阿里云百炼和千问云均已接入最新版本。\n投融资：\n36氪获悉，Sand.ai近日完成两轮合计超亿美元融资，投资方包括 Look Capital、Lollapalooza Capital（王慧文家办）、九坤创投、经纬创投、和玉资本（MSA Capital）、创新工场、襄禾资本、源码资本、中科创星、洪泰基金、今日资本、华业天成、云晖资本、IDG、百度风投等一线机构联合投资。星涵资本担任本轮融资财务顾问。\n中创新航、湖南盐业集团等在湖北成立新股权投资基金，出资额1.05亿\n36氪获悉，天眼查App显示，近日，凯博晟富（湖北）股权投资基金合伙企业（有限合伙）成立，执行事务合伙人为凯博（湖北）私募基金管理有限公司，出资额1.05亿人民币，经营范围为创业投资、以自有资金从事投资活动。合伙人信息显示，该基金由中创新航、湖南盐业集团旗下湖南轻盐晟富创业投资管理有限公司、凯博（湖北）私募基金管理有限公司共同出资。\n今日观点：\n6月22日，天风国际证券分析师郭明錤最新产业调查显示，谷歌将在TPU v9/Humufish的基础上，开发代号可能是Triggerfish的升级版v9芯片，并由联发科独家取得此单价更高的新增订单。在Humufish生命周期400万‒500万颗出货预估不变下，谷歌额外追加100万-200万颗Triggerfish订单，预计2027年底开始生产、2028年放量；因Triggerfish单价较Humufish高约30%，有望成为联发科2028年营运动能的新增量。\n6月22日，第四届链博会在北京开幕，英伟达首席执行官黄仁勋用视频方式发表致辞。他表示：“链博会所关注的是世界上最重要的体系之一：供应链。供应链连接着能源、工厂、物流、企业和客户，进而连接着整个世界。中国是世界上重要的科技与产业中心之一，这里的工程师表现卓越，开发者行动敏捷，企业也以非凡的规模实现发展。再次祝贺2026年链博会开幕，祝愿本届博览会取得圆满成功！”\n其他值得关注的新闻：\n英国央行发布系统重要性稳定币监管框架，2027年起允许稳定币在英国合规运营\n英格兰银行（英国央行）6月22日发布针对系统重要性稳定币发行商的政策声明及《行为准则》（规则）草案，标志着英国稳定币监管框架建设迈出关键一步。核心政策方面，框架作出两项重要调整：其一，稳定币储备资产中利息计息资产（短期英国国债）的最高比例从60%上调至70%，其余须存放于央行存款；其二，以发行上限取代此前咨询中提出的临时持有限额，每种系统重要性稳定币初始发行上限设为400亿英镑，该上限将定期审查，待信贷供给风险消除后予以取消。框架征询意见截止日期为2026年9月22日，英格兰银行计划于2026年底最终确定《行为准则》，受监管的稳定币最早可于2027年起在英国合规运营。",
     "lang": "zh"
-  },
-  {
-    "title": "五矿期货邀您共同参与第二十届全国期货（期权）实盘交易大赛！",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLUxEMl9WMzA3dUswY0FhdUxrTVNmNTllUVJSeUNaSEdsS3RnSmVzWGV2UkZGMzdrVGx4cWkzaFYxVGM0UXVOZmlsMzhEU2EwUktSb3JCRGhnTEE1N3FKSjEzRzJzcHdOM0xvVHY0d0FsVVpaaW11ajVzX2MyWmZwWTZXSURNNXgxOXRiakZR?oc=5",
-    "published": "2026-06-22",
-    "summary": "五矿期货邀您共同参与第二十届全国期货（期权）实盘交易大赛！&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "提升人民币资产吸引力 香港将推5年期人民币国债期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04dllHV2k1ZlgwMDhRMDRudlFKcmpNQUhlTjhvVi11bzZpZ2RHUEt0VDVLZGNXWEgwRVc5WDlZSHI2dk9XWjRkZmFpeWt0UEx1el9IMXVTa2E3aDBGMmpVNXUwVUFTZEJMdkR5MXZncmNMeGx1dVlyWg?oc=5",
-    "published": "2026-06-21",
-    "summary": "提升人民币资产吸引力 香港将推5年期人民币国债期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "本周期货行情解读和分析20260621",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYXdMM285U3lmVk5vMjU0QjlrSFVKUVp4UHdyV2J6dVRuSUNNTGkwWGgwQXBNSnRLQ3d4X3dDMWpINl9LMVVQQjhkeGJ1X2huSTZzUDhYb3ByY2NtZEVxTFVZRFVJd2N6NkFPU3dKdmhrSzFQMkxpcF9Pb3V1QV96ejdmWQ?oc=5",
-    "published": "2026-06-21",
-    "summary": "本周期货行情解读和分析20260621&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   }
 ];
