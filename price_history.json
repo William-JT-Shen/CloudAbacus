@@ -4696,7 +4696,7 @@
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.41
+            "price_usd": 0.43
           }
         ],
         "RTX 5080": [
@@ -4708,7 +4708,7 @@
         "RTX 5070 TI": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.15
+            "price_usd": 0.14
           }
         ],
         "RTX 5070": [
@@ -4814,7 +4814,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.53
+            "price_usd": 3.82
           },
           {
             "platform": "CoreWeave",
@@ -4832,7 +4832,7 @@
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.73
+            "price_usd": 0.77
           },
           {
             "platform": "DataCrunch",
