@@ -4696,7 +4696,7 @@
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.43
+            "price_usd": 0.42
           }
         ],
         "RTX 5080": [
@@ -4708,7 +4708,7 @@
         "RTX 5070 TI": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.14
+            "price_usd": 0.15
           }
         ],
         "RTX 5070": [
