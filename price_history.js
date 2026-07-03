@@ -4961,7 +4961,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.21
+            "price_usd": 0.2
           }
         ],
         "RTX 5070 TI": [
