@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-02T21:20:57Z
-var NEWS_FETCHED_AT="2026-07-02T21:20:57Z";
+// 生成:2026-07-03T04:00:31Z
+var NEWS_FETCHED_AT="2026-07-03T04:00:31Z";
 var GPU_NEWS=[
+  {
+    "title": "富时中国A50指数期货跌幅扩大至3%。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSURiUDlyQ3A3VW1EWHZvMkQ4aG5NQmRyZmhISmd0WUFwWUlnQXg1Um5SSlhfWTUzaEJ5T2RCMDR2Zm8zZFIycE9fQ3hXWlk3cDFvb0xZY3dRNV85OUw0T0xKcTRwTDhmd19WeHdZa255MkVNb1VuUEhNWURrR2VoRFpSRG5WMUE?oc=5",
+    "published": "2026-07-02",
+    "summary": "富时中国A50指数期货跌幅扩大至3%。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "盘前：纳指期货涨0.25% 华尔街火速拆解算力过剩",
     "source": "新浪财经",
@@ -75,6 +87,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "CBOT农产品期货主力合约收盘全线上涨，玉米期货涨1.51%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9odk9DRTgxU3FsNEJodUNmczRYQ0pqbzhjaklVOGZzWmpQMTYtaXJ0Q0dZZUxxRHFKS3hTQzVMSndLemtfUTlsZkRQbko5Wlk3Uk4zVkpTZ0c5ekxUZm01b0VXUXF1ZVVtaHJtdEFyby1iMUpIajd5ag?oc=5",
+    "published": "2026-06-30",
+    "summary": "CBOT农产品期货主力合约收盘全线上涨，玉米期货涨1.51%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "WTI 7月原油期货收跌1.77%报69.50美元/桶，6月份累计下跌超18.52%",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlMyYm1GLTJtR3lHVEhwcEU2RVBpQVVWVDZGZjVFMXFhU3NpVUc5UmwzTlQwZ0RCYm1WY1lFQy1qOFk3QTdlcUQxWTZZTGxISEhrcXhNcW55cnI1T0FaQ3IxSWpyOHQwR0Z1N3VvaHcxT285d2I5TUZRWjZtcWNCazRFWU81UEZmekFCcjMtbw?oc=5",
@@ -128,6 +152,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM1hOOXd0blh6Zm8xMFlqV0pVbU8wYTEtb1ZxVXNrclZ2V3RlUXNMUjlWUlA3SHUyNFE1RFNWa0lHMy02UjY4dDNnZFBOSnY5U0RmVEZmY1ZlcW5RODV1R0hOVDhVRkFxekNEOXk5UjczcVFnY21EZE1QYVlkZWw0dVV5X202MU9MNnc?oc=5",
     "published": "2026-06-30",
     "summary": "永安期货2026年第一次临时股东会高票通过董监高薪酬管理办法 出席率达85.49%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "韩国因期货上涨6%临时暂停科斯达克程序交易",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNGdJRHAzR3NacnBiUGJxaDhTcUJaTk1yU21FbHhBaFIyM1lEdWsyQ2ROeWFZNjVNandtMVl5THZXU3BvRjlHZE9HbUR6eFh4QVlpZk5NM2tmekhMSldlVWVUVU5jQjczN2VlMkZsZXF3Y3N2bVV6alMwVUJZazI4SlhvM1YxV0pubVRCaWtEdDFGdUFCRkdISVFfWmM2dw?oc=5",
+    "published": "2026-06-29",
+    "summary": "韩国因期货上涨6%临时暂停科斯达克程序交易&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -192,6 +228,18 @@ var GPU_NEWS=[
     "lang": "zh"
   },
   {
+    "title": "2026年6月28日发布：股指期货开盘前不足一小时 美伊达成协议同意停止袭击并于本周会面",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNXzVGb21QLXVMQjJlMS1pT2FFSnZwcDY3UTVKS29TZllldlBodVJuUzMtOFI2VFRlTjBGVUZtUmc1NG9CR1ItM0JPM1hHS0RHdUpqNUc0dDJ5Q3plTENwbVVraXlxamRxT3ltNWlIOVJYZDI0dVRINDhCWUxyZjFMVkdMeXAxTU1qLVZNajktQUJTdzRTR042WTl1RzhQQQ?oc=5",
+    "published": "2026-06-28",
+    "summary": "2026年6月28日发布：股指期货开盘前不足一小时 美伊达成协议同意停止袭击并于本周会面&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "人工智能算力正成为金融资产 高达85亿美元的GPU支持债务便是佐证",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVVzcFNtLVNMS3htckRwaW54ZVRtb3hvejRxYjFDd1VPSTZlNkJZQVdENy1zY0hpVFNRdUZKTml3RnVPTDVENTZDR1hCRUpHeW9CQi1FajhmX2R5ZFlXMk8tMi1Xc0RJUkRZaUJNV1JJMVBNdzdJWmROem83LXM0b2doUnNrWndaeTBoRlF4UQ?oc=5",
@@ -221,6 +269,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZFA4TjFGMkJrbmI3TzJMcEtUVnpxSHB0d2gtbWVjU3RjekFMQ3ZXUHpNSEtNM3g5Y29VVGZiT2pHT1FjTmp2eS1lMG05Ylg3dHlLdGFBWFo3aHI4d3VzQUFDVHRGMTd6eHZvVTNESThKcWlQOENFdGdUMlBaSE9fczZMTVZWSC1nVjFBQ2d0NA?oc=5",
     "published": "2026-06-27",
     "summary": "霍尔木兹危机推动周末交易 Hyperliquid原油期货交易量大增&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "国内期货早盘收盘涨跌不一",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM3BvaDRjY2NrMTRpb3RiTXc2M3Q5WDM5R0pVMTluMExpNDBNcGIzcW9EN3k4U0FEOE45SUlBbl9NVmdkYnNqMzhySF9JOFVkZHYzbGRKNVBCS2lfZExpaV9oeEZXTHRxblU0dDJ2d2FyNGNrQTRCZjIzeFdhczNOSA?oc=5",
+    "published": "2026-06-26",
+    "summary": "国内期货早盘收盘涨跌不一&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -526,59 +586,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "国内商品期货夜盘开盘 LPG跌超2%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RTkJFVWwzX3ZuQmwtMThwazJYa2JMeVZfeDhmUmd0eXZDeG4wVU05ZUd6dHR6OGVONWhRVHEzZjZVbnZhS0FxTlFqUjlOSzlhRzRuVkoyNjNJdnNuX3VzNFVxMXdHNXU4UUl6V2dTd1I0a3ZYT0NMaw?oc=5",
-    "published": "2026-06-22",
-    "summary": "国内商品期货夜盘开盘 LPG跌超2%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "亚洲市场涨跌互现 美股期货走低 伊朗谈判进展属实 和平红利是否已消耗殆尽",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNckk5dzhVVTVxNy01akw2V2RqR295ZzlOcGJLb2JzU0VDU1cteEQ0d3o1U09aU0Q4QndwRlNLWVFaQlJFWlpnM19raVlfUGFjMFh3MU1IelFWc0dlaW15RHFQdDJoMTFMdHl5ZG9PNkxHeGVYcmZnOC1GVHRPOElVOHJPMTQwdEwzc1NOZXF2RQ?oc=5",
-    "published": "2026-06-22",
-    "summary": "亚洲市场涨跌互现 美股期货走低 伊朗谈判进展属实 和平红利是否已消耗殆尽&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "WTI 7月原油期货收跌2.32%，报74.82美元/桶",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM3l0bGVsOTdUcjZpQ2hpZVo4M0Y1cTZBWkFVU3lsSnV2ZzA1SnJQY25XM3c5Y0E0ZWd0NW52X2h2T0NlOTVqcE5GM2V1NkpRZ19wTlZZRV9XbktYbVBPY0V4cTRXSlotaklTQTItUnRzeWUtSUZyY2N3ZFJ6UV96aw?oc=5",
-    "published": "2026-06-22",
-    "summary": "WTI 7月原油期货收跌2.32%，报74.82美元/桶&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "补齐市场信息差！36氪股市舆情交流群开放，实物抽奖等你来！",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3863967437247751?f=rss",
-    "published": "2026-06-22",
-    "summary": "一、36氪官方大数据股市舆情工具介绍\n  36氪企业全情报是36氪联合红麦数据推出的专业资本市场情报平台，依托全网大数据资源，实时同步个股、产业一手资讯，同时通过智能算法识别行情潜藏风险，一站式查询板块、个股完整消息脉络。\n  小程序直达链接，手机端可直接打开使用，无需下载任何软件：\n  &nbsp;https://channel.36kr.com/api/x/wechat/urlLink?channelId=1&amp;path=/pages/home/index\n  （手机端直接打开，无需额外操作）&nbsp;\n  &nbsp;\n  二、官方股票舆情社群正开放，一站式解决资讯滞后难题\n  还在因资讯滞后错过行情主线？还在看不懂大盘涨跌、分不清个股潜在风险？ 现在，36氪企业全情报官方股票舆情情报社群正式对外开放！无论你是短线交易者、波段赛道研究者，还是专注基本面分析的价值投资者，社群内的资讯内容、交流氛围都能适配你的信息需求。\n  平台依托专业大数据舆情系统，全天候拆解全网股市动态：深挖个股一手情报、完整复盘大盘涨跌逻辑、分享细分赛道研究干货。帮助大家先人一步捕捉赛道机会，提前规避",
-    "full_text": "补齐市场信息差！36氪股市舆情交流群开放，实物抽奖等你来！\n一、36氪官方大数据股市舆情工具介绍\n36氪企业全情报是36氪联合红麦数据推出的专业资本市场情报平台，依托全网大数据资源，实时同步个股、产业一手资讯，同时通过智能算法识别行情潜藏风险，一站式查询板块、个股完整消息脉络。\n小程序直达链接，手机端可直接打开使用，无需下载任何软件：\nhttps://channel.36kr.com/api/x/wechat/urlLink?channelId=1&path=/pages/home/index\n（手机端直接打开，无需额外操作）\n二、官方股票舆情社群正开放，一站式解决资讯滞后难题\n还在因资讯滞后错过行情主线？还在看不懂大盘涨跌、分不清个股潜在风险？ 现在，36氪企业全情报官方股票舆情情报社群正式对外开放！无论你是短线交易者、波段赛道研究者，还是专注基本面分析的价值投资者，社群内的资讯内容、交流氛围都能适配你的信息需求。\n平台依托专业大数据舆情系统，全天候拆解全网股市动态：深挖个股一手情报、完整复盘大盘涨跌逻辑、分享细分赛道研究干货。帮助大家先人一步捕捉赛道机会，提前规避业绩暴雷、舆情利空、板块回调等潜在风险，彻底摆脱盲目跟风的投资困境。\n👉 扫码添入群：36氪企业全情报 官方股票舆情交流社群：\n扫码入群！\n加入社群，享受四大核心权益\n✅ 7×24 小时实时舆情速递 全覆盖政策动向、行业新闻、企业公告、资金流向数据，全网一手资讯同步更新，信息获取快人一步。\n✅ 三段式全天候行情情报推送 盘前前瞻预判、盘中实时解读、盘后完整复盘定时更新，紧跟市场板块轮动节奏，省去大量自主搜集资讯的时间。\n✅ 风险预警 + 同频理性交流 平台提前预警业绩暴雷、突发舆情利空、高位回调等市场风险；社群汇聚众多理性投资者，可自由交流行业逻辑、分享市场观点，辅助个人独立判断。\n社群适配人群\n✔ 日常进行短线、波段操作，长期跟踪各细分行业赛道\n✔ 想要打破信息壁垒，获取全网同步的一手舆情资讯\n✔ 持续关注企业基本面、板块轮动、主力资金流向变化\n✔ 坚持理性分析市场，希望避开跟风炒作、高位踩雷的陷阱。\n三、专属抽奖活动，体验小程序15秒即可免费参与！\n36氪官方企业全情报小程序，一站式查企业动态、行业舆情、市场资讯，操作简单零门槛，是您炒股的好助手！\n无需下载APP，打开微信简单体验15秒完成小程序体验，就能直接参与平台免费抽奖，奖品设置丰富实用：\n- 一等奖：36氪专属《新经济看 36 氪》全套五册丛书\n- 二等奖：小黄人创意马克杯\n- 三等奖：36氪定制太空人专属徽章\n注：本轮抽奖6.26截止。\n扫码参与抽奖！\n额外加码邀请福利\n完成抽奖后页面会自动开启邀请按钮，成功邀请 10 位好友参与本次抽奖，活动结束后无论自身是否中奖，均可在开奖后扫描页面内企业微信二维码联系客服，额外免费赠送三等奖太空人徽章一份。\n   ",
-    "lang": "zh"
-  },
-  {
-    "title": "氪星晚报｜赢创计划全球裁员3200人；台积电28nm较年初减产25%；三星电子向韩国所有员工开放ChatGPT和Codex",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3864065855706120?f=rss",
-    "published": "2026-06-22",
-    "summary": "大公司：\n  赢创计划全球裁员3200人\n  赢创近日宣布，将延长“赢创定制”增效计划，涉及赢创全球所有业务及职能部门，拟裁减约3200个岗位，其中德国本土约占2150个。相关措施计划于2027年启动，持续至2029年底。6月22日，赢创确认，德国以外地区将削减1050个职位，中国区包含在内，但具体裁员数量尚未明确。“赢创定制”计划于2023年10月推出，原定目标为2026年底前累计削减约2800个岗位。今年5月，赢创曾表示该计划进展顺利并将实现既定降本目标。\n  韩国考虑对三星和SK海力士杠杆ETF采取单独措施\n  韩国金融监督院院长Lee Chan-jin表示，由于散户投资者对高风险产品的需求没有降温迹象，金融监管当局正在考虑对个股杠杆ETF采取单独的稳定措施。Lee在周一的新闻发布会上表示，个股杠杆ETF的副作用正在日益加剧。Lee表示，金融监督院正在调查未来资产的SpaceX IPO股票分配失败事件，旨在防止类似问题再次发生，从而保护投资者权益。\n  台积电28nm较年初减产25%\n  据报道，供应链人士指出，台积电28纳米主要生产基地Fab 15A月投片量从今年初的20万片，",
-    "full_text": "氪星晚报｜赢创计划全球裁员3200人；台积电28nm较年初减产25%；三星电子向韩国所有员工开放ChatGPT和Codex\n大公司：\n赢创近日宣布，将延长“赢创定制”增效计划，涉及赢创全球所有业务及职能部门，拟裁减约3200个岗位，其中德国本土约占2150个。相关措施计划于2027年启动，持续至2029年底。6月22日，赢创确认，德国以外地区将削减1050个职位，中国区包含在内，但具体裁员数量尚未明确。“赢创定制”计划于2023年10月推出，原定目标为2026年底前累计削减约2800个岗位。今年5月，赢创曾表示该计划进展顺利并将实现既定降本目标。\n韩国金融监督院院长Lee Chan-jin表示，由于散户投资者对高风险产品的需求没有降温迹象，金融监管当局正在考虑对个股杠杆ETF采取单独的稳定措施。Lee在周一的新闻发布会上表示，个股杠杆ETF的副作用正在日益加剧。Lee表示，金融监督院正在调查未来资产的SpaceX IPO股票分配失败事件，旨在防止类似问题再次发生，从而保护投资者权益。\n据报道，供应链人士指出，台积电28纳米主要生产基地Fab 15A月投片量从今年初的20万片，已降至15万片，相较年初减少逾25%。台积电规划更多28纳米产能支持中间层，逐渐退出低毛利订单。\n近日，从木林森全资子公司新余木林森电子有限公司获悉，受原材料玻璃布影响，PCB生产所需的原材料覆铜板价格持续大幅上涨，且货源紧缺，导致PCB核心主材覆铜板成本大幅飙升。为持续保证优质产品及更好的服务，协同市场的发展平衡供需方共同利益，公司慎重研究决定于2026年6月17日起，将对全线PCB产品价格进行再次上调10%。此前，公司已于2026年6月12日对全线PCB产品价格上调20%。（\nOpenAI宣布，三星电子正在向全球员工部署ChatGPT Enterprise（企业版）和Codex，以加速公司内部对AI的采用。根据协议，ChatGPT和Codex将提供给韩国所有三星电子员工，以及全球范围内所有设备体验（DX）部门员工。这是OpenAI迄今为止最大的企业级部署之一。三星电子将在其运营中全面使用ChatGPT和Codex，涵盖研发、制造、营销、企业职能以及其他业务领域。\n新产品：\n36氪获悉，6月22日，阿里巴巴发布视频生成模型HappyHorse 1.1，较1.0版本，在动态表现力、主体一致性、指令遵循、视觉质感和音频能力等维度系统性升级。HappyHorse官网、阿里云百炼和千问云均已接入最新版本。\n投融资：\n36氪获悉，Sand.ai近日完成两轮合计超亿美元融资，投资方包括 Look Capital、Lollapalooza Capital（王慧文家办）、九坤创投、经纬创投、和玉资本（MSA Capital）、创新工场、襄禾资本、源码资本、中科创星、洪泰基金、今日资本、华业天成、云晖资本、IDG、百度风投等一线机构联合投资。星涵资本担任本轮融资财务顾问。\n中创新航、湖南盐业集团等在湖北成立新股权投资基金，出资额1.05亿\n36氪获悉，天眼查App显示，近日，凯博晟富（湖北）股权投资基金合伙企业（有限合伙）成立，执行事务合伙人为凯博（湖北）私募基金管理有限公司，出资额1.05亿人民币，经营范围为创业投资、以自有资金从事投资活动。合伙人信息显示，该基金由中创新航、湖南盐业集团旗下湖南轻盐晟富创业投资管理有限公司、凯博（湖北）私募基金管理有限公司共同出资。\n今日观点：\n6月22日，天风国际证券分析师郭明錤最新产业调查显示，谷歌将在TPU v9/Humufish的基础上，开发代号可能是Triggerfish的升级版v9芯片，并由联发科独家取得此单价更高的新增订单。在Humufish生命周期400万‒500万颗出货预估不变下，谷歌额外追加100万-200万颗Triggerfish订单，预计2027年底开始生产、2028年放量；因Triggerfish单价较Humufish高约30%，有望成为联发科2028年营运动能的新增量。\n6月22日，第四届链博会在北京开幕，英伟达首席执行官黄仁勋用视频方式发表致辞。他表示：“链博会所关注的是世界上最重要的体系之一：供应链。供应链连接着能源、工厂、物流、企业和客户，进而连接着整个世界。中国是世界上重要的科技与产业中心之一，这里的工程师表现卓越，开发者行动敏捷，企业也以非凡的规模实现发展。再次祝贺2026年链博会开幕，祝愿本届博览会取得圆满成功！”\n其他值得关注的新闻：\n英国央行发布系统重要性稳定币监管框架，2027年起允许稳定币在英国合规运营\n英格兰银行（英国央行）6月22日发布针对系统重要性稳定币发行商的政策声明及《行为准则》（规则）草案，标志着英国稳定币监管框架建设迈出关键一步。核心政策方面，框架作出两项重要调整：其一，稳定币储备资产中利息计息资产（短期英国国债）的最高比例从60%上调至70%，其余须存放于央行存款；其二，以发行上限取代此前咨询中提出的临时持有限额，每种系统重要性稳定币初始发行上限设为400亿英镑，该上限将定期审查，待信贷供给风险消除后予以取消。框架征询意见截止日期为2026年9月22日，英格兰银行计划于2026年底最终确定《行为准则》，受监管的稳定币最早可于2027年起在英国合规运营。",
-    "lang": "zh"
   }
 ];
