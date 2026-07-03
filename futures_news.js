@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-03T10:48:36Z
-var NEWS_FETCHED_AT="2026-07-03T10:48:36Z";
+// 生成:2026-07-03T14:28:31Z
+var NEWS_FETCHED_AT="2026-07-03T14:28:31Z";
 var GPU_NEWS=[
   {
     "title": "富时中国A50指数期货跌幅扩大至3%。",
@@ -116,6 +116,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN1lRUFQ3ZEtHZEV3OEVhY3VfazRFQm1EUExrZTl5SE1HdXVtaXI1VFhJT1NSaXkxU25EWkZ4UTFEN3h0T3N4bzJqemJTZVlyUkh0MnhzRWRlNnRzZjBDc0RqNXYxRkkxQS0tSHZ3TXgxZWJDc29LT0ZCcXNPak9sRVUyWFlza3VvVDdDXw?oc=5",
     "published": "2026-07-01",
     "summary": "弘业期货涨2.01%，成交额1815.38万元，主力资金净流出125.96万元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "芝商所7月27日推出单只股票期货，覆盖英伟达、SpaceX等50余只美股",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fY1lKU1pIRFhxV1Fla1dmcmJzaWx4V3NWX01TTWN4N3ZQZEJhS3Z1aEpkdVZqTlRqeXcwYmpScmlDeVA2YTFPa1R3d1VzM0VUazVEUmxmZnJYci1hdUJuVkVyTEg0Y2sxdURfeHZuS0xQenZlalFsbnRtU2s?oc=5",
+    "published": "2026-06-30",
+    "summary": "芝商所7月27日推出单只股票期货，覆盖英伟达、SpaceX等50余只美股&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -572,18 +584,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbnBIcTVuY01XYWwtYl9VSjYtMTRzYUFwTUpUNmM0aVhRN1A1amtvN3dESXFJS3VheWZFVzZwLVZIX2NxaXYtNjZveko3NEswVTJzbGxnSjhzNEFia1RvX3VjRGx4MExwaE03XzRBckJOT2J1bFZaRDlxSU9oZjJGU3RjVzRRN3RjQmdNNGNtTQ?oc=5",
     "published": "2026-06-23",
     "summary": "Kalshi比特币永续合约获美国商品期货交易委员会批准芝商所股价跌8% 芝加哥期权交易所股价跌17%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "光大期货0623热点追踪：铁矿下挫近百点！之前那么强，为啥突然不行了？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTUhMWU4xTzRfeGxzbmwwcjRXalFGN0UyLTR5N2FGemJKSzE1RzEzR0ZSbzJzSWFmMG1LY0piUHN0Qm04QXpxQlRCSVBKTkxYS3d3aFNTNTVoVFdPc2M0QWRhNWpKeHlhTXVpczd2QzFHcDM1Nk5lb2o0MlQyUkM2ZVNBNjN5dzZMX1JUaFkyMW9rdkJPNjJkRDFfRnBpVTd0dXdqZDN6WXcyQjEyYXA1dTd0RW9VX3FDeDBwR19ZeUZuamg4N3NETWdHQWJ6b1prUU1sUVlicWtiYkdpd19EU1B4bC0?oc=5",
-    "published": "2026-06-23",
-    "summary": "光大期货0623热点追踪：铁矿下挫近百点！之前那么强，为啥突然不行了？&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
