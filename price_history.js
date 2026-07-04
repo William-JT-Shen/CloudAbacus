@@ -5326,13 +5326,13 @@ var PRICE_HISTORY_DATA = {
         "RTX 5880": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.47
+            "price_usd": 0.48
           }
         ],
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 4.01
+            "price_usd": 4.05
           },
           {
             "platform": "CoreWeave",
@@ -5350,7 +5350,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.77
+            "price_usd": 0.76
           },
           {
             "platform": "DataCrunch",
