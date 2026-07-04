@@ -5332,7 +5332,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 4.05
+            "price_usd": 4.08
           },
           {
             "platform": "CoreWeave",
