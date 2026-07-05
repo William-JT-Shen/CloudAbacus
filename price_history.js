@@ -5503,7 +5503,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.09
           }
         ],
         "NVIDIA RTX 4080 / 4080 Super": [
@@ -5527,7 +5527,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 4060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.07
           }
         ],
         "NVIDIA RTX 3090 / 3090 Ti": [
@@ -5542,13 +5542,13 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.11
           }
         ],
-        "NVIDIA RTX 3070 / 3070 Ti": [
+        "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.07
           }
         ],
-        "NVIDIA RTX 3060 / 3060 Ti": [
+        "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
@@ -5591,7 +5591,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 4.08
+            "price_usd": 3.88
           },
           {
             "platform": "CoreWeave",
@@ -5623,7 +5623,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 6000 Ada / A6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.37
+            "price_usd": 0.39
           },
           {
             "platform": "DataCrunch",
