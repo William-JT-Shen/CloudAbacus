@@ -5494,13 +5494,13 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.12
           }
         ],
-        "RTX 5060": [
+        "RTX 5060 TI": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.09
           }
         ],
-        "RTX 5060 TI": [
+        "RTX 5060": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.09
@@ -5591,7 +5591,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.75
+            "price_usd": 3.68
           },
           {
             "platform": "CoreWeave",
@@ -5609,7 +5609,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.76
+            "price_usd": 0.77
           },
           {
             "platform": "DataCrunch",
@@ -5636,11 +5636,13 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.29
           }
         ],
-        "NVIDIA L40S": [
+        "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.84
-          },
+            "price_usd": 0.07
+          }
+        ],
+        "NVIDIA L40S": [
           {
             "platform": "CoreWeave",
             "price_usd": 2.25
@@ -5648,12 +5650,6 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "DataCrunch",
             "price_usd": 1.37
-          }
-        ],
-        "RTX 2080": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.07
           }
         ],
         "NVIDIA GH200": [
