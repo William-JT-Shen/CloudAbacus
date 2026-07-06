@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-06T18:19:12Z
-var NEWS_FETCHED_AT="2026-07-06T18:19:12Z";
+// 生成:2026-07-06T21:45:22Z
+var NEWS_FETCHED_AT="2026-07-06T21:45:22Z";
 var GPU_NEWS=[
   {
     "title": "香港交易所美元黄金期货成交创新高",
@@ -149,6 +149,42 @@ var GPU_NEWS=[
     "summary": "文｜胡香赟\n  编辑｜海若镜\n  2026年6月底，西班牙瓦尔德希伯伦大学医院（Vall d’Hebron University Hospital）宣布完成欧洲首例单孔机器人儿科肾输尿管切除术。\n  瓦尔德希伯伦大学医院是西班牙规模最大的综合医院之一，年接诊量过百万人次，在整个欧洲医疗系统内，这家医院对前沿医疗技术、产品的探索都称得上“先锋”。此前，世界首例供体来自安乐死患者的面部移植手术就在这里完成。\n  本次，医院方面对36氪表示，支持完成这场“有里程碑意义的儿科手术”的核心设备，来自中国手术机器人公司术锐机器人。这是瓦尔德希伯伦大学医院首次以直销形式采购中国医疗器械，落地后，预计每年可为医院新增200-300台微创机器人手术，成为打通中国高端医疗器械进入欧洲临床场景的关键通道。\n  一台手术机器人的落地，其实只是中、西生命健康产业深度交融的缩影。\n  在地中海沿岸的巴塞罗那，这座曾以高迪建筑、港口航运和汽车产业闻名的城市，早已成长为欧洲第四大生命科学创新高地。\n  近期，受西班牙加泰罗尼亚贸易投资局（Catalonia Trade &amp; Investment）邀请，36氪实",
     "full_text": "400家starup聚集、阿斯利康重押13亿欧元，创新药出海欧洲绕不开这座城｜最前线\n文｜胡香赟\n编辑｜海若镜\n2026年6月底，西班牙瓦尔德希伯伦大学医院（Vall d’Hebron University Hospital）宣布完成欧洲首例单孔机器人儿科肾输尿管切除术。\n瓦尔德希伯伦大学医院是西班牙规模最大的综合医院之一，年接诊量过百万人次，在整个欧洲医疗系统内，这家医院对前沿医疗技术、产品的探索都称得上“先锋”。此前，世界首例供体来自安乐死患者的面部移植手术就在这里完成。\n本次，医院方面对36氪表示，支持完成这场“有里程碑意义的儿科手术”的核心设备，来自中国手术机器人公司术锐机器人。这是瓦尔德希伯伦大学医院首次以直销形式采购中国医疗器械，落地后，预计每年可为医院新增200-300台微创机器人手术，成为打通中国高端医疗器械进入欧洲临床场景的关键通道。\n一台手术机器人的落地，其实只是中、西生命健康产业深度交融的缩影。\n在地中海沿岸的巴塞罗那，这座曾以高迪建筑、港口航运和汽车产业闻名的城市，早已成长为欧洲第四大生命科学创新高地。\n近期，受西班牙加泰罗尼亚贸易投资局（Catalonia Trade & Investment）邀请，36氪实地走访加泰罗尼亚首府巴塞罗那地区的生物医药产业园区、头部药企研发中心，试图还原这片地中海沿岸土地上正在发生的产业变革。\n产业生态成型：\n加泰罗尼亚打造欧洲生命科学创新沃土\nJaume Baró是加泰罗尼亚政府企业与竞争力秘书长兼贸易投资局局长（Secretary of Business and Labor），他提供的一组数据显示：当前，区域内共有1523家生命科学相关企业，吸纳就业人口占当地总人口的7.3%、GDP贡献值为4.1%；对外出口则稳居西班牙首位，全国46%的医药产品出口由加泰罗尼亚完成。2024年，医药品类贡献了近九成本地出口总额。\n从外商投资角度，2020-2024年五年间，当地生命健康产业的外商直接投资总额达22.8亿欧元，落地46个外资项目、创造6050个优质岗位，全西班牙“一半以上的生命科学外资全部流向加泰罗尼亚”。\n深究起来，加泰罗尼亚生命科学产业之所以能在南欧脱颖而出，持续吸引全球制药企业“重仓”，核心在于以巴塞罗那生命科学园（Parc Científic de Barcelona，PCB）为核心枢纽，搭建起的产、学、研、医、资一体化的闭环生态。这套成熟的资源串联机制，既源源不断孵化本土创新企业，也为外来投资者提供了难以快速复制的发展土壤。\n巴塞罗那生命科学园（PCB）园区规划示意\nPCB成立于1997年，是西班牙首个专业生命科学科技园。当前，园区已打通医疗实验室与临床端资源通道，实现基础科研、临床验证和产业转化无缝衔接，形成一套可持续的创新循环：科研人员依托高校实验室产出前沿技术，依托园区共享平台完成早期验证，再借助本地海量多中心临床资源完成人体试验，最终孵化商业化企业。\n可作为佐证的一组数字是：由加泰罗尼亚政府与巴塞罗那市政府联合创建的本土公私合营基金会Biocat统计显示，2015-2025年十年间，加泰罗尼亚生命健康领域已诞生超过400家初创公司。另据了解，全西班牙九成以上的临床试验，都是在加泰罗尼亚完成的。\nPCB市场营销与传播总监Grisha Domakowski介绍，当前，这套生态已跑出成熟范本。比如，从事基因疗法开发的SpliceBio就曾入驻PCB园区，其核心管线SB-007是一款针对遗传性视网膜退行性疾病的基因疗法，已进入临床研究阶段。2025年6月，SpliceBio曾完成一笔1.35亿美元的B轮融资，创下加泰罗尼亚生命科学领域单轮融资纪录。\n与此同时，PCB完善的资源串联能力，也是海外制药企业在此布局的核心原因。Jaume Baró提到，海外生命科学企业选择在此落地的核心动因里，产业集群、科创资源各占40%。而 PCB正是集群与科创资源的核心载体，跨国企业无需从零搭建完整研发配套，入驻即可对接高校博士人才库、第三方CRO，甚至是产业资本、知识产权服务机构等，大幅缩短研发落地周期。\n以英国制药巨头阿斯利康在当地的布局为例。2020年，阿斯利康选址巴塞罗那打造全球生物医药创新中心，计划到2027年时总计再次投资13亿欧元。自2023年投入运营以来，该中心已开展接近400个研发项目和190项临床试验，覆盖肿瘤、心血管、罕见病等疾病领域。\n除此之外，日本AGC Pharma Cheminaik、东和制药、美国远程医疗企业Teladoc Health等也已相继在加泰罗尼亚落地，累计投资数亿欧元、创造数千高端产业岗位。\nJaume Baró认为，这种“临床、科研、产业、资本”打通的竞争力，使得头部医疗机构、科研中心、活跃的初创生态和成熟制药企业之间相互赋能，天然成为全球创新企业进入欧洲的门户。\n引进到共创，\n中西生命科学合作步入深水区\n当一个区域的产业生态走向成熟，其目光必然向外延伸，即寻找新的技术源头、拓展更大的市场腹地。加泰罗尼亚生命科学产业的演进轨迹也遵循了这一逻辑。过去十年间，这个地中海产业集群完成了从内部积累到外部链接的跃迁。\n而中国创新力量的崛起，恰好与这一需求形成了互补。\n这种互补，根植于两个医疗体系各自禀赋的深层差异。瓦尔德希伯伦大学医院院长lbert Salazar认为，中欧医疗体系架构存在差异，但“双方均拥有值得互相借鉴的成熟经验”。\n“中国在AI技术落地、数字健康平台、远程医疗、超大人口体量医疗服务管理等领域展现出极强的落地能力，欧洲医疗机构可以向其学习数字化转型推进速度、医疗技术规模化普及等方面的落地经验。而欧洲医疗体系的优势则在于一体化公立医疗体系、循证医学体系、临床治理规范等方面。因此，双方合作最大机遇在于优势互补：欧洲对外输出临床验证、医疗质控相关经验，中国则具备技术规模化落地、创新产业生态、工业化发展的突出能力。”lbert Salazar表示。\n如今，这一判断正在被越来越多的实际合作印证。\n伴随着中国本土创新药产业逐渐完成从\"跟随式仿制\"到\"源头式创新\"的跨越，为自研新药寻找能够合作开发全球市场的欧美制药公司，成为中国创新药企近两年的核心任务。2025年，中国创新药BD出海总金额基数已达到1300亿美元。某种程度上，这一角色转换从根本上重塑了中国与欧美企业的合作内涵。\n有关注中国创新药企出海的FA人士观察到，此前，欧洲很多药企对中国市场的布局虽很早，但风格偏保守，实际合作不如中、美药企业频繁。但自2025年开始，欧洲部分制药公司从C level层面开始，对“了解中国市场的诉求变得格外强烈，哪怕仅是出于个人职业发展的角度”。\n在加泰罗尼亚，本土企业同样在调整姿态。今年3月，老牌皮肤病龙头制药公司阿尔米拉（Almirall,ALM）正式在上海设立办公室，负责在中国挖掘合适创新药项目、搭建合作关系。阿尔米拉首席科学官Karl Ziegelbauer向36氪表示，中国市场是公司的“补充性布局”，旨在依托各类合作拓宽创新研发边界。\n早在2022年，阿尔米拉就曾与先声药业（02096.HK）达成过合作，共同开发一款治疗斑秃和特应性皮炎的新药，里程碑付款最高达4.92亿美元。今年3月，公司又与华海药业（600521）子公司华奥泰达成全球研究合作及许可协议，共同开发一款早期单抗候选药物，累计付款最高可达3.4亿美元。\n阿尔米拉（Almirall）研发管线示意\nZiegelbauer认为，中国创新企业普遍具备“执行效率高、运营灵活敏捷、创新产业生态高速迭代”的优势。“在上海设立办公室后，我们并不会设定年度交易规模指标，优先考核标准为科研质量与战略匹配度，确保筛选得到的研发资产能够为皮肤病患者带来真正、颠覆性的治疗价值。”\n“双方的合作早已不局限于商品贸易，开展联合创新项目、产业合作、技术转让、研发协同、双向投资的案例持续增多。”Jaume Baró如此评价当前合作态势。\n中、西生命科学合作的下一程\n然而，机遇与挑战并存。\n“当前，双方在生命科学领域合作上的仍存在挑战，比如各国监管规则繁杂、地缘政治不确定性、文化差异，这要求所有合作方建立互信，保持稳定、树立长期发展视野。”Jaume Baró坦言。\n整体而言，过去五年间，中国企业在欧洲的国际化布局更多集中在制造业领域，生命科学产业仍处于相对早期阶段。\n加泰罗尼亚本地工业园区DFactory，已有多家中国医疗器械企业入驻\n这不仅是因为欧洲市场与中国药品器械监管体系差异显著，跨国临床试验、产品注册流程复杂，拉长项目落地周期，由此抬高了合作成本；同时，生命科学行业准入门槛远高于制造业，难以照搬整车、化工行业独立建厂的模式，企业合资，或开展科研合作因此成为主流，但也容易因为合作权责、知识产权分配易产生分歧。\nPCB市场、传播与竞争情报部门主管Silvia Labé也提到，园区曾接待过大量来自中国的医药代表团，覆盖政府单位、企业、医疗机构及科研机构等，他们来访的核心诉求大多是学习本地生物医药产业模式、探索合作机会。但有些时候，“代表团参访结束后，难以持续对接、跟进”。“由于资源有限，我们会比较谨慎地选择合作对象。对我们来说，远在欧洲，想全面了解中国当前的生物医药产业变化并不容易。”\n针对如何深化合作，加泰罗尼亚政府已制定明确策略。Jaume Baró介绍，加泰罗尼亚贸易投资局在上海、北京、香港设立办事处，为有意赴加投资的中国企业提供全流程服务：从协助准备投资申报材料、选址、签证办理、人才招聘到投资落地后的持续跟进。赴加投资的中国企业还可申请专项基金资金扶持。\n“我们的最终目标，是让加泰罗尼亚成为中国创新技术进入欧洲的核心门户之一，并成为双方企业在技术、产业协同上的可靠合作方。”Jaume Baró表示。",
     "lang": "zh"
+  },
+  {
+    "title": "上期所参展IDX 期货市场持续获得国际关注",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORktkNU13ZXV3N3Y4ZkU3cWxXd2M0RmxCU2Q3d2YtMHRIdjJDbzFRYlRMYVIzc0c0Tmk0QlhHVnptWkJfLWxDRWZJVUowUVRjSW9Tc0twNzRzbzFJLWg1VWxYU291aG9oMnZ2VXc1QzFxQlk3TklSUF92UGU0SkkxbHRBdFE?oc=5",
+    "published": "2026-07-02",
+    "summary": "上期所参展IDX 期货市场持续获得国际关注&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "【逐鹿天下 赢在交子】第二十届全国期货(期权)实盘交易大赛，诚邀您的参与",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YVFZXY05HeXBRd1BrcFRQekt2WHdYMUVGY2E1RWhIZXdhalh1OFdPakZ1dy1URFY0SVcyd0tINEVZSE5EUF82STlRUndWdGEwT1FZX3BLTk1RYlpWZHBGX3REN2FjZjZScEkwa2VWVEFoQ1lQUmc?oc=5",
+    "published": "2026-07-02",
+    "summary": "【逐鹿天下 赢在交子】第二十届全国期货(期权)实盘交易大赛，诚邀您的参与&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "期货看“五”评 | 锌：自律会议能否带来供应再平衡",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLVVyUFByRmlxdmpZNXZPNjY2YWdEQkl1bHJUeGtLUkZ5VmhSOG0yM19wN2FjSGRwTmMzeXMzZ2t0M3BrOWVYcDBfY0dPNDJOcGR3X2RtMWFkcTJURnlOOHhvSUs0MHY3amVjWkZraFRPYm1jSUxTZE1rTmh5QWdwVFl0NmQ?oc=5",
+    "published": "2026-07-02",
+    "summary": "期货看“五”评 | 锌：自律会议能否带来供应再平衡&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
   },
   {
     "title": "Tesla Sales Surge 25% on Recovery in Europe",
@@ -431,6 +467,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "富时中国A50指数期货早盘走高",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcm85RXpGWFZNUDFqN2l3N1JKZkd1LVBaOG94NnF0X1J6YXQ2UFg3R1RyZnllTDZuaGFncVJCMkVuVHphVWdwcXZ0aXJKM0hZVGdmalRlWWlXUm9scXRURnFEWjlmTEFIUm5hMndoYXBDQ3d0MS01eWxuTTQwYmFXaTZaM0o2dFk?oc=5",
+    "published": "2026-06-29",
+    "summary": "富时中国A50指数期货早盘走高&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "韩国因期货上涨6%临时暂停科斯达克程序交易",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNGdJRHAzR3NacnBiUGJxaDhTcUJaTk1yU21FbHhBaFIyM1lEdWsyQ2ROeWFZNjVNandtMVl5THZXU3BvRjlHZE9HbUR6eFh4QVlpZk5NM2tmekhMSldlVWVUVU5jQjczN2VlMkZsZXF3Y3N2bVV6alMwVUJZazI4SlhvM1YxV0pubVRCaWtEdDFGdUFCRkdISVFfWmM2dw?oc=5",
@@ -517,54 +565,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNXzVGb21QLXVMQjJlMS1pT2FFSnZwcDY3UTVKS29TZllldlBodVJuUzMtOFI2VFRlTjBGVUZtUmc1NG9CR1ItM0JPM1hHS0RHdUpqNUc0dDJ5Q3plTENwbVVraXlxamRxT3ltNWlIOVJYZDI0dVRINDhCWUxyZjFMVkdMeXAxTU1qLVZNajktQUJTdzRTR042WTl1RzhQQQ?oc=5",
     "published": "2026-06-28",
     "summary": "2026年6月28日发布：股指期货开盘前不足一小时 美伊达成协议同意停止袭击并于本周会面&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "人工智能算力正成为金融资产 高达85亿美元的GPU支持债务便是佐证",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVVzcFNtLVNMS3htckRwaW54ZVRtb3hvejRxYjFDd1VPSTZlNkJZQVdENy1zY0hpVFNRdUZKTml3RnVPTDVENTZDR1hCRUpHeW9CQi1FajhmX2R5ZFlXMk8tMi1Xc0RJUkRZaUJNV1JJMVBNdzdJWmROem83LXM0b2doUnNrWndaeTBoRlF4UQ?oc=5",
-    "published": "2026-06-28",
-    "summary": "人工智能算力正成为金融资产 高达85亿美元的GPU支持债务便是佐证&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "两年期期货刚刚转为看涨 收益率触及4.18% 前端交易是否终于转向",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWU9KTnVqa2k4Z3MtVUF1V09JV3VhLUpIQVlaS1FuNndqLVk2Rm5lV3dWLWR3dW9keFpOQWZGTk1RQ3FWWk91WThULWlFTHpLUFVjRmtCM0Z6TW9MOENWZHFhNldwd1BtSG9idFhSeEh6aXZrcjZXUGt6eFA0eTBwT3gya0oyVERnSFR0cFRSQQ?oc=5",
-    "published": "2026-06-27",
-    "summary": "两年期期货刚刚转为看涨 收益率触及4.18% 前端交易是否终于转向&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "霍尔木兹危机推动周末交易 Hyperliquid原油期货交易量大增",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZFA4TjFGMkJrbmI3TzJMcEtUVnpxSHB0d2gtbWVjU3RjekFMQ3ZXUHpNSEtNM3g5Y29VVGZiT2pHT1FjTmp2eS1lMG05Ylg3dHlLdGFBWFo3aHI4d3VzQUFDVHRGMTd6eHZvVTNESThKcWlQOENFdGdUMlBaSE9fczZMTVZWSC1nVjFBQ2d0NA?oc=5",
-    "published": "2026-06-27",
-    "summary": "霍尔木兹危机推动周末交易 Hyperliquid原油期货交易量大增&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内期货早盘收盘涨跌不一",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM3BvaDRjY2NrMTRpb3RiTXc2M3Q5WDM5R0pVMTluMExpNDBNcGIzcW9EN3k4U0FEOE45SUlBbl9NVmdkYnNqMzhySF9JOFVkZHYzbGRKNVBCS2lfZExpaV9oeEZXTHRxblU0dDJ2d2FyNGNrQTRCZjIzeFdhczNOSA?oc=5",
-    "published": "2026-06-26",
-    "summary": "国内期货早盘收盘涨跌不一&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
