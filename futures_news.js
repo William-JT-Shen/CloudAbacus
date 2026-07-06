@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-06T04:19:37Z
-var NEWS_FETCHED_AT="2026-07-06T04:19:37Z";
+// 生成:2026-07-06T12:14:16Z
+var NEWS_FETCHED_AT="2026-07-06T12:14:16Z";
 var GPU_NEWS=[
   {
     "title": "8点1氪丨7-11指控耐克新鞋配色抄袭；A股新版交易规则今起施行；华尔街称苹果采购长鑫内存是为了压价",
@@ -158,6 +158,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaThLUjRXUnh3d2ZodkllYzF0QjdsVWVRckJ4a3pUZHlSZlZZT01RT3lqaFFYTmt3Ym5nTUh1aGJPYk5nOEhzSE1lbnpZSFNIeW5ac1V6LTNrVnQ3ZHMwUUpsX1Bvand5X0tsc0ZILUpHSUZfX0JlVUh1U2JvXzUzVUNGaDQ2WnBMLWlGTGNzV0RCbWFlczA1S1lZbGFiVGFjaHIycHppSC1sMFJ3S0w2M2tmUm41UTZSUGNzWmZEbTBOeTAzRXlKcjdLUS11YWRuSHNfTHFIdFlDM2QwYnVv?oc=5",
     "published": "2026-07-02",
     "summary": "盘前：纳指期货涨0.25% 华尔街火速拆解算力过剩&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "WTI原油期货跌破69美元/桶！美国原油产量创历史新高",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOckRiMDc0Z2sxaFdjS1I2UTFUa09oYmpLMGdpZlVOVXVtZjh3dkZ1ZFliaVl2WTZ6Ykd1TnYwRHRidF9kdXlQT1haRWxBQ2ptXzNvR2dvb1ZQcEVVVnFobXFWUWp5LVItOEhHUUpjdlJWNlRsTEF1cDBNd3l6bEtkWHlVVHAyQWs?oc=5",
+    "published": "2026-07-01",
+    "summary": "WTI原油期货跌破69美元/桶！美国原油产量创历史新高&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -553,18 +565,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMGpma1J6d05sMWFYakE0MmlqQkVHS09fekluTUZjNkg2ZFJJV1JDaXNrZVkwX01fUVNLVS1kZW01RXNjN0J5Q3F3aWFJaTFvTFFKMWZRU1hsZEp4V19mb19OUnNXdUhBamQ4eXl1eVlvQ3ZwTUpRcTR5VmwxTTdaZ0M4ekYyMXpCaGdNQnViaw?oc=5",
     "published": "2026-06-26",
     "summary": "High Roller Technologies获美国全国期货协会批准 注册为介绍经纪商 为落地美国预测市场铺路&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "洲际交易所原糖期货涨幅超3% 达每磅14.01美分",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTU51a0pJcFQxbkphX0tvT3dVTWw2SzlVRjF6eUxsMlJLeTVHQ1F6dm00SDcwTVBwV294ZjBnNklsOWhscVM1ajU0V1RVdkZhREtVVURHUzEzc3laajllTHNDaGdsUHpYZTFXMjF0YWxRVENuS0JKeS1LcDdzWXVhc2NPS1FQbDdrdXFlZGpaQQ?oc=5",
-    "published": "2026-06-26",
-    "summary": "洲际交易所原糖期货涨幅超3% 达每磅14.01美分&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
