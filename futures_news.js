@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-07-06T12:14:16Z
-var NEWS_FETCHED_AT="2026-07-06T12:14:16Z";
+// 生成:2026-07-06T18:19:12Z
+var NEWS_FETCHED_AT="2026-07-06T18:19:12Z";
 var GPU_NEWS=[
+  {
+    "title": "香港交易所美元黄金期货成交创新高",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQakNaaUQtcFpaa25qNXhpSnAtMDVqam9mbUYzSXhINlM1c1VhLTE5SHlMZFV3TFVkMncyakxTalpySlM1d0p6NVNSUEV2MEJLMVlQVTJqT1lNc2JkSFJ0NlVwYWlzT1lNUlB3M3dEaVB1ck1YNE1IWHVPbURsQUI1Vg?oc=5",
+    "published": "2026-07-06",
+    "summary": "香港交易所美元黄金期货成交创新高&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国股指期货走势显示科技股本周开局有望走强而韩国存储芯片巨头将再次检验人工智能交易行情",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaFh4YjJod0c3UGdIZXpzVU5KbEo2cHEybXh5alh1UjhBYjhhMm84eTRKZTNzdFZReFpmR3E5MlUwMTNkTEw5Wk9fdm9nUnROa1VwWTN5X1REemg0WmJzSnF5SzRWYzE4R3lLQ1VXLXJwbnZCLVZVdlpGTmZmc0VQVDBFdFpPQnM?oc=5",
+    "published": "2026-07-06",
+    "summary": "美国股指期货走势显示科技股本周开局有望走强而韩国存储芯片巨头将再次检验人工智能交易行情&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "大摩：这个暑期不平静 之商品期货260706",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1URW9DaHB2Wm41S2JZc0t2aHZ6cmhBTHRxS3VjYUlPb3dXNEZPckhvN19iQnNleGZYaEQyVnhPdWhKMFIwMWVyNFRCZGFEVHA0RUJYZFlNODVoby1yZ2JxMnNmYnBNbTlBR0RTSHVWcWpJZS1qX0E?oc=5",
+    "published": "2026-07-06",
+    "summary": "大摩：这个暑期不平静 之商品期货260706&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "8点1氪丨7-11指控耐克新鞋配色抄袭；A股新版交易规则今起施行；华尔街称苹果采购长鑫内存是为了压价",
     "source": "36氪",
@@ -529,42 +565,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM3BvaDRjY2NrMTRpb3RiTXc2M3Q5WDM5R0pVMTluMExpNDBNcGIzcW9EN3k4U0FEOE45SUlBbl9NVmdkYnNqMzhySF9JOFVkZHYzbGRKNVBCS2lfZExpaV9oeEZXTHRxblU0dDJ2d2FyNGNrQTRCZjIzeFdhczNOSA?oc=5",
     "published": "2026-06-26",
     "summary": "国内期货早盘收盘涨跌不一&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "研报掘金丨东吴证券：维持南华期货“增持”评级，国际化核心壁垒驱动长期增长",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcWhVQlV3blVoTEZZN1loaE9lN2pmc0VGb0tMZ0FYX2ZZTFdMMjBTZU5PMVBLVzFxc1haQ1F2X0F1SVFtZllUcWRYbDV0VmEwZi1qTHM5djRVczBDOHBMeTRTMVN1dlB5VjliNEk5NUlyaGRHWGNOeF9NUzM3dERTRw?oc=5",
-    "published": "2026-06-26",
-    "summary": "研报掘金丨东吴证券：维持南华期货“增持”评级，国际化核心壁垒驱动长期增长&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "XRP期货与Solstice DeFi业务扩张显现机构层面转向趋势",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZDI2MHRnY0YxLXdHY1JOM3dYVWh6TE9lcVNHNFFHb1NRc1llMUJGelV5R0RHYlNfdF9vd21qd1Y0WktUbXR4NmE2VGNXeTIxMjAtTG9KQWp5M0oyczZaNHpRVkREd0I5R2taSWFVRkVCR01QR21sUlhOWTlBaHRwbHZrTFh6RWs4QlZhbDgzeElwYkw0eWJJdDJ4UTZBZw?oc=5",
-    "published": "2026-06-26",
-    "summary": "XRP期货与Solstice DeFi业务扩张显现机构层面转向趋势&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "High Roller Technologies获美国全国期货协会批准 注册为介绍经纪商 为落地美国预测市场铺路",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMGpma1J6d05sMWFYakE0MmlqQkVHS09fekluTUZjNkg2ZFJJV1JDaXNrZVkwX01fUVNLVS1kZW01RXNjN0J5Q3F3aWFJaTFvTFFKMWZRU1hsZEp4V19mb19OUnNXdUhBamQ4eXl1eVlvQ3ZwTUpRcTR5VmwxTTdaZ0M4ekYyMXpCaGdNQnViaw?oc=5",
-    "published": "2026-06-26",
-    "summary": "High Roller Technologies获美国全国期货协会批准 注册为介绍经纪商 为落地美国预测市场铺路&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
