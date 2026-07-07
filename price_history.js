@@ -5997,7 +5997,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.19
+            "price_usd": 0.18
           }
         ],
         "RTX 5070 TI": [
@@ -6121,7 +6121,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.77
+            "price_usd": 0.79
           },
           {
             "platform": "DataCrunch",
