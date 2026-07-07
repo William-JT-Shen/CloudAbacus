@@ -6030,13 +6030,13 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.19
           }
         ],
-        "NVIDIA RTX 4070 Ti / 4070": [
+        "NVIDIA RTX 4060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.09
           }
         ],
-        "NVIDIA RTX 4060 Ti": [
+        "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.09
@@ -6121,7 +6121,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.79
+            "price_usd": 0.78
           },
           {
             "platform": "DataCrunch",
