@@ -5951,7 +5951,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.0
+            "price_usd": 1.99
           },
           {
             "platform": "CoreWeave",
@@ -6103,7 +6103,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.41
+            "price_usd": 3.5
           },
           {
             "platform": "CoreWeave",
@@ -6121,7 +6121,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.77
+            "price_usd": 0.79
           },
           {
             "platform": "DataCrunch",
