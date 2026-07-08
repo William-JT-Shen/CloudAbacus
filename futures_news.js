@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-07-08T14:35:21Z
-var NEWS_FETCHED_AT="2026-07-08T14:35:21Z";
+// 生成:2026-07-08T17:48:37Z
+var NEWS_FETCHED_AT="2026-07-08T17:48:37Z";
 var GPU_NEWS=[
+  {
+    "title": "三星比特币期货主动型ETF：本月份额无变动 月底结存350万单位",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkhYdGZNWnAwVUFBUmtmNWdkemdYSjVyUVo1bkZDY0pyM09zN1JiWEdiMWNFS1hWODNaWTd1Q0VXQ2FmVDZQYm9hNmxSSWowcWFlOTIyNUJFTVNGdzEzTC1SalpWM1hiekRjNlNMbnhwVnpiWUJ2RnNXSjNwSjRtVmdtMWVPbWM?oc=5",
+    "published": "2026-07-08",
+    "summary": "三星比特币期货主动型ETF：本月份额无变动 月底结存350万单位&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "特朗普发表伊朗言论后，日经指数期货跌幅扩大至1.3%。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hRm1ldjdrdVBOZXE2MnN5T1JHVzZOQUtZV0V1Vk81ZW10VXZfc0Voa2lrRmZFYXpwRDRWMEFPX2daVHpyX24tTUZpUTlzQ2F3emJDdXpaVmJLRmE2WkxRaEFQR3JObW1qMmlNMGlrblhTN3lrQllYWA?oc=5",
+    "published": "2026-07-08",
+    "summary": "特朗普发表伊朗言论后，日经指数期货跌幅扩大至1.3%。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "用AI“复刻”人类细胞、预判药效，「华源智因」获千万级人民币种子轮融资｜36氪首发",
     "source": "36氪",
@@ -518,30 +542,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "广期资本成功获得广州期货交易所铂、钯期货做市商资格",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSU5Ra294MnNTeGZuTGQyUW9HUkdJSnNoRXF6RG5fZG9TZGhvN1ktOVI3eVp6OVM0YW5kRDVTRktRaFFQTGU3VVA2MVAzbkFRZDNBVzVJd2xPV3pZZzFjeGJkWEQzMXM2ME9KOEZXTDk0SHNFRTE5NFUtUGVvcTFEZThzem9RVnFF?oc=5",
-    "published": "2026-06-30",
-    "summary": "广期资本成功获得广州期货交易所铂、钯期货做市商资格&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Neon Buys ‘Artificial,’ a Film About OpenAI, After Amazon Dropped It",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/06/30/business/media/openai-movie-artificial-neon-amazon.html",
-    "published": "2026-06-30",
-    "summary": "Neon purchased “Artificial,” which focuses on OpenAI’s chief, Sam Altman, after Amazon walked away from it following an investment in the start-up.",
-    "full_text": "“Artificial,” a film about Sam Altman, the chief executive of OpenAI, had gotten a green light from Amazon in 2023.",
-    "lang": "en",
-    "title_cn": "Neon 在亚马逊放弃后购买了一部关于 OpenAI 的电影《Artificial》",
-    "summary_cn": "Neon 收购了《Artificial》，该公司专注于 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman)，此前亚马逊在投资这家初创公司后放弃了该公司。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
