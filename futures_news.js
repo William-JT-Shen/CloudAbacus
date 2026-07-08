@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-08T17:48:37Z
-var NEWS_FETCHED_AT="2026-07-08T17:48:37Z";
+// 生成:2026-07-08T21:20:05Z
+var NEWS_FETCHED_AT="2026-07-08T21:20:05Z";
 var GPU_NEWS=[
+  {
+    "title": "三星标普高盛原油ER期货ETF：6月回购450万个单位",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQmhhRldwUXJFV3RiU2RGalJIamU4dVJ6M2hkeEpnVi1uY29NQ0R6c0pxcU5Sczh6aGtOQzF5djBYTTB4MGVYV21HdzYwX1FUM0NiUGNhMHN6S2Q4VVhKek1YYWZtdkxDQWZUeEtBZTE5bTB0VzR5SzVTY3lqenVlVFFEQjlOV1k?oc=5",
+    "published": "2026-07-08",
+    "summary": "三星标普高盛原油ER期货ETF：6月回购450万个单位&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "三星比特币期货主动型ETF：本月份额无变动 月底结存350万单位",
     "source": "新浪财经",
@@ -525,18 +537,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdjNlR3RnMXo4VHl1M3J2THpENFkwX0RVZUJkVUxTNF9pQnJPSDU3RW5EdjhFR0tZSERYdXZsdGxyTWxONUE1a21RT3JoOFlXcE51OWZqMy03TFNtNTZDeml0bXNlMllnTGdlZVZyWVYxQ2NCM1h0NEhTaUJLZVByQlZuTWpfMWVxMlR5RjNJN3ZYWHZJbmE0MXBtWVc?oc=5",
     "published": "2026-07-01",
     "summary": "ICE与NATIVX将推出能源归一化算力期货合约&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "弘业期货涨2.01%，成交额1815.38万元，主力资金净流出125.96万元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN1lRUFQ3ZEtHZEV3OEVhY3VfazRFQm1EUExrZTl5SE1HdXVtaXI1VFhJT1NSaXkxU25EWkZ4UTFEN3h0T3N4bzJqemJTZVlyUkh0MnhzRWRlNnRzZjBDc0RqNXYxRkkxQS0tSHZ3TXgxZWJDc29LT0ZCcXNPak9sRVUyWFlza3VvVDdDXw?oc=5",
-    "published": "2026-07-01",
-    "summary": "弘业期货涨2.01%，成交额1815.38万元，主力资金净流出125.96万元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
