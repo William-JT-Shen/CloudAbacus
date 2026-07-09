@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-07-09T18:07:23Z
-var NEWS_FETCHED_AT="2026-07-09T18:07:23Z";
+// 生成:2026-07-09T21:38:23Z
+var NEWS_FETCHED_AT="2026-07-09T21:38:23Z";
 var GPU_NEWS=[
+  {
+    "title": "盘前：纳指期货涨0.64% 市场赌美伊不会全面开战",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU3Zkam54X1VXcnNUSmw2M013bWpCdllpNkZXMG9OWUg0dVlHbS1iTm9fU0tkZ1lDU1ptSmR5S0JtWmVKczVMcGpGOGhEVWk3ZGg2dXdlMXBKbGtaLVpZTDk3Vlh1c1Q1ZWFPNGlzb0FuNkJOLWs0VU5ZRlJTSkR2X0pNR3BMZFdnc2dwdW54SHR0ampCamNmWFp0cTA?oc=5",
+    "published": "2026-07-09",
+    "summary": "盘前：纳指期货涨0.64% 市场赌美伊不会全面开战&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "正虹科技拟投入1000万元开展期货套期保值 锁定玉米豆粕生猪价格风险",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTnI5Vjd6am9kbEhTZk9IcHIycHZ6WWRSeUdoZ0k1QWpYOU5EWWtsU3M0NG9nVzlMclZPMEpha0s5d1NSclI4bVI1ZGRSemF0bVZEUnBKbEM5N1ZlQVowbVZIZ2dYNk56Y1ptME5sVmNCMjdvQkZYUC0xWTBSR2JvVmJGOHZNNEU?oc=5",
+    "published": "2026-07-09",
+    "summary": "正虹科技拟投入1000万元开展期货套期保值 锁定玉米豆粕生猪价格风险&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "基本面尚有支撑 沪铝期货震荡走高",
     "source": "新浪财经",
@@ -515,31 +539,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "Tesla Sales Surge 25% on Recovery in Europe",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/07/02/business/tesla-electric-vehicle-auto-sales.html",
-    "published": "2026-07-02",
-    "summary": "Price cuts helped the electric automaker rebound in Europe in the second quarter, offsetting declines in the United States.",
-    "full_text": "A Tesla center in Parsdorf, Germany. The automaker’s sales in the European Union were up 77 percent in the first five months of the year, a trade group said.",
-    "lang": "en",
-    "title_cn": "欧洲复苏，特斯拉销量飙升 25%",
-    "summary_cn": "降价帮助这家电动汽车制造商在第二季度在欧洲反弹，抵消了美国市场的跌势。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "To Reduce Electrical Grid Strain Amid Heat Wave, Data Centers Are Ordered to Use Backup Power",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/07/02/business/energy-environment/electric-grid-data-centers-pjm.html",
-    "published": "2026-07-02",
-    "summary": "As triple-digit temperatures engulf much of the United States, the Trump administration wants grid managers to require the use of backup power that often goes unused.",
-    "full_text": "The energy secretary has asked grid managers to require data centers to use backup power when electrical systems are under strain during the heat wave.",
-    "lang": "en",
-    "title_cn": "为了减少热浪中的电网压力，数据中心被要求使用备用电源",
-    "summary_cn": "由于三位数的气温席卷了美国大部分地区，特朗普政府希望电网管理者要求使用经常闲置的备用电源。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
