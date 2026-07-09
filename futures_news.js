@@ -1,7 +1,55 @@
 // GPU算力期货新闻
-// 生成:2026-07-08T21:20:05Z
-var NEWS_FETCHED_AT="2026-07-08T21:20:05Z";
+// 生成:2026-07-09T04:03:10Z
+var NEWS_FETCHED_AT="2026-07-09T04:03:10Z";
 var GPU_NEWS=[
+  {
+    "title": "国内商品期货夜盘开盘涨跌不一，燃油涨3.89%，原油涨3.67%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jY3lwakEyR3M4S0dQTzZQc3o4WFA2c1JhdHRpN0tGc1BNSmFQU205ZVVWRzJBczdTZHItdDR2dmxaaEpVR3IwcGQ5X3RIT1kzRW5oZTR2b1pXRjZ5VnJXd3RsYTJ5Z2hVR054WHNtUm5GOEktQmZVSw?oc=5",
+    "published": "2026-07-08",
+    "summary": "国内商品期货夜盘开盘涨跌不一，燃油涨3.89%，原油涨3.67%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "盘前：纳指期货跌1.38% 特朗普称美伊停火结束",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMWphMkxEdnA3VlJNaUFRUDRpUV9XdmR2T1ppSEpuZC1EZWEwN0Q1b0FxZFptRE1uOUVFY05uZnZyR2FTak1WRWhwMEdaeDUzMk5IMzB2eVdxN05CdmlUVGRuYm5oSHd0cFg3czVZT2ZoZ3NHSTU3Q2RIdnd0QTNhWEVTNWtnZUktRXlvZDE0S280bEVXWC12emp4Rkc?oc=5",
+    "published": "2026-07-08",
+    "summary": "盘前：纳指期货跌1.38% 特朗普称美伊停火结束&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美股盘前丨三大股指期货盘前齐跌 苹果与博通达成多年期合作协议",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92SE5jenJBUC1HTE1FNG1TQmFMejVidkdVb3hTTmRoSTFWamZ2TnF0cEQ2WjdRMGVoc3dIUmVTaGlLRVdMdE5qN0RrQVk0d3ZjeloxeUhab2U3TFBQenNadjFnWTZJeW1fcWlmWFRoWEt0OVVhY2Vhcw?oc=5",
+    "published": "2026-07-08",
+    "summary": "美股盘前丨三大股指期货盘前齐跌 苹果与博通达成多年期合作协议&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "不锈钢期货交易单位多少",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObnQ1N0ZtLTl5dC11YlRaTHhEcDk0dUlwYUtJbmJVMXZoLXBTLTdqVzJidl92TG5paVgwaGNxOVRnOUdQVV96TmF4dnRSZndRLUZMTHRQMWQ1akhEVUdBTXlzXzd0bU5tVFpxV0Y5SnN1ZFVCenRvcXQ3azlac2hhUHdPNzh4SFNqVFRuMg?oc=5",
+    "published": "2026-07-08",
+    "summary": "不锈钢期货交易单位多少&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "三星标普高盛原油ER期货ETF：6月回购450万个单位",
     "source": "新浪财经",
@@ -136,6 +184,18 @@ var GPU_NEWS=[
     "summary": "今日热点导览\n  华为Mate90系列有望搭载基于韬定律的新麒麟芯片\n  央视曝光滴眼液涉事企业被立案，对滴眼液乱象开展调查处置&nbsp;\n  千问大模型升级实时语音识别大模型Fun-ASR-Realtime\n  WPS回应“滥收费、背刺用户”言论\n  TOP3大新闻\n  SK海力士10日在纳斯达克上市290亿美元规模ADR，创外资企业史上最大规模\n  据报道，SK海力士将以约44万亿韩元规模的美国存托凭证（ADR）在纳斯达克上市，挑战外资企业在美国股市上市的历史最大规模。纳斯达克上市后，SK海力士可在美国正规市场进行交易，并获得纳入纳斯达克100等主要指数的资格，追踪相关指数的交易所交易基金（ETF）的买入资金流入也备受期待。不过，也有声音对AI存储半导体板块的急涨势头是否过热提出警示。随着大型科技企业持续通过债券和股票市场筹集数据中心投资资金，外界对存储行业景气能否持续的担忧与日俱增。（界面新闻）\n  99万机器人“伴侣”续航撑不过一晚？优必选：属行业普遍情况\n  近日，优必选最新发布的全尺寸超仿生机器人U1备受外界关注，其中U1 Ultra男版价格高达99万元，但续航却仅能维持",
     "full_text": "8点1氪丨SK海力士本周五将登陆纳斯达克；99万机器人“伴侣”续航撑不过一晚？优必选回应；青海省博物馆回应“国家一级文物发现TCL字样”\n今日热点导览\n华为Mate90系列有望搭载基于韬定律的新麒麟芯片\n央视曝光滴眼液涉事企业被立案，对滴眼液乱象开展调查处置\n千问大模型升级实时语音识别大模型Fun-ASR-Realtime\nWPS回应“滥收费、背刺用户”言论\nTOP3大新闻\nSK海力士10日在纳斯达克上市290亿美元规模ADR，创外资企业史上最大规模\n据报道，SK海力士将以约44万亿韩元规模的美国存托凭证（ADR）在纳斯达克上市，挑战外资企业在美国股市上市的历史最大规模。纳斯达克上市后，SK海力士可在美国正规市场进行交易，并获得纳入纳斯达克100等主要指数的资格，追踪相关指数的交易所交易基金（ETF）的买入资金流入也备受期待。不过，也有声音对AI存储半导体板块的急涨势头是否过热提出警示。随着大型科技企业持续通过债券和股票市场筹集数据中心投资资金，外界对存储行业景气能否持续的担忧与日俱增。（界面新闻）\n99万机器人“伴侣”续航撑不过一晚？优必选：属行业普遍情况\n近日，优必选最新发布的全尺寸超仿生机器人U1备受外界关注，其中U1 Ultra男版价格高达99万元，但续航却仅能维持2到4小时，“撑不过一晚”，因此遭到外界质疑。7月6日，优必选方面回应界面新闻称，目前全尺寸人形机器人续航基本上都在2-4小时，这是行业普遍情况。优必选面向家庭和个人的仿生机器人主要是半身版U1 Lite和高配全身版U1 Pro，U1 Ultra是高动态版本，面向商业场景。优必选方面还强调，仿生机器人定位是情感陪伴，这是国家提倡和认可的方向，不是男友、女友或者伴侣。（界面新闻）\n青海省博物馆回应“国家一级文物发现TCL字样”\n近日有网友关注到，中国工艺美术馆举办的艺术展上，国家一级文物永乐款鎏金铜观音菩萨像展柜内，从造像下方仰观，观音裙摆、脚踝区域能清晰看见TCL字样。2026年7月6日上午，澎湃新闻致电青海省博物馆，一位工作人员介绍，网友看到的TCL广告字样是一张报纸。这位工作人员介绍，这尊永乐款鎏金铜观音菩萨像2000年左右从瞿昙寺移交至青海省博物馆时，文物的这处就有这张报纸，这张报纸起到封底的作用。\n佛像封底通常是“装藏”的最后一步。“装藏”是佛教造像仪轨的一项重要内容，是指在塑造或建造好的佛像、佛塔内装入圣物，以此来赋予塔像“神力”的行为。从目前的考古发现来看，已有一些能明确体现装藏的例子，但并不多见。上述工作人员提到，这尊菩萨像封底损坏了，为防止里面的香灰、柏香等物品掉落，瞿昙寺的僧人用报纸封住。“那时候条件没这么完善，没有海绵、无酸纸等这种包装。”这位工作人员解释，用报纸是很常见的操作。\n此外，青海省博物馆另一位工作人员还提到，瞿昙寺僧人用报纸封底之后，为了保护文物，移交到青海省博物馆之后他们没有再打开。从藏传佛教装藏的情况来看，里面都会有香灰、柏香，有些保存好的装藏还会有经书、宝石。另据青海省文物局一位工作人员介绍，2026年7月5日晚，青海省博物馆已组织专家和技术人员飞赴北京核实文物底部出现TCL字样一事，核实后第一时间会发布情况说明。（澎湃新闻）\n配图\nAI最前沿\n千问大模型升级实时语音识别大模型Fun-ASR-Realtime\n36氪获悉，千问大模型正式升级实时语音识别大模型Fun-ASR-Realtime——一款首字延迟控制在百毫秒级别、识别准确率接近离线模型的流式语音识别模型，支持16种方言和30种语言。\n微软Teams加强第三方AI智能体权限管理，需会议组织者确认后方可放行\n微软发文，宣布为Microsoft Teams会议应用推出全新的AI机器人管理策略，当第三方AI机器人尝试加入会议时，必须先获得会议组织者批准后才能进入。据介绍，目前微软已在Teams管理中心新增“Manage external bots and their access to meetings”管理策略，该功能默认启用，管理员可将该策略应用于指定用户或用户组，当Teams检测到外部AI机器人尝试加入会议时，会先将其置于会议等候室（Lobby），只有在会议组织者确认批准后，机器人才能正式加入会议。当然管理员也可根据企业需求选择关闭这一功能。（新浪财经）\n腾讯混元Hy3正式发布\n36氪获悉，7月6日，腾讯混元Hy3正式发布。相比preview版本，它展现出显著强于同尺寸模型且比肩（参数规模2—5倍的）旗舰模型的智能水平，定价进一步降低。据了解，Hy3已在WorkBuddy/CodeBuddy、元宝、Marvis、ima等多个业务接入，API已在腾讯云TokenHub上线，多个海外API平台也将陆续接入。\n英伟达AI服务器架构据传将延后推出，公司回应称路线图并没有改变\n由于有消息称英伟达的下一代人工智能（AI）服务器机架架构因制造困难将推迟一年以上推出，亚洲印刷电路板（PCB）板制造商的股价重挫。研究机构SemiAnalysis在X平台发文称，英伟达Kyber NVL144架构系统在PCB制造环节遭遇挫折。英伟达发言人通过书面声明回应称，“我们的路线图并没有改变”。（新浪财经）\n沙利文全栈AI云服务报告：阿里云占比40.1%\n36氪获悉，7月6日，国际市场调研机构沙利文发布《开箱即用的AI云服务——2025中国全栈AI云服务市场报告》。报告显示，2025年中国IaaS、PaaS、MaaS总市场规模达595.9亿元，其中阿里云总收入达239亿元，以40.1%的市场份额位列第一，稳居中国最大AI云服务厂商。\n大公司/大事件\n苹果首款折叠屏iPhone Ultra，今年最多产不到千万台\n7月6日，博主定焦数码爆料，苹果首款折叠屏iPhone Ultra目前已开始小批量生产，最快将在本月底进入大规模量产阶段。由于国内代工厂生产人员紧缺，相关产线正在紧急招工，用工需求十分迫切。值得注意的是，蓝思科技集团近日发布了大规模急招信息，扩招岗位涵盖操作工人、质检员、包装员、技术员等多个类别，月薪5500至7500元，提供包吃住待遇并报销路费，无经验者亦可入职。业界普遍认为，蓝思科技此次集中扩招，极有可能是在为苹果折叠屏iPhone Ultra的量产做人力储备。（快科技）\n华为Mate90系列有望搭载基于韬定律的新麒麟芯片\n7月6日，从知情人士处获悉，将于今年秋季发布的华为Mate90系列，计划搭载基于韬定律的新麒麟芯片。华为于今年5月发表了指导半导体产业发展的新原则——韬（τ）定律，其目标是以系统性降低时间常数τ为核心，通过逻辑折叠等技术，持续压缩芯片内部的信号传播时延，从而不断提升晶体管密度，实现半导体与电子系统的持续演进。而将于2026年秋季面世的麒麟芯片，率先采用了逻辑折叠技术，性能大幅提升。（财联社）\n中公教育：公司近期生产经营情况正常，内外部经营环境未发生且未预计将要发生重大变化\n36氪获悉，中公教育公告，公司近期生产经营情况正常，内外部经营环境未发生且未预计将要发生重大变化。公司目前没有任何根据深交所《股票上市规则》规定应予以披露而未披露的事项或与该事项有关的筹划、商谈、意向、协议等；董事会确认公司不存在有根据深交所的规定应予以披露而未披露的、对公司股票交易价格产生较大影响的信息；公司前期披露的信息不存在需要更正、补充之处。\n36氪获悉，深交所发布通报，2026年7月6日，中公教育股票价格出现异常波动，上市公司已发布交易风险提示公告。深交所密切监控该股交易情况，对影响股票正常交易秩序的异常交易行为，依规对相关投资者采取了暂停交易等监管措施。深交所提醒广大投资者关注投资风险，合规审慎交易。\nWPS回应“滥收费、背刺用户”言论\n7月6日，针对近期有关“WPS滥收费、背刺用户”的言论，金山办公WPS办公助手发文回应称：WPS免费基础功能在持续增加，从未、也不会将已有免费基础功能变成收费功能；会员权益不上移、不缩水，极个别权益因体验、技术或合作原因确需下架，会提前公告并给出解决方案；少数第三方服务和AI办公智能体等高成本服务，会通过独立权益包或按量计费提供，用户可按需购买，并与WPS会员权益明确区分。（第一财经）\n快手：腾讯持股比例将由约15.68%下降至9.37%，不再为本公司主要股东\n36氪获悉，快手公告，已获悉腾讯控股有限公司于2026年7月6日（交易时段后），透过场外大宗交易方式向若干买方出售合共272,947,700股本公司B类股份，该等买方为若干独立第三方且与本公司及其关连人士并无关连。出售事项完成后，腾讯持股比例将由约15.68%下降至9.37%，并不再为本公司主要股东。腾讯表示，其对本集团长远发展前景拥有信心，双方亦会继续维持共赢关系，包括延续双方的战略合作。本公司预期出售事项将不会对本集团营运产生任何重大不利影响。\n上半年上海脑机接口融资事件数量占全国近60%\n在6日举行的“活力中国调研行”上海站主题采访活动情况介绍会上，上海市科委主任骆大进表示，上海强化战略敏捷，超前布局前沿科技与未来产业。目前，重点跟踪的战略前沿领域已增至20个。全市集聚脑机接口企业数量占全国1/3，上半年融资事件数量和披露金额分别占全国近60%和40%；集聚了全国半数的中性原子量子计算整机企业、硅光和第四代半导体企业。打造了4个市级未来产业集聚区、2个未来产业培育区。（第一财经）\n爱仕达与智元机器人签署战略合作协议，五大方向开展深度合作\n爱仕达下属人形机器人子公司与智元机器人于7月6日正式签署战略合作协议。根据协议，双方将在采购订单与产品交付、具身智能机器人委托制造、具身智能机器人供应链合作、技术支持及场景化赋能、股权投资及合资公司设立五大方向开展深度合作。（财联社）\n保时捷考虑在德国再裁减4000个岗位\n当地时间7月5日，据报道，知情人士表示，保时捷考虑在其祖文豪森工厂再裁员多达4000人，此前该公司已同意削减3900个岗位。其中，行政和管理部门将尤其受到影响。下一轮裁员的具体规模预计将在7月底前确定。此外，报道称，保时捷还可能将其魏斯阿赫研发基地的产能减少约30%。（界面新闻）\n海力士半导体大连公司法定代表人变更\n36氪获悉，天眼查App显示，近日，爱思开海力士半导体（大连）有限公司发生工商变更，朴元星卸任法定代表人、董事，由李秉起接任。该公司成立于2021年5月，注册资本31亿美元，经营范围包括集成电路制造、集成电路芯片及产品制造、电子元器件制造、集成电路芯片设计及服务等，由SK海力士株式会社全资持股。\n捷豹路虎中国经销商停售所有国产车型，经销商十年亏损渠道缩水近六成\n据报道，2026年7月捷豹路虎中国经销商停止进购所有国产车型。此前2026年3月国产车型全系停产（发现运动版、捷豹XEL、XFL、E-PACE已于2025年陆续停产），合资公司终结了所有国产车型生产与销售。多位经销商透露，自2015年国产车型投产以来，国产车在经销端几乎全线亏损，十年间单车平均亏损约3万元。\n厂家通过进口车与国产车配额捆绑的商务政策（为获得高利润进口车资源，经销商被动承担损失），长期库存压力与配额绑定侵蚀渠道利润并透支国产车型价格体系。2018年经销商数量达历史顶峰约240家，截至目前锐减至百余家（正常运营仅约90家），渠道规模缩水近六成。（财经汽车）\n央视曝光滴眼液涉事企业被立案，对滴眼液乱象开展调查处置\n7月5日，总台报道了网售“健字号”滴眼液乱象。河南省南阳市镇平县两家企业在获得行业协会的“健字号”批文后，或提供包装或违规生产所谓“保健用品”，并宣传其护眼功效。目前，已依法控制两家涉事企业的法定代表人和实际控制人袁某某、王某、李某某，对企业涉嫌违法违规行为立案调查；依法查封相关生产设备、材料和台账资料等；向涉事外省企业所在地市场监管部门发函协查；协调网络销售平台下架相关产品。（央视新闻）\n郭明錤爆料最新苹果折叠手机：出货量明显不足，或重现“饥饿营销”\n知名分析师郭明錤分析指出，苹果可折叠iPhone预计2026年下半年出货，但初期供应可能不足。他称自己的行业调查显示，2026年下半年可折叠iPhone的组装出货量约为700万至800万部，第三季度出货量约为50万至100万部，约占苹果总出货量的10%。该产品价格可能在2300至2500美元左右，而供应限制将导致转售价格溢价50%至100%。他认为判断可折叠iPhone销售前景的关键在于2026年末至2027年第一季度。（财联社）\n苹果供应商立讯精密据悉香港的上市价格定在区间顶端\n苹果供应商立讯精密据悉香港的上市价格定在区间顶端。（21财经）\n中国航天科技集团商业火箭公司增资至41.7亿，增幅约199%\n36氪获悉，天眼查App显示，近日，中国航天科技集团商业火箭有限公司发生工商变更，注册资本由13.96亿人民币增至约41.7亿人民币，增幅约199%。该公司成立于2024年9月，法定代表人为候正全，经营范围包括民用航天发射技术服务，火箭控制系统研发，火箭发动机研发与制造，火箭发射设备研发和制造，特种设备设计，技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广等，由中国航天科技集团有限公司、中国长城工业集团有限公司、上海航天设备制造总厂有限公司等共同持股。\n英特尔回应CPU涨价，入门级产品基本保持原价\n继DRAM、NAND Flash等存储器价格持续上涨之后，CPU成为最新加入涨价阵营的核心零部件。7月6日，英特尔对该媒体确认了涨价信息。英特尔表示，价格调整是基于不断变化的市场动态定期对供应链以及与之相关成本的持续监控。根据行业对英特产品涨价前后的对比调研，此次涨价主要针对部分消费级酷睿Ultra处理器以及Xeon服务器处理器。其中，高端Xeon服务器产品整体涨幅达到7%至12%，而入门级产品基本保持原价；消费级产品也仅对酷睿Ultra 7 270K Plus、酷睿Ultra 5 250K Plus等部分型号进行了调整。（第一财经）\n美联储7月维持利率不变的概率为77%\n据CME“美联储观察”：美联储7月维持利率不变的概率为77%，累计加息25个基点的概率为23%。 美联储到9月维持利率不变的概率为41.9%，累计加息25个基点的概率为47.6%，累计加息50个基点的概率为10.5%。（财联社）\n印度市场监管机构拟大幅放宽投资者做空股票的限制\n据报道，知情人士透露，印度市场监管机构计划大幅放宽投资者做空股票的限制，将可用于融券借贷的股票数量近乎翻倍。印度证券交易委员会还计划降低股票融券的保证金要求。（界面新闻）\n花旗获准成为LPMCL第五家清算行，贵金属业务取得重大进展\n花旗周一表示，已获准成为第五家在伦敦场外黄金市场进行交易清算的银行，标志着其贵金属业务取得重大进展。此举拓展了支撑日均交易额约1600亿美元的伦敦黄金市场的清算网络，使花旗集团能够直接参与全球贵金属交易的核心结算业务。（财联社）\n研究人员借助AI技术发现两种新型超导体\n芬兰阿尔托大学参与的一个国际研究团队利用人工智能（AI）发现两种新型超导体，为更高效筛选和研发超导材料提供了新的技术路径。这一成果有助于加快新型超导体研发进程，为寻找可在室温下工作的超导材料带来新的希望。（新华社）\n博通将为苹果开发定制ASIC芯片产品，同意扩大技术协作至2031年\n博通7月6日向美国证监会提交文件，宣布与苹果公司将签署多年期协议，把双方长期技术合作关系延续至2031年。根据协议，博通将为苹果多代产品开发并供应一系列定制ASIC芯片产品。（界面新闻）\n美股三大指数集体收涨，大型科技股涨跌不一\n36氪获悉，7月6日收盘，美股三大指数集体上涨，道指涨0.29%，纳指涨1.12%，标普500指数涨0.72%。大型科技股涨跌不一，特斯拉涨超6%，Meta、Arm涨超2%，谷歌、苹果涨超1%，亚马逊、英伟达小幅上涨；奈飞跌超2%，SpaceX、微软跌近1%。热门中概股普涨，爱奇艺涨超5%，蔚来、B站涨超4%，小鹏集团涨超3%，网易涨超2%，腾讯音乐、阿里巴巴、拼多多涨超1%。\n上市进行时\n深圳四方精创资讯股份有限公司再次向港交所提交上市申请书\n36氪获悉，据港交所文件，深圳四方精创资讯股份有限公司再次向港交所提交上市申请书，联席保荐人为招银国际、国信证券。\n阿根廷可再生能源公司Genneia冲刺美股IPO\n阿根廷可再生能源生产商Genneia上周四向美国证券交易委员会（SEC）提交文件，计划通过首次公开募股（IPO）筹集至多1亿美元资金，有望成为2019年以来首家在美国上市的阿根廷企业。该公司计划在纽约证券交易所和阿根廷证券交易所双重上市，股票代码为“GENN”。（财联社）\n超颖电子：拟发行H股并在香港联交所主板挂牌上市\n36氪获悉，超颖电子公告，公司拟发行H股股票并在香港联交所主板挂牌上市。公司将充分考虑现有股东的利益和境内外资本市场的情况，在股东会决议有效期内或股东同意延长的其他期限内选择适当的时机和发行窗口完成此次H股发行上市。\n大公司财报\n三星电子预计第二季度营业利润同比暴增1810%\n三星电子公布第二季度业绩预告，第二季度销售额171.00万亿韩元，同比增长129%，预估169.23万亿韩元，上年同期为74.6万亿韩；第二季度营业利润89.40万亿韩元，同比增长1810%，预估84.2万亿韩元，上年同期为4.7万亿韩元。（财联社）\n新凤鸣：上半年净利润同比预增94.59%—111.51%\n36氪获悉，新凤鸣披露业绩预告，预计2026年上半年实现归属于母公司所有者的净利润13.8亿元到15亿元，同比增长94.59%到111.51%。报告期内，行业新增供给有序放缓，景气度回升，市场供需关系优化，产品价差进一步扩大，毛利率同比提升，主营业务盈利能力改善。\n万华化学：上半年净利润同比预增60.05%—69.85%\n36氪获悉，万华化学披露业绩预告，预计2026年上半年实现归属于上市公司股东的净利润98亿元到104亿元，同比增长60.05%到69.85%。\n浙江东方：预计上半年净利润8.72亿元，同比增长约114.25%\n36氪获悉，浙江东方披露业绩预告，预计2026年上半年归属于母公司所有者的净利润8.72亿元，同比增长约114.25%。\n投融资\n英国GEO公司geoSurge完成1200万美元种子轮融资\n36氪获悉，总部位于伦敦的AI公司geoSurge宣布完成1200万美元超额认购的种子轮融资，用于推进其在AI可见性领域的全新方法，帮助品牌塑造自身在ChatGPT、Gemini、Claude等生成式AI系统中的呈现方式。本轮融资由AlbionVC领投，Play Ventures、Octopus Ventures、Celero Ventures、Boost Capital参投，现有投资方Passion Capital与Tuesday Capital跟投，并获得来自Google DeepMind、Microsoft AI与Signal AI的多位天使投资人支持。\n酷产品\n佑驾创新正式发布四轮足机器人\n36氪获悉，7月6日，佑驾创新正式发布“Combo”全链路无人物流闭环方案，由其旗下曜行动力打造的四轮足式机器人同步亮相。\n整理｜葡萄",
     "lang": "zh"
+  },
+  {
+    "title": "【谋局年中 期见未来】-华闻期货半年度产业报告会",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aYWRpaHVfSXZjUUUwa2JFeFIwN1ZZM01DYUs2OWw2T1RQUTNSY0ViZGlWa3N5NDdRWFZiMURTdGdNdW54eFBlRE1nRmQ2SGFuNXc2bUM0MnQ0WUd6aVNLbkp2UTVVYjdHY3V3TWtyTlc0T0hpdEE?oc=5",
+    "published": "2026-07-06",
+    "summary": "【谋局年中 期见未来】-华闻期货半年度产业报告会&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
   },
   {
     "title": "Microsoft Lays Off Thousands of Xbox Employees, Closes Game Studios",
@@ -349,6 +409,18 @@ var GPU_NEWS=[
     "lang": "zh"
   },
   {
+    "title": "期货市场每日资金排行榜",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ObmtsaXRyNHdxNUJHRmdmNG1SWk55ZHNQOXpacUtGZFJsbkxuRDlNbmxCTUZkZXk3aWo5WEVGYVVWM0lLV3AxV0U3T1lRUE9WbVNyMmhpdkFMY19WSHNCMTM0NEttbU1lZ1RUeDlTSktobDBIaUE?oc=5",
+    "published": "2026-07-02",
+    "summary": "期货市场每日资金排行榜&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "上期所参展IDX 期货市场持续获得国际关注",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORktkNU13ZXV3N3Y4ZkU3cWxXd2M0RmxCU2Q3d2YtMHRIdjJDbzFRYlRMYVIzc0c0Tmk0QlhHVnptWkJfLWxDRWZJVUowUVRjSW9Tc0twNzRzbzFJLWg1VWxYU291aG9oMnZ2VXc1QzFxQlk3TklSUF92UGU0SkkxbHRBdFE?oc=5",
@@ -465,78 +537,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSkZaaHoxdUwyc2tMTEdFeWk3Sk0ydlhET2JJYXB1QlpQY2ZsQW83VnJXVHJ2Mml1WjE1UUpEVFV2dllVOWx6S1BCcVl5bWdKaWlFTW0xYU0tbE9NNlgzX3BTanFqemFyVUdGZTlJQTRBeGw1WEFyNGZxS3lKaE5hdnlSUQ?oc=5",
     "published": "2026-07-01",
     "summary": "洲际交易所（ICE）与Nativx将推出能源归一化计算期货合约。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "洲际交易所：预计今年晚些时候推出GPU计算期货合约，有待监管部门批准。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVUEtLUlOdzJtT19OQlpuSVRybFNuUEJwZHBKNW9OVlItZmhMYkM3WUk4cTRQalEtZ19oZWYwb0Q5NkpMZ0lUeHQ2eXgxYlBwZk55djZYMVEwTWJwZUI4TWtESGUyempUYjNuOWJLRFQ3YXA3N3VlbE01WjhqSTNVSHB6aw?oc=5",
-    "published": "2026-07-01",
-    "summary": "洲际交易所：预计今年晚些时候推出GPU计算期货合约，有待监管部门批准。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "ICE与NATIVX将推出能源标准化计算期货合约。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdHJUY0FPVkpiZXRzWnppNFNaTDJFNmhFNk9DV29WMTFaSEhXY01QLU9XNXI3SEFobjFhSlpxbkpQUlZ5UjZoVkY0SnpncGdOanZmcUJSWFRJcUdTQTYxT3NacGx4RHR0cVR5VlB6RzVUVWZxVmJkYlVndEFETzluU2E5WQ?oc=5",
-    "published": "2026-07-01",
-    "summary": "ICE与NATIVX将推出能源标准化计算期货合约。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中国航运期货任重道远",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeDRUNlZiRmlZUGYyZWJfOEZZbFpjUWl0aWpEQUZQd29FYmItRm9CXzhzX19ESTRDbks4dzFacHhKMnRDMF9KNlhRdHRBRUF6SzM1d19fdEtBMjRkYmNqOE1OTjEwSU84eFJwLTVvS29waEFfamUtV290eXZHWWJvaQ?oc=5",
-    "published": "2026-07-01",
-    "summary": "中国航运期货任重道远&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "伊朗局势升级扭转6月收官态势 期货上涨 石油恐慌回归 交易窗口已开启",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWXdiQ2k0S2dKMlc3c0RPRE5pd1YyZlp4VHF4YUc5TVd1bHNMdzZLSGxYb3BwaHNjekZuTlFOVXlsVXdKNmdnQW1SLTBwS2g1SVctLTBtdURUS1U5SThrMlJoQnFSVlhGMTVRRzJ2X3AwMEpkc3g4STdOZXdEandKMGdUdGdOSVFleGRpSk5vQQ?oc=5",
-    "published": "2026-07-01",
-    "summary": "伊朗局势升级扭转6月收官态势 期货上涨 石油恐慌回归 交易窗口已开启&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国股指期货交投气氛谨慎 交易员等待沃什讲话指引",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNenVaNU5EZmtoUDNlVF8tYWR3dGRFbm53ZkJkTm9NX1RFQmhCZV9valVtZFU2QVhLOGFSR2M4MU5DUnZ6ZXZvOGlsTEZ2aUNSWFc5TmFvVWdnSTViTGtadnRyY2YtMTJlaW5TMElRbW9iNmhSNzBlVWoxRlhFajdPVW4tc1ZsS2s?oc=5",
-    "published": "2026-07-01",
-    "summary": "美国股指期货交投气氛谨慎 交易员等待沃什讲话指引&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "ICE与NATIVX将推出能源归一化算力期货合约",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdjNlR3RnMXo4VHl1M3J2THpENFkwX0RVZUJkVUxTNF9pQnJPSDU3RW5EdjhFR0tZSERYdXZsdGxyTWxONUE1a21RT3JoOFlXcE51OWZqMy03TFNtNTZDeml0bXNlMllnTGdlZVZyWVYxQ2NCM1h0NEhTaUJLZVByQlZuTWpfMWVxMlR5RjNJN3ZYWHZJbmE0MXBtWVc?oc=5",
-    "published": "2026-07-01",
-    "summary": "ICE与NATIVX将推出能源归一化算力期货合约&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
