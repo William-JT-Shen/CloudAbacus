@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-09T11:16:39Z
-var NEWS_FETCHED_AT="2026-07-09T11:16:39Z";
+// 生成:2026-07-09T15:30:11Z
+var NEWS_FETCHED_AT="2026-07-09T15:30:11Z";
 var GPU_NEWS=[
+  {
+    "title": "基本面尚有支撑 沪铝期货震荡走高",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX3hsQk1MbnBzTmdaaXBJSFFnZkNxZnJaM0tPNmdXRU5JbmVJX0VqSkVCOWdHRkpxdTh0NUZBSGwzTnY5NUZXckJPNXNoUHpmM0J3cTNlWUEtQVNqaEIwVXhqdGxPakZzbGNNTml4R1hvN0JTNW1USWVqMklRMHM3Zkx5WXBHSnJISUVycw?oc=5",
+    "published": "2026-07-08",
+    "summary": "基本面尚有支撑 沪铝期货震荡走高&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "日经指数期货跌幅扩大至1.3%",
     "source": "新浪财经",
@@ -529,17 +541,5 @@ var GPU_NEWS=[
     "summary_cn": "由于三位数的气温席卷了美国大部分地区，特朗普政府希望电网管理者要求使用经常闲置的备用电源。",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "富时中国A50指数期货跌幅扩大至3%。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSURiUDlyQ3A3VW1EWHZvMkQ4aG5NQmRyZmhISmd0WUFwWUlnQXg1Um5SSlhfWTUzaEJ5T2RCMDR2Zm8zZFIycE9fQ3hXWlk3cDFvb0xZY3dRNV85OUw0T0xKcTRwTDhmd19WeHdZa255MkVNb1VuUEhNWURrR2VoRFpSRG5WMUE?oc=5",
-    "published": "2026-07-02",
-    "summary": "富时中国A50指数期货跌幅扩大至3%。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   }
 ];
