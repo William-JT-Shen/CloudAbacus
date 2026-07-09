@@ -6450,6 +6450,28 @@ var PRICE_HISTORY_DATA = {
     {
       "date": "2026-07-09",
       "prices": {
+        "NVIDIA H200": [
+          {
+            "platform": "RunPod",
+            "price_usd": 3.59
+          },
+          {
+            "platform": "Vast.ai",
+            "price_usd": 3.53
+          },
+          {
+            "platform": "CoreWeave",
+            "price_usd": 6.31
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 4.0
+          },
+          {
+            "platform": "JarvisLabs",
+            "price_usd": 3.8
+          }
+        ],
         "NVIDIA H100 (80GB SXM)": [
           {
             "platform": "RunPod",
@@ -6480,6 +6502,38 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 2.69
           }
         ],
+        "NVIDIA A100 (80GB SXM)": [
+          {
+            "platform": "RunPod",
+            "price_usd": 1.19
+          },
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.77
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.79
+          },
+          {
+            "platform": "JarvisLabs",
+            "price_usd": 1.49
+          }
+        ],
+        "NVIDIA L40S": [
+          {
+            "platform": "RunPod",
+            "price_usd": 0.79
+          },
+          {
+            "platform": "CoreWeave",
+            "price_usd": 2.25
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.37
+          }
+        ],
         "NVIDIA RTX 4090": [
           {
             "platform": "RunPod",
@@ -6487,11 +6541,21 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.34
+            "price_usd": 0.35
           },
           {
             "platform": "TensorDock",
             "price_usd": 0.35
+          }
+        ],
+        "NVIDIA A40": [
+          {
+            "platform": "RunPod",
+            "price_usd": 0.35
+          },
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.29
           }
         ],
         "RTX 5090": [
@@ -6551,7 +6615,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 4060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.07
           }
         ],
         "NVIDIA RTX 3090 / 3090 Ti": [
@@ -6566,13 +6630,13 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.11
           }
         ],
-        "NVIDIA RTX 3060 / 3060 Ti": [
+        "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
           }
         ],
-        "NVIDIA RTX 3070 / 3070 Ti": [
+        "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
@@ -6606,38 +6670,6 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.48
           }
         ],
-        "NVIDIA H200": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 3.53
-          },
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.31
-          },
-          {
-            "platform": "DataCrunch",
-            "price_usd": 4.0
-          },
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 3.8
-          }
-        ],
-        "NVIDIA A100 (80GB SXM)": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.77
-          },
-          {
-            "platform": "DataCrunch",
-            "price_usd": 1.79
-          },
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 1.49
-          }
-        ],
         "NVIDIA RTX 6000 Ada / A6000": [
           {
             "platform": "Vast.ai",
@@ -6648,26 +6680,10 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 1.93
           }
         ],
-        "NVIDIA A40": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.29
-          }
-        ],
         "RTX 2080": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
-          }
-        ],
-        "NVIDIA L40S": [
-          {
-            "platform": "CoreWeave",
-            "price_usd": 2.25
-          },
-          {
-            "platform": "DataCrunch",
-            "price_usd": 1.37
           }
         ],
         "NVIDIA GH200": [

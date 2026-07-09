@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-07-09T04:03:10Z
-var NEWS_FETCHED_AT="2026-07-09T04:03:10Z";
+// 生成:2026-07-09T11:16:39Z
+var NEWS_FETCHED_AT="2026-07-09T11:16:39Z";
 var GPU_NEWS=[
+  {
+    "title": "日经指数期货跌幅扩大至1.3%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NUUNrM29uck9zaE5Vb0ZnbjJXMXhseUJJVmhuV3ZBejM5M3ZyU1VyQXRXUDUzUVVkak9oU1FNbFY3cmxHYk5vWG1lUkRSN2JSODh5aDRvVEttU19rZ0t5UDlSRlVxWEpvMG8yd3JFR2pQdTFMMmFzVg?oc=5",
+    "published": "2026-07-08",
+    "summary": "日经指数期货跌幅扩大至1.3%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美股前瞻 | 三大股指期货齐跌 美伊冲突再起 油价跳涨 科技股延续跌势",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZXVqVjlna3pPQ3lVUVJrVEd1bUFfWHJQclJHVlYzZExfU3hiTFR5SVJuZk9JaWZZY0cyZnRlVG5yWmhkZHhtQ1VEaERTeUtPdmgyYUtBZExSODEtN1lqSEtyNDNvZXpuVXFrYjZHb0htT09DSktySlJxaXBpLU42dEszV0Z4Y1NleFFwM3NtY21wNXFN?oc=5",
+    "published": "2026-07-08",
+    "summary": "美股前瞻 | 三大股指期货齐跌 美伊冲突再起 油价跳涨 科技股延续跌势&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "国内商品期货夜盘开盘涨跌不一，燃油涨3.89%，原油涨3.67%",
     "source": "新浪财经",
@@ -80,6 +104,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hRm1ldjdrdVBOZXE2MnN5T1JHVzZOQUtZV0V1Vk81ZW10VXZfc0Voa2lrRmZFYXpwRDRWMEFPX2daVHpyX24tTUZpUTlzQ2F3emJDdXpaVmJLRmE2WkxRaEFQR3JObW1qMmlNMGlrblhTN3lrQllYWA?oc=5",
     "published": "2026-07-08",
     "summary": "特朗普发表伊朗言论后，日经指数期货跌幅扩大至1.3%。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中国人民银行、香港金融管理局、香港证券及期货事务监察委员会联合公告",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ2dlcXAzbkNWYlZ2N0N2dFlQekc5bzNBU0JpQlNJbU9vR0RCd2F5Ul9DRmFLUHB1V2JDbEV5Vlk2U2tLSEp6UEFzdDY4U3NrZ242R3p1Mm9wRHBoZEZiU0d5M1BncTZUZTQ1QmIxTGVyWmswSC03STBSbGJYQWlESXdQbGE?oc=5",
+    "published": "2026-07-07",
+    "summary": "中国人民银行、香港金融管理局、香港证券及期货事务监察委员会联合公告&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -409,6 +445,18 @@ var GPU_NEWS=[
     "lang": "zh"
   },
   {
+    "title": "郑棉主力跌0.09%收16125--棉花、棉纱期货期权行情、持仓、仓单及套保情况（7.2）",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS0F5d3ZHbzg5WTY4SVNlM1Y5MWFEVTNacVowczlXUjlBeGpDV3ZQV2VwSkYwRS02SnFPbngzalY5Y3pvd1RyV1JaWTlsTFFaUk9CSmtCWEZPdkNCQWhQYjhwSzJ6YVFqSzY1bDFOV0gyejNYNVNGeFFjczNYdEFCb080c2s?oc=5",
+    "published": "2026-07-02",
+    "summary": "郑棉主力跌0.09%收16125--棉花、棉纱期货期权行情、持仓、仓单及套保情况（7.2）&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "期货市场每日资金排行榜",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ObmtsaXRyNHdxNUJHRmdmNG1SWk55ZHNQOXpacUtGZFJsbkxuRDlNbmxCTUZkZXk3aWo5WEVGYVVWM0lLV3AxV0U3T1lRUE9WbVNyMmhpdkFMY19WSHNCMTM0NEttbU1lZ1RUeDlTSktobDBIaUE?oc=5",
@@ -488,55 +536,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSURiUDlyQ3A3VW1EWHZvMkQ4aG5NQmRyZmhISmd0WUFwWUlnQXg1Um5SSlhfWTUzaEJ5T2RCMDR2Zm8zZFIycE9fQ3hXWlk3cDFvb0xZY3dRNV85OUw0T0xKcTRwTDhmd19WeHdZa255MkVNb1VuUEhNWURrR2VoRFpSRG5WMUE?oc=5",
     "published": "2026-07-02",
     "summary": "富时中国A50指数期货跌幅扩大至3%。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "盘前：纳指期货涨0.25% 华尔街火速拆解算力过剩",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaThLUjRXUnh3d2ZodkllYzF0QjdsVWVRckJ4a3pUZHlSZlZZT01RT3lqaFFYTmt3Ym5nTUh1aGJPYk5nOEhzSE1lbnpZSFNIeW5ac1V6LTNrVnQ3ZHMwUUpsX1Bvand5X0tsc0ZILUpHSUZfX0JlVUh1U2JvXzUzVUNGaDQ2WnBMLWlGTGNzV0RCbWFlczA1S1lZbGFiVGFjaHIycHppSC1sMFJ3S0w2M2tmUm41UTZSUGNzWmZEbTBOeTAzRXlKcjdLUS11YWRuSHNfTHFIdFlDM2QwYnVv?oc=5",
-    "published": "2026-07-02",
-    "summary": "盘前：纳指期货涨0.25% 华尔街火速拆解算力过剩&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "WTI原油期货跌破69美元/桶！美国原油产量创历史新高",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOckRiMDc0Z2sxaFdjS1I2UTFUa09oYmpLMGdpZlVOVXVtZjh3dkZ1ZFliaVl2WTZ6Ykd1TnYwRHRidF9kdXlQT1haRWxBQ2ptXzNvR2dvb1ZQcEVVVnFobXFWUWp5LVItOEhHUUpjdlJWNlRsTEF1cDBNd3l6bEtkWHlVVHAyQWs?oc=5",
-    "published": "2026-07-01",
-    "summary": "WTI原油期货跌破69美元/桶！美国原油产量创历史新高&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "U.S. Lifts Restrictions on Anthropic’s Most Powerful A.I. Models",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/06/30/technology/us-lifts-restrictions-anthropic.html",
-    "published": "2026-07-01",
-    "summary": "The move allows Anthropic to bring its most powerful technologies back online, de-escalating a feud with the Trump administration.",
-    "full_text": "Anthropic’s Code With Claude event in San Francisco last month. Federal restrictions were lifted on Tuesday from the company’s Claude Mythos and Claude Fable A.I. models.",
-    "lang": "en",
-    "title_cn": "美国取消对 Anthropic 最强大人工智能的限制型号",
-    "summary_cn": "此举使 Anthropic 能够将其最强大的技术重新上线，从而缓和与特朗普政府的不和。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "洲际交易所（ICE）与Nativx将推出能源归一化计算期货合约。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSkZaaHoxdUwyc2tMTEdFeWk3Sk0ydlhET2JJYXB1QlpQY2ZsQW83VnJXVHJ2Mml1WjE1UUpEVFV2dllVOWx6S1BCcVl5bWdKaWlFTW0xYU0tbE9NNlgzX3BTanFqemFyVUdGZTlJQTRBeGw1WEFyNGZxS3lKaE5hdnlSUQ?oc=5",
-    "published": "2026-07-01",
-    "summary": "洲际交易所（ICE）与Nativx将推出能源归一化计算期货合约。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
