@@ -6515,7 +6515,7 @@
         "RTX 5070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.11
           }
         ],
         "RTX 5060 TI": [
@@ -6609,7 +6609,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.53
+            "price_usd": 3.68
           },
           {
             "platform": "CoreWeave",
