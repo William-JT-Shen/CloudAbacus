@@ -6710,7 +6710,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 1.94
+            "price_usd": 1.99
           },
           {
             "platform": "CoreWeave",
@@ -6819,13 +6819,13 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.11
           }
         ],
-        "NVIDIA RTX 3070 / 3070 Ti": [
+        "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
           }
         ],
-        "NVIDIA RTX 3060 / 3060 Ti": [
+        "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
@@ -6880,7 +6880,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.77
+            "price_usd": 0.73
           },
           {
             "platform": "DataCrunch",
