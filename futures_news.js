@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-09T21:38:23Z
-var NEWS_FETCHED_AT="2026-07-09T21:38:23Z";
+// 生成:2026-07-10T04:03:55Z
+var NEWS_FETCHED_AT="2026-07-10T04:03:55Z";
 var GPU_NEWS=[
+  {
+    "title": "ICE阿拉比卡咖啡期货价格飙升逾4%，升至每磅3.2295美元。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WM0ctQXU2eDl3Nml0Q281TXhVb09YRmwtcDJwNXQ3TzNuU0tLMjFsUHpEdG1FT3pYQkd6NWhISXVmVXp4ZWxYNzRQVVRDVlI2V05yUHF6RXRFVUVNY2ZORzNDX0t4SFBlbkZ4cTMxT1NXV3E2dEREeg?oc=5",
+    "published": "2026-07-09",
+    "summary": "ICE阿拉比卡咖啡期货价格飙升逾4%，升至每磅3.2295美元。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "盘前：纳指期货涨0.64% 市场赌美伊不会全面开战",
     "source": "新浪财经",
@@ -522,18 +534,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YVFZXY05HeXBRd1BrcFRQekt2WHdYMUVGY2E1RWhIZXdhalh1OFdPakZ1dy1URFY0SVcyd0tINEVZSE5EUF82STlRUndWdGEwT1FZX3BLTk1RYlpWZHBGX3REN2FjZjZScEkwa2VWVEFoQ1lQUmc?oc=5",
     "published": "2026-07-02",
     "summary": "【逐鹿天下 赢在交子】第二十届全国期货(期权)实盘交易大赛，诚邀您的参与&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货看“五”评 | 锌：自律会议能否带来供应再平衡",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLVVyUFByRmlxdmpZNXZPNjY2YWdEQkl1bHJUeGtLUkZ5VmhSOG0yM19wN2FjSGRwTmMzeXMzZ2t0M3BrOWVYcDBfY0dPNDJOcGR3X2RtMWFkcTJURnlOOHhvSUs0MHY3amVjWkZraFRPYm1jSUxTZE1rTmh5QWdwVFl0NmQ?oc=5",
-    "published": "2026-07-02",
-    "summary": "期货看“五”评 | 锌：自律会议能否带来供应再平衡&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
