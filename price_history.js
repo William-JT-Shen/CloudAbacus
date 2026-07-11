@@ -6967,7 +6967,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 1.98
+            "price_usd": 2.03
           },
           {
             "platform": "CoreWeave",
@@ -6997,7 +6997,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.35
+            "price_usd": 0.34
           },
           {
             "platform": "TensorDock",
@@ -7137,7 +7137,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.76
+            "price_usd": 0.74
           },
           {
             "platform": "DataCrunch",
