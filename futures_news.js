@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-10T21:16:14Z
-var NEWS_FETCHED_AT="2026-07-10T21:16:14Z";
+// 生成:2026-07-11T03:30:05Z
+var NEWS_FETCHED_AT="2026-07-11T03:30:05Z";
 var GPU_NEWS=[
+  {
+    "title": "万向钱潮拟开展5亿元期货及衍生品投资业务 以对冲价格风险并获取收益",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSUpKamtkbC1VdmVUQnpkLUZ1cDFvSkc1Y255UVRYOHAza29KTHktOW4ydFBmcGRSd2tXWm51X2pWelFGbnNuel9jakc0eTRYbG5DU0R6TV9QRUo3WXBxa0JqQkIzeVZ0Ty02SndubzZDa2ptTi1ua0NlTVF2NVc2QlJiMFo5N2c?oc=5",
+    "published": "2026-07-10",
+    "summary": "万向钱潮拟开展5亿元期货及衍生品投资业务 以对冲价格风险并获取收益&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "徕芬产线将向珠海集中，剃须刀、牙刷拉动新增长丨最前线",
     "source": "36氪",
@@ -519,18 +531,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ObmtsaXRyNHdxNUJHRmdmNG1SWk55ZHNQOXpacUtGZFJsbkxuRDlNbmxCTUZkZXk3aWo5WEVGYVVWM0lLV3AxV0U3T1lRUE9WbVNyMmhpdkFMY19WSHNCMTM0NEttbU1lZ1RUeDlTSktobDBIaUE?oc=5",
     "published": "2026-07-02",
     "summary": "期货市场每日资金排行榜&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "上期所参展IDX 期货市场持续获得国际关注",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORktkNU13ZXV3N3Y4ZkU3cWxXd2M0RmxCU2Q3d2YtMHRIdjJDbzFRYlRMYVIzc0c0Tmk0QlhHVnptWkJfLWxDRWZJVUowUVRjSW9Tc0twNzRzbzFJLWg1VWxYU291aG9oMnZ2VXc1QzFxQlk3TklSUF92UGU0SkkxbHRBdFE?oc=5",
-    "published": "2026-07-02",
-    "summary": "上期所参展IDX 期货市场持续获得国际关注&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
