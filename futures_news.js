@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-11T03:30:05Z
-var NEWS_FETCHED_AT="2026-07-11T03:30:05Z";
+// 生成:2026-07-11T06:24:12Z
+var NEWS_FETCHED_AT="2026-07-11T06:24:12Z";
 var GPU_NEWS=[
   {
     "title": "万向钱潮拟开展5亿元期货及衍生品投资业务 以对冲价格风险并获取收益",
@@ -386,6 +386,18 @@ var GPU_NEWS=[
     "lang": "zh"
   },
   {
+    "title": "2026年7月6日金十期货早餐：长治沁源县再次开展真实煤炭产量数据自查，煤矿复产进度较慢",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wZzRmWTJuNUItUEJtRjJmaFVXcW5RZ01NeXIyZXdBT0xick9Lcnd1aFpLRERSVTVRbGI3cHhIZW1GNHNqanI3WXJfcVNSTGRVeVdPTkp2eDRfOTFDYjBsV2s0ZS1ld3dIZmxiSE5COVc3c1JvN0E?oc=5",
+    "published": "2026-07-05",
+    "summary": "2026年7月6日金十期货早餐：长治沁源县再次开展真实煤炭产量数据自查，煤矿复产进度较慢&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "How Meta’s Threads Became as Popular as X",
     "source": "NYT Tech",
     "url": "https://www.nytimes.com/2026/07/05/technology/threads-meta-twitter-x.html",
@@ -519,18 +531,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS0F5d3ZHbzg5WTY4SVNlM1Y5MWFEVTNacVowczlXUjlBeGpDV3ZQV2VwSkYwRS02SnFPbngzalY5Y3pvd1RyV1JaWTlsTFFaUk9CSmtCWEZPdkNCQWhQYjhwSzJ6YVFqSzY1bDFOV0gyejNYNVNGeFFjczNYdEFCb080c2s?oc=5",
     "published": "2026-07-02",
     "summary": "郑棉主力跌0.09%收16125--棉花、棉纱期货期权行情、持仓、仓单及套保情况（7.2）&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货市场每日资金排行榜",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ObmtsaXRyNHdxNUJHRmdmNG1SWk55ZHNQOXpacUtGZFJsbkxuRDlNbmxCTUZkZXk3aWo5WEVGYVVWM0lLV3AxV0U3T1lRUE9WbVNyMmhpdkFMY19WSHNCMTM0NEttbU1lZ1RUeDlTSktobDBIaUE?oc=5",
-    "published": "2026-07-02",
-    "summary": "期货市场每日资金排行榜&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
