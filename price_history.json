@@ -7372,7 +7372,7 @@
         "NVIDIA H200": [
           {
             "platform": "Vast.ai",
-            "price_usd": 3.53
+            "price_usd": 3.75
           },
           {
             "platform": "CoreWeave",
@@ -7390,7 +7390,7 @@
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.76
+            "price_usd": 0.77
           },
           {
             "platform": "DataCrunch",
