@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-14T17:25:08Z
-var NEWS_FETCHED_AT="2026-07-14T17:25:08Z";
+// 生成:2026-07-14T21:09:28Z
+var NEWS_FETCHED_AT="2026-07-14T21:09:28Z";
 var GPU_NEWS=[
   {
     "title": "中证500指数期货连续主力合约日内涨1%，现报8131.40点。",
@@ -462,6 +462,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "上期所基本金属期货夜盘收盘涨跌不一，沪镍涨0.51%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rV0JfcjM3ZG1Ia1ZaeUM4ZFJLZHNLWlMwNFl6cHROM1hKU1JLOEwxMk9LLW9KTXJ5OWR2Vy02UmpzbEJhY2wzLUI0SGMtcnBlNk9VUHVRb2hwVWZRSmRLbG1BOFNaaVJMLS1KQkhCMHVZbjY0TXJ6TA?oc=5",
+    "published": "2026-07-08",
+    "summary": "上期所基本金属期货夜盘收盘涨跌不一，沪镍涨0.51%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "南华期货：预计上半年度实现归属于母公司所有者净利润同比增加62.16%到75.13%",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdlBQWFEzSk5ZY1JXbnpobE8tQmItUFFOdGlMYVJaTmI5NEtZVWMydGpGNndCcDBHYzZJYnZsa281RDFrdkxGRE1Od3BWVDc1LXl2YmNGZ2J2T0Eta2ZwaHRCU0ZPdzBfdjUtTW1YT29ULU9jeHZNcV85cjZGNm1qY0VpUnAwdFds?oc=5",
@@ -551,18 +563,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObnQ1N0ZtLTl5dC11YlRaTHhEcDk0dUlwYUtJbmJVMXZoLXBTLTdqVzJidl92TG5paVgwaGNxOVRnOUdQVV96TmF4dnRSZndRLUZMTHRQMWQ1akhEVUdBTXlzXzd0bU5tVFpxV0Y5SnN1ZFVCenRvcXQ3azlac2hhUHdPNzh4SFNqVFRuMg?oc=5",
     "published": "2026-07-08",
     "summary": "不锈钢期货交易单位多少&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "三星标普高盛原油ER期货ETF：6月回购450万个单位",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQmhhRldwUXJFV3RiU2RGalJIamU4dVJ6M2hkeEpnVi1uY29NQ0R6c0pxcU5Sczh6aGtOQzF5djBYTTB4MGVYV21HdzYwX1FUM0NiUGNhMHN6S2Q4VVhKek1YYWZtdkxDQWZUeEtBZTE5bTB0VzR5SzVTY3lqenVlVFFEQjlOV1k?oc=5",
-    "published": "2026-07-08",
-    "summary": "三星标普高盛原油ER期货ETF：6月回购450万个单位&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
