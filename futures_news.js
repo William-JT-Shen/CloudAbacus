@@ -1,7 +1,52 @@
 // GPU算力期货新闻
-// 生成:2026-07-15T10:12:18Z
-var NEWS_FETCHED_AT="2026-07-15T10:12:18Z";
+// 生成:2026-07-15T14:01:59Z
+var NEWS_FETCHED_AT="2026-07-15T14:01:59Z";
 var GPU_NEWS=[
+  {
+    "title": "中天期货:螺纹继续反弹 纯碱震荡下行",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTGY0ZEFSMFFnTEdhYXJpVk1JS1BqODJqcFUzZVpRQ2s3SGdoZEFfRS1nV19wUEZXeTg5MTBMbHlOMHlCOVhnc3lGblpQakppOFJsbWI0aFFEUDJLVnUzc3RIZVE0djUzY1ZyRE5KNkpRZ1RnQm5vRjVJTy1IODY3aUtoaWVESV9PRmtPemV2MUNJU2Q3LThQalNMa1lLeWQ0VS1Ya245SnJMNm5YZTVVc19fdmo5ejVkdVN5b3oyU3ltSG5sRm45OE1IdTVLbkxlWVlLR25GY3hHMEF3bk94SnB0cw?oc=5",
+    "published": "2026-07-15",
+    "summary": "中天期货:螺纹继续反弹 纯碱震荡下行&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "【国投期货|化工视点】聚酯需求或再度面临成本考验",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmlnel9SWm8zRWdOZkd1N09BakpwdlozbktJU2VITkZ1eHVjd3NpcnVKT2dXSjMwRGFJWTNTZjZsRE50WGhWR2dXQUJjSTRMLUR0Z3JqV0p5XzFSM3JCaTZRSi1rWFczdWh2WHBJVE1sUnFESVpuRkhBRnNXQUJzUDkyaw?oc=5",
+    "published": "2026-07-15",
+    "summary": "【国投期货|化工视点】聚酯需求或再度面临成本考验&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "洲际交易所阿拉比卡咖啡期货上涨近3%，报每磅3.3460美元。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QcmFxZGRTYmhmdXpKQi10RlYwWkRRNFA3QTBrSXpVc0Fza2ZGSW5NNnBtaDdwcjhNWUJ5SVUzcEtrRGluTElQSXRqOENqUVFhNlVaR0F5Z3R5b3JrLUtHcE5lWHJFc0NKenl5cGtxcjZKRG1aenlUeQ?oc=5",
+    "published": "2026-07-15",
+    "summary": "洲际交易所阿拉比卡咖啡期货上涨近3%，报每磅3.3460美元。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "氪星晚报｜LG新能源将为谷歌规模最大的“光储一体”项目供应电池；元宝与京东AI Agent正式打通小程序生态；日本散户持有美元净空头飙至2.79万亿日元，创2008年以来历史之最",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3896563671222147?f=rss",
+    "published": "2026-07-15",
+    "summary": "大公司：\n  美团、青桔、哈啰共享单车调价\n  近期，美团单车、滴滴青桔、哈啰单车相继在北京等多个城市上调计费规则，三大平台不约而同地采取了“提高起步定价、拉长基础骑行时长”的组合策略：起步价从此前的1.5元/30分钟左右，普遍调整为1.88元至1.99元/60分钟。这成为共享单车行业近年来较大范围的一次集体调价。（金融时报）\n  瓜子二手车线下直卖场首店今日正式开业\n  36氪获悉，瓜子二手车线下直卖场首店苏州直卖场今日正式开业。据介绍，瓜子此次重回线下，主打100%个人直卖车源。目前瓜子在沈阳、济南等同类型门店已同步启动，并推动全国落地中。\n  LG新能源将为谷歌规模最大的“光储一体”项目供应电池\n  据业内人士周三透露，韩国LG新能源将为谷歌规模最大的太阳能与储能项目供应电池，此举标志着该公司进一步拓展了与AI数据中心激增的电力需求相关的能源基础设施业务。谷歌与可再生能源开发商Cypress Creek Energy在阿肯色州联合公布了“钢铁河能源中心”项目。该项目初期将配置1.6吉瓦（GW）的太阳能发电能力与约2吉瓦时（GWh）的电池储能系统；到2029年，规模将扩大至2.5吉",
+    "full_text": "氪星晚报｜LG新能源将为谷歌规模最大的“光储一体”项目供应电池；元宝与京东AI Agent正式打通小程序生态；日本散户持有美元净空头飙至2.79万亿日元，创2008年以来历史之最\n大公司：\n近期，美团单车、滴滴青桔、哈啰单车相继在北京等多个城市上调计费规则，三大平台不约而同地采取了“提高起步定价、拉长基础骑行时长”的组合策略：起步价从此前的1.5元/30分钟左右，普遍调整为1.88元至1.99元/60分钟。这成为共享单车行业近年来较大范围的一次集体调价。（金融时报）\n36氪获悉，瓜子二手车线下直卖场首店苏州直卖场今日正式开业。据介绍，瓜子此次重回线下，主打100%个人直卖车源。目前瓜子在沈阳、济南等同类型门店已同步启动，并推动全国落地中。\n据业内人士周三透露，韩国LG新能源将为谷歌规模最大的太阳能与储能项目供应电池，此举标志着该公司进一步拓展了与AI数据中心激增的电力需求相关的能源基础设施业务。谷歌与可再生能源开发商Cypress Creek Energy在阿肯色州联合公布了“钢铁河能源中心”项目。该项目初期将配置1.6吉瓦（GW）的太阳能发电能力与约2吉瓦时（GWh）的电池储能系统；到2029年，规模将扩大至2.5吉瓦太阳能发电和2.9吉瓦时储能容量。预计LG新能源将供应其在北美生产的JF2 DC Link系统，该系统采用磷酸铁锂电池技术。据消息人士估算，该订单价值达数千亿韩元。（新浪财经）\n36氪获悉，7月15日，微盟集团宣布旗下面向B2B场景的AI销售数字员工微盟星拓正式启动内测。该产品覆盖“用户指令→意图解析→策略生成→自动寻客→智能外呼→意向加微”全链路。销售人员只需以自然语言下达一次指令，AI 数字员工即自主完成后续作业，将意向客户直接交付至销售团队。\n36氪获悉，7月15日，腾讯宣布元宝与京东AI Agent完成小程序生态打通。京东AI Agent是首个接入元宝的电商垂域合作伙伴，基于双方生态打通，元宝能够为用户提供更加及时、准确的信息反馈，而京东依托其供应链与电商服务体系，为用户提供商品推荐、履约及售后等服务。\n蔚来成为长鑫科技战略投资方，承诺认购金额为1.58亿元，锁定期限为18个月。双方将就现有车规级LPDDR4X、LPDDR5X产品开展战略合作，致力于构建稳定、互信的战略供应关系。（证券时报）\n7月15日，拜耳发表声明称，已与欧洲小麦种子公司RAGT签署了一项独家许可协议，目标是到2030年代初期在欧洲和北美同步扩大杂交小麦种子的销售规模。该协议涵盖针对欧洲环境定制的小麦种质资源的许可授权。拜耳称，其公司的目标是到2040年代中期实现杂交小麦年收入高达10亿欧元。（界面）\n投融资：\n近日，具身智能企业“灵巧智能”（DexRobot）宣布完成数亿元A轮融资，本轮由上海电气战略投资，产业资本与财务资本持续加码。2026年内，公司已先后完成天使轮及A轮两轮融资，融资资金将重点用于灵巧操作全栈技术研发、核心产品迭代、教育/电力/工业三大场景落地及产业生态建设。此外，上海电气旗下上海机电与灵巧智能同步成立两家合资公司——灵机壹动与灵机智联，总注册资本超亿元，分别聚焦核心零部件量产与工业场景解决方案，标志着公司从技术研发迈入产业规模化交付阶段。\n36氪获悉，面壁智能已完成新一轮融资，投资方包括国家级基金、央企、汽车制造商等各类产业方、财务投资人等。至此，面壁智能2026上半年累计融资金额超50亿元，估值超200亿元，一跃成为端侧智能领域公开估值最大的独角兽企业。面壁智能专注于将原生端侧大模型技术转化为标准化产品，在具身、汽车、手机、低空、民航等核心赛道落地，未来还将拓展至工业、家居、特种领域等。\n新产品：\n7月15日，三星电子宣布，新款990固态硬盘现已全球陆续上市，提供1TB、2TB两种容量版本。厂商建议零售价分别为269.99美元、529.99美元。（界面）\n其他值得关注的新闻：\n英国政府7月14日宣布，将对16岁至17岁青少年使用社交媒体实施“宵禁”。这是英国政府继上月宣布将禁止16岁以下人群使用一系列社交媒体应用程序后新的社媒限制举措。英国政府表示，在默认设置状态下，16岁至17岁青少年在0时至6时不能使用社交媒体；旨在诱使用户更长时间浏览的功能，包括视频自动连续播放，也将默认关闭。英国政府6月表示，将效仿澳大利亚，禁止16岁以下人群使用一系列社交媒体应用程序。（新华社）\n日本散户持有美元净空头飙至2.79万亿日元，创2008年以来历史之最\n据日本金融期货协会数据显示，散户交易者的美元净空头头寸较上月激增逾三倍，达到2.79万亿日元（约合172亿美元），创下自2008年底有记录以来的历史最大规模。尽管这些看空押注也可能涉及其他货币对，但日元相关未平仓头寸规模庞大，表明其主要集中于美元兑日元持仓。市场普遍猜测日本官方可能再度出手干预以提振日元汇率。（财联社）\n36氪获悉，央行发布2026年上半年金融统计数据报告，6月末，本外币存款余额354.33万亿元，同比增长8.2%。月末人民币存款余额346.44万亿元，同比增长8.2%。上半年人民币存款增加17.76万亿元。其中，住户存款增加7.58万亿元，非金融企业存款增加3.2万亿元，财政性存款增加9715亿元，非银行业金融机构存款增加4.65万亿元。6月末，外币存款余额1.16万亿美元，同比增长13.7%。上半年外币存款增加980亿美元。",
+    "lang": "zh"
+  },
   {
     "title": "算力时代新风口！这只工业有色基金带你卡位硬资产红利",
     "source": "新浪财经",
@@ -515,54 +560,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NUUNrM29uck9zaE5Vb0ZnbjJXMXhseUJJVmhuV3ZBejM5M3ZyU1VyQXRXUDUzUVVkak9oU1FNbFY3cmxHYk5vWG1lUkRSN2JSODh5aDRvVEttU19rZ0t5UDlSRlVxWEpvMG8yd3JFR2pQdTFMMmFzVg?oc=5",
     "published": "2026-07-08",
     "summary": "日经指数期货跌幅扩大至1.3%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股前瞻 | 三大股指期货齐跌 美伊冲突再起 油价跳涨 科技股延续跌势",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZXVqVjlna3pPQ3lVUVJrVEd1bUFfWHJQclJHVlYzZExfU3hiTFR5SVJuZk9JaWZZY0cyZnRlVG5yWmhkZHhtQ1VEaERTeUtPdmgyYUtBZExSODEtN1lqSEtyNDNvZXpuVXFrYjZHb0htT09DSktySlJxaXBpLU42dEszV0Z4Y1NleFFwM3NtY21wNXFN?oc=5",
-    "published": "2026-07-08",
-    "summary": "美股前瞻 | 三大股指期货齐跌 美伊冲突再起 油价跳涨 科技股延续跌势&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内商品期货夜盘开盘涨跌不一，燃油涨3.89%，原油涨3.67%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jY3lwakEyR3M4S0dQTzZQc3o4WFA2c1JhdHRpN0tGc1BNSmFQU205ZVVWRzJBczdTZHItdDR2dmxaaEpVR3IwcGQ5X3RIT1kzRW5oZTR2b1pXRjZ5VnJXd3RsYTJ5Z2hVR054WHNtUm5GOEktQmZVSw?oc=5",
-    "published": "2026-07-08",
-    "summary": "国内商品期货夜盘开盘涨跌不一，燃油涨3.89%，原油涨3.67%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "盘前：纳指期货跌1.38% 特朗普称美伊停火结束",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMWphMkxEdnA3VlJNaUFRUDRpUV9XdmR2T1ppSEpuZC1EZWEwN0Q1b0FxZFptRE1uOUVFY05uZnZyR2FTak1WRWhwMEdaeDUzMk5IMzB2eVdxN05CdmlUVGRuYm5oSHd0cFg3czVZT2ZoZ3NHSTU3Q2RIdnd0QTNhWEVTNWtnZUktRXlvZDE0S280bEVXWC12emp4Rkc?oc=5",
-    "published": "2026-07-08",
-    "summary": "盘前：纳指期货跌1.38% 特朗普称美伊停火结束&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股盘前丨三大股指期货盘前齐跌 苹果与博通达成多年期合作协议",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92SE5jenJBUC1HTE1FNG1TQmFMejVidkdVb3hTTmRoSTFWamZ2TnF0cEQ2WjdRMGVoc3dIUmVTaGlLRVdMdE5qN0RrQVk0d3ZjeloxeUhab2U3TFBQenNadjFnWTZJeW1fcWlmWFRoWEt0OVVhY2Vhcw?oc=5",
-    "published": "2026-07-08",
-    "summary": "美股盘前丨三大股指期货盘前齐跌 苹果与博通达成多年期合作协议&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
