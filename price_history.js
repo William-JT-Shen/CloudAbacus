@@ -8163,7 +8163,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 6000 Ada / A6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.39
+            "price_usd": 0.37
           },
           {
             "platform": "DataCrunch",
