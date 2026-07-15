@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-15T06:25:38Z
-var NEWS_FETCHED_AT="2026-07-15T06:25:38Z";
+// 生成:2026-07-15T10:12:18Z
+var NEWS_FETCHED_AT="2026-07-15T10:12:18Z";
 var GPU_NEWS=[
+  {
+    "title": "算力时代新风口！这只工业有色基金带你卡位硬资产红利",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPODMyOUl0V3NYUFFJaGFHU0Q0QUQ0YlZURE1hWHNpVFJuaFdJTEpsSDlDS29jazZHMzRyUDdiNjlMZnZ4WnpBVTlHaFpHRkVMWVAyNmo0dGVyUEtFeERaaFlXeFBpbXFJSnlxbDhZTVVHZVQ0Q3dkMHo3Y01sS0VLcU9zdkcxLWc3UWc?oc=5",
+    "published": "2026-07-14",
+    "summary": "算力时代新风口！这只工业有色基金带你卡位硬资产红利&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "中证500指数期货连续主力合约日内涨1%，现报8131.40点。",
     "source": "新浪财经",
@@ -551,18 +563,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92SE5jenJBUC1HTE1FNG1TQmFMejVidkdVb3hTTmRoSTFWamZ2TnF0cEQ2WjdRMGVoc3dIUmVTaGlLRVdMdE5qN0RrQVk0d3ZjeloxeUhab2U3TFBQenNadjFnWTZJeW1fcWlmWFRoWEt0OVVhY2Vhcw?oc=5",
     "published": "2026-07-08",
     "summary": "美股盘前丨三大股指期货盘前齐跌 苹果与博通达成多年期合作协议&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "不锈钢期货交易单位多少",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObnQ1N0ZtLTl5dC11YlRaTHhEcDk0dUlwYUtJbmJVMXZoLXBTLTdqVzJidl92TG5paVgwaGNxOVRnOUdQVV96TmF4dnRSZndRLUZMTHRQMWQ1akhEVUdBTXlzXzd0bU5tVFpxV0Y5SnN1ZFVCenRvcXQ3azlac2hhUHdPNzh4SFNqVFRuMg?oc=5",
-    "published": "2026-07-08",
-    "summary": "不锈钢期货交易单位多少&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
