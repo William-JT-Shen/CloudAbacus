@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-07-15T14:01:59Z
-var NEWS_FETCHED_AT="2026-07-15T14:01:59Z";
+// 生成:2026-07-15T17:27:50Z
+var NEWS_FETCHED_AT="2026-07-15T17:27:50Z";
 var GPU_NEWS=[
+  {
+    "title": "7月14日建信能源化工期货ETF(159981)获净申购301.02万元，位居当日商品ETF净流入排名5/17",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUFaWThvM01iTVVONUVOR0xNX3VoeHY0cHdWeXB3MHBXdEhWMFhYdG94cW94cFVOdzBLNl9QSEdMVnR2c1haRHk3WVRrS0dvTkZjaWp0SHUwWFZpXzdtcG11dTRBZXpQd0xkc0N6RTZLLUlKWHpDcWxiQ3FxbnZqSWkyZXZTWms1cmRVbFcya2t4VTFjYkZCYWtUOA?oc=5",
+    "published": "2026-07-15",
+    "summary": "7月14日建信能源化工期货ETF(159981)获净申购301.02万元，位居当日商品ETF净流入排名5/17&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "光大期货软商品类日报7.15",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSzk1Q2x1MmRWZEpYUmRXU2dHVlZVN3A5OTRnODhVVWgzcm5DVjlzX2gyZzdvczFKSGRLdmg0XzBTS09ZSmwwclViU0w3Yk5GRU1rRGhtVGpiNzNjbkx1TkFLcFFBelAxbzhpRElrRW9tQUJkd2xLelg0MWlJaERPWjN1Yjk5M0hoczJONFczbndLSC1GU012bWk2YzdDQkFHbWxyc2NiMTlySnNhUmZHOXpZWjdmTHhIWGxYdzRueWNIQmlIcWpyVTk2bE90X0pwZUluNFBzeVhJNkYwbVVVVGhEQQ?oc=5",
+    "published": "2026-07-15",
+    "summary": "光大期货软商品类日报7.15&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "中天期货:螺纹继续反弹 纯碱震荡下行",
     "source": "新浪财经",
@@ -536,30 +560,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdlBQWFEzSk5ZY1JXbnpobE8tQmItUFFOdGlMYVJaTmI5NEtZVWMydGpGNndCcDBHYzZJYnZsa281RDFrdkxGRE1Od3BWVDc1LXl2YmNGZ2J2T0Eta2ZwaHRCU0ZPdzBfdjUtTW1YT29ULU9jeHZNcV85cjZGNm1qY0VpUnAwdFds?oc=5",
     "published": "2026-07-08",
     "summary": "南华期货：预计上半年度实现归属于母公司所有者净利润同比增加62.16%到75.13%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "基本面尚有支撑 沪铝期货震荡走高",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX3hsQk1MbnBzTmdaaXBJSFFnZkNxZnJaM0tPNmdXRU5JbmVJX0VqSkVCOWdHRkpxdTh0NUZBSGwzTnY5NUZXckJPNXNoUHpmM0J3cTNlWUEtQVNqaEIwVXhqdGxPakZzbGNNTml4R1hvN0JTNW1USWVqMklRMHM3Zkx5WXBHSnJISUVycw?oc=5",
-    "published": "2026-07-08",
-    "summary": "基本面尚有支撑 沪铝期货震荡走高&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "日经指数期货跌幅扩大至1.3%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NUUNrM29uck9zaE5Vb0ZnbjJXMXhseUJJVmhuV3ZBejM5M3ZyU1VyQXRXUDUzUVVkak9oU1FNbFY3cmxHYk5vWG1lUkRSN2JSODh5aDRvVEttU19rZ0t5UDlSRlVxWEpvMG8yd3JFR2pQdTFMMmFzVg?oc=5",
-    "published": "2026-07-08",
-    "summary": "日经指数期货跌幅扩大至1.3%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
