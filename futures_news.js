@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-16T17:29:16Z
-var NEWS_FETCHED_AT="2026-07-16T17:29:16Z";
+// 生成:2026-07-16T21:12:45Z
+var NEWS_FETCHED_AT="2026-07-16T21:12:45Z";
 var GPU_NEWS=[
   {
     "title": "氪星晚报｜IDC：百度智能云蝉联中国金融大模型市场份额第一；腾讯云与RoboScience机器科学达成战略合作；商务部回应推动解决安世半导体问题进展",
@@ -358,6 +358,18 @@ var GPU_NEWS=[
     "lang": "zh"
   },
   {
+    "title": "光大期货软商品类日报7.10",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObjFWdzFmSW9RQldQSTN1MEdmYTBvUGdQdVRqWHhXT1lpUFMtdkxaNGZIVFFhOWVnN3E3MUhJS3FUZXl1RkZObklrN3d2eDM5cHdNWE5hTzVxdmQ4QzVWR01jTEl4LXJ1LUJMeU1kYWVpOUZjbGtvdzdIY3RHLXRGQ2h4MS1UZFlROURUVWhLRl9ORU9Za29aM0dyOA?oc=5",
+    "published": "2026-07-10",
+    "summary": "光大期货软商品类日报7.10&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "30年期国债期货主力合约拉升",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM3psRkZZR3lNUXBqdWxDeHFtaGZrNTgzWDVGeElSaTdubk5CdVltM0xQVmM4SjhLVl85MTlYZGJ3bmU1a1FncXlUUWVwdmllVFVfaVN4UUVUZ1NQalpkTGtVQ1RodF9QSTkwVmttdHNDQ294T3EydVFoNi0zQWxwaGFObTRiTU0?oc=5",
@@ -542,18 +554,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxZURvVE42MXZIc0Zmelp2V1hKaUs1SDA5S1hfNXY3YWlaRDllNjNHWVN4S0FuRTJsdE5YVmhRSTFVZ0t1dXVFU1U4bGxCMWp4XzRhVDhJSHFWV2FqalRLTVVMOHRWVWdVUUhPb2p0dm9NTTNVdTBrVw?oc=5",
     "published": "2026-07-09",
     "summary": "全天候原油期货闯关失败 OpenAI产品和商业负责人因病辞职&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美CFTC紧急叫停CME原油期货24/7全天候交易合同上市",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxWHhXbVlVd1lfZFFjTjlHM2JEOVVIQmk1Sm1NLVpmNks1Q2dWSVVVMG9SSnhUU09IemItX1JPWThJQ0dmeXZZMWZEOHF3elhRTmlRUGJUd2cwMXZ6T1ZKS19fb0xhdk9vbEN4dXNPaXZvU3dBWHVubQ?oc=5",
-    "published": "2026-07-09",
-    "summary": "美CFTC紧急叫停CME原油期货24/7全天候交易合同上市&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
