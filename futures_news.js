@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-16T03:25:25Z
-var NEWS_FETCHED_AT="2026-07-16T03:25:25Z";
+// 生成:2026-07-16T06:28:59Z
+var NEWS_FETCHED_AT="2026-07-16T06:28:59Z";
 var GPU_NEWS=[
   {
     "title": "8点1氪丨国行苹果AI功能完成备案；三家共享单车上调起步价；知情人曝DeepSeek开始筹备IPO",
