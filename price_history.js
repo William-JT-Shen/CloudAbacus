@@ -8485,7 +8485,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.86
+            "price_usd": 3.89
           },
           {
             "platform": "CoreWeave",

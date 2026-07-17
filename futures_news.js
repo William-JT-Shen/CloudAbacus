@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-07-17T17:21:36Z
-var NEWS_FETCHED_AT="2026-07-17T17:21:36Z";
+// 生成:2026-07-17T21:05:47Z
+var NEWS_FETCHED_AT="2026-07-17T21:05:47Z";
 var GPU_NEWS=[
+  {
+    "title": "美国国债期货下跌 据报美国向以色列增派数十架空中加油机",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcnE5dmtVUkJhVUw1SFJPVGNkcnEyb3NRbnFrN3o2VmNLcnhSdWtsdXFHekhVM2Zud2owa0hzUVJIU29icjJXNGtOREdtUzVCY0U3T0ZxdkdZMWZkOC0wSjhUalNfTFdEdk94TGtQNDdUb1ktVkZpT09NX0NhQTdWdk1lclFjODQ?oc=5",
+    "published": "2026-07-17",
+    "summary": "美国国债期货下跌 据报美国向以色列增派数十架空中加油机&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "原油期货大幅上涨 市场担忧美伊冲突进一步升级",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ3F3eXBVX2VRcDZnSDUyXzI0S0xWUDJhUjJMdlpEcU5pdC02UGtsRnFEOUs3dEI0SDB5UUhvSEt2elF3VmdGYUlFQU8zNXRFTC1wVVhrZmdGUUVMU25kaFI1d0tuZGNySXFvLTIwRHhvTGprVXR4TlVlR09ZdU5TNldaQU5DQm8?oc=5",
+    "published": "2026-07-17",
+    "summary": "原油期货大幅上涨 市场担忧美伊冲突进一步升级&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "国内商品期货夜盘收盘",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96ZlZqZHhFejY4VW9jVnFPdWxpY1lMcTYxSzhPaU1ydFktX1kwOUVNS1A2Y1YxWDFCZ2Q4el9PTW9JU0xFU3pzbHRrcVlfZjhNWE9rVF96WVMyMVF5TzdrakVWb2JHOGVzZDVwZUFqbExiYmZERHdMVA?oc=5",
+    "published": "2026-07-17",
+    "summary": "国内商品期货夜盘收盘&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "平安期货研究所所长李晨阳：大宗商品市场逻辑发生变化",
     "source": "新浪财经",
@@ -521,42 +557,5 @@ var GPU_NEWS=[
     "summary": "徕芬珠海超级工厂（图源/企业）\n  作者丨欧雪\n  编辑丨袁斯来\n  7月8日，徕芬科技在珠海斗门的超级工厂举办媒体探访活动。\n  这座总投资超5亿元、占地超20万平方米的制造基地，自2025年8月投产以来，首次较大规模地向外界开放参观。\n  该工厂目前承接电动牙刷、剃须刀及部分新品的生产，并配套了电机车间、精密成型车间、喷涂车间、组装车间及约3000平方米的可靠性实验室。\n  \n  徕芬可靠性实验室（图源/企业）\n  自建工厂在消费电子行业并非主流路径，尤其对于一家成立仅7年的公司而言，重资产投入意味着更长的回报周期和更大的经营压力。\n  硬氪了解到，徕芬选择自建工厂，部分原因在于外部代工厂不愿承接其高成本、高规格的订单——这意味着如果依赖代工，某些设计方案根本无法落地。因此，徕芬坚持核心零部件自研自产。\n  目前，徕芬已自研并量产高速三相无刷电机、伺服电机、高速直线电机、轴向磁通电机四类技术，覆盖所有产品线。\n  徕芬珠海超级工厂总经理向硬氪表示，目前珠海工厂的年产能可达千万台级别。\n  随着珠海产能释放，徕芬计划将东莞的部分产线迁移至珠海，预计2027年完成整合。迁移的主要考量包",
     "full_text": "徕芬产线将向珠海集中，剃须刀、牙刷拉动新增长丨最前线\n徕芬珠海超级工厂（图源/企业）\n作者丨欧雪\n编辑丨袁斯来\n7月8日，徕芬科技在珠海斗门的超级工厂举办媒体探访活动。\n这座总投资超5亿元、占地超20万平方米的制造基地，自2025年8月投产以来，首次较大规模地向外界开放参观。\n该工厂目前承接电动牙刷、剃须刀及部分新品的生产，并配套了电机车间、精密成型车间、喷涂车间、组装车间及约3000平方米的可靠性实验室。\n徕芬可靠性实验室（图源/企业）\n自建工厂在消费电子行业并非主流路径，尤其对于一家成立仅7年的公司而言，重资产投入意味着更长的回报周期和更大的经营压力。\n硬氪了解到，徕芬选择自建工厂，部分原因在于外部代工厂不愿承接其高成本、高规格的订单——这意味着如果依赖代工，某些设计方案根本无法落地。因此，徕芬坚持核心零部件自研自产。\n目前，徕芬已自研并量产高速三相无刷电机、伺服电机、高速直线电机、轴向磁通电机四类技术，覆盖所有产品线。\n徕芬珠海超级工厂总经理向硬氪表示，目前珠海工厂的年产能可达千万台级别。\n随着珠海产能释放，徕芬计划将东莞的部分产线迁移至珠海，预计2027年完成整合。迁移的主要考量包括降低两地物流成本、集中管理核心部件生产资源，以及提升研发与制造的协同效率。\n据悉，徕芬珠海超级工厂正以3至5年为周期逐步提升自动化水平。目前，电动牙刷的刷头产线已实现全自动无人化生产，洁净标准达到千级；喷涂车间洁净度为10万级，自动喷房为万级。\n徕芬电动牙刷刷头全自动杀菌无人车间（图源/企业）\n从2023年发布电动牙刷、2025年推出剃须刀开始，徕芬的产品结构已从单一吹风机拓展为“个护三件套”。此外，今年5月，公司还推出了智能卷发棒、智能化妆镜、护眼落地灯、手持折叠小风扇等新品。\n从销售数据来看，吹风机仍是徕芬的基本盘，但电动牙刷、剃须刀两大新品类正在形成规模。\n剃须刀是其中增速最快的。徕芬剃须刀品类运营负责人告诉硬氪，从2025年5月到2026年6月的13个月内，剃须刀累计销量达到130万台。在500元以上价位段，该品类在2025年双11和2026年618期间均位列国产品牌第一。2026年618大促期间，剃须刀销售额约1.2亿元，同比增长超200%。\n利润层面，剃须刀业务在2025年处于前期研发与市场投入阶段，自2026年1月起已实现月度盈利，并在Q2 618节点带动下持续扩大。围绕该品类，公司已制定明确的中长期增长规划。\n电动牙刷的表现同样在爬坡。徕芬牙刷品类运营负责人介绍，扫振电动牙刷i2上市以来，牙刷全品类GMV已超过2.5亿元，今年618期间销售额达到去年的1.2倍。值得一提的是，代表徕芬设计美学的透明探索款、铝合金款等非基础款销量占比高达60%。\n透过这次探厂可以看到，徕芬正试图走一条不太一样的路：把核心制造环节留在体系内，以更高的物料成本和更重的资产投入，换取对产品和供应链的掌控力。\n但这种模式能否在规模扩张中持续跑通，仍需时间验证。接下来，工厂的产能爬坡和东莞产线搬迁，将是徕芬一到两年内考验其供应链管理能力的关键节点。",
     "lang": "zh"
-  },
-  {
-    "title": "美股期指上涨 纳指期货涨近1% 芯片股盘前集体走强 | 今夜看点",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Pa29hRTBUYm8tVFc1N2NrSGQ5NWhBTVhWV243VzRfSWE3SHpteXpZeE9Jc01uMXd5Z3dNVWxjS0lsQmRyRTZkMlVTbDIzSFg0N2w4SkY5OFNTdklHWVItRGt5Zmk2V1A3RmNjS05wZWJQcjJ2VTR1Mw?oc=5",
-    "published": "2026-07-09",
-    "summary": "美股期指上涨 纳指期货涨近1% 芯片股盘前集体走强 | 今夜看点&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所企图强推7x24小时原油期货快速上市 被监管一把摁住",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObVdIbWcwNVlUMmxBUGhaejZDRlE5ek9YQ1otOHJCTVJ3ZFRiWjN6MzEtSXA1TTh0ZlB1YnV5V2lVZlR6dTZMWmZZaFdCQ1V5eTZIakN6dDZzU3V4Y0E3M1dSOThyREJucUQ4RUZUVlR3Vm8zTFFhbnJGR3NkY1c4eUZ3SFYxSThqb2xtWDRjVHJNVi1f?oc=5",
-    "published": "2026-07-09",
-    "summary": "芝商所企图强推7x24小时原油期货快速上市 被监管一把摁住&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Meta Launches New A.I. Model as Global Technology Race Heats Up",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/07/09/technology/meta-muse-spark-artificial-intelligence.html",
-    "published": "2026-07-09",
-    "summary": "For the first time, the company will offer a paid version of the service, a departure from its longtime philosophy of giving its A.I. away for free.",
-    "full_text": "The paid product opens up a new revenue stream for Meta, which is planning to spend tens of billions of dollars on artificial intelligence this year.",
-    "lang": "en",
-    "title_cn": "Meta 推出新的人工智能全球技术竞赛升温的模型",
-    "summary_cn": "该公司将首次提供该服务的付费版本，这背离了其长期以来为人工智能提供服务的理念。免费离开。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
