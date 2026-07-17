@@ -8478,6 +8478,28 @@
     {
       "date": "2026-07-17",
       "prices": {
+        "NVIDIA H200": [
+          {
+            "platform": "RunPod",
+            "price_usd": 3.59
+          },
+          {
+            "platform": "Vast.ai",
+            "price_usd": 3.86
+          },
+          {
+            "platform": "CoreWeave",
+            "price_usd": 6.31
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 4.0
+          },
+          {
+            "platform": "JarvisLabs",
+            "price_usd": 3.99
+          }
+        ],
         "NVIDIA H100 (80GB SXM)": [
           {
             "platform": "RunPod",
@@ -8508,6 +8530,34 @@
             "price_usd": 2.69
           }
         ],
+        "NVIDIA L40S": [
+          {
+            "platform": "RunPod",
+            "price_usd": 0.79
+          },
+          {
+            "platform": "CoreWeave",
+            "price_usd": 2.25
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.37
+          }
+        ],
+        "NVIDIA RTX 6000 Ada / A6000": [
+          {
+            "platform": "RunPod",
+            "price_usd": 0.33
+          },
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.39
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.93
+          }
+        ],
         "NVIDIA RTX 4090": [
           {
             "platform": "RunPod",
@@ -8520,6 +8570,36 @@
           {
             "platform": "TensorDock",
             "price_usd": 0.35
+          }
+        ],
+        "NVIDIA RTX 3090 / 3090 Ti": [
+          {
+            "platform": "RunPod",
+            "price_usd": 0.22
+          },
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.17
+          }
+        ],
+        "NVIDIA L4": [
+          {
+            "platform": "RunPod",
+            "price_usd": 0.44
+          },
+          {
+            "platform": "JarvisLabs",
+            "price_usd": 0.44
+          }
+        ],
+        "NVIDIA A40": [
+          {
+            "platform": "RunPod",
+            "price_usd": 0.35
+          },
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.29
           }
         ],
         "RTX 5090": [
@@ -8582,12 +8662,6 @@
             "price_usd": 0.06
           }
         ],
-        "NVIDIA RTX 3090 / 3090 Ti": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.17
-          }
-        ],
         "NVIDIA RTX 3080 / 3080 Ti": [
           {
             "platform": "Vast.ai",
@@ -8634,24 +8708,6 @@
             "price_usd": 0.48
           }
         ],
-        "NVIDIA H200": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 3.86
-          },
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.31
-          },
-          {
-            "platform": "DataCrunch",
-            "price_usd": 4.0
-          },
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 3.99
-          }
-        ],
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
@@ -8666,36 +8722,10 @@
             "price_usd": 1.49
           }
         ],
-        "NVIDIA RTX 6000 Ada / A6000": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.39
-          },
-          {
-            "platform": "DataCrunch",
-            "price_usd": 1.93
-          }
-        ],
-        "NVIDIA A40": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.29
-          }
-        ],
         "RTX 2080": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
-          }
-        ],
-        "NVIDIA L40S": [
-          {
-            "platform": "CoreWeave",
-            "price_usd": 2.25
-          },
-          {
-            "platform": "DataCrunch",
-            "price_usd": 1.37
           }
         ],
         "NVIDIA GH200": [
@@ -8718,12 +8748,6 @@
           {
             "platform": "JarvisLabs",
             "price_usd": 1.49
-          }
-        ],
-        "NVIDIA L4": [
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 0.44
           }
         ]
       }
