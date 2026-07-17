@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-17T13:57:22Z
-var NEWS_FETCHED_AT="2026-07-17T13:57:22Z";
+// 生成:2026-07-17T17:21:36Z
+var NEWS_FETCHED_AT="2026-07-17T17:21:36Z";
 var GPU_NEWS=[
+  {
+    "title": "平安期货研究所所长李晨阳：大宗商品市场逻辑发生变化",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XY3lnbl94LWxBNUs1NjQ1dmZlTmxQT2VYU0xuRVdWM3RKeVZfR3ZORFR0YjNCNU5RVkR4VFlyMVZlUTJPZ1JDS0Y0VkJ3bGpGTWZfTVNLc29Vc2pqYUNNLTZ2eXBlWUtsRHlUSUVzY2lpMUh2b3I2bg?oc=5",
+    "published": "2026-07-17",
+    "summary": "平安期货研究所所长李晨阳：大宗商品市场逻辑发生变化&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "氪星晚报｜IDC：百度智能云蝉联中国金融大模型市场份额第一；腾讯云与RoboScience机器科学达成战略合作；商务部回应推动解决安世半导体问题进展",
     "source": "36氪",
@@ -544,19 +556,6 @@ var GPU_NEWS=[
     "lang": "en",
     "title_cn": "Meta 推出新的人工智能全球技术竞赛升温的模型",
     "summary_cn": "该公司将首次提供该服务的付费版本，这背离了其长期以来为人工智能提供服务的理念。免费离开。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "John Deere Farm Equipment Owners Have Right-to-Repair, F.T.C. Says",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/07/09/business/john-deere-ftc-right-to-repair.html",
-    "published": "2026-07-09",
-    "summary": "A settlement by the company with the Federal Trade Commission will allow farmers and local mechanics to make their own fixes, instead of relying on authorized dealers.",
-    "full_text": "Danny Ward disconnects an implement from a John Deere combine during winter wheat harvest near Skedee, Oklahoma, in 2024.",
-    "lang": "en",
-    "title_cn": "约翰迪尔农场设备所有者拥有维修权，联邦贸易委员会说",
-    "summary_cn": "该公司与联邦贸易委员会达成的和解协议将允许农民和当地机械师自行修复，而不是依赖授权经销商。",
     "full_text_cn": "",
     "translated": true
   }
