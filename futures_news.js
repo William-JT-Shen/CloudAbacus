@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-07-17T21:05:47Z
-var NEWS_FETCHED_AT="2026-07-17T21:05:47Z";
+// 生成:2026-07-18T03:17:29Z
+var NEWS_FETCHED_AT="2026-07-18T03:17:29Z";
 var GPU_NEWS=[
+  {
+    "title": "税期缴款期资金面边际收敛 国债期货震荡回落走势",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQelN1QzRUREVIaWNXSTVnY2Z0UWtJRUVTd1NndExna2ZsWGo3UVVWOEJhRnE0bHFqOTVrLTUyWjNDSnJfNG9jdFpsY1dLcWdON2laVW15cUVBR1BfQmJzWFBrUzNqZU5xdmN3RHdtWHQ2UDg4UFB1cnFtdG9Tbm5qbUZZMW5LMFYwUnpteQ?oc=5",
+    "published": "2026-07-17",
+    "summary": "税期缴款期资金面边际收敛 国债期货震荡回落走势&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "光大期货0715热点追踪：抛储靴子落地！棉花涨势要变？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORExQOEpCMzZGOHlkOERTN0syS1h1MEtTaHZlbUxhazkxMWQyRnRVUGhVR0dZWDMySWxudk5idHdabFdvLU1iVFhuNlFGRWs4MkRoU0R1N0MzNkw2YjVEOW16b05HQmctblhrN2RucTJ4ZFNwUUpUY0JDc1NZNmRZT1VNNWItY2Q3cVhpdw?oc=5",
+    "published": "2026-07-17",
+    "summary": "光大期货0715热点追踪：抛储靴子落地！棉花涨势要变？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "芯片股抛售引发板块轮动 美股期货下跌",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX0RYQlpNSkZjaENDNnl4REhCR3V5bTJlMHJwNmctcXY5Snd6T1plMEsyY3JOYkNfNHFUd25hbWppamNBakNFWWw4UWIyMVFIZEVWWGplVkxrc2RBdjVyeG16UzFpb2R0VDk5cHA0Rk9kamhPYnAwVk9FWXQteGIzczhkeUhlNm8?oc=5",
+    "published": "2026-07-17",
+    "summary": "芯片股抛售引发板块轮动 美股期货下跌&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美国国债期货下跌 据报美国向以色列增派数十架空中加油机",
     "source": "新浪财经",
@@ -44,6 +80,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XY3lnbl94LWxBNUs1NjQ1dmZlTmxQT2VYU0xuRVdWM3RKeVZfR3ZORFR0YjNCNU5RVkR4VFlyMVZlUTJPZ1JDS0Y0VkJ3bGpGTWZfTVNLc29Vc2pqYUNNLTZ2eXBlWUtsRHlUSUVzY2lpMUh2b3I2bg?oc=5",
     "published": "2026-07-17",
     "summary": "平安期货研究所所长李晨阳：大宗商品市场逻辑发生变化&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中天期货:商品指数短线震荡停顿 焦煤震荡",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYmYybXIwbVlNZl9SUFA3ZEt2Z3BKekdNbzFUZFZTRjJFZ0xYaUV2cnpvN2lFZlBuZDJoZTE2cFowVlhCZW5FREFMald2anp3YTJkZTg2NzNWa1drUEtXYktQYkFqbkVReFNLWGhldHZYbGw2bXFjZjRmQTVjeWZ5MHEyblJhUXZWLW1QYXZxSVhmSkxKQ2EzRWtOZHdwT3FCcjJDbW5sbUx2LW1LZ1ltN3RhTEVQTGtYbG5oSjhqR3JTMFU2U0hyc3JhNFVsR09CZnY5RFNRNmE0LXJqMTFCZDVSYXo?oc=5",
+    "published": "2026-07-16",
+    "summary": "中天期货:商品指数短线震荡停顿 焦煤震荡&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -512,50 +560,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "江苏：金融“活水”精准滴灌区域算力产业生态",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qWG9IZDEwcW1XcWlqZXk3TFVvMDlvZmZycld4cHhVN0Y4ZGJUWHRwT3d3MzIyOXpDMVVVMTJySW5YczhUc0JqVjFhT3ZXX3QzX3duMUlfZ1d1Y2QyNmlTZnk0V0c5bG9nUERlNlNZQjlZTjA0Y0JSTg?oc=5",
-    "published": "2026-07-10",
-    "summary": "江苏：金融“活水”精准滴灌区域算力产业生态&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股前瞻 | 三大股指期货涨跌不一 SK海力士(SKHY.US)美股首秀今夜重磅来袭",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcnZuWVBjUWhWd0lhNGI0U0hqU2YtLVhaT3BVNnl2SUxLQUl5bU50cTA2bHVJVjNQN3NVcFF6UmZnR0tLYVpJX002aGlOSl9sZld0cUZvTFdpS0ItVGIzWmQ2YmtORGd1WHhfRTh6Zm96eVlCN2FabnF6ZHFVb0ZraGMtV1ctRDlaSmtQV1dKUU0tUWFqRHNGUmhVSU8?oc=5",
-    "published": "2026-07-10",
-    "summary": "美股前瞻 | 三大股指期货涨跌不一 SK海力士(SKHY.US)美股首秀今夜重磅来袭&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "万向钱潮拟开展5亿元期货及衍生品投资业务 以对冲价格风险并获取收益",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSUpKamtkbC1VdmVUQnpkLUZ1cDFvSkc1Y255UVRYOHAza29KTHktOW4ydFBmcGRSd2tXWm51X2pWelFGbnNuel9jakc0eTRYbG5DU0R6TV9QRUo3WXBxa0JqQkIzeVZ0Ty02SndubzZDa2ptTi1ua0NlTVF2NVc2QlJiMFo5N2c?oc=5",
-    "published": "2026-07-10",
-    "summary": "万向钱潮拟开展5亿元期货及衍生品投资业务 以对冲价格风险并获取收益&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "徕芬产线将向珠海集中，剃须刀、牙刷拉动新增长丨最前线",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3889524008303363?f=rss",
-    "published": "2026-07-10",
-    "summary": "徕芬珠海超级工厂（图源/企业）\n  作者丨欧雪\n  编辑丨袁斯来\n  7月8日，徕芬科技在珠海斗门的超级工厂举办媒体探访活动。\n  这座总投资超5亿元、占地超20万平方米的制造基地，自2025年8月投产以来，首次较大规模地向外界开放参观。\n  该工厂目前承接电动牙刷、剃须刀及部分新品的生产，并配套了电机车间、精密成型车间、喷涂车间、组装车间及约3000平方米的可靠性实验室。\n  \n  徕芬可靠性实验室（图源/企业）\n  自建工厂在消费电子行业并非主流路径，尤其对于一家成立仅7年的公司而言，重资产投入意味着更长的回报周期和更大的经营压力。\n  硬氪了解到，徕芬选择自建工厂，部分原因在于外部代工厂不愿承接其高成本、高规格的订单——这意味着如果依赖代工，某些设计方案根本无法落地。因此，徕芬坚持核心零部件自研自产。\n  目前，徕芬已自研并量产高速三相无刷电机、伺服电机、高速直线电机、轴向磁通电机四类技术，覆盖所有产品线。\n  徕芬珠海超级工厂总经理向硬氪表示，目前珠海工厂的年产能可达千万台级别。\n  随着珠海产能释放，徕芬计划将东莞的部分产线迁移至珠海，预计2027年完成整合。迁移的主要考量包",
-    "full_text": "徕芬产线将向珠海集中，剃须刀、牙刷拉动新增长丨最前线\n徕芬珠海超级工厂（图源/企业）\n作者丨欧雪\n编辑丨袁斯来\n7月8日，徕芬科技在珠海斗门的超级工厂举办媒体探访活动。\n这座总投资超5亿元、占地超20万平方米的制造基地，自2025年8月投产以来，首次较大规模地向外界开放参观。\n该工厂目前承接电动牙刷、剃须刀及部分新品的生产，并配套了电机车间、精密成型车间、喷涂车间、组装车间及约3000平方米的可靠性实验室。\n徕芬可靠性实验室（图源/企业）\n自建工厂在消费电子行业并非主流路径，尤其对于一家成立仅7年的公司而言，重资产投入意味着更长的回报周期和更大的经营压力。\n硬氪了解到，徕芬选择自建工厂，部分原因在于外部代工厂不愿承接其高成本、高规格的订单——这意味着如果依赖代工，某些设计方案根本无法落地。因此，徕芬坚持核心零部件自研自产。\n目前，徕芬已自研并量产高速三相无刷电机、伺服电机、高速直线电机、轴向磁通电机四类技术，覆盖所有产品线。\n徕芬珠海超级工厂总经理向硬氪表示，目前珠海工厂的年产能可达千万台级别。\n随着珠海产能释放，徕芬计划将东莞的部分产线迁移至珠海，预计2027年完成整合。迁移的主要考量包括降低两地物流成本、集中管理核心部件生产资源，以及提升研发与制造的协同效率。\n据悉，徕芬珠海超级工厂正以3至5年为周期逐步提升自动化水平。目前，电动牙刷的刷头产线已实现全自动无人化生产，洁净标准达到千级；喷涂车间洁净度为10万级，自动喷房为万级。\n徕芬电动牙刷刷头全自动杀菌无人车间（图源/企业）\n从2023年发布电动牙刷、2025年推出剃须刀开始，徕芬的产品结构已从单一吹风机拓展为“个护三件套”。此外，今年5月，公司还推出了智能卷发棒、智能化妆镜、护眼落地灯、手持折叠小风扇等新品。\n从销售数据来看，吹风机仍是徕芬的基本盘，但电动牙刷、剃须刀两大新品类正在形成规模。\n剃须刀是其中增速最快的。徕芬剃须刀品类运营负责人告诉硬氪，从2025年5月到2026年6月的13个月内，剃须刀累计销量达到130万台。在500元以上价位段，该品类在2025年双11和2026年618期间均位列国产品牌第一。2026年618大促期间，剃须刀销售额约1.2亿元，同比增长超200%。\n利润层面，剃须刀业务在2025年处于前期研发与市场投入阶段，自2026年1月起已实现月度盈利，并在Q2 618节点带动下持续扩大。围绕该品类，公司已制定明确的中长期增长规划。\n电动牙刷的表现同样在爬坡。徕芬牙刷品类运营负责人介绍，扫振电动牙刷i2上市以来，牙刷全品类GMV已超过2.5亿元，今年618期间销售额达到去年的1.2倍。值得一提的是，代表徕芬设计美学的透明探索款、铝合金款等非基础款销量占比高达60%。\n透过这次探厂可以看到，徕芬正试图走一条不太一样的路：把核心制造环节留在体系内，以更高的物料成本和更重的资产投入，换取对产品和供应链的掌控力。\n但这种模式能否在规模扩张中持续跑通，仍需时间验证。接下来，工厂的产能爬坡和东莞产线搬迁，将是徕芬一到两年内考验其供应链管理能力的关键节点。",
-    "lang": "zh"
   }
 ];
