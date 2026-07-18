@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-18T13:41:11Z
-var NEWS_FETCHED_AT="2026-07-18T13:41:11Z";
+// 生成:2026-07-18T17:07:03Z
+var NEWS_FETCHED_AT="2026-07-18T17:07:03Z";
 var GPU_NEWS=[
+  {
+    "title": "期货和衍生品成上市公司风险管理标配",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUnM3VTJqc1BXUjROQS0wMVc1NDQwblVMSlR6blU2WU5XWTVGZGNLeHNlS21JaEJ0aTV5c3hGNUc2ZGRHcmZLOWd0QVAtdU1TdFFWLVlUakFpb1o4SFRIanFORjJlV2ZybUo4dmI4QmY3UFhwRUozZWJZTkF5RUx5LUlKQjZJdnli?oc=5",
+    "published": "2026-07-17",
+    "summary": "期货和衍生品成上市公司风险管理标配&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "原料供给引发担忧 预计沥青期货偏强震荡",
     "source": "新浪财经",
@@ -543,18 +555,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM3psRkZZR3lNUXBqdWxDeHFtaGZrNTgzWDVGeElSaTdubk5CdVltM0xQVmM4SjhLVl85MTlYZGJ3bmU1a1FncXlUUWVwdmllVFVfaVN4UUVUZ1NQalpkTGtVQ1RodF9QSTkwVmttdHNDQ294T3EydVFoNi0zQWxwaGFObTRiTU0?oc=5",
     "published": "2026-07-10",
     "summary": "30年期国债期货主力合约拉升&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "CBOT农产品期货主力合约收盘全线上涨，小麦期货涨3.15%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CSWp5MF9jdE5XMzB1WHFaMHhRZnpmcUFuWDkwZW12RGY1VGM2RHpUaVBjWU02NXQ3blM3Z2psLXRoMVpOSGdBbFhEYmNyZEhNYmptTlplSVl0VVQ2MHBOaklHcFhLZzhNV1NyWkRxTXUzWHkzTmJ5Tw?oc=5",
-    "published": "2026-07-10",
-    "summary": "CBOT农产品期货主力合约收盘全线上涨，小麦期货涨3.15%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
