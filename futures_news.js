@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-18T17:07:03Z
-var NEWS_FETCHED_AT="2026-07-18T17:07:03Z";
+// 生成:2026-07-18T21:01:49Z
+var NEWS_FETCHED_AT="2026-07-18T21:01:49Z";
 var GPU_NEWS=[
+  {
+    "title": "纳指期货盘前跌近2% AI支出担忧重创市场情绪 | 今夜看点",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY2dBR0xndUk0MVJJVEhBS2wzREdfaldud1E1UldscFI1OXFpZ184SG1vUjc0bU54Qi1LMzhYMnNoUWhydERpSGRkVXlSV0pUMUNkSkFDX3NzcUJkUXpBUVVJOW1SUE0yMTFDVllKR0J4eVJ4VnM2LTlYVjhhSE5FTTlXelJRLWc?oc=5",
+    "published": "2026-07-17",
+    "summary": "纳指期货盘前跌近2% AI支出担忧重创市场情绪 | 今夜看点&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "期货和衍生品成上市公司风险管理标配",
     "source": "新浪财经",
@@ -543,18 +555,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObjFWdzFmSW9RQldQSTN1MEdmYTBvUGdQdVRqWHhXT1lpUFMtdkxaNGZIVFFhOWVnN3E3MUhJS3FUZXl1RkZObklrN3d2eDM5cHdNWE5hTzVxdmQ4QzVWR01jTEl4LXJ1LUJMeU1kYWVpOUZjbGtvdzdIY3RHLXRGQ2h4MS1UZFlROURUVWhLRl9ORU9Za29aM0dyOA?oc=5",
     "published": "2026-07-10",
     "summary": "光大期货软商品类日报7.10&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "30年期国债期货主力合约拉升",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM3psRkZZR3lNUXBqdWxDeHFtaGZrNTgzWDVGeElSaTdubk5CdVltM0xQVmM4SjhLVl85MTlYZGJ3bmU1a1FncXlUUWVwdmllVFVfaVN4UUVUZ1NQalpkTGtVQ1RodF9QSTkwVmttdHNDQ294T3EydVFoNi0zQWxwaGFObTRiTU0?oc=5",
-    "published": "2026-07-10",
-    "summary": "30年期国债期货主力合约拉升&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
