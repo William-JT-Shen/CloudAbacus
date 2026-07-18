@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-07-18T09:43:02Z
-var NEWS_FETCHED_AT="2026-07-18T09:43:02Z";
+// 生成:2026-07-18T13:41:11Z
+var NEWS_FETCHED_AT="2026-07-18T13:41:11Z";
 var GPU_NEWS=[
+  {
+    "title": "原料供给引发担忧 预计沥青期货偏强震荡",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaGpfZTVTZzdldTdkRTVDQ0RtZUlTczJHczFhbVZFOTJhRDRlYnVHMVpyNk90X1VKUHRoVWkwbEtrYXZpNF9rQ3dwMHNLdW5DZUtiVEhSSE9FRlkycXlYdW5Tb1dvUjNSZTJvRnE2SkZVZTZpbDZuOURybXVGdVNXY0JSdFRtYURialg3bTFPbFY2NHFPWGhodFJTa05GXzgtMlNTNEhhX2tnN2U3a09qSUhDTXhxVkd4LXdrYnIzQ1NULS14NU5EelhhdkZiM3dMWnZqdkJzcGpzMVN0QlQybDFTa1c?oc=5",
+    "published": "2026-07-17",
+    "summary": "原料供给引发担忧 预计沥青期货偏强震荡&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "1546家A股公司为何集体“上期货”",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02T0QyRGdWbGhhNTlzY2xIRk4tZ3VyVF9IcVJzanZRdXNVNjMybkRubzJXMmVadHl1ZlM3aVdIY004bkFmOHN1MXliYTJYT004QWdmWUQ3RW5aTWtlUUtmRmNGZ09ha0Y5THJpc2xCbmZVc3NkRWV1Vg?oc=5",
+    "published": "2026-07-17",
+    "summary": "1546家A股公司为何集体“上期货”&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "上海期货交易所燃料油期权2608系列合约到期提醒",
     "source": "新浪财经",
@@ -312,6 +336,18 @@ var GPU_NEWS=[
     "lang": "zh"
   },
   {
+    "title": "中期动态| 锚定产业需求赋能钢贸突围——中国国际期货举办下半年钢材市场展望与期现策略研讨会",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82RFA1dHY5RW5TVjMwSjFiT1A3cWl6eFozQk9LTUNKNEhLV2MtemQ2aWJsNzJHX05Yc3c1TlBEd29kdXpWUVpJbDZaNHEtNFBiQXdfOTM3RDlOelpFaDM4YWgwVkhjQVZoQTlvZ2RDMk5ydDFxcVE?oc=5",
+    "published": "2026-07-13",
+    "summary": "中期动态| 锚定产业需求赋能钢贸突围——中国国际期货举办下半年钢材市场展望与期现策略研讨会&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "日本日经平均指数期货早盘下跌0.6%。",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3clRqX01odGhCMFM0S2dIekpEc1lNWldCcHBLM2F4RmhMVlpxY0oxQng1SEhVZDQya0Z4RjN0UFdJdE9EXy1ncDdlaVJ3UjVSR1VFYWZsM2M4SDVWNlIyZTVrTjl4TTBLbGRlY2FjRGpTVWd0UVZXcw?oc=5",
@@ -524,44 +560,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "Volkswagen Is Cutting Production as Sales in China Plunge",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/07/09/business/volkswagen-china-sales.html",
-    "published": "2026-07-10",
-    "summary": "The German automaker has struggled to compete with fast-growing Chinese companies that offer more affordable and sophisticated electric vehicles.",
-    "full_text": "A Volkswagen factory in Zwickau, Germany, in 2024. The carmaker is a crucial part of the country’s industrial base.",
-    "lang": "en",
-    "title_cn": "大众汽车因中国销量暴跌而减产",
-    "summary_cn": "这家德国汽车制造商一直在努力与快速发展的中国公司竞争，这些公司提供更实惠、更先进的电动汽车。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "How Terrorist Groups Are Using A.I. to Gain an Edge in Battle",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html",
-    "published": "2026-07-10",
-    "summary": "A.I. chatbots are not just a propaganda tool for violent extremists but are aiding in bomb construction and attack planning, new research finds.",
-    "full_text": "Nigerian soldiers training at a military base in Monguno, Nigeria, last year amid a surge in attacks by jihadists. Extremist groups like Boko Haram are turning to A.I. for tactical on-the-ground advantages, highlighting a broader challenge for the A.I. industry.",
-    "lang": "en",
-    "title_cn": "恐怖组织如何使用人工智能在战斗中获得优势",
-    "summary_cn": "人工智能。新的研究发现，聊天机器人不仅是暴力极端分子的宣传工具，而且还有助于炸弹制造和攻击计划。",
-    "full_text_cn": "去年，在圣战分子袭击激增的情况下，尼日利亚士兵在尼日利亚蒙古诺的一个军事基地训练。像博科圣地这样的极端组织正在转向人工智能。地面战术优势，凸显了人工智能面临的更广泛挑战。行业。",
-    "translated": true
-  },
-  {
-    "title": "Meta Ordered by E.U. to Alter ‘Addictive Design’ of Instagram and Facebook",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/07/10/business/meta-instagram-facebook-europe.html",
-    "published": "2026-07-10",
-    "summary": "European Union authorities said the company’s use of “addictive design” violated a digital safety law.",
-    "full_text": "The preliminary ruling against Meta is the latest effort by the European Commission in Brussels to confront social media companies over some of the ways they hook users.",
-    "lang": "en",
-    "title_cn": "Meta 由欧盟订购改变 Instagram 和 Facebook 的“令人上瘾的设计”",
-    "summary_cn": "欧盟当局表示，该公司使用“令人上瘾的设计”违反了数字安全法。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
