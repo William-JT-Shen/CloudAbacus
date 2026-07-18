@@ -8762,7 +8762,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.89
+            "price_usd": 3.95
           },
           {
             "platform": "CoreWeave",
@@ -8954,7 +8954,7 @@
         "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.06
           }
         ],
         "RTX 8000": [

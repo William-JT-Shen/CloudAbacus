@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-07-18T06:14:28Z
-var NEWS_FETCHED_AT="2026-07-18T06:14:28Z";
+// 生成:2026-07-18T09:43:02Z
+var NEWS_FETCHED_AT="2026-07-18T09:43:02Z";
 var GPU_NEWS=[
+  {
+    "title": "上海期货交易所燃料油期权2608系列合约到期提醒",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HSERGMEVmZ3hoMmJJRTNhQzdpTHNZak9fc0NUMk5WOUtsLUZRODF3ZVN4OERoUzhIdHFiN09FbUZYUVhkWlE4b2doNzZIQTJQTXYwcHVZdV9BbzZMVWQ1cXlwRkZzUzhCYTlsQ0NkTFh4a3JJX1E?oc=5",
+    "published": "2026-07-17",
+    "summary": "上海期货交易所燃料油期权2608系列合约到期提醒&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中天期货:玻璃跌破900 纯碱震荡下行",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNb3NDYmFXZEQ2dUNpaTd5UC02ODllT2tPMld6dGJySllRU1pnQndzZVhyYkcyY3hyRnYxdlJycmJWajhOTjFhWUlpbzhCajVGbENpUlBUamRLYWYwWnJDQ09EV1FIcDRONXF6MHJscmQ5SFRuZ0xqc3JiM0NGNWk2UDhLY0VNUC16ck1jNnBGcEMwSnhxZEtUVHJubGtvMTZpVnFOVWVhNzR0YkVxOUJSTlo1QUNRcm1ES0dwdTRGNjJxNmlfMDVxSVgyUmJoc3ZKVUdvYXhmLXdWYmVrLWljN1M5Yw?oc=5",
+    "published": "2026-07-17",
+    "summary": "中天期货:玻璃跌破900 纯碱震荡下行&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "税期缴款期资金面边际收敛 国债期货震荡回落走势",
     "source": "新浪财经",
@@ -539,26 +563,5 @@ var GPU_NEWS=[
     "summary_cn": "欧盟当局表示，该公司使用“令人上瘾的设计”违反了数字安全法。",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3889551814916614?f=rss",
-    "published": "2026-07-10",
-    "summary": "大公司：\n  SK海力士赴美上市，华尔街投行合计佣金有望达1.4亿美元\n  参与SK海力士上市项目的投行团队将斩获上亿美元丰厚佣金。这家市值突破万亿美元的韩国芯片巨头即将登陆美股，本次发行有望跻身史上规模最大IPO行列。两名熟悉该交易的人士透露，高盛、花旗等承销本次纳斯达克股票发行的投行，总佣金池规模或将突破1.4亿美元；佣金由两部分构成，一是募资总额0.5%的基础承销费，二是SK海力士另行支付的浮动激励奖金。\n  谷歌要求AI广告必须标注：涵盖搜索和YouTube等\n  当地时间7月9日，谷歌宣布全面扩大生成式AI广告的披露范围。新规要求在谷歌搜索、YouTube和Discover信息流中，对由AI创建或编辑的商业广告进行明确标注，以防消费者被虚假合成场景误导。\n  德国大众拟大裁员，最高或裁减12万个岗位\n  德国大众汽车集团当地时间9日召开监事会会议，就新一轮降本计划进行讨论。记者获悉，方案可能涉及进一步裁减岗位和调整德国工厂布局，全球裁员规模最高或达10万至12万个岗位，包括茨维考、汉诺威、埃姆登和内卡苏尔姆在内的德国部分工厂面临关闭风险。大众方面表示，公司正研究未来发展规划，",
-    "full_text": "氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录\n大公司：\n参与SK海力士上市项目的投行团队将斩获上亿美元丰厚佣金。这家市值突破万亿美元的韩国芯片巨头即将登陆美股，本次发行有望跻身史上规模最大IPO行列。两名熟悉该交易的人士透露，高盛、花旗等承销本次纳斯达克股票发行的投行，总佣金池规模或将突破1.4亿美元；佣金由两部分构成，一是募资总额0.5%的基础承销费，二是SK海力士另行支付的浮动激励奖金。\n当地时间7月9日，谷歌宣布全面扩大生成式AI广告的披露范围。新规要求在谷歌搜索、YouTube和Discover信息流中，对由AI创建或编辑的商业广告进行明确标注，以防消费者被虚假合成场景误导。\n德国大众汽车集团当地时间9日召开监事会会议，就新一轮降本计划进行讨论。记者获悉，方案可能涉及进一步裁减岗位和调整德国工厂布局，全球裁员规模最高或达10万至12万个岗位，包括茨维考、汉诺威、埃姆登和内卡苏尔姆在内的德国部分工厂面临关闭风险。大众方面表示，公司正研究未来发展规划，目标是提升集团竞争力，并表示需要削减过剩产能，但具体方案仍在监事会讨论之中。针对相关计划，德国金属工业工会当天在德国多个大众汽车生产基地组织抗议活动，反对关闭工厂和进一步裁员。德国下萨克森州政府也对相关计划表示反对，认为关闭工厂不是企业未来发展的解决方案。\n三星研发AI PC加速芯片GAIA，已向联想、惠普提供样片测试\n7月10日，据报道，三星电子正在研发一款名为GAIA的AI PC加速芯片，并已向联想集团和惠普提供原型产品进行性能测试，计划于明年开始量产。GAIA采用4纳米制程工艺，搭载神经处理单元（NPU），面向生成式人工智能任务，并设计支持存算一体（PIM）技术。\n据台湾电子时报，先进封装产能持续供不应求，台积电加速扩产。供应链指出，台积电所有新厂工程几乎都是24小时轮班施工，加速建设进度。设备厂商表示，据台积电释放出的信息来看，CoWoS月产能2024年约3万多片，2025年达7万片，2026年底原订11万片，但最终突破13万片，2027年扩产目标约20万片，但应为低标。市场乐观看待2027年底CoWoS月产能有望拉升至24万~26万片。不过，台积电至今仍未确立设备商的订单分配，导致供应链如坐针毡，担心形成降价抢单氛围，此外设备下单至生产出货时程至少7~9个月，供应商担心无法如期交付设备。\n新产品：\n7月9日，启境GT7正式开启全国交付，这是行业首款实现华为乾崑ADS 5随车交付的量产车型。高速通勤、城市道路、园区内部、郊外非铺装路面全部原生支持，无需导航也能自动跟车变道的RCA漫游巡航、覆盖全国120万+停车场的车位到车位3.0自动泊车，全部到手即用。\n36氪获悉，7月10日，蚂蚁灵波发布业界首个具身原生世界动作模型LingBot-VA 2.0。它代表了具身智能发展的一种关键路线选择：机器人“大脑”不再依托数字世界模型能力的“嫁接”，而是从动态建模、因果预测、实时执行等与环境交互的原始需求出发，进行原生设计。\n投融资：\n36氪获悉，近日，北京新奥聚变能源科技有限公司完成首轮（Pre-A）融资，投后估值106亿元。本轮融资由龙芯创投领投，中科创星、经纬创投联合领投，鼎晖投资、凯辉基金、上汽恒旭资本、联想之星、招商致远、亦庄产投等跟投。新奥表示，将加速推进聚变商业化落地进程。\n36氪获悉，据鼎晖投资，近日，可信物理智能企业“Xspark AI”（无界智航）完成首轮近亿元天使轮融资。本轮融资由鼎晖VGC、初心资本、SEE Fund无限基金联合领投，深圳天使母基金、水木校友种子基金等多家财务投资机构跟投。资金将主要用于核心技术研发、产品迭代以及 Physical AI 的规模化落地。\n今日观点：\n高盛集团称，作为日成交9.5万亿美元的外汇市场中最常用的策略之一，套利交易当前享有二十多年来最佳环境。高盛表示，目前青睐在未来数月以日元、瑞郎或欧元作为融资货币开展此类交易：借入收益率较低的货币，投资于收益率较高的货币。该行策略师Stuart Jenkins在报告中写道，在G10货币的范围内，套利交易现在几乎比2000年以来的任何其他时候都更有意义。\n在一档最新节目中，马斯克表示，他希望在未来十年内将数万人送往月球基地，今年年底目标将第一批物资送往月球和火星，以开始建立殖民地。马斯克预计，未来两到三年，SpaceX将先送宇航员上月球，然后以此为基础迅速扩张，在未来五年内将人类送到月球和火星，并在十年内在月球表面建立永久性城市。这座月球城市预计功能完备、能实现自给自足，人们既可以永久定居，也可以度假。不过，他也强调，送人上火星的难度要高得多，因为旅途耗时更漫长，不过SpaceX计划五年内实现送人登上火星，并有望在未来10到12年内将数千人送往那里。（\n其他值得关注的新闻：\n私募排排网数据显示，截至2026年6月30日，百亿私募数量达142家，较5月末的139家增加3家，较去年底的113家增加29家，再次刷新历史纪录。",
-    "lang": "zh"
-  },
-  {
-    "title": "每日晨报 | 国内商品期货涨跌参半，能源品涨幅居前",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMlFGMlRoZWRJUEpXVkNlUFM4aTdiN1huYWxIdGtQWklFRHY0QnJiajZDcmJqQW5xb0dkRW5NbWpEakRoa0ZrWnJhU1lzMkRaQjRwM2R1WHplbU1QcXlFWmk4RmE0SzNyb2lnY2JValRFLUo3Y1gxYnlYdVJ5b242QjExRWg?oc=5",
-    "published": "2026-07-10",
-    "summary": "每日晨报 | 国内商品期货涨跌参半，能源品涨幅居前&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   }
 ];
