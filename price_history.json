@@ -9039,7 +9039,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 4.01
+            "price_usd": 3.95
           },
           {
             "platform": "CoreWeave",
@@ -9088,10 +9088,6 @@
           {
             "platform": "RunPod",
             "price_usd": 0.79
-          },
-          {
-            "platform": "Vast.ai",
-            "price_usd": 1.2
           },
           {
             "platform": "CoreWeave",
@@ -9253,7 +9249,7 @@
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.57
+            "price_usd": 0.56
           },
           {
             "platform": "DataCrunch",
