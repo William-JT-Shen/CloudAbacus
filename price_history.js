@@ -9523,6 +9523,12 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.07
           }
         ],
+        "RTX 2060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.05
+          }
+        ],
         "RTX 6000": [
           {
             "platform": "Vast.ai",
