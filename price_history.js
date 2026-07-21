@@ -9599,7 +9599,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.99
+            "price_usd": 4.01
           },
           {
             "platform": "CoreWeave",
@@ -9693,7 +9693,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.16
+            "price_usd": 0.17
           }
         ],
         "NVIDIA L4": [
@@ -9815,7 +9815,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.56
+            "price_usd": 0.55
           },
           {
             "platform": "DataCrunch",
@@ -9825,7 +9825,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5880": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.48
+            "price_usd": 0.45
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
