@@ -9599,7 +9599,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 4.01
+            "price_usd": 4.08
           },
           {
             "platform": "CoreWeave",
@@ -9693,7 +9693,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.17
+            "price_usd": 0.16
           }
         ],
         "NVIDIA L4": [
