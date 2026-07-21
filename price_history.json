@@ -9755,7 +9755,7 @@
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.17
+            "price_usd": 0.16
           }
         ],
         "NVIDIA RTX 4060 Ti": [
@@ -9815,7 +9815,7 @@
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.55
+            "price_usd": 0.54
           },
           {
             "platform": "DataCrunch",
