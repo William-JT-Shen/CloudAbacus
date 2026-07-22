@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-07-22T10:35:00Z
-var NEWS_FETCHED_AT="2026-07-22T10:35:00Z";
+// 生成:2026-07-22T14:16:11Z
+var NEWS_FETCHED_AT="2026-07-22T14:16:11Z";
 var GPU_NEWS=[
+  {
+    "title": "中信建投期货：7月22日黑色系早报",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdk9XdS1RdHotSFdGQ3RMdVBuSlZTaEFXZ0hHN19tdHNKZjlzV24tYXlCSU9KQV9RUldVTzFqRWRDdzVDSkNiYTZ6S1BOX1ZkU0NVVWNpemE2UFhSMHM1X05ycnl2T1JZRVY1ckhXcmgwQjBXQklBcDFIeTJqaEl5SjBoZzN5VXJzWk9KTA?oc=5",
+    "published": "2026-07-22",
+    "summary": "中信建投期货：7月22日黑色系早报&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国散户热炒加密货币永续期货 业界警示“最危险产品”",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTTNIN1VDNUo5QmhzRmtrVTk4bDgxSjRzaDVzZHhkRlhDQ052TTVzb0Y3SmdtTWx3X2dfLXJ1UjhtODNvYU85UVI5MGdsNTNhcUVBMXVlZWZkMUpSOHZRYkVSQ1dkdTA1c2ZSdTdkSWlUaUY0Z2h6WVpYVXhocjhfOWFxTHRCWTQ?oc=5",
+    "published": "2026-07-22",
+    "summary": "美国散户热炒加密货币永续期货 业界警示“最危险产品”&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "国泰君安期货：科技巨变，你手中的持仓还好么？",
     "source": "新浪财经",
@@ -525,30 +549,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3clRqX01odGhCMFM0S2dIekpEc1lNWldCcHBLM2F4RmhMVlpxY0oxQng1SEhVZDQya0Z4RjN0UFdJdE9EXy1ncDdlaVJ3UjVSR1VFYWZsM2M4SDVWNlIyZTVrTjl4TTBLbGRlY2FjRGpTVWd0UVZXcw?oc=5",
     "published": "2026-07-13",
     "summary": "日本日经平均指数期货早盘下跌0.6%。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "基准10年期日本国债期货早盘下跌0.17点。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0aGNqM2puYWE5QlJXVXR3cjdPWnVSWkZNTGl5QVNOV3RoLWF2QVNCdFZOdVZmZjNCdGZxUFNMMTAyS0E4X1lSTlNXcGVYV0Q4RU9jdmZwWUFjbU01UGZGS2tJeVhuSi01X1FYYWkxdjFjaFFJVXFvdA?oc=5",
-    "published": "2026-07-13",
-    "summary": "基准10年期日本国债期货早盘下跌0.17点。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "【观点集锦】国元期货2026年中度策略会观点集锦",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9talZYbkZoRThlNXlSN2w2cFdDVTdTMnZCdGlvdWhXSW1LZExSOFZQbHZaVzRyd3FjbFNzSk1VUFJEUjlDQTcxTW12cHJIM3o4ZEx0ektyOV93MzgzLWdKd281ZnBmRDhXcjYzTUhSQWk4cktkWlE?oc=5",
-    "published": "2026-07-13",
-    "summary": "【观点集锦】国元期货2026年中度策略会观点集锦&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
