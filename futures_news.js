@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-22T06:40:25Z
-var NEWS_FETCHED_AT="2026-07-22T06:40:25Z";
+// 生成:2026-07-22T10:35:00Z
+var NEWS_FETCHED_AT="2026-07-22T10:35:00Z";
 var GPU_NEWS=[
+  {
+    "title": "国泰君安期货：科技巨变，你手中的持仓还好么？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUE1OUXdsUURlbmprUEMyUS1FTW5lN0pzTVN6M2M0VXRSSllDbnZidkVVTHJVOV85OGJ6amgxYzZyMzdsNHYwSU9sRGxOczl4dnY1RlRoMnd6MHBoOEI4Tnpqa0FxdE9YR1pnX1hGdnFFalhRVkRROFVxeTF2YW1RNDhqQ2FKWkFueTlPMg?oc=5",
+    "published": "2026-07-22",
+    "summary": "国泰君安期货：科技巨变，你手中的持仓还好么？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "8点1氪丨怡颗莓回应“检出致癌物”；美团否认上线“本科专送”“硕士优送”等配送服务；美方喊话三星电子、SK海力士分享超额利润",
     "source": "36氪",
@@ -537,18 +549,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9talZYbkZoRThlNXlSN2w2cFdDVTdTMnZCdGlvdWhXSW1LZExSOFZQbHZaVzRyd3FjbFNzSk1VUFJEUjlDQTcxTW12cHJIM3o4ZEx0ektyOV93MzgzLWdKd281ZnBmRDhXcjYzTUhSQWk4cktkWlE?oc=5",
     "published": "2026-07-13",
     "summary": "【观点集锦】国元期货2026年中度策略会观点集锦&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "2026年7月13日金十期货早餐：美军确认已开始对伊朗进行新一轮打击",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11emR6QkE3M3dWNXI4bjB2aHVYenZWVlFlbmQwVEJ1RF9MR2lpbzJHcDR6bG5xTU5VdEhVdW9iNUNzWk9VVkxHR05fbnVIdWdaUDJvR05iNVh3Mk45dUdzVjExVXc1TnA1d2xieFJseHFJeW5mX1E?oc=5",
-    "published": "2026-07-12",
-    "summary": "2026年7月13日金十期货早餐：美军确认已开始对伊朗进行新一轮打击&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
