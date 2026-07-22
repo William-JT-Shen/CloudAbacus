@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-22T17:29:10Z
-var NEWS_FETCHED_AT="2026-07-22T17:29:10Z";
+// 生成:2026-07-22T21:19:35Z
+var NEWS_FETCHED_AT="2026-07-22T21:19:35Z";
 var GPU_NEWS=[
+  {
+    "title": "美国股指期货略微走低 Alphabet财报成AI行情试金石",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSm1MNUFfdGkwZUNzbkMyUXpoSlRVb1Z4dk9LLVNycGp3SkVVRmY1MkhaZVhhd0QxNEl6RW1PVzhpRU9BU2Rib3dzZWFDaXFhdWpXbEo3Z0VMZ1VWclNYR2I0c3FZM0xybVZYNmlJOHRZdGpEZWN3N3JSWkg5V0ZLSFdDc1dzd0U?oc=5",
+    "published": "2026-07-22",
+    "summary": "美国股指期货略微走低 Alphabet财报成AI行情试金石&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "中信建投期货：7月22日黑色系早报",
     "source": "新浪财经",
@@ -537,18 +549,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82RFA1dHY5RW5TVjMwSjFiT1A3cWl6eFozQk9LTUNKNEhLV2MtemQ2aWJsNzJHX05Yc3c1TlBEd29kdXpWUVpJbDZaNHEtNFBiQXdfOTM3RDlOelpFaDM4YWgwVkhjQVZoQTlvZ2RDMk5ydDFxcVE?oc=5",
     "published": "2026-07-13",
     "summary": "中期动态| 锚定产业需求赋能钢贸突围——中国国际期货举办下半年钢材市场展望与期现策略研讨会&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "日本日经平均指数期货早盘下跌0.6%。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3clRqX01odGhCMFM0S2dIekpEc1lNWldCcHBLM2F4RmhMVlpxY0oxQng1SEhVZDQya0Z4RjN0UFdJdE9EXy1ncDdlaVJ3UjVSR1VFYWZsM2M4SDVWNlIyZTVrTjl4TTBLbGRlY2FjRGpTVWd0UVZXcw?oc=5",
-    "published": "2026-07-13",
-    "summary": "日本日经平均指数期货早盘下跌0.6%。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
