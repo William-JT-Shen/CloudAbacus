@@ -1,7 +1,28 @@
 // GPU算力期货新闻
-// 生成:2026-07-23T06:38:25Z
-var NEWS_FETCHED_AT="2026-07-23T06:38:25Z";
+// 生成:2026-07-23T10:33:53Z
+var NEWS_FETCHED_AT="2026-07-23T10:33:53Z";
 var GPU_NEWS=[
+  {
+    "title": "光大期货：7月23日软商品日报",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM0NSRXVvdEVGNG0xUVRINTh4X2RPNWg0clhNR1VjSFFhU3JiS0RUUWJjY0pydEdhWDdHNmtscXBCYW4zcUdhQ0lxYXdDQm1CN25KR3A3OHQ3YnNaS0tUejU3SmJZRkhTc0h2ZnNHOUctMTctUFphRWtKY0ZCUGNUTzJWUnJqVFUyWnJYUVA1TmsteWdMREx4SzZCbk90clN6dmFGN0d6NUVUT0paUXN5Sm9FVktGUlNNTURiNDJjSVhIT3UwVW5tQ0ZDUmF0ZlYwSzJYeXBUMmpCV1U?oc=5",
+    "published": "2026-07-23",
+    "summary": "光大期货：7月23日软商品日报&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "氪星晚报 ｜DeepSeek今年已增资65%；马斯克：FSD是拉动特斯拉汽车需求的核心驱动力",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3908051015488640?f=rss",
+    "published": "2026-07-23",
+    "summary": "大公司：\n  DeepSeek今年已增资65%36氪获悉，据媒体报道，近日，DeepSeek创始人梁文锋一场4小时的投资人闭门会议实录在科技与创投圈刷屏，他明确表示“DeepSeek只有一条主线，即通往通用人工智能（AGI）”，相关话题引发关注。天眼查App显示，DeepSeek关联公司杭州深度求索成立于2023年7月，法定代表人为裴湉，经营范围含工程和技术研究和试验发展、软件开发、人工智能应用软件开发等，由梁文锋、宁波程恩企业管理咨询合伙企业等共同持股。变更记录显示，该公司今年发生两次增资，注册资本由1000万人民币增至约1645万人民币。\n  淡马锡旗下凯德投资与丰树合并谈判据悉陷入停滞\n  7月23日，据报道，由淡马锡控股支持的两大房地产资产管理公司——凯德投资与丰树投资的合并谈判已陷入停滞，双方在估值等问题上存在分歧。双方经过数月讨论后已放缓推进潜在合并交易，其他分歧还包括合并后公司管理层安排、人员调整方案以及部分业务表现疲弱等问题。不过，双方未来仍可能恢复谈判。（界面）\n  阿里云：真武芯片超节点已成功适配Qwen3.8，上线百炼提供推理服务\n  36氪获悉，7月23日，阿里",
+    "full_text": "氪星晚报 ｜DeepSeek今年已增资65%；马斯克：FSD是拉动特斯拉汽车需求的核心驱动力\n大公司：\n36氪获悉，据媒体报道，近日，\n淡马锡旗下凯德投资与丰树合并谈判据悉陷入停滞\n7月23日，据报道，由淡马锡控股支持的两大房地产资产管理公司——凯德投资与丰树投资的合并谈判已陷入停滞，双方在估值等问题上存在分歧。双方经过数月讨论后已放缓推进潜在合并交易，其他分歧还包括合并后公司管理层安排、人员调整方案以及部分业务表现疲弱等问题。不过，双方未来仍可能恢复谈判。（界面）\n阿里云：真武芯片超节点已成功适配Qwen3.8，上线百炼提供推理服务\n36氪获悉，7月23日，阿里真武M890超节点已成功适配Qwen3.8，并上线阿里云百炼平台提供模型推理服务，这是国内首个成功运行超2万亿参数大模型的超节点。\n雀巢上半年销售额431亿瑞士法郎\n36氪获悉，雀巢集团正式发布2026年上半年业绩财报。上半年，雀巢集团实现销售额431亿瑞士法郎，实际内部增长率达到1.5%，净利润为35亿瑞士法郎，基本每股收益（EPS）为1.35瑞士法郎。自由现金流为34亿瑞士法郎。\n美的等入股钧舵机器人\n36氪获悉，天眼查App显示，近日，苏州钧舵机器人有限公司发生工商变更，新增美的投资有限公司、美科智臻（苏州）创业投资合伙企业（有限合伙）等为股东，同时，注册资本由约1075.2万人民币增至约1235.4万人民币。该公司成立于2018年1月，法定代表人为介党阳，经营范围包括机器人及自动化设备的研发、制造、销售、安装、租赁、维修等，现由介党阳、董艳及上述新增股东等共同持股。\n字节跳动在中卫成立新科技公司，注册资本22亿\n36氪获悉，天眼查App显示，近日，中卫塞上鸣沙科技有限公司成立，法定代表人为田凯，注册资本22亿人民币，经营范围包括信息技术咨询服务、软件开发、信息系统集成服务、计算机软硬件及辅助设备零售等。股东信息显示，该公司由北京字跳网络技术有限公司全资持股。\n阅文推出文创AI智能体“Buddy系列”\n36氪获悉，近日，阅文集团发布文创垂直AI智能体Buddy系列，升级作家助手NovelBuddy、漫剧助手DramaBuddy、版权助手IPBuddy三款产品，形成覆盖内容创作、IP改编、版权开发的一体化AI工具矩阵。\n蚂蚁集团旗下公司等入股乐享智能\n36氪获悉，天眼查App显示，近日，苏州乐享智能科技有限公司近日发生工商变更，新增蚂蚁集团旗下上海云玚企业管理咨询有限公司、安徽泰运投资管理有限公司等为股东，同时，注册资本由约196.5万人民币增至约217.3万人民币。该公司成立于2024年12月，法定代表人为郭人杰，经营范围包括智能机器人的研发、人工智能应用软件开发等，现由郭人杰、苏州凌码科技合伙企业及上述新增股东等共同持股。\n投融资：\n“领铄智能”获千万级A轮追加投资\n36氪获悉，“领铄智能”宣布完成A轮追加融资，追加投资金额达千万级，由陆石投资、动平衡资本共同参与。此前，领铄智能已完成A轮融资，由中信建投资本与西安财金共同参与。\n“Deeplore”近日完成数千万元种子轮融资\n36氪获悉，水下AI自然探索科技公司“Deeplore”近日完成数千万元种子轮融资，由五源资本、顺为资本联合投资。资金将核心用于研发团队扩建与水下AI技术深耕，加速首款AI潜水面镜落地迭代，搭建水下自然探索智能平台的技术底座。\n新产品：\n飞书Agent产品飞书aily升级，支持自主工作、团队共享智能体\n36氪获悉，7月23日，飞书内的Agent产品飞书aily全新升级。新版飞书 aily 能够在用户授权范围内，基于飞书消息、文档、日历、会议、任务和多维表格等信息开展工作，主动跟进任务，并与团队成员或其他智能体分工协作。\n微盟内测“微盟星元”AI原生产品\n36氪获悉，微盟WAI近期将改版为“微盟星元”，这将是一款面向电商零售赛道的AI原生智能经营系统。“AI原生”在微盟星元中体现为两个层面：交互层面，从传统GUI图形界面转型为LUI语言交互，商家通过自然语言对话即可开启经营；能力层面，微盟将服务数千零售品牌积累的行业Know-how拆解为标准化、可独立调用和自由组合的Skill模块，让Agent具备任务拆解和Skill调度能力，实现“对话即经营”。\n今日观点：\n马斯克：FSD是拉动特斯拉汽车需求的核心驱动力\n美东时间周三盘后，特斯拉CEO马斯克在财报会上表示，特斯拉需求基本面依旧强劲，FSD是拉动需求的核心驱动力。“在FSD全自动驾驶获批落地的地区，选装率极高。很多客户本质是冲着FSD来买车，相当于买一套FSD附赠一台车。随着FSD在全球各国陆续获批，我们预计各地需求都会迎来类似爆发式增长，这一块前景十分乐观。”（新浪财经）\n其他值得关注的新闻：\n美国证券交易委员会批准新规，纳斯达克将加速清退微型上市公司\n纳斯达克集团将修订上市规则，加快清退经营状况持续恶化的企业。此前监管机构持续聚焦微型市值股票交易中频发的剧烈行情波动与市场操纵指控。美国证券交易委员会（SEC）于周三批准一项新规：若纳斯达克上市公司的挂牌证券市值连续30日低于500万美元，公司股票将被立刻暂停交易并启动摘牌流程，且申诉渠道大幅收窄。这套更严苛的上市标准预计将全面冲击微型股与低价便士股市场。（新浪财经）",
+    "lang": "zh"
+  },
   {
     "title": "8点1氪丨小红书回应IPO因前员工举报而受阻传闻：均不属实；谷歌Gemini跌出全球排名前十；耐克宣布终止滔搏线上经销权",
     "source": "36氪",
@@ -525,30 +546,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPODMyOUl0V3NYUFFJaGFHU0Q0QUQ0YlZURE1hWHNpVFJuaFdJTEpsSDlDS29jazZHMzRyUDdiNjlMZnZ4WnpBVTlHaFpHRkVMWVAyNmo0dGVyUEtFeERaaFlXeFBpbXFJSnlxbDhZTVVHZVQ0Q3dkMHo3Y01sS0VLcU9zdkcxLWc3UWc?oc=5",
     "published": "2026-07-14",
     "summary": "算力时代新风口！这只工业有色基金带你卡位硬资产红利&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中证500指数期货连续主力合约日内涨1%，现报8131.40点。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3U3JlU1ZaVUlZVkhpdExxMzFQNWRjZTBkR05wX3JidjlQRFRrX2VVVTYzN043QU9LMlRXUGgxX3VrM0VERVpwdEFmZ3VHUzRBanVKZy12OU5CcVprRjJCd1N1ZzNJc04tampBV1ZUYnFOVWJoRTVORA?oc=5",
-    "published": "2026-07-14",
-    "summary": "中证500指数期货连续主力合约日内涨1%，现报8131.40点。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "钯金期货日内涨2%，现报1280.64美元/盎司。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MalhjbkdVUEt0OVFfcUp0cWthY0hNVUJucGNvRzg0bEtJRGJ6dU40LTJNNjVZMlZOcFVESjFvVnE1RjQteS1nSDRJdTBBelNTTTdZaDhjRXBtVjVzTXJWcmpodEFEd0J2c3dQelBxS0hIdWEzc1dyWA?oc=5",
-    "published": "2026-07-14",
-    "summary": "钯金期货日内涨2%，现报1280.64美元/盎司。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
