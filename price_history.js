@@ -10165,7 +10165,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 4.0
+            "price_usd": 4.08
           },
           {
             "platform": "CoreWeave",
@@ -10381,7 +10381,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.56
+            "price_usd": 0.55
           },
           {
             "platform": "DataCrunch",
