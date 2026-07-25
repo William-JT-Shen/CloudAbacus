@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-25T09:58:47Z
-var NEWS_FETCHED_AT="2026-07-25T09:58:47Z";
+// 生成:2026-07-25T13:54:31Z
+var NEWS_FETCHED_AT="2026-07-25T13:54:31Z";
 var GPU_NEWS=[
+  {
+    "title": "国际油价重返100美元，国内化工品期货“掉队”",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5KdWQtRV9qVldZRXgxV0UteTR1TEx4V2VHVDcySEVPZDBzOWFsSkpaakRnMURnTUFIYWhFek5URXNOUTF3anFIQTZ0YVg4M0VkNS1lSlBOZUZGbVZqZ25CS2VNRjBNZFgwY2tYQnhSakxNblhKd2ZjMg?oc=5",
+    "published": "2026-07-25",
+    "summary": "国际油价重返100美元，国内化工品期货“掉队”&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "氪星晚报 ｜黄仁勋力挺中国AI开源模型；市场监管总局：深入整治“内卷式”竞争",
     "source": "36氪",
@@ -531,18 +543,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjZCSmxOYllrUmtteVZjWGJ1U29wQTRtWWJJdHhfZVA3Z1N3d0VRLTVqQXMwOHRNTVoyM0QyV3dNVUpVOEk5Z0F0QW1SSElrX0J6OWlCaXh1UWthQ3ZHTm4tdHJ5TkpVRG9lcTVFYmd6OERvRnJ1cVZ1NFhlZW95OUstTHZTOUNJWUlHUA?oc=5",
     "published": "2026-07-15",
     "summary": "国投期货庞春艳：聚酯需求再度面临成本考验&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "华泰期货：俄罗斯炼厂遇袭，加剧全球成品油供应紧张",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNnVuVFdBaGFFSjE5ZWdhazVDY1BYMUxGdWppY1BXaThtNE01Qll2WWdnR3RlSmIzeDJWel8yQTR3clByMjFuS2R0aVFkTTVqMERrTml5R1Rfb0RERFFxbnJPclc0RUQtcDZxS05FcTNOMEVRUzd2dEc0b2lxdHZYNHRSUGt6ZnE1V1pwSg?oc=5",
-    "published": "2026-07-15",
-    "summary": "华泰期货：俄罗斯炼厂遇袭，加剧全球成品油供应紧张&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
