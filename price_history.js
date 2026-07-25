@@ -10911,7 +10911,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3080 / 3080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.11
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
