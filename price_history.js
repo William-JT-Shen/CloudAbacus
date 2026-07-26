@@ -11036,7 +11036,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.03
+            "price_usd": 2.0
           },
           {
             "platform": "CoreWeave",
@@ -11194,7 +11194,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3080 / 3080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.09
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
@@ -11230,7 +11230,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.57
+            "price_usd": 0.58
           },
           {
             "platform": "DataCrunch",
