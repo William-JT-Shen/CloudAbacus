@@ -11529,7 +11529,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.77
+            "price_usd": 0.75
           },
           {
             "platform": "DataCrunch",
