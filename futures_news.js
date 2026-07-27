@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-07-27T03:52:26Z
-var NEWS_FETCHED_AT="2026-07-27T03:52:26Z";
+// 生成:2026-07-27T07:43:06Z
+var NEWS_FETCHED_AT="2026-07-27T07:43:06Z";
 var GPU_NEWS=[
+  {
+    "title": "7月27日塑料期货保证金一手多少钱",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb3h4UWZGNVI4MnJfcHJWTVd3ZGxHMXhPMHZOQ1c1YmZuMnZuUkJKb3hDV2RORUJrLWxjMVFIN19YdDljdVV4NTNRSzUxM2R4d25UWXZBUlQtTUlFYl9OS3pENFM0SHlrZHd3M1BrRmh5UUlqNXplVXBIcU81NlVkTHJudEItUEhPUUh3Nw?oc=5",
+    "published": "2026-07-27",
+    "summary": "7月27日塑料期货保证金一手多少钱&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "今日期货市场重要快讯汇总｜2026年7月27日",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoeXhmcGduNUU4OUVBQ0JTNnNFQjl2WFNNRGwwUERvNXFwM0lPVGtNdVViY05zU2VCdjlSYkNDTHJHQUl6NkdjWVk4ZFFVa2ZYbTZKNmVpYUdNZjRUekhZajJ3ZF80MG1XUmY2dEJuN1A4WmhKQlBNQmlvODl6dw?oc=5",
+    "published": "2026-07-27",
+    "summary": "今日期货市场重要快讯汇总｜2026年7月27日&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国股指期货走高 美伊暂时停火油价下跌",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcTYtSHQ3RjdpQnA4dU4zRUxfcThmVHZkTmthckh0by0yMEFSQXpsd3BUU2pnWVVrQ1JaSV92aTRHTUR5c05kdDM0SDd6cW16dDZzWXVhNXBfeG1OR1FxX3Z4Y2ZFak41OVg3c1J0SnJlUzBWQXdOMEgzcjFFeTRfMGZhZzgwRlU?oc=5",
+    "published": "2026-07-27",
+    "summary": "美国股指期货走高 美伊暂时停火油价下跌&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "8点1氪丨携程因滥用市场支配地位被罚没51.79亿元；长鑫科技今日上市；日本技术人员拆解宇树机器人：短期内赶不上中国",
     "source": "36氪",
@@ -491,41 +527,5 @@ var GPU_NEWS=[
     "summary_cn": "如今，政治竞选活动有了新的担忧：人工智能产生的不讨人喜欢或不完整的信息。当选民询问有关候选人的问题时的程序。",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "纳指期货盘前跌近2% AI支出担忧重创市场情绪 | 今夜看点",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY2dBR0xndUk0MVJJVEhBS2wzREdfaldud1E1UldscFI1OXFpZ184SG1vUjc0bU54Qi1LMzhYMnNoUWhydERpSGRkVXlSV0pUMUNkSkFDX3NzcUJkUXpBUVVJOW1SUE0yMTFDVllKR0J4eVJ4VnM2LTlYVjhhSE5FTTlXelJRLWc?oc=5",
-    "published": "2026-07-17",
-    "summary": "纳指期货盘前跌近2% AI支出担忧重创市场情绪 | 今夜看点&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货和衍生品成上市公司风险管理标配",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUnM3VTJqc1BXUjROQS0wMVc1NDQwblVMSlR6blU2WU5XWTVGZGNLeHNlS21JaEJ0aTV5c3hGNUc2ZGRHcmZLOWd0QVAtdU1TdFFWLVlUakFpb1o4SFRIanFORjJlV2ZybUo4dmI4QmY3UFhwRUozZWJZTkF5RUx5LUlKQjZJdnli?oc=5",
-    "published": "2026-07-17",
-    "summary": "期货和衍生品成上市公司风险管理标配&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "原料供给引发担忧 预计沥青期货偏强震荡",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaGpfZTVTZzdldTdkRTVDQ0RtZUlTczJHczFhbVZFOTJhRDRlYnVHMVpyNk90X1VKUHRoVWkwbEtrYXZpNF9rQ3dwMHNLdW5DZUtiVEhSSE9FRlkycXlYdW5Tb1dvUjNSZTJvRnE2SkZVZTZpbDZuOURybXVGdVNXY0JSdFRtYURialg3bTFPbFY2NHFPWGhodFJTa05GXzgtMlNTNEhhX2tnN2U3a09qSUhDTXhxVkd4LXdrYnIzQ1NULS14NU5EelhhdkZiM3dMWnZqdkJzcGpzMVN0QlQybDFTa1c?oc=5",
-    "published": "2026-07-17",
-    "summary": "原料供给引发担忧 预计沥青期货偏强震荡&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   }
 ];
