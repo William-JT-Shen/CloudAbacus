@@ -11319,7 +11319,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.07
+            "price_usd": 2.03
           },
           {
             "platform": "CoreWeave",
@@ -11453,7 +11453,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.16
+            "price_usd": 0.17
           }
         ],
         "NVIDIA RTX 4060 Ti": [
@@ -11529,7 +11529,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.75
+            "price_usd": 0.77
           },
           {
             "platform": "DataCrunch",
