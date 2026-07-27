@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-27T11:36:18Z
-var NEWS_FETCHED_AT="2026-07-27T11:36:18Z";
+// 生成:2026-07-27T14:55:22Z
+var NEWS_FETCHED_AT="2026-07-27T14:55:22Z";
 var GPU_NEWS=[
+  {
+    "title": "格林大华期货王骏：上半年工业企业利润分化 有色金属板块有望表现偏强",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pQXRJYXBwN090Q2RXWGZBcmNZRmRJS2V3LS1YN1pKMGZiclJXRVZWejNGVHlVY2p1OGlTbTZTODNTd2xfN0EwWndoUTk4ZkdZNkpsZ2xQbUczdE9yeEpLdUtsVWhyZ19IVktEQm53c01XNmZuMEtuXw?oc=5",
+    "published": "2026-07-27",
+    "summary": "格林大华期货王骏：上半年工业企业利润分化 有色金属板块有望表现偏强&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "7月27日塑料期货保证金一手多少钱",
     "source": "新浪财经",
@@ -514,18 +526,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "Politicians Are Trying to Change What Chatbots Say About Them",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html",
-    "published": "2026-07-19",
-    "summary": "Political campaigns have something new to worry about these days: unflattering or incomplete information produced by A.I. programs when voters ask questions about candidates.",
-    "full_text": "Dustin Lloyd, a Democratic primary candidate for Missouri’s state legislature, has learned how to influence what A.I. tells voters about his campaign.",
-    "lang": "en",
-    "title_cn": "政客们正试图改变聊天机器人对他们的评价",
-    "summary_cn": "如今，政治竞选活动有了新的担忧：人工智能产生的不讨人喜欢或不完整的信息。当选民询问有关候选人的问题时的程序。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
