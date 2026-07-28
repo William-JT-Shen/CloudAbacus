@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-28T17:44:15Z
-var NEWS_FETCHED_AT="2026-07-28T17:44:15Z";
+// 生成:2026-07-28T21:18:14Z
+var NEWS_FETCHED_AT="2026-07-28T21:18:14Z";
 var GPU_NEWS=[
   {
     "title": "消息交织！纳指期货走弱、金银原油齐跌，大空头警告AI砍支出将重创美股",
@@ -59,6 +59,18 @@ var GPU_NEWS=[
     "summary_cn": "这家芯片制造巨头正在与 OpenAI 进行谈判，为该项目提供 2500 亿美元的财务支持，该项目将成为最大的人工智能项目之一。繁荣。",
     "full_text_cn": "",
     "translated": true
+  },
+  {
+    "title": "CME集团黄金期货启动24/7交易，首个周末交易额达6000万美元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LVVZ4Q1Bxazhpd1gzYXhRcnBtcl94ZU9EQTdrcDdZdkVDd0lVN25lckVwd0VTWVFXeG8wZF9lQmlPb1d3SWdiUU1wQ2Noa1FYc2dUNlMtRjdlRTFGNkowX3lXU2huTWUtUVVWWWE5RWFzZHpzcFYwWA?oc=5",
+    "published": "2026-07-27",
+    "summary": "CME集团黄金期货启动24/7交易，首个周末交易额达6000万美元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
   },
   {
     "title": "芝商所推出个股期货，允许投资者全天23小时交易SpaceX、美光等股票",
@@ -528,18 +540,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MSEE4clIySXNiQVlJWFczc1JDV2poS3dXbEZxUGJYWmprdFFWNnVzWlMtM0dVcFk3X21QOXR1S0JRMktEVTY3bkNsQi1rMGVPeDRkSzJodmExYm9WVXptXzQ0TFJramlwaHNvZEs5bnJKUG40TkE?oc=5",
     "published": "2026-07-21",
     "summary": "全球开始争夺算力定价权，中美同时出手布局算力期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "以“科技+普惠”为翼 四川期货市场破局生长｜四川样本",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ycjd1alFWNTJzV3F6dXV4dXU5RDczUndzZy1MaFMzMEtfTFQ2U19oWjdfWG1tZktLcVNzY3lSeF80N28wQjhIV1hlMDJlMW9IOUlsMEhsZEF5bVFkeFJhNFZ3T3BqdlZWRGdpWlRQV1MwV0UySUE?oc=5",
-    "published": "2026-07-21",
-    "summary": "以“科技+普惠”为翼 四川期货市场破局生长｜四川样本&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [

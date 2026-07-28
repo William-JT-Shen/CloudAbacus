@@ -11700,7 +11700,7 @@
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.4
+            "price_usd": 0.39
           }
         ],
         "RTX 5080": [
@@ -11736,7 +11736,7 @@
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.16
+            "price_usd": 0.17
           }
         ],
         "NVIDIA RTX 4060 Ti": [
