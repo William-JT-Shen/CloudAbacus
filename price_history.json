@@ -11602,7 +11602,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.0
+            "price_usd": 2.07
           },
           {
             "platform": "CoreWeave",
@@ -11736,7 +11736,7 @@
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.17
+            "price_usd": 0.16
           }
         ],
         "NVIDIA RTX 4060 Ti": [
@@ -11812,7 +11812,7 @@
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.75
+            "price_usd": 0.77
           },
           {
             "platform": "DataCrunch",
