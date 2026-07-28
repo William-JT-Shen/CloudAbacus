@@ -11646,7 +11646,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.4
+            "price_usd": 0.39
           },
           {
             "platform": "DataCrunch",
@@ -11781,6 +11781,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.24
           }
         ],
+        "RTX 6000": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.13
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.04
+          }
+        ],
         "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
@@ -11791,16 +11801,6 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "Vast.ai",
             "price_usd": 0.05
-          }
-        ],
-        "RTX 6000": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.57
-          },
-          {
-            "platform": "DataCrunch",
-            "price_usd": 1.04
           }
         ],
         "RTX 5880": [
@@ -11826,7 +11826,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.13
           }
         ],
         "NVIDIA GH200": [
