@@ -11580,7 +11580,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.93
+            "price_usd": 3.95
           },
           {
             "platform": "CoreWeave",
@@ -11602,7 +11602,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.03
+            "price_usd": 2.0
           },
           {
             "platform": "CoreWeave",
@@ -11796,7 +11796,7 @@
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.58
+            "price_usd": 0.57
           },
           {
             "platform": "DataCrunch",
@@ -11812,7 +11812,7 @@
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.77
+            "price_usd": 0.75
           },
           {
             "platform": "DataCrunch",
