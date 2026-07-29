@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-07-29T10:49:06Z
-var NEWS_FETCHED_AT="2026-07-29T10:49:06Z";
+// 生成:2026-07-29T14:28:33Z
+var NEWS_FETCHED_AT="2026-07-29T14:28:33Z";
 var GPU_NEWS=[
+  {
+    "title": "与美联储基准利率挂钩的利率期货头寸规模飙升至历史新高交易员们正为美联储潜在加息风险做准备",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWHhlVDNMNHpKMUFBTkgxZUNNMkdoUXI0RGhRVE9uY00xOVN3NTE5NUpPYTROMXBvRm5lWWI4cUliVUZtVzN5dTk4bDVRY2x1OGEwbDU1SC02VnI2a3VPZXNRTmNIMnczaTZWYVg4MjBqNzlWWXlvdWh1LTBQazhhSA?oc=5",
+    "published": "2026-07-29",
+    "summary": "与美联储基准利率挂钩的利率期货头寸规模飙升至历史新高交易员们正为美联储潜在加息风险做准备&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "CME计划推出与体育赛事挂钩的期货 作为新型对冲工具",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT0xGWXdMdFl1by10SkJwcEhxZzlLRXZ1dHI4WDBDUTVQZUxkWl9LUFRJV09UY0FUb2ZOX3lBYWR3d0VBV3JRdU9KX09ZU09nR2NDemF1Si1nN3Z3dDYzcWhzTExsV09ZcGw3YzN3RjdGLUlZOUZYQVZPamJ0WFNnRg?oc=5",
+    "published": "2026-07-29",
+    "summary": "CME计划推出与体育赛事挂钩的期货 作为新型对冲工具&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "8点1氪丨韩国考虑为“借钱炒股”封顶20%；雷军打新长鑫科技浮盈7亿？小米高管回应；月之暗面Kimi K3正式开源",
     "source": "36氪",
@@ -513,30 +537,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWMwY25wQXl1QktZVlRmaENzekc3ZW1uYVJ1Ylg4cmxzMFVMN2FWZTFFWWtyZ080bTE3NzJqaWVjUnJmbEpoTW9wMDVsWkRCRWpRbVhxTTU1bUFJSTFVYUd4WUVJYlJPVmFjNDF3Rkc0Qmx5MmJQSkU4ZFh6OTFVTUx3aFRNUHZZd2RpMg?oc=5",
     "published": "2026-07-21",
     "summary": "行业控产落地较好 工业硅期货围绕成本支撑博弈&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中信期货：4000关键关口震荡整理，黄金中期仍偏弱，短期方向待明",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLUFhS0s4Nm03X1A3eUFXNXJpYkhzNTY5b3l6aTN2d0hId2gzSFRNZExhSUhPZkRRN1JxUm4tNUQwbmN4ejAxUUtfZWpoR1VXSTN4NEdMWW44Q1JYYnJQQzlaV1pWdlZvUjB0dlFTTzVsTHZFd0lEWWVUbHQyQi1KOHItMA?oc=5",
-    "published": "2026-07-21",
-    "summary": "中信期货：4000关键关口震荡整理，黄金中期仍偏弱，短期方向待明&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "算力赛道迎来质变！告别周期炒作，晋级中长期核心资产丨投资秘籍",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOVFrb1YxWnplQi1zN0ItVmRBVFRqTHJ3TGFjSDltZzE2T3c3QldJUERpUkdtOGlySTJ4RkxKOWNjdVVLMk5XQl9tcVQxekFqaU85Si1HY3pyTmVpYjgtdkpsM3pYMzJ1UGNNQ0JES0djcHp4aExhSU1sRGJWSHB6ZHZ1Rm0?oc=5",
-    "published": "2026-07-21",
-    "summary": "算力赛道迎来质变！告别周期炒作，晋级中长期核心资产丨投资秘籍&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
