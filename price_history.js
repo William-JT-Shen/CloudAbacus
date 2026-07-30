@@ -12201,6 +12201,10 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.79
           },
           {
+            "platform": "Vast.ai",
+            "price_usd": 0.53
+          },
+          {
             "platform": "CoreWeave",
             "price_usd": 2.25
           },
@@ -12272,13 +12276,13 @@ var PRICE_HISTORY_DATA = {
         "RTX 5080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.12
+            "price_usd": 0.11
           }
         ],
         "RTX 5060 TI": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.04
           }
         ],
         "RTX 5070 TI": [
@@ -12379,6 +12383,12 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "Vast.ai",
             "price_usd": 0.37
+          }
+        ],
+        "RTX 4000": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.09
           }
         ],
         "NVIDIA Tesla P100 / P40": [
