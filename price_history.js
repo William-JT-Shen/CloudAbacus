@@ -12150,7 +12150,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.68
+            "price_usd": 2.8
           },
           {
             "platform": "CoreWeave",
@@ -12201,10 +12201,6 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.79
           },
           {
-            "platform": "Vast.ai",
-            "price_usd": 0.53
-          },
-          {
             "platform": "CoreWeave",
             "price_usd": 2.25
           },
@@ -12217,10 +12213,6 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "RunPod",
             "price_usd": 0.33
-          },
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.27
           },
           {
             "platform": "DataCrunch",
@@ -12248,7 +12240,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.11
+            "price_usd": 0.1
           }
         ],
         "NVIDIA L4": [
@@ -12303,6 +12295,12 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.05
           }
         ],
+        "NVIDIA RTX 4080 / 4080 Super": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.11
+          }
+        ],
         "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
@@ -12313,12 +12311,6 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "Vast.ai",
             "price_usd": 0.06
-          }
-        ],
-        "NVIDIA RTX 4080 / 4080 Super": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.11
           }
         ],
         "RTX 4060": [
@@ -12348,7 +12340,13 @@ var PRICE_HISTORY_DATA = {
         "RTX 8000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.25
+          }
+        ],
+        "RTX 2060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.01
           }
         ],
         "RTX 6000": [
@@ -12359,12 +12357,6 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "DataCrunch",
             "price_usd": 1.04
-          }
-        ],
-        "RTX 2060": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.01
           }
         ],
         "RTX 2070": [
