@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-07-31T03:40:39Z
-var NEWS_FETCHED_AT="2026-07-31T03:40:39Z";
+// 生成:2026-07-31T06:53:43Z
+var NEWS_FETCHED_AT="2026-07-31T06:53:43Z";
 var GPU_NEWS=[
   {
     "title": "大陆航空科技：J.P. Morgan Securities PLC 7月29日清结衍生工具合约",
