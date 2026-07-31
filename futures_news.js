@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-31T06:53:43Z
-var NEWS_FETCHED_AT="2026-07-31T06:53:43Z";
+// 生成:2026-07-31T10:49:46Z
+var NEWS_FETCHED_AT="2026-07-31T10:49:46Z";
 var GPU_NEWS=[
+  {
+    "title": "离岸人民币国债期货时隔九年再登港交所",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ3A4MElQWnptcnhnMDQtMXNLSmUxaVVXV1FzOTlfMTVicnpaM1UwLXg5ZVI4dUttelFoVXJTc1ZjMUZ3ajZSTXM0SkduMDkzakxLWDhNeVRfYnpseHNBd3JpUS0wTzBRcHhUVW9xblJkSmR5eVlPWWthVkZZT2VidA?oc=5",
+    "published": "2026-07-31",
+    "summary": "离岸人民币国债期货时隔九年再登港交所&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "大陆航空科技：J.P. Morgan Securities PLC 7月29日清结衍生工具合约",
     "source": "新浪财经",
@@ -532,18 +544,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWXliZXdVZTctWWhuUC0zZDFqS3ZRY05HQkFRdlZwenpGTnl6eEZ4cXFRM3hYcXpSN2R5SmRWZTFrbFhOZE8wdkxPZmJmLUJSdXIwcmxFdEN4WUlSOUdOTlp4LVFoYWxZa0I1Y2hYZHRXcFlXOVRTUGxTbUpHbEVIb3NFT0hCWW4zR000U1U3dTc1ekU?oc=5",
     "published": "2026-07-22",
     "summary": "美股三大股指期货齐跌SK海力士跌近6%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国股指期货略微走低 Alphabet财报成AI行情试金石",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSm1MNUFfdGkwZUNzbkMyUXpoSlRVb1Z4dk9LLVNycGp3SkVVRmY1MkhaZVhhd0QxNEl6RW1PVzhpRU9BU2Rib3dzZWFDaXFhdWpXbEo3Z0VMZ1VWclNYR2I0c3FZM0xybVZYNmlJOHRZdGpEZWN3N3JSWkg5V0ZLSFdDc1dzd0U?oc=5",
-    "published": "2026-07-22",
-    "summary": "美国股指期货略微走低 Alphabet财报成AI行情试金石&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
