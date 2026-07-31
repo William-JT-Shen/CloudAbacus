@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-07-30T21:21:29Z
-var NEWS_FETCHED_AT="2026-07-30T21:21:29Z";
+// 生成:2026-07-31T03:40:39Z
+var NEWS_FETCHED_AT="2026-07-31T03:40:39Z";
 var GPU_NEWS=[
+  {
+    "title": "大陆航空科技：J.P. Morgan Securities PLC 7月29日清结衍生工具合约",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSHZuSlUyaUxxVldBTHFMdGdQd3k5N3NrZ3NENzR0Y25uYWJ0eElWXzNMMWRla1AwWHZJaUplUDlTNFBSQzFuWmxRMDRmbk02eWNwcVNSNl9FT3pZaHhLa1NyeEQ0VW8ydUh3WS1tZ1RNVUlFMGY1SlRIeUVhcDIzWEFyeU1QVEE?oc=5",
+    "published": "2026-07-30",
+    "summary": "大陆航空科技：J.P. Morgan Securities PLC 7月29日清结衍生工具合约&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "国债期货午盘多数持平",
     "source": "新浪财经",
@@ -278,6 +290,18 @@ var GPU_NEWS=[
     "lang": "zh"
   },
   {
+    "title": "东方汇金期货被中期协责令“限期整改”",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSWJ4RFFLLWxkdWNMOXRVV3lYMDJGXzFhX2xXcFBtWHFQNUNabUJ2dVdNa1BmRXFJaWZwLWJYb2Eyc256LXJ3Y2lNbFZZbjVsSzdiRTRzVF9oaGttSFBHZjhvNUV3RTlORTFEVjc3NXF2ZEdJcHYtYkxTaUZwYzJRdDlXTG9tc0U?oc=5",
+    "published": "2026-07-26",
+    "summary": "东方汇金期货被中期协责令“限期整改”&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "A Son of Wealth Finds His Calling in a High-End Grocery Store",
     "source": "NYT Tech",
     "url": "https://www.nytimes.com/2026/07/26/style/a-different-kind-of-grocery-store-magnate.html",
@@ -520,30 +544,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSm1MNUFfdGkwZUNzbkMyUXpoSlRVb1Z4dk9LLVNycGp3SkVVRmY1MkhaZVhhd0QxNEl6RW1PVzhpRU9BU2Rib3dzZWFDaXFhdWpXbEo3Z0VMZ1VWclNYR2I0c3FZM0xybVZYNmlJOHRZdGpEZWN3N3JSWkg5V0ZLSFdDc1dzd0U?oc=5",
     "published": "2026-07-22",
     "summary": "美国股指期货略微走低 Alphabet财报成AI行情试金石&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中信建投期货：7月22日黑色系早报",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdk9XdS1RdHotSFdGQ3RMdVBuSlZTaEFXZ0hHN19tdHNKZjlzV24tYXlCSU9KQV9RUldVTzFqRWRDdzVDSkNiYTZ6S1BOX1ZkU0NVVWNpemE2UFhSMHM1X05ycnl2T1JZRVY1ckhXcmgwQjBXQklBcDFIeTJqaEl5SjBoZzN5VXJzWk9KTA?oc=5",
-    "published": "2026-07-22",
-    "summary": "中信建投期货：7月22日黑色系早报&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国散户热炒加密货币永续期货 业界警示“最危险产品”",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTTNIN1VDNUo5QmhzRmtrVTk4bDgxSjRzaDVzZHhkRlhDQ052TTVzb0Y3SmdtTWx3X2dfLXJ1UjhtODNvYU85UVI5MGdsNTNhcUVBMXVlZWZkMUpSOHZRYkVSQ1dkdTA1c2ZSdTdkSWlUaUY0Z2h6WVpYVXhocjhfOWFxTHRCWTQ?oc=5",
-    "published": "2026-07-22",
-    "summary": "美国散户热炒加密货币永续期货 业界警示“最危险产品”&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
