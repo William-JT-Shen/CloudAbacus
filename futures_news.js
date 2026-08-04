@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-04T10:49:11Z
-var NEWS_FETCHED_AT="2026-08-04T10:49:11Z";
+// 生成:2026-08-04T14:35:53Z
+var NEWS_FETCHED_AT="2026-08-04T14:35:53Z";
 var GPU_NEWS=[
   {
     "title": "8点1氪丨宗馥莉同父异母兄弟出任新公司董事长；DeepSeek升至全球调用量第一；iPhone被曝最高或涨价超千元",
@@ -29,6 +29,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVGllXzN1TFlBbHpPZE9yakRoSVAxcE4tNm5VTDZkSnZtUGRkTlIxTDVPb0NEUkRKNDZjdUNYcTZWQUJZeW5NMWloc0d2bEkzQ3VFTnJwR3lxdE1UZGFxVlFmQmNHQi1TYW9mdGlLWHhsSVFVZHVzcXdlMlVzeTFMaEh1emI5d2ZSbmVOaA?oc=5",
     "published": "2026-08-03",
     "summary": "“95后”利用AI生成“小作文”炒期货！被重罚&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBha2hWX1VLY1lXUFBSUkxoUTZLVkc1WnRqVGh1ZWx1MWk0S3FOWlE4Nm1XekFrNzhmek9XQ1pZdzk1SjJORDFpXzI0eWtDYTg0bUprV3l2d05TR3pjTWtHM2RkTDZtVjJXbFZvWnFON3Q?oc=5",
+    "published": "2026-08-02",
+    "summary": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -561,18 +573,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3R3RYWVBRSlptbXQ2NUMxWnRnRkhKQWRLN3VzNHlYX3QyY1BteXUyY05HMWI5QUg2cU5TMXU2NlBhMEZyZzlGcFFlT1BqWXNNYkp1dzZfM2VzRzREQzFlZFpfTHFlak1EelhBWEpwQjhNbWlKVGtmUA?oc=5",
     "published": "2026-07-24",
     "summary": "富时中国A50指数期货盘初跌0.62%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内商品期货夜盘开盘涨跌不一，沪银涨1.2%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcjcySXJBaVRQZG1oUlZRR0lWZ3p0ZlFjTm9JRi1LTHdlQjlRc0p4bnhzcVZHYTJxTHFQXzlXVjIzZkZCcXR3b2oxV3lxNUVwcmFRTWJGaDBzQmRtTFlvZTNDYnVRaWQ2YWxnTko2V0FCNmpET19zNEZqZ1FzSk51ZjFpRWdFLWc?oc=5",
-    "published": "2026-07-24",
-    "summary": "国内商品期货夜盘开盘涨跌不一，沪银涨1.2%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
