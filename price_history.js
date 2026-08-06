@@ -13930,10 +13930,6 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.34
           },
           {
-            "platform": "Vast.ai",
-            "price_usd": 0.23
-          },
-          {
             "platform": "TensorDock",
             "price_usd": 0.35
           }
@@ -13967,7 +13963,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.23
+            "price_usd": 0.14
           }
         ],
         "RTX 5080": [
@@ -13991,16 +13987,10 @@ var PRICE_HISTORY_DATA = {
         "RTX 5070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.02
           }
         ],
         "RTX 5060": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.05
-          }
-        ],
-        "NVIDIA RTX 4060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.05
@@ -14018,10 +14008,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.08
           }
         ],
-        "RTX 4060": [
+        "NVIDIA RTX 4060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.05
+          }
+        ],
+        "RTX 4060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.06
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
@@ -14042,10 +14038,10 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.03
           }
         ],
-        "RTX 2060": [
+        "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.01
+            "price_usd": 0.05
           }
         ],
         "RTX 6000": [
@@ -14056,6 +14052,12 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "DataCrunch",
             "price_usd": 1.04
+          }
+        ],
+        "RTX 2060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.01
           }
         ],
         "RTX 8000": [
@@ -14079,7 +14081,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.19
+            "price_usd": 0.05
           }
         ],
         "NVIDIA V100": [
