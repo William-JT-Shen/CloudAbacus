@@ -14132,7 +14132,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.68
+            "price_usd": 3.75
           },
           {
             "platform": "CoreWeave",
@@ -14184,7 +14184,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.58
+            "price_usd": 0.57
           },
           {
             "platform": "CoreWeave",
@@ -14230,7 +14230,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.12
+            "price_usd": 0.08
           }
         ],
         "NVIDIA L4": [
@@ -14390,7 +14390,7 @@
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.47
+            "price_usd": 0.06
           }
         ],
         "NVIDIA GH200": [
