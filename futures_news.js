@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-07T09:10:38Z
-var NEWS_FETCHED_AT="2026-08-07T09:10:38Z";
+// 生成:2026-08-07T13:21:54Z
+var NEWS_FETCHED_AT="2026-08-07T13:21:54Z";
 var GPU_NEWS=[
   {
     "title": "好想来：最简单的生意，为股东赚最多的钱",
@@ -24,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "工行参与香港交易所5年期中国国债期货上市首日交易",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwSUpvOTFBNmtYc0FQcFc5MEJzR0lYY1Y5SlJ2bDFzRENnUzBKQ1BJSGI3NWtVZ3hHQ1VtOEJxYkJmYmR4LWJwazBEZ3ZqZ2JUSlI2SWVqVjJITnBWMWw0WDhVZWlzQ3lQa1JwUlVaLVo0Tlh5cGhOMg?oc=5",
+    "published": "2026-08-04",
+    "summary": "工行参与香港交易所5年期中国国债期货上市首日交易&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -571,18 +583,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUWdvU1VTdkJib1BMUVUwbE44WG9SVWM0T3JvMmN2VFBOcWZYYUVSVlBFSXRHMGowZDUtcUx3VkZ6SnNGLVpOLWs1Mk9jcDNhbW9jRzJiQ19MX0FrWkFNajdwa2UzUWhGY1g5a0FVZU1pYTNBTVZjRHRRM3Y4WkxNWk1WaWN4VXVDMDg4?oc=5",
     "published": "2026-07-27",
     "summary": "CME全天候黄金期货上线首周末需求强劲，成交近1.5万份合约，散户积极入场&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "格林大华期货王骏：上半年工业企业利润分化 有色金属板块有望表现偏强",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pQXRJYXBwN090Q2RXWGZBcmNZRmRJS2V3LS1YN1pKMGZiclJXRVZWejNGVHlVY2p1OGlTbTZTODNTd2xfN0EwWndoUTk4ZkdZNkpsZ2xQbUczdE9yeEpLdUtsVWhyZ19IVktEQm53c01XNmZuMEtuXw?oc=5",
-    "published": "2026-07-27",
-    "summary": "格林大华期货王骏：上半年工业企业利润分化 有色金属板块有望表现偏强&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
