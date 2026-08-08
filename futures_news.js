@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-08-08T08:53:45Z
-var NEWS_FETCHED_AT="2026-08-08T08:53:45Z";
+// 生成:2026-08-08T13:05:41Z
+var NEWS_FETCHED_AT="2026-08-08T13:05:41Z";
 var GPU_NEWS=[
+  {
+    "title": "多家基金公司集中上报创业板算力基础设施、金融科技ETF",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53NnpVWkRmNTVPSl9xaE4tZ2EyQVNtOWdFNl9mVVFReERhbi1YcEJIeWJFNVpJRmZyQUhpV2tsU04xeVBDVVV1MWRlUS1SRmJCc0U0a2QxQ19JM3V4ajB2WXQ2MTIyNUgxX1dwMm8zd0FMNndHMGFpdg?oc=5",
+    "published": "2026-08-08",
+    "summary": "多家基金公司集中上报创业板算力基础设施、金融科技ETF&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "最新上期所黄金期货仓单变动-每日更新查询（2026年8月5日）",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQVAxemRZaWhsMHZPc29aUkVlQjBnQVZZbS1KVm1aWlQydUhjRkZwZWZzcVl0cy13QkpaVmVNYlhILTNjbjdmczNsMko5MF81eFA1UkVWWkF0VXR2M09yanpSMVdjYm5IbWdXOGdqOVh1allTVjhPOGRDblYzaGVsc2tXWGNpYnJnUGtHWA?oc=5",
+    "published": "2026-08-05",
+    "summary": "最新上期所黄金期货仓单变动-每日更新查询（2026年8月5日）&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "国内期货主力合约多数上涨，贵金属板块涨幅居前",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XcWFaQWlFdlkxYkxSQ3FCZGRSSnE0YXplcktMc1dJMlpFeDBURTN4SlE1a1EybUd4UVZMZHBXel9EcnNKWk9KQ3pkRjJrYkRyMmZZV2NyWkZNY1pzZDJxVUlmVTdMWlMyeDZmQVpBTnF0eXVSOE8yVA?oc=5",
+    "published": "2026-08-05",
+    "summary": "国内期货主力合约多数上涨，贵金属板块涨幅居前&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "好想来：最简单的生意，为股东赚最多的钱",
     "source": "36氪",
@@ -547,42 +583,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LVVZ4Q1Bxazhpd1gzYXhRcnBtcl94ZU9EQTdrcDdZdkVDd0lVN25lckVwd0VTWVFXeG8wZF9lQmlPb1d3SWdiUU1wQ2Noa1FYc2dUNlMtRjdlRTFGNkowX3lXU2huTWUtUVVWWWE5RWFzZHpzcFYwWA?oc=5",
     "published": "2026-07-27",
     "summary": "CME集团黄金期货启动24/7交易，首个周末交易额达6000万美元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所推出个股期货，允许投资者全天23小时交易SpaceX、美光等股票",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQWFBajZKTmlpU0hyYm5wS21XWFl5bHpqU2lqb2pQNXBkQUJDTlI3Szg5cWl6QVA5N203QU9LZlRNNTlvU3poNWpoUkdrMVNVZlZvQ1F2Y2YtUWdfMFpNS1pEVk01MEc0LUU1TXFGZDNIeWhXWmpkXzBlZ3NGUlFadDg2MEFDZFE?oc=5",
-    "published": "2026-07-27",
-    "summary": "芝商所推出个股期货，允许投资者全天23小时交易SpaceX、美光等股票&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国芝商所推出个股期货 允许投资者全天23小时交易SpaceX、美光等股票",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY0d3NjNhWE1oRjdjNy1MQjFlbG9XNEpaS240Q19hN0lEdE51OGRzbDF3TjNtRWM3MFIzUEswTnBaU0ZCOWM5ZmZXMDNwdTBLZC1zWmZuellONXNKUVdOWW8tcF9QZ1VoUGtlTlVmQno2ZkdIVjFKTHVnOW5VQlFEeQ?oc=5",
-    "published": "2026-07-27",
-    "summary": "美国芝商所推出个股期货 允许投资者全天23小时交易SpaceX、美光等股票&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "CME全天候黄金期货上线首周末需求强劲，成交近1.5万份合约，散户积极入场",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUWdvU1VTdkJib1BMUVUwbE44WG9SVWM0T3JvMmN2VFBOcWZYYUVSVlBFSXRHMGowZDUtcUx3VkZ6SnNGLVpOLWs1Mk9jcDNhbW9jRzJiQ19MX0FrWkFNajdwa2UzUWhGY1g5a0FVZU1pYTNBTVZjRHRRM3Y4WkxNWk1WaWN4VXVDMDg4?oc=5",
-    "published": "2026-07-27",
-    "summary": "CME全天候黄金期货上线首周末需求强劲，成交近1.5万份合约，散户积极入场&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
