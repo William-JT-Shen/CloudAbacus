@@ -14503,7 +14503,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.27
+            "price_usd": 0.29
           },
           {
             "platform": "TensorDock",
@@ -14539,7 +14539,7 @@
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.27
+            "price_usd": 0.29
           }
         ],
         "RTX 5080": [
@@ -14557,7 +14557,7 @@
         "RTX 5070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.09
+            "price_usd": 0.11
           }
         ],
         "RTX 5070": [
@@ -14578,16 +14578,16 @@
             "price_usd": 0.12
           }
         ],
-        "NVIDIA RTX 4060 Ti": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.06
-          }
-        ],
         "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.09
+            "price_usd": 0.08
+          }
+        ],
+        "NVIDIA RTX 4060 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.07
           }
         ],
         "RTX 4060": [
@@ -14599,7 +14599,7 @@
         "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.04
+            "price_usd": 0.05
           }
         ],
         "NVIDIA RTX 3080 / 3080 Ti": [
