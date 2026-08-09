@@ -1,13 +1,37 @@
 // GPU算力期货新闻
-// 生成:2026-08-08T20:40:39Z
-var NEWS_FETCHED_AT="2026-08-08T20:40:39Z";
+// 生成:2026-08-09T02:19:41Z
+var NEWS_FETCHED_AT="2026-08-09T02:19:41Z";
 var GPU_NEWS=[
+  {
+    "title": "硬氪首发 | 获李泽湘三轮押注，浙大博士做出全球首款视觉售后技术客服机器人",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3931000539692164?f=rss",
+    "published": "2026-08-09",
+    "summary": "硬氪获悉，视觉模型企业微链智能近日完成近千万元天使轮融资，资方为李泽湘、陆奇，投资主体为投资主体为东莞清水湾二期创业投资合伙企业（有限合伙）、宁波智能技术研究院有限公司、北京奇绩创坛二期创业投资中心（有限合伙）。该轮融资将主要用来投入研发。\n  微链智能成立于2023年，创世人宁冬冬今年31岁，博士就读于浙江大学，从事机器视觉研究，也是国内早期做深度学习机器视觉的人，在图像处理方面经验丰富。\n  宁冬冬告诉硬氪，他原本跟随李泽湘从事图像领域的产品研发，在调研中发现消费电子行业的客服非常原始。不过，宁冬冬没有贸然行动，为了全局了解电商客服链条，他调研了电商平台、平台上的商家，以及卖AI客服的工具厂商三方不同主体的情况。\n  宁冬冬第一站是在京东做了3个月的客服实习生，他发现京东的内部系统非常完善，“物流、金融、电商部门全打通，客服可以直接影响自营店铺的详情页或修改物流地址。”\n  随后，他又去到平台上的某电器商家做售前客服，这里情况有所不同，还完全是手工阶段，平台几乎不提供任何工具，联系物流或师傅都要打电话，效率较低。“京东客服一天能解决300个复杂售后，而商家客服一天只能解决不到80个",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "多家基金公司集中上报创业板算力基础设施、金融科技ETF",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53NnpVWkRmNTVPSl9xaE4tZ2EyQVNtOWdFNl9mVVFReERhbi1YcEJIeWJFNVpJRmZyQUhpV2tsU04xeVBDVVV1MWRlUS1SRmJCc0U0a2QxQ19JM3V4ajB2WXQ2MTIyNUgxX1dwMm8zd0FMNndHMGFpdg?oc=5",
     "published": "2026-08-08",
     "summary": "多家基金公司集中上报创业板算力基础设施、金融科技ETF&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国天然气期货跌2.3%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZRldfTzNEQ1c4SkY2UzJUNWZlZHg0OHlQTUptRXZIN2FCRWxKdVp1WmlvRkZCV0RKQkdhNGJqRURpTWdFVXZiQ0Z3RkZTYzNDdzM2YVBKNTVKeTlRaFhPc3E0T0lpSVlRUXFmemtKa1p0MEd3bXd2bg?oc=5",
+    "published": "2026-08-06",
+    "summary": "美国天然气期货跌2.3%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -558,31 +582,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWW83S0lwUUFEa29UdmI3ekwyQzBLckQyeDBNWF9ubjF1RkQ3OXJyM0RfME5mYWwzT2lxaXpBR1N4R29SQS1rVGVoeFUxNEFCaFlDTDRnYVYtSmVkYkZTcEZKd1hpQW45U1FBU29KS1BzLUZjanAwRnNWbk9kWGt1SGt4cVpDem13Vks4Tg?oc=5",
     "published": "2026-07-28",
     "summary": "做期货哪个平台好&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html",
-    "published": "2026-07-28",
-    "summary": "The chipmaking giant is in talks with OpenAI to provide a $250 billion financial backstop for the project, which would be among the largest of the A.I. boom.",
-    "full_text": "The groundbreaking ceremony for the data center in Piketon, Ohio, in March. The financing for the project is indicative of the elaborate deals that have helped fuel the A.I. boom.",
-    "lang": "en",
-    "title_cn": "OpenAI 即将在 Nvidia 的支持下打造价值 5000 亿美元的数据中心",
-    "summary_cn": "这家芯片制造巨头正在与 OpenAI 进行谈判，为该项目提供 2500 亿美元的财务支持，该项目将成为最大的人工智能项目之一。繁荣。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "CME集团黄金期货启动24/7交易，首个周末交易额达6000万美元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LVVZ4Q1Bxazhpd1gzYXhRcnBtcl94ZU9EQTdrcDdZdkVDd0lVN25lckVwd0VTWVFXeG8wZF9lQmlPb1d3SWdiUU1wQ2Noa1FYc2dUNlMtRjdlRTFGNkowX3lXU2huTWUtUVVWWWE5RWFzZHpzcFYwWA?oc=5",
-    "published": "2026-07-27",
-    "summary": "CME集团黄金期货启动24/7交易，首个周末交易额达6000万美元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
