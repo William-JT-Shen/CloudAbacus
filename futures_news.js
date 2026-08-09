@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-09T16:46:55Z
-var NEWS_FETCHED_AT="2026-08-09T16:46:55Z";
+// 生成:2026-08-09T20:44:17Z
+var NEWS_FETCHED_AT="2026-08-09T20:44:17Z";
 var GPU_NEWS=[
   {
     "title": "最前线|中科慧思发布三款灵巧手产品，要从“抓取”走向真实场景作业",
@@ -171,6 +171,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "中资券商深度参与离岸国债期货做市，券商国际业务打开新空间，证券ETF博时(159260)估值修复空间备受关注",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNkVqLTA5dDNTMU1ha2lSdHB0SVY5ajYxNjJGWUhWZC1XZkQ3WWlnNXFsSmxKSjl1bnEzSElERWF1SGo4WmNneFhRZ0J0QnVBODZ0a2lBNFJjVFJQc0xNcEVGMUl5cEoxdGluYnNYMlhYb1U5djU2bWxBU2lFcXZQT1N5TQ?oc=5",
+    "published": "2026-08-06",
+    "summary": "中资券商深度参与离岸国债期货做市，券商国际业务打开新空间，证券ETF博时(159260)估值修复空间备受关注&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ3A4MElQWnptcnhnMDQtMXNLSmUxaVVXV1FzOTlfMTVicnpaM1UwLXg5ZVI4dUttelFoVXJTc1ZjMUZ3ajZSTXM0SkduMDkzakxLWDhNeVRfYnpseHNBd3JpUS0wTzBRcHhUVW9xblJkSmR5eVlPWWthVkZZT2VidA?oc=5",
     "published": "2026-07-31",
     "summary": "离岸人民币国债期货时隔九年再登港交所&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "产能出清困难库存持续累积 纯碱期货再创历史新低",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORHNFLXVsdWNqUGlGNFAyOXNKcHhjOEt0bkRza3RDS1UyRUtUYUV5ZlRwQ0N1S2ZLX3Mzd3dRdHRvcDFhQWVKNHYtNUtGRW1XZkZDeWVkN0Z5Q3M5MHdVRkZqb0o3SGdTR3k4WG9pd1JkMktCZTBuVlM4YUp6S0YwSg?oc=5",
-    "published": "2026-07-30",
-    "summary": "产能出清困难库存持续累积 纯碱期货再创历史新低&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
