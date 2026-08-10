@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-08-10T09:43:38Z
-var NEWS_FETCHED_AT="2026-08-10T09:43:38Z";
+// 生成:2026-08-10T13:27:50Z
+var NEWS_FETCHED_AT="2026-08-10T13:27:50Z";
 var GPU_NEWS=[
+  {
+    "title": "新五丰拟投入2000万元开展商品期货套期保值业务 覆盖生猪及饲料原料",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcUh2bmd0LW12R2owSXBzbVNxZ3loZTZqQzY5MFo1WVBrRWlNd2pkaUJYcjBycml3Zkh5TFRIMDF2QndOdWdILXlISlVQWnk4SV8xTklaSHFZZFFldS0tWHlaOW9xUm8wOEw5dkNWcG1DOHMzM0lnWE9KejYzaGxIQW1jckhEc0U?oc=5",
+    "published": "2026-08-10",
+    "summary": "新五丰拟投入2000万元开展商品期货套期保值业务 覆盖生猪及饲料原料&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "近40亿元融资背后：资本为何看好帕西尼",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3933515490884744?f=rss",
+    "published": "2026-08-10",
+    "summary": "过去两年，大模型提升了机器人理解任务、拆解指令和规划动作的能力，视觉模型也让机器更擅长识别物体和判断空间位置。但机器人真正伸手之后，问题会迅速从“看见了什么”转向“接触之后发生了什么”。机械手把线束插进接口，视觉系统已经确认位置无误，动作仍可能失败：插入力突然增大、零件发生偏转，或者材料开始滑移。对人来说，这些判断由指尖本能完成；对机器人来说，则依赖触觉感知和控制闭环。\n  这也是触觉在当前具身智能产业阶段进入“聚光灯”的原因。\n  就在行业从样机竞赛走向交付竞赛的节点，帕西尼完成新一轮10亿元融资，累计融资近40亿元；与此同时，公司总部迁至北京并完成股份制改造。把三件事放在一起看，更像一个赛道阶段切换的信号：具身感知已经不再只验证技术可行性，头部企业开始用资本、组织和生态能力放大已经形成的技术与商业优势。\n  据公开信息披露，本轮由全球消费电子与半导体产业巨头（结合投资方画像，本轮领投方或指向三星）、中银国际投资、鲲鹏基金、合信方册联合领投，鼎晖百孚、成都交子人工智能基金、京铭资本、津融国盛联合投资，知来资本等老股东继续加码。阵容同时覆盖产业资本、国家级金融力量、区域人工智能基金和市",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "硬氪首发｜开放式AI助听器完成数千万元天使轮融资，海外市场已众筹数百万美金",
     "source": "36氪",
@@ -576,30 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa21MTm9UVzVlTTRmZU1HTmNTUWNGREx0SUk3eDJ2NEVzaVhfVkFFVEt0a21lUFFkVGQweTVrLUtxY3k2amlfM2Z3aEhxVFB5QUFIeXZxZ0YwNi1WVmVJSk13MDFQYWFsZVBpRkotVHJraU52bkVUZ1VpOWwxVHR0X3dfdk4zQzg?oc=5",
     "published": "2026-07-31",
     "summary": "盘前：纳指期货涨0.94% 亚马逊大涨13%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内商品期货夜盘开盘涨跌不一",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvZlZiQV9TWmpYSTN5VWtXcWFtUnd3a2R2d0psNVV0OExkRGZhbV9xY3NEZG11bEptX2pCQm1WcG1EamkxZU54RmpGMzJyU3prbTBYZUFvT1ZIUFZSU0k5YmxRMG05ckc3cXQtZm5QUFN1R0czM2pkMA?oc=5",
-    "published": "2026-07-31",
-    "summary": "国内商品期货夜盘开盘涨跌不一&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "走进世纪泓源：算力REITs的“资产账本”",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sUEJmMzVlSktxeGpxanpPVXZGQzVKeWdDRFRTME54ZEdSWU90azJHSGhvMGFMY1BxYXFodUU5Q0trLXRKOTR2V3I1b2Yzd25xb3lkZWlzRG04MkRiZXJkX183bFpQRDYxQ2MyMXp1SlpOV0ZSWmFubw?oc=5",
-    "published": "2026-07-31",
-    "summary": "走进世纪泓源：算力REITs的“资产账本”&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
