@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-10T05:41:12Z
-var NEWS_FETCHED_AT="2026-08-10T05:41:12Z";
+// 生成:2026-08-10T09:43:38Z
+var NEWS_FETCHED_AT="2026-08-10T09:43:38Z";
 var GPU_NEWS=[
+  {
+    "title": "硬氪首发｜开放式AI助听器完成数千万元天使轮融资，海外市场已众筹数百万美金",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3933467328413064?f=rss",
+    "published": "2026-08-10",
+    "summary": "文｜张子怡\n  编辑｜袁斯来\n  硬氪获悉，AI助听器公司飞声已完成数千万元天使+轮融资，本轮由慧和资产领投，方瑞资本担任融资财务顾问并跟投。融资将主要用于产品研发、算法迭代、医疗器械认证及市场拓展。飞声由清华背景的投资机构深圳清源科创孵化，近期计划开展A轮股权融资。\n  听力损失正成为全球老龄化进程中日益突出的健康问题。世界卫生组织数据显示，目前全球超过15亿人存在不同程度的听力损失，其中约4.3亿人因致残性听力损失需要康复服务；到2050年，需要听力康复的人数预计将超过7亿。在中国，公开数据显示，听力残疾人约有2,780万，伴随人口老龄化，听力健康服务需求仍在持续增加。\n  但从发现听损到真正获得有效干预，仍存在较高门槛。传统助听服务通常涉及听力检查、产品选择、专业验配等，而价格、听力专业人员不足、服务资源分布不均以及用户对助听器的认知和接受度，都会影响产品的实际使用。近年来，OTC助听器、远程听力服务和数字化验配方案逐步发展，行业开始尝试以更低的服务成本覆盖听损人群。\n  飞声先推出面向轻度到重度听损人群的产品H8，其5dB的底噪达到行业领先水平，而外资头部品牌高端产品的底噪水平",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "最前线|中科慧思发布三款灵巧手产品，要从“抓取”走向真实场景作业",
     "source": "36氪",
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sUEJmMzVlSktxeGpxanpPVXZGQzVKeWdDRFRTME54ZEdSWU90azJHSGhvMGFMY1BxYXFodUU5Q0trLXRKOTR2V3I1b2Yzd25xb3lkZWlzRG04MkRiZXJkX183bFpQRDYxQ2MyMXp1SlpOV0ZSWmFubw?oc=5",
     "published": "2026-07-31",
     "summary": "走进世纪泓源：算力REITs的“资产账本”&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "离岸人民币国债期货时隔九年再登港交所",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ3A4MElQWnptcnhnMDQtMXNLSmUxaVVXV1FzOTlfMTVicnpaM1UwLXg5ZVI4dUttelFoVXJTc1ZjMUZ3ajZSTXM0SkduMDkzakxLWDhNeVRfYnpseHNBd3JpUS0wTzBRcHhUVW9xblJkSmR5eVlPWWthVkZZT2VidA?oc=5",
-    "published": "2026-07-31",
-    "summary": "离岸人民币国债期货时隔九年再登港交所&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
