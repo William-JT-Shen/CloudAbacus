@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-11T13:24:09Z
-var NEWS_FETCHED_AT="2026-08-11T13:24:09Z";
+// 生成:2026-08-11T17:09:05Z
+var NEWS_FETCHED_AT="2026-08-11T17:09:05Z";
 var GPU_NEWS=[
+  {
+    "title": "芝商所将在纽约商品交易所上市H100和B200租赁指数期货",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5vRER3ajRqLWxlZmtZQ2FIMy1pVEhlbjNyTEE5RGxHeVJGQXdpZG9VcEU0Wm1NdVFBTzd5X2NxdFVkdUFUcmZiMGF5TQ?oc=5",
+    "published": "2026-08-11",
+    "summary": "芝商所将在纽约商品交易所上市H100和B200租赁指数期货&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "自研微米级工业具身机器人，已进入博世产线，「国奥科技」完成近亿元A+轮融资 | 36氪首发",
     "source": "36氪",
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSjBkRmUtNm1QRG1KOEc5dXJiazN2S0tabTIxVk9reDFfeEo4S3hKa3dxcGV1OXdMVktHemVkYWNYQlVKRG5XZEU1NzRoeU9kSmF6a29WU0hSUEJPWHZFaHQtYjQ4NkRtcHZSZ0lCandfaUl2a2VyWjdrd0FndzdEaXVzMGtFY2lOdl83czhqRUhuUQ?oc=5",
     "published": "2026-08-03",
     "summary": "光大期货：8月3日金融日报&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "“95后”利用AI生成“小作文”炒期货！被重罚",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVGllXzN1TFlBbHpPZE9yakRoSVAxcE4tNm5VTDZkSnZtUGRkTlIxTDVPb0NEUkRKNDZjdUNYcTZWQUJZeW5NMWloc0d2bEkzQ3VFTnJwR3lxdE1UZGFxVlFmQmNHQi1TYW9mdGlLWHhsSVFVZHVzcXdlMlVzeTFMaEh1emI5d2ZSbmVOaA?oc=5",
-    "published": "2026-08-03",
-    "summary": "“95后”利用AI生成“小作文”炒期货！被重罚&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
