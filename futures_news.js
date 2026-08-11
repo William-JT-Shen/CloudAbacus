@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-11T09:10:17Z
-var NEWS_FETCHED_AT="2026-08-11T09:10:17Z";
+// 生成:2026-08-11T13:24:09Z
+var NEWS_FETCHED_AT="2026-08-11T13:24:09Z";
 var GPU_NEWS=[
+  {
+    "title": "自研微米级工业具身机器人，已进入博世产线，「国奥科技」完成近亿元A+轮融资 | 36氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3934853676088448?f=rss",
+    "published": "2026-08-11",
+    "summary": "2026年被业界视为“人形机器人量产元年”，然而数量扩张不等于产业成熟，部分企业仍停留在样机和演示阶段，商业化路径尚不清晰。\n  “现在3C大厂基本不会考虑使用泛化的人形机器人。”国奥科技创始人李思阳博士说。\n  在他看来，产量与工业场景落地之间的鸿沟不是AI大模型不够强，而是本体的运动控制能力远远无法达到工业场景要求。“好比一个人的大脑已经发育到二十岁，身体还停留在三岁的水平。”\n  国奥科技正在尝试补齐这块短板。基于其自研多自由度电机（即同时实现直线和旋转运动的双自由度电机）生产的工业机器人，目前已销售给德国博世，并在多家头部大厂的产线上实现预运行。\n  我们了解到，近期国奥科技刚刚完成近亿元A+轮融资，由深创投、基石资本、粤科金融投资。深创投也是去年6月A轮融资的老股东。资金将主要用于工业具身机器人量产及机器人BU组建。\n  国奥科技成立于2019年，是工业自动化领域国产替代趋势下，凭借技术突破在行业打开市场的典型样本，目前已在「ZR电机」这一细分品类确立头部地位，产品进入国内某头部芯片企业、歌尔股份、舜宇光学等头部客户供应链。\n  为什么选择从精密电机走向机器人整机解决方案？“",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "5000亿美元算力融资：英伟达把GPU变成了华尔街可投资资产",
     "source": "新浪财经",
@@ -24,6 +36,30 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "布伦特、美国原油期货每桶上涨超2美元，因伊朗削弱霍尔木兹海峡重开的预期。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaRUJvNjdPRVdzLWJkbVJGczUyVzJHT2VKUTFESlBmLXFzUVFqcGxuRGppN0FuV01fdHlTeXhpN1ZwUHNBaUtyWmt6V1ZQTzB6TlNtc1U3TWpvV1VXMjVtVHlLT2g4WmkxWnpTaXBjUVJyeFJTb1FYcg?oc=5",
+    "published": "2026-08-10",
+    "summary": "布伦特、美国原油期货每桶上涨超2美元，因伊朗削弱霍尔木兹海峡重开的预期。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "上海期货交易所：对部分客户采取限制开仓监管措施",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ245WDhvcG1mb0VPdC1TaXlOenNnak5MQndLN0ZwckxNdHJ1VWZQTTNZUGNiZzhTNjhXbGFCODdjUlhQSmR0YnhtVjVjQnVNTHp0ZmFPM0xYX1dMcy1GVjFrcnNIWm45Q19LMTRXd2dFM1VTUWo3WVJkTkNQWV95RGdBeDhaZmM?oc=5",
+    "published": "2026-08-10",
+    "summary": "上海期货交易所：对部分客户采取限制开仓监管措施&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -564,42 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVGllXzN1TFlBbHpPZE9yakRoSVAxcE4tNm5VTDZkSnZtUGRkTlIxTDVPb0NEUkRKNDZjdUNYcTZWQUJZeW5NMWloc0d2bEkzQ3VFTnJwR3lxdE1UZGFxVlFmQmNHQi1TYW9mdGlLWHhsSVFVZHVzcXdlMlVzeTFMaEh1emI5d2ZSbmVOaA?oc=5",
     "published": "2026-08-03",
     "summary": "“95后”利用AI生成“小作文”炒期货！被重罚&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "港交所推出五年期国债期货，相关合约今起交易",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TdVZOekl6VzI0M0hqMERqWEl1TDcxb0FEQzhvVEFUZjdjSG5TSWFYVmhTVFNmTXJBX1laLTdiaUJsNXY0V2lseDltMTZqUS1CSU5oclJNQnFNUExnM2F4bUw5LWRydHFZOWtEUldJdzBia0NwOUE?oc=5",
-    "published": "2026-08-02",
-    "summary": "港交所推出五年期国债期货，相关合约今起交易&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBha2hWX1VLY1lXUFBSUkxoUTZLVkc1WnRqVGh1ZWx1MWk0S3FOWlE4Nm1XekFrNzhmek9XQ1pZdzk1SjJORDFpXzI0eWtDYTg0bUprV3l2d05TR3pjTWtHM2RkTDZtVjJXbFZvWnFON3Q?oc=5",
-    "published": "2026-08-02",
-    "summary": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "瑞达期货（002961）拟5.89亿收购申港证券股权 上半年业绩预增",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WbmhVQnQ4aEtRLU1sNE1KMWpwSUtXb3NuTURfWEhndE0zUFNhTXhQLWdwYmJSaW1xeHZYbnNDLWdzMExCUnpYSTIzN3hzRzNfcmY0RTdabjdIMXE0QUpiTUczZWEwaWdJRXlGNWFkSXRNeE5UYl8tMA?oc=5",
-    "published": "2026-08-02",
-    "summary": "瑞达期货（002961）拟5.89亿收购申港证券股权 上半年业绩预增&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
