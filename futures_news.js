@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-08-10T20:55:16Z
-var NEWS_FETCHED_AT="2026-08-10T20:55:16Z";
+// 生成:2026-08-11T02:16:13Z
+var NEWS_FETCHED_AT="2026-08-11T02:16:13Z";
 var GPU_NEWS=[
+  {
+    "title": "国际原油期货日内涨幅扩大至1.5%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TSWZCQjFPRWhUSmFydDhjS25tLTF4VFdlbWVLY1RIenFrVzdrSGpGbzF0Q1JxM2xGc0YtYTFxcmRJQnhQMUdna3VkRzIzNnA4S3huZjg1UDg1VUg2UWpubFktWlcwYmVtenZTMGJuNEVEWURRM2xVWA?oc=5",
+    "published": "2026-08-10",
+    "summary": "国际原油期货日内涨幅扩大至1.5%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "国内期货夜盘开盘",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pVmdoTWR0a0NoSVFldHUyOU9ZRF93VzBob3RzaUs1RU9jbGtLTFpTLU55QXNOR2JQU05GcDlFSHFiRVZDdFloUWJxdDJ4V1ZFZUxzclFhM3J1b0t3MVpCZVZXeFpEWEtURUdTblRkRFhPNWtfd0t3UQ?oc=5",
+    "published": "2026-08-10",
+    "summary": "国内期货夜盘开盘&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "ICE农产品期货主力合约涨跌不一，原糖期货涨0.06%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JUUVfSzhOck9kQ0xmQ1UzV09uREZ2Y0wtYjZUcEFUTXFxNFg5SGhvYWVtMXVLZi1jaTczTVhLYm10SFZ3bEROYVBMUjlLWkZsWC1fMXk0b1huX01waEtyX3NQNzRpa2RtandoS01lLXBNRTJjRnlEMw?oc=5",
+    "published": "2026-08-10",
+    "summary": "ICE农产品期货主力合约涨跌不一，原糖期货涨0.06%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "碳酸锂期货吨价一周涨近万元",
     "source": "新浪财经",
@@ -564,42 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83R2Y1M0haM3MyQjVLSlFrMXY1MS1DRjM2VnJEWURETFFvT2VpWkVYVE8wUUlaZ2JKY29OZVVHU2pPWmpCRzdoZE9LT1d6TVgtTW9uVWxrQXk0MFZTTUVuU3BaWElxemptVTFRRDk4T0pzSmdlenl3Rw?oc=5",
     "published": "2026-07-31",
     "summary": "期货午评：贵金属板块领涨期市，碳酸锂暴跌超3%失守14万关口&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "7月31日国内商品期货多数收跌 碳酸锂、焦煤跌超4%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuRUplNWFhZ1lrbUYwNHpHbXlkZ0FONTdqelVOLThERmFsUC1vUjZkSF9xa2YtWGZmV0ViRkkzVmVvRFJ0RlhTd0t5UmdlNFNMcHpMODcyaXpzTVJ2MUtxOVJMS3B2NkFCOE8xMnZ6SEIzdGpxWUpwNg?oc=5",
-    "published": "2026-07-31",
-    "summary": "7月31日国内商品期货多数收跌 碳酸锂、焦煤跌超4%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "55万亿元！上海提出建全球资管中心新目标：未来五年加速落地期权、期货等创新产品",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOWHRoOGtZVVF2UHFUNVRhM2laLUltNUJCVVJ2ZmpqclJsa3RaQUl4Vm10VVA1Smp6QjdYR2hRV1dtY1dMbnR4aUVFZmN6RmlDMmhISWgyV19sZzZLRUo3dG13dVBfUUZGM3RrQ0F5SE5kZWxucE1rUVJzOUNVanBPVG5rbEowSzVPMGxGSVdVSktTM0RLYUFxWFhNWmpMUnpNeEtpZWNRU1BoMDVOYmdaYUZuTHgwNnRTc0M4ZnJ1Q1NBMk1kS0hOQ3BDQVUxN0dQQ3NJQUxjM1lhUXctOGdZc3hpVzd3S0hGQmhhMzkwczFBTk1rSnJ5NExlN1lvYnhQVnljdWNvbUhDZmIwcjhaUnB1blk0b3VhdHB5NjgwRWJPYXZvekZZVVJIZy04dVd0ZWNsZjB6M3FNMTNhTzBrZ1hZTi1nd3VU?oc=5",
-    "published": "2026-07-31",
-    "summary": "55万亿元！上海提出建全球资管中心新目标：未来五年加速落地期权、期货等创新产品&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内期货主力合约涨多跌少，低硫燃料油涨超3%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Zdk4wOG9oQ2lGUzBycDZkLVpidDBLenh2WHNMYUFjdVJBQmREUWFaclBuRnI5T2dDSGdtTkVRNU85YkNNSXAxY0swaUFFZm9mOGpNWUJoUFFrbmlidWVad1k2WW9rMnY5RE1XTVRfbHkxejJacEpTWA?oc=5",
-    "published": "2026-07-31",
-    "summary": "国内期货主力合约涨多跌少，低硫燃料油涨超3%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
