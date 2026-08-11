@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-08-11T17:09:05Z
-var NEWS_FETCHED_AT="2026-08-11T17:09:05Z";
+// 生成:2026-08-11T20:58:31Z
+var NEWS_FETCHED_AT="2026-08-11T20:58:31Z";
 var GPU_NEWS=[
+  {
+    "title": "美国芝商所与Silicon Data确定10月5日推出算力期货",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLTlyNUd1OFgyTlRVd0diZGJKOHBfQTdTRWRGMWU2VFliclhfS0tZcXBwNDNFaUxaakpMb0ttZ2NaTTFMaVBqSnFudHpROXZBcmRCdkpjX3A4SVFJTWZJaG0ycFRzYmhCNTF6Vk5lbU1HdUktRTRJZ2FvWEpFSmZQZg?oc=5",
+    "published": "2026-08-11",
+    "summary": "美国芝商所与Silicon Data确定10月5日推出算力期货&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "芝商所和Silicon Data计划10月5日推出算力期货",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzYURNMHJ5dHgxclRlOFN0a0lYQnNDbVh4bkhkUzVxclZsRkxMbkFGc2RwS0xPRnZYMzBxY0JPQ3BXbG55cGxJUjhnTGd2RnE2V0dZdHJVajRvNlR3V0dTbF9saXllM1ZvVk9Ld3Qzcks4emdkWkJpOWxB?oc=5",
+    "published": "2026-08-11",
+    "summary": "芝商所和Silicon Data计划10月5日推出算力期货&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "AI算力开启金融化时代：芝商所官宣拟于10月推出两项期货合约",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVanVwZm9EUUNlbFJXVjU2Ty12VThNbkFOU3lGWUlLcFBfUTkwaHlzRU1wbzBSYWhnTnB2OEZybXJ3Sk02WlpPV3pEbzhLYTR5bFhGM3lVVVpiWlg1RkhVU1NCRTl1ckdoaG4zN0NB?oc=5",
+    "published": "2026-08-11",
+    "summary": "AI算力开启金融化时代：芝商所官宣拟于10月推出两项期货合约&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "芝商所将在纽约商品交易所上市H100和B200租赁指数期货",
     "source": "新浪财经",
@@ -564,42 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4teUtsdzJuOWk4RWF0bXh4eGI4QWo3U0hJUmtROVVjY25QbXdpbnlTMUlhbE1POGszMlE3WDNrZkF4RktKbHp0aGhDbUUzREk3WVpBS24yQU8zUkhVajhuNUF6RDVKem9SRDNKZjdxSGI3YnREQkpscA?oc=5",
     "published": "2026-08-03",
     "summary": "“95后”利用AI生成虚假消息炒期货！被罚没48.5万元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "道指期货暴涨1300点",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGaXhSM3lwOHFGcGQ2UkFPanlxemVzOUk5Vl82SHUyYzdoWl9BSVlyVk1BdWVmd2pzZlJoSDU5a2RieE42MHlQSXU0Q0VXakRvSFRVYXR3ZTZISmtxbmIyajM2dVo3TmpYWE9qUHNYZEJtNGp3?oc=5",
-    "published": "2026-08-03",
-    "summary": "道指期货暴涨1300点&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "华西证券新增“期货概念”概念",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZzdZUmVKTVh0TDdPamMzeE9FaW5weVpxaEJJN1FkeUJDYVpTVmxtUE5JTHA1V1BHdU5fcG1yOTFkdWtVd2VmSFREWmVaODBBcG9VTTMxdzdHYmFpOU50eWppZ1ZNaVBheVI2U2VLdmd0bGd6VG5zT2ZYNWxWS3NEdW10NGNtRzhzSldtRg?oc=5",
-    "published": "2026-08-03",
-    "summary": "华西证券新增“期货概念”概念&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "光大期货：8月3日金融日报",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSjBkRmUtNm1QRG1KOEc5dXJiazN2S0tabTIxVk9reDFfeEo4S3hKa3dxcGV1OXdMVktHemVkYWNYQlVKRG5XZEU1NzRoeU9kSmF6a29WU0hSUEJPWHZFaHQtYjQ4NkRtcHZSZ0lCandfaUl2a2VyWjdrd0FndzdEaXVzMGtFY2lOdl83czhqRUhuUQ?oc=5",
-    "published": "2026-08-03",
-    "summary": "光大期货：8月3日金融日报&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
