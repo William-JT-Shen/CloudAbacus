@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-08-11T02:16:13Z
-var NEWS_FETCHED_AT="2026-08-11T02:16:13Z";
+// 生成:2026-08-11T05:17:41Z
+var NEWS_FETCHED_AT="2026-08-11T05:17:41Z";
 var GPU_NEWS=[
+  {
+    "title": "5000亿美元算力融资：英伟达把GPU变成了华尔街可投资资产",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45VGlYeVVXRmhSMDVjQUNqWUlONjlzek5SUkhYUWkxV0FhZE53aUhQSGtUYTdEUUYyV1lkeGI4d2pwTWVYWWVKaGktY05zTEFHRHdvQ1RvaGV5UHF4cHN3YWFsRFNWenQ0RFE1NkhpeVRRbHVlX1ZWXw?oc=5",
+    "published": "2026-08-11",
+    "summary": "5000亿美元算力融资：英伟达把GPU变成了华尔街可投资资产&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "又融了1亿美金的AI公司，说AlphaFold不是生物世界天花板",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3933494167108738?f=rss",
+    "published": "2026-08-11",
+    "summary": "文｜胡香赟\n  编辑｜海若镜\n  到了2026年8月，如果一家公司只想用AI“降本增效”，那很难吃到AI最大的红利。\n  这个观点从寻明生科创始人赵伟安口中说出，多少有些反常识，毕竟“降本增效”是过去几年AI制药公司最熟悉的脚本。他坦承，现阶段AI其实是“增本降效”的游戏：AI人才、算力和实验验证很昂贵；在传统大药企，给予AI更高决策权限，还可能产生额外的组织摩擦。\n  但是，今天AI能力已足够强，生物基础模型等呈现出的Scaling law，让业内看到“科学发现”推高智能上限的可能性。“AI在大分子设计方面的能力提升非常大，超越人类想象，只是大家尚未释放模型的全部潜力。”\n  基模开发、再造平台，未来可能批量产出差异化分子。如果这些资产的价值能够覆盖早期花的钱，意味着新一轮AI4S（AI for Science）游戏规则被改写。\n  2026年，资本再次涌向AI4S。新一波风口里，寻明生科（Aureka）是被资本选中的“年轻选手”。\n  暗涌Waves独家获悉，近日寻明生科再获总额1亿美金的B系列融资。首轮由Granite Asia（前身为纪源资本GGV亚洲业务）独家投资；后续轮次由",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "CBOT农产品期货主力合约收盘涨跌不一，大豆期货涨0.34%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBURlN6dXFIbEt0S1hrdnlLeVk5M0pKSWs0aHRTbVR3QXB5Mm5IMnBnc1ZTUlA4UV9rUXNIaWtDV1hFVXNwUHEzQW16UHg3UFdaZTE0bTJUVFF2dFZtZm9BaV9VTUFQMUdLdFJQYmVIVTdFelhRUEk2bQ?oc=5",
+    "published": "2026-08-10",
+    "summary": "CBOT农产品期货主力合约收盘涨跌不一，大豆期货涨0.34%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "国际原油期货日内涨幅扩大至1.5%",
     "source": "新浪财经",
@@ -564,42 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WbmhVQnQ4aEtRLU1sNE1KMWpwSUtXb3NuTURfWEhndE0zUFNhTXhQLWdwYmJSaW1xeHZYbnNDLWdzMExCUnpYSTIzN3hzRzNfcmY0RTdabjdIMXE0QUpiTUczZWEwaWdJRXlGNWFkSXRNeE5UYl8tMA?oc=5",
     "published": "2026-08-02",
     "summary": "瑞达期货（002961）拟5.89亿收购申港证券股权 上半年业绩预增&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "永安期货：7月31日获融资买入460.62万元，融资余额2128.82万元占流通市值比例0.11%，低于近一年10%分位水平",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbGxSWklVendLem1VMXJtX2RVX2hhVXdSQ3lURFpkMVRxb2hGVmhZazlFR3dhb1R4OWo3OWtWaGxHVW9jLTdKU3BNYXpyTWJtblc1REhuS3d2eTBqZjZqQ0l6X2VrYXh6eThCV1F5WGxqVUN3WDdWc3lRXzNHOFlYdFE3M3ZOY0NrMVE?oc=5",
-    "published": "2026-08-01",
-    "summary": "永安期货：7月31日获融资买入460.62万元，融资余额2128.82万元占流通市值比例0.11%，低于近一年10%分位水平&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝加哥期货交易所9月交割的小麦期货下跌3.8%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOazVucWRSSDZKS0VWQl9KZ3JSRFJNZUFVVWVGVmQ4VnRuY2Z5OEljbjZuakstVW5rbnlaTGxBdmZwdWVNNXFjX3RIb0xVZmJDRFFfQk8xanhDWlZEZW9YQ1ZRa1lyRUdMRzRQczFjZktKOExLNkh4WGVLQTJRLWplNS1nTUVrRkU?oc=5",
-    "published": "2026-07-31",
-    "summary": "芝加哥期货交易所9月交割的小麦期货下跌3.8%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货午评：贵金属板块领涨期市，碳酸锂暴跌超3%失守14万关口",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83R2Y1M0haM3MyQjVLSlFrMXY1MS1DRjM2VnJEWURETFFvT2VpWkVYVE8wUUlaZ2JKY29OZVVHU2pPWmpCRzdoZE9LT1d6TVgtTW9uVWxrQXk0MFZTTUVuU3BaWElxemptVTFRRDk4T0pzSmdlenl3Rw?oc=5",
-    "published": "2026-07-31",
-    "summary": "期货午评：贵金属板块领涨期市，碳酸锂暴跌超3%失守14万关口&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
