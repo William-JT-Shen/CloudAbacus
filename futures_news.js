@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-08-11T20:58:31Z
-var NEWS_FETCHED_AT="2026-08-11T20:58:31Z";
+// 生成:2026-08-12T02:34:13Z
+var NEWS_FETCHED_AT="2026-08-12T02:34:13Z";
 var GPU_NEWS=[
+  {
+    "title": "芝商所和Silicon Data拟于10月推出两项算力期货合约",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmw3VjRxWE5VVXk3cmRlNU9aSWVkcDc1MlVsdGpPSnNnRVBfR2pOY2NHdWRIeXFPelB4LUVERTllQUpWcVJGMTMyeG40bnpyb0xhc2ZUdnZhb0tGTnNNcUdBaUk0dGJfdURwVTYybDgzMldhcG8tZ3lWdngyMFVhTWtSZGZkWEQxckFUbkNIV1ZmNDNT?oc=5",
+    "published": "2026-08-12",
+    "summary": "芝商所和Silicon Data拟于10月推出两项算力期货合约&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "8点1氪丨最高套现166亿，李嘉诚又卖海外资产；宇树科技中签结果出炉；胖东来公布“委屈奖”，3名员工共获补偿7万元",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3935774730878341?f=rss",
+    "published": "2026-08-12",
+    "summary": "今日热点导览\n  \n   DeepSeek招土木工程师，科技大厂争锋延伸至传统资源领域\n   英伟达牵头5000亿美元融资大单\n   Meta遭1.4万亿美元天价索赔，几乎等同其全部市值\n   腾讯WorkBuddy升级多端同步能力\n   为确保世锦赛期间不被猴子干扰比赛，印度羽协将聘请驯猴师入驻赛事场馆\n   董明珠：自己是靠产品成为“网红”\n  \n  TOP 3大新闻\n  最高套现166亿，李嘉诚又卖海外资产\n  继今年年初高位脱手英国核心电网资产之后，李嘉诚旗下长和系再度推进海外成熟基建资产变现。8月11日，据财联社，李嘉诚家族旗下旗舰基建平台长江基建集团(01038.HK)已委托摩根士丹利与巴克莱银行，正式开启澳大利亚分布式能源企业EDL Energy的控股权售卖流程，项目估值区间介于20亿至30亿澳元（约合110.8亿至 166.6 亿港元）。按照交易时间表，竞标机构需要在9月提交无约束力的初步报价，公司计划于今年年底之前敲定正式转让协议。若本次EDL Energy成功易手，这将成为李嘉诚家族今年以来在澳洲市场最大的一笔资产处置交易。对于这笔潜在交易，长建方面尚未作出回应。(",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "芝商所将在旗下的纽约商品交易所上市H100和B200租赁指数期货",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5LS10ZlBWb0RHQWUzVnptTV80TnNoSmU3VDBWV3F1RkxmWFFuU0dpT1l6eDY5em9yTDhfUldJQzhfOWlka2dSV0dFNXExdkYzWGZpdUYwTW5ZaHRSeUFTbWhWcXpCR0hiMXByNkpUbFFvLTVnbUp3Wg?oc=5",
+    "published": "2026-08-11",
+    "summary": "芝商所将在旗下的纽约商品交易所上市H100和B200租赁指数期货&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美国芝商所与Silicon Data确定10月5日推出算力期货",
     "source": "新浪财经",
@@ -564,42 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUmZHZlVFZXVsQ1pqcmdHVWhEaW5oT0Q5ZUlwWDBGVnZkSi1haWJiLWltczRBZ09FanBYRlYtc1VOdXhBZnYwU1BLOHloZ0pXd3FwSnlCemFVQnpwSEtQOUc2aXNBMzhmZVI3R1gzYUtCWjE3b0Z0T0dkaFJLNnEwenhyUmNUTWNTSlhF?oc=5",
     "published": "2026-08-03",
     "summary": "富时中国A50指数期货跌1%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "多晶硅期货全线涨停！“反内卷”预期再升温，周期拐点来了？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWFpNQ2xqTUxkMjZVeW1GeWp4amxTSHJkbjdBbUNMcmpNc1hEd0QwaHZ3d1NvV0paQU5Ldm95MC1SckxObU53eThFTVcyVmJBT3E3cGtpXzJDeGhSSmtDZ1NWTUdQWE9HRmRxRzkxTVkzal93M01tZkViUTJ1ck96bA?oc=5",
-    "published": "2026-08-03",
-    "summary": "多晶硅期货全线涨停！“反内卷”预期再升温，周期拐点来了？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "新希望：结合生猪期货价格 三季度猪价环比好转但不乐观",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRm1HWldjSEd0VUlkYkhRbjdiUmRJX0hvSllZMFphRlVjcFl4RlFaalpiVDVlek1DQko5VTlrUnM3Qi1EX1U3dlk4REF5NlhwRnh3UlRRS05OTGJCaUd3LXpJUFFRSEI2UFZRUjZkaWtZR2R4UGdoczZyY05RXzQzYjNiR3lkV1BFNmV3M05UMzMzdw?oc=5",
-    "published": "2026-08-03",
-    "summary": "新希望：结合生猪期货价格 三季度猪价环比好转但不乐观&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "“95后”利用AI生成虚假消息炒期货！被罚没48.5万元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4teUtsdzJuOWk4RWF0bXh4eGI4QWo3U0hJUmtROVVjY25QbXdpbnlTMUlhbE1POGszMlE3WDNrZkF4RktKbHp0aGhDbUUzREk3WVpBS24yQU8zUkhVajhuNUF6RDVKem9SRDNKZjdxSGI3YnREQkpscA?oc=5",
-    "published": "2026-08-03",
-    "summary": "“95后”利用AI生成虚假消息炒期货！被罚没48.5万元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
