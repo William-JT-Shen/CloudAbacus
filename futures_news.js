@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-12T02:34:13Z
-var NEWS_FETCHED_AT="2026-08-12T02:34:13Z";
+// 生成:2026-08-12T05:45:34Z
+var NEWS_FETCHED_AT="2026-08-12T05:45:34Z";
 var GPU_NEWS=[
   {
     "title": "芝商所和Silicon Data拟于10月推出两项算力期货合约",
