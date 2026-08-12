@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-12T17:06:26Z
-var NEWS_FETCHED_AT="2026-08-12T17:06:26Z";
+// 生成:2026-08-12T20:57:28Z
+var NEWS_FETCHED_AT="2026-08-12T20:57:28Z";
 var GPU_NEWS=[
+  {
+    "title": "21世纪的新石油？算力期货10月登场，影响几何",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fcVpvUW5aSG84YVdacGdDOENNc3ptNHJXTFFGMXgyaHVkWEM3NlUwWEE2Zk1OM1JPUDAxUUREV1FyNjN0T1hQdDYtWXdrblh4ZUtVTUJmVXRmemoweFRFRWVrdFNDUnByQUN2dlJEWDU0bnJ3Wmc?oc=5",
+    "published": "2026-08-12",
+    "summary": "21世纪的新石油？算力期货10月登场，影响几何&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "全球首个算力期货，来了",
     "source": "新浪财经",
@@ -591,18 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwSUpvOTFBNmtYc0FQcFc5MEJzR0lYY1Y5SlJ2bDFzRENnUzBKQ1BJSGI3NWtVZ3hHQ1VtOEJxYkJmYmR4LWJwazBEZ3ZqZ2JUSlI2SWVqVjJITnBWMWw0WDhVZWlzQ3lQa1JwUlVaLVo0Tlh5cGhOMg?oc=5",
     "published": "2026-08-04",
     "summary": "工行参与香港交易所5年期中国国债期货上市首日交易&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国债期货落地香港 资本市场开放再进一步",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWHlpanlXa2U0R3FoWkh2aXB6NXdGWmh4RWxuNUxQNHctZzhWX3gya25weWxDZWdlaFNoU1BrR2ZMX1FHT3VyZS1na1JINmIycHVhd1g4dG9fSWVyZnM4dEtZdkRQLVBVR3VxNnRiR0RPanhQbW9hMTJDMGFqeE1xMk05dmJSRFE?oc=5",
-    "published": "2026-08-04",
-    "summary": "国债期货落地香港 资本市场开放再进一步&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
