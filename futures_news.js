@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-12T05:45:34Z
-var NEWS_FETCHED_AT="2026-08-12T05:45:34Z";
+// 生成:2026-08-12T09:21:09Z
+var NEWS_FETCHED_AT="2026-08-12T09:21:09Z";
 var GPU_NEWS=[
+  {
+    "title": "刚刚，算力期货传来大消息！解读来了",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2dDRllPUUFXUEo0ZVlEOG9rM2VZYTliYVhXeVJOaEZsYXdlUFA0SVMzb1hWb21aMkdPMFEzdC1rdU56QkhwVV9aNzJRTlJwRUZXNkJJcnY3VDRmdkxtdHRKdWJ3UHZURHZXcTJZSnpremtLQ2FPbkVKelR2MWlGZjBhcXJ2cGQ1WUwyTg?oc=5",
+    "published": "2026-08-12",
+    "summary": "刚刚，算力期货传来大消息！解读来了&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "芝商所和Silicon Data拟于10月推出两项算力期货合约",
     "source": "新浪财经",
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeEZ6UG5yWERPWUEwd1ctUFZSMnRSTkFJQzZEUmczUm9sLU5KNTZBeGkyMFk4QzFPRmtiSVpFSUx6RGN1U0RTY0ZkazM1UFVYODg3OFRGdnNFQ0xpZ3dILVFpNjhseDZ3NDMwNEVXZG03eXRkYmRDaTFlSldQYS1YU19DZW1YVWRqWGpFZlExU1Zjamp4aW1Tdkc1ZjM?oc=5",
     "published": "2026-08-03",
     "summary": "纳斯达克100指数期货涨幅扩大至1% 受美伊谈判预期提振&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "富时中国A50指数期货跌1%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUmZHZlVFZXVsQ1pqcmdHVWhEaW5oT0Q5ZUlwWDBGVnZkSi1haWJiLWltczRBZ09FanBYRlYtc1VOdXhBZnYwU1BLOHloZ0pXd3FwSnlCemFVQnpwSEtQOUc2aXNBMzhmZVI3R1gzYUtCWjE3b0Z0T0dkaFJLNnEwenhyUmNUTWNTSlhF?oc=5",
-    "published": "2026-08-03",
-    "summary": "富时中国A50指数期货跌1%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
