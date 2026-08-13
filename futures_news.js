@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-08-13T02:35:49Z
-var NEWS_FETCHED_AT="2026-08-13T02:35:49Z";
+// 生成:2026-08-13T05:47:35Z
+var NEWS_FETCHED_AT="2026-08-13T05:47:35Z";
 var GPU_NEWS=[
+  {
+    "title": "最前线｜XTransfer邓国标：中小外贸企业正从新兴产业配套环节寻找机会",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3937399009459335?f=rss",
+    "published": "2026-08-13",
+    "summary": "文｜张子怡\n  编辑｜袁斯来\n  8月12日，XTransfer举办2026未来外贸大会。来自外贸企业、银行及金融机构的相关人士参会，讨论今年外贸市场的变化及企业出海面临的新机会。\n  过去几年，地缘冲突、海运波动等因素持续影响全球贸易。XTransfer在会上披露的一项客户调研显示，今年其平台上的中小外贸企业出口仍保持一定韧性，企业回款情况有所改善，部分企业在海外市场的议价能力也在增强。\n  XTransfer创始人兼CEO邓国标认为，相比大型企业，中小外贸企业在市场变化中具有更强的灵活性，可以根据订单和需求变化快速调整市场布局。\n  变化也体现在出口产品结构上。\n  根据海关总署相关数据，以人工智能、机器人、创新药等为代表的新兴产业正在成为中国外贸新的增长来源。\n  邓国标观察到，中小企业并不一定直接参与机器人整机、大模型等核心环节，而是更多从产业链配套切入，例如机器人机架、AI服务器散热件以及医疗耗材包装等领域。\n  这是近年来中国外贸结构变化的一个侧面。过去，中小出口企业更多集中在服装、家具、消费电子等传统品类；随着中国制造业向机器人、AI硬件等新产业延伸，一部分供应链企业也开",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "全球首个算力期货来了",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzhxTU1mNDdRcGVjWDdJYkVzU2Zvb0l2SjQ1SjlLSk4wbXBXSHFvcFFZbVgwTmJNY29KTXpSTHVXZDlSdUQtV0dwY0Z6bm1FY3hOQkxVM3ZBajdvYXU4VUhIU0twM3Vsam9Hb2ZwWmk0b3ZUeUZLX3pTYW9oSWN2QzFwT0g?oc=5",
+    "published": "2026-08-12",
+    "summary": "全球首个算力期货来了&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "21世纪的新石油？算力期货10月登场，影响几何",
     "source": "新浪财经",
@@ -583,30 +607,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "以 AI 赋能名中医传承教育：韩学杰传承工作室与传神素问在京签约",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3926621101422721?f=rss",
-    "published": "2026-08-05",
-    "summary": "名老中医毕生积累的学术思想与临证经验，如何借助数智技术实现“可学、可传、可续”？2026年8月4日，传神素问（武汉）数智科技有限公司（以下简称“传神素问”）与韩学杰传承工作室在京举行战略合作签约仪式，双方将依托中医大模型与数字孪生技术，共建“中医九法五径智能传承模型”，探索名医学术思想数智化传承的新范式。韩学杰教授出席签约仪式并见证签约。\n  此次合作正值国家“十五五”规划开局之年。2026年7月，《中医药振兴发展“十五五”规划》正式印发，明确提出以数智化转型、中西医协同为牵引推进中医药传承创新发展。在此背景下，本次合作正是对这一战略部署的积极响应。\n  \n  图片1\n  名医经验传承呼唤AI数智化破题\n  中医药传承历来依赖“师带徒”的口传心授模式，人才培养周期长、优质师承资源有限、名医隐性经验难以系统沉淀，是长期困扰行业的现实课题。与此同时，人工智能技术在医疗健康领域加速落地，但从技术能力到课程教学、案例研学、模拟训练与科研整理等真实应用场景之间，仍存在“最后一公里”的距离。\n  如何让名医“只可意会”的辨证心法转化为可保存、可调用、可训练的数字资产，让基层医师和青年中医能够更高效",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "工行参与香港交易所5年期中国国债期货上市首日交易",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwSUpvOTFBNmtYc0FQcFc5MEJzR0lYY1Y5SlJ2bDFzRENnUzBKQ1BJSGI3NWtVZ3hHQ1VtOEJxYkJmYmR4LWJwazBEZ3ZqZ2JUSlI2SWVqVjJITnBWMWw0WDhVZWlzQ3lQa1JwUlVaLVo0Tlh5cGhOMg?oc=5",
-    "published": "2026-08-04",
-    "summary": "工行参与香港交易所5年期中国国债期货上市首日交易&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
