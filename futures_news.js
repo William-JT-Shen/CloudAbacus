@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-13T09:21:56Z
-var NEWS_FETCHED_AT="2026-08-13T09:21:56Z";
+// 生成:2026-08-13T13:30:43Z
+var NEWS_FETCHED_AT="2026-08-13T13:30:43Z";
 var GPU_NEWS=[
+  {
+    "title": "算力期货要来了？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WYUNZeFpObm1uNVVTS3E3RjJtQkxYTnpXYV9aUDFmZzdYMHA1b2NNVTJSOGpBOHFocHNsU243aFFsdGY0a2tBWmhxRHZITjZZV3hFdDZXWTFJRFkzQWpuRXNhUWNUbkJwZUphZVNn?oc=5",
+    "published": "2026-08-13",
+    "summary": "算力期货要来了？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "最前线｜XTransfer邓国标：中小外贸企业正从新兴产业配套环节寻找机会",
     "source": "36氪",
@@ -595,18 +607,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "好想来：最简单的生意，为股东赚最多的钱",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3926534429653123?f=rss",
-    "published": "2026-08-05",
-    "summary": "作者&nbsp;|&nbsp;范亮\n  编辑&nbsp;|&nbsp;张帆\n  不久前，《财富》中国500强榜单发布。按ROE（美元计价口径）对上榜企业进行排序，福建万辰（88%）力压泡泡玛特（56%）夺得第一。\n  ROE（净资产收益率）衡量的是企业1元净资产能够在当年赚得多少利润。对公众而言，福建万辰是一个略显陌生的名字，但万辰旗下的“好想来”量贩零食店已经开遍大街小巷。做金针菇起家的万辰，在短短几年时间里，依靠向量贩零食店业务转型，把营收从5亿做到了500亿，资本市场也给出了4年20倍的回报。\n  不过，量贩零食店本质上是一个低客单价、低利润率的生意。万辰集团究竟是如何跑出如此之高的ROE？这种高ROE又能否持续？\n  高周转的经营特性\n  按传统的杜邦分析法，ROE可以分解为：\n  ROE=净利润/股东权益=净利率×资产周转率×权益乘数。当存在少数股东权益，即上市公司仅持有子公司部分股权时，还需要使用归母净利润、归母股东权益的口径。\n  万辰集团在量贩零食产业链中的位置是供应链管理和品牌运营，门店主要依靠加盟商扩张，公司负责选品和供应。由于产品大多来自知名消费品牌，终端售价受限",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
