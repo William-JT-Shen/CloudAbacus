@@ -15936,7 +15936,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.27
+            "price_usd": 0.28
           },
           {
             "platform": "TensorDock",
@@ -15972,7 +15972,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.27
+            "price_usd": 0.28
           }
         ],
         "RTX 5080": [
@@ -16014,19 +16014,19 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.12
+            "price_usd": 0.13
+          }
+        ],
+        "RTX 4060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.06
           }
         ],
         "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.08
-          }
-        ],
-        "RTX 4060": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.05
           }
         ],
         "NVIDIA RTX 3080 / 3080 Ti": [
@@ -16047,16 +16047,10 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.03
           }
         ],
-        "RTX 2060": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.01
-          }
-        ],
         "RTX 8000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.25
+            "price_usd": 0.24
           }
         ],
         "RTX 2070": [
@@ -16075,6 +16069,12 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 1.04
           }
         ],
+        "RTX 2060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.01
+          }
+        ],
         "NVIDIA T4": [
           {
             "platform": "Vast.ai",
@@ -16090,7 +16090,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.03
           }
         ],
         "NVIDIA GH200": [
