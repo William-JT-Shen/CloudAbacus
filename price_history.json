@@ -16147,7 +16147,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.56
+            "price_usd": 3.82
           },
           {
             "platform": "CoreWeave",
@@ -16198,10 +16198,6 @@
             "price_usd": 0.79
           },
           {
-            "platform": "Vast.ai",
-            "price_usd": 0.58
-          },
-          {
             "platform": "CoreWeave",
             "price_usd": 2.25
           },
@@ -16231,7 +16227,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.32
+            "price_usd": 0.31
           },
           {
             "platform": "TensorDock",
@@ -16245,7 +16241,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.12
           }
         ],
         "NVIDIA L4": [
@@ -16267,7 +16263,7 @@
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.32
+            "price_usd": 0.31
           }
         ],
         "RTX 5080": [
@@ -16279,13 +16275,13 @@
         "RTX 5060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.03
+            "price_usd": 0.05
           }
         ],
         "RTX 5070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.1
           }
         ],
         "RTX 5070": [
@@ -16303,13 +16299,7 @@
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
-          }
-        ],
-        "NVIDIA RTX 4070 Ti / 4070": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.12
           }
         ],
         "NVIDIA RTX 4060 Ti": [
@@ -16318,16 +16308,16 @@
             "price_usd": 0.05
           }
         ],
+        "NVIDIA RTX 4070 Ti / 4070": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.08
+          }
+        ],
         "RTX 4060": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.06
-          }
-        ],
-        "NVIDIA RTX 3070 / 3070 Ti": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.04
           }
         ],
         "NVIDIA RTX 3080 / 3080 Ti": [
@@ -16336,10 +16326,26 @@
             "price_usd": 0.07
           }
         ],
+        "NVIDIA RTX 3070 / 3070 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.04
+          }
+        ],
         "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.03
+          }
+        ],
+        "RTX 6000": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.13
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.04
           }
         ],
         "RTX 8000": [
@@ -16352,16 +16358,6 @@
           {
             "platform": "Vast.ai",
             "price_usd": 0.01
-          }
-        ],
-        "RTX 6000": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.13
-          },
-          {
-            "platform": "DataCrunch",
-            "price_usd": 1.04
           }
         ],
         "RTX 2070": [
@@ -16402,13 +16398,11 @@
             "price_usd": 0.03
           }
         ],
-        "NVIDIA GH200": [
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.5
-          }
-        ],
         "NVIDIA V100": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.67
+          },
           {
             "platform": "DataCrunch",
             "price_usd": 1.89
@@ -16416,6 +16410,12 @@
           {
             "platform": "Paperspace",
             "price_usd": 1.84
+          }
+        ],
+        "NVIDIA GH200": [
+          {
+            "platform": "CoreWeave",
+            "price_usd": 6.5
           }
         ],
         "NVIDIA A100 (40GB PCIe)": [
