@@ -16147,7 +16147,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.94
+            "price_usd": 3.68
           },
           {
             "platform": "CoreWeave",
@@ -16245,7 +16245,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.12
           }
         ],
         "NVIDIA L4": [
@@ -16306,6 +16306,12 @@
             "price_usd": 0.12
           }
         ],
+        "NVIDIA RTX 4060 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.08
+          }
+        ],
         "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
@@ -16349,13 +16355,7 @@
         "RTX 8000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
-          }
-        ],
-        "RTX 2060": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.01
+            "price_usd": 0.25
           }
         ],
         "RTX 2070": [
@@ -16364,10 +16364,16 @@
             "price_usd": 0.05
           }
         ],
+        "RTX 2060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.01
+          }
+        ],
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.52
+            "price_usd": 0.48
           },
           {
             "platform": "DataCrunch",
@@ -16396,19 +16402,11 @@
             "price_usd": 0.03
           }
         ],
-        "RTX 5000": [
+        "NVIDIA V100": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.05
-          }
-        ],
-        "NVIDIA GH200": [
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.5
-          }
-        ],
-        "NVIDIA V100": [
+            "price_usd": 0.67
+          },
           {
             "platform": "DataCrunch",
             "price_usd": 1.89
@@ -16416,6 +16414,12 @@
           {
             "platform": "Paperspace",
             "price_usd": 1.84
+          }
+        ],
+        "NVIDIA GH200": [
+          {
+            "platform": "CoreWeave",
+            "price_usd": 6.5
           }
         ],
         "NVIDIA A100 (40GB PCIe)": [
