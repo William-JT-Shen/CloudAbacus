@@ -1,7 +1,205 @@
 // GPU算力期货新闻
-// 生成:2026-08-14T20:39:23Z
-var NEWS_FETCHED_AT="2026-08-14T20:39:23Z";
+// 生成:2026-08-15T01:44:55Z
+var NEWS_FETCHED_AT="2026-08-15T01:44:55Z";
 var GPU_NEWS=[
+  {
+    "title": "9点1氪丨追觅首台手机售价超20万，带创始人俞浩签名；韩国宣布2030年实现登月；胖东来计划招聘20名刑期5年以上刑满释放人员",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3940086573759874?f=rss",
+    "published": "2026-08-15",
+    "summary": "今日热点导览\n  \n   微信朋友圈未来不会推出二次编辑功能\n   遭“薅羊毛式”黑灰产诈骗，东方甄选回应\n   宜家拟处置上海宝山商场物业\n   阿里超15亿美金向中信资本出售灵犀互娱\n   英伟达宣布CPO交换机全面量产\n  \n  TOP 3 大新闻\n  追觅首台手机售价超20万：24K足金镶宝石，带俞浩签名\n  8月13日，追觅手机负责人在朋友圈透露，公司已正式交付001号AURORA手机。据其透露，三万美金（约合人民币20.23万元）交易款项已全部到账，其中首付款1万美金，尾款21184美金。其称，这是 “中国智能手机历史上迄今为止卖出去单台售价最高的旗舰智能手机”。从曝光图片来看，手机不仅背面带有追觅创始人俞浩签名，而且还附带专属编码的典藏证书。证书信息显示，甄选24K足金材质，并镶嵌珍稀宝石。（钱江晚报）\n  韩国宣布2030年实现登月\n  8月12日，韩国总统李在明在青瓦台举行“未来增长动力七大尖端技术发布会”，并公布“七大尖端项目”战略：分别是2029年研制国产100量子比特计算机，2030年实现登月，2035年推动国产小型模块化反应堆（SMR）商业部署，并实现脑机接口",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "中科大孵化，国内唯一通用光量子计算整机企业完成超亿融资丨36氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3940103536491910?f=rss",
+    "published": "2026-08-15",
+    "summary": "图源/企业\n  \n   本文约2200字，建议阅读5分钟\n  \n  作者丨欧雪\n  编辑丨袁斯来\n  硬氪获悉，合肥硅臻芯片技术有限公司（以下简称“硅臻芯片”）近日完成超亿元B轮融资。本轮融资由韦豪创芯、共达电声（002655）联合领投，华策影视（300133）、苏创投、苏金控、创领资本、后浪资本等机构跟投。融资资金将主要用于万比特专用光计算集群与通用量子计算芯片组的研发。\n  硅臻芯片2020年成立于合肥，核心技术源自中国科学技术大学郭光灿院士领衔的中国科学院量子信息重点实验室。公司由教育部长江学者、中国科学技术大学光学与光学工程系执行系主任陈巍，国家杰青、中国科学院量子信息重点实验室副主任任希锋，以及中科大博士、博士期间即从事光量子芯片研发的丁禹阳三位联合创始人共同创立，核心团队在集成光量子领域拥有超过20年技术积累，全部来自中科大郭光灿院士团队。\n  目前，硅臻芯片已构建从核心光量子器件到整机系统的完整技术布局。硅臻芯片总经理丁禹阳表示，公司成立的初衷是“基于光量子芯片技术，让量子密码、量子测量、量子计算三项技术落地到实用化”。\n  在具体产品落地上，硅臻走出了两条清晰的商业化路",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "Amazon and Alphabet’s Profits Reveal Circular Nature of A.I. Boom",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/14/business/ai-tech-profits.html",
+    "published": "2026-08-14",
+    "summary": "Investment gains at Alphabet and Amazon reveal a new way in which technology companies’ fortunes are increasingly linked.",
+    "full_text": "Alphabet and Google have benefited from the rising value of their investments in A.I. companies, adding to profits beyond their core businesses.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "Alphabet 和亚马逊的投资收益揭示了科技公司的命运日益紧密相连的新方式。",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "Google Turns On Gemini A.I. for Students Using Its Classroom App",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/14/business/google-gemini-ai-schools.html",
+    "published": "2026-08-14",
+    "summary": "Google enabled A.I. features for K-12 schools that have allowed student access to Gemini. Until this week, Google automatically enabled Gemini in Classroom only for students 18 or older.",
+    "full_text": "Starting this week, a new Gemini tab within Classroom lets some students seek A.I. help on math problems and writing assignments; generate course aids like study guides, quizzes and flashcards; and produce images.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "从本周开始，“课堂”中的新“双子座”选项卡可让一些学生寻求人工智能。帮助解决数学问题和写作作业；生成学习指南、测验和抽认卡等课程辅助工具；并产生图像。",
+    "translated": true
+  },
+  {
+    "title": "月之暗面IPO，大模型「第二股」需要新叙事",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3938853888097409?f=rss",
+    "published": "2026-08-14",
+    "summary": "作者&nbsp;|&nbsp;范亮\n  编辑&nbsp;|&nbsp;张帆\n  近期，关于月之暗面赴港IPO的消息再次密集出现。\n  8月3日，有市场消息称，月之暗面计划最早于当月向港交所提交上市申请，拟募资约30亿美元，公司随后回应称消息不实。8月8日，又有媒体称月之暗面可能在9月30日前递表。\n  这一幕与智谱、MiniMax上市前颇为相似。\n  2025年，月之暗面长期位于国产大模型第一梯队，也是除DeepSeek外最受关注的大模型创业公司之一。但在资本化节奏上，却是智谱和MiniMax率先完成了港股上市。\n  当时，月之暗面似乎并不急迫。2025年末，杨植麟在内部信中表示，公司完成C轮融资后持有现金超过100亿元，且仍能从一级市场募集大量资金，因此“短期不着急上市”。\n  但智谱和MiniMax上市后的经历，展示了二级市场另一层价值：IPO不仅是一次融资，更是建立持续融资的渠道。\n  2026年7月，智谱通过配售新股募得约314亿港元，仅新增相当于扩大后总股本约4.25%的股份；MiniMax随后完成3560万股新股配售，并同步发行65亿港元可转债。\n  月之暗面则一度在市场消",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "上市前夜 | 京东方之父二次创业冲港股，三年亏掉49亿元",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3938895009234050?f=rss",
+    "published": "2026-08-14",
+    "summary": "本文约5200字，建议阅读11分钟\n  作者&nbsp;|&nbsp;彭孝秋\n  \n   编者按：《上市前夜》栏目聚焦企业冲���资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第九期——奕斯伟计算。\n  \n  69岁的王东升，带着他二次创业公司北京奕斯伟计算冲港股IPO了。\n  王东升被誉为“京东方之父”，他于1993年创立京东方，从创立起就担任董事长兼CEO，直到2016年5月。随后继续担任董事长，任期至2019年6月。\n  2019年6月，王东升离职，并在当年9月创立北京奕斯伟计算。此次IPO选的是中信证券（香港）与中信建投（国际）担任联席保荐人。\n  有意思的是，一方面，奕斯伟计算三年累计净亏损达49亿元；另一方面，其四轮融资已累计获得92.76亿元资金。2025年末，账上现金只剩1.88亿元。\n  如果一句话总结奕斯伟计算，那就是一位重塑过中国显示产业格局的创始人，带着一支京东方系班底和92.76亿元的国家队资金，去赌RISC-V对x86/ARM的架构替代。\n  按2025年营收计，奕斯伟计算是中国最大的国产智能终端人机交互芯片产品提供商，以及",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "上市前夜 | 希音SHEIN的11年融资故事，和一个鲜少提及的棘轮",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3938898614877317?f=rss",
+    "published": "2026-08-14",
+    "summary": "本文约4600字，建议阅读10分钟\n  作者&nbsp;|&nbsp;彭孝秋\n  \n   编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第十期——SHEIN。\n  \n  很多公司上市，是因为缺钱。SHEIN恰恰相反。\n  2023年至2025年，这家公司经营活动现金流净额分别达到17.57亿、14.05亿和28.38亿美元，三年合计造血60亿美元。截至2026年3月底，它手里的现金资源更是达到148.31亿美元。\n  这是什么概念？SHEIN过去11年从A轮一路融到D+轮，我们根据招股书测算，实际收到的股权融资合计约38.4亿美元，外加B轮的1.69亿元人民币。也就是说，SHEIN最近三年自己造出来的现金，已经是过去十一年融资总额的1.55倍。\n  它甚至还是一门典型的“拿别人的钱做生意”的生意：消费者预付款，净收入周转天数长期维持在−12至−13天，2025年存货周转天数只有36天。\n  按常理，这样一家公司并不急着去资本市场拿钱。但翻完SHEIN的招股书，会发现另一个数字：172.94亿美元。\n  这是截至202",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "泡泡玛特的「日本老师」，在中国赚翻了",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3939155401948549?f=rss",
+    "published": "2026-08-14",
+    "summary": "作者 |&nbsp;谢芸子\n  编辑 | 张帆\n  8月12日，Hello Kitty的母公司三丽鸥在东京股市经历了一场“血洗”。\n  财报公布当日，三丽鸥股价盘中跌幅达18%，创下了近十年来的最大单日跌幅。日兴证券的分析师给出的评价很直接，“本次财报表现平淡，无超预期亮点。”\n  这多少有点反直觉。从财报看，截至今年6月的2027财年一季度，三丽鸥的表现并不差：营收520.35亿日元，同比增长20.7%。净利润方面，公司实现155.16亿日元，同比增长9.3%。\n  问题出在营业利润不符合预期。\n  一季度，三丽鸥的营业利润为224.4亿日元，同比增长11.1%；此前市场预期的营业利润是234亿日元，相比少了近10亿日元。更关键的是，过去几个季度，三丽鸥几乎在每次财报披露后都会“上调指引”，这次却“维持不变”。\n  这等于向市场释放了一个信号，三丽鸥的增长放缓或已出现。\n  \n  36氪根据Wind截图\n  一只白猫和阿里鱼\n  1974年，Hello Kitty诞生。这个没有嘴巴、没有固定表情、永远五头身的卡通形象，在随后的五十年里成为全球最赚钱的IP之一。它的母公司三丽鸥，也从一",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "阿里灵犀再传15亿美元出售，或许这就是中国游戏行业的现实",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3939187139935369?f=rss",
+    "published": "2026-08-14",
+    "summary": "灵犀互娱这次真的要易主了？\n  据彭博社报道称，亚洲私股权公司信宸资本接近达成收购阿里巴巴集团控股有限公司视频游戏业务的交易。知情人士表示，信宸资本成为了灵犀互娱最有可能的买家，其出价高于包括电子游戏制造商在内的其他竞购方。据他们透露，此次交易对这家工作室的估值可能超过15亿美元。\n  \n  来源：彭博社\n  截至发稿，灵犀互娱以及信宸资本未作回应。\n  前不久的6月23日，就有多家媒体报道，阿里巴巴集团正计划出售旗下游戏业务品牌灵犀互娱，整体报价70亿至90亿元人民币（约合10.38亿~13.35亿美元），低于本次曝出的出售价格。\n  从市场估值和收入情况来看，灵犀互娱并非处于爆发式增长阶段，而是一个现金流稳定、增长曲线已长期平稳的成熟业务。至于为何频繁被曝业务出售，可能要从灵犀互娱的产品和发展路线说起。\n  01\n  灵犀最重要的现金牛产品，是《三国志·战略版》。\n  《三国志·战略版》上线于2019年，截至目前全球注册用户突破1亿。在Sensor&nbsp;Tower等榜单上，常年盘踞中国手游收入榜前列，是国内SLG赛道里商业化能力最稳定的产品之一。\n  按各大第三方平台数据，2",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "独家 | 腾讯混元徐灿转岗微信WeLM，微信AI进入加速阶段",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3939234424700041?f=rss",
+    "published": "2026-08-14",
+    "summary": "&nbsp;\n  文 | 李炤锋\n  编辑 | 张雨忻\n  智能涌现从相关人士处获悉，混元资深研究员徐灿在近期加入腾讯WeLM团队，从事大模型研发相关工作。\n  多名知情人士透露，在姚顺雨接手腾讯大语言模型研发前，徐灿在混元LLM体系中担任后训练一个方向上的负责人。值得一提的是，这次转岗发生在微信持续强化自研大模型和Agent能力的阶段。6月，微信原生AI助手“小微”已进入小范围灰度测试，可通过文字或语音操作微信原生功能，并调用小程序完成服务任务。\n  公开招聘信息也显示，微信近期在招聘WeLM推理优化及Agent方向研究人员，徐灿的加入或将进一步补充WeLM在训练、推理及复杂任务执行方面的研发力量。\n  这位有微软亚洲研究院背景的资深研究员，长期从事合成数据、指令数据构造及大模型后训练研究。尤其在强化学习反馈、自动评测和训练数据迭代方面的积累，与WeLM当前强化模型训练及复杂任务能力的方向具有较高契合度。\n  知情人士称，徐灿近两年在混元参与后训练工作的经验，可能正是WeLM看重的部分。\n  01 混元LLM重要成员，专注Agent和后训练方向\n  混元发生的这一岗位变动，与团队过去",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "氪星晚报｜五粮液出手稳价；谷歌推出Gemini 3.7 Flash模型；7月贷款利率保持低位水平",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3939192336465028?f=rss",
+    "published": "2026-08-14",
+    "summary": "大公司：\n  特斯拉SpaceX合并传闻再起，马斯克薪酬激励或高达8240亿美元\n  一档播客节目指出，如果马斯克促成特斯拉和SpaceX合并，他可能获得最高8240亿美元的财富。按特斯拉去年批准的薪酬方案，马斯克在达成运营目标和市值目标后，最多可获4.23亿股特斯拉股票。华尔街认为，若特斯拉发生控制权变更，则运营目标视为达成，且市值目标也更容易达成。\n  五粮液出手稳价\n  8月13日，记者从多位经销商处获悉，五粮液约一周前向经销商下发通知，取消以前部分渠道政策，并明确第八代五粮液出货价格不得低于800元/瓶。针对低价窜货、低价抛售行为，品牌方将视情节采取罚款等处罚措施。不过，有经销商向记者表示，只要不是大范围的恶意窜货，实际执行中一般不会轻易处罚。截至发稿，五粮液官方未就此发布书面文件或公开回应。\n  英伟达宣布CPO交换机全面量产\n  8月14日，英伟达宣布Spectrum-X Ethernet Photonics已进入全面量产阶段，为面向AI工厂的下一代大规模扩展网络基础设施提供支持。英伟达表示，Spectrum-X Ethernet Photonics专为吉瓦级AI工厂网络需",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "「意图经济」爆火背后：年轻人想做旅行里的甩手掌柜",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3939439529622917?f=rss",
+    "published": "2026-08-14",
+    "summary": "你有没有过这种情况，旅行还没开始，人已经开始累了。\n  打开小红书搜目的地，划到手指发酸，几十条笔记刷下来，内容长得越来越像。同一个机位、同一句“绝美出片”、同一份“三天两夜特种兵攻略”。\n  想比个价，得在5、6个APP间来回横跳。攻略攒了一堆，可这些内容分散在图片、视频、长文里，没有一个能直接拿来用，最后还得打开备忘录，一条一条手动敲：Day1住哪、Day2怎么去、几点的票、中转要多久。\n  手机里装满了APP，但最烦人的事还得自己干，相当于自带干粮给它打工。“意图经济”这个词翻红，就在于精准击中了人们对传统平台服务溢价的不满。\n  “意图经济”翻译成人话就是：用户只管讲明白想要什么，剩下的闹心事交给机器去办。对被“旅行内耗”榨干的年轻人来说，这句话几乎带着点解放的意味，那个替你跑腿的角色，第一次可以不再是你自己。\n  问题是，这句话能不能兑现。\n  试着把这些琐事甩给AI，让它帮忙规划一下？确实省了不少划手机的时间，方案生成得又快又漂亮，可细看才发现问题不少：推荐的酒店查无此店，给出的航班时刻和实际班次对不上，甚至会出现它信誓旦旦地说某个博物馆“周一闭馆需避开”，结果公共节假日人",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "Thrive Holdings, A.I.-Focused Buyer of Service Firms, Raises $2 Billion",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/12/business/dealbook/thrive-holdings-ai-funding.html",
+    "published": "2026-08-13",
+    "summary": "The company, Thrive Holdings, acquires businesses to infuse them with artificial intelligence and drew interest from backers like SoftBank.",
+    "full_text": "Thrive Holdings was created by the investment firm led by Joshua Kushner, left, as a bet on applying artificial intelligence to traditional service businesses.",
+    "lang": "en",
+    "title_cn": "专注于人工智能的服务公司买家 Thrive Holdings 融资 20 亿美元",
+    "summary_cn": "这家名为 Thrive Holdings 的公司收购了一些企业，为它们注入人工智能，并引起了软银等支持者的兴趣。",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "3 Ex-Georgia Deputies Used Flock Cameras to Stalk People, Sheriff Says",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/12/us/georgia-sheriffs-flock-cameras-stalking.html",
+    "published": "2026-08-13",
+    "summary": "The former Bibb County deputies were arrested this week amid a growing national debate over Flock cameras, which can be found on roads in every state but Alaska.",
+    "full_text": "About 7,000 law enforcement agencies, or 40 percent of all departments in the United States, have contracts with Flock.",
+    "lang": "en",
+    "title_cn": "治安官称，三名前佐治亚州代表使用群体摄像机跟踪人们",
+    "summary_cn": "前比伯县代表本周被捕，全国范围内围绕 Flock 摄像头的争论日益激烈，除阿拉斯加州外，每个州的道路上都可以找到 Flock 摄像头。",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "Another OpenAI Executive, Denise Dresser, Departs the A.I. Start-Up",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/13/technology/openai-executive-departure-denise-dresser.html",
+    "published": "2026-08-13",
+    "summary": "Denise Dresser, who was previously the C.E.O. of Slack, is the latest in a string of executives to leave the artificial intelligence start-up.",
+    "full_text": "Denise Dresser, OpenAI’s chief revenue officer, is one of a number of executives to leave OpenAI in recent months.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "丹尼斯·德莱瑟（Denise Dresser），前任首席执行官Slack 的创始人是一系列高管中最新离开这家人工智能初创公司的。",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "Judge Affirms Settlement Allowing HPE’s Deal for Juniper",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/13/technology/hpe-juniper-justice-department-settlement.html",
+    "published": "2026-08-13",
+    "summary": "States had opposed an agreement allowing a Hewlett Packard Enterprise acquisition, calling the settlement ineffective and corrupt.",
+    "full_text": "Last year, the Trump administration sued to block Hewlett Packard Enterprise, led by Antonio Neri, above, from buying Juniper Networks for $14 billion, saying the deal would harm competition.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "各州反对允许惠普企业收购的协议，称该和解无效且腐败。",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "算力期货要来了？",
     "source": "新浪财经",
@@ -25,6 +223,19 @@ var GPU_NEWS=[
     "images": [
       "data:;base64,="
     ]
+  },
+  {
+    "title": "Driver Sets Record for Hydrogen-Powered Vehicle at More Than 406 M.P.H.",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/12/us/land-speed-record-utah-andy-green.html",
+    "published": "2026-08-12",
+    "summary": "Andy Green, a 64-year-old retired Royal Air Force pilot from Britain, was already the only person to break the sound barrier on land. “The ground comes at you very, very quickly,” he said.",
+    "full_text": "Andy Green after setting a new land speed record for a hydrogen-powered vehicle on Tuesday at the Bonneville Salt Flats in Utah.",
+    "lang": "en",
+    "title_cn": "司机创下氢动力汽车时速超过 406 英里的纪录",
+    "summary_cn": "来自英国的 64 岁皇家空军退役飞行员安迪·格林 (Andy Green) 已经是唯一在陆地上突破音障的人。 “地面非常非常快地向你袭来，”他说。",
+    "full_text_cn": "",
+    "translated": true
   },
   {
     "title": "全球首个算力期货来了",
@@ -397,216 +608,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "多家基金公司集中上报创业板算力基础设施、金融科技ETF",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53NnpVWkRmNTVPSl9xaE4tZ2EyQVNtOWdFNl9mVVFReERhbi1YcEJIeWJFNVpJRmZyQUhpV2tsU04xeVBDVVV1MWRlUS1SRmJCc0U0a2QxQ19JM3V4ajB2WXQ2MTIyNUgxX1dwMm8zd0FMNndHMGFpdg?oc=5",
-    "published": "2026-08-08",
-    "summary": "多家基金公司集中上报创业板算力基础设施、金融科技ETF&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Follow the Markets and Track Stocks With These Free Apps",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/06/technology/personaltech/finance-stocks-apps.html",
-    "published": "2026-08-07",
-    "summary": "Google Finance and Apple’s Stocks app have added new features over the years to make them more useful for tracking the markets and your investments.",
-    "full_text": "Apple's free Stocks app for its devices provides a dashboard for following personal investments, markets and financial news.",
-    "lang": "en",
-    "title_cn": "使用这些免费应用程序关注市场并跟踪股票",
-    "summary_cn": "多年来，Google财经和苹果的股票应用程序增加了新功能，使其更适合跟踪市场和投资。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "Meta Ordered to Pay $567 Million Fine by New Mexico Judge",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/06/technology/meta-new-mexico-child-safety.html",
-    "published": "2026-08-07",
-    "summary": "The penalty, imposed by a state judge, is on top of a $375 million fine ordered by a jury that found Meta misled users about the safety of its platforms.",
-    "full_text": "A New Mexico judge ordered Meta to pay $567 million and make changes to the way young people can use its platform",
-    "lang": "en",
-    "title_cn": "新墨西哥州法官责令 Meta 支付 5.67 亿美元罚款",
-    "summary_cn": "陪审团发现 Meta 在其平台的安全性方面误导用户，并下令处以 3.75 亿美元的罚款，而该处罚是由州法官判处的。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "8点1氪丨DeepSeek宣布大幅涨价；贾国龙再创业，开店“天边羊多”；河南试行周五下午弹性离岗",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3928685883308165?f=rss",
-    "published": "2026-08-07",
-    "summary": "今日热点导览\n  \n   字节跳动内部严禁蒸馏开源模型\n   中信证券：韩股杠杆去化尚未完成\n   印尼电商企业自11月1日起代征卖家收入所得税\n   字节跳动全员会：整合豆包、飞书与火山引擎，AI业务重点转向ToB生产力\n   万科组织架构再“瘦身”：办公事业部解散，事业部缩减至7个\n  \n  TOP 3大新闻\n  DeepSeek宣布大幅涨价\n  8月6日，DeepSeek公告：“计划近期整体上调DeepSeek API服务的定价，预计涨幅较大，请合理安排您的使用。具体方案以正式通知为准。”8月3日，海外开发者平台OpenCode披露了一组数据：8月1日当天，DeepSeek V4 Flash在其平台上单日处理Token总量达8万亿。其中5万亿来自免费试用额度，3万亿来自开发者付费调用。（每日经济新闻）\n  贾国龙再创业，新店“天边羊多”近期开业\n  8月5日，记者获悉，在“天边砂锅焖面”之后，西贝创始人贾国龙探索的新业态“天边羊多”于8月7日在北京开出全国首店。\n  记者在天边店小二官方公众号发布的预告视频看到，“天边羊多”新店将主打内蒙古鲜羊肉到店加工，菜品包括羊肉烧麦、烤羊肉",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "赋予机器人“空间直觉”，「Ommo Technologies」获数千万美元A轮融资｜36氪首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3927419946629256?f=rss",
-    "published": "2026-08-07",
-    "summary": "文｜胡香赟\n  编辑｜海若镜\n  当AI开始尝试理解物理世界时，一个最基础的问题悄然浮出水面：机器人究竟如何感知自身在空间中的位置？\n  视觉能告诉它看到了什么，编码器会告诉它关节转了多少度，力觉、触觉则会告诉它摸到了什么。但当机械手抓取柔软物体、手指相互遮挡，或进入狭小腔体的时候，所有这些传感方式都可能失效。因为，这些“物理条件下的天然局限”，会导致机器人丢失对自己末端位置的感知。\n  \n  图源：\n  这正是Ommo Technologies（下称“Ommo”），一家空间智能技术公司试图解决的问题。36氪获悉，近期，Ommo已完成数千万美元A轮融资。本轮融资由香港鼎珮集团（VMS Group）、某知名基金联合领投，康君资本跟投，点石资本担任长期独家财务顾问。\n  此外，本轮募集资金将用于核心产品空间定位系统的技术迭代与量产体系建设，推进公司产品在具身智能、先进制造、医疗等场景的合作落地。\n  Ommo创始人郑敏杰介绍，自己的创业起点源于大学时期对3D交互技术的探索，并做过一款交互电子书，让纸质书籍也能实现数字化交互。创办OMMO后，团队也曾尝试延续这类技术方向，却在产品落地时遇到一",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "36氪首发 | 拿下头部消费电子客户订单，这家超高精度金属3D打印公司完成Pre-A轮融资",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3928769679686019?f=rss",
-    "published": "2026-08-07",
-    "summary": "图源/企业\n  \n   本文约2600字，建议阅读6分钟\n  \n  作者丨欧雪\n  编辑丨袁斯来\n  硬氪获悉，苏州德悟科技有限公司（下称“德悟科技”）已于近期完成数千万元Pre-A轮融资，本轮由金沙江联合资本和金投致源共同投资。资金将主要用于超高精度SLM设备的迭代研发、打印服务产线扩产及市场拓展。\n  德悟科技2024年5月成立于苏州，专注于超高精度金属3D打印SLM（选区激光熔化）设备的研发、生产、销售及打印服务，是国内少数掌握微米级金属增材制造核心技术的公司之一。\n  目前，公司业务覆盖设备研发、AI+设计服务、打印服务，为消费电子、医疗器械、航空航天等行业提供高精度、复杂微小金属零部件的制造解决方案。\n  德悟科技核心创始人学术与从业背景覆盖研发到商业化全链条：团队核心人员核心成员来自上海交大、西工大、英属哥伦比亚、亚琛工大等知名高校，拥有金属增材设备及工艺、AI for Science（软件仿真、参数自主优化等）及投资机构等多重技术和产业背景，首席科学家为亚琛工大博士、深耕增材设备及材料开发多年。团队整体具备材料、机械、流体力学、机器学习等多学科技术能力及多维商业化经验。\n",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "齿科3D打印龙头下场做消费级产品，众筹超7000万元｜Insight全球",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3928866062416001?f=rss",
-    "published": "2026-08-07",
-    "summary": "作者&nbsp;|&nbsp;张子怡\n  编辑&nbsp;|&nbsp;袁斯来\n  \n   编者按：当出海越来越成为一家中国公司核心战略时，如何征战全球市场就成为一个极其专业的话题。在全球化的演变中，已有不少中国品牌站立潮头。鉴于此，硬氪特推出「Insight全球」专栏，从品牌成长与变迁，探索中国品牌出海的前沿方向与时代契机，为出海玩家与行业提供思考与启发。\n   这是我们专栏第63期——黑格科技从齿科数字化市场起步，在一次次产品调整和技术迭代中，逐步建立起覆盖设备、材料、算法、软件与服务的全栈能力。如今，这家公司又将目光投向消费级UV 3D打印，希望把在专业市场中磨出的技术与产品能力，带到更广泛的全球用户面前。这也是黑格成立多年后，对公司边界的一次重新探索。\n  \n  过去几年，黑格科技创始人兼CEO桂培炎谈得最多的是“牙齿”。你和你家人用的义齿、正畸模型，有很大概率属于黑格的光固化3D打印产品。\n  仅仅凭借齿科业务，在国内齿科技工端市占率超60%。“如果我们产线出问题了，全国的牙科医院都要断货。”桂培炎对硬氪开玩笑。\n  桂培炎的雄心显然不止当个细分赛道的隐形冠军。前不久，黑格科",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "中国游戏，进入「与AI同游」时代",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3929147779136896?f=rss",
-    "published": "2026-08-07",
-    "summary": "ChinaJoy今年的剧本变了。\n  往年的ChinaJoy，是游戏玩家一年一度的夏日狂欢，新品试玩、coser聚会，叠加属于游戏的一切想象，也构成了中国游戏行业的初心与蓬勃景象。\n  而今年的ChinaJoy，少了些打游戏的声响，多了些造游戏的躁动。\n  2026 ChinaJoy的主题是“与AI同游”，近900家展商、14万平方米展区，展会规模和“含AI”量同时创下历史新高。\n  更有意思的是展商名单的变化。今年世界人工智能大会上的技术展商们，没休息多久，就马不停蹄地转场搬进了ChinaJoy现场。没多少是“纯血”游戏出身，可能根本不懂哪款游戏好玩，但他们决定的是“游戏还能被怎样创造”。\n  夏日带来生机，燥热也带来困惑。全民造游戏仿佛成为了一个不容置疑的结果，但又没有人去认真地回答一个问题：\n  \n  2026 ChinaJoy展会现场，图源ChinaJoy公众号\n  未来，如果AI真的要把美术、开发、运营的管线“吃掉”，造游戏不再具有筛选价值，那么游戏行业的稀缺性将会转移到哪里，转变为什么？\n  一场结构性的转变之后，新的悬顶之剑又会现身于何方？\n  01. “做游戏”的门槛消",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "不等了！一个盲人上手造了个导盲机器人",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3929352336587906?f=rss",
-    "published": "2026-08-07",
-    "summary": "&nbsp;\n  一个看不见的人，如何获得独立出行的自由？\n  \n  &nbsp;\n  访谈 | 刘思洁、李嘉星\n  撰文&nbsp;|&nbsp;刘思洁\n  编辑&nbsp;|&nbsp;张薇\n  封面来源&nbsp;|&nbsp;AI Look官网\n  &nbsp;\n  全球人工智能大会的采访间里，两个声音同时响起。\n  视障人士朱清毅在向“未来人类实验室”讲述他的连续创业经历时，另一个平静的带有一些机械感的女生则说着：\n  “方向朝南，距离约1.4米”。\n  “左侧灰墙装双开关，铺灰地毯”。\n  女声来自朱清毅身旁一台形似缩小版太空探测仪的机械设备。它身上的摄像头、雷达和多重传感器正在工作，扫描着周围的环境，并把数据转化成语音，一句一句播报出来。\n  \n  AI LOOk机器人\n  &nbsp;\n  这是朱清毅创办的朱葛机器人团队生产的导盲机器人，名叫AI Look。从立项到今天，花了六年。专门为视障人士设计，帮他们避障、导航......\n  朱清毅启动这个项目时，他面对的并非一个市场机会，只是一个困扰自己几十年的问题：一个看不见的人，如何获得独立出行的自由？\n  \n  朱清毅在",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "中资券商深度参与离岸国债期货做市，券商国际业务打开新空间，证券ETF博时(159260)估值修复空间备受关注",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNkVqLTA5dDNTMU1ha2lSdHB0SVY5ajYxNjJGWUhWZC1XZkQ3WWlnNXFsSmxKSjl1bnEzSElERWF1SGo4WmNneFhRZ0J0QnVBODZ0a2lBNFJjVFJQc0xNcEVGMUl5cEoxdGluYnNYMlhYb1U5djU2bWxBU2lFcXZQT1N5TQ?oc=5",
-    "published": "2026-08-06",
-    "summary": "中资券商深度参与离岸国债期货做市，券商国际业务打开新空间，证券ETF博时(159260)估值修复空间备受关注&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "TikTok Lays Off 250 Employees in Office That Includes Content Moderation",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html",
-    "published": "2026-08-06",
-    "summary": "TikTok did not give a detailed reason for the layoffs, which will shutter its Nashville office.",
-    "full_text": "In January, TikTok’s Chinese parent company, ByteDance, spun out an American venture to operate in the United States.",
-    "lang": "en",
-    "title_cn": "TikTok 解雇 250 名办公室员工，其中包括内容审核",
-    "summary_cn": "TikTok 没有给出裁员的详细原因，此次裁员将关闭其纳什维尔办事处。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "F.C.C. Removes Limit on Broadcast TV Ownership",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/06/technology/fcc-broadcast-tv-ownership.html",
-    "published": "2026-08-06",
-    "summary": "The move lifts a rule that said a single television-station owner could not reach more than 39 percent of U.S. households.",
-    "full_text": "Brendan Carr, the F.C.C. chairman, has investigated and threatened to revoke the television licenses of ABC, NBC and CBS as part of an aggressive campaign to combat what he sees as liberal bias in broadcast television.",
-    "lang": "en",
-    "title_cn": "F.C.C.取消广播电视所有权限制",
-    "summary_cn": "此举解除了一项规定，即单一电视台所有者无法覆盖超过 39% 的美国家庭。",
-    "full_text_cn": "布伦丹·卡尔，F.C.C.主席已对美国广播公司 (ABC)、全国广播公司 (NBC) 和哥伦比亚广播公司 (CBS) 进行调查，并威胁吊销其电视执照，作为打击他认为的广播电视中的自由主义偏见的积极行动的一部分。",
-    "translated": true
-  },
-  {
-    "title": "美国天然气期货跌2.3%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZRldfTzNEQ1c4SkY2UzJUNWZlZHg0OHlQTUptRXZIN2FCRWxKdVp1WmlvRkZCV0RKQkdhNGJqRURpTWdFVXZiQ0Z3RkZTYzNDdzM2YVBKNTVKeTlRaFhPc3E0T0lpSVlRUXFmemtKa1p0MEd3bXd2bg?oc=5",
-    "published": "2026-08-06",
-    "summary": "美国天然气期货跌2.3%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Four Top Google A.I. Researchers Form New Start-Up",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
-    "published": "2026-08-05",
-    "summary": "Jeff Dean, who for years was one of Google’s most important executives, is leading the new artificial intelligence company with the backing of Google.",
-    "full_text": "Quoc V. Le, left, Oriol Vinyals, Jeff Dean and Sanjay Ghemawat are leaving Google to start a new A.I. company called Discovery Loop.",
-    "lang": "en",
-    "title_cn": "四大Google人工智能研究人员组建新的初创公司",
-    "summary_cn": "杰夫·迪恩（Jeff Dean）多年来一直是Google最重要的高管之一，他在Google的支持下领导着这家新的人工智能公司。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "Google Names Demis Hassabis to New AI Role in a Leadership Shake-up",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/05/technology/google-ai-leadership.html",
-    "published": "2026-08-05",
-    "summary": "Minutes after four top researchers said they were leaving, Google said that Demis Hassabis, the Nobel-winning scientist who led the company’s A.I. lab, was stepping into a new job.",
-    "full_text": "Demis Hassabis of Google’s DeepMind A.I. lab, gave up his operational role to become chair of DeepMind and chief scientist of Alphabet.",
-    "lang": "en",
-    "title_cn": "Google任命 Demis Hassabis 担任领导层改组中的新人工智能职位",
-    "summary_cn": "在四名顶尖研究人员表示要离开几分钟后，Google表示，领导该公司人工智能的诺贝尔奖获得者科学家杰米斯·哈萨比斯(Demis Hassabis)将离开Google。实验室，正在踏入新的工作。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "最新上期所黄金期货仓单变动-每日更新查询（2026年8月5日）",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQVAxemRZaWhsMHZPc29aUkVlQjBnQVZZbS1KVm1aWlQydUhjRkZwZWZzcVl0cy13QkpaVmVNYlhILTNjbjdmczNsMko5MF81eFA1UkVWWkF0VXR2M09yanpSMVdjYm5IbWdXOGdqOVh1allTVjhPOGRDblYzaGVsc2tXWGNpYnJnUGtHWA?oc=5",
-    "published": "2026-08-05",
-    "summary": "最新上期所黄金期货仓单变动-每日更新查询（2026年8月5日）&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内期货主力合约多数上涨，贵金属板块涨幅居前",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XcWFaQWlFdlkxYkxSQ3FCZGRSSnE0YXplcktMc1dJMlpFeDBURTN4SlE1a1EybUd4UVZMZHBXel9EcnNKWk9KQ3pkRjJrYkRyMmZZV2NyWkZNY1pzZDJxVUlmVTdMWlMyeDZmQVpBTnF0eXVSOE8yVA?oc=5",
-    "published": "2026-08-05",
-    "summary": "国内期货主力合约多数上涨，贵金属板块涨幅居前&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
