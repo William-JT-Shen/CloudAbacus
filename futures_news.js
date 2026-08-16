@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-15T20:32:08Z
-var NEWS_FETCHED_AT="2026-08-15T20:32:08Z";
+// 生成:2026-08-16T01:50:33Z
+var NEWS_FETCHED_AT="2026-08-16T01:50:33Z";
 var GPU_NEWS=[
+  {
+    "title": "赚得越多，亏得越狠：CoreWeave财报背后的AI算力重资产困局",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wRndsdjZzOUx0OC03TVdXOHI0ZW1kT2dRRUFKN0xqMUhlOW1OV1pJOVR2a1VmOTBib29sVjRGdnNlWFpkX3hMRG1zdnIxSHotLTdyejFhNWRUWDZGRVM3LXZQQTBBcnNkbndxYmVscEUxdFp2V1E?oc=5",
+    "published": "2026-08-15",
+    "summary": "赚得越多，亏得越狠：CoreWeave财报背后的AI算力重资产困局&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "芝加哥商品交易所拟挂牌英伟达H100、B200 GPU算力期货合约",
     "source": "新浪财经",
@@ -597,17 +609,5 @@ var GPU_NEWS=[
     "summary_cn": "这家科技巨头正在投资建设天然气燃烧发电厂，作为德克萨斯州大型数据中心的一部分，同时它也承诺履行气候承诺。",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "9点1氪｜宇树科技中签率不足长鑫十五分之一；东航宣布提前14天可免费退改票；雪佛兰将停止在华销售",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3930156837518471?f=rss",
-    "published": "2026-08-08",
-    "summary": "今日热点导览\n  \n   OpenAI更新ChatGPT体验，免费用户可使用GPT-5.6 Luna并享无限文本聊天\n   美科学家首次用AI设计出新型病毒\n   粉笔教育回应名师出走\n   多地“兰州拉面”改名“青海拉面”\n   王兴兴：深耕具身智能，加速机器人造福社会、\n   深圳二手豪宅成交回暖\n  \n  TOP3大新闻\n  宇树科技预计发行4044.6434万股，中签率不足长鑫十五分之一\n  宇树科技于下周一即8月10日开启申购，普通投资者主要参与网上发行。本次预计发行4044.6434万股，其中网上初始发行647.10万股，打新申购代码为“787836”，上市后交易代码为“688836”。\n  宇树科技以150.8元/股发行、219倍市盈率登陆科创板，但网上中签率预计仅0.02%-0.03%，不足此前长鑫科技0.47%中签率的十五分之一。这场悬殊的筹码分配背后，既有人形机器人赛道稀缺性的定价逻辑，也有散户与机构之间利益分配的结构性争议。（新浪财经）\n  东航发布新规：提前14天可免费退改签\n  中国东航发布新版《国内客票自愿退票和自愿变更实施细则》，对于2026年8月6日（含",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
   }
 ];
