@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-16T08:39:43Z
-var NEWS_FETCHED_AT="2026-08-16T08:39:43Z";
+// 生成:2026-08-16T12:55:06Z
+var NEWS_FETCHED_AT="2026-08-16T12:55:06Z";
 var GPU_NEWS=[
   {
     "title": "赚得越多，亏得越狠：CoreWeave财报背后的AI算力重资产困局",
@@ -48,6 +48,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "深度调查｜风险管理子公司两大业务“归母”，期货公司面临“大考”",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQlJQWDVhWFc1UV9mMkVpejFiMElZYzBhRFBJT0lPT2t1LUgzSGhsRHEtaDMxUEdQWTQtZ3R4M3pKTVNJNUFiV0FvZDdvWXplOGt4a3RMTDU1T0V1Q21KdUZHVjB5ZGJMbEZjVV9mUVpKQzM1N2xVQ2tjQ1hrUFdUN2EyUlp2ZjgzN09ETXh6ZFE3ckFfekNxYTZNOHd6WGM3RFNDY3F2Rk5hbTU0TzN2c281RWJHOTNFRjUwbnQzSXVBLWtONlR5alVYYl93RGRWeTZ5RDI0OHR3eEptckRwVS1R?oc=5",
+    "published": "2026-08-14",
+    "summary": "深度调查｜风险管理子公司两大业务“归母”，期货公司面临“大考”&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -596,18 +608,5 @@ var GPU_NEWS=[
     "images": [
       "data:;base64,="
     ]
-  },
-  {
-    "title": "New Amazon Data Center Stokes Worry It Would Be the Most Polluting Power Plant in the U.S.",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
-    "published": "2026-08-08",
-    "summary": "The tech giant is investing in the natural-gas-burning power plant as part of a huge data center in Texas, even as it pledges to honor climate commitments.",
-    "full_text": "The artificial intelligence boom is causing tech companies like Amazon to struggle to meet their pledges to cut greenhouse gas emissions.",
-    "lang": "en",
-    "title_cn": "亚马逊新数据中心令人担心它将成为美国污染最严重的发电厂",
-    "summary_cn": "这家科技巨头正在投资建设天然气燃烧发电厂，作为德克萨斯州大型数据中心的一部分，同时它也承诺履行气候承诺。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
