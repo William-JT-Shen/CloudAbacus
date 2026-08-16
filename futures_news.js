@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-16T04:45:31Z
-var NEWS_FETCHED_AT="2026-08-16T04:45:31Z";
+// 生成:2026-08-16T08:39:43Z
+var NEWS_FETCHED_AT="2026-08-16T08:39:43Z";
 var GPU_NEWS=[
   {
     "title": "赚得越多，亏得越狠：CoreWeave财报背后的AI算力重资产困局",
