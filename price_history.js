@@ -16723,7 +16723,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.56
+            "price_usd": 3.82
           },
           {
             "platform": "CoreWeave",
@@ -16807,7 +16807,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.27
+            "price_usd": 0.21
           },
           {
             "platform": "TensorDock",
@@ -16843,7 +16843,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.27
+            "price_usd": 0.21
           }
         ],
         "RTX 5080": [
@@ -16882,12 +16882,6 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.08
           }
         ],
-        "NVIDIA RTX 4060 Ti": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.07
-          }
-        ],
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
@@ -16915,7 +16909,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3070 / 3070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.05
           }
         ],
         "RTX 6000": [
@@ -16934,16 +16928,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.24
           }
         ],
-        "RTX 2060": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.01
-          }
-        ],
         "RTX 2070": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.05
+          }
+        ],
+        "RTX 2060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.01
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
@@ -16969,7 +16963,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA Tesla P100 / P40": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.07
           }
         ],
         "RTX 2080": [
