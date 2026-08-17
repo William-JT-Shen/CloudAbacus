@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-17T01:49:24Z
-var NEWS_FETCHED_AT="2026-08-17T01:49:24Z";
+// 生成:2026-08-17T04:53:50Z
+var NEWS_FETCHED_AT="2026-08-17T04:53:50Z";
 var GPU_NEWS=[
   {
     "title": "8点1氪丨Anthropic有望2万亿美元估值上市；旺旺集团面临重大经营危机；Sorry勒索病毒正在国内传播",
@@ -230,6 +230,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "WTI原油期货价格跌3.13% 布伦特原油期货价格跌2.90%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZmhpSEhMVF9OWjdZQ0J5QmdRT2tmUFNCS0gxMkZmR3J5WUNVcnhEQmxOMW5VOVBMSExENkt6SGlXQ2NHcERwQ1lUVllOcGMzaHJoaUNORWF5aGh5V0M0SEhIUFpPdWdhRVlzblpBMWkzMjNiU3R0aWg1UjFFZThzMngxMEtEZms?oc=5",
+    "published": "2026-08-13",
+    "summary": "WTI原油期货价格跌3.13% 布伦特原油期货价格跌2.90%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -591,18 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcHFqd0FHSGpjMmVIRGFwZ3hVNE5xcnNIdDN1bnFEVkFDamJIWHJRU1EtdTN0WG1ZUHYyT25sVFdQR3JzbWtwUm9HM0JQLXQwRm5uZ24tQ3hfSm1CeE9UUGtiZll1WWg3SG15U29icXR3all4WnluT0V6RkFHSnlBZQ?oc=5",
     "published": "2026-08-10",
     "summary": "碳酸锂期货吨价一周涨近万元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "新五丰拟投入2000万元开展商品期货套期保值业务 覆盖生猪及饲料原料",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcUh2bmd0LW12R2owSXBzbVNxZ3loZTZqQzY5MFo1WVBrRWlNd2pkaUJYcjBycml3Zkh5TFRIMDF2QndOdWdILXlISlVQWnk4SV8xTklaSHFZZFFldS0tWHlaOW9xUm8wOEw5dkNWcG1DOHMzM0lnWE9KejYzaGxIQW1jckhEc0U?oc=5",
-    "published": "2026-08-10",
-    "summary": "新五丰拟投入2000万元开展商品期货套期保值业务 覆盖生猪及饲料原料&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
