@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-17T16:38:45Z
-var NEWS_FETCHED_AT="2026-08-17T16:38:45Z";
+// 生成:2026-08-17T20:36:23Z
+var NEWS_FETCHED_AT="2026-08-17T20:36:23Z";
 var GPU_NEWS=[
+  {
+    "title": "Nebius与CoreWeave主推短期云订单，AWS深耕长期合约",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT3p4Q2trWW10cXR5SXZjYWhVWGFkd19QM1AyMGFnNjhKb0lYNjY0YXFCSmVRYlZ0dEwyNEhvWHQ1eFd1OVkwUEF3b1UyUlhISkttWU1LeGpqRTZfa1YzN2VZR1FpRmVkVHJBajcyVjNFbnJrSGdIZE9uQTlhRXlKMl9sZ29KZWc?oc=5",
+    "published": "2026-08-17",
+    "summary": "Nebius与CoreWeave主推短期云订单，AWS深耕长期合约&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "8点1氪丨Anthropic有望2万亿美元估值上市；旺旺集团面临重大经营危机；Sorry勒索病毒正在国内传播",
     "source": "36氪",
@@ -591,18 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JUUVfSzhOck9kQ0xmQ1UzV09uREZ2Y0wtYjZUcEFUTXFxNFg5SGhvYWVtMXVLZi1jaTczTVhLYm10SFZ3bEROYVBMUjlLWkZsWC1fMXk0b1huX01waEtyX3NQNzRpa2RtandoS01lLXBNRTJjRnlEMw?oc=5",
     "published": "2026-08-10",
     "summary": "ICE农产品期货主力合约涨跌不一，原糖期货涨0.06%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "碳酸锂期货吨价一周涨近万元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcHFqd0FHSGpjMmVIRGFwZ3hVNE5xcnNIdDN1bnFEVkFDamJIWHJRU1EtdTN0WG1ZUHYyT25sVFdQR3JzbWtwUm9HM0JQLXQwRm5uZ24tQ3hfSm1CeE9UUGtiZll1WWg3SG15U29icXR3all4WnluT0V6RkFHSnlBZQ?oc=5",
-    "published": "2026-08-10",
-    "summary": "碳酸锂期货吨价一周涨近万元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
