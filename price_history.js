@@ -17026,7 +17026,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 1.34
+            "price_usd": 1.87
           },
           {
             "platform": "CoreWeave",
@@ -17070,7 +17070,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.29
+            "price_usd": 0.27
           },
           {
             "platform": "DataCrunch",
@@ -17098,7 +17098,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.11
           }
         ],
         "NVIDIA L4": [
@@ -17150,7 +17150,13 @@ var PRICE_HISTORY_DATA = {
         "RTX 5060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.06
+          }
+        ],
+        "NVIDIA RTX 4060 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.05
           }
         ],
         "NVIDIA RTX 4080 / 4080 Super": [
@@ -17183,10 +17189,20 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.05
           }
         ],
+        "RTX 6000": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.13
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.04
+          }
+        ],
         "RTX 8000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.25
+            "price_usd": 0.24
           }
         ],
         "RTX 2070": [
@@ -17201,16 +17217,6 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.01
           }
         ],
-        "RTX 6000": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.13
-          },
-          {
-            "platform": "DataCrunch",
-            "price_usd": 1.04
-          }
-        ],
         "NVIDIA T4": [
           {
             "platform": "Vast.ai",
@@ -17220,13 +17226,27 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA Tesla P100 / P40": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.07
           }
         ],
         "RTX 2080": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.03
+          }
+        ],
+        "NVIDIA V100": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.67
+          },
+          {
+            "platform": "DataCrunch",
+            "price_usd": 1.89
+          },
+          {
+            "platform": "Paperspace",
+            "price_usd": 1.84
           }
         ],
         "NVIDIA GH200": [
@@ -17243,16 +17263,6 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "JarvisLabs",
             "price_usd": 0.44
-          }
-        ],
-        "NVIDIA V100": [
-          {
-            "platform": "DataCrunch",
-            "price_usd": 1.89
-          },
-          {
-            "platform": "Paperspace",
-            "price_usd": 1.84
           }
         ],
         "NVIDIA A100 (40GB PCIe)": [
