@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-18T04:44:51Z
-var NEWS_FETCHED_AT="2026-08-18T04:44:51Z";
+// 生成:2026-08-18T08:48:53Z
+var NEWS_FETCHED_AT="2026-08-18T08:48:53Z";
 var GPU_NEWS=[
+  {
+    "title": "算力期货10月上线，贝莱德(BLK.US)押注万亿新资产",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLVFNcWpHQUlKOENlX285cXZreXpYS2ppVVRIcmc4ZFAtN0ppQnFXUEJXanA1eHZrcG9GcWI0V3BuMGcwY0QtQ1FHVGRCT0MweUZhb0duajZIVGFaYTZQbmdnR0FxUFVCMWFOQWVPRHZmRUh1UXF3aV83SG10Y0tJcFRic01reXF2Z0NicVZ3?oc=5",
+    "published": "2026-08-18",
+    "summary": "算力期货10月上线，贝莱德(BLK.US)押注万亿新资产&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "Nebius与CoreWeave主推短期云订单，AWS深耕长期合约",
     "source": "新浪财经",
@@ -591,18 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pVmdoTWR0a0NoSVFldHUyOU9ZRF93VzBob3RzaUs1RU9jbGtLTFpTLU55QXNOR2JQU05GcDlFSHFiRVZDdFloUWJxdDJ4V1ZFZUxzclFhM3J1b0t3MVpCZVZXeFpEWEtURUdTblRkRFhPNWtfd0t3UQ?oc=5",
     "published": "2026-08-10",
     "summary": "国内期货夜盘开盘&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "ICE农产品期货主力合约涨跌不一，原糖期货涨0.06%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JUUVfSzhOck9kQ0xmQ1UzV09uREZ2Y0wtYjZUcEFUTXFxNFg5SGhvYWVtMXVLZi1jaTczTVhLYm10SFZ3bEROYVBMUjlLWkZsWC1fMXk0b1huX01waEtyX3NQNzRpa2RtandoS01lLXBNRTJjRnlEMw?oc=5",
-    "published": "2026-08-10",
-    "summary": "ICE农产品期货主力合约涨跌不一，原糖期货涨0.06%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
