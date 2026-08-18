@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-18T01:43:37Z
-var NEWS_FETCHED_AT="2026-08-18T01:43:37Z";
+// 生成:2026-08-18T04:44:51Z
+var NEWS_FETCHED_AT="2026-08-18T04:44:51Z";
 var GPU_NEWS=[
   {
     "title": "Nebius与CoreWeave主推短期云订单，AWS深耕长期合约",
