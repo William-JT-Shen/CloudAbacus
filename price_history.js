@@ -17626,7 +17626,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.21
+            "price_usd": 0.29
           },
           {
             "platform": "TensorDock",
@@ -17662,25 +17662,25 @@ var PRICE_HISTORY_DATA = {
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.21
+            "price_usd": 0.29
           }
         ],
         "RTX 5080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.13
           }
         ],
         "RTX 5060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.05
           }
         ],
         "RTX 5070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.08
           }
         ],
         "RTX 5070": [
@@ -17692,7 +17692,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.05
+            "price_usd": 0.06
           }
         ],
         "NVIDIA RTX 4070 Ti / 4070": [
@@ -17701,22 +17701,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.08
           }
         ],
-        "NVIDIA RTX 4060 Ti": [
+        "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.14
           }
         ],
         "RTX 4060": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.06
-          }
-        ],
-        "NVIDIA RTX 4080 / 4080 Super": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.14
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
@@ -17768,13 +17762,13 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA Tesla P100 / P40": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.13
           }
         ],
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.03
           }
         ],
         "NVIDIA GH200": [
