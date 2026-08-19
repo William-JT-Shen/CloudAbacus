@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-19T16:46:32Z
-var NEWS_FETCHED_AT="2026-08-19T16:46:32Z";
+// 生成:2026-08-19T21:09:32Z
+var NEWS_FETCHED_AT="2026-08-19T21:09:32Z";
 var GPU_NEWS=[
+  {
+    "title": "美国商品期货交易委员会就算力衍生品合约上市征求意见",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tTEN0Y3FfbzBTbTVZSm93ZnZjQi1ybDJGM1JSRmtpeThRSi0yNTJYWThWbGZlUTRLWFpMcHdjelFMX0hMbEtzOW1wSkFVY2tXU3d1SjZkckI2MHZ2bVp0YkJILTE3MmJ1a3RDWjd1XzJwcGd3MmMzdQ?oc=5",
+    "published": "2026-08-19",
+    "summary": "美国商品期货交易委员会就算力衍生品合约上市征求意见&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美债到5%，吓坏了AI投资者",
     "source": "36氪",
@@ -591,18 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBURlN6dXFIbEt0S1hrdnlLeVk5M0pKSWs0aHRTbVR3QXB5Mm5IMnBnc1ZTUlA4UV9rUXNIaWtDV1hFVXNwUHEzQW16UHg3UFdaZTE0bTJUVFF2dFZtZm9BaV9VTUFQMUdLdFJQYmVIVTdFelhRUEk2bQ?oc=5",
     "published": "2026-08-10",
     "summary": "CBOT农产品期货主力合约收盘涨跌不一，大豆期货涨0.34%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国际原油期货日内涨幅扩大至1.5%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TSWZCQjFPRWhUSmFydDhjS25tLTF4VFdlbWVLY1RIenFrVzdrSGpGbzF0Q1JxM2xGc0YtYTFxcmRJQnhQMUdna3VkRzIzNnA4S3huZjg1UDg1VUg2UWpubFktWlcwYmVtenZTMGJuNEVEWURRM2xVWA?oc=5",
-    "published": "2026-08-10",
-    "summary": "国际原油期货日内涨幅扩大至1.5%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
