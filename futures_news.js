@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-19T21:09:32Z
-var NEWS_FETCHED_AT="2026-08-19T21:09:32Z";
+// 生成:2026-08-20T01:44:14Z
+var NEWS_FETCHED_AT="2026-08-20T01:44:14Z";
 var GPU_NEWS=[
+  {
+    "title": "美国商品期货交易委员会（CFTC）就算力期货合约公开征求意见",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BS0pQZmVhRUFjcTlWUXA5VDdOa0dDZlUtX3RhQ3VFcnUzOEZOS1hWYmZRX3c1Q0EyeWZMc0tCZU9rdVBlM0N6czh5Z01YVGNKUktJbW9MT19Xa3UzMmlHSnNKNTJUaFFwXzZNa2htMDV6Q0ZZWkt2cw?oc=5",
+    "published": "2026-08-19",
+    "summary": "美国商品期货交易委员会（CFTC）就算力期货合约公开征求意见&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美国商品期货交易委员会就算力衍生品合约上市征求意见",
     "source": "新浪财经",
@@ -591,18 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ245WDhvcG1mb0VPdC1TaXlOenNnak5MQndLN0ZwckxNdHJ1VWZQTTNZUGNiZzhTNjhXbGFCODdjUlhQSmR0YnhtVjVjQnVNTHp0ZmFPM0xYX1dMcy1GVjFrcnNIWm45Q19LMTRXd2dFM1VTUWo3WVJkTkNQWV95RGdBeDhaZmM?oc=5",
     "published": "2026-08-10",
     "summary": "上海期货交易所：对部分客户采取限制开仓监管措施&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "CBOT农产品期货主力合约收盘涨跌不一，大豆期货涨0.34%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBURlN6dXFIbEt0S1hrdnlLeVk5M0pKSWs0aHRTbVR3QXB5Mm5IMnBnc1ZTUlA4UV9rUXNIaWtDV1hFVXNwUHEzQW16UHg3UFdaZTE0bTJUVFF2dFZtZm9BaV9VTUFQMUdLdFJQYmVIVTdFelhRUEk2bQ?oc=5",
-    "published": "2026-08-10",
-    "summary": "CBOT农产品期货主力合约收盘涨跌不一，大豆期货涨0.34%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
