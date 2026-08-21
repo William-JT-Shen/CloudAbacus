@@ -18110,7 +18110,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.96
+            "price_usd": 2.64
           },
           {
             "platform": "CoreWeave",
@@ -18132,7 +18132,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 1.49
+            "price_usd": 1.55
           },
           {
             "platform": "CoreWeave",
@@ -18259,16 +18259,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.06
           }
         ],
-        "NVIDIA RTX 4060 Ti": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.05
-          }
-        ],
         "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.08
+          }
+        ],
+        "NVIDIA RTX 4060 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.06
           }
         ],
         "NVIDIA RTX 4080 / 4080 Super": [
@@ -18326,7 +18326,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 8000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.27
+            "price_usd": 0.25
           }
         ],
         "NVIDIA T4": [
@@ -18350,7 +18350,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA V100": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.27
+            "price_usd": 0.25
           },
           {
             "platform": "DataCrunch",
