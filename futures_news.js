@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-21T01:49:50Z
-var NEWS_FETCHED_AT="2026-08-21T01:49:50Z";
+// 生成:2026-08-21T04:50:23Z
+var NEWS_FETCHED_AT="2026-08-21T04:50:23Z";
 var GPU_NEWS=[
+  {
+    "title": "专访任利锋：那个曾做出抖音的人，如今在工厂里做AI",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3948773732728195?f=rss",
+    "published": "2026-08-21",
+    "summary": "文｜温丽虹\n  编辑｜张雨忻\n  位于北京海淀的互联网金融中心，任利锋创办的“数美万物”在这里有3个办公地点。其中的一间不是办公室而是实验室，他们采购来市面上主流的3D打印机，在实验室桌面上次第排开，每天打印自研生成式3D模型生成的东西。经自研模型Hi3D生成的图纸打印出的实物有没有破面或其它瑕疵，又如何改进、修补，都在这间屋内见分晓。\n  8月中旬，“数美万物”自研的Hi3D V3.0模型走入公开发布前的最后阶段。随着团队每天的调试与讨论，测试打印任务激增，产生的树脂废料还来不及完全清理，一部分就堆放在纸箱里，暂时存放在实验室的角落。\n  2024年年初，任利锋创办数美万物，成为他离开字节跳动后职业生涯的新落点。那是国内大模型创业最热的时候，任利锋挑了一条没什么人排队的路：AI 3D生成+制造。后来的两年间，他们在珠三角自建工厂，研发的生成式AI 3D大模型意图帮助人们把创意和设计图落地为可制造的工艺品。\n  钱很快送到了门口。公司2024年年初成立，天使轮便有了眉目，红杉中国与IDG资本就很快投了天使轮的橄榄枝。\n  资本对任利锋的热情不难理解。他是一名有资格吃过往“本钱”的明星创",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "New Jersey Teenager Drops Bellwether Social Media Addiction Lawsuit",
     "source": "NYT Tech",
@@ -596,18 +608,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "5000亿美元算力融资：英伟达把GPU变成了华尔街可投资资产",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45VGlYeVVXRmhSMDVjQUNqWUlONjlzek5SUkhYUWkxV0FhZE53aUhQSGtUYTdEUUYyV1lkeGI4d2pwTWVYWWVKaGktY05zTEFHRHdvQ1RvaGV5UHF4cHN3YWFsRFNWenQ0RFE1NkhpeVRRbHVlX1ZWXw?oc=5",
-    "published": "2026-08-11",
-    "summary": "5000亿美元算力融资：英伟达把GPU变成了华尔街可投资资产&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
