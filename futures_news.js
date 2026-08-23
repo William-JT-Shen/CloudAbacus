@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-23T04:47:33Z
-var NEWS_FETCHED_AT="2026-08-23T04:47:33Z";
+// 生成:2026-08-23T08:41:37Z
+var NEWS_FETCHED_AT="2026-08-23T08:41:37Z";
 var GPU_NEWS=[
   {
     "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
@@ -576,6 +576,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "AI算力开启金融化时代：芝商所官宣拟于10月推出两项期货合约",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVanVwZm9EUUNlbFJXVjU2Ty12VThNbkFOU3lGWUlLcFBfUTkwaHlzRU1wbzBSYWhnTnB2OEZybXJ3Sk02WlpPV3pEbzhLYTR5bFhGM3lVVVpiWlg1RkhVU1NCRTl1ckdoaG4zN0NB?oc=5",
+    "published": "2026-08-11",
+    "summary": "AI算力开启金融化时代：芝商所官宣拟于10月推出两项期货合约&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "芝商所将在旗下的纽约商品交易所上市H100和B200租赁指数期货",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5LS10ZlBWb0RHQWUzVnptTV80TnNoSmU3VDBWV3F1RkxmWFFuU0dpT1l6eDY5em9yTDhfUldJQzhfOWlka2dSV0dFNXExdkYzWGZpdUYwTW5ZaHRSeUFTbWhWcXpCR0hiMXByNkpUbFFvLTVnbUp3Wg?oc=5",
@@ -593,18 +605,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLTlyNUd1OFgyTlRVd0diZGJKOHBfQTdTRWRGMWU2VFliclhfS0tZcXBwNDNFaUxaakpMb0ttZ2NaTTFMaVBqSnFudHpROXZBcmRCdkpjX3A4SVFJTWZJaG0ycFRzYmhCNTF6Vk5lbU1HdUktRTRJZ2FvWEpFSmZQZg?oc=5",
     "published": "2026-08-11",
     "summary": "美国芝商所与Silicon Data确定10月5日推出算力期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所和Silicon Data计划10月5日推出算力期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzYURNMHJ5dHgxclRlOFN0a0lYQnNDbVh4bkhkUzVxclZsRkxMbkFGc2RwS0xPRnZYMzBxY0JPQ3BXbG55cGxJUjhnTGd2RnE2V0dZdHJVajRvNlR3V0dTbF9saXllM1ZvVk9Ld3Qzcks4emdkWkJpOWxB?oc=5",
-    "published": "2026-08-11",
-    "summary": "芝商所和Silicon Data计划10月5日推出算力期货&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
