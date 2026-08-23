@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-23T12:56:08Z
-var NEWS_FETCHED_AT="2026-08-23T12:56:08Z";
+// 生成:2026-08-23T16:36:24Z
+var NEWS_FETCHED_AT="2026-08-23T16:36:24Z";
 var GPU_NEWS=[
+  {
+    "title": "全球算力金融化加速，上海如何下好先手棋",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tOGFYcVBFQkFvN3dDNjVPWlpZNktxQ3RpVm8zaVY0ZFdpY2R4bXc4M2lqaUxPOS1hVTlHazJaVE5KT1VvTmI2R3B5a1llZUcwTkgyVHJrTVZxSnpnZHl1c2RpQ3JTczJxLTVJQjN3?oc=5",
+    "published": "2026-08-23",
+    "summary": "全球算力金融化加速，上海如何下好先手棋&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
     "source": "NYT Tech",
@@ -593,18 +605,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5LS10ZlBWb0RHQWUzVnptTV80TnNoSmU3VDBWV3F1RkxmWFFuU0dpT1l6eDY5em9yTDhfUldJQzhfOWlka2dSV0dFNXExdkYzWGZpdUYwTW5ZaHRSeUFTbWhWcXpCR0hiMXByNkpUbFFvLTVnbUp3Wg?oc=5",
     "published": "2026-08-11",
     "summary": "芝商所将在旗下的纽约商品交易所上市H100和B200租赁指数期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国芝商所与Silicon Data确定10月5日推出算力期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLTlyNUd1OFgyTlRVd0diZGJKOHBfQTdTRWRGMWU2VFliclhfS0tZcXBwNDNFaUxaakpMb0ttZ2NaTTFMaVBqSnFudHpROXZBcmRCdkpjX3A4SVFJTWZJaG0ycFRzYmhCNTF6Vk5lbU1HdUktRTRJZ2FvWEpFSmZQZg?oc=5",
-    "published": "2026-08-11",
-    "summary": "美国芝商所与Silicon Data确定10月5日推出算力期货&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
