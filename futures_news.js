@@ -1,7 +1,20 @@
 // GPU算力期货新闻
-// 生成:2026-08-23T01:53:13Z
-var NEWS_FETCHED_AT="2026-08-23T01:53:13Z";
+// 生成:2026-08-23T04:47:33Z
+var NEWS_FETCHED_AT="2026-08-23T04:47:33Z";
 var GPU_NEWS=[
+  {
+    "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
+    "published": "2026-08-23",
+    "summary": "The mysterious collapse of a European cryptocurrency exchange helps to explain why the industry hasn’t shaken off its reputation as a magnet for criminals.",
+    "full_text": "Nicole Suszek last month with a phone showing a missing-person poster for her older brother, Sylwester Suszek.",
+    "lang": "en",
+    "title_cn": "四年前，一位加密货币老板失踪了。现在他的继任者已经。",
+    "summary_cn": "欧洲加密货币交易所的神秘倒闭有助于解释为什么该行业仍未摆脱吸引犯罪分子的名声。",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "36氪项目推荐周榜|第14期，本期热度TOP10",
     "source": "36氪",
@@ -592,18 +605,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzYURNMHJ5dHgxclRlOFN0a0lYQnNDbVh4bkhkUzVxclZsRkxMbkFGc2RwS0xPRnZYMzBxY0JPQ3BXbG55cGxJUjhnTGd2RnE2V0dZdHJVajRvNlR3V0dTbF9saXllM1ZvVk9Ld3Qzcks4emdkWkJpOWxB?oc=5",
     "published": "2026-08-11",
     "summary": "芝商所和Silicon Data计划10月5日推出算力期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "AI算力开启金融化时代：芝商所官宣拟于10月推出两项期货合约",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVanVwZm9EUUNlbFJXVjU2Ty12VThNbkFOU3lGWUlLcFBfUTkwaHlzRU1wbzBSYWhnTnB2OEZybXJ3Sk02WlpPV3pEbzhLYTR5bFhGM3lVVVpiWlg1RkhVU1NCRTl1ckdoaG4zN0NB?oc=5",
-    "published": "2026-08-11",
-    "summary": "AI算力开启金融化时代：芝商所官宣拟于10月推出两项期货合约&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
