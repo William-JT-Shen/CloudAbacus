@@ -18814,7 +18814,7 @@
         "RTX 5070 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.11
           }
         ],
         "RTX 5070": [
@@ -18838,7 +18838,7 @@
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.11
+            "price_usd": 0.17
           }
         ],
         "NVIDIA RTX 4070 Ti / 4070": [
@@ -18850,7 +18850,13 @@
         "RTX 4060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.05
+          }
+        ],
+        "NVIDIA RTX 3060 / 3060 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.03
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
@@ -18865,12 +18871,6 @@
             "price_usd": 0.07
           }
         ],
-        "NVIDIA RTX 3060 / 3060 Ti": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.04
-          }
-        ],
         "RTX 6000": [
           {
             "platform": "Vast.ai",
@@ -18879,12 +18879,6 @@
           {
             "platform": "DataCrunch",
             "price_usd": 1.04
-          }
-        ],
-        "RTX 2070": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.05
           }
         ],
         "RTX 8000": [
@@ -18899,10 +18893,10 @@
             "price_usd": 0.01
           }
         ],
-        "RTX 5000": [
+        "RTX 2070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.04
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
@@ -18928,7 +18922,7 @@
         "NVIDIA Tesla P100 / P40": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.09
           }
         ],
         "RTX 2080": [

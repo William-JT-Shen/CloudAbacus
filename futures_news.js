@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-23T08:41:37Z
-var NEWS_FETCHED_AT="2026-08-23T08:41:37Z";
+// 生成:2026-08-23T12:56:08Z
+var NEWS_FETCHED_AT="2026-08-23T12:56:08Z";
 var GPU_NEWS=[
   {
     "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
