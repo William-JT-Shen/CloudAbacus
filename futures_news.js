@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-24T13:06:21Z
-var NEWS_FETCHED_AT="2026-08-24T13:06:21Z";
+// 生成:2026-08-24T16:49:52Z
+var NEWS_FETCHED_AT="2026-08-24T16:49:52Z";
 var GPU_NEWS=[
   {
     "title": "全球算力金融化加速，上海如何下好先手棋",
@@ -26,6 +26,18 @@ var GPU_NEWS=[
     "summary_cn": "欧洲加密货币交易所的神秘倒闭有助于解释为什么该行业仍未摆脱吸引犯罪分子的名声。",
     "full_text_cn": "",
     "translated": true
+  },
+  {
+    "title": "永续期货引发华尔街生存危机 —— 全天候增强版衍生品，紧迫性陡然升级",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQjB2cWY4QlE2NG1SR3VpQi0wMXZhblM3UWE4Y0ZRdkR5eUs0RkkxenRxeDdQUmh2YWM5OW5ycXFLT3duZ1NvQU9UQUtZTVluUjJGaVJCd2hNbW9Bb0FFWnk4SlJTajRvX0Z5MEk5VGtNbzdFZzUyLUR4Y1ZjcnBRTnVXVi1sNnpYb0s1clJDS2MtYk8xb1dmbmhxLXZQa3ZlZnRrWnU4cTBXV3RNclcyVVNWSnpTb1h0R0lmSzFieG1zN29oWFRNb1Vwb05Rc0FrbnBNRkhhTVkxUThSR3g4?oc=5",
+    "published": "2026-08-21",
+    "summary": "永续期货引发华尔街生存危机 —— 全天候增强版衍生品，紧迫性陡然升级&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
   },
   {
     "title": "36氪项目推荐周榜|第14期，本期热度TOP10",
@@ -593,18 +605,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVanVwZm9EUUNlbFJXVjU2Ty12VThNbkFOU3lGWUlLcFBfUTkwaHlzRU1wbzBSYWhnTnB2OEZybXJ3Sk02WlpPV3pEbzhLYTR5bFhGM3lVVVpiWlg1RkhVU1NCRTl1ckdoaG4zN0NB?oc=5",
     "published": "2026-08-11",
     "summary": "AI算力开启金融化时代：芝商所官宣拟于10月推出两项期货合约&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所将在旗下的纽约商品交易所上市H100和B200租赁指数期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5LS10ZlBWb0RHQWUzVnptTV80TnNoSmU3VDBWV3F1RkxmWFFuU0dpT1l6eDY5em9yTDhfUldJQzhfOWlka2dSV0dFNXExdkYzWGZpdUYwTW5ZaHRSeUFTbWhWcXpCR0hiMXByNkpUbFFvLTVnbUp3Wg?oc=5",
-    "published": "2026-08-11",
-    "summary": "芝商所将在旗下的纽约商品交易所上市H100和B200租赁指数期货&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
