@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-25T13:03:07Z
-var NEWS_FETCHED_AT="2026-08-25T13:03:07Z";
+// 生成:2026-08-25T16:48:22Z
+var NEWS_FETCHED_AT="2026-08-25T16:48:22Z";
 var GPU_NEWS=[
   {
     "title": "全球算力金融化加速，上海如何下好先手棋",
@@ -503,6 +503,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "芝商所联合Silicon Data在10月推出算力期货",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mMGRhcWdEYWZVU2lvcklSNGJZakt2QlFteHdfb3lJXzlia1ZfQVhlMkxuT1J3cDlIcldFQXI1VlRCaXdDUEVfQ2E1T3lwcWVPcHdxMTJaZVRWN0ZkZ1pfclNLdXFPU19zRTdGVEl1VQ?oc=5",
+    "published": "2026-08-12",
+    "summary": "芝商所联合Silicon Data在10月推出算力期货&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "Driver Sets Record for Hydrogen-Powered Vehicle at More Than 406 M.P.H.",
     "source": "NYT Tech",
     "url": "https://www.nytimes.com/2026/08/12/us/land-speed-record-utah-andy-green.html",
@@ -597,18 +609,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "8点1氪丨最高套现166亿，李嘉诚又卖海外资产；宇树科技中签结果出炉；胖东来公布“委屈奖”，3名员工共获补偿7万元",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3935774730878341?f=rss",
-    "published": "2026-08-12",
-    "summary": "今日热点导览\n  \n   DeepSeek招土木工程师，科技大厂争锋延伸至传统资源领域\n   英伟达牵头5000亿美元融资大单\n   Meta遭1.4万亿美元天价索赔，几乎等同其全部市值\n   腾讯WorkBuddy升级多端同步能力\n   为确保世锦赛期间不被猴子干扰比赛，印度羽协将聘请驯猴师入驻赛事场馆\n   董明珠：自己是靠产品成为“网红”\n  \n  TOP 3大新闻\n  最高套现166亿，李嘉诚又卖海外资产\n  继今年年初高位脱手英国核心电网资产之后，李嘉诚旗下长和系再度推进海外成熟基建资产变现。8月11日，据财联社，李嘉诚家族旗下旗舰基建平台长江基建集团(01038.HK)已委托摩根士丹利与巴克莱银行，正式开启澳大利亚分布式能源企业EDL Energy的控股权售卖流程，项目估值区间介于20亿至30亿澳元（约合110.8亿至 166.6 亿港元）。按照交易时间表，竞标机构需要在9月提交无约束力的初步报价，公司计划于今年年底之前敲定正式转让协议。若本次EDL Energy成功易手，这将成为李嘉诚家族今年以来在澳洲市场最大的一笔资产处置交易。对于这笔潜在交易，长建方面尚未作出回应。(",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
