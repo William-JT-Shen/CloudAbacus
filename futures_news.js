@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-24T20:41:02Z
-var NEWS_FETCHED_AT="2026-08-24T20:41:02Z";
+// 生成:2026-08-25T01:44:42Z
+var NEWS_FETCHED_AT="2026-08-25T01:44:42Z";
 var GPU_NEWS=[
   {
     "title": "全球算力金融化加速，上海如何下好先手棋",
@@ -26,6 +26,18 @@ var GPU_NEWS=[
     "summary_cn": "欧洲加密货币交易所的神秘倒闭有助于解释为什么该行业仍未摆脱吸引犯罪分子的名声。",
     "full_text_cn": "",
     "translated": true
+  },
+  {
+    "title": "中天期货:商品指数商品继续上行 白银再度上行",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVFBfRzZkRG9zLWNOam4xNERndWR0RHY2WG9UWXBRNWVwOS13ek1UN1BQc2VlUVJBaHhjYVhuWktNUWhPcEVYQ0NuYlhDQnZDRDMyZjNtWGZ0dVU3eU1oOTkwZ0JFUjc0ZHZpdVlqMFpZeHh1T1BsZU5Ta09Gd1d4UjFpQkpaRmpxOGNOVXp5ZUZ6eUxnVEZNbFJOWW5zVFJMazJrOEtySVNnX0FkQS03Y2FLSlozMl8xZm9mbFFOYmJEdmhvM2QxZE1aM0hkTVAwX1NmaDFsSlZ2aVRZdUFDTUkyVQ?oc=5",
+    "published": "2026-08-21",
+    "summary": "中天期货:商品指数商品继续上行 白银再度上行&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
   },
   {
     "title": "永续期货引发华尔街生存危机 —— 全天候增强版衍生品，紧迫性陡然升级",
@@ -597,18 +609,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "AI算力开启金融化时代：芝商所官宣拟于10月推出两项期货合约",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVanVwZm9EUUNlbFJXVjU2Ty12VThNbkFOU3lGWUlLcFBfUTkwaHlzRU1wbzBSYWhnTnB2OEZybXJ3Sk02WlpPV3pEbzhLYTR5bFhGM3lVVVpiWlg1RkhVU1NCRTl1ckdoaG4zN0NB?oc=5",
-    "published": "2026-08-11",
-    "summary": "AI算力开启金融化时代：芝商所官宣拟于10月推出两项期货合约&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
