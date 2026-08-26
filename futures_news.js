@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-26T13:09:19Z
-var NEWS_FETCHED_AT="2026-08-26T13:09:19Z";
+// 生成:2026-08-26T16:54:53Z
+var NEWS_FETCHED_AT="2026-08-26T16:54:53Z";
 var GPU_NEWS=[
   {
     "title": "Gold, Flights, Cryptocurrency: U.S. Vows to Go After More Than Iran’s Oil",
