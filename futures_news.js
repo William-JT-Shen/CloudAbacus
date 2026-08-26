@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-26T16:54:53Z
-var NEWS_FETCHED_AT="2026-08-26T16:54:53Z";
+// 生成:2026-08-26T23:18:45Z
+var NEWS_FETCHED_AT="2026-08-26T23:18:45Z";
 var GPU_NEWS=[
+  {
+    "title": "���天气，正在「点燃」黄金行情",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3955937575402881?f=rss",
+    "published": "2026-08-26",
+    "summary": "作者&nbsp;|&nbsp;黄绎达\n  编辑&nbsp;|&nbsp;张帆\n  近期，全球资本市场正在经历一轮由真实世界物理约束与金融条件持续收紧交织所引发的剧烈震荡。\n  由于强厄尔尼诺乃至“超强厄尔尼诺”导致农产品减产的预期持续升温，今年以来农产品价格集体走强。截至8月25日，农产品中表现最为突出的CBOT豆油、CBOT稻谷、CBOT小麦和ICE2号棉花年初至今分别上涨了45%、35%、30%和24%。\n  \n  图：年初至今主要农产品期货价格涨跌幅；资料来源：wind，36氪\n  股票市场方面，自今年6月中下旬以来，全球AI链资产进入持续调整期。截至8月25日，费城半导体指数近2个月内的最大跌幅高达20%，韩国KOSPI 50指数同期跌幅更是高达29%；AI链核心个股三星电子、SK海力士、美光科技在同期的最大跌幅分别高达43%、49%和30%，巨大的跌幅与万亿资本开支形成鲜明反差。\n  美债长端利率持续上行，是市场当前的另一大风险点。其中，30年美债利率升破5%关键关口，高点一度站上5.31%，刷新了2007年以来新高。作为全球无风险利率定价之锚，美债利率的快速上行加剧了金融市",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "Gold, Flights, Cryptocurrency: U.S. Vows to Go After More Than Iran’s Oil",
     "source": "NYT Tech",
@@ -595,18 +607,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzhxTU1mNDdRcGVjWDdJYkVzU2Zvb0l2SjQ1SjlLSk4wbXBXSHFvcFFZbVgwTmJNY29KTXpSTHVXZDlSdUQtV0dwY0Z6bm1FY3hOQkxVM3ZBajdvYXU4VUhIU0twM3Vsam9Hb2ZwWmk0b3ZUeUZLX3pTYW9oSWN2QzFwT0g?oc=5",
     "published": "2026-08-12",
     "summary": "全球首个算力期货来了&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "21世纪的新石油？算力期货10月登场，影响几何",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fcVpvUW5aSG84YVdacGdDOENNc3ptNHJXTFFGMXgyaHVkWEM3NlUwWEE2Zk1OM1JPUDAxUUREV1FyNjN0T1hQdDYtWXdrblh4ZUtVTUJmVXRmemoweFRFRWVrdFNDUnByQUN2dlJEWDU0bnJ3Wmc?oc=5",
-    "published": "2026-08-12",
-    "summary": "21世纪的新石油？算力期货10月登场，影响几何&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
