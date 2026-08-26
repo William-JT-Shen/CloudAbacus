@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-08-26T04:50:35Z
-var NEWS_FETCHED_AT="2026-08-26T04:50:35Z";
+// 生成:2026-08-26T08:55:24Z
+var NEWS_FETCHED_AT="2026-08-26T08:55:24Z";
 var GPU_NEWS=[
+  {
+    "title": "多元业务全面发力，永安期货上半年净利润同比增长近65%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iTnRFYU8yUkhEdUp5Q3VTZG5WSWpoRDZQV1EtZUZ5TnZrVi1BaVAwWlNnVXJJZG9JaFdKaDlJY01BUXg2MzFYU0JqeVVieThVYXhvT0hoZnU1NWxUa2xFc051Nk56Zi1DZXhUQXMtLXFFcGN0c3RlYw?oc=5",
+    "published": "2026-08-26",
+    "summary": "多元业务全面发力，永安期货上半年净利润同比增长近65%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "坏天气，正在「点燃」黄金行情",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3955937575402881?f=rss",
+    "published": "2026-08-26",
+    "summary": "作者&nbsp;|&nbsp;黄绎达\n  编辑&nbsp;|&nbsp;张帆\n  近期，全球资本市场正在经历一轮由真实世界物理约束与金融条件持续收紧交织所引发的剧烈震荡。\n  由于强厄尔尼诺乃至“超强厄尔尼诺”导致农产品减产的预期持续升温，今年以来农产品价格集体走强。截至8月25日，农产品中表现最为突出的CBOT豆油、CBOT稻谷、CBOT小麦和ICE2号棉花年初至今分别上涨了45%、35%、30%和24%。\n  \n  图：年初至今主要农产品期货价格涨跌幅；资料来源：wind，36氪\n  股票市场方面，自今年6月中下旬以来，全球AI链资产进入持续调整期。截至8月25日，费城半导体指数近2个月内的最大跌幅高达20%，韩国KOSPI 50指数同期跌幅更是高达29%；AI链核心个股三星电子、SK海力士、美光科技在同期的最大跌幅分别高达43%、49%和30%，巨大的跌幅与万亿资本开支形成鲜明反差。\n  美债长端利率持续上行，是市场当前的另一大风险点。其中，30年美债利率升破5%关键关口，高点一度站上5.31%，刷新了2007年以来新高。作为全球无风险利率定价之锚，美债利率的快速上行加剧了金融市",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "芝商所（CME Group）宣布美国锌期货完成首笔成交。",
     "source": "新浪财经",
@@ -586,30 +610,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "【建投专题】CME算力期货将至，“科技版原油”的定价--未来投研的必修课",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR0dHNWowRmhmZkJyNXFHZkxyRWFqZkd1RmRFd29jaE5KMW40dUdSWDRtM1YzNHBWSE9KMjlSYjdxb3dXNlV1d3ctNHhDNVo4WFNYZzZJbHZScjNKcHBUcDdHYlNyUzNuUXhZajV2ZUVLRnFJNDFSclYyb1pMMEJ1VEpraw?oc=5",
-    "published": "2026-08-12",
-    "summary": "【建投专题】CME算力期货将至，“科技版原油”的定价--未来投研的必修课&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "氪星晚报｜英特尔增发200亿美元前据悉曾寻求美政府批准；前7个月我国期货市场累计成交额同比增长38.43%；连续两个月突破100万辆，我国汽车出口延续强劲增长态势",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3936291241901444?f=rss",
-    "published": "2026-08-12",
-    "summary": "大公司：\n  三星、SK海力士最快本月底公布股东回报，总额或超200万亿韩元\n  三星电子与SK海力士或将于本月底公布历史最大规模的股东回报方案。随着人工智能（AI）驱动的存储芯片超级周期推动两家公司的现金创造能力大幅提升，市场甚至开始讨论，两家公司包括特别分红、回购并注销股票等在内的股东回报规模合计可能超过200万亿韩元。\n  苹果商店现山寨版政务App，官方回应：相关部门正协调处理\n  近日，福建政务服务APP统一平台（简称“闽政通App”）在苹果应用商店被“假冒”一事在网上引发关注。经查询发现，该假冒的App名为“闽证通”，其在下载页依旧标注自己是“政务便民服务应用”。目前仅在苹果应用商店搜索到该App，部分安卓平台的手机品牌应用商店均未搜索到此应用。对此，闽政通APP官方回应称，目前公司已把相关情况上报，相关部门正在协调处理，同时市民也可以直接在苹果应用商店对App进行举报。\n  英特尔增发200亿美元前据悉曾寻求美政府批准\n  当地时间8月11日，英特尔宣布其普通股注册公开发行定价为每股95美元，共发行210526315股普通股，发行规模从此前公布的150亿美元扩大至200亿",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
