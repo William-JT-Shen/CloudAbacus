@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-26T01:50:10Z
-var NEWS_FETCHED_AT="2026-08-26T01:50:10Z";
+// 生成:2026-08-26T04:50:35Z
+var NEWS_FETCHED_AT="2026-08-26T04:50:35Z";
 var GPU_NEWS=[
+  {
+    "title": "芝商所（CME Group）宣布美国锌期货完成首笔成交。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmNnp1R2VJdURYNks3ZE1mSDdOVmxoVW93WkZFM1pWeDR1Z1dHdXpIa3B3UEhzbTEzZ3poYmJSbW5BZ2lmZWc5bmYxRWQ2MDZhVkxjVHBhRkxiTDJDcTROcEQxMlljVFVwbTlCT0k2X1pKdjM5d0o4cw?oc=5",
+    "published": "2026-08-25",
+    "summary": "芝商所（CME Group）宣布美国锌期货完成首笔成交。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "U.S. ‘Economic D-Day’ Targets More Than Just Iranian Oil",
     "source": "NYT Tech",
@@ -598,18 +610,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "刚刚，算力期货传来大消息！解读来了",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2dDRllPUUFXUEo0ZVlEOG9rM2VZYTliYVhXeVJOaEZsYXdlUFA0SVMzb1hWb21aMkdPMFEzdC1rdU56QkhwVV9aNzJRTlJwRUZXNkJJcnY3VDRmdkxtdHRKdWJ3UHZURHZXcTJZSnpremtLQ2FPbkVKelR2MWlGZjBhcXJ2cGQ1WUwyTg?oc=5",
-    "published": "2026-08-12",
-    "summary": "刚刚，算力期货传来大消息！解读来了&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
