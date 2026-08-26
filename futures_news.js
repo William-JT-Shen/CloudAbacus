@@ -1,7 +1,20 @@
 // GPU算力期货新闻
-// 生成:2026-08-26T08:55:24Z
-var NEWS_FETCHED_AT="2026-08-26T08:55:24Z";
+// 生成:2026-08-26T13:09:19Z
+var NEWS_FETCHED_AT="2026-08-26T13:09:19Z";
 var GPU_NEWS=[
+  {
+    "title": "Gold, Flights, Cryptocurrency: U.S. Vows to Go After More Than Iran’s Oil",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-sanctions-oil-gold.html",
+    "published": "2026-08-26",
+    "summary": "The United States threatened sanctions for any country or entity that engages with Iran’s gold, digital assets, aviation, shipping and tech industries. Here’s why that matters.",
+    "full_text": "A gas station in Tehran on Tuesday. The United States imposed a monthslong blockade on Iran’s shipments of oil, the nation’s economic engine.",
+    "lang": "en",
+    "title_cn": "黄金、航班、加密货币：美国誓言追求的不仅仅是伊朗石油",
+    "summary_cn": "美国威胁对任何参与伊朗黄金、数字资产、航空、航运和科技行业的国家或实体实施制裁。这就是为什么这很重要。",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "多元业务全面发力，永安期货上半年净利润同比增长近65%",
     "source": "新浪财经",
@@ -594,18 +607,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fcVpvUW5aSG84YVdacGdDOENNc3ptNHJXTFFGMXgyaHVkWEM3NlUwWEE2Zk1OM1JPUDAxUUREV1FyNjN0T1hQdDYtWXdrblh4ZUtVTUJmVXRmemoweFRFRWVrdFNDUnByQUN2dlJEWDU0bnJ3Wmc?oc=5",
     "published": "2026-08-12",
     "summary": "21世纪的新石油？算力期货10月登场，影响几何&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "全球首个算力期货，来了",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJM0pRTWM4US1XRTZFMW1lWWc2OXVoYzZITEZwbHBraDA1M0tiYjFvU0RBNUc3VzhoTHJJa29Qbk9MNm9DQkx2SnBWNmFvektUSF9zSGtXelJxVmVwd2tYbnpiS3pZcXdfbTRZYU1RQl9aUjRyS0FPeQ?oc=5",
-    "published": "2026-08-12",
-    "summary": "全球首个算力期货，来了&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
