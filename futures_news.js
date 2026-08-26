@@ -1,7 +1,20 @@
 // GPU算力期货新闻
-// 生成:2026-08-25T20:38:54Z
-var NEWS_FETCHED_AT="2026-08-25T20:38:54Z";
+// 生成:2026-08-26T01:50:10Z
+var NEWS_FETCHED_AT="2026-08-26T01:50:10Z";
 var GPU_NEWS=[
+  {
+    "title": "U.S. ‘Economic D-Day’ Targets More Than Just Iranian Oil",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-sanctions-oil-gold.html",
+    "published": "2026-08-25",
+    "summary": "The United States threatened sanctions for any country or entity that engages with Iran’s gold, digital assets, aviation, shipping and tech industries. Here’s why that matters.",
+    "full_text": "A gas station in Tehran on Tuesday. The United States imposed a monthslong blockade on Iran’s shipments of oil, the nation’s economic engine.",
+    "lang": "en",
+    "title_cn": "美国“经济诺曼底登陆”的目标不仅仅是伊朗石油",
+    "summary_cn": "美国威胁对任何参与伊朗黄金、数字资产、航空、航运和科技行业的国家或实体实施制裁。这就是为什么这很重要。",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "全球算力金融化加速，上海如何下好先手棋",
     "source": "新浪财经",
@@ -593,18 +606,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2dDRllPUUFXUEo0ZVlEOG9rM2VZYTliYVhXeVJOaEZsYXdlUFA0SVMzb1hWb21aMkdPMFEzdC1rdU56QkhwVV9aNzJRTlJwRUZXNkJJcnY3VDRmdkxtdHRKdWJ3UHZURHZXcTJZSnpremtLQ2FPbkVKelR2MWlGZjBhcXJ2cGQ1WUwyTg?oc=5",
     "published": "2026-08-12",
     "summary": "刚刚，算力期货传来大消息！解读来了&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所和Silicon Data拟于10月推出两项算力期货合约",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmw3VjRxWE5VVXk3cmRlNU9aSWVkcDc1MlVsdGpPSnNnRVBfR2pOY2NHdWRIeXFPelB4LUVERTllQUpWcVJGMTMyeG40bnpyb0xhc2ZUdnZhb0tGTnNNcUdBaUk0dGJfdURwVTYybDgzMldhcG8tZ3lWdngyMFVhTWtSZGZkWEQxckFUbkNIV1ZmNDNT?oc=5",
-    "published": "2026-08-12",
-    "summary": "芝商所和Silicon Data拟于10月推出两项算力期货合约&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
