@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-08-27T08:55:32Z
-var NEWS_FETCHED_AT="2026-08-27T08:55:32Z";
+// 生成:2026-08-27T22:12:35Z
+var NEWS_FETCHED_AT="2026-08-27T22:12:35Z";
 var GPU_NEWS=[
   {
     "title": "绿城老库存首次降至50%以下",
@@ -12,6 +12,30 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "纯苯期货一手保证金多少钱",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUWZTYVJuYnFQMEl0V0tIMFNtU19ZeW45cmlVdEZKcmFVc2VnVjd0UnJYRW5wVEx1MEZkeGFGWnpldnBObHdxakJpS3lRUGVuNjYtTi1IX2o0ODljMmZxb2poUF94cHdTTjg5b2I0aUVod3hVWFFJcHM5d2FyVEdRNHRFMXpPTUxVQmhncw?oc=5",
+    "published": "2026-08-26",
+    "summary": "纯苯期货一手保证金多少钱&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "英伟达强劲业绩展望提振纳指期货高开近1% 存储、光通信板块盘后普涨",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05NjNTTU5ieGlTNlhCTjM5T2owVFJQTmtOa2F1czg3dnB1OC15MGVZOGpudXpNaDg5UlFHYUFUOXBOX2JYV1pRS0REaHFKaGp4YUNLUzB1U0FUUnYtaUlMMk1PX1JVd2pLSWhEckxzd2RsS3lxVnVHUg?oc=5",
+    "published": "2026-08-26",
+    "summary": "英伟达强劲业绩展望提振纳指期货高开近1% 存储、光通信板块盘后普涨&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -64,6 +88,42 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "上海期货交易所对部分客户采取限制开仓监管措施",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb1NoS0hLcTZ5a1VMdmZwSWRzamx4eFZ1QmNJQUx6OUhXMmx0cG5faVVNdEpvdVZ0aXp2OUdNeDRKVWc5eTZndkVvc3d0Y08yN3ZkWEs3STIyUGNzaHEtOEhHX0ZOWm9OYlFaR0duMnBfdk9fVXRNa25HZ01vaXlUb2ZDSThJRHM?oc=5",
+    "published": "2026-08-25",
+    "summary": "上海期货交易所对部分客户采取限制开仓监管措施&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "永安期货：上半年净利润增长近65%，境外业务强势发力",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNDR1S2diSVU4Sm9wMnB5X1ZzZkFidnZ0RUxQU0lOeGVIVmxfSzJvTzJvVDRWWU56ZHNLQV9vaHNCcjExWnhSdnpuQlM5cFN4Vm8yNWMzMkQyOGdwRGNWcFVkdlJtQjF2YTZiRzg1dXhodjI0VkZIVC1rdFoyb0lldEVpZHFUUVE?oc=5",
+    "published": "2026-08-25",
+    "summary": "永安期货：上半年净利润增长近65%，境外业务强势发力&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国政府就AI算力衍生品公开征求意见",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkdS1hdExRbnhqOGk0elNKZHRtTHA2M2hyTWhfVDA1M1A2dUZMQmlqMTNjcWh4R1R5ZlJ0aDhYc0RIamtiT2xnTVBodDJ6QWlxdm5VWENSVEFSa3phT2U0Nm82T1hTYktTOTQzT0cyUFdmWDdmQUFtbQ?oc=5",
+    "published": "2026-08-25",
+    "summary": "美国政府就AI算力衍生品公开征求意见&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "芝商所（CME Group）宣布美国锌期货完成首笔成交。",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmNnp1R2VJdURYNks3ZE1mSDdOVmxoVW93WkZFM1pWeDR1Z1dHdXpIa3B3UEhzbTEzZ3poYmJSbW5BZ2lmZWc5bmYxRWQ2MDZhVkxjVHBhRkxiTDJDcTROcEQxMlljVFVwbTlCT0k2X1pKdjM5d0o4cw?oc=5",
@@ -87,6 +147,18 @@ var GPU_NEWS=[
     "summary_cn": "美国威胁对任何参与伊朗黄金、数字资产、航空、航运和科技行业的国家或实体实施制裁。这就是为什么这很重要。",
     "full_text_cn": "",
     "translated": true
+  },
+  {
+    "title": "芝加哥玉米期货8月24日涨2.16%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHpoeW5zR2V3ckt1RTVRVkNzY1BSa1JPekJFRXZ4YnlqczV3UldsRGNsSzNvRGFuWDhhazlOeTNrblhicjZsN01od0M2UXlNOTNxY3hpMHc0dUpNRDR3NmVHVzhld2ZyZ0F1WWk2U3gwUVFjbWx4dE9ndkFWalRaekpRQlRfdmc1ZnVaVUdOOGg1M2c?oc=5",
+    "published": "2026-08-24",
+    "summary": "芝加哥玉米期货8月24日涨2.16%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
   },
   {
     "title": "全球算力金融化加速，上海如何下好先手棋",
@@ -535,81 +607,6 @@ var GPU_NEWS=[
     "lang": "en",
     "title_cn": "治安官称，三名前佐治亚州代表使用群体摄像机跟踪人们",
     "summary_cn": "前比伯县代表本周被捕，全国范围内围绕 Flock 摄像头的争论日益激烈，除阿拉斯加州外，每个州的道路上都可以找到 Flock 摄像头。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "Another OpenAI Executive, Denise Dresser, Departs the A.I. Start-Up",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/13/technology/openai-executive-departure-denise-dresser.html",
-    "published": "2026-08-13",
-    "summary": "Denise Dresser, who was previously the C.E.O. of Slack, is the latest in a string of executives to leave the artificial intelligence start-up.",
-    "full_text": "Denise Dresser, OpenAI’s chief revenue officer, is one of a number of executives to leave OpenAI in recent months.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "丹尼斯·德莱瑟（Denise Dresser），前任首席执行官Slack 的创始人是一系列高管中最新离开这家人工智能初创公司的。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "Judge Affirms Settlement Allowing HPE’s Deal for Juniper",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/13/technology/hpe-juniper-justice-department-settlement.html",
-    "published": "2026-08-13",
-    "summary": "States had opposed an agreement allowing a Hewlett Packard Enterprise acquisition, calling the settlement ineffective and corrupt.",
-    "full_text": "Last year, the Trump administration sued to block Hewlett Packard Enterprise, led by Antonio Neri, above, from buying Juniper Networks for $14 billion, saying the deal would harm competition.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "各州反对允许惠普企业收购的协议，称该和解无效且腐败。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "算力期货要来了？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WYUNZeFpObm1uNVVTS3E3RjJtQkxYTnpXYV9aUDFmZzdYMHA1b2NNVTJSOGpBOHFocHNsU243aFFsdGY0a2tBWmhxRHZITjZZV3hFdDZXWTFJRFkzQWpuRXNhUWNUbkJwZUphZVNn?oc=5",
-    "published": "2026-08-13",
-    "summary": "算力期货要来了？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "最前线｜XTransfer邓国标：中小外贸企业正从新兴产业配套环节寻找机会",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3937399009459335?f=rss",
-    "published": "2026-08-13",
-    "summary": "文｜张子怡\n  编辑｜袁斯来\n  8月12日，XTransfer举办2026未来外贸大会。来自外贸企业、银行及金融机构的相关人士参会，讨论今年外贸市场的变化及企业出海面临的新机会。\n  过去几年，地缘冲突、海运波动等因素持续影响全球贸易。XTransfer在会上披露的一项客户调研显示，今年其平台上的中小外贸企业出口仍保持一定韧性，企业回款情况有所改善，部分企业在海外市场的议价能力也在增强。\n  XTransfer创始人兼CEO邓国标认为，相比大型企业，中小外贸企业在市场变化中具有更强的灵活性，可以根据订单和需求变化快速调整市场布局。\n  变化也体现在出口产品结构上。\n  根据海关总署相关数据，以人工智能、机器人、创新药等为代表的新兴产业正在成为中国外贸新的增长来源。\n  邓国标观察到，中小企业并不一定直接参与机器人整机、大模型等核心环节，而是更多从产业链配套切入，例如机器人机架、AI服务器散热件以及医疗耗材包装等领域。\n  这是近年来中国外贸结构变化的一个侧面。过去，中小出口企业更多集中在服装、家具、消费电子等传统品类；随着中国制造业向机器人、AI硬件等新产业延伸，一部分供应链企业也开",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "芝商所联合Silicon Data在10月推出算力期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mMGRhcWdEYWZVU2lvcklSNGJZakt2QlFteHdfb3lJXzlia1ZfQVhlMkxuT1J3cDlIcldFQXI1VlRCaXdDUEVfQ2E1T3lwcWVPcHdxMTJaZVRWN0ZkZ1pfclNLdXFPU19zRTdGVEl1VQ?oc=5",
-    "published": "2026-08-12",
-    "summary": "芝商所联合Silicon Data在10月推出算力期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Driver Sets Record for Hydrogen-Powered Vehicle at More Than 406 M.P.H.",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/12/us/land-speed-record-utah-andy-green.html",
-    "published": "2026-08-12",
-    "summary": "Andy Green, a 64-year-old retired Royal Air Force pilot from Britain, was already the only person to break the sound barrier on land. “The ground comes at you very, very quickly,” he said.",
-    "full_text": "Andy Green after setting a new land speed record for a hydrogen-powered vehicle on Tuesday at the Bonneville Salt Flats in Utah.",
-    "lang": "en",
-    "title_cn": "司机创下氢动力汽车时速超过 406 英里的纪录",
-    "summary_cn": "来自英国的 64 岁皇家空军退役飞行员安迪·格林 (Andy Green) 已经是唯一在陆地上突破音障的人。 “地面非常非常快地向你袭来，”他说。",
     "full_text_cn": "",
     "translated": true
   }
