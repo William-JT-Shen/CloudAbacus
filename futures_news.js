@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-26T23:18:45Z
-var NEWS_FETCHED_AT="2026-08-26T23:18:45Z";
+// 生成:2026-08-27T08:55:32Z
+var NEWS_FETCHED_AT="2026-08-27T08:55:32Z";
 var GPU_NEWS=[
+  {
+    "title": "绿城老库存首次降至50%以下",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3957154259500162?f=rss",
+    "published": "2026-08-27",
+    "summary": "8月25日，绿城中国发布截至2026年中期业绩。报告期内，绿城实现营业收入394.81亿元，同比下降26%；毛利润43.88亿元，同比下降38.7%；归母净利润8171.5万元，同比大幅下滑60.77%。早在8月10日，公司已经发布盈利预警，提前向市场提示利润大幅下滑风险。\n  上半年绿城整体毛利率下行至11.1%，较2025年同期下降2.3个百分点，其中核心的物业销售毛利率仅9.7%。\n  在业绩会上，绿城执行董事、执行总裁江峰表示，利润下降的核心原因是受行业持续调整、物业销售结转规模下降、毛利率承压及资产减值等影响。\n  \n  业绩发布会\n  01 利润表承压\n  “盈利方面，受房地产市场持续调整影响，2026年业绩仍然承压。”江峰预计2026年全年毛利率相比去年降幅在1—2个百分点。今年全年的结算总量也会同比下降。“2026年结转收入的项目，大部分都是2024年获取的。2024年拿的项目的利润兑现最好，但是在2024年，货地总量不多。叠加2024年主要集中在下半年获取土地。进而导致部分项目需要在2027年结转。所以2026年结转面积相比2025年会有一定幅度的下降。”\n  利润受",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "���天气，正在「点燃」黄金行情",
     "source": "36氪",
@@ -600,17 +612,5 @@ var GPU_NEWS=[
     "summary_cn": "来自英国的 64 岁皇家空军退役飞行员安迪·格林 (Andy Green) 已经是唯一在陆地上突破音障的人。 “地面非常非常快地向你袭来，”他说。",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "全球首个算力期货来了",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzhxTU1mNDdRcGVjWDdJYkVzU2Zvb0l2SjQ1SjlLSk4wbXBXSHFvcFFZbVgwTmJNY29KTXpSTHVXZDlSdUQtV0dwY0Z6bm1FY3hOQkxVM3ZBajdvYXU4VUhIU0twM3Vsam9Hb2ZwWmk0b3ZUeUZLX3pTYW9oSWN2QzFwT0g?oc=5",
-    "published": "2026-08-12",
-    "summary": "全球首个算力期货来了&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   }
 ];
