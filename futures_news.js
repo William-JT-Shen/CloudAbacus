@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-28T11:08:07Z
-var NEWS_FETCHED_AT="2026-08-28T11:08:07Z";
+// 生成:2026-08-28T22:12:01Z
+var NEWS_FETCHED_AT="2026-08-28T22:12:01Z";
 var GPU_NEWS=[
+  {
+    "title": "碧桂园2026上半年营收441亿元",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3959209330621577?f=rss",
+    "published": "2026-08-28",
+    "summary": "8月28日，碧桂园（02007.HK）发布2026年中报，实现营业收入约441亿元，尽管仍处于阶段性亏损，但较去年同期减亏约16.3%；总资产约7455亿元，净资产约310亿元，持续保持为正。\n  根据中报，其影响利润的主要原因主要有：一是伴随集团进入保交房收尾阶段，当期交付量大幅缩减导致营业收入下降；二是房企收入结转存在滞后性，前期高地价成本项目在降价去化环境中集中结转，对利润造成负面影响；三是受宏观经济环境、行业环境及对手方负面财务状况等多重不利因素影响，计提了约62亿元存货减值以及约38亿金融资产和财务担保减值损失；四是录得其他收入及收益约41亿元，主要来自以公允价值计量且其变动计入损益的金融负债公允价值变动和债务重组收益。同时严格控制支出，其中上半年销管费用持续降至约32亿元，同比下降19.7%。\n  2026年1-6月，碧桂园累计权益合同销售金额约142.5亿元，权益销售面积约182.5万平方米，其销售趋势与国家统计局口径下全国新建商品房销售基本同步。碧桂园方面表示，其销售整体比较平稳，正按经营节奏有序推进。\n  值得关注的是，根据克而瑞数据，2026年1-7月中国房企操盘面",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "CME推出算力期货！“21世纪新石油”金融化，AI产业迎来新定价锚点",
     "source": "新浪财经",
@@ -36,6 +48,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "从峰值十几亿到清盘离场！期货资管规模红利落幕",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUTdWWFgybmE1MmxEcjJCMDlWNG9FdW9tZkh5cW5SbWRUR3JOZW51TDUtU0EtRkRmQTVoS0cwTy00b1B4TF9JN1ZDLWpoamYwbkZaNFVNTDFqek9mWFV6NklLMm9HQm9uQ3JjV0llTXNnc2hmX3pScU1mRlVaMW9fQzBkYkQyUkhLRVBhY0lydUpLRHpOakFwNWlnVkxxQXVETlJ4d3JoOGRzZ25BdThaZmtHQ0pXMDBxaU1MVmZfNDhTTG5OR09TSnVRLW9adjU0bmNZRkV3dlU?oc=5",
+    "published": "2026-08-26",
+    "summary": "从峰值十几亿到清盘离场！期货资管规模红利落幕&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -582,30 +606,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "「意图经济」爆火背后：年轻人想做旅行里的甩手掌柜",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3939439529622917?f=rss",
-    "published": "2026-08-14",
-    "summary": "你有没有过这种情况，旅行还没开始，人已经开始累了。\n  打开小红书搜目的地，划到手指发酸，几十条笔记刷下来，内容长得越来越像。同一个机位、同一句“绝美出片”、同一份“三天两夜特种兵攻略”。\n  想比个价，得在5、6个APP间来回横跳。攻略攒了一堆，可这些内容分散在图片、视频、长文里，没有一个能直接拿来用，最后还得打开备忘录，一条一条手动敲：Day1住哪、Day2怎么去、几点的票、中转要多久。\n  手机里装满了APP，但最烦人的事还得自己干，相当于自带干粮给它打工。“意图经济”这个词翻红，就在于精准击中了人们对传统平台服务溢价的不满。\n  “意图经济”翻译成人话就是：用户只管讲明白想要什么，剩下的闹心事交给机器去办。对被“旅行内耗”榨干的年轻人来说，这句话几乎带着点解放的意味，那个替你跑腿的角色，第一次可以不再是你自己。\n  问题是，这句话能不能兑现。\n  试着把这些琐事甩给AI，让它帮忙规划一下？确实省了不少划手机的时间，方案生成得又快又漂亮，可细看才发现问题不少：推荐的酒店查无此店，给出的航班时刻和实际班次对不上，甚至会出现它信誓旦旦地说某个博物馆“周一闭馆需避开”，结果公共节假日人",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "算力期货要来了？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WYUNZeFpObm1uNVVTS3E3RjJtQkxYTnpXYV9aUDFmZzdYMHA1b2NNVTJSOGpBOHFocHNsU243aFFsdGY0a2tBWmhxRHZITjZZV3hFdDZXWTFJRFkzQWpuRXNhUWNUbkJwZUphZVNn?oc=5",
-    "published": "2026-08-13",
-    "summary": "算力期货要来了？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
