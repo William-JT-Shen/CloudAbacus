@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-08-27T22:12:35Z
-var NEWS_FETCHED_AT="2026-08-27T22:12:35Z";
+// 生成:2026-08-28T11:08:07Z
+var NEWS_FETCHED_AT="2026-08-28T11:08:07Z";
 var GPU_NEWS=[
+  {
+    "title": "CME推出算力期货！“21世纪新石油”金融化，AI产业迎来新定价锚点",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vc3VCNFlFUFA2NG1aMFJ2RHZCbEhidnFDakNiTlNBVjhwcVl4c0VIRzlja2g2SXZtNkRDNFJ1U3g1bXJISUk0YUdFeHZDcmkxalRVdnFtTGZlU3p4X1R6LXNmM08wMkpBak85MUg4RkNXZzY4bm4wSg?oc=5",
+    "published": "2026-08-28",
+    "summary": "CME推出算力期货！“21世纪新石油”金融化，AI产业迎来新定价锚点&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "液化气期货主力合约涨超3% 报5871元/吨",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQamctMVhTeXlkdHpjU1QtWFluZnJCWjVDbTZJTWdXb1hHMW5Dem9vR3pOdFFkZ2ZCemxHTHVRdHQ0eVFxSmpITnpMelV2MHd5RnNLVlg1eXh6d244QURlWkN1cldENDl0VTA5ZGdIRXR3UUtaUjlrcnMyRFNZVUhhM0dOS016VnZibEhCN01JcW9OcUE?oc=5",
+    "published": "2026-08-27",
+    "summary": "液化气期货主力合约涨超3% 报5871元/吨&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "绿城老库存首次降至50%以下",
     "source": "36氪",
@@ -573,41 +597,15 @@ var GPU_NEWS=[
     ]
   },
   {
-    "title": "WTI原油期货价格跌3.13% 布伦特原油期货价格跌2.90%",
+    "title": "算力期货要来了？",
     "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZmhpSEhMVF9OWjdZQ0J5QmdRT2tmUFNCS0gxMkZmR3J5WUNVcnhEQmxOMW5VOVBMSExENkt6SGlXQ2NHcERwQ1lUVllOcGMzaHJoaUNORWF5aGh5V0M0SEhIUFpPdWdhRVlzblpBMWkzMjNiU3R0aWg1UjFFZThzMngxMEtEZms?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WYUNZeFpObm1uNVVTS3E3RjJtQkxYTnpXYV9aUDFmZzdYMHA1b2NNVTJSOGpBOHFocHNsU243aFFsdGY0a2tBWmhxRHZITjZZV3hFdDZXWTFJRFkzQWpuRXNhUWNUbkJwZUphZVNn?oc=5",
     "published": "2026-08-13",
-    "summary": "WTI原油期货价格跌3.13% 布伦特原油期货价格跌2.90%&nbsp;&nbsp;新浪财经",
+    "summary": "算力期货要来了？&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "Thrive Holdings, A.I.-Focused Buyer of Service Firms, Raises $2 Billion",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/12/business/dealbook/thrive-holdings-ai-funding.html",
-    "published": "2026-08-13",
-    "summary": "The company, Thrive Holdings, acquires businesses to infuse them with artificial intelligence and drew interest from backers like SoftBank.",
-    "full_text": "Thrive Holdings was created by the investment firm led by Joshua Kushner, left, as a bet on applying artificial intelligence to traditional service businesses.",
-    "lang": "en",
-    "title_cn": "专注于人工智能的服务公司买家 Thrive Holdings 融资 20 亿美元",
-    "summary_cn": "这家名为 Thrive Holdings 的公司收购了一些企业，为它们注入人工智能，并引起了软银等支持者的兴趣。",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "3 Ex-Georgia Deputies Used Flock Cameras to Stalk People, Sheriff Says",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/12/us/georgia-sheriffs-flock-cameras-stalking.html",
-    "published": "2026-08-13",
-    "summary": "The former Bibb County deputies were arrested this week amid a growing national debate over Flock cameras, which can be found on roads in every state but Alaska.",
-    "full_text": "About 7,000 law enforcement agencies, or 40 percent of all departments in the United States, have contracts with Flock.",
-    "lang": "en",
-    "title_cn": "治安官称，三名前佐治亚州代表使用群体摄像机跟踪人们",
-    "summary_cn": "前比伯县代表本周被捕，全国范围内围绕 Flock 摄像头的争论日益激烈，除阿拉斯加州外，每个州的道路上都可以找到 Flock 摄像头。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
