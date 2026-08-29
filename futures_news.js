@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-08-29T13:49:28Z
-var NEWS_FETCHED_AT="2026-08-29T13:49:28Z";
+// 生成:2026-08-29T19:24:06Z
+var NEWS_FETCHED_AT="2026-08-29T19:24:06Z";
 var GPU_NEWS=[
+  {
+    "title": "国内商品期货夜盘收盘",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0o3bTE3N1R6WWQyOVlNbl8zbHNETUROdGtodHFxbnNuZW1HWlJhRXg2cWZjN1h6TWt0YWVLaE1Pc29hdU9Pck9md3A4OHBsaU1EcWpmUU9EWFZqZXBfREdITE1VYUMxa2xESlJIMVMzb1U3dFJhQlN0WE4yT1kyVQ?oc=5",
+    "published": "2026-08-28",
+    "summary": "国内商品期货夜盘收盘&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "瑞达期货涨2.54%，成交额4.73亿元，今日主力净流入-55.93万",
     "source": "新浪财经",
@@ -32,6 +44,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vc3VCNFlFUFA2NG1aMFJ2RHZCbEhidnFDakNiTlNBVjhwcVl4c0VIRzlja2g2SXZtNkRDNFJ1U3g1bXJISUk0YUdFeHZDcmkxalRVdnFtTGZlU3p4X1R6LXNmM08wMkpBak85MUg4RkNXZzY4bm4wSg?oc=5",
     "published": "2026-08-28",
     "summary": "CME推出算力期货！“21世纪新石油”金融化，AI产业迎来新定价锚点&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "盘前：纳指期货涨0.94% 英伟达飙升7.3%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZUZoQkdVSF9yR2JPZmI3TkdSWE9PaTVzVmFRVWNCSWRqR1BOZEdadXYwcUFId1RfY0tTa21XcGdaR2hSLWhwa0gyTDdVNW5OSEl2YVRlX3NFdmdFRUNhbW5IQ252Zi1yM1kza2toV3NvazFTbUwwVXVIMThvaXBneFltRG1HOGhTZURYQUctamlLYWZJLU5HT0ViT3lLWDhJQ1N0ckpHY1p0WkhBblVHWk9fbGp4ZXF1Q1BoeFJHLVpfVTBQLVR3WXRQelpGNnR5RXF4aTdKRmhyZmNtaWc?oc=5",
+    "published": "2026-08-27",
+    "summary": "盘前：纳指期货涨0.94% 英伟达飙升7.3%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -578,30 +602,6 @@ var GPU_NEWS=[
     "url": "https://36kr.com/p/3938898614877317?f=rss",
     "published": "2026-08-14",
     "summary": "本文约4600字，建议阅读10分钟\n  作者&nbsp;|&nbsp;彭孝秋\n  \n   编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第十期——SHEIN。\n  \n  很多公司上市，是因为缺钱。SHEIN恰恰相反。\n  2023年至2025年，这家公司经营活动现金流净额分别达到17.57亿、14.05亿和28.38亿美元，三年合计造血60亿美元。截至2026年3月底，它手里的现金资源更是达到148.31亿美元。\n  这是什么概念？SHEIN过去11年从A轮一路融到D+轮，我们根据招股书测算，实际收到的股权融资合计约38.4亿美元，外加B轮的1.69亿元人民币。也就是说，SHEIN最近三年自己造出来的现金，已经是过去十一年融资总额的1.55倍。\n  它甚至还是一门典型的“拿别人的钱做生意”的生意：消费者预付款，净收入周转天数长期维持在−12至−13天，2025年存货周转天数只有36天。\n  按常理，这样一家公司并不急着去资本市场拿钱。但翻完SHEIN的招股书，会发现另一个数字：172.94亿美元。\n  这是截至202",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "泡泡玛特的「日本老师」，在中国赚翻了",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3939155401948549?f=rss",
-    "published": "2026-08-14",
-    "summary": "作者 |&nbsp;谢芸子\n  编辑 | 张帆\n  8月12日，Hello Kitty的母公司三丽鸥在东京股市经历了一场“血洗”。\n  财报公布当日，三丽鸥股价盘中跌幅达18%，创下了近十年来的最大单日跌幅。日兴证券的分析师给出的评价很直接，“本次财报表现平淡，无超预期亮点。”\n  这多少有点反直觉。从财报看，截至今年6月的2027财年一季度，三丽鸥的表现并不差：营收520.35亿日元，同比增长20.7%。净利润方面，公司实现155.16亿日元，同比增长9.3%。\n  问题出在营业利润不符合预期。\n  一季度，三丽鸥的营业利润为224.4亿日元，同比增长11.1%；此前市场预期的营业利润是234亿日元，相比少了近10亿日元。更关键的是，过去几个季度，三丽鸥几乎在每次财报披露后都会“上调指引”，这次却“维持不变”。\n  这等于向市场释放了一个信号，三丽鸥的增长放缓或已出现。\n  \n  36氪根据Wind截图\n  一只白猫和阿里鱼\n  1974年，Hello Kitty诞生。这个没有嘴巴、没有固定表情、永远五头身的卡通形象，在随后的五十年里成为全球最赚钱的IP之一。它的母公司三丽鸥，也从一",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "阿里灵犀再传15亿美元出售，或许这就是中国游戏行业的现实",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3939187139935369?f=rss",
-    "published": "2026-08-14",
-    "summary": "灵犀互娱这次真的要易主了？\n  据彭博社报道称，亚洲私股权公司信宸资本接近达成收购阿里巴巴集团控股有限公司视频游戏业务的交易。知情人士表示，信宸资本成为了灵犀互娱最有可能的买家，其出价高于包括电子游戏制造商在内的其他竞购方。据他们透露，此次交易对这家工作室的估值可能超过15亿美元。\n  \n  来源：彭博社\n  截至发稿，灵犀互娱以及信宸资本未作回应。\n  前不久的6月23日，就有多家媒体报道，阿里巴巴集团正计划出售旗下游戏业务品牌灵犀互娱，整体报价70亿至90亿元人民币（约合10.38亿~13.35亿美元），低于本次曝出的出售价格。\n  从市场估值和收入情况来看，灵犀互娱并非处于爆发式增长阶段，而是一个现金流稳定、增长曲线已长期平稳的成熟业务。至于为何频繁被曝业务出售，可能要从灵犀互娱的产品和发展路线说起。\n  01\n  灵犀最重要的现金牛产品，是《三国志·战略版》。\n  《三国志·战略版》上线于2019年，截至目前全球注册用户突破1亿。在Sensor&nbsp;Tower等榜单上，常年盘踞中国手游收入榜前列，是国内SLG赛道里商业化能力最稳定的产品之一。\n  按各大第三方平台数据，2",
     "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
     "lang": "zh",
     "images": [
