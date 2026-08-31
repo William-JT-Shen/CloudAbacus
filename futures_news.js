@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-08-31T05:13:59Z
-var NEWS_FETCHED_AT="2026-08-31T05:13:59Z";
+// 生成:2026-08-31T16:07:57Z
+var NEWS_FETCHED_AT="2026-08-31T16:07:57Z";
 var GPU_NEWS=[
+  {
+    "title": "中信证券拟向中信期货增资不超过50亿元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMHhzSU52SUc2NzBYX0k1SkxpSm1rQVBCdUU2eEMwbUQ4SXRURHNXVjE0UjZyTkUwMF9vRm42RTVOV2RzTW9wdEh3bGpRWm1hOEppTlpiTTVJZWF5UXI0eE45SDcxTHJweC1QQVJTSDFxQzgzYmpZMHlFckdSSTE3a1RCWWQyakFB?oc=5",
+    "published": "2026-08-31",
+    "summary": "中信证券拟向中信期货增资不超过50亿元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "最前线｜本地大模型 StartLux-27B 通过 MCP-Universe 测评：综合第二，多项专项第一",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3963345222147335?f=rss",
+    "published": "2026-08-31",
+    "summary": "近日，工信部中国信息通信研究院（以下简称“中国信通院”）人工智能研究所公布的一份检验报告显示，上海原点星辉科学技术有限公司（下简称StartLux）研发的本地大模型 StartLux-V1.0-27B-Preview，在可信AI大模型基准测试——MCP专项测试中，以 27B 参数量取得综合性能排名第二的成绩，高于第三名的DeepSeek-V4-Flash，能力范围已经进入DeepSeek-V4-Pro所代表的万亿参数模型能力区间。\n  可信AI大模型基准测试——MCP 专项测试涵盖位置导航、网页搜索、浏览器自动化、金融分析、代码仓库管理、3D 设计 6 类专项任务及综合评估，共 7 项检验项目，重点考察大模型在多工具协同、复杂任务执行及真实环境交互等方面的综合表现，该专项测试部分指标和数据参考了开源项目MCP-Universe。\n  参测模型包括 DeepSeek-V4-Pro（1.6T）、DeepSeek-V4-Flash-0731（284B）、Step-3.7-Flash（198B）、StartLux-27B-260715（27B）、Qwen-3.6-27B（27B）和 Agent",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "爱诗科技投资、主做精品内容，AI影视公司折叠完成数百万美元融资｜36氪融资首发",
     "source": "36氪",
@@ -582,30 +606,5 @@ var GPU_NEWS=[
     "summary_cn": "Alphabet 和亚马逊的投资收益揭示了科技公司的命运日益紧密相连的新方式。",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "Google Turns On Gemini A.I. for Students Using Its Classroom App",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/14/business/google-gemini-ai-schools.html",
-    "published": "2026-08-14",
-    "summary": "Google enabled A.I. features for K-12 schools that have allowed student access to Gemini. Until this week, Google automatically enabled Gemini in Classroom only for students 18 or older.",
-    "full_text": "Starting this week, a new Gemini tab within Classroom lets some students seek A.I. help on math problems and writing assignments; generate course aids like study guides, quizzes and flashcards; and produce images.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "从本周开始，“课堂”中的新“双子座”选项卡可让一些学生寻求人工智能。帮助解决数学问题和写作作业；生成学习指南、测验和抽认卡等课程辅助工具；并产生图像。",
-    "translated": true
-  },
-  {
-    "title": "月之暗面IPO，大模型「第二股」需要新叙事",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3938853888097409?f=rss",
-    "published": "2026-08-14",
-    "summary": "作者&nbsp;|&nbsp;范亮\n  编辑&nbsp;|&nbsp;张帆\n  近期，关于月之暗面赴港IPO的消息再次密集出现。\n  8月3日，有市场消息称，月之暗面计划最早于当月向港交所提交上市申请，拟募资约30亿美元，公司随后回应称消息不实。8月8日，又有媒体称月之暗面可能在9月30日前递表。\n  这一幕与智谱、MiniMax上市前颇为相似。\n  2025年，月之暗面长期位于国产大模型第一梯队，也是除DeepSeek外最受关注的大模型创业公司之一。但在资本化节奏上，却是智谱和MiniMax率先完成了港股上市。\n  当时，月之暗面似乎并不急迫。2025年末，杨植麟在内部信中表示，公司完成C轮融资后持有现金超过100亿元，且仍能从一级市场募集大量资金，因此“短期不着急上市”。\n  但智谱和MiniMax上市后的经历，展示了二级市场另一层价值：IPO不仅是一次融资，更是建立持续融资的渠道。\n  2026年7月，智谱通过配售新股募得约314亿港元，仅新增相当于扩大后总股本约4.25%的股份；MiniMax随后完成3560万股新股配售，并同步发行65亿港元可转债。\n  月之暗面则一度在市场消",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
   }
 ];
