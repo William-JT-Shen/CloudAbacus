@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-01T13:28:16Z
-var NEWS_FETCHED_AT="2026-09-01T13:28:16Z";
+// 生成:2026-09-01T19:23:34Z
+var NEWS_FETCHED_AT="2026-09-01T19:23:34Z";
 var GPU_NEWS=[
+  {
+    "title": "南华期货更新可转债申请文件 相关事项仍需上交所审核及证监会注册",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaE5BT0JlclEyLUUwRU9hLTc3ZHYzbVhLanVNVDFnYnVJdTk2Z2o4ZW9UYzV0VEpPUUdrZTZvZXRFZnVOQ2NLUU9oa3k3aGRzb2JVZE5XOHU1eFlCdlcwVHd0bGVYQnRkc0FCUUxCR1JDeHYteFUzWHNxTUEwQl9Ydm96U2tieGx2SUE?oc=5",
+    "published": "2026-08-31",
+    "summary": "南华期货更新可转债申请文件 相关事项仍需上交所审核及证监会注册&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "上海期货交易所：对部分客户采取限制开仓监管措施",
     "source": "新浪财经",
@@ -592,18 +604,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "深度调查｜风险管理子公司两大业务“归母”，期货公司面临“大考”",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQlJQWDVhWFc1UV9mMkVpejFiMElZYzBhRFBJT0lPT2t1LUgzSGhsRHEtaDMxUEdQWTQtZ3R4M3pKTVNJNUFiV0FvZDdvWXplOGt4a3RMTDU1T0V1Q21KdUZHVjB5ZGJMbEZjVV9mUVpKQzM1N2xVQ2tjQ1hrUFdUN2EyUlp2ZjgzN09ETXh6ZFE3ckFfekNxYTZNOHd6WGM3RFNDY3F2Rk5hbTU0TzN2c281RWJHOTNFRjUwbnQzSXVBLWtONlR5alVYYl93RGRWeTZ5RDI0OHR3eEptckRwVS1R?oc=5",
-    "published": "2026-08-14",
-    "summary": "深度调查｜风险管理子公司两大业务“归母”，期货公司面临“大考”&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
