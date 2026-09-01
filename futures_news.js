@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-01T04:49:52Z
-var NEWS_FETCHED_AT="2026-09-01T04:49:52Z";
+// 生成:2026-09-01T13:28:16Z
+var NEWS_FETCHED_AT="2026-09-01T13:28:16Z";
 var GPU_NEWS=[
+  {
+    "title": "上海期货交易所：对部分客户采取限制开仓监管措施",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON0dYMEY3VWp3V3dPZDhLeDItZ19tRzdOYTh5cFU0X0NIOW5xd1F6ZjRVX09UUEZWT3M2ci0xVkdjdF9PTDZnZWJna3dfRkpJWk1IVWtjeS1EWlJtZGJGWERtcU9MclNkY3g3Y1FLVmtmb1pVX2hGNlpmaWxReGhKXzB4T2ZSM1k?oc=5",
+    "published": "2026-08-31",
+    "summary": "上海期货交易所：对部分客户采取限制开仓监管措施&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "中信证券拟向中信期货增资不超过50亿元",
     "source": "新浪财经",
@@ -593,18 +605,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "Amazon and Alphabet’s Profits Reveal Circular Nature of A.I. Boom",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/14/business/ai-tech-profits.html",
-    "published": "2026-08-14",
-    "summary": "Investment gains at Alphabet and Amazon reveal a new way in which technology companies’ fortunes are increasingly linked.",
-    "full_text": "Alphabet and Google have benefited from the rising value of their investments in A.I. companies, adding to profits beyond their core businesses.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "Alphabet 和亚马逊的投资收益揭示了科技公司的命运日益紧密相连的新方式。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
