@@ -21867,7 +21867,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.87
+            "price_usd": 3.97
           },
           {
             "platform": "CoreWeave",
@@ -21947,7 +21947,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.21
+            "price_usd": 0.29
           },
           {
             "platform": "TensorDock",
@@ -21961,7 +21961,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.08
           }
         ],
         "NVIDIA L4": [
@@ -21978,12 +21978,16 @@
           {
             "platform": "RunPod",
             "price_usd": 0.35
+          },
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.33
           }
         ],
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.21
+            "price_usd": 0.29
           }
         ],
         "RTX 5080": [
@@ -21995,7 +21999,7 @@
         "RTX 5060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.05
+            "price_usd": 0.06
           }
         ],
         "RTX 5070 Ti": [
@@ -22022,16 +22026,16 @@
             "price_usd": 0.05
           }
         ],
+        "NVIDIA RTX 4070 Ti / 4070": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.08
+          }
+        ],
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.16
-          }
-        ],
-        "NVIDIA RTX 4070 Ti / 4070": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.09
           }
         ],
         "RTX 4060": [
@@ -22049,7 +22053,7 @@
         "NVIDIA RTX 3080 / 3080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.09
+            "price_usd": 0.06
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
@@ -22083,7 +22087,7 @@
         "RTX 2060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.04
+            "price_usd": 0.03
           }
         ],
         "RTX 2070": [
@@ -22107,7 +22111,7 @@
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.47
+            "price_usd": 0.33
           }
         ],
         "NVIDIA GH200": [
