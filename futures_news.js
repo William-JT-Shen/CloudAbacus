@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-09-03T12:48:08Z
-var NEWS_FETCHED_AT="2026-09-03T12:48:08Z";
+// 生成:2026-09-03T19:17:11Z
+var NEWS_FETCHED_AT="2026-09-03T19:17:11Z";
 var GPU_NEWS=[
+  {
+    "title": "期货看盘软件有哪些",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS2RWSm0tNG1SMndEYmFnNUlyWWVBcEhaYjhVU0V4Q2FsYmRZTjNWNlE1bkdQZTJhNWstajBmX0M2SDItbW1FR3IwVHVEVkVLaXlaQlBKZmxLVFQ2Si03dmdkTExaSUtJM3AwakFzWFBmdDhDRUdCUEl0c0FSeVVLZnNQUk5iakNYUDlqaw?oc=5",
+    "published": "2026-09-03",
+    "summary": "期货看盘软件有哪些&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "Nodal Exchange拟推出AI芯片算力期货",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwcVQwZm5hTW15ek1wTWtQSXFRcW5PeHpjWGpLVk5FWENhRnhsdURIdDd5SWtsc2gycUhBR1BEUjZKMjBVc1JrTVV3aF9SUGVQbENFbWl0MlQtOTJkRWI2X2hWcEtISkZZSVNlcWZPSnZrWFctb3lSWA?oc=5",
+    "published": "2026-09-03",
+    "summary": "Nodal Exchange拟推出AI芯片算力期货&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "杭州小团队做了台「AI对讲机」，3天众筹了1000%",
     "source": "36氪",
@@ -580,30 +604,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "从众筹到问鼎欧美，VITURE与XR行业的五年",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3940540064562563?f=rss",
-    "published": "2026-08-15",
-    "summary": "大家都说，XR眼镜是一个奇怪的品类。\n  参数每年都在刷新，销量每年都在增长，但二手平台上，“只用过两次”“戴了半小时头晕”“吃灰半年出了”的转卖帖，好像慢慢变得比任何一个消费电子品类都密集。\n  行业常常将品类留不住用户、留不住用户的时间，归咎于技术还不够成熟。\n  VITURE创始人姜公略给出的是另一个关于“过去五年”的解释。\n  “2022年之前的眼镜，本质上都是投屏器，相当于一台外接显示器。但用户期待的、我们在做的，是一台电脑，一个能计算、能交互、有内容的all-in-one终端设备。”\n  “清晰”和“清晰又聪明”的巨大区别，指向了行业的核心矛盾。投屏器只能从技术上让用户的眼前再多出现一块大屏，但XR眼镜这个品类，如果只能回答用户一个问题，这个问题应该是：我今天为什么要多戴一副眼镜。\n  用了五年时间来回答这个问题的VITURE，2021年，创业开始，还是一家只有10个人的公司，在Kickstarter上打破了Oculus保持多年的众筹纪录。五年后，它成为了欧美出货量第一的XR眼镜品牌。\n  五年多后的8月6日，品牌成立的五周年当天，VITURE全球同步发布了Pro 2。\n ",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "赚得越多，亏得越狠：CoreWeave财报背后的AI算力重资产困局",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wRndsdjZzOUx0OC03TVdXOHI0ZW1kT2dRRUFKN0xqMUhlOW1OV1pJOVR2a1VmOTBib29sVjRGdnNlWFpkX3hMRG1zdnIxSHotLTdyejFhNWRUWDZGRVM3LXZQQTBBcnNkbndxYmVscEUxdFp2V1E?oc=5",
-    "published": "2026-08-15",
-    "summary": "赚得越多，亏得越狠：CoreWeave财报背后的AI算力重资产困局&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
