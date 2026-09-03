@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-02T22:34:12Z
-var NEWS_FETCHED_AT="2026-09-02T22:34:12Z";
+// 生成:2026-09-03T04:08:24Z
+var NEWS_FETCHED_AT="2026-09-03T04:08:24Z";
 var GPU_NEWS=[
+  {
+    "title": "数据丨600869，超22万手封涨停！能化期货大涨，社保基金重仓多股",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NcHJRYmpJdWJxcmlnQ1U2Z1JWc2RaS3YxVmtoMTBWemNpTGwzSjN2QmVoM1pqRVBfTGpDMFFDeFpMUlM4QWU0cGdadFdRVm9mV24tcWwtMWpxRlpZc2xZWDFzdDJvRHpmNmIzSGxwa1lacU5vMUE?oc=5",
+    "published": "2026-09-02",
+    "summary": "数据丨600869，超22万手封涨停！能化期货大涨，社保基金重仓多股&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "洲际交易所两大可可期货9月2日齐跌逾6%",
     "source": "新浪财经",
@@ -592,18 +604,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "9点1氪丨追觅首台手机售价超20万，带创始人俞浩签名；韩国宣布2030年实现登月；胖东来计划招聘20名刑期5年以上刑满释放人员",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3940086573759874?f=rss",
-    "published": "2026-08-15",
-    "summary": "今日热点导览\n  \n   微信朋友圈未来不会推出二次编辑功能\n   遭“薅羊毛式”黑灰产诈骗，东方甄选回应\n   宜家拟处置上海宝山商场物业\n   阿里超15亿美金向中信资本出售灵犀互娱\n   英伟达宣布CPO交换机全面量产\n  \n  TOP 3 大新闻\n  追觅首台手机售价超20万：24K足金镶宝石，带俞浩签名\n  8月13日，追觅手机负责人在朋友圈透露，公司已正式交付001号AURORA手机。据其透露，三万美金（约合人民币20.23万元）交易款项已全部到账，其中首付款1万美金，尾款21184美金。其称，这是 “中国智能手机历史上迄今为止卖出去单台售价最高的旗舰智能手机”。从曝光图片来看，手机不仅背面带有追觅创始人俞浩签名，而且还附带专属编码的典藏证书。证书信息显示，甄选24K足金材质，并镶嵌珍稀宝石。（钱江晚报）\n  韩国宣布2030年实现登月\n  8月12日，韩国总统李在明在青瓦台举行“未来增长动力七大尖端技术发布会”，并公布“七大尖端项目”战略：分别是2029年研制国产100量子比特计算机，2030年实现登月，2035年推动国产小型模块化反应堆（SMR）商业部署，并实现脑机接口",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
