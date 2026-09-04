@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-04T18:59:37Z
-var NEWS_FETCHED_AT="2026-09-04T18:59:37Z";
+// 生成:2026-09-04T22:19:47Z
+var NEWS_FETCHED_AT="2026-09-04T22:19:47Z";
 var GPU_NEWS=[
+  {
+    "title": "美国就业数据大幅增长，金银期货承压",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2dEZzhBY1BYb25JaGw0V1Q5NjFReDhneFF0VHczZ0RIUHlYbmtXUTZhcUM1bGozakxCZjNwMTVZbmFEXzZGZlc4eUJBVXhyX2xRX19ZMzhpN05BUUZQWTlNZU9LN3pqWTBXa05sQ0NhUEVfVzhobjBjbkNONW1Sdg?oc=5",
+    "published": "2026-09-04",
+    "summary": "美国就业数据大幅增长，金银期货承压&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "可可期货收窄周跌幅 短缺风险笼罩供应前景",
     "source": "新浪财经",
@@ -592,18 +604,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "8点1氪丨Anthropic有望2万亿美元估值上市；旺旺集团面临重大经营危机；Sorry勒索病毒正在国内传播",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3942852697652356?f=rss",
-    "published": "2026-08-17",
-    "summary": "今日热点导览\n  宇树科技未上市先疯抢，部分中介出价520元/股\n  SK海力士董事长道歉，价格涨太快我很抱歉\n  段永平1300亿持仓曝光，大幅减持英伟达、谷歌\n  美图RoboNeo正式上线短剧专业版\n  小熊电器上半年净利下降4成，海外增长未能对冲国内压力\n  TOP3大新闻\n  Anthropic有望2万亿美元估值上市，成为史上规模最大的IPO\n  《财富》（fortune）8月13日发布博文，报道称Anthropic计划2026年10月以2万亿美元（现汇率约合13.51万亿元人民币）估值IPO上市，其规模将超过SpaceX，成为史上规模最大的IPO。业内指出，Anthropic已于6月向美国证券交易委员会秘密提交IPO相关文件，进入静默期，受此约束，企业不得对外发布涉及自身财务表现的公开信息。\n  今年Anthropic推出多款性能优于竞品的模型，同时聚焦面向企业客户的销售业务。公司于5月公布其年化营收已经突破470亿美元（现汇率约合3,175.75亿元人民币）。（IT之家）\n  旺旺创始人发布公开信：旺旺集团面临重大经营危机\n  近日，旺旺集团创始人蔡衍明一封内部公开信在网",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
