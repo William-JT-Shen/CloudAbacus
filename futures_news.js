@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-05T11:49:45Z
-var NEWS_FETCHED_AT="2026-09-05T11:49:45Z";
+// 生成:2026-09-05T15:03:27Z
+var NEWS_FETCHED_AT="2026-09-05T15:03:27Z";
 var GPU_NEWS=[
+  {
+    "title": "今日期货市场重要快讯汇总｜2026年9月5日",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYUtLWEtYSDB1ZTNRdDNjSDIzQi1VQlRnYThBaXlIcXdheGRnSURnUEJRVHpDMjVJU0hHV1paakpZNXY5VDhFdThNUk1PTGR3dkVkcmYzT2M0eGlCc1FoYldyek8tc2ZXS00yd2JVcGtwcjk4NkhrVDR4azh5WnU0VWhOU2VvYUdySF9Raw?oc=5",
+    "published": "2026-09-05",
+    "summary": "今日期货市场重要快讯汇总｜2026年9月5日&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "直击IFA 2026｜别谈具身和AI，欧洲不相信「黑科技」",
     "source": "36氪",
@@ -592,18 +604,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美债到5%，吓坏了AI投资者",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3946058108370057?f=rss",
-    "published": "2026-08-19",
-    "summary": "作者&nbsp;|&nbsp;黄绎达\n  编辑&nbsp;|&nbsp;张帆\n  近期，美债长端利率显著上行，推动收益率曲线呈现出典型的陡峭化特征。反映在数据上，6月29日~8月17日，10年期与30年期美债利率分别大幅上行34和45个基点（bps），而2年期美债利率在同期仅上行9个基点，期限利差迅速走扩。\n  更值得关注的是，美债利率在经历本轮快速冲高后：30年美债利率已升破5%，不仅超越了疫情后加息周期的高点，而且创下了2004年以来的新高；10年美债利率不仅逼近前高，亦接近2007年次贷危机时的水平。\n  作为全球无风险利率之锚，美债利率的快速上行引发了一轮包括权益、外汇及大宗商品在内的大类资产价格再定价，近期AI产业链的剧烈波动也包含了这一传导逻辑的影响。同时，10年美债利率的定价本身是对全球宏观经济的映射，当前的利率水平亦唤起了投资者对2007年次贷危机的惨痛回忆。\n  \n  图：10年美债利率走势；资料来源：wind，36氪\n  那么，驱动美债利率上行的核心因素都有哪些？美债利率上行如何影响AI链行情？\n  01 多重因素驱动美债长端利率上行\n  对于不熟悉债券的投资者，首",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
