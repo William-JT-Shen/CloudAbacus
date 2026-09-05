@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-05T15:03:27Z
-var NEWS_FETCHED_AT="2026-09-05T15:03:27Z";
+// 生成:2026-09-05T18:08:17Z
+var NEWS_FETCHED_AT="2026-09-05T18:08:17Z";
 var GPU_NEWS=[
   {
     "title": "今日期货市场重要快讯汇总｜2026年9月5日",
@@ -72,6 +72,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "集运指数欧线期货连续主力合约日内跌7%，现报1830.00点。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mS1N3Mlc1Wko2WUdPVWxsM1pYRncybUZUNnBWbU9NSkJyczJNY0pmbkVYcGd1TFE5dVJ6ZlRJaElVeGtORF9sOWNDTWxBaG1HdTBqa3R2MGM4U3J6NWZ2RXR4WkxwZXNKZzhtSHltX0NqWnprWG5Ccg?oc=5",
+    "published": "2026-09-03",
+    "summary": "集运指数欧线期货连续主力合约日内跌7%，现报1830.00点。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BS0pQZmVhRUFjcTlWUXA5VDdOa0dDZlUtX3RhQ3VFcnUzOEZOS1hWYmZRX3c1Q0EyeWZMc0tCZU9rdVBlM0N6czh5Z01YVGNKUktJbW9MT19Xa3UzMmlHSnNKNTJUaFFwXzZNa2htMDV6Q0ZZWkt2cw?oc=5",
     "published": "2026-08-19",
     "summary": "美国商品期货交易委员会（CFTC）就算力期货合约公开征求意见&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国商品期货交易委员会就算力衍生品合约上市征求意见",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tTEN0Y3FfbzBTbTVZSm93ZnZjQi1ybDJGM1JSRmtpeThRSi0yNTJYWThWbGZlUTRLWFpMcHdjelFMX0hMbEtzOW1wSkFVY2tXU3d1SjZkckI2MHZ2bVp0YkJILTE3MmJ1a3RDWjd1XzJwcGd3MmMzdQ?oc=5",
-    "published": "2026-08-19",
-    "summary": "美国商品期货交易委员会就算力衍生品合约上市征求意见&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
