@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-05T18:08:17Z
-var NEWS_FETCHED_AT="2026-09-05T18:08:17Z";
+// 生成:2026-09-05T22:03:30Z
+var NEWS_FETCHED_AT="2026-09-05T22:03:30Z";
 var GPU_NEWS=[
+  {
+    "title": "别谈具身和AI，欧洲不相信「黑科技」｜直击IFA 2026",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3970179970036225?f=rss",
+    "published": "2026-09-05",
+    "summary": "作者｜黄楠\n  编辑｜袁斯来\n  2026年9月，柏林的初秋被雨水浸透，展览中心灰色的建筑群在晨光里安静展开，像一台刚启动的精密设备。在这座信奉“工程师文化”的城市，习惯用确定性和流程感丈量一切。\n  想看点不同寻常产品的人，来IFA会非常失望。\n  你看不到会飞的扫地机，场馆里也没有人形机器人做家务。大门外，招牌最醒目的仍然是赞助商常客TCL。\n  科技记者、自媒体人大概率会有些无聊，但如果你是个经销商、或者想为新家添置一些新家电，来这里一定能找到解决方案。\n  活动现场，我们随处可见带有IFA图标的彩色背板，“The future is now.”这句标语被挂在展馆的许多角落，字样格外显眼。\n  但IFA是个实用主义的展会。每台设备旁边都贴着技术参数卡和适用场景说明，法国用户手握着扫地机地盘，反复对比抹布结构差异，确认机械臂的实际作用；还有专门从荷兰、澳洲飞来的经销商围着一台割草机，半蹲下身研究底盘刀片。它是企业们做生意、找客户的场地，不是秀技术肌肉的展示台。\n  围观的人最爱问的只有一句话：你这个产品到底现在能解决什么问题？\n  所以，任何还想做海外市场的企业，不能也不敢缺席IF",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "今日期货市场重要快讯汇总｜2026年9月5日",
     "source": "新浪财经",
@@ -24,6 +36,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "WTI原油期货价格跌超2%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaE5GQl9mbWJGR1hZYko3WEF1TGV4dFhVS24yTjdpMFl5WXpXU1FjVXBfM1RsdTlNdDh3SE1RN2c4YmhOQTRhYzVlTTZORlJ2eHFZdk1Sa0tjX0ZlQ3V2NTJpQTZBU081M21mMThtLWxJcWgtazZ4aFgwZzZ0YVM0VVU0WUppM1k?oc=5",
+    "published": "2026-09-04",
+    "summary": "WTI原油期货价格跌超2%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -576,30 +600,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaFdHV2Z3cEdzUmgzYnQyU1MwZUY0azZrb3FoX2dNZHJmcm51R28tX2lQRjBjLTdSS1RFTFN2bnhlUXJPczNTN2l1czFIb2xieE0zNlE4TGFWelJhYWUwVkFpQ2lQVS1COWRsbU94WUdPWVhfMkpWekF5bXZYbVRTZExBeDQwQXpMNkJUZWZ3?oc=5",
     "published": "2026-08-20",
     "summary": "芝商所(CME.US)计划于10月5日推出算力期货 开辟对冲AI风险新途径&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国商品期货交易委员会就AI算力期货征求公众意见",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRk90dlVQSWJrVXRDbEFDcWNTa1djSjE3NnpvYy1saVo4ZFluUXRseDc0NEN4b2lxTmtVUEVEWFFuQ3U5UjNUbGhqZ04zX0l5Snp6NmhDb18waG5yVTlKZHVhY3RfUGQ0NW03ZU4xSlB1Nno3dzRBXzdkQ3BxbFl0YQ?oc=5",
-    "published": "2026-08-19",
-    "summary": "美国商品期货交易委员会就AI算力期货征求公众意见&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国商品期货交易委员会（CFTC）就算力期货合约公开征求意见",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BS0pQZmVhRUFjcTlWUXA5VDdOa0dDZlUtX3RhQ3VFcnUzOEZOS1hWYmZRX3c1Q0EyeWZMc0tCZU9rdVBlM0N6czh5Z01YVGNKUktJbW9MT19Xa3UzMmlHSnNKNTJUaFFwXzZNa2htMDV6Q0ZZWkt2cw?oc=5",
-    "published": "2026-08-19",
-    "summary": "美国商品期货交易委员会（CFTC）就算力期货合约公开征求意见&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
