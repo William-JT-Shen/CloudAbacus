@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-05T22:03:30Z
-var NEWS_FETCHED_AT="2026-09-05T22:03:30Z";
+// 生成:2026-09-06T04:18:02Z
+var NEWS_FETCHED_AT="2026-09-06T04:18:02Z";
 var GPU_NEWS=[
+  {
+    "title": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmOWdaZ3Y0Nkt0S3JnWWVGa0xMbzc2TVNmcE9YcFFLZVJDc3B5WkNNUHI2Y05OaTROR3hLRFloSnlmVTFZbkNEakVWWmd3cHNWMTl0czNuRE10dHhLdTFMMUlwS2NIYmE1bjhIX3RYM1BmVUZBVEJfOA?oc=5",
+    "published": "2026-09-05",
+    "summary": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "别谈具身和AI，欧洲不相信「黑科技」｜直击IFA 2026",
     "source": "36氪",
@@ -593,17 +605,5 @@ var GPU_NEWS=[
     "summary_cn": "",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "芝商所(CME.US)计划于10月5日推出算力期货 开辟对冲AI风险新途径",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaFdHV2Z3cEdzUmgzYnQyU1MwZUY0azZrb3FoX2dNZHJmcm51R28tX2lQRjBjLTdSS1RFTFN2bnhlUXJPczNTN2l1czFIb2xieE0zNlE4TGFWelJhYWUwVkFpQ2lQVS1COWRsbU94WUdPWVhfMkpWekF5bXZYbVRTZExBeDQwQXpMNkJUZWZ3?oc=5",
-    "published": "2026-08-20",
-    "summary": "芝商所(CME.US)计划于10月5日推出算力期货 开辟对冲AI风险新途径&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   }
 ];
