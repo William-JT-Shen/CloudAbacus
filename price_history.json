@@ -22732,7 +22732,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.6
+            "price_usd": 3.16
           },
           {
             "platform": "CoreWeave",
@@ -22754,7 +22754,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 1.93
+            "price_usd": 1.33
           },
           {
             "platform": "CoreWeave",
@@ -22798,7 +22798,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.31
+            "price_usd": 0.28
           },
           {
             "platform": "DataCrunch",
@@ -22890,7 +22890,7 @@
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.12
           }
         ],
         "NVIDIA RTX 4070 Ti / 4070": [
@@ -22920,7 +22920,7 @@
         "NVIDIA RTX 3080 / 3080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.09
+            "price_usd": 0.07
           }
         ],
         "NVIDIA RTX 2080 Ti": [
@@ -22933,12 +22933,6 @@
           {
             "platform": "Vast.ai",
             "price_usd": 0.25
-          }
-        ],
-        "RTX 2060": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.05
           }
         ],
         "RTX 6000": [
@@ -22957,6 +22951,12 @@
             "price_usd": 0.05
           }
         ],
+        "RTX 2060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.06
+          }
+        ],
         "NVIDIA T4": [
           {
             "platform": "Vast.ai",
@@ -22972,7 +22972,7 @@
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.03
+            "price_usd": 0.24
           }
         ],
         "NVIDIA GH200": [

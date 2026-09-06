@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-06T18:14:42Z
-var NEWS_FETCHED_AT="2026-09-06T18:14:42Z";
+// 生成:2026-09-06T22:06:04Z
+var NEWS_FETCHED_AT="2026-09-06T22:06:04Z";
 var GPU_NEWS=[
   {
     "title": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网",
