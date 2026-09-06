@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-06T12:07:37Z
-var NEWS_FETCHED_AT="2026-09-06T12:07:37Z";
+// 生成:2026-09-06T18:14:42Z
+var NEWS_FETCHED_AT="2026-09-06T18:14:42Z";
 var GPU_NEWS=[
   {
     "title": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网",
@@ -108,6 +108,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "Nodal Exchange计划推出AI算力期货，与芝加哥商业交易所（CME）、洲际交易所（ICE）展开竞争。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iMHV3ZDVnNmxFQUNJeTdzeExlSy03Y0wwem9VVDNKSFoyMVJPejJhTkpTRzROY1hfMGZ5Sl90WE8zamFNSy1DMC1ST3FpcHZadnFCQ1Y0NVBPQnR4SG9zdmZNU2VIUlBrcnVsay1WZFMzaGxNLTd2cA?oc=5",
+    "published": "2026-09-03",
+    "summary": "Nodal Exchange计划推出AI算力期货，与芝加哥商业交易所（CME）、洲际交易所（ICE）展开竞争。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -592,18 +604,5 @@ var GPU_NEWS=[
     "images": [
       "data:;base64,="
     ]
-  },
-  {
-    "title": "New Jersey Teenager Drops Bellwether Social Media Addiction Lawsuit",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/20/technology/social-media-addiction-lawsuit-dropped.html",
-    "published": "2026-08-20",
-    "summary": "The case was the third of nine major personal injury cases that could expose Meta, YouTube, Snap and TikTok to financial damages and force them to change the designs of their platforms.",
-    "full_text": "Los Angeles County Superior Court. Tech companies have faced thousands of cases filed by teenagers, school districts and state attorneys general that claim that social media features are addictive.",
-    "lang": "en",
-    "title_cn": "新泽西青少年放弃领头羊社交媒体成瘾诉讼",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
