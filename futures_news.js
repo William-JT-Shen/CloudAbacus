@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-07T14:13:24Z
-var NEWS_FETCHED_AT="2026-09-07T14:13:24Z";
+// 生成:2026-09-07T19:51:20Z
+var NEWS_FETCHED_AT="2026-09-07T19:51:20Z";
 var GPU_NEWS=[
+  {
+    "title": "千问接入十余家金融类智能体 覆盖证券基金期货保险等领域",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQnVLT0R0MC14NGdwRjQ3WFNKeTdBeTJwdDU1b3ZEZE5ZejdiNl9McDRoMGg3NHE2QmVjMXktZ0tBNW91SWlEYzE3dngzTTQ5SlZPWld0QWRObUh0dzgxSlhadWNud2oyMXd3SWx3ZFF6MkpRZEg4OGVneDdzd2pvMkVLN2pPWXZSRkdKbnRua2FPaWs?oc=5",
+    "published": "2026-09-07",
+    "summary": "千问接入十余家金融类智能体 覆盖证券基金期货保险等领域&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "华泰期货：关注高景气度行业，股指或迎修复窗口",
     "source": "新浪财经",
@@ -591,18 +603,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
-    "published": "2026-08-23",
-    "summary": "The mysterious collapse of a European cryptocurrency exchange helps to explain why the industry hasn’t shaken off its reputation as a magnet for criminals.",
-    "full_text": "Nicole Suszek last month with a phone showing a missing-person poster for her older brother, Sylwester Suszek.",
-    "lang": "en",
-    "title_cn": "四年前，一位加密货币老板失踪了。现在他的继任者已经。",
-    "summary_cn": "欧洲加密货币交易所的神秘倒闭有助于解释为什么该行业仍未摆脱吸引犯罪分子的名声。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
