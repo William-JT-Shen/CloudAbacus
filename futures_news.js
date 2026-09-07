@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-07T04:16:59Z
-var NEWS_FETCHED_AT="2026-09-07T04:16:59Z";
+// 生成:2026-09-07T14:13:24Z
+var NEWS_FETCHED_AT="2026-09-07T14:13:24Z";
 var GPU_NEWS=[
+  {
+    "title": "华泰期货：关注高景气度行业，股指或迎修复窗口",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLTBTanM4Q2Y2b2FEY3hNME5MaTU1cWRfS0Etc0hxMWw0YzYyTUpEUW9hWEdncDlURUQ5QjZ3b0tnN1ppbkFwUm1EWnpXWG43OFR5RVlZMnQ4Y2dxX3poOUYxdTJySlAtb2ltMmItcmFzYWtZOFg1Z2p6a3E2ZUQyamU2aFk1bkItUXFCeQ?oc=5",
+    "published": "2026-09-07",
+    "summary": "华泰期货：关注高景气度行业，股指或迎修复窗口&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "8点1氪丨耐克将被移出标普100指数；iPhone折叠版定价或14999元起；财政部将发行特别国债，支持8家中央金融企业补充资本",
     "source": "36氪",
@@ -24,6 +36,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "日经指数期货报66100点，现货收盘报65020点。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSTBVUHNfWGZscXhObDlZXzY2LVZHb3B1Y3hxbS1QbWlFVVh3VVJGTlhqd2x6TGdYb3lGMGFjdkVHMmFXSjdISFFVWi1LM2stY1dXSUpzS2NMSGowM29VWDVPZVVQNWgwT1dxSlVyQnlwSEp1YjVNRlVyTnFpUjNTaGRxcw?oc=5",
+    "published": "2026-09-06",
+    "summary": "日经指数期货报66100点，现货收盘报65020点。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -580,29 +604,5 @@ var GPU_NEWS=[
     "summary_cn": "欧洲加密货币交易所的神秘倒闭有助于解释为什么该行业仍未摆脱吸引犯罪分子的名声。",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "中天期货:商品指数商品继续上行 白银再度上行",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVFBfRzZkRG9zLWNOam4xNERndWR0RHY2WG9UWXBRNWVwOS13ek1UN1BQc2VlUVJBaHhjYVhuWktNUWhPcEVYQ0NuYlhDQnZDRDMyZjNtWGZ0dVU3eU1oOTkwZ0JFUjc0ZHZpdVlqMFpZeHh1T1BsZU5Ta09Gd1d4UjFpQkpaRmpxOGNOVXp5ZUZ6eUxnVEZNbFJOWW5zVFJMazJrOEtySVNnX0FkQS03Y2FLSlozMl8xZm9mbFFOYmJEdmhvM2QxZE1aM0hkTVAwX1NmaDFsSlZ2aVRZdUFDTUkyVQ?oc=5",
-    "published": "2026-08-21",
-    "summary": "中天期货:商品指数商品继续上行 白银再度上行&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "永续期货引发华尔街生存危机 —— 全天候增强版衍生品，紧迫性陡然升级",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQjB2cWY4QlE2NG1SR3VpQi0wMXZhblM3UWE4Y0ZRdkR5eUs0RkkxenRxeDdQUmh2YWM5OW5ycXFLT3duZ1NvQU9UQUtZTVluUjJGaVJCd2hNbW9Bb0FFWnk4SlJTajRvX0Z5MEk5VGtNbzdFZzUyLUR4Y1ZjcnBRTnVXVi1sNnpYb0s1clJDS2MtYk8xb1dmbmhxLXZQa3ZlZnRrWnU4cTBXV3RNclcyVVNWSnpTb1h0R0lmSzFieG1zN29oWFRNb1Vwb05Rc0FrbnBNRkhhTVkxUThSR3g4?oc=5",
-    "published": "2026-08-21",
-    "summary": "永续期货引发华尔街生存危机 —— 全天候增强版衍生品，紧迫性陡然升级&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   }
 ];
