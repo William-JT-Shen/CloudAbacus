@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-09-08T04:17:21Z
-var NEWS_FETCHED_AT="2026-09-08T04:17:21Z";
+// 生成:2026-09-08T12:51:46Z
+var NEWS_FETCHED_AT="2026-09-08T12:51:46Z";
 var GPU_NEWS=[
+  {
+    "title": "恒指期货夜盘收跌0.33%，报25252.92点，低水160.20点。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MUFNLOXZOSVVZaWNCTjZkTmZoQjl4eFRRb2Z1NU45dGRmR1VfRVFpaXFFRmJGcEU3dTRxQk01STd5MnJ2OV90Sml3VVZOVlQwOVA1WVkwVmlrR3lEMzAwb2psZV8wRS0wRnBqdk52TDcwMEtneUw5aA?oc=5",
+    "published": "2026-09-07",
+    "summary": "恒指期货夜盘收跌0.33%，报25252.92点，低水160.20点。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "【英大期货】投资参考",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FZHJ0OTgzMnB5Nmp0ZVM2WVVjZ1J0VHl6REM0ZlRXOTJ1Nnk4WTI4RVhNU3dITkpmQ0stZVNEQTVyby1lTlF4VFZoV2kzdXV3ZEFzaHVMcGt4YjhkMGYxcHJENnZZS1Z0S0tVNGRqQno5X2dFRXQzTg?oc=5",
+    "published": "2026-09-07",
+    "summary": "【英大期货】投资参考&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "千问接入十余家金融类智能体 覆盖证券基金期货保险等领域",
     "source": "新浪财经",
@@ -574,30 +598,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mTDJZUVNidGF4Z1pMX2FRdC1PUWwxaUszSnN0Z2JuR2JfYmZmczRrc3I2RHRrcUc2cUJQdnZ5TGQ5V1N3TnFtSElGMkZWaXRtVEN0aFhIVldGOWRtREgxSkx6ZWNfSU5vU0JZcTR3QXJsQXBpd0NhZQ?oc=5",
     "published": "2026-08-24",
     "summary": "期货市场资金稳步增长，客户结构持续优化&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝加哥玉米期货8月24日涨2.16%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHpoeW5zR2V3ckt1RTVRVkNzY1BSa1JPekJFRXZ4YnlqczV3UldsRGNsSzNvRGFuWDhhazlOeTNrblhicjZsN01od0M2UXlNOTNxY3hpMHc0dUpNRDR3NmVHVzhld2ZyZ0F1WWk2U3gwUVFjbWx4dE9ndkFWalRaekpRQlRfdmc1ZnVaVUdOOGg1M2c?oc=5",
-    "published": "2026-08-24",
-    "summary": "芝加哥玉米期货8月24日涨2.16%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "全球算力金融化加速，上海如何下好先手棋",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tOGFYcVBFQkFvN3dDNjVPWlpZNktxQ3RpVm8zaVY0ZFdpY2R4bXc4M2lqaUxPOS1hVTlHazJaVE5KT1VvTmI2R3B5a1llZUcwTkgyVHJrTVZxSnpnZHl1c2RpQ3JTczJxLTVJQjN3?oc=5",
-    "published": "2026-08-23",
-    "summary": "全球算力金融化加速，上海如何下好先手棋&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
