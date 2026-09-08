@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-08T12:51:46Z
-var NEWS_FETCHED_AT="2026-09-08T12:51:46Z";
+// 生成:2026-09-08T19:25:25Z
+var NEWS_FETCHED_AT="2026-09-08T19:25:25Z";
 var GPU_NEWS=[
   {
     "title": "恒指期货夜盘收跌0.33%，报25252.92点，低水160.20点。",
@@ -204,6 +204,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "罕见罚单破局！期货圈会务费潜规则，正式落幕",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVVJhVFV6bnB5WDJkODczUG1uckFWblE2NHJNZTRweG4yelRaVXNGaUVucTZlakdyUmxIWThlOWdFa2hsaG1STUpHUkhKRE4za0tCRlkxeHVGVmRwaE5lTlFnejM2MG9iTXVYSkdNbWVkVkdBc29XQ2NXVDlqdnZWUF9kdFNOdHJxelJzNXJn?oc=5",
+    "published": "2026-09-03",
+    "summary": "罕见罚单破局！期货圈会务费潜规则，正式落幕&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -591,17 +603,5 @@ var GPU_NEWS=[
     "summary_cn": "美国威胁对任何参与伊朗黄金、数字资产、航空、航运和科技行业的国家或实体实施制裁。这就是为什么这很重要。",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "期货市场资金稳步增长，客户结构持续优化",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mTDJZUVNidGF4Z1pMX2FRdC1PUWwxaUszSnN0Z2JuR2JfYmZmczRrc3I2RHRrcUc2cUJQdnZ5TGQ5V1N3TnFtSElGMkZWaXRtVEN0aFhIVldGOWRtREgxSkx6ZWNfSU5vU0JZcTR3QXJsQXBpd0NhZQ?oc=5",
-    "published": "2026-08-24",
-    "summary": "期货市场资金稳步增长，客户结构持续优化&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   }
 ];
