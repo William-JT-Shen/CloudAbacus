@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-09-08T22:34:22Z
-var NEWS_FETCHED_AT="2026-09-08T22:34:22Z";
+// 生成:2026-09-09T04:23:54Z
+var NEWS_FETCHED_AT="2026-09-09T04:23:54Z";
 var GPU_NEWS=[
+  {
+    "title": "半年融资三轮，这家公司以AI和数据切入儿童成长交互赛道丨36氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3975552848589056?f=rss",
+    "published": "2026-09-09",
+    "summary": "图源/企业\n  \n   本文约3000字，建议阅读7分钟\n  \n  作者丨欧雪\n  编辑丨袁斯来\n  硬氪获悉，风峦数字科技（下称“风峦科技”）近期已完成数千万元天使+轮融资，由鸿瑞达投资领投，苏州怡达基金及Hexa Capital跟投。资金将主要用于首代教育机器人的样机研发、技术团队扩建及销售体系建设。\n  风峦成立于2025年10月，是一家聚焦儿童成长数据资产的数字科技公司。创始人蒋肖迪毕业于美国康奈尔大学，曾创办头部知识付费与MCN公司“星峦天下”，在教育流量运营和教育产品研发领域有多年积累。团队联创及合伙人背景包含具身智能行业、AI芯片研发、教育行业头部IP以及高端制造龙头上市公司。\n  目前风峦科技的产品体系分为软件和硬件两条线。\n  软件端，聚焦家庭学习场景的AI学习工具幻课APP已上线已上线数理思维、英语学习的内容订阅与服务，2026年后续将推出语文素养、AI通识与机器人编程科目。与市面上多数AI课程产品不同，幻课APP并不只是将课程内容数字化，而是在强调AI趣味化交互的同时，在底层搭建了AI数据中台，通过颗粒化的数据抓取，包括每一帧动画的停留时长、每道题的重复错误率、使",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "20260908红枣期货数据汇总",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZFNGekIxX1hCWmVDLUE5WEI1OEEteXFsREQxWV9FYjdTZzJZbzh2M0hrWXdZb1U2N3Y0MWtETnhmWWlVNERaQzZyZUpzblotU2kyaktfczQ3TzRHY2JlbHkzNFV4dFpSYWdwTzNtYmxLYmFYRmNaWEtnNFVMWnptUkVVcUJTYko2TWNpV1hR?oc=5",
+    "published": "2026-09-08",
+    "summary": "20260908红枣期货数据汇总&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "恒指期货夜盘收跌0.33%，报25252.92点，低水160.20点。",
     "source": "新浪财经",
@@ -578,30 +602,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "芝商所（CME Group）宣布美国锌期货完成首笔成交。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmNnp1R2VJdURYNks3ZE1mSDdOVmxoVW93WkZFM1pWeDR1Z1dHdXpIa3B3UEhzbTEzZ3poYmJSbW5BZ2lmZWc5bmYxRWQ2MDZhVkxjVHBhRkxiTDJDcTROcEQxMlljVFVwbTlCT0k2X1pKdjM5d0o4cw?oc=5",
-    "published": "2026-08-25",
-    "summary": "芝商所（CME Group）宣布美国锌期货完成首笔成交。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "U.S. ‘Economic D-Day’ Targets More Than Just Iranian Oil",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-sanctions-oil-gold.html",
-    "published": "2026-08-25",
-    "summary": "The United States threatened sanctions for any country or entity that engages with Iran’s gold, digital assets, aviation, shipping and tech industries. Here’s why that matters.",
-    "full_text": "A gas station in Tehran on Tuesday. The United States imposed a monthslong blockade on Iran’s shipments of oil, the nation’s economic engine.",
-    "lang": "en",
-    "title_cn": "美国“经济诺曼底登陆”的目标不仅仅是伊朗石油",
-    "summary_cn": "美国威胁对任何参与伊朗黄金、数字资产、航空、航运和科技行业的国家或实体实施制裁。这就是为什么这很重要。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
