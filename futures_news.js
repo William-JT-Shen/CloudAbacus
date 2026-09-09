@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-09T12:56:34Z
-var NEWS_FETCHED_AT="2026-09-09T12:56:34Z";
+// 生成:2026-09-09T19:15:08Z
+var NEWS_FETCHED_AT="2026-09-09T19:15:08Z";
 var GPU_NEWS=[
+  {
+    "title": "玉米期货连续第五个交易日走低 基金纪录级多头押注遭遇考验",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc0QweFgzZHdweHVoRFJ4ZHJCRFZYcXBTWDlNdlFua0wzaHpGbERIYmtGYUNINlp3MTJuZTNtNE5iNEhXV0xXQUhhYW53a2tmaDZIWGtLQXV0VC1jc2NIbzZrdExHcTR1QzM0clBmcUJnY0VEc3dFTkUzLTROZjFVcGhsLWxMYkFWUFVsZl9UXzljclptdzBhRjlPU1c?oc=5",
+    "published": "2026-09-09",
+    "summary": "玉米期货连续第五个交易日走低 基金纪录级多头押注遭遇考验&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "半年融资三轮，这家公司以AI和数据切入儿童成长交互赛道丨36氪首发",
     "source": "36氪",
@@ -585,18 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNDR1S2diSVU4Sm9wMnB5X1ZzZkFidnZ0RUxQU0lOeGVIVmxfSzJvTzJvVDRWWU56ZHNLQV9vaHNCcjExWnhSdnpuQlM5cFN4Vm8yNWMzMkQyOGdwRGNWcFVkdlJtQjF2YTZiRzg1dXhodjI0VkZIVC1rdFoyb0lldEVpZHFUUVE?oc=5",
     "published": "2026-08-25",
     "summary": "永安期货：上半年净利润增长近65%，境外业务强势发力&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国政府就AI算力衍生品公开征求意见",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkdS1hdExRbnhqOGk0elNKZHRtTHA2M2hyTWhfVDA1M1A2dUZMQmlqMTNjcWh4R1R5ZlJ0aDhYc0RIamtiT2xnTVBodDJ6QWlxdm5VWENSVEFSa3phT2U0Nm82T1hTYktTOTQzT0cyUFdmWDdmQUFtbQ?oc=5",
-    "published": "2026-08-25",
-    "summary": "美国政府就AI算力衍生品公开征求意见&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
