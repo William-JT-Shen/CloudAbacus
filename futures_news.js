@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-12T18:19:32Z
-var NEWS_FETCHED_AT="2026-09-12T18:19:32Z";
+// 生成:2026-09-12T22:12:35Z
+var NEWS_FETCHED_AT="2026-09-12T22:12:35Z";
 var GPU_NEWS=[
   {
     "title": "9点1氪丨房贷延长到40年但申请人不能超过35岁？机构回应；长鑫利润率反超三星SK海力士；戴尔市值一夜飙升2500亿元，创历史新高",
@@ -12,6 +12,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "中国证监会发布《期货公司监督管理办法》。（证监会）",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLVB5UFFYd2NTamdyRFhweUxjQkpVUWFaRWJsa3E0WG5oQUJRZGdzeVptQTBqRUEyRjdldThSV1hIR0JrMDI5NDJET2o4VTlRNmh2TTFGX2dXZjVrOTMzTTlMc0JMOEZRM0QwcXQ0RXlaOGNXdUJtOHVtS0JLS1FiSW9Ldw?oc=5",
+    "published": "2026-09-11",
+    "summary": "中国证监会发布《期货公司监督管理办法》。（证监会）&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUTdWWFgybmE1MmxEcjJCMDlWNG9FdW9tZkh5cW5SbWRUR3JOZW51TDUtU0EtRkRmQTVoS0cwTy00b1B4TF9JN1ZDLWpoamYwbkZaNFVNTDFqek9mWFV6NklLMm9HQm9uQ3JjV0llTXNnc2hmX3pScU1mRlVaMW9fQzBkYkQyUkhLRVBhY0lydUpLRHpOakFwNWlnVkxxQXVETlJ4d3JoOGRzZ25BdThaZmtHQ0pXMDBxaU1MVmZfNDhTTG5OR09TSnVRLW9adjU0bmNZRkV3dlU?oc=5",
     "published": "2026-08-26",
     "summary": "从峰值十几亿到清盘离场！期货资管规模红利落幕&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "纯苯期货一手保证金多少钱",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUWZTYVJuYnFQMEl0V0tIMFNtU19ZeW45cmlVdEZKcmFVc2VnVjd0UnJYRW5wVEx1MEZkeGFGWnpldnBObHdxakJpS3lRUGVuNjYtTi1IX2o0ODljMmZxb2poUF94cHdTTjg5b2I0aUVod3hVWFFJcHM5d2FyVEdRNHRFMXpPTUxVQmhncw?oc=5",
-    "published": "2026-08-26",
-    "summary": "纯苯期货一手保证金多少钱&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
