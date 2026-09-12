@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-11T22:28:06Z
-var NEWS_FETCHED_AT="2026-09-11T22:28:06Z";
+// 生成:2026-09-12T04:19:07Z
+var NEWS_FETCHED_AT="2026-09-12T04:19:07Z";
 var GPU_NEWS=[
+  {
+    "title": "9点1氪丨房贷延长到40年但申请人不能超过35岁？机构回应；长鑫利润率反超三星SK海力士；戴尔市值一夜飙升2500亿元，创历史新高",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3979727038004226?f=rss",
+    "published": "2026-09-12",
+    "summary": "今日热点导览\n  月之暗面借Kimi K3加速增长，2026年底年化收入目标20亿美元\n  多家券商收紧个人程序化交易接入\n  OpenAI据报考虑放缓前沿AI开发，奥特曼希望其他公司跟进\n  国际油价11日下跌\n  明星AI研究员离开Meta，加盟Anthropic\n  TOP3大新闻\n  房贷延长到40年但申请人不能超过35岁？机构回应\n  8月28日，中国人民银行、国家金融监督管理总局联合印发《关于改革完善房地产信贷管理推动加快构建房地产发展新模式的意见》，将个人住房贷款期限由最长30年延长至最长40年。\n  北京地区房屋中介机构人士表示：“贷款年限跟房龄、房子结构、建筑模式、贷款人的年龄均有关系。”根据银行不同，通常“借款人年龄+贷款期限”不超过70年或75年。建设银行一位贷后管理部门人士表示：“公积金暂不参与延期。”且公积金年限认定较为严格。“砖混住宅47减房龄，钢混住宅57减房龄，在住建委新改造名单的可以按67减房龄。”\n  而存量按揭申请延长还款期限政策进度不一，以北京地区为例，建设银行贷后管理人员表示“存量房的相关政策细则仍在研讨中。”（界面新闻）\n  长鑫利润率反超三",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "海证期货董事长刘飚：期货公司向综合服务“顾问”转型成为必然趋势",
     "source": "新浪财经",
@@ -32,6 +44,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQTZlUWxpbzloY1JlbS0yNXdUZ2JWdlVwSXQ3Q01sYVFZREVOZ0d2djdOcG1CWWRMbFFjUWRpNXY4MWhHa1o4UkQtcU9hcjdrS1VxSDZXWFpXWFE3LUtuV1VNMno1WnpQaVM0aWt5ZFZYVE9LemxEbFRkVWpaUlFyVTB6VHYwVzdpUXhNWjhFaVZkQUk?oc=5",
     "published": "2026-09-11",
     "summary": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "富时中国A50指数期货盘中翻红，此前一度跌超1%。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOTRmNlJqNkpYSU81VExCWWdYWTl6RW5TTUZDSm9kRFJud3otcGdoSWpQeXNzd3d1aXgzMFRQb3pwb0ZNOWh5d2J5WHlQdzJLMEc0TU5DLVc2dVFUVlVCbUpyMmZmR01MWll3cVlxWFRMZ1hYM3oySXZtbmVVbWh1WE9wUQ?oc=5",
+    "published": "2026-09-10",
+    "summary": "富时中国A50指数期货盘中翻红，此前一度跌超1%。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -577,30 +601,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "���天气，正在「点燃」黄金行情",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3955937575402881?f=rss",
-    "published": "2026-08-26",
-    "summary": "作者&nbsp;|&nbsp;黄绎达\n  编辑&nbsp;|&nbsp;张帆\n  近期，全球资本市场正在经历一轮由真实世界物理约束与金融条件持续收紧交织所引发的剧烈震荡。\n  由于强厄尔尼诺乃至“超强厄尔尼诺”导致农产品减产的预期持续升温，今年以来农产品价格集体走强。截至8月25日，农产品中表现最为突出的CBOT豆油、CBOT稻谷、CBOT小麦和ICE2号棉花年初至今分别上涨了45%、35%、30%和24%。\n  \n  图：年初至今主要农产品期货价格涨跌幅；资料来源：wind，36氪\n  股票市场方面，自今年6月中下旬以来，全球AI链资产进入持续调整期。截至8月25日，费城半导体指数近2个月内的最大跌幅高达20%，韩国KOSPI 50指数同期跌幅更是高达29%；AI链核心个股三星电子、SK海力士、美光科技在同期的最大跌幅分别高达43%、49%和30%，巨大的跌幅与万亿资本开支形成鲜明反差。\n  美债长端利率持续上行，是市场当前的另一大风险点。其中，30年美债利率升破5%关键关口，高点一度站上5.31%，刷新了2007年以来新高。作为全球无风险利率定价之锚，美债利率的快速上行加剧了金融市",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "Gold, Flights, Cryptocurrency: U.S. Vows to Go After More Than Iran’s Oil",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-sanctions-oil-gold.html",
-    "published": "2026-08-26",
-    "summary": "The United States threatened sanctions for any country or entity that engages with Iran’s gold, digital assets, aviation, shipping and tech industries. Here’s why that matters.",
-    "full_text": "A gas station in Tehran on Tuesday. The United States imposed a monthslong blockade on Iran’s shipments of oil, the nation’s economic engine.",
-    "lang": "en",
-    "title_cn": "黄金、航班、加密货币：美国誓言追求的不仅仅是伊朗石油",
-    "summary_cn": "美国威胁对任何参与伊朗黄金、数字资产、航空、航运和科技行业的国家或实体实施制裁。这就是为什么这很重要。",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
