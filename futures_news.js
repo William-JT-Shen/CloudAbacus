@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-12T12:08:40Z
-var NEWS_FETCHED_AT="2026-09-12T12:08:40Z";
+// 生成:2026-09-12T18:19:32Z
+var NEWS_FETCHED_AT="2026-09-12T18:19:32Z";
 var GPU_NEWS=[
   {
     "title": "9点1氪丨房贷延长到40年但申请人不能超过35岁？机构回应；长鑫利润率反超三星SK海力士；戴尔市值一夜飙升2500亿元，创历史新高",
@@ -12,6 +12,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "荣耀时刻！2026期货业君鼎奖，重磅揭晓！",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM1lZcVdqTkdqX0syRFprQ0lVYUFxUUZYMzZCWEZwMkxDWl93Q2VLUzdOWHBsMUczaUtOTWFoWGRSYzdSY2xaYTA0OWtCcWhGaUxuZHBNNDlhUFRBMlF4MkRncGhKMUp5akdnajIxTEZaLUhiSHI3a1A4bjNRaEtHMS1MOE03cGJ1QVJDblpFOA?oc=5",
+    "published": "2026-09-11",
+    "summary": "荣耀时刻！2026期货业君鼎奖，重磅揭晓！&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUWZTYVJuYnFQMEl0V0tIMFNtU19ZeW45cmlVdEZKcmFVc2VnVjd0UnJYRW5wVEx1MEZkeGFGWnpldnBObHdxakJpS3lRUGVuNjYtTi1IX2o0ODljMmZxb2poUF94cHdTTjg5b2I0aUVod3hVWFFJcHM5d2FyVEdRNHRFMXpPTUxVQmhncw?oc=5",
     "published": "2026-08-26",
     "summary": "纯苯期货一手保证金多少钱&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "英伟达强劲业绩展望提振纳指期货高开近1% 存储、光通信板块盘后普涨",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05NjNTTU5ieGlTNlhCTjM5T2owVFJQTmtOa2F1czg3dnB1OC15MGVZOGpudXpNaDg5UlFHYUFUOXBOX2JYV1pRS0REaHFKaGp4YUNLUzB1U0FUUnYtaUlMMk1PX1JVd2pLSWhEckxzd2RsS3lxVnVHUg?oc=5",
-    "published": "2026-08-26",
-    "summary": "英伟达强劲业绩展望提振纳指期货高开近1% 存储、光通信板块盘后普涨&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
