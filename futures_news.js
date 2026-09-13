@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-13T04:32:07Z
-var NEWS_FETCHED_AT="2026-09-13T04:32:07Z";
+// 生成:2026-09-13T13:18:41Z
+var NEWS_FETCHED_AT="2026-09-13T13:18:41Z";
 var GPU_NEWS=[
+  {
+    "title": "周末影响市场重要资讯回顾：证监会发布《期货公司监督管理办法》，事关万亿赛道！我国词元需求呈爆发式增长",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbUNpWkdFNng1aFV2bDU4bFZweS1lUWdwZDNIQ0RxY08wRkRvSTFLb0hQQlBDTmRQdnBpb0tnNlBiRjRhTmVDWW5mR0JMMl8tQ2dxSml5Z1k5d00zYndnWGVzVTg3MHhSQk1neF9sYmFVcGh3eUZqNlJ6SUxac1p1V0tnV2dSZVU?oc=5",
+    "published": "2026-09-13",
+    "summary": "周末影响市场重要资讯回顾：证监会发布《期货公司监督管理办法》，事关万亿赛道！我国词元需求呈爆发式增长&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "9点1氪丨房贷延长到40年但申请人不能超过35岁？机构回应；长鑫利润率反超三星SK海力士；戴尔市值一夜飙升2500亿元，创历史新高",
     "source": "36氪",
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "从峰值十几亿到清盘离场！期货资管规模红利落幕",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUTdWWFgybmE1MmxEcjJCMDlWNG9FdW9tZkh5cW5SbWRUR3JOZW51TDUtU0EtRkRmQTVoS0cwTy00b1B4TF9JN1ZDLWpoamYwbkZaNFVNTDFqek9mWFV6NklLMm9HQm9uQ3JjV0llTXNnc2hmX3pScU1mRlVaMW9fQzBkYkQyUkhLRVBhY0lydUpLRHpOakFwNWlnVkxxQXVETlJ4d3JoOGRzZ25BdThaZmtHQ0pXMDBxaU1MVmZfNDhTTG5OR09TSnVRLW9adjU0bmNZRkV3dlU?oc=5",
-    "published": "2026-08-26",
-    "summary": "从峰值十几亿到清盘离场！期货资管规模红利落幕&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
