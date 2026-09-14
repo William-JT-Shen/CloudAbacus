@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-14T14:59:47Z
-var NEWS_FETCHED_AT="2026-09-14T14:59:47Z";
+// 生成:2026-09-14T20:18:42Z
+var NEWS_FETCHED_AT="2026-09-14T20:18:42Z";
 var GPU_NEWS=[
   {
     "title": "周末影响市场重要资讯回顾：证监会发布《期货公司监督管理办法》，事关万亿赛道！我国词元需求呈爆发式增长",
@@ -24,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "美豆期货突破13.2美元 创三年新高",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOclZjT1Q3T2RWaVZWazNYMlAzcTBRX28tOEZhcGF1SEtfYVI4MFhoSTJPVnFBZGg4OTVmZURiZk41dmRyQU5BT0V0dHJ3SDAwVHlGeHZucm9lLUM4Ym9VYURwemhHazlWdFBPMHY2TUNpZnBHdVp2U3VlQU1lSVFwUG5HT3ViTDFHd3dqM0M0QlRnTFU?oc=5",
+    "published": "2026-09-11",
+    "summary": "美豆期货突破13.2美元 创三年新高&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZUZoQkdVSF9yR2JPZmI3TkdSWE9PaTVzVmFRVWNCSWRqR1BOZEdadXYwcUFId1RfY0tTa21XcGdaR2hSLWhwa0gyTDdVNW5OSEl2YVRlX3NFdmdFRUNhbW5IQ252Zi1yM1kza2toV3NvazFTbUwwVXVIMThvaXBneFltRG1HOGhTZURYQUctamlLYWZJLU5HT0ViT3lLWDhJQ1N0ckpHY1p0WkhBblVHWk9fbGp4ZXF1Q1BoeFJHLVpfVTBQLVR3WXRQelpGNnR5RXF4aTdKRmhyZmNtaWc?oc=5",
     "published": "2026-08-27",
     "summary": "盘前：纳指期货涨0.94% 英伟达飙升7.3%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "液化气期货主力合约涨超3% 报5871元/吨",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQamctMVhTeXlkdHpjU1QtWFluZnJCWjVDbTZJTWdXb1hHMW5Dem9vR3pOdFFkZ2ZCemxHTHVRdHQ0eVFxSmpITnpMelV2MHd5RnNLVlg1eXh6d244QURlWkN1cldENDl0VTA5ZGdIRXR3UUtaUjlrcnMyRFNZVUhhM0dOS016VnZibEhCN01JcW9OcUE?oc=5",
-    "published": "2026-08-27",
-    "summary": "液化气期货主力合约涨超3% 报5871元/吨&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
