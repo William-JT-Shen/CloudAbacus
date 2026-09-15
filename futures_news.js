@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-15T04:39:02Z
-var NEWS_FETCHED_AT="2026-09-15T04:39:02Z";
+// 生成:2026-09-15T13:27:25Z
+var NEWS_FETCHED_AT="2026-09-15T13:27:25Z";
 var GPU_NEWS=[
+  {
+    "title": "算力、机器人、仿真与资本，谁在定义物理AI下一个十年？｜第十届全球ICT峰会回顾",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3984444810312705?f=rss",
+    "published": "2026-09-15",
+    "summary": "当人工智能从“看、听、说、想”走向“动、做、干”，如何让AI走进真实世界、创造产业价值，成为科技与产业共同面对的命题。\n  2026年9月12日，第十届全球ICT产业峰会在杭州国际博览中心圆满举办。本届峰会以“AI向实而生”为主题，进一步将目光投向真实场景：如何让AI用得上、跑得稳，并持续创造价值？\n  据悉，峰会由熙香科技主冠名，远桥资产、天数智芯、五一视界、杰克科技、英洛华、仙工智能六家机构联合主办，中欧国际工商学院支持，中欧校友会浙江分会承办，招商银行杭州分行协办。\n  “过去十年AI在数字世界实现看、听、说、想，接下来十年要解决动作和执行的问题。”峰会发起人、远桥资产董事长周晓乐在开场中表示，物理AI不是单纯大模型，而是算力、感知、控制、场景、数据、生态的综合落地。\n  以下是6位峰会嘉宾围绕AI的技术突破、场景落地与投资机遇，分享的核心洞察与前沿判断。\n  \n  第十届全球ICT产业峰会现场\n  AI演化、类脑机制与自主智能\n  分享嘉宾：欧洲科学院院士、西湖大学人工智能系主任金耀初\n  金耀初院士长期深耕演化优化、群体智能与演化发育人工智能，探索“演化—发育—学习”的融合机",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "周末影响市场重要资讯回顾：证监会发布《期货公司监督管理办法》，事关万亿赛道！我国词元需求呈爆发式增长",
     "source": "新浪财经",
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "CME推出算力期货！“21世纪新石油”金融化，AI产业迎来新定价锚点",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vc3VCNFlFUFA2NG1aMFJ2RHZCbEhidnFDakNiTlNBVjhwcVl4c0VIRzlja2g2SXZtNkRDNFJ1U3g1bXJISUk0YUdFeHZDcmkxalRVdnFtTGZlU3p4X1R6LXNmM08wMkpBak85MUg4RkNXZzY4bm4wSg?oc=5",
-    "published": "2026-08-28",
-    "summary": "CME推出算力期货！“21世纪新石油”金融化，AI产业迎来新定价锚点&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
