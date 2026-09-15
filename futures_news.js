@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-15T19:41:34Z
-var NEWS_FETCHED_AT="2026-09-15T19:41:34Z";
+// 生成:2026-09-15T22:52:55Z
+var NEWS_FETCHED_AT="2026-09-15T22:52:55Z";
 var GPU_NEWS=[
+  {
+    "title": "建信期货-每日观点2026/09/15",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWG5LcElyTXdhejVWVFFNd2FuaFlURENEX3BxS1ozdUFvdGxZNENQY0MyOE1YQklwYmFxWm0yZ3lYY3ZtTXpITW14NkFreHRXUjU1d1VRaklXMnVUUjFwdFVuZDF1dEZaOFhpa0lnUHRoV0hhMEZqal8tVGpBRXlrMmZiSmhZTWxET0w1MmVR?oc=5",
+    "published": "2026-09-15",
+    "summary": "建信期货-每日观点2026/09/15&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "WTI原油期货向上触及106美元/桶 创5月初以来新高",
     "source": "新浪财经",
@@ -152,6 +164,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQTZlUWxpbzloY1JlbS0yNXdUZ2JWdlVwSXQ3Q01sYVFZREVOZ0d2djdOcG1CWWRMbFFjUWRpNXY4MWhHa1o4UkQtcU9hcjdrS1VxSDZXWFpXWFE3LUtuV1VNMno1WnpQaVM0aWt5ZFZYVE9LemxEbFRkVWpaUlFyVTB6VHYwVzdpUXhNWjhFaVZkQUk?oc=5",
     "published": "2026-09-11",
     "summary": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "恒指期货日盘开盘跌0.93%，报24971.60点，低水303.36点。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdlRILXNONjljcEpMcFlFRncxMGdqMHE5czVsYkF3ZzdITkFIVThOSF84S296UmNBT2JXanNJd2VJd0F4el9kcFlMeEY1d3pwVE9WWHpfYjBzaDBkb3FnMWE0NE5BcUQzb2JQb1FqRl9hakROckNBbXpTUUZXazdzMGNWMzN0V00?oc=5",
+    "published": "2026-09-10",
+    "summary": "恒指期货日盘开盘跌0.93%，报24971.60点，低水303.36点。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -576,30 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "爱诗科技投资、主做精品内容，AI影视公司折叠完成数百万美元融资｜36氪融资首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3954709821258889?f=rss",
-    "published": "2026-08-31",
-    "summary": "36氪获悉，8月，AI数字影视公司上海折叠视觉设计有限公司（简称“折叠”）完成了数百万美元的种子轮战略投资，由爱诗科技投资。\n  此次融资将主要用于扩充创意人才和技术团队、AI工作流的搭建，以及IP的采购与开发。\n  折叠的主营业务并不完全是正热的AI短剧，而是基于传统流程及AI混制的中长番、动画电影，以及广告等。如今，这部分业务在国内外市场的需求增速明显，而AI混制有较高的传统内容制作和大模型应用能力的结合要求，创始团队成员Sam提到“国内平台对于传统+AI的反应速度是特别快的，目前折叠也在配合一些混制方向的业务。”\n  去年公司还交付过红果短剧评级为S级的内容，如今在AI短剧侧，折叠暂时采用跑量的策略——因为门槛足够低，还能沉淀数据资产、挖掘人才。\n  伴随着国内各家大模型的升级迭代，视频生成领域已经成为AI赛道落地最快、商业化毛利较高的场景这一，并造就了AI短剧这一风口。36氪曾获悉，几乎占据AI短剧赛道主导地位的Seedance2.0，毛利达到70%以上，成为字节旗下火山引擎最赚钱的业务之一。\n  只是今年年初还能快速获���的赛道，如今因为国家管控政策的出台，以及供给端产能过",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "华尔街将英伟达AI芯片租赁价格打造成新型期货市场",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaFlvbWtUU1BaZk9BbEF5M0VtOHQ5a2htNy14a1Fmd0wtekxieFhVNXRCM0lRckhLTmdKNEJ5eUNXeV9FcVIwSU1jZE55RW1qRWEtR2FMemNiaGlxS24zLVlCTjdydWtHOW1CalV2S1RMeDVNN1EyWFJXV2o4dExuRFIwdXU0dHR5akp6YlU5ckdyWURMTkgwTjhSdXM?oc=5",
-    "published": "2026-08-30",
-    "summary": "华尔街将英伟达AI芯片租赁价格打造成新型期货市场&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
