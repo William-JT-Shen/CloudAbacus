@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-15T13:27:25Z
-var NEWS_FETCHED_AT="2026-09-15T13:27:25Z";
+// 生成:2026-09-15T19:41:34Z
+var NEWS_FETCHED_AT="2026-09-15T19:41:34Z";
 var GPU_NEWS=[
+  {
+    "title": "WTI原油期货向上触及106美元/桶 创5月初以来新高",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWRWtVQXkwVXF3UnRGUlM3Y29rTTBlRm9HVmlxYXdaYXk4aXpZZXR2eUFBUUxWclVDeDc3MDk3ZlBKbWVOZzdYaGhtVHI3ZjZvWFNid3JmNjF1LTVoQU1EYUk4RUF4NWo5WWF0elZtRlVHUlZQMFRlUw?oc=5",
+    "published": "2026-09-15",
+    "summary": "WTI原油期货向上触及106美元/桶 创5月初以来新高&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "算力、机器人、仿真与资本，谁在定义物理AI下一个十年？｜第十届全球ICT峰会回顾",
     "source": "36氪",
@@ -12,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "南华期货股份斥资182.88万港元回购27.35万股",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUUNMWVhtUmZUUXFFcWFZN2N3VWZQcEhDUVpLRkFHU2dJd1E3UnczaWo1eW9uTllYTzhVTjU5ajdaRzFTTS12M0M2Rk1kXzlNZlFtekY4d0RJSVNwc2hWREpvcXF6VnA2c1dzWWp0YUM2b0pBd1hCbmw0a09tQW1jVDdHVTk1T3lG?oc=5",
+    "published": "2026-09-14",
+    "summary": "南华期货股份斥资182.88万港元回购27.35万股&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -36,6 +60,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "9月11日期货策略 | 黑色系、有色金属、农产品期货汇总",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ1B3RmdSUjNFYVNLS0ZfMXp1aTBLX3pzdzR1d1dsWDZVTUFtczJUTm1aQUtPQmJPb1dOSWk2SUxXUUo0TU5BR0t1RWRBX3JZcXZhRHJyYmRqZmFnbjdKbkhIWWwyUDB6OFlaUjJBRDJMblBVeTItU1o1UmI0UnhFM2oybw?oc=5",
+    "published": "2026-09-11",
+    "summary": "9月11日期货策略 | 黑色系、有色金属、农产品期货汇总&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -564,42 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内商品期货夜盘收盘",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0o3bTE3N1R6WWQyOVlNbl8zbHNETUROdGtodHFxbnNuZW1HWlJhRXg2cWZjN1h6TWt0YWVLaE1Pc29hdU9Pck9md3A4OHBsaU1EcWpmUU9EWFZqZXBfREdITE1VYUMxa2xESlJIMVMzb1U3dFJhQlN0WE4yT1kyVQ?oc=5",
-    "published": "2026-08-28",
-    "summary": "国内商品期货夜盘收盘&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "瑞达期货涨2.54%，成交额4.73亿元，今日主力净流入-55.93万",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWEJySktiMU9fbnBmWkhCZkFXUTVRVUNrM3JiYU5uc1BTVEhJeUV3aUFGcXdEY3Q0QlRhQ0JHVjlCbWVVZXVMSEdQSklubW5BNUU3RjlRYW1XbHlxd1Rkb01XeUZ1dHhQR1E0Ql8tUUFmdTUyZmdJSWRVdERkUnV2ME1vVEVTdjRqMDVZUw?oc=5",
-    "published": "2026-08-28",
-    "summary": "瑞达期货涨2.54%，成交额4.73亿元，今日主力净流入-55.93万&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "碧桂园2026上半年营收441亿元",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3959209330621577?f=rss",
-    "published": "2026-08-28",
-    "summary": "8月28日，碧桂园（02007.HK）发布2026年中报，实现营业收入约441亿元，尽管仍处于阶段性亏损，但较去年同期减亏约16.3%；总资产约7455亿元，净资产约310亿元，持续保持为正。\n  根据中报，其影响利润的主要原因主要有：一是伴随集团进入保交房收尾阶段，当期交付量大幅缩减导致营业收入下降；二是房企收入结转存在滞后性，前期高地价成本项目在降价去化环境中集中结转，对利润造成负面影响；三是受宏观经济环境、行业环境及对手方负面财务状况等多重不利因素影响，计提了约62亿元存货减值以及约38亿金融资产和财务担保减值损失；四是录得其他收入及收益约41亿元，主要来自以公允价值计量且其变动计入损益的金融负债公允价值变动和债务重组收益。同时严格控制支出，其中上半年销管费用持续降至约32亿元，同比下降19.7%。\n  2026年1-6月，碧桂园累计权益合同销售金额约142.5亿元，权益销售面积约182.5万平方米，其销售趋势与国家统计局口径下全国新建商品房销售基本同步。碧桂园方面表示，其销售整体比较平稳，正按经营节奏有序推进。\n  值得关注的是，根据克而瑞数据，2026年1-7月中国房企操盘面",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
