@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-14T20:18:42Z
-var NEWS_FETCHED_AT="2026-09-14T20:18:42Z";
+// 生成:2026-09-15T04:39:02Z
+var NEWS_FETCHED_AT="2026-09-15T04:39:02Z";
 var GPU_NEWS=[
   {
     "title": "周末影响市场重要资讯回顾：证监会发布《期货公司监督管理办法》，事关万亿赛道！我国词元需求呈爆发式增长",
@@ -24,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "国内商品期货开盘涨跌不一 原油高开涨超6%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV0NsSXR4cEpYSzkzY3JnaGFVS0kzbzlRdTN2LXhLQ2pvWFlQTFVfSEczSjBqYm92TTl4eWwyaWJ0TlEtbmlkdC1kWmxEbHBtcmlmN1RPLTk3WWpVMEpLanVaUVBvYkJkVnMyX19ERXIwV214ZVc3dHNrTlpkWkYwZXE5cU1ZbFU?oc=5",
+    "published": "2026-09-11",
+    "summary": "国内商品期货开盘涨跌不一 原油高开涨超6%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vc3VCNFlFUFA2NG1aMFJ2RHZCbEhidnFDakNiTlNBVjhwcVl4c0VIRzlja2g2SXZtNkRDNFJ1U3g1bXJISUk0YUdFeHZDcmkxalRVdnFtTGZlU3p4X1R6LXNmM08wMkpBak85MUg4RkNXZzY4bm4wSg?oc=5",
     "published": "2026-08-28",
     "summary": "CME推出算力期货！“21世纪新石油”金融化，AI产业迎来新定价锚点&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "盘前：纳指期货涨0.94% 英伟达飙升7.3%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZUZoQkdVSF9yR2JPZmI3TkdSWE9PaTVzVmFRVWNCSWRqR1BOZEdadXYwcUFId1RfY0tTa21XcGdaR2hSLWhwa0gyTDdVNW5OSEl2YVRlX3NFdmdFRUNhbW5IQ252Zi1yM1kza2toV3NvazFTbUwwVXVIMThvaXBneFltRG1HOGhTZURYQUctamlLYWZJLU5HT0ViT3lLWDhJQ1N0ckpHY1p0WkhBblVHWk9fbGp4ZXF1Q1BoeFJHLVpfVTBQLVR3WXRQelpGNnR5RXF4aTdKRmhyZmNtaWc?oc=5",
-    "published": "2026-08-27",
-    "summary": "盘前：纳指期货涨0.94% 英伟达飙升7.3%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
