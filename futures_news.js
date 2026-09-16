@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-16T13:26:09Z
-var NEWS_FETCHED_AT="2026-09-16T13:26:09Z";
+// 生成:2026-09-16T19:33:02Z
+var NEWS_FETCHED_AT="2026-09-16T19:33:02Z";
 var GPU_NEWS=[
   {
     "title": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月16日）",
@@ -176,6 +176,30 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQTZlUWxpbzloY1JlbS0yNXdUZ2JWdlVwSXQ3Q01sYVFZREVOZ0d2djdOcG1CWWRMbFFjUWRpNXY4MWhHa1o4UkQtcU9hcjdrS1VxSDZXWFpXWFE3LUtuV1VNMno1WnpQaVM0aWt5ZFZYVE9LemxEbFRkVWpaUlFyVTB6VHYwVzdpUXhNWjhFaVZkQUk?oc=5",
     "published": "2026-09-11",
     "summary": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "韩国10年期国债期货跌至2022年10月以来的最低水平。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQemtPNWpRbTBhd0ZTV1lFWF80WDNUVXFSNnJZc1pTVG5BenduMy12M2NGZ2JOY2EtcGRhN1ZhbC0tTFcyRy02MXQybWM0TngwOXVaRHhSRG9RbTlvcDY3MTUxMTVDeE5qWTlkMUJRUDV2ZVpDbmxTYlAtMURkZi1ESkpSWQ?oc=5",
+    "published": "2026-09-10",
+    "summary": "韩国10年期国债期货跌至2022年10月以来的最低水平。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "布伦特原油期货涨超3% 创5月22日以来新高",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMWJ5MWNGSm53c1FwMjNNWFlqNXZSb3pxRTd6R1ZEWC1ZZGE4NlA5TjFBenJONTRUQXJrNDdwR0VFQ2p4a2hmVHZGWVZYNW5fVGZEWlpGdWgyejRHU0d5V2NiS2w5azVsTjlEMWRIMVB4R1I0UkZrSnFrczNKZE5HUGJNWjhabmc?oc=5",
+    "published": "2026-09-10",
+    "summary": "布伦特原油期货涨超3% 创5月22日以来新高&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaE5BT0JlclEyLUUwRU9hLTc3ZHYzbVhLanVNVDFnYnVJdTk2Z2o4ZW9UYzV0VEpPUUdrZTZvZXRFZnVOQ2NLUU9oa3k3aGRzb2JVZE5XOHU1eFlCdlcwVHd0bGVYQnRkc0FCUUxCR1JDeHYteFUzWHNxTUEwQl9Ydm96U2tieGx2SUE?oc=5",
     "published": "2026-08-31",
     "summary": "南华期货更新可转债申请文件 相关事项仍需上交所审核及证监会注册&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "上海期货交易所：对部分客户采取限制开仓监管措施",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON0dYMEY3VWp3V3dPZDhLeDItZ19tRzdOYTh5cFU0X0NIOW5xd1F6ZjRVX09UUEZWT3M2ci0xVkdjdF9PTDZnZWJna3dfRkpJWk1IVWtjeS1EWlJtZGJGWERtcU9MclNkY3g3Y1FLVmtmb1pVX2hGNlpmaWxReGhKXzB4T2ZSM1k?oc=5",
-    "published": "2026-08-31",
-    "summary": "上海期货交易所：对部分客户采取限制开仓监管措施&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中信证券拟向中信期货增资不超过50亿元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMHhzSU52SUc2NzBYX0k1SkxpSm1rQVBCdUU2eEMwbUQ4SXRURHNXVjE0UjZyTkUwMF9vRm42RTVOV2RzTW9wdEh3bGpRWm1hOEppTlpiTTVJZWF5UXI0eE45SDcxTHJweC1QQVJTSDFxQzgzYmpZMHlFckdSSTE3a1RCWWQyakFB?oc=5",
-    "published": "2026-08-31",
-    "summary": "中信证券拟向中信期货增资不超过50亿元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
