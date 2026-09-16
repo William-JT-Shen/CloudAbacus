@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-16T04:34:38Z
-var NEWS_FETCHED_AT="2026-09-16T04:34:38Z";
+// 生成:2026-09-16T13:26:09Z
+var NEWS_FETCHED_AT="2026-09-16T13:26:09Z";
 var GPU_NEWS=[
+  {
+    "title": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月16日）",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzY3d014SUstUjA0emNleFNBMkpYbVI0VEptVUdLY3BKb0xSdDR3VHdFbVVDMGRGXzlKNEdQZ2hDYkdfNEREenRobmF2WVVibWh4am9oWUtQdDZUZXVlUjVrTTVDdTZwX0V4cU5tR1FEanVFV1hTckVVMUpYTXZDdmM1NGNYeFpiVFkyeA?oc=5",
+    "published": "2026-09-16",
+    "summary": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月16日）&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "建信期货-每日观点2026/09/15",
     "source": "新浪财经",
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "最前线｜本地大模型 StartLux-27B 通过 MCP-Universe 测评：综合第二，多项专项第一",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3963345222147335?f=rss",
-    "published": "2026-08-31",
-    "summary": "近日，工信部中国信息通信研究院（以下简称“中国信通院”）人工智能研究所公布的一份检验报告显示，上海原点星辉科学技术有限公司（下简称StartLux）研发的本地大模型 StartLux-V1.0-27B-Preview，在可信AI大模型基准测试——MCP专项测试中，以 27B 参数量取得综合性能排名第二的成绩，高于第三名的DeepSeek-V4-Flash，能力范围已经进入DeepSeek-V4-Pro所代表的万亿参数模型能力区间。\n  可信AI大模型基准测试——MCP 专项测试涵盖位置导航、网页搜索、浏览器自动化、金融分析、代码仓库管理、3D 设计 6 类专项任务及综合评估，共 7 项检验项目，重点考察大模型在多工具协同、复杂任务执行及真实环境交互等方面的综合表现，该专项测试部分指标和数据参考了开源项目MCP-Universe。\n  参测模型包括 DeepSeek-V4-Pro（1.6T）、DeepSeek-V4-Flash-0731（284B）、Step-3.7-Flash（198B）、StartLux-27B-260715（27B）、Qwen-3.6-27B（27B）和 Agent",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
