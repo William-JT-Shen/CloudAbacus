@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-17T13:22:31Z
-var NEWS_FETCHED_AT="2026-09-17T13:22:31Z";
+// 生成:2026-09-17T19:43:12Z
+var NEWS_FETCHED_AT="2026-09-17T19:43:12Z";
 var GPU_NEWS=[
   {
     "title": "芝加哥期货交易所谷物与大豆期货上涨 豆粕涨2.58%",
@@ -108,6 +108,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "纳斯达克100指数期货上涨0.7%。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTGtLS3hiakszaFdJaXpiaFRTQkNKOVV4VzVKX2MtX2p0QWFWQzVGNWtkdVdjQ3F5dTZRdEFocVlXeGNzbjhYV3lnODZ0TFloOWRaWThWT0RUTkRIX3NJaGZRYW9CWVdDbGRPWFNmc3ZNdFJMMktyakNWNkJBUV9qRDd5SQ?oc=5",
+    "published": "2026-09-11",
+    "summary": "纳斯达克100指数期货上涨0.7%。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "杭州小团队做了台「AI对讲机」，3天众筹了1000%",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3967445813468681?f=rss",
-    "published": "2026-09-03",
-    "summary": "文丨刘士武\n  GENiEX的屏幕亮起，一行英文写着：“THE FUTURE IS ALREADY BROKEN。 WE‘RE SENDING A MESSAGE BACK。”（未来已经破碎，我们正在往回发送信息。）\n  \n  GENiEX\n  截至发稿，这款AI 潮玩硬件「GENiEX」，已经在全球知名众筹平台Kickstarter上筹到13.45万美元（约105万港币）。相比上架时的目标1.27万美元（约10万港币），达成率已超1000%。429名支持者愿意为它买单，目前众筹剩余约1个月收官。\n  值得注意的是，GENiEX上线后仅约一小时即完成了10万港币的初始众筹目标。\n  \n  来源：Kickstarter页面截图\n  做出这台赛博对讲机的，是来自杭州的一家工作室「METAPEX」（元巅科技）。GENiEX是其原创科幻 IP「SEIVOID」（寂核）旗下的首款实体产品。\n  这会是又一个爆款AI硬件吗？\n  01\n  过去三年，AI 陪伴赛道的大部分玩家都在堆算力、堆参数。投资人比的是上下文窗口长度，消费者被训练成“哪家 AI 更聪明就买哪家”。结果是显而易见的：硬件不断更新",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
