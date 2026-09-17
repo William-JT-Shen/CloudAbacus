@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-17T19:43:12Z
-var NEWS_FETCHED_AT="2026-09-17T19:43:12Z";
+// 生成:2026-09-17T22:49:56Z
+var NEWS_FETCHED_AT="2026-09-17T22:49:56Z";
 var GPU_NEWS=[
   {
     "title": "芝加哥期货交易所谷物与大豆期货上涨 豆粕涨2.58%",
@@ -20,6 +20,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzY3d014SUstUjA0emNleFNBMkpYbVI0VEptVUdLY3BKb0xSdDR3VHdFbVVDMGRGXzlKNEdQZ2hDYkdfNEREenRobmF2WVVibWh4am9oWUtQdDZUZXVlUjVrTTVDdTZwX0V4cU5tR1FEanVFV1hTckVVMUpYTXZDdmM1NGNYeFpiVFkyeA?oc=5",
     "published": "2026-09-16",
     "summary": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月16日）&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "证监会修订发布期货公司监督管理办法",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSEY1UWNibUk4TUR1NEtNUl8yd3hGWVI4LVlWRnJDbTBZX1hXSGhLRDZRT2xuREpjZ25USFhFSzNFRmNRbU1QcUF2SzIwcXdEUlNYUEN4U0hUamJGTk5Zblc3bVVFbWNlMmQ0LTMzV1ZOSVJiSFJmRXZVWHNvRXBBai1mSFNkTnc?oc=5",
+    "published": "2026-09-15",
+    "summary": "证监会修订发布期货公司监督管理办法&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS2RWSm0tNG1SMndEYmFnNUlyWWVBcEhaYjhVU0V4Q2FsYmRZTjNWNlE1bkdQZTJhNWstajBmX0M2SDItbW1FR3IwVHVEVkVLaXlaQlBKZmxLVFQ2Si03dmdkTExaSUtJM3AwakFzWFBmdDhDRUdCUEl0c0FSeVVLZnNQUk5iakNYUDlqaw?oc=5",
     "published": "2026-09-03",
     "summary": "期货看盘软件有哪些&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Nodal Exchange拟推出AI芯片算力期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwcVQwZm5hTW15ek1wTWtQSXFRcW5PeHpjWGpLVk5FWENhRnhsdURIdDd5SWtsc2gycUhBR1BEUjZKMjBVc1JrTVV3aF9SUGVQbENFbWl0MlQtOTJkRWI2X2hWcEtISkZZSVNlcWZPSnZrWFctb3lSWA?oc=5",
-    "published": "2026-09-03",
-    "summary": "Nodal Exchange拟推出AI芯片算力期货&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
