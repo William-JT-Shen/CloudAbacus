@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-17T04:39:49Z
-var NEWS_FETCHED_AT="2026-09-17T04:39:49Z";
+// 生成:2026-09-17T13:22:31Z
+var NEWS_FETCHED_AT="2026-09-17T13:22:31Z";
 var GPU_NEWS=[
+  {
+    "title": "芝加哥期货交易所谷物与大豆期货上涨 豆粕涨2.58%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaXVOR3JuMW9qTHFLVThDNHpWRVlMdGtVZ20zU29jbXJBWUprYkk4UGpZa1hwY1NHUGM4YlNrY1gwSS0wcmlkUWxVaDJWWVdIckF2a2lYaUNXcEU0YjlBUkZMek1lNS16SWI1V05xamJlcDlsQ0VEWlRtcFkzWHo0SFh2bGpiZXdjR1I2NEgwTkx0ZTA?oc=5",
+    "published": "2026-09-16",
+    "summary": "芝加哥期货交易所谷物与大豆期货上涨 豆粕涨2.58%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月16日）",
     "source": "新浪财经",
@@ -51,6 +63,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "2026年证券期货业质量月·一图读懂《证券交易数据交换协议》",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWFQ2YWxaVlVzVVZxTzNGSEhNdEZzemlpOGhtUV9QU1Zvcm5XS29QVUg1ZE5jdUx3S2xaQVpoeUVXLXJLMF9JcWZOZkMxaGRuS2tHc0RvdFJGZHUyWUZWdU96N0hZT2dEQkc1UmJFcjdhM05IcFdZNlQ4VDlyY0czNjBFeVJGNUU?oc=5",
+    "published": "2026-09-14",
+    "summary": "2026年证券期货业质量月·一图读懂《证券交易数据交换协议》&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "南华期货股份斥资182.88万港元回购27.35万股",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUUNMWVhtUmZUUXFFcWFZN2N3VWZQcEhDUVpLRkFHU2dJd1E3UnczaWo1eW9uTllYTzhVTjU5ajdaRzFTTS12M0M2Rk1kXzlNZlFtekY4d0RJSVNwc2hWREpvcXF6VnA2c1dzWWp0YUM2b0pBd1hCbmw0a09tQW1jVDdHVTk1T3lG?oc=5",
@@ -84,6 +108,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "纽约原油期货价格突破100美元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdGc0UmFad1RCUEJPdkg5OWNfeTFUeHNwLWtxVjExTVF4c25fWEpaZVRQYndsVWxsT1VOcGlkRDBuZ1FMczMtbFNyZ1pSak9abUowWmtCVVB4bFlXdW1FVWU0bFRiaGpBWVN2MDgzMnNYd3BmV0tOY2tYdmhnajlZVmpLVQ?oc=5",
+    "published": "2026-09-11",
+    "summary": "纽约原油期货价格突破100美元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -564,42 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "数据丨600869，超22万手封涨停！能化期货大涨，社保基金重仓多股",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NcHJRYmpJdWJxcmlnQ1U2Z1JWc2RaS3YxVmtoMTBWemNpTGwzSjN2QmVoM1pqRVBfTGpDMFFDeFpMUlM4QWU0cGdadFdRVm9mV24tcWwtMWpxRlpZc2xZWDFzdDJvRHpmNmIzSGxwa1lacU5vMUE?oc=5",
-    "published": "2026-09-02",
-    "summary": "数据丨600869，超22万手封涨停！能化期货大涨，社保基金重仓多股&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "洲际交易所两大可可期货9月2日齐跌逾6%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXozTVZRTmEzTzZ2ckoyQndCaUxVaVNyNGhQcEw4bWM2b3FvSXlWSnU0a1FWd0lqSi1sdlVVX293VEM3OG9abWFGVThmbk9aUVUyaHM0dG5kVXlDczU5Qldpc19mbV9HdUU4Y1JmODAwYVVxX2ppUUJ5U19ZZG9HXzF6djhBdG5hVUZxUHlGRVRDT28?oc=5",
-    "published": "2026-09-02",
-    "summary": "洲际交易所两大可可期货9月2日齐跌逾6%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "南华期货更新可转债申请文件 相关事项仍需上交所审核及证监会注册",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaE5BT0JlclEyLUUwRU9hLTc3ZHYzbVhLanVNVDFnYnVJdTk2Z2o4ZW9UYzV0VEpPUUdrZTZvZXRFZnVOQ2NLUU9oa3k3aGRzb2JVZE5XOHU1eFlCdlcwVHd0bGVYQnRkc0FCUUxCR1JDeHYteFUzWHNxTUEwQl9Ydm96U2tieGx2SUE?oc=5",
-    "published": "2026-08-31",
-    "summary": "南华期货更新可转债申请文件 相关事项仍需上交所审核及证监会注册&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
