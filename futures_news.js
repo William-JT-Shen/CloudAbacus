@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-18T12:57:36Z
-var NEWS_FETCHED_AT="2026-09-18T12:57:36Z";
+// 生成:2026-09-18T19:01:54Z
+var NEWS_FETCHED_AT="2026-09-18T19:01:54Z";
 var GPU_NEWS=[
   {
     "title": "8点1氪丨宇树科技市值重回2000亿；影视飓风Tim测评iPhone Duo称烫到握不住；罗永浩否认为钟薛高造势",
@@ -84,6 +84,30 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "国内商品期货多数收跌 原油大涨超11%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83S0JrRmJsV003Y25mU3J1N3pGOHI3b1ZOazY1UU5WYTRsN1RPSlVMeW94aEMxZklZWWpsWmEwRE1vaVFGSWZuWGdKNE5mZGZNaWFKa1l3TEwwcjZ4eGJZa1ZlcXpyNS1HZ3RYVGpZcDFBX0N0MHFUMA?oc=5",
+    "published": "2026-09-14",
+    "summary": "国内商品期货多数收跌 原油大涨超11%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "期货收评：内外盘剧烈分化！sc原油暴涨近12%，玻璃纯碱大跌",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PbUxPLWRhU19wOWFLaE5Wa0JuZ2t1OFpIdF8xSEoxeXBLNlpXLW1TUHhCV0JrZGhpU2NNNjNTZmlTbnFRNjJPaVlUdkZYRHExaFN0cHd5cDVVR1I1d2o0cWowVFFTUTAtd3dkOUxpc1htMW0xVmw1QQ?oc=5",
+    "published": "2026-09-14",
+    "summary": "期货收评：内外盘剧烈分化！sc原油暴涨近12%，玻璃纯碱大跌&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVVJhVFV6bnB5WDJkODczUG1uckFWblE2NHJNZTRweG4yelRaVXNGaUVucTZlakdyUmxIWThlOWdFa2hsaG1STUpHUkhKRE4za0tCRlkxeHVGVmRwaE5lTlFnejM2MG9iTXVYSkdNbWVkVkdBc29XQ2NXVDlqdnZWUF9kdFNOdHJxelJzNXJn?oc=5",
     "published": "2026-09-03",
     "summary": "罕见罚单破局！期货圈会务费潜规则，正式落幕&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Nodal Exchange计划推出AI算力期货，与芝加哥商业交易所（CME）、洲际交易所（ICE）展开竞争。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iMHV3ZDVnNmxFQUNJeTdzeExlSy03Y0wwem9VVDNKSFoyMVJPejJhTkpTRzROY1hfMGZ5Sl90WE8zamFNSy1DMC1ST3FpcHZadnFCQ1Y0NVBPQnR4SG9zdmZNU2VIUlBrcnVsay1WZFMzaGxNLTd2cA?oc=5",
-    "published": "2026-09-03",
-    "summary": "Nodal Exchange计划推出AI算力期货，与芝加哥商业交易所（CME）、洲际交易所（ICE）展开竞争。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "集运指数欧线期货连续主力合约日内跌7%，现报1830.00点。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mS1N3Mlc1Wko2WUdPVWxsM1pYRncybUZUNnBWbU9NSkJyczJNY0pmbkVYcGd1TFE5dVJ6ZlRJaElVeGtORF9sOWNDTWxBaG1HdTBqa3R2MGM4U3J6NWZ2RXR4WkxwZXNKZzhtSHltX0NqWnprWG5Ccg?oc=5",
-    "published": "2026-09-03",
-    "summary": "集运指数欧线期货连续主力合约日内跌7%，现报1830.00点。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
