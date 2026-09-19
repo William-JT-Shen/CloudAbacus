@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-18T22:31:01Z
-var NEWS_FETCHED_AT="2026-09-18T22:31:01Z";
+// 生成:2026-09-19T04:22:15Z
+var NEWS_FETCHED_AT="2026-09-19T04:22:15Z";
 var GPU_NEWS=[
+  {
+    "title": "2026年证券期货业“质量月”｜一文读懂基金“质量月”背后的投资者获得感",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRnRpZHFQNEhsMDZKaWpwMjZpSks4X3pxZEtia1g4Y1QwVXlzV0pQNWcxTy10V2N4MXFVTEctU1hTMFVIQjAxQUhla284ejBSLUVXRDVSX2gzYTBNM2dRTDVscFQtOVgzaVZ6amdXVW9Rd29ZdlgtY2g3LWpXdkRKc01PVWZ6T1k?oc=5",
+    "published": "2026-09-18",
+    "summary": "2026年证券期货业“质量月”｜一文读懂基金“质量月”背后的投资者获得感&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "国泰君安期货公司增资至75亿元",
     "source": "新浪财经",
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "万千气象北京行：走进朝阳区时尚消费产业",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3969230710583555?f=rss",
-    "published": "2026-09-04",
-    "summary": "9月4日上午，由中央网信办网络社会工作局、北京市委网信办主办，新京报贝壳财经承办的“中国式现代化的万千气象”网络名人北京行活动来到朝阳区。网络名人一行先后来到首创郎园STATION、泡泡玛特城市乐园。\n  多元消费显生机\n  在首创郎园STATION，网络名人们走进AIGC视频产品创新中心。屏幕上播放着精美的短片，它们有的场景宏大，有的角色生动，有的充满奇幻创意，这些都是采用AIGC制作方式生成的内容。创新中心构建了“软件+硬件+应用+服务”的全产业链生态体系，打造面向全行业开放共享的公共服务平台，助力世界产业提质增效。\n  创新中心里，AIGC视频产业发展链路徐徐展开。从基模到特效、资产、成片，海螺AI、墨境天合、优酷、爱奇艺、鼎盛嘉禾等公司的创意成果令人目不暇接。网络名人们在观影厅中沉浸式观看了鼎盛嘉禾出品的短片，屏幕上的画面拥有4K的清晰度。\n  \n  （图为网络名人们观看AIGC影片）\n  漫步园区，装潢风格各异的店面映入眼帘。网络名人们走进“珐璞乐时”，来自景德镇的陶器陈列眼前，陶艺之美从景德镇来到北京。在它的不远处，“有海以后”是一个集合咖啡与潜水的综合空间，它提供33米深",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
