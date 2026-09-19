@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-19T04:22:15Z
-var NEWS_FETCHED_AT="2026-09-19T04:22:15Z";
+// 生成:2026-09-19T12:28:45Z
+var NEWS_FETCHED_AT="2026-09-19T12:28:45Z";
 var GPU_NEWS=[
   {
     "title": "2026年证券期货业“质量月”｜一文读懂基金“质量月”背后的投资者获得感",
@@ -108,6 +108,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "历史首次突破900元/桶！国内原油期货大涨",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MOFBDNTNRQ3dMYVRaRHNJdHpmTVRDaGFJNW9ncjVTck1BY3d1SHJOOERzd2pyd3F0Y01yTTBVRkVYaHNCQzRnUEJzdmx2dzNjVkZ0T3hvNDYtOEprekYzbmpGZGZHb0c1OVRzcWtteEFHRGRuU1E?oc=5",
+    "published": "2026-09-14",
+    "summary": "历史首次突破900元/桶！国内原油期货大涨&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2dEZzhBY1BYb25JaGw0V1Q5NjFReDhneFF0VHczZ0RIUHlYbmtXUTZhcUM1bGozakxCZjNwMTVZbmFEXzZGZlc4eUJBVXhyX2xRX19ZMzhpN05BUUZQWTlNZU9LN3pqWTBXa05sQ0NhUEVfVzhobjBjbkNONW1Sdg?oc=5",
     "published": "2026-09-04",
     "summary": "美国就业数据大幅增长，金银期货承压&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "可可期货收窄周跌幅 短缺风险笼罩供应前景",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNHdzY3V4UFQ3UW5vbGhScUhXaGNQMXYyTHZydXFXd3laVVhFWTBtTkQya3B3WkE0NjVDVzhiak9weXI1Q042VWxveFFIWkpIZHlDRXlVNGEydUUxZWs4TFhTSU5BOFdmTFFVeDBQd1paNk5IM1JTTnpkUGlNRmEtenJVNlYzTVk?oc=5",
-    "published": "2026-09-04",
-    "summary": "可可期货收窄周跌幅 短缺风险笼罩供应前景&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
