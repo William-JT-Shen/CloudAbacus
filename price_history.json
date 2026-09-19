@@ -24251,7 +24251,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 4.47
+            "price_usd": 3.68
           },
           {
             "platform": "CoreWeave",
@@ -24302,6 +24302,10 @@
             "price_usd": 0.79
           },
           {
+            "platform": "Vast.ai",
+            "price_usd": 0.58
+          },
+          {
             "platform": "CoreWeave",
             "price_usd": 2.25
           },
@@ -24317,7 +24321,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.31
+            "price_usd": 0.29
           },
           {
             "platform": "DataCrunch",
@@ -24345,7 +24349,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.12
           }
         ],
         "NVIDIA L4": [
@@ -24377,7 +24381,7 @@
         "RTX 5060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.12
+            "price_usd": 0.1
           }
         ],
         "RTX 5080": [
@@ -24395,13 +24399,13 @@
         "RTX 5070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.16
+            "price_usd": 0.1
           }
         ],
         "RTX 5060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.07
           }
         ],
         "NVIDIA RTX 4060 Ti": [
@@ -24413,7 +24417,7 @@
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.27
           }
         ],
         "RTX 4060": [
@@ -24425,13 +24429,13 @@
         "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.2
+            "price_usd": 0.09
           }
         ],
         "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.04
+            "price_usd": 0.03
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
@@ -24462,6 +24466,12 @@
             "price_usd": 1.1
           }
         ],
+        "RTX 2060": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.05
+          }
+        ],
         "RTX 8000": [
           {
             "platform": "Vast.ai",
@@ -24474,23 +24484,31 @@
             "price_usd": 0.06
           }
         ],
-        "RTX 2060": [
+        "NVIDIA T4": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.11
+          }
+        ],
+        "NVIDIA Tesla P100 / P40": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
           }
         ],
-        "RTX 5000": [
+        "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 1.2
+            "price_usd": 0.13
+          }
+        ],
+        "NVIDIA GH200": [
+          {
+            "platform": "CoreWeave",
+            "price_usd": 6.5
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.4
-          },
           {
             "platform": "DataCrunch",
             "price_usd": 1.74
@@ -24500,23 +24518,7 @@
             "price_usd": 0.44
           }
         ],
-        "NVIDIA Tesla P100 / P40": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.07
-          }
-        ],
-        "NVIDIA T4": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.13
-          }
-        ],
         "NVIDIA V100": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 1.2
-          },
           {
             "platform": "DataCrunch",
             "price_usd": 1.86
@@ -24524,12 +24526,6 @@
           {
             "platform": "Paperspace",
             "price_usd": 1.84
-          }
-        ],
-        "NVIDIA GH200": [
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.5
           }
         ],
         "NVIDIA A100 (40GB PCIe)": [

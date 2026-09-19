@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-19T12:28:45Z
-var NEWS_FETCHED_AT="2026-09-19T12:28:45Z";
+// 生成:2026-09-19T18:35:11Z
+var NEWS_FETCHED_AT="2026-09-19T18:35:11Z";
 var GPU_NEWS=[
+  {
+    "title": "广期所调整碳酸锂期货相关合约交易指令每次最小开仓下单数量、交易手续费标准及交易限额",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWjZkdkwwNUw4aDlyVEZfUUI3eEtNczlUMlJOUjYzcWthc2xyeE1jSUhJY2JRNEp5Z2FpbUJBS1E2TDV4MG5NN1czRHplT2FmbUNxbjRFV0dXbDUxcTVOX1JXaWZKODl0RXBzUXB2eFc5RkNidDk5YmRzb3NZTXYxNjAxRktBZGxQQWp3SUhpclMxZmN1blJRVUxXbUVPZ0VJNDcxblB5WFFyMklDTUxVWWhDUkM4eHphOUtIR3gtZk40TkdzLThacWMzLUhrNE04QnBuS2RtVkxBV0U?oc=5",
+    "published": "2026-09-18",
+    "summary": "广期所调整碳酸锂期货相关合约交易指令每次最小开仓下单数量、交易手续费标准及交易限额&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "2026年证券期货业“质量月”｜一文读懂基金“质量月”背后的投资者获得感",
     "source": "新浪财经",
@@ -63,6 +75,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "2026年证券期货业质量月·一图读懂《证券期货业信息系统密码技术应用指引》",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sT1RGV2Vva1g1WGhROGUxT0tPZmNjRTNIVWtuOFNxTy0yUjBfMkNsWnFFV1FfX2dUUmN3a2tTWHo5czJUcFR6cXBfcE5GR0FGaE1rNHNyaDlsV0FBbHFacWRtZDRlN3hIV2sxOXpNcEJkZmhBakFTNw?oc=5",
+    "published": "2026-09-15",
+    "summary": "2026年证券期货业质量月·一图读懂《证券期货业信息系统密码技术应用指引》&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "证监会修订发布期货公司监督管理办法",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSEY1UWNibUk4TUR1NEtNUl8yd3hGWVI4LVlWRnJDbTBZX1hXSGhLRDZRT2xuREpjZ25USFhFSzNFRmNRbU1QcUF2SzIwcXdEUlNYUEN4U0hUamJGTk5Zblc3bVVFbWNlMmQ0LTMzV1ZOSVJiSFJmRXZVWHNvRXBBai1mSFNkTnc?oc=5",
@@ -108,6 +132,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "国债期货收盘：30年期主力合约跌0.14% 10年期涨0.03%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdjgtbXRsbXpMaUJGb2JPM3NTUUNUci15RC1NTjd6ZmRrRnVwcWMxeWVfZHhCUDhqeDZsLWNLZmJKOTk4eHc4SGktNVVSb1p2a3BCQnNvcW5GUVVnS2Q2N2J1ZHc4QVlhaFFoU0lKZzMtOWlPODR1NVlEM2pSMTNXbDhVQjN3T3FFaGF6ckY2WnNHNXc?oc=5",
+    "published": "2026-09-14",
+    "summary": "国债期货收盘：30年期主力合约跌0.14% 10年期涨0.03%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -564,42 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "WTI原油期货价格跌超2%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaE5GQl9mbWJGR1hZYko3WEF1TGV4dFhVS24yTjdpMFl5WXpXU1FjVXBfM1RsdTlNdDh3SE1RN2c4YmhOQTRhYzVlTTZORlJ2eHFZdk1Sa0tjX0ZlQ3V2NTJpQTZBU081M21mMThtLWxJcWgtazZ4aFgwZzZ0YVM0VVU0WUppM1k?oc=5",
-    "published": "2026-09-04",
-    "summary": "WTI原油期货价格跌超2%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Polymarket推出永续原油期货，进军24/7全天候交易赛道",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUTJKZGVCa0N6dEhhV3o3UUcycmJFcTFNUnRaYnlsWFBUaXpYSWRpbG5PazFnejk4UXlIcUo1OV9WTUJ1eVRQNkJxQ05MWE5sS1VmTVNNdGJGVXNUeFBaTVdHYWs0ay1FdWt1d3BSbm9XT1NkSWRrVlJQSjdjVndmWU9VeGc4Tmh5dkpZWk9HeE56RUZo?oc=5",
-    "published": "2026-09-04",
-    "summary": "Polymarket推出永续原油期货，进军24/7全天候交易赛道&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国就业数据大幅增长，金银期货承压",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2dEZzhBY1BYb25JaGw0V1Q5NjFReDhneFF0VHczZ0RIUHlYbmtXUTZhcUM1bGozakxCZjNwMTVZbmFEXzZGZlc4eUJBVXhyX2xRX19ZMzhpN05BUUZQWTlNZU9LN3pqWTBXa05sQ0NhUEVfVzhobjBjbkNONW1Sdg?oc=5",
-    "published": "2026-09-04",
-    "summary": "美国就业数据大幅增长，金银期货承压&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
