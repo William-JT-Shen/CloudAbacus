@@ -1,13 +1,61 @@
 // GPU算力期货新闻
-// 生成:2026-09-22T13:22:48Z
-var NEWS_FETCHED_AT="2026-09-22T13:22:48Z";
+// 生成:2026-09-22T19:46:33Z
+var NEWS_FETCHED_AT="2026-09-22T19:46:33Z";
 var GPU_NEWS=[
+  {
+    "title": "光大期货：9月22日矿钢煤焦日报",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTF90N2FhNldIMGlvWHJZb19lSi1fazE5Um1XZFd3ZVMxdldwdkY5cGhTTnY0RlJ1QzZRRWZLUU5wWFhKcWRLRHhTSF9CcWZRRFM0QTkzQTdkRWhlX25XSWMyODZhUFBLY2ZJeEl4MHVsYzZJbWlOaVRpWWdUSVE0NGdQZ0xKT2ZJWm0yb3MyaDhVTlQwZmIyMVY4WjRkaFpfb21sYnJQaUlfNGJ2RTFpWjVORFZVZXA2MzJvSmpOVGV5ZE9vMUc5R0hYYkV3S2dOSjRuNE8tbmZLc3NoV1Eza05yRQ?oc=5",
+    "published": "2026-09-22",
+    "summary": "光大期货：9月22日矿钢煤焦日报&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "Kalshi向美国商品期货交易委员会申请，拟在平台推出保证金交易",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSFR4bHh3a2xaVVhDcTJYSko1dFIyQ1RuTzZNeDBDOUlmTHY1djYydldSaENyc256bHQyRWlQUmJ5cTQ0UFRYaDZCSlRkQ0lEZktqSm5Qek93OGVnMjhsdU9yenZUZjh1SWJ2Z2Vmdk80X28xTUlUYUZBNHVZSkJ0cWRSV3JydUVQNUxWdTNxZGxUbEpaSnAwS1gxS3Y?oc=5",
+    "published": "2026-09-22",
+    "summary": "Kalshi向美国商品期货交易委员会申请，拟在平台推出保证金交易&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中粮资本成员企业获评2026年期货公司分类评价A类AA级",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUkxlVjB2NUxvLTZDUlZraDlYR2lWSElYd0ZQLVpMMU8tU09jcUpqcHluVWZNMktvUU1UTS0zaDQxZTV3T3NXUVJqckhHQnllcTBKaklFZXFZY0RZWVBtSDNranlQOTAtOG9VYkJNTG1vZGx0dXhueFNlWjVURHFBVXpiOVhUd2V1Y0NZ?oc=5",
+    "published": "2026-09-22",
+    "summary": "中粮资本成员企业获评2026年期货公司分类评价A类AA级&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "光大期货：9月22日金融日报",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX3I4X240YkhweldWc3piaDh5ckVLUUpjbHdEUHVkWVF6WGRmeGppR1kzQXcyNkltMWJ3T2NmWHVBQXZMVG5TaFE2N3dBZGFnb1VWZnRIUkk0dGE2T3BjRHNHNTBnX0JnRF9XVjdYdmMwY1A4N0lSNnJyVDdxNVFlS1BYZUhDYXVfcjRtTQ?oc=5",
     "published": "2026-09-22",
     "summary": "光大期货：9月22日金融日报&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "9月21日周末要闻：原油期货走高交易员关注中东供应风险与外交动向特朗普称胡塞武装同意不与美交战",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaGRYanVLY3Bzb3pPOV9LdUpwa05FNzRzaDNDLWg0WVVNNVZtSm0zdFZvZWtKNWE3NHh2ZFppVHZaaXhUdXRial9kU2VjdWRPN0ZGYS1HTWZ0YUZZTmUzWnZyWUF1RVBkWk9hdVhXRmZUUVlNNnpQUlMxa0JaRDBvOGpaLXFZUG8?oc=5",
+    "published": "2026-09-20",
+    "summary": "9月21日周末要闻：原油期货走高交易员关注中东供应风险与外交动向特朗普称胡塞武装同意不与美交战&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -548,54 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLTBTanM4Q2Y2b2FEY3hNME5MaTU1cWRfS0Etc0hxMWw0YzYyTUpEUW9hWEdncDlURUQ5QjZ3b0tnN1ppbkFwUm1EWnpXWG43OFR5RVlZMnQ4Y2dxX3poOUYxdTJySlAtb2ltMmItcmFzYWtZOFg1Z2p6a3E2ZUQyamU2aFk1bkItUXFCeQ?oc=5",
     "published": "2026-09-07",
     "summary": "华泰期货：关注高景气度行业，股指或迎修复窗口&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "8点1氪丨耐克将被移出标普100指数；iPhone折叠版定价或14999元起；财政部将发行特别国债，支持8家中央金融企业补充资本",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3972584225747209?f=rss",
-    "published": "2026-09-07",
-    "summary": "今日热点导览\n  \n   Kimi、MiniMax即将在天猫开店\n   lululemon股价“腰斩”，超23亿美元市值蒸发\n   紫金矿业就财报文字错误致歉\n   泡泡玛特王宁到访LVMH集团总部，集团掌门人率家族成员接待\n   “国家反诈AI”APP上线\n   特斯拉Robotaxi下月或实现全天候运营\n  \n  TOP 3 大新闻\n  市值大幅缩水，耐克将被移出标普100指数\n  近日标普道琼斯指数公司将耐克（NKE.N）剔出标普100指数。本次调整将于9月21日美股开盘前正式生效，这也是耐克历史上第一次离开该大盘旗舰指数名单。\n  回溯过去五年，耐克股价自2021年创下历史高点之后开始持续下行，截至本次指数调整消息落地，从历史最高点算起股价五年累计跌幅约79%，公司总市值蒸发超2200亿美元。近期耐克股票交易价格回落至38至40美元区间，创下近12年来的价格新低，曾经市值稳居数千亿美元的行业龙头，市值规模出现断崖式回落。（财联社）\n  运营商晒iPhone 18售价，折叠版预计14999元起\n  9月5日，海外运营商沃达丰泄露定价数据，iPhone 18系列涨幅约10%远低于此",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "完成近5亿元B系列融资，中科院孵化的国防AI企业年入数亿丨36氪首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3972771354309123?f=rss",
-    "published": "2026-09-07",
-    "summary": "&nbsp;\n  \n   本文约2100字，建议阅读4分钟\n  \n  作者丨欧雪\n  编辑丨袁斯来\n  硬氪获悉，面向关键领域的智能决策基础设施服务商——中科世通亨奇（北京）科技有限公司（下称“中科世通亨奇”）近日宣布完成近5亿元B系列融资。本轮融资由中国兵器集团下属南方德茂基金、北京市信息产业基金、联通创投、厚纪资本、太平科创基金、广发信德、芯能创投等机构共同投资，老股东乐礼资本连续三次加注。\n  此轮募集资金将重点用于AOS核心技术研发、“世通灵境”产品体系升级、行业生态建设及重点市场拓展，推动公司从国防等高可信场景向运营商、金融、能源电力、政府治理等关键行业复制。\n  中科世通亨奇成立于2016年，由中国科学院孵化，是国家级专精特新重点“小巨人”企业，深耕本体与智能化近20年，产品已在国防及多个关键领域的核心业务中运行。公司创始人黄宇为中科院空天院博士，曾获国家科技进步一等奖。\n  目前，人工智能产业正在跨过一个关键分水岭：大模型让机器越来越“会思考”，Agent让机器开始“能行动”。当AI从生成内容走向参与研判、调度资源和执行任务，决定其能否进入核心业务的，已不只是模型能力，而",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "日经指数期货报66100点，现货收盘报65020点。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSTBVUHNfWGZscXhObDlZXzY2LVZHb3B1Y3hxbS1QbWlFVVh3VVJGTlhqd2x6TGdYb3lGMGFjdkVHMmFXSjdISFFVWi1LM2stY1dXSUpzS2NMSGowM29VWDVPZVVQNWgwT1dxSlVyQnlwSEp1YjVNRlVyTnFpUjNTaGRxcw?oc=5",
-    "published": "2026-09-06",
-    "summary": "日经指数期货报66100点，现货收盘报65020点。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货赋能 惠州持续打造石化产业高地",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rRExyRFRORGZIZGx0RHVLXzNQa2Vhem10YUhtcTREZEdQMWlTUG15OGs2bzZPUjdQOFI1UHhqQWF2cEU1X1h4ZUhSUk5SeEVUN0pvdER0R2RURkExblR3Ui0xS3Byckc3UmlkTlNldXdnaU1fajZLVA?oc=5",
-    "published": "2026-09-06",
-    "summary": "期货赋能 惠州持续打造石化产业高地&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
