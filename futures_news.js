@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-21T20:25:08Z
-var NEWS_FETCHED_AT="2026-09-21T20:25:08Z";
+// 生成:2026-09-22T04:34:56Z
+var NEWS_FETCHED_AT="2026-09-22T04:34:56Z";
 var GPU_NEWS=[
+  {
+    "title": "光大期货：9月22日金融日报",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX3I4X240YkhweldWc3piaDh5ckVLUUpjbHdEUHVkWVF6WGRmeGppR1kzQXcyNkltMWJ3T2NmWHVBQXZMVG5TaFE2N3dBZGFnb1VWZnRIUkk0dGE2T3BjRHNHNTBnX0JnRF9XVjdYdmMwY1A4N0lSNnJyVDdxNVFlS1BYZUhDYXVfcjRtTQ?oc=5",
+    "published": "2026-09-22",
+    "summary": "光大期货：9月22日金融日报&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "中国信通院云大所副所长何阳：我国初步具备开展算力期货研究条件",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rRExyRFRORGZIZGx0RHVLXzNQa2Vhem10YUhtcTREZEdQMWlTUG15OGs2bzZPUjdQOFI1UHhqQWF2cEU1X1h4ZUhSUk5SeEVUN0pvdER0R2RURkExblR3Ui0xS3Byckc3UmlkTlNldXdnaU1fajZLVA?oc=5",
     "published": "2026-09-06",
     "summary": "期货赋能 惠州持续打造石化产业高地&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmOWdaZ3Y0Nkt0S3JnWWVGa0xMbzc2TVNmcE9YcFFLZVJDc3B5WkNNUHI2Y05OaTROR3hLRFloSnlmVTFZbkNEakVWWmd3cHNWMTl0czNuRE10dHhLdTFMMUlwS2NIYmE1bjhIX3RYM1BmVUZBVEJfOA?oc=5",
-    "published": "2026-09-05",
-    "summary": "算力金融化稳步推进，产业链景气度延续|Tableau Software LLC|5月推荐榜|订单|A股|金额_手机新浪网&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
