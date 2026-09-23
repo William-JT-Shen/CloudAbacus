@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-23T19:39:53Z
-var NEWS_FETCHED_AT="2026-09-23T19:39:53Z";
+// 生成:2026-09-23T22:55:06Z
+var NEWS_FETCHED_AT="2026-09-23T22:55:06Z";
 var GPU_NEWS=[
+  {
+    "title": "CBOT农产品期货主力合约收盘全线下跌，玉米期货跌1.49%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBodjN0eUdja1RNMmQ4M3lvZldWeUJWWTlQVDI3ZGVic1B2cTUzNWY2RjZHMGZ0SHZBTkpDOFZHLVNybnNRRk9YelpUQndlMnBTZzdiNF9GUXNlOE1uMElhbnlaVmc5Q1dzWFJvenh3cnVaV3hQRUdGSQ?oc=5",
+    "published": "2026-09-23",
+    "summary": "CBOT农产品期货主力合约收盘全线下跌，玉米期货跌1.49%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美股期货与欧股走低，油价转涨，Meta获摩根大通看好，大空头看空美光科技",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQemtPNWpRbTBhd0ZTV1lFWF80WDNUVXFSNnJZc1pTVG5BenduMy12M2NGZ2JOY2EtcGRhN1ZhbC0tTFcyRy02MXQybWM0TngwOXVaRHhSRG9RbTlvcDY3MTUxMTVDeE5qWTlkMUJRUDV2ZVpDbmxTYlAtMURkZi1ESkpSWQ?oc=5",
     "published": "2026-09-10",
     "summary": "韩国10年期国债期货跌至2022年10月以来的最低水平。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "布伦特原油期货涨超3% 创5月22日以来新高",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMWJ5MWNGSm53c1FwMjNNWFlqNXZSb3pxRTd6R1ZEWC1ZZGE4NlA5TjFBenJONTRUQXJrNDdwR0VFQ2p4a2hmVHZGWVZYNW5fVGZEWlpGdWgyejRHU0d5V2NiS2w5azVsTjlEMWRIMVB4R1I0UkZrSnFrczNKZE5HUGJNWjhabmc?oc=5",
-    "published": "2026-09-10",
-    "summary": "布伦特原油期货涨超3% 创5月22日以来新高&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
