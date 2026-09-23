@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-09-22T22:54:16Z
-var NEWS_FETCHED_AT="2026-09-22T22:54:16Z";
+// 生成:2026-09-23T04:31:15Z
+var NEWS_FETCHED_AT="2026-09-23T04:31:15Z";
 var GPU_NEWS=[
+  {
+    "title": "多家期货机构接连被点名",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaktTX2JjbXpQOEpBOUlFcVN2d0ZwVDZyTktiZ3o5MEJqbEY1Ml9fQlVGZzhrUjNJUHllSC1vY05GaWpzeDJqM2s1UVZvOTN0cXNxaVQ3bnR6MHU0bmx3d1dpT0ZsaktYckFOQWlMcUV6X0Q3NGdoRmJOc3hrdVR4enByNG5USHNaQ2tmYVRLdUhYZDZHMW9qWFlNZkdPakJ1SjlyN05rY2cwSHlxN0FBSXdkUjZEbEczYkFJVk90b2s2ZFlPS3FrSzdiSXZIdw?oc=5",
+    "published": "2026-09-22",
+    "summary": "多家期货机构接连被点名&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "芝商所推出英伟达GPU租赁期货合约的计划遇阻，监管机构延长审查",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTnV0R25ISHhldVJBV2VsM0tnZjNwZE1Eb19fb1d0REV2OG9ocksydmYtTzhoN29valdOd2lLNHU1allLYUg3WFlXTHFCUkpqaDdSRGg4MjZiWkxhX3ZYZGllNENGX3RQSThaZ2NCTzB1X25CUi0yT3FvWFpJbjQ4cVhHeE15dXJMZ19CQ1FYSXBZQmhianR4UjZiSEI?oc=5",
+    "published": "2026-09-22",
+    "summary": "芝商所推出英伟达GPU租赁期货合约的计划遇阻，监管机构延长审查&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "盘前：纳指期货跌0.02% 布油跌破100美元",
     "source": "新浪财经",
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MUFNLOXZOSVVZaWNCTjZkTmZoQjl4eFRRb2Z1NU45dGRmR1VfRVFpaXFFRmJGcEU3dTRxQk01STd5MnJ2OV90Sml3VVZOVlQwOVA1WVkwVmlrR3lEMzAwb2psZV8wRS0wRnBqdk52TDcwMEtneUw5aA?oc=5",
     "published": "2026-09-07",
     "summary": "恒指期货夜盘收跌0.33%，报25252.92点，低水160.20点。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "【英大期货】投资参考",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FZHJ0OTgzMnB5Nmp0ZVM2WVVjZ1J0VHl6REM0ZlRXOTJ1Nnk4WTI4RVhNU3dITkpmQ0stZVNEQTVyby1lTlF4VFZoV2kzdXV3ZEFzaHVMcGt4YjhkMGYxcHJENnZZS1Z0S0tVNGRqQno5X2dFRXQzTg?oc=5",
-    "published": "2026-09-07",
-    "summary": "【英大期货】投资参考&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "千问接入十余家金融类智能体 覆盖证券基金期货保险等领域",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQnVLT0R0MC14NGdwRjQ3WFNKeTdBeTJwdDU1b3ZEZE5ZejdiNl9McDRoMGg3NHE2QmVjMXktZ0tBNW91SWlEYzE3dngzTTQ5SlZPWld0QWRObUh0dzgxSlhadWNud2oyMXd3SWx3ZFF6MkpRZEg4OGVneDdzd2pvMkVLN2pPWXZSRkdKbnRua2FPaWs?oc=5",
-    "published": "2026-09-07",
-    "summary": "千问接入十余家金融类智能体 覆盖证券基金期货保险等领域&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
