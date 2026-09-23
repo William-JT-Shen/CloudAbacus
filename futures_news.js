@@ -1,7 +1,79 @@
 // GPU算力期货新闻
-// 生成:2026-09-23T04:31:15Z
-var NEWS_FETCHED_AT="2026-09-23T04:31:15Z";
+// 生成:2026-09-23T13:36:28Z
+var NEWS_FETCHED_AT="2026-09-23T13:36:28Z";
 var GPU_NEWS=[
+  {
+    "title": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月23日）",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN0k1UVE4TUxMNHk3QThwMzhSTHRqVDR6VjFFRldGbmwtOXl2Smo3c2xIM0lFc212dVI0VW9iTGstMFRIckFOVy1NT2YxbzlILVhIa3VfZjV2VFcwQ18xU3R0eGpLaGNlajIxQk5SZG1fakJUV1k4R1p2Um5nY3dMVDRELVEwSkdNNV9lOA?oc=5",
+    "published": "2026-09-23",
+    "summary": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月23日）&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "百亿元级商品期货增至16个 贵金属板块最“吸金”",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSE1Za2JxRFNpWFMwODgxTEMtallIVlZaOC1vRWxHTXRmcm5VQ05NSE1DeVppaUFDTExhekFLVjJ1QXdjU1FZdnZvZVMwX0E1bkpIZjBRSkxBcGF3Z0hfRTRqc2NRX3dfR0Jwb0FNRl9XTnVPUWJfZk5CTUJCXzNKag?oc=5",
+    "published": "2026-09-23",
+    "summary": "百亿元级商品期货增至16个 贵金属板块最“吸金”&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "华尔街GPU算力期货遇监管阻力，芝商所上市计划推迟",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM29BZXRrX0Z6SVgxbXNvQ2lGeGxNUHp6QUp4RHFldzdSZ2JNdExHTlhHaWw3MmRPYzdaRG1EbkJnMzlPTUNiN0wwWDhMYzFySEZFRlc4TjRUT3NLYTRRcEtiR1JfeGZTbjhUb0VMWm16cnVtWHBvWk9ILU1zVkg2TXFodEtudVE?oc=5",
+    "published": "2026-09-23",
+    "summary": "华尔街GPU算力期货遇监管阻力，芝商所上市计划推迟&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOGJGYnVoYjdac0ZpclZBR3pYMDRNc0pVYktjdnVOWmNUdEJoV0FnM3lqUXQxZHpNN2dueHd6WlA2OGFmek12eXlYcUpqdEYtTEhfSkM0eUVmN0pSSWozazFGVkxPMFRna21SUGJGeEh1YS1qTDZJbVE2WXotRUo3c194NlR2dUE?oc=5",
+    "published": "2026-09-23",
+    "summary": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "流量是租来的，信任是攒下来的：跨境电商增长逻辑正在重写｜超级会氪厅嘉宾金句",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3995682644725637?f=rss",
+    "published": "2026-09-23",
+    "summary": "流量越来越贵，利润越来越薄，跨境电商的下一个增长引擎在哪？\n  过去几年，“以流量换销量”的投放逻辑正在逐渐失效。以亚马逊平台为例，各品类CPC连续多年上涨，部分关键词获客成本不断拉高，大量卖家陷入“生意越做越大、利润越来越薄”的怪圈。流量驱动的粗放增长走到尽头，其深层原因在于：流量本质是“租”来的，停投即停效；而信任是“攒”下来的，能够持续产生复利。\n  当品牌信任从加分项变为影响转化率的关键变量，行业增长的底层逻辑正从“流量依赖”转向“信任复利”。\n  一个清晰信号是，独立站占中国品牌出海跨境电商交易额的比重不断提高，DTC模式正在成为越来越多头部卖家的选择——商家不再只追求更快拿到第一单，而是更看重用户留存与复购，从一次性买量走向长期经营用户资产。\n  2026年9月16日，36氪「深水规则」·出海系列超级会氪厅第二场落地上海。围绕“从“流量依赖”到“信任复利”——品牌信任如何成为跨境电商的终极壁垒”这一主题，乐歌股份跨境业务市场经理张翼飞、Ocean Stone管理合伙人杨飞、阿里云中小企业应用高级产品专家王霄三位一线实战派，分别从独立站操盘、品牌增长与AI外贸、数字身份与域名",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "光大期货0922热点追踪： 924两周年！地产系品种的“预期”和“现实”差多远？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVW9rWVlMQy13OHRTTDN4d2JBdmtOclpKR3Q1SzJQQzJtdmJ3VjJ6X005R0dQekF2UVRMWmRNVTBmS012d0diby04YzM1OWVVWG44VWl4TFRodFFwYk13X0NRNWUyVE1uT0REekQ4c1FXcnJhSzF0dGhjZ2hNX3MxX2lfb3Z6cENJV1BMVDRJSmtuWWZkNEpiLTNtQktta2hEcjVEdDh6cGpjNmloZXk1YWtqdUpOSTFZQmpJdGpMeUw0NGFxbXdGVlM2akZSLXZQNFN1TlhWb1FaaVU?oc=5",
+    "published": "2026-09-22",
+    "summary": "光大期货0922热点追踪： 924两周年！地产系品种的“预期”和“现实”差多远？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "多家期货机构接连被点名",
     "source": "新浪财经",
@@ -252,6 +324,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "关于对金石期货有限公司采取监管谈话措施的决定",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUEUzOF9LZlFaMkd0NVZ1dnBnb19USjRvOFRobzl3V0R3QV9Ca2EwQXU4QkhTVm55cHpVWEs3cXo3XzBxSHR4VzlCTzNUemRGY21xS3M3bEZ3M1F4SXZpRDVoN25MeC04VDFkREpfZ1hoa214Mi16eFdMTHpoTjd5MA?oc=5",
+    "published": "2026-09-14",
+    "summary": "关于对金石期货有限公司采取监管谈话措施的决定&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -512,90 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdlRILXNONjljcEpMcFlFRncxMGdqMHE5czVsYkF3ZzdITkFIVThOSF84S296UmNBT2JXanNJd2VJd0F4el9kcFlMeEY1d3pwVE9WWHpfYjBzaDBkb3FnMWE0NE5BcUQzb2JQb1FqRl9hakROckNBbXpTUUZXazdzMGNWMzN0V00?oc=5",
     "published": "2026-09-10",
     "summary": "恒指期货日盘开盘跌0.93%，报24971.60点，低水303.36点。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "富时中国A50指数期货夜盘跌幅扩大至0.56%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hUDBlY1U3OEpacjFMX2xLdElEMEl1cEFicmFNMGtUSHI0OW9tb09iamhGX0lOSDFERHhRZEZjLUtFNEdVRk9IN1AyVF9CS181MDAxM2pHNVcxUlhYOC1ySnJmNC1iQUNPVHZoQ2FIbzdyX3pPSVZZSQ?oc=5",
-    "published": "2026-09-10",
-    "summary": "富时中国A50指数期货夜盘跌幅扩大至0.56%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "富时中国A50指数期货盘中翻红，此前一度跌超1%。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOTRmNlJqNkpYSU81VExCWWdYWTl6RW5TTUZDSm9kRFJud3otcGdoSWpQeXNzd3d1aXgzMFRQb3pwb0ZNOWh5d2J5WHlQdzJLMEc0TU5DLVc2dVFUVlVCbUpyMmZmR01MWll3cVlxWFRMZ1hYM3oySXZtbmVVbWh1WE9wUQ?oc=5",
-    "published": "2026-09-10",
-    "summary": "富时中国A50指数期货盘中翻红，此前一度跌超1%。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "弘业期货：公司将于2026年9月29日召开2026年第三次临时股东会",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeEFvUnRmYzJLV3dpV3JJeTFTZ0wxdDJZR2haNXZXaUdwZkdaaUhjeE5Nc1BBby1xSERDOC1xOWg4amJrSlFzd2pOZThiMGh6eDN4cVd4X25fMTRrczd4WnNRam1LMENlS0tCYW9OZHQ4NmdJYWlzZUxqLUZjUDcyTS1WWUswN1lRZG9pVkhyZEJaVEdkM3gw?oc=5",
-    "published": "2026-09-10",
-    "summary": "弘业期货：公司将于2026年9月29日召开2026年第三次临时股东会&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "玉米期货连续第五个交易日走低 基金纪录级多头押注遭遇考验",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc0QweFgzZHdweHVoRFJ4ZHJCRFZYcXBTWDlNdlFua0wzaHpGbERIYmtGYUNINlp3MTJuZTNtNE5iNEhXV0xXQUhhYW53a2tmaDZIWGtLQXV0VC1jc2NIbzZrdExHcTR1QzM0clBmcUJnY0VEc3dFTkUzLTROZjFVcGhsLWxMYkFWUFVsZl9UXzljclptdzBhRjlPU1c?oc=5",
-    "published": "2026-09-09",
-    "summary": "玉米期货连续第五个交易日走低 基金纪录级多头押注遭遇考验&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "半年融资三轮，这家公司以AI和数据切入儿童成长交互赛道丨36氪首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3975552848589056?f=rss",
-    "published": "2026-09-09",
-    "summary": "图源/企业\n  \n   本文约3000字，建议阅读7分钟\n  \n  作者丨欧雪\n  编辑丨袁斯来\n  硬氪获悉，风峦数字科技（下称“风峦科技”）近期已完成数千万元天使+轮融资，由鸿瑞达投资领投，苏州怡达基金及Hexa Capital跟投。资金将主要用于首代教育机器人的样机研发、技术团队扩建及销售体系建设。\n  风峦成立于2025年10月，是一家聚焦儿童成长数据资产的数字科技公司。创始人蒋肖迪毕业于美国康奈尔大学，曾创办头部知识付费与MCN公司“星峦天下”，在教育流量运营和教育产品研发领域有多年积累。团队联创及合伙人背景包含具身智能行业、AI芯片研发、教育行业头部IP以及高端制造龙头上市公司。\n  目前风峦科技的产品体系分为软件和硬件两条线。\n  软件端，聚焦家庭学习场景的AI学习工具幻课APP已上线已上线数理思维、英语学习的内容订阅与服务，2026年后续将推出语文素养、AI通识与机器人编程科目。与市面上多数AI课程产品不同，幻课APP并不只是将课程内容数字化，而是在强调AI趣味化交互的同时，在底层搭建了AI数据中台，通过颗粒化的数据抓取，包括每一帧动画的停留时长、每道题的重复错误率、使",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "20260908红枣期货数据汇总",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZFNGekIxX1hCWmVDLUE5WEI1OEEteXFsREQxWV9FYjdTZzJZbzh2M0hrWXdZb1U2N3Y0MWtETnhmWWlVNERaQzZyZUpzblotU2kyaktfczQ3TzRHY2JlbHkzNFV4dFpSYWdwTzNtYmxLYmFYRmNaWEtnNFVMWnptUkVVcUJTYko2TWNpV1hR?oc=5",
-    "published": "2026-09-08",
-    "summary": "20260908红枣期货数据汇总&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "恒指期货夜盘收跌0.33%，报25252.92点，低水160.20点。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MUFNLOXZOSVVZaWNCTjZkTmZoQjl4eFRRb2Z1NU45dGRmR1VfRVFpaXFFRmJGcEU3dTRxQk01STd5MnJ2OV90Sml3VVZOVlQwOVA1WVkwVmlrR3lEMzAwb2psZV8wRS0wRnBqdk52TDcwMEtneUw5aA?oc=5",
-    "published": "2026-09-07",
-    "summary": "恒指期货夜盘收跌0.33%，报25252.92点，低水160.20点。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
