@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-23T13:36:28Z
-var NEWS_FETCHED_AT="2026-09-23T13:36:28Z";
+// 生成:2026-09-23T19:39:53Z
+var NEWS_FETCHED_AT="2026-09-23T19:39:53Z";
 var GPU_NEWS=[
+  {
+    "title": "美股期货与欧股走低，油价转涨，Meta获摩根大通看好，大空头看空美光科技",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50Uzg5OFlmcEJwQmsySk9XVDk1bUlZY2RJNzdGX1paNlZ4X3c4T2p1ODdENEJ2Q011aGVhMFFtUFBZdEViWGZJX2pCOExNbTZLQmJTaV91SzNtc05ZODVKb24zQWFLOWZsSU1hV0IyQ01fUUdZOENRVQ?oc=5",
+    "published": "2026-09-23",
+    "summary": "美股期货与欧股走低，油价转涨，Meta获摩根大通看好，大空头看空美光科技&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月23日）",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMWJ5MWNGSm53c1FwMjNNWFlqNXZSb3pxRTd6R1ZEWC1ZZGE4NlA5TjFBenJONTRUQXJrNDdwR0VFQ2p4a2hmVHZGWVZYNW5fVGZEWlpGdWgyejRHU0d5V2NiS2w5azVsTjlEMWRIMVB4R1I0UkZrSnFrczNKZE5HUGJNWjhabmc?oc=5",
     "published": "2026-09-10",
     "summary": "布伦特原油期货涨超3% 创5月22日以来新高&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "恒指期货日盘开盘跌0.93%，报24971.60点，低水303.36点。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdlRILXNONjljcEpMcFlFRncxMGdqMHE5czVsYkF3ZzdITkFIVThOSF84S296UmNBT2JXanNJd2VJd0F4el9kcFlMeEY1d3pwVE9WWHpfYjBzaDBkb3FnMWE0NE5BcUQzb2JQb1FqRl9hakROckNBbXpTUUZXazdzMGNWMzN0V00?oc=5",
-    "published": "2026-09-10",
-    "summary": "恒指期货日盘开盘跌0.93%，报24971.60点，低水303.36点。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
