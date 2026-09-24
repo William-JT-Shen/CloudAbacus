@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-24T04:28:37Z
-var NEWS_FETCHED_AT="2026-09-24T04:28:37Z";
+// 生成:2026-09-24T13:31:25Z
+var NEWS_FETCHED_AT="2026-09-24T13:31:25Z";
 var GPU_NEWS=[
+  {
+    "title": "盘前：纳指期货跌0.24% 油价连跌5天",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcUh4MllKdk5LQ2JFaDVWNjc2MDVsZG9UZVJadW55M0NvUXJmbHBkMEZPSUx0bDVudmZtMTU2TzZyQW5JSVhpRTM2NzI4ZzNhTEduRExvOTNsT0xQTUl4a0JlaVdTYVhWbGFnSUM5RFpOLUs0Mmw0MFgwLUlwQkJhTkYyNFNuWDg?oc=5",
+    "published": "2026-09-23",
+    "summary": "盘前：纳指期货跌0.24% 油价连跌5天&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美国商品期货交易委员会主席：“事件提及合约” 的交易活动令人担忧",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdl9rMXJwUjFfd0NVbktsMFp5eVNpT2lkWGFRVFBlXzFfZmdVc2lQM3BQazlDTVU1ZDlGS2Y0cHQ4Tm1HMXp0TnVwM3gzNDY1eEstUlhrNnBWczlpejhxTWJvMVpDaFRHR2Q4d2V3aUZfUkdOLWJnSzB2clBhQTlyM3hwX284Zk9LNG9TVERlMnI0RFU?oc=5",
     "published": "2026-09-11",
     "summary": "Kalshi获批推出黄金白银永续期货 拟再推60只ETF及个股永续期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQTZlUWxpbzloY1JlbS0yNXdUZ2JWdlVwSXQ3Q01sYVFZREVOZ0d2djdOcG1CWWRMbFFjUWRpNXY4MWhHa1o4UkQtcU9hcjdrS1VxSDZXWFpXWFE3LUtuV1VNMno1WnpQaVM0aWt5ZFZYVE9LemxEbFRkVWpaUlFyVTB6VHYwVzdpUXhNWjhFaVZkQUk?oc=5",
-    "published": "2026-09-11",
-    "summary": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
