@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-24T13:31:25Z
-var NEWS_FETCHED_AT="2026-09-24T13:31:25Z";
+// 生成:2026-09-24T19:58:49Z
+var NEWS_FETCHED_AT="2026-09-24T19:58:49Z";
 var GPU_NEWS=[
   {
     "title": "盘前：纳指期货跌0.24% 油价连跌5天",
@@ -224,6 +224,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yVVBua2JzS1o2YTFwRWhGN3pfZXEwY05iSHJGSFJoNEpMdHVKZXBqQ280dlhQbHZGUzRTY1lGOFNCaGNTcmdGcjlPMEM2OXBZX2Jid29jSVdIeVZIT0VjSEhvUVgwZmJPcUtvVWQyS29uYXkzSlR5Qg?oc=5",
     "published": "2026-09-20",
     "summary": "中国信通院云大所副所长何阳：我国初步具备开展算力期货研究条件&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "关于对海证期货有限公司采取责令改正措施、对祝炜采取出具警示函措施的决定",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRExzMjdXb1EzX3FJQ0g1eG9QaUNvakhxRDVta0MwMk1XOXo4ZHNncG5GWnQzSjVyYkQ2UlV5WUlxWjAzNlVpV1NZT2hoTDFrTGhZZFpkTzREcTVxME8xREd6YnNqZlJIeWVuNlpyNUx6SXRZVzJhV29SSUo3TGt6aw?oc=5",
+    "published": "2026-09-18",
+    "summary": "关于对海证期货有限公司采取责令改正措施、对祝炜采取出具警示函措施的决定&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS1VvaWxjSmpRYVhIN2RnM0MydTB1bjNscmpQMmVCTjVock9nVEpRWEs3M29KOTZqWWg2SkVOOE1mRDlVMThzQ055UnVJTWVMLTBvMnFSZGRqb1JqMGp4VGVrNzkzaU1vUUVHbXN3UkJXMTVVb1Zmbi1XWmJHTkh3a1BXMnc1a2M?oc=5",
     "published": "2026-09-11",
     "summary": "海证期货董事长刘飚：期货公司向综合服务“顾问”转型成为必然趋势&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Kalshi获批推出黄金白银永续期货 拟再推60只ETF及个股永续期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdl9rMXJwUjFfd0NVbktsMFp5eVNpT2lkWGFRVFBlXzFfZmdVc2lQM3BQazlDTVU1ZDlGS2Y0cHQ4Tm1HMXp0TnVwM3gzNDY1eEstUlhrNnBWczlpejhxTWJvMVpDaFRHR2Q4d2V3aUZfUkdOLWJnSzB2clBhQTlyM3hwX284Zk9LNG9TVERlMnI0RFU?oc=5",
-    "published": "2026-09-11",
-    "summary": "Kalshi获批推出黄金白银永续期货 拟再推60只ETF及个股永续期货&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
