@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-23T22:55:06Z
-var NEWS_FETCHED_AT="2026-09-23T22:55:06Z";
+// 生成:2026-09-24T04:28:37Z
+var NEWS_FETCHED_AT="2026-09-24T04:28:37Z";
 var GPU_NEWS=[
+  {
+    "title": "美国商品期货交易委员会主席：“事件提及合约” 的交易活动令人担忧",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ1NhRnRBNFJ4OGRJTVlMd29PZWUxcUdIYkpLNi1DZHVoNG9QaFZPWG1IZUUxRU0telpxX082OTE0UjJjclZCRDNvNHBWTkhsQURJMk01SFllb1dmT05KUGI2c0V0R3lDMWtIWkFjWWtSNUtiNDBSOWVULUxwRnpESUhPYjZ0WDk4UjNTX0phSWF4cWU0bXE1OFlqWWR0cS1TNmlYVHJMdlBVbDcyRk8yTkM5UG9kekhsd3BSQXdWVlplTGhScXpRN1g2b25xYVZKSzRXOFVYWjhRR1Q2eWY0?oc=5",
+    "published": "2026-09-23",
+    "summary": "美国商品期货交易委员会主席：“事件提及合约” 的交易活动令人担忧&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "CBOT农产品期货主力合约收盘全线下跌，玉米期货跌1.49%",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQTZlUWxpbzloY1JlbS0yNXdUZ2JWdlVwSXQ3Q01sYVFZREVOZ0d2djdOcG1CWWRMbFFjUWRpNXY4MWhHa1o4UkQtcU9hcjdrS1VxSDZXWFpXWFE3LUtuV1VNMno1WnpQaVM0aWt5ZFZYVE9LemxEbFRkVWpaUlFyVTB6VHYwVzdpUXhNWjhFaVZkQUk?oc=5",
     "published": "2026-09-11",
     "summary": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "韩国10年期国债期货跌至2022年10月以来的最低水平。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQemtPNWpRbTBhd0ZTV1lFWF80WDNUVXFSNnJZc1pTVG5BenduMy12M2NGZ2JOY2EtcGRhN1ZhbC0tTFcyRy02MXQybWM0TngwOXVaRHhSRG9RbTlvcDY3MTUxMTVDeE5qWTlkMUJRUDV2ZVpDbmxTYlAtMURkZi1ESkpSWQ?oc=5",
-    "published": "2026-09-10",
-    "summary": "韩国10年期国债期货跌至2022年10月以来的最低水平。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
