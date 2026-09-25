@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-24T23:13:01Z
-var NEWS_FETCHED_AT="2026-09-24T23:13:01Z";
+// 生成:2026-09-25T04:39:29Z
+var NEWS_FETCHED_AT="2026-09-25T04:39:29Z";
 var GPU_NEWS=[
+  {
+    "title": "上海金融监管局：优化智能算力资源配置",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iUWdDVzR2RG1LbU9iT1FmempaWnhqOXNkWmVZVEREQzFUVHpHcU5sYUc5Wlpfd2cxaWlEMXdmeUFwME94aDJMYVQ0YWdoN1g2dndCMW9RN21Damt0UGx4RWlkcjJGclZmZFFlSXNLYkVSc1RoVmFLRA?oc=5",
+    "published": "2026-09-24",
+    "summary": "上海金融监管局：优化智能算力资源配置&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "盘前：纳指期货跌0.24% 油价连跌5天",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM1lZcVdqTkdqX0syRFprQ0lVYUFxUUZYMzZCWEZwMkxDWl93Q2VLUzdOWHBsMUczaUtOTWFoWGRSYzdSY2xaYTA0OWtCcWhGaUxuZHBNNDlhUFRBMlF4MkRncGhKMUp5akdnajIxTEZaLUhiSHI3a1A4bjNRaEtHMS1MOE03cGJ1QVJDblpFOA?oc=5",
     "published": "2026-09-11",
     "summary": "荣耀时刻！2026期货业君鼎奖，重磅揭晓！&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "海证期货董事长刘飚：期货公司向综合服务“顾问”转型成为必然趋势",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS1VvaWxjSmpRYVhIN2RnM0MydTB1bjNscmpQMmVCTjVock9nVEpRWEs3M29KOTZqWWg2SkVOOE1mRDlVMThzQ055UnVJTWVMLTBvMnFSZGRqb1JqMGp4VGVrNzkzaU1vUUVHbXN3UkJXMTVVb1Zmbi1XWmJHTkh3a1BXMnc1a2M?oc=5",
-    "published": "2026-09-11",
-    "summary": "海证期货董事长刘飚：期货公司向综合服务“顾问”转型成为必然趋势&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
