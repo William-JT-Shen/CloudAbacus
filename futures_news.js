@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-09-25T04:39:29Z
-var NEWS_FETCHED_AT="2026-09-25T04:39:29Z";
+// 生成:2026-09-25T13:38:06Z
+var NEWS_FETCHED_AT="2026-09-25T13:38:06Z";
 var GPU_NEWS=[
+  {
+    "title": "光大期货中秋节特别节目：期货人爱吃什么月饼\"馅\"？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdWRWbm5NWUhRX29aWWM5enVsbVdPUU5yZUItSVJCSUZjNDdGR1p4MEVCY01RUW94Z0NIRzdvWmhFQW43WExfeUNkQnBXanlpR2Z3NTQyLUtCNzBZWXdIVUp1OE11Mm10RkZtTTRGWmNrVjR6QS1ZSVYxR0dmV2U0dVduOEtZQS1SQW9feA?oc=5",
+    "published": "2026-09-25",
+    "summary": "光大期货中秋节特别节目：期货人爱吃什么月饼\"馅\"？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "日本日经指数期货早盘下跌0.1%。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0c2ZXQ1U5NEdVbEUyblpHOGhwUW05NFVRRkxuQXh2encyZENQa3hHZW95UzZCVldKdnFHMnRKYTBVNWpoN2I1TjNTMkFwejBJa1diVVlpajhrQmdqMkVLb2FXQ3hTdnFOZlBGUWlzLVBYdV9ZZFd4Zw?oc=5",
+    "published": "2026-09-24",
+    "summary": "日本日经指数期货早盘下跌0.1%。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "上海金融监管局：优化智能算力资源配置",
     "source": "新浪财经",
@@ -519,6 +543,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWHNsdGFNR0xQa0Y2UjNiUjdEQXdleWtJeGJNRjFmWUZPN0JaMDh5V092bzdRYXZrRmxaV1BGZ2ZhMnpOQXRsNTFpUFBadkZXdlVMS0ZtMVJDSmJ5dlQxMGxENGszRlZFRDV1TGhRT0lqNjlmQzZFQVpOY3FrQ3dmWkhZMnJRVVk?oc=5",
+    "published": "2026-09-11",
+    "summary": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "纳斯达克100指数期货上涨0.7%。",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTGtLS3hiakszaFdJaXpiaFRTQkNKOVV4VzVKX2MtX2p0QWFWQzVGNWtkdVdjQ3F5dTZRdEFocVlXeGNzbjhYV3lnODZ0TFloOWRaWThWT0RUTkRIX3NJaGZRYW9CWVdDbGRPWFNmc3ZNdFJMMktyakNWNkJBUV9qRDd5SQ?oc=5",
@@ -560,42 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV0NsSXR4cEpYSzkzY3JnaGFVS0kzbzlRdTN2LXhLQ2pvWFlQTFVfSEczSjBqYm92TTl4eWwyaWJ0TlEtbmlkdC1kWmxEbHBtcmlmN1RPLTk3WWpVMEpLanVaUVBvYkJkVnMyX19ERXIwV214ZVc3dHNrTlpkWkYwZXE5cU1ZbFU?oc=5",
     "published": "2026-09-11",
     "summary": "国内商品期货开盘涨跌不一 原油高开涨超6%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美豆期货突破13.2美元 创三年新高",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOclZjT1Q3T2RWaVZWazNYMlAzcTBRX28tOEZhcGF1SEtfYVI4MFhoSTJPVnFBZGg4OTVmZURiZk41dmRyQU5BT0V0dHJ3SDAwVHlGeHZucm9lLUM4Ym9VYURwemhHazlWdFBPMHY2TUNpZnBHdVp2U3VlQU1lSVFwUG5HT3ViTDFHd3dqM0M0QlRnTFU?oc=5",
-    "published": "2026-09-11",
-    "summary": "美豆期货突破13.2美元 创三年新高&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中国证监会发布《期货公司监督管理办法》。（证监会）",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLVB5UFFYd2NTamdyRFhweUxjQkpVUWFaRWJsa3E0WG5oQUJRZGdzeVptQTBqRUEyRjdldThSV1hIR0JrMDI5NDJET2o4VTlRNmh2TTFGX2dXZjVrOTMzTTlMc0JMOEZRM0QwcXQ0RXlaOGNXdUJtOHVtS0JLS1FiSW9Ldw?oc=5",
-    "published": "2026-09-11",
-    "summary": "中国证监会发布《期货公司监督管理办法》。（证监会）&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "荣耀时刻！2026期货业君鼎奖，重磅揭晓！",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM1lZcVdqTkdqX0syRFprQ0lVYUFxUUZYMzZCWEZwMkxDWl93Q2VLUzdOWHBsMUczaUtOTWFoWGRSYzdSY2xaYTA0OWtCcWhGaUxuZHBNNDlhUFRBMlF4MkRncGhKMUp5akdnajIxTEZaLUhiSHI3a1A4bjNRaEtHMS1MOE03cGJ1QVJDblpFOA?oc=5",
-    "published": "2026-09-11",
-    "summary": "荣耀时刻！2026期货业君鼎奖，重磅揭晓！&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
