@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-09-27T05:03:30Z
-var NEWS_FETCHED_AT="2026-09-27T05:03:30Z";
+// 生成:2026-09-27T13:50:40Z
+var NEWS_FETCHED_AT="2026-09-27T13:50:40Z";
 var GPU_NEWS=[
+  {
+    "title": "中国信通院何阳：我国初步具备开展算力期货研究条件",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5RMHhYMzNzR25aWTZVQlZEbG1kS2hYRjBlanpPX0dscEhGelBWRmkzNUZIV01aeUFOZHZ4RzFDQnZhdW56NDY4MVZtVHRvMlIzbGNaMi1HUWZ0c0xFc0Q0TUU2ek5fcTZ3aVF2VGJjRDJfS2pxV2JwTA?oc=5",
+    "published": "2026-09-27",
+    "summary": "中国信通院何阳：我国初步具备开展算力期货研究条件&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "平安期货袁建峰：AI加速重塑期货客户服务",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY1NyYTdxSVl2SFdZM0VqVHlPd3ZvcmExODU3ajkyOWFVT1M0N0V4bTJqMVdFam5TMjdhd1hUbnYtc2RjUm84RHNKR1B2ZXA3R3gtNEJoaFk2VlhlTnlKc09EaXRhWG11a21GUnFsd2Fza2pWdEQxd2IzTlYzRVltUQ?oc=5",
+    "published": "2026-09-26",
+    "summary": "平安期货袁建峰：AI加速重塑期货客户服务&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "光大期货中秋节特别节目：期货人爱吃什么月饼\"馅\"？",
     "source": "新浪财经",
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdGc0UmFad1RCUEJPdkg5OWNfeTFUeHNwLWtxVjExTVF4c25fWEpaZVRQYndsVWxsT1VOcGlkRDBuZ1FMczMtbFNyZ1pSak9abUowWmtCVVB4bFlXdW1FVWU0bFRiaGpBWVN2MDgzMnNYd3BmV0tOY2tYdmhnajlZVmpLVQ?oc=5",
     "published": "2026-09-11",
     "summary": "纽约原油期货价格突破100美元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "9月11日期货策略 | 黑色系、有色金属、农产品期货汇总",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ1B3RmdSUjNFYVNLS0ZfMXp1aTBLX3pzdzR1d1dsWDZVTUFtczJUTm1aQUtPQmJPb1dOSWk2SUxXUUo0TU5BR0t1RWRBX3JZcXZhRHJyYmRqZmFnbjdKbkhIWWwyUDB6OFlaUjJBRDJMblBVeTItU1o1UmI0UnhFM2oybw?oc=5",
-    "published": "2026-09-11",
-    "summary": "9月11日期货策略 | 黑色系、有色金属、农产品期货汇总&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内商品期货开盘涨跌不一 原油高开涨超6%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV0NsSXR4cEpYSzkzY3JnaGFVS0kzbzlRdTN2LXhLQ2pvWFlQTFVfSEczSjBqYm92TTl4eWwyaWJ0TlEtbmlkdC1kWmxEbHBtcmlmN1RPLTk3WWpVMEpLanVaUVBvYkJkVnMyX19ERXIwV214ZVc3dHNrTlpkWkYwZXE5cU1ZbFU?oc=5",
-    "published": "2026-09-11",
-    "summary": "国内商品期货开盘涨跌不一 原油高开涨超6%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
