@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-09-28T05:05:25Z
-var NEWS_FETCHED_AT="2026-09-28T05:05:25Z";
+// 生成:2026-09-28T16:44:19Z
+var NEWS_FETCHED_AT="2026-09-28T16:44:19Z";
 var GPU_NEWS=[
+  {
+    "title": "期货热门专题浏览指南：2026 年一站式获取市场热点",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWGd3VWVCQXBncjBERGpUVjR1MVFTXzk1T1ZzT19sdFJZUG4yVUsxa0NYc2RPUllWU1FDUFF1cC1teXFrZnlnTU96czFVSUdUMUJweVdZRHpkMWhnWE9pdE92U2hMcXBCOU1LM0dTLWJoOFRnVUEwTEpVYmJCaXBpaFk4S3dLMFNzU0E?oc=5",
+    "published": "2026-09-28",
+    "summary": "期货热门专题浏览指南：2026 年一站式获取市场热点&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "云栖大会探展手记：游戏与AI正在碰撞出更多火花",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4002939061981062?f=rss",
+    "published": "2026-09-28",
+    "summary": "AI是2026年游戏行业最受关注的关键词之一。\n  过去几年，厂商和玩家还在反复讨论AI渗透游戏行业的利弊，也有人因为AI带来的变化而焦虑，行业里一度出现了一些盲目的尝试。\n  如今，关于AI的讨论风向似乎完全变了。从业者似乎终于形成共识：AI已经不可逆地更改游戏全行业的底层代码。新的问题变成了，站在AI的肩膀上，哪些过去依赖大量人工才能实现的事情，如今可以被重新优化，以及游戏这种互动媒介此前还有哪些创造力没有被充分释放。\n  这种变化的前提，是已经有先行者走在了前面。\n  今年云栖大会的「游戏互娱」展区十分热闹，一批先行者正在和阿里云一道展示着最新成果。\n  \n  云栖大会上的游戏展区&nbsp;\n  看完游戏展区，我最直观的感受是：AI对于游戏行业的改造，正在从零散的单点尝试，走向更系统的渗透。这种改变不仅限于为了压缩成本和工期，用AI生成游戏资产或代码，而是覆盖从技术基建、游戏设计、研发、发行的全链路。\n  在这些探索创新背后，阿里云在游戏云领域已经连续5年位列中国市场第一，覆盖全球数亿玩家，同时也是国内游戏云模型服务市场的第一。这意味着，今天讨论AI与游戏的关系，已经不是一家云",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "光大期货：9月28日金融日报",
     "source": "新浪财经",
@@ -576,30 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "周末影响市场重要资讯回顾：证监会发布《期货公司监督管理办法》，事关万亿赛道！我国词元需求呈爆发式增长",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbUNpWkdFNng1aFV2bDU4bFZweS1lUWdwZDNIQ0RxY08wRkRvSTFLb0hQQlBDTmRQdnBpb0tnNlBiRjRhTmVDWW5mR0JMMl8tQ2dxSml5Z1k5d00zYndnWGVzVTg3MHhSQk1neF9sYmFVcGh3eUZqNlJ6SUxac1p1V0tnV2dSZVU?oc=5",
-    "published": "2026-09-13",
-    "summary": "周末影响市场重要资讯回顾：证监会发布《期货公司监督管理办法》，事关万亿赛道！我国词元需求呈爆发式增长&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "9点1氪丨房贷延长到40年但申请人不能超过35岁？机构回应；长鑫利润率反超三星SK海力士；戴尔市值一夜飙升2500亿元，创历史新高",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3979727038004226?f=rss",
-    "published": "2026-09-12",
-    "summary": "今日热点导览\n  月之暗面借Kimi K3加速增长，2026年底年化收入目标20亿美元\n  多家券商收紧个人程序化交易接入\n  OpenAI据报考虑放缓前沿AI开发，奥特曼希望其他公司跟进\n  国际油价11日下跌\n  明星AI研究员离开Meta，加盟Anthropic\n  TOP3大新闻\n  房贷延长到40年但申请人不能超过35岁？机构回应\n  8月28日，中国人民银行、国家金融监督管理总局联合印发《关于改革完善房地产信贷管理推动加快构建房地产发展新模式的意见》，将个人住房贷款期限由最长30年延长至最长40年。\n  北京地区房屋中介机构人士表示：“贷款年限跟房龄、房子结构、建筑模式、贷款人的年龄均有关系。”根据银行不同，通常“借款人年龄+贷款期限”不超过70年或75年。建设银行一位贷后管理部门人士表示：“公积金暂不参与延期。”且公积金年限认定较为严格。“砖混住宅47减房龄，钢混住宅57减房龄，在住建委新改造名单的可以按67减房龄。”\n  而存量按揭申请延长还款期限政策进度不一，以北京地区为例，建设银行贷后管理人员表示“存量房的相关政策细则仍在研讨中。”（界面新闻）\n  长鑫利润率反超三",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
