@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-09-27T22:59:13Z
-var NEWS_FETCHED_AT="2026-09-27T22:59:13Z";
+// 生成:2026-09-28T05:05:25Z
+var NEWS_FETCHED_AT="2026-09-28T05:05:25Z";
 var GPU_NEWS=[
+  {
+    "title": "光大期货：9月28日金融日报",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc0pUdzJNVzBIdnoweDN1Z1lSbGNxTzhaMm1nVmtiay1XMWNrVmtuM3NHUXpsakZuOHpELXJ5U1R0OGVZUWFoZ19oRFlqR210eUpmTkRvanhPTW1pSmtmQ3MyUHEtSnRhMHVsNEdXZ21DYXBzNXJFT2wxNzZNeTdzdW10emR6djRhV0xnVg?oc=5",
+    "published": "2026-09-28",
+    "summary": "光大期货：9月28日金融日报&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "广金期货重点品种资金流向与基差日报 20260924",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaU1qOXg1TlFFRlp5bVhsSWt1NV9aYUJ0WTBiR3pMUjZJc1ZKZGx1WkRqd0hrTHpXNmNuWnluZ1h6NGJVb19jRWlfT0VZa3lSaFBqbG5DVGo4S1FaRmg4M01TWmdtc2pia19FSkRSYkpHRGZjdFpKR3BGU2NkODF6Q1JIRlJkLXlHalpvRXR3?oc=5",
+    "published": "2026-09-28",
+    "summary": "广金期货重点品种资金流向与基差日报 20260924&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "圣农发展拟斥资最高1亿元开展商品期货套期保值 锁定12个月内原材料价格波动风险",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSUFsQzJ2S3MzNjhTSl9ZM1FCTGxWTTJYYldZR0JLVlcyN1BHazkzYm1OdDZldnpaS2pXb0dqcjZINFRKc3hDU3c0ZnZBOVlaUmQwMzdkLVFHRUZpXzFzUzF3a1VGUDlLV1hVdW1iWU9PUFNGOGNFTUQ2dm11TTgwVDBkSFlNQ1U?oc=5",
+    "published": "2026-09-27",
+    "summary": "圣农发展拟斥资最高1亿元开展商品期货套期保值 锁定12个月内原材料价格波动风险&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "中国信通院何阳：我国初步具备开展算力期货研究条件",
     "source": "新浪财经",
@@ -564,42 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWHNsdGFNR0xQa0Y2UjNiUjdEQXdleWtJeGJNRjFmWUZPN0JaMDh5V092bzdRYXZrRmxaV1BGZ2ZhMnpOQXRsNTFpUFBadkZXdlVMS0ZtMVJDSmJ5dlQxMGxENGszRlZFRDV1TGhRT0lqNjlmQzZFQVpOY3FrQ3dmWkhZMnJRVVk?oc=5",
-    "published": "2026-09-11",
-    "summary": "平安期货总经理袁建峰：AI成为期货行业破局的关键动力&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "纳斯达克100指数期货上涨0.7%。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTGtLS3hiakszaFdJaXpiaFRTQkNKOVV4VzVKX2MtX2p0QWFWQzVGNWtkdVdjQ3F5dTZRdEFocVlXeGNzbjhYV3lnODZ0TFloOWRaWThWT0RUTkRIX3NJaGZRYW9CWVdDbGRPWFNmc3ZNdFJMMktyakNWNkJBUV9qRDd5SQ?oc=5",
-    "published": "2026-09-11",
-    "summary": "纳斯达克100指数期货上涨0.7%。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "纽约原油期货价格突破100美元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdGc0UmFad1RCUEJPdkg5OWNfeTFUeHNwLWtxVjExTVF4c25fWEpaZVRQYndsVWxsT1VOcGlkRDBuZ1FMczMtbFNyZ1pSak9abUowWmtCVVB4bFlXdW1FVWU0bFRiaGpBWVN2MDgzMnNYd3BmV0tOY2tYdmhnajlZVmpLVQ?oc=5",
-    "published": "2026-09-11",
-    "summary": "纽约原油期货价格突破100美元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
