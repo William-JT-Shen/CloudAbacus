@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-29T00:21:36Z
-var NEWS_FETCHED_AT="2026-09-29T00:21:36Z";
+// 生成:2026-09-29T10:37:26Z
+var NEWS_FETCHED_AT="2026-09-29T10:37:26Z";
 var GPU_NEWS=[
+  {
+    "title": "从欧洲到大湾区：香港如何打造全球硬科技人才的\"超级通道\"",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3995406571933824?f=rss",
+    "published": "2026-09-29",
+    "summary": "九月上旬，Aleksandr Gorbunov 从德国远赴中国香港，参与大湾区考察之旅。访问行程第三天，他在前海与机械人互动，又搭乘无人驾驶出租车穿梭深圳街道，近距离体验大湾区前沿科技的落地应用。\n  三个月前，他还在德国慕尼黑的会场里，为一座从未到访的城市设计创科解决方案。九月，他已踏上行程，用五天时间走过香港、前海与南沙。\n  这是香港人才服务办公室（香港人才办）与欧洲科技联合会（EuroTech Federation）合办的国际创科马拉松的后半程。二十位包括大赛得奖者在内的访问团成员于九月来到香港及其他大湾区城市，展开了一场深度实地考察。\n  \n  一场以香港为命题的欧洲竞赛\n  这场国际创科赛事于2026年6月6至7日在德国慕尼黑举行，吸引逾1,200名来自超过25个国家、100余所高校的申请者，其中250名决赛者以团队形式展开逾30小时角逐，最终选出十六位优胜者。\n  赛题的设定紧扣现实：方案必须结合香港的实际需求、市场环境与监管条件，于金融科技、医疗科技、智慧城市，以及人工智能和机器人这四个赛道提出创科方案，这促使参赛者主动研究这座城市。赛事期间，已有团队联络逾200位香港",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "期货热门专题浏览指南：2026 年一站式获取市场热点",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWFQ2YWxaVlVzVVZxTzNGSEhNdEZzemlpOGhtUV9QU1Zvcm5XS29QVUg1ZE5jdUx3S2xaQVpoeUVXLXJLMF9JcWZOZkMxaGRuS2tHc0RvdFJGZHUyWUZWdU96N0hZT2dEQkc1UmJFcjdhM05IcFdZNlQ4VDlyY0czNjBFeVJGNUU?oc=5",
     "published": "2026-09-14",
     "summary": "2026年证券期货业质量月·一图读懂《证券交易数据交换协议》&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "南华期货股份斥资182.88万港元回购27.35万股",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUUNMWVhtUmZUUXFFcWFZN2N3VWZQcEhDUVpLRkFHU2dJd1E3UnczaWo1eW9uTllYTzhVTjU5ajdaRzFTTS12M0M2Rk1kXzlNZlFtekY4d0RJSVNwc2hWREpvcXF6VnA2c1dzWWp0YUM2b0pBd1hCbmw0a09tQW1jVDdHVTk1T3lG?oc=5",
-    "published": "2026-09-14",
-    "summary": "南华期货股份斥资182.88万港元回购27.35万股&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
