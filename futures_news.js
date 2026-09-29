@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-09-29T10:37:26Z
-var NEWS_FETCHED_AT="2026-09-29T10:37:26Z";
+// 生成:2026-09-29T18:02:21Z
+var NEWS_FETCHED_AT="2026-09-29T18:02:21Z";
 var GPU_NEWS=[
   {
     "title": "从欧洲到大湾区：香港如何打造全球硬科技人才的\"超级通道\"",
@@ -56,6 +56,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaU1qOXg1TlFFRlp5bVhsSWt1NV9aYUJ0WTBiR3pMUjZJc1ZKZGx1WkRqd0hrTHpXNmNuWnluZ1h6NGJVb19jRWlfT0VZa3lSaFBqbG5DVGo4S1FaRmg4M01TWmdtc2pia19FSkRSYkpHRGZjdFpKR3BGU2NkODF6Q1JIRlJkLXlHalpvRXR3?oc=5",
     "published": "2026-09-28",
     "summary": "广金期货重点品种资金流向与基差日报 20260924&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "标普500股指期货下跌0.1%，纳斯达克股指期货下跌0.1%。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSlVFN1ZFZ1BNZGY3aDRpaV9vRlB1UVEtQ2VuZmVHSWtxMWtYeTVCZTN1eWcxYklHSXVCcGVhbHd1bWx3RUZBRHk1d1loTnVsb2dfbzhnNEZaM04wLW5HT3lnVDJKaEljS3JMa0xPei1URldQZUpYTmdkSUw3V0djdWdwYw?oc=5",
+    "published": "2026-09-27",
+    "summary": "标普500股指期货下跌0.1%，纳斯达克股指期货下跌0.1%。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PbUxPLWRhU19wOWFLaE5Wa0JuZ2t1OFpIdF8xSEoxeXBLNlpXLW1TUHhCV0JrZGhpU2NNNjNTZmlTbnFRNjJPaVlUdkZYRHExaFN0cHd5cDVVR1I1d2o0cWowVFFTUTAtd3dkOUxpc1htMW0xVmw1QQ?oc=5",
     "published": "2026-09-14",
     "summary": "期货收评：内外盘剧烈分化！sc原油暴涨近12%，玻璃纯碱大跌&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "2026年证券期货业质量月·一图读懂《证券交易数据交换协议》",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWFQ2YWxaVlVzVVZxTzNGSEhNdEZzemlpOGhtUV9QU1Zvcm5XS29QVUg1ZE5jdUx3S2xaQVpoeUVXLXJLMF9JcWZOZkMxaGRuS2tHc0RvdFJGZHUyWUZWdU96N0hZT2dEQkc1UmJFcjdhM05IcFdZNlQ4VDlyY0czNjBFeVJGNUU?oc=5",
-    "published": "2026-09-14",
-    "summary": "2026年证券期货业质量月·一图读懂《证券交易数据交换协议》&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
