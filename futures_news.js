@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-09-29T23:38:24Z
-var NEWS_FETCHED_AT="2026-09-29T23:38:24Z";
+// 生成:2026-09-30T05:17:45Z
+var NEWS_FETCHED_AT="2026-09-30T05:17:45Z";
 var GPU_NEWS=[
+  {
+    "title": "韩国重申回购警示 韩国国债期货上涨",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWGdSQ2pQMXRPMERuSVdqMHZEanp6Qy1aaVNDQWRJTWdEZVgtYmhVLVh4WUhkZ084TUlvT2d1VVBnQXc1TWRfb2g1bjdqc1kxaE5VWjBfVWdDYU5FUmtBRmRDNWtsUFNZNGR5MEhTcEQ3X1dHdEFzdkh5NVVRNW1Nekl4bUZCSTE5cHg1b3RydS1TdjVJREZJbW9OWXI?oc=5",
+    "published": "2026-09-30",
+    "summary": "韩国重申回购警示 韩国国债期货上涨&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "从欧洲到大湾区：香港如何打造全球硬科技人才的\"超级通道\"",
     "source": "36氪",
@@ -56,6 +68,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaU1qOXg1TlFFRlp5bVhsSWt1NV9aYUJ0WTBiR3pMUjZJc1ZKZGx1WkRqd0hrTHpXNmNuWnluZ1h6NGJVb19jRWlfT0VZa3lSaFBqbG5DVGo4S1FaRmg4M01TWmdtc2pia19FSkRSYkpHRGZjdFpKR3BGU2NkODF6Q1JIRlJkLXlHalpvRXR3?oc=5",
     "published": "2026-09-28",
     "summary": "广金期货重点品种资金流向与基差日报 20260924&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国30年期国债期货下跌5个基点，布伦特原油价格上涨1.4%。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUEJHVkp4bGNSRnBPS0tjejgwRGdrTXQyU2tTbE85UTN6a012QmM5VGJnSDRJdzhXOGNpWXkxLWVIOXByZ3dnZjVFRlJsb3R1M2s0WHNjcVBLQU1ibm9sei03SmNMQ0hMVGdkZE9kOW9XallyYTQ1MkxRQU55V24yWWNfaw?oc=5",
+    "published": "2026-09-27",
+    "summary": "美国30年期国债期货下跌5个基点，布伦特原油价格上涨1.4%。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MOFBDNTNRQ3dMYVRaRHNJdHpmTVRDaGFJNW9ncjVTck1BY3d1SHJOOERzd2pyd3F0Y01yTTBVRkVYaHNCQzRnUEJzdmx2dzNjVkZ0T3hvNDYtOEprekYzbmpGZGZHb0c1OVRzcWtteEFHRGRuU1E?oc=5",
     "published": "2026-09-14",
     "summary": "历史首次突破900元/桶！国内原油期货大涨&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国内商品期货多数收跌 原油大涨超11%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83S0JrRmJsV003Y25mU3J1N3pGOHI3b1ZOazY1UU5WYTRsN1RPSlVMeW94aEMxZklZWWpsWmEwRE1vaVFGSWZuWGdKNE5mZGZNaWFKa1l3TEwwcjZ4eGJZa1ZlcXpyNS1HZ3RYVGpZcDFBX0N0MHFUMA?oc=5",
-    "published": "2026-09-14",
-    "summary": "国内商品期货多数收跌 原油大涨超11%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货收评：内外盘剧烈分化！sc原油暴涨近12%，玻璃纯碱大跌",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PbUxPLWRhU19wOWFLaE5Wa0JuZ2t1OFpIdF8xSEoxeXBLNlpXLW1TUHhCV0JrZGhpU2NNNjNTZmlTbnFRNjJPaVlUdkZYRHExaFN0cHd5cDVVR1I1d2o0cWowVFFTUTAtd3dkOUxpc1htMW0xVmw1QQ?oc=5",
-    "published": "2026-09-14",
-    "summary": "期货收评：内外盘剧烈分化！sc原油暴涨近12%，玻璃纯碱大跌&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
