@@ -24873,15 +24873,11 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 4.34
-          },
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.5
+            "price_usd": 2.63
           },
           {
             "platform": "DataCrunch",
-            "price_usd": 4.68
+            "price_usd": 4.73
           },
           {
             "platform": "JarvisLabs",
@@ -24895,11 +24891,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 1.47
-          },
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.16
+            "price_usd": 1.73
           },
           {
             "platform": "TensorDock",
@@ -24907,7 +24899,7 @@
           },
           {
             "platform": "DataCrunch",
-            "price_usd": 3.59
+            "price_usd": 3.63
           },
           {
             "platform": "Paperspace",
@@ -24924,10 +24916,6 @@
             "price_usd": 0.79
           },
           {
-            "platform": "CoreWeave",
-            "price_usd": 2.25
-          },
-          {
             "platform": "DataCrunch",
             "price_usd": 1.54
           }
@@ -24939,7 +24927,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.29
+            "price_usd": 0.28
           },
           {
             "platform": "DataCrunch",
@@ -24953,7 +24941,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.2
+            "price_usd": 0.33
           },
           {
             "platform": "TensorDock",
@@ -24967,7 +24955,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.12
+            "price_usd": 0.11
           }
         ],
         "NVIDIA L4": [
@@ -24987,13 +24975,13 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.4
+            "price_usd": 0.28
           }
         ],
         "RTX 5090": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.4
+            "price_usd": 0.33
           }
         ],
         "RTX 5060 Ti": [
@@ -25017,7 +25005,7 @@
         "RTX 5070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.14
           }
         ],
         "RTX 5060": [
@@ -25026,16 +25014,22 @@
             "price_usd": 0.08
           }
         ],
+        "NVIDIA RTX 4080 / 4080 Super": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.21
+          }
+        ],
         "NVIDIA RTX 4060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.09
           }
         ],
-        "NVIDIA RTX 4080 / 4080 Super": [
+        "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.21
+            "price_usd": 0.12
           }
         ],
         "RTX 4060": [
@@ -25044,16 +25038,10 @@
             "price_usd": 0.07
           }
         ],
-        "NVIDIA RTX 4070 Ti / 4070": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.16
-          }
-        ],
         "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.04
+            "price_usd": 0.03
           }
         ],
         "NVIDIA RTX 3080 / 3080 Ti": [
@@ -25071,7 +25059,7 @@
         "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.07
           }
         ],
         "RTX 6000": [
@@ -25093,13 +25081,7 @@
         "RTX 2060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
-          }
-        ],
-        "RTX 2070": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.05
           }
         ],
         "RTX 5000": [
@@ -25111,7 +25093,7 @@
         "NVIDIA T4": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.15
           }
         ],
         "NVIDIA Tesla P100 / P40": [
@@ -25123,13 +25105,7 @@
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.4
-          }
-        ],
-        "NVIDIA GH200": [
-          {
-            "platform": "CoreWeave",
-            "price_usd": 6.5
+            "price_usd": 0.28
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
@@ -25145,7 +25121,7 @@
         "NVIDIA V100": [
           {
             "platform": "DataCrunch",
-            "price_usd": 1.98
+            "price_usd": 2.0
           },
           {
             "platform": "Paperspace",
