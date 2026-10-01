@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-01T15:24:16Z
-var NEWS_FETCHED_AT="2026-10-01T15:24:16Z";
+// 生成:2026-10-01T21:00:32Z
+var NEWS_FETCHED_AT="2026-10-01T21:00:32Z";
 var GPU_NEWS=[
   {
     "title": "韩国重申回购警示 韩国国债期货上涨",
@@ -24,6 +24,30 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "做CTA策略选哪家期货公司服务好？探索东证期货量化服务体系",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYnYyeC1UNzBQb2lZTXRZR3R6NVNKeFhQVGw4aDgyNUdLUWsyU1JEYUtpdE9kYzhtbVMyN1U2eXYzclFKcVJRaGp6bEM0WmJ3cjJQbXVPMmlLMjhiRjBfV3JURWZlMlB6MlFKcTRqeDhJTmhRTExaNHljWnNXZWJRVEJ3aGgtczRm?oc=5",
+    "published": "2026-09-28",
+    "summary": "做CTA策略选哪家期货公司服务好？探索东证期货量化服务体系&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "钯金期货日内跌5%，现报1211.50美元/盎司。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWHZxbnBpcEc3SlNrZGFlT3VKMVN6ck91MHA2Und5YzFwWGFsUmQ5LTRtZzlwQWdwODZOQV8zWVZveko5LVBjRmpQcUVHUnpGVUpNQVNWZmloQ2ZfekN6Z2ExSnQ4akx3cXhXb1hqRmdWSnlaaUZ3dXAtbG5RbFJDX19rbw?oc=5",
+    "published": "2026-09-28",
+    "summary": "钯金期货日内跌5%，现报1211.50美元/盎司。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZmxLOUtNT2Z4RjdmZU1NVjVQT29IUnJNckVnRVFSV3RmOFNyZHl5M2lxRW03eGtDbmszY0xoQ25JdHljVEp3MUNvQWZfcU1IN0NiQS1XOWdrdmhVajVYc3lCcXBxajBRdVhRSzYydVY2RVMxemJrdm9sLW1YRGQ0RVFQaVFrMU95cGU1U3hpeTUwZW8?oc=5",
     "published": "2026-09-14",
     "summary": "美股期货盘前齐跌 纳指期货跌1.5% 油价升逾3%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国债期货收盘：30年期主力合约跌0.14% 10年期涨0.03%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdjgtbXRsbXpMaUJGb2JPM3NTUUNUci15RC1NTjd6ZmRrRnVwcWMxeWVfZHhCUDhqeDZsLWNLZmJKOTk4eHc4SGktNVVSb1p2a3BCQnNvcW5GUVVnS2Q2N2J1ZHc4QVlhaFFoU0lKZzMtOWlPODR1NVlEM2pSMTNXbDhVQjN3T3FFaGF6ckY2WnNHNXc?oc=5",
-    "published": "2026-09-14",
-    "summary": "国债期货收盘：30年期主力合约跌0.14% 10年期涨0.03%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "历史首次突破900元/桶！国内原油期货大涨",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MOFBDNTNRQ3dMYVRaRHNJdHpmTVRDaGFJNW9ncjVTck1BY3d1SHJOOERzd2pyd3F0Y01yTTBVRkVYaHNCQzRnUEJzdmx2dzNjVkZ0T3hvNDYtOEprekYzbmpGZGZHb0c1OVRzcWtteEFHRGRuU1E?oc=5",
-    "published": "2026-09-14",
-    "summary": "历史首次突破900元/桶！国内原油期货大涨&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
