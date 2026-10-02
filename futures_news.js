@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-10-02T14:42:26Z
-var NEWS_FETCHED_AT="2026-10-02T14:42:26Z";
+// 生成:2026-10-02T20:38:33Z
+var NEWS_FETCHED_AT="2026-10-02T20:38:33Z";
 var GPU_NEWS=[
+  {
+    "title": "芝商所（CME Group）暂停推出全天候 10 桶原油期货合约的计划。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82cGVNNVNRcnh4M3FhbWlVLTFKYU9LdkxMRlVLVUhheDdyNEotOW13empyVlpUcXJkMDFHcVIzNndoeHJjbFN0aEl2SFRtYUJPMnV5SWYwSndpZ0pFb21lbkZMTnkzR09RMDlpcnBVYWwxdmJ3UjRiOQ?oc=5",
+    "published": "2026-10-02",
+    "summary": "芝商所（CME Group）暂停推出全天候 10 桶原油期货合约的计划。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "芝商所：若不开展进一步尽职调查就推出能源全天候交易，可能会带来额外风险，对此存在担忧。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FbkYzdExZMk1jTU1NZjdTV20xd0pmMFE3aWpiUzNnSTBxam5SOXlJZVRUNE5CQ3lGNnFrY0cxTmw5aUpaUURseG16bjV3U0R4SGt0STJ4dW91cHJfTzE4UVBxZXBjVmdaeUdseVZQckhjSTZ2SHdpOQ?oc=5",
+    "published": "2026-10-02",
+    "summary": "芝商所：若不开展进一步尽职调查就推出能源全天候交易，可能会带来额外风险，对此存在担忧。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "芝商所谈及暂停推出全天候10 桶原油期货合约计划一事：希望美国商品期货交易委员会解决“不公平现象”，重建公平竞争环境。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zRTN1SU1SMWZQQm5CS1o4N2xzdmVfRGVMOEd0YnotSWwwM2wwNjZfZlRyaTkyeWF0OUVVOWE2alV0czNpalFfUi1TUUNDdEYxVGNmcUxHRk56ay1MRjNkX0ktY1pPU0tGcFJ1NTlnTE1VU2Y0TTNvSw?oc=5",
+    "published": "2026-10-02",
+    "summary": "芝商所谈及暂停推出全天候10 桶原油期货合约计划一事：希望美国商品期货交易委员会解决“不公平现象”，重建公平竞争环境。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "韩国重申回购警示 韩国国债期货上涨",
     "source": "新浪财经",
@@ -560,42 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWRWtVQXkwVXF3UnRGUlM3Y29rTTBlRm9HVmlxYXdaYXk4aXpZZXR2eUFBUUxWclVDeDc3MDk3ZlBKbWVOZzdYaGhtVHI3ZjZvWFNid3JmNjF1LTVoQU1EYUk4RUF4NWo5WWF0elZtRlVHUlZQMFRlUw?oc=5",
     "published": "2026-09-15",
     "summary": "WTI原油期货向上触及106美元/桶 创5月初以来新高&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "算力、机器人、仿真与资本，谁在定义物理AI下一个十年？｜第十届全球ICT峰会回顾",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3984444810312705?f=rss",
-    "published": "2026-09-15",
-    "summary": "当人工智能从“看、听、说、想”走向“动、做、干”，如何让AI走进真实世界、创造产业价值，成为科技与产业共同面对的命题。\n  2026年9月12日，第十届全球ICT产业峰会在杭州国际博览中心圆满举办。本届峰会以“AI向实而生”为主题，进一步将目光投向真实场景：如何让AI用得上、跑得稳，并持续创造价值？\n  据悉，峰会由熙香科技主冠名，远桥资产、天数智芯、五一视界、杰克科技、英洛华、仙工智能六家机构联合主办，中欧国际工商学院支持，中欧校友会浙江分会承办，招商银行杭州分行协办。\n  “过去十年AI在数字世界实现看、听、说、想，接下来十年要解决动作和执行的问题。”峰会发起人、远桥资产董事长周晓乐在开场中表示，物理AI不是单纯大模型，而是算力、感知、控制、场景、数据、生态的综合落地。\n  以下是6位峰会嘉宾围绕AI的技术突破、场景落地与投资机遇，分享的核心洞察与前沿判断。\n  \n  第十届全球ICT产业峰会现场\n  AI演化、类脑机制与自主智能\n  分享嘉宾：欧洲科学院院士、西湖大学人工智能系主任金耀初\n  金耀初院士长期深耕演化优化、群体智能与演化发育人工智能，探索“演化—发育—学习”的融合机",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "关于对金石期货有限公司采取监管谈话措施的决定",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUEUzOF9LZlFaMkd0NVZ1dnBnb19USjRvOFRobzl3V0R3QV9Ca2EwQXU4QkhTVm55cHpVWEs3cXo3XzBxSHR4VzlCTzNUemRGY21xS3M3bEZ3M1F4SXZpRDVoN25MeC04VDFkREpfZ1hoa214Mi16eFdMTHpoTjd5MA?oc=5",
-    "published": "2026-09-14",
-    "summary": "关于对金石期货有限公司采取监管谈话措施的决定&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股期货盘前齐跌 纳指期货跌1.5% 油价升逾3%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZmxLOUtNT2Z4RjdmZU1NVjVQT29IUnJNckVnRVFSV3RmOFNyZHl5M2lxRW03eGtDbmszY0xoQ25JdHljVEp3MUNvQWZfcU1IN0NiQS1XOWdrdmhVajVYc3lCcXBxajBRdVhRSzYydVY2RVMxemJrdm9sLW1YRGQ0RVFQaVFrMU95cGU1U3hpeTUwZW8?oc=5",
-    "published": "2026-09-14",
-    "summary": "美股期货盘前齐跌 纳指期货跌1.5% 油价升逾3%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
