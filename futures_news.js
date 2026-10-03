@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-10-02T20:38:33Z
-var NEWS_FETCHED_AT="2026-10-02T20:38:33Z";
+// 生成:2026-10-03T05:02:59Z
+var NEWS_FETCHED_AT="2026-10-03T05:02:59Z";
 var GPU_NEWS=[
+  {
+    "title": "芝商所撤回推出全天候10桶原油期货合约的申请",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTFpyc2ZVa3JzaWFkbW94Z2JJeVk3eWkxOXNjZW16VkxGZWtTbEpPTWpmejFRYWZ4Y0gwT1BVU1g1bWFvamJhaFZaemwxYW1YZU53RTR6ZmNnNnFCTlZxajhMbWZnNktpQlpyb3FnOXVvaDQ1Mk42LVlrRFowazN2NQ?oc=5",
+    "published": "2026-10-02",
+    "summary": "芝商所撤回推出全天候10桶原油期货合约的申请&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "55万亿元！上海提出建全球资管中心新目标：未来五年加速落地期权、期货等创新产品",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxPTkVDSVZ1MjNYeExYTWpFYVFRWkdrRmFTUzdoUEplWW1KTmN1ZVNnbk1la0kzRnRMMFJWR3F5TTMtWGdIWk1rSTlJLTVLSmlna2xuWS11NGxIRnlpZWt1cVYzMzFsaUhOdXA1ZVJLLWFmajRuMzdLSV9OdXVtOExnSzlsN0RxSnJQZHlBSzNXSXFMUmx5cjlmb3FZajhqY1Iyc0Q1WXFVT3FWZlZNTF9vUFVyRDdRN0VHOU5YRk1zMWsyR2ZGMmxkU0lPbmJvcnREYzkzMnl0UDF6Nm1ic2IxR0xJUko1SmhsbUQyRFVjOTNZWnp1dnpvd1dKVGwwSEIxMjRmZmtHOG1CaldCUW5jOWpTUFR2VzdzSGxZT2tpRDQ1N2lVTWlNSTc0WTJaN3dBR0pNTDNxbGllNmQ4VXlUQzFxYnVOb2k0dHpSOFoxeUdEclZLZnFkMkQxaGtITmVfLWtaSzU2WkNtbUJMNV80UkxDS0VGOTdZQ0FBSnRMZTVUYXNoMTdlRldfdVQwbE9IQnlRak5haXFkUXZ5dzR5c3ZRbDhSVE5QZi1IXzVQdFhpYU93UkhYanY5MURkbnBnQXBkUlZ1VkplcmpFUm5iR2ctbFcweWlGYWdHTXFNYmJmZGswcHVuLV81NktSSkZCanExQTl4c0p5ampLYl9RdUFSaFkyaExxX0N2dnppcGJwcmVsa0t1VXhUbkV1VzduQ0lnZUxQRmpzaXllOWtSMlVvcHppaEh2YWVORG9qS1VUNFpUT2FlQ2ZkSDlab1lfaVNMVkg3NWNlelkzc09CS2FFRmR5R3RoazluZXBB?oc=5",
+    "published": "2026-10-02",
+    "summary": "55万亿元！上海提出建全球资管中心新目标：未来五年加速落地期权、期货等创新产品&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "芝商所（CME Group）暂停推出全天候 10 桶原油期货合约的计划。",
     "source": "新浪财经",
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSEY1UWNibUk4TUR1NEtNUl8yd3hGWVI4LVlWRnJDbTBZX1hXSGhLRDZRT2xuREpjZ25USFhFSzNFRmNRbU1QcUF2SzIwcXdEUlNYUEN4U0hUamJGTk5Zblc3bVVFbWNlMmQ0LTMzV1ZOSVJiSFJmRXZVWHNvRXBBai1mSFNkTnc?oc=5",
     "published": "2026-09-15",
     "summary": "证监会修订发布期货公司监督管理办法&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "建信期货-每日观点2026/09/15",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWG5LcElyTXdhejVWVFFNd2FuaFlURENEX3BxS1ozdUFvdGxZNENQY0MyOE1YQklwYmFxWm0yZ3lYY3ZtTXpITW14NkFreHRXUjU1d1VRaklXMnVUUjFwdFVuZDF1dEZaOFhpa0lnUHRoV0hhMEZqal8tVGpBRXlrMmZiSmhZTWxET0w1MmVR?oc=5",
-    "published": "2026-09-15",
-    "summary": "建信期货-每日观点2026/09/15&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "WTI原油期货向上触及106美元/桶 创5月初以来新高",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWRWtVQXkwVXF3UnRGUlM3Y29rTTBlRm9HVmlxYXdaYXk4aXpZZXR2eUFBUUxWclVDeDc3MDk3ZlBKbWVOZzdYaGhtVHI3ZjZvWFNid3JmNjF1LTVoQU1EYUk4RUF4NWo5WWF0elZtRlVHUlZQMFRlUw?oc=5",
-    "published": "2026-09-15",
-    "summary": "WTI原油期货向上触及106美元/桶 创5月初以来新高&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
