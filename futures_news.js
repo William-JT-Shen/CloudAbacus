@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-03T13:18:16Z
-var NEWS_FETCHED_AT="2026-10-03T13:18:16Z";
+// 生成:2026-10-03T19:11:57Z
+var NEWS_FETCHED_AT="2026-10-03T19:11:57Z";
 var GPU_NEWS=[
+  {
+    "title": "芝加哥期权交易所拟推出“恐慌指数”VIX永续期货",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOVMzcmR6bG9iQzZjaHJBYWg2UTJqbC1VNTB4aFBtb0UzWDV3ak1qMDlSWUpEWlJ0dlVLeTh1Zk9TdVJrUUgySWJlVTBUM01WTkpOT0t3TGFJQ1Y0X0xUVHpIdmVfa1pMV0lxU2V2dnBzRS1lemZzNlNwVUtYejFtbUJ5cEREaHBIWUYyQmEyWk84cG9iSTlvZFRuYkpRa1ZfUFpfcGNvODhiNjMzZVpuOHFmWk9HaHBZQnc2cm8wVlJJX0Q1Yy1aZVZSUDBFYnMx?oc=5",
+    "published": "2026-10-02",
+    "summary": "芝加哥期权交易所拟推出“恐慌指数”VIX永续期货&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "芝商所撤回推出全天候10桶原油期货合约的申请",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sT1RGV2Vva1g1WGhROGUxT0tPZmNjRTNIVWtuOFNxTy0yUjBfMkNsWnFFV1FfX2dUUmN3a2tTWHo5czJUcFR6cXBfcE5GR0FGaE1rNHNyaDlsV0FBbHFacWRtZDRlN3hIV2sxOXpNcEJkZmhBakFTNw?oc=5",
     "published": "2026-09-15",
     "summary": "2026年证券期货业质量月·一图读懂《证券期货业信息系统密码技术应用指引》&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "证监会修订发布期货公司监督管理办法",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSEY1UWNibUk4TUR1NEtNUl8yd3hGWVI4LVlWRnJDbTBZX1hXSGhLRDZRT2xuREpjZ25USFhFSzNFRmNRbU1QcUF2SzIwcXdEUlNYUEN4U0hUamJGTk5Zblc3bVVFbWNlMmQ0LTMzV1ZOSVJiSFJmRXZVWHNvRXBBai1mSFNkTnc?oc=5",
-    "published": "2026-09-15",
-    "summary": "证监会修订发布期货公司监督管理办法&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
