@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-10-05T05:19:21Z
-var NEWS_FETCHED_AT="2026-10-05T05:19:21Z";
+// 生成:2026-10-05T17:05:43Z
+var NEWS_FETCHED_AT="2026-10-05T17:05:43Z";
 var GPU_NEWS=[
+  {
+    "title": "盘前：纳指期货跌0.1% 交易员紧盯美债收益率与油价",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcC1sM3Y1ZGtrVGtxbTVNdHlKREZmQzhrN09EM013OFJnOTg3RU9YNEZLLUZOZXBtM3lmdXNhV05UYVhBRzFBc196YUNaME53eFZINl9RNm5fZzhNckI0ZGtMYjhrZTRhaXlMamtNN0dLTXhhcUxqS255SXB2ZFI1NWRWRlE1SGthWTNieHBiS2RZVXNXM2JMOEpMTEp3Mmw3c2Q5eUxmNkdhWDJqajEtcXZ4RGRRVHIwMTRoY19rX2lsMFNTREFYTG5ZNHNGYlFRWEdmaTdTaVQyWU5ldGc?oc=5",
+    "published": "2026-10-05",
+    "summary": "盘前：纳指期货跌0.1% 交易员紧盯美债收益率与油价&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美股盘前丨道指期货涨0.1% 高通美股盘前涨逾1%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VM3VlVzRvOEx2WDNmdlhBYUUxNWFvRDZPdi1meW0wWUN4SUhjc2NIWjlXNDMwLURHTEg1Mm5DR1FCY0xOSFNSRktNd0hXNGZ4TTRyMGtXSFdMX0NPdUxMTFkxWFRFQm5tMHp3S3ZjSnBrSzhNZ0M5aA?oc=5",
+    "published": "2026-10-05",
+    "summary": "美股盘前丨道指期货涨0.1% 高通美股盘前涨逾1%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "芝加哥期权交易所拟推出“恐慌指数”VIX永续期货",
     "source": "新浪财经",
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaXVOR3JuMW9qTHFLVThDNHpWRVlMdGtVZ20zU29jbXJBWUprYkk4UGpZa1hwY1NHUGM4YlNrY1gwSS0wcmlkUWxVaDJWWVdIckF2a2lYaUNXcEU0YjlBUkZMek1lNS16SWI1V05xamJlcDlsQ0VEWlRtcFkzWHo0SFh2bGpiZXdjR1I2NEgwTkx0ZTA?oc=5",
     "published": "2026-09-16",
     "summary": "芝加哥期货交易所谷物与大豆期货上涨 豆粕涨2.58%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月16日）",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzY3d014SUstUjA0emNleFNBMkpYbVI0VEptVUdLY3BKb0xSdDR3VHdFbVVDMGRGXzlKNEdQZ2hDYkdfNEREenRobmF2WVVibWh4am9oWUtQdDZUZXVlUjVrTTVDdTZwX0V4cU5tR1FEanVFV1hTckVVMUpYTXZDdmM1NGNYeFpiVFkyeA?oc=5",
-    "published": "2026-09-16",
-    "summary": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月16日）&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "2026年证券期货业质量月·一图读懂《证券期货业信息系统密码技术应用指引》",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sT1RGV2Vva1g1WGhROGUxT0tPZmNjRTNIVWtuOFNxTy0yUjBfMkNsWnFFV1FfX2dUUmN3a2tTWHo5czJUcFR6cXBfcE5GR0FGaE1rNHNyaDlsV0FBbHFacWRtZDRlN3hIV2sxOXpNcEJkZmhBakFTNw?oc=5",
-    "published": "2026-09-15",
-    "summary": "2026年证券期货业质量月·一图读懂《证券期货业信息系统密码技术应用指引》&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
