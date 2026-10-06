@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-10-06T18:17:43Z
-var NEWS_FETCHED_AT="2026-10-06T18:17:43Z";
+// 生成:2026-10-06T23:45:56Z
+var NEWS_FETCHED_AT="2026-10-06T23:45:56Z";
 var GPU_NEWS=[
+  {
+    "title": "美股盘前丨三大股指期货齐涨 Constellation Energy盘前涨超10%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04SENabklubUlCaDMzbnFmeDlXakhaei1YNGRKUXhMR3daTWNSbmpRLTFUNFh3WXMtTEVkVTNkTm5TV2hsakd2VUxnbFE0RWtBeVN6cE8zTUNWcWVyVm9LeEdKM3ZVM1B2SjZpWHlQRXpLUHZRTHg5Zw?oc=5",
+    "published": "2026-10-06",
+    "summary": "美股盘前丨三大股指期货齐涨 Constellation Energy盘前涨超10%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美股盘前要点丨美国股指期货、欧股集体上涨，OpenAI在其智能体擅访澳数据后采取新防范措施",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOODlKQlFyMk1RYXlGUllSWW5vTWY2V3hJUkVEOW1fOW9GbHkzdUp2LUxhVjE2U0NOVmMwcEtOQXRCU1hweHR0c05td2FlbzE1cGpqMk04UmFkLUJZUFpaRE1QQlMtVzgwQXNxWGdvX1BJd0JLV2R3R1d6UzlrNVZyUg?oc=5",
+    "published": "2026-10-06",
+    "summary": "美股盘前要点丨美国股指期货、欧股集体上涨，OpenAI在其智能体擅访澳数据后采取新防范措施&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "期货缩 14 亿，现货转正：BTC 多空博弈",
     "source": "新浪财经",
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRExzMjdXb1EzX3FJQ0g1eG9QaUNvakhxRDVta0MwMk1XOXo4ZHNncG5GWnQzSjVyYkQ2UlV5WUlxWjAzNlVpV1NZT2hoTDFrTGhZZFpkTzREcTVxME8xREd6YnNqZlJIeWVuNlpyNUx6SXRZVzJhV29SSUo3TGt6aw?oc=5",
     "published": "2026-09-18",
     "summary": "关于对海证期货有限公司采取责令改正措施、对祝炜采取出具警示函措施的决定&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "2026年证券期货业“质量月”｜以标准之力，启高质量发展新程",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ0xpc3pCdE1VcjZSYS1PLUt2QnlvT2JzVThPSUF1MkJZSWNFUnBWZzBfUkJzOVF6LTh1WGhzVHoxRGQyXzlYb0o1NVF0SVhhcTA4R1l6UDh4dTNPczB2T3BkSkhDdUVvNEZCNlg3YlcxdmY3b2ZjZEVPXzF4UjBpWmJRaWk5eGM?oc=5",
-    "published": "2026-09-18",
-    "summary": "2026年证券期货业“质量月”｜以标准之力，启高质量发展新程&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "广期所调整碳酸锂期货相关合约交易指令每次最小开仓下单数量、交易手续费标准及交易限额",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWjZkdkwwNUw4aDlyVEZfUUI3eEtNczlUMlJOUjYzcWthc2xyeE1jSUhJY2JRNEp5Z2FpbUJBS1E2TDV4MG5NN1czRHplT2FmbUNxbjRFV0dXbDUxcTVOX1JXaWZKODl0RXBzUXB2eFc5RkNidDk5YmRzb3NZTXYxNjAxRktBZGxQQWp3SUhpclMxZmN1blJRVUxXbUVPZ0VJNDcxblB5WFFyMklDTUxVWWhDUkM4eHphOUtIR3gtZk40TkdzLThacWMzLUhrNE04QnBuS2RtVkxBV0U?oc=5",
-    "published": "2026-09-18",
-    "summary": "广期所调整碳酸锂期货相关合约交易指令每次最小开仓下单数量、交易手续费标准及交易限额&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
