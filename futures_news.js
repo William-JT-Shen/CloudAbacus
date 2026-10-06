@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-06T01:17:59Z
-var NEWS_FETCHED_AT="2026-10-06T01:17:59Z";
+// 生成:2026-10-06T11:12:48Z
+var NEWS_FETCHED_AT="2026-10-06T11:12:48Z";
 var GPU_NEWS=[
+  {
+    "title": "原糖期货创近两年新高 全球供应趋紧担忧升温",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbzFQYXkyazBIR1oxRkVrZWhlVThONFdIWXhYMjFrakpGTkpwTzRuVnhnUFdWemlYY1dWZlVEbXp0Tk9zd1Fxam43VG9GVmtXX3pOM1p1VHRjRzJxRThfVngyR0NrbTF4T1lMZTRJQ0pyem5tbkZZaEpBUG9wYzlXZmdibTJTUmM?oc=5",
+    "published": "2026-10-05",
+    "summary": "原糖期货创近两年新高 全球供应趋紧担忧升温&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美债新的风险隐匿在国债期货合约细则中 “CTD切换”或加剧抛售",
     "source": "新浪财经",
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "8点1氪丨宇树科技市值重回2000亿；影视飓风Tim测评iPhone Duo称烫到握不住；罗永浩否认为钟薛高造势",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3988151372036873?f=rss",
-    "published": "2026-09-18",
-    "summary": "今日热点导览\n  \n   HYROX中国：对相关运动员全额退费\n   Kimi发布金融行业AI解决方案\n   美联储主席回应加息：美国通胀长时间过高\n   苹果、三星、谷歌，同日被查\n   商务部：中美经贸团队正就降税等议题保持密切交流\n  \n  TOP 3 大新闻\n  人形机器人概念震荡拉升，宇树科技市值重回2000亿\n  9月17日，人形机器人概念震荡拉升，冠盛股份、北特科技、天海电子涨停，宇树科技盘中一度涨超7%，市值重回2000亿。消息面上，Counterpoint Research报告显示，2026年上半年全球人形机器人出货量突破2.2万台，同比增长近300%，前五名均为中国厂商。（界面新闻）\n  影视飓风Tim测评iPhone&nbsp;Duo：烫到握不住\n  近日，影视飓风测评了苹果首款折叠屏iPhone Duo。视频中Tim经过测评后表示，从数码博主角度来说很难说它值，并且在测评中评价称Phone Duo存在折叠、屏幕等一些问题。尤其是Duo apple care服务特别贵，对比其他苹果机型，他建议果粉入手苹果直板机。Tim在视频中表示Duo在日常情况下温度是可控的，但",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
