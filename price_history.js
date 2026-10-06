@@ -25105,7 +25105,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.63
+            "price_usd": 3.95
           },
           {
             "platform": "CoreWeave",
@@ -25113,7 +25113,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "DataCrunch",
-            "price_usd": 4.92
+            "price_usd": 4.97
           },
           {
             "platform": "JarvisLabs",
@@ -25139,7 +25139,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "DataCrunch",
-            "price_usd": 3.77
+            "price_usd": 3.81
           },
           {
             "platform": "Paperspace",
@@ -25171,7 +25171,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.4
+            "price_usd": 0.36
           },
           {
             "platform": "DataCrunch",
@@ -25185,7 +25185,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.16
+            "price_usd": 0.31
           },
           {
             "platform": "TensorDock",
@@ -25228,16 +25228,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.37
           }
         ],
-        "RTX 5080": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.19
-          }
-        ],
         "RTX 5060 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.1
+          }
+        ],
+        "RTX 5080": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.2
           }
         ],
         "RTX 5070 Ti": [
@@ -25261,7 +25261,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 4060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.09
+            "price_usd": 0.1
           }
         ],
         "NVIDIA RTX 4080 / 4080 Super": [
@@ -25279,7 +25279,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 4060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.07
           }
         ],
         "NVIDIA RTX 3080 / 3080 Ti": [
@@ -25291,7 +25291,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 3060 / 3060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.03
+            "price_usd": 0.04
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
@@ -25315,7 +25315,13 @@ var PRICE_HISTORY_DATA = {
         "RTX 2060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.09
+            "price_usd": 0.05
+          }
+        ],
+        "RTX 2070": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.06
           }
         ],
         "RTX 6000": [
@@ -25328,12 +25334,6 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 1.2
           }
         ],
-        "RTX 2070": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.07
-          }
-        ],
         "RTX 5000": [
           {
             "platform": "Vast.ai",
@@ -25343,19 +25343,13 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA T4": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.15
           }
         ],
         "NVIDIA Tesla P100 / P40": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.08
-          }
-        ],
-        "RTX 2080": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.12
           }
         ],
         "NVIDIA GH200": [
@@ -25367,7 +25361,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "DataCrunch",
-            "price_usd": 1.82
+            "price_usd": 1.83
           },
           {
             "platform": "JarvisLabs",
@@ -25377,7 +25371,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA V100": [
           {
             "platform": "DataCrunch",
-            "price_usd": 2.08
+            "price_usd": 2.11
           },
           {
             "platform": "Paperspace",

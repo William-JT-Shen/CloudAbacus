@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-10-06T11:12:48Z
-var NEWS_FETCHED_AT="2026-10-06T11:12:48Z";
+// 生成:2026-10-06T18:17:43Z
+var NEWS_FETCHED_AT="2026-10-06T18:17:43Z";
 var GPU_NEWS=[
+  {
+    "title": "期货缩 14 亿，现货转正：BTC 多空博弈",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUVtcllUMHdheEFRN3JYcUR2NG5pN2ZSbnJIX0xJRm1Xbmp3bGFIRzFhZ2JJQ1Q2anBqTFFweWN6Uk5tSjV0OU1fdGYyNTN6eFhBanNJaW9nMWdPUFRkOWtpQThDb3pWUThldkdXbFZjUjFHNHNvTm56Xzlfd2NJckM3OEFzWHdBcEp6a1V1YXhOTHJF?oc=5",
+    "published": "2026-10-06",
+    "summary": "期货缩 14 亿，现货转正：BTC 多空博弈&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "盘前：纳指期货涨0.62% 美债收益率回落",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXgwYVZRZEtnNVdEdVlmcURORm9uVFZUZVRoSWpzcldSeEF5TVF1SHBlVDNTT0h4Q1ZhYkNnODRNUFU2a0Vqd1didW9DN0otRUFPV0FyMjdSTi0tcFlaaU03OTJDUTc3NE14SUxUbjVrVXY2TDNhVm1vVFg0RnR6c2U4MGlDeVk?oc=5",
+    "published": "2026-10-06",
+    "summary": "盘前：纳指期货涨0.62% 美债收益率回落&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "原糖期货创近两年新高 全球供应趋紧担忧升温",
     "source": "新浪财经",
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWjZkdkwwNUw4aDlyVEZfUUI3eEtNczlUMlJOUjYzcWthc2xyeE1jSUhJY2JRNEp5Z2FpbUJBS1E2TDV4MG5NN1czRHplT2FmbUNxbjRFV0dXbDUxcTVOX1JXaWZKODl0RXBzUXB2eFc5RkNidDk5YmRzb3NZTXYxNjAxRktBZGxQQWp3SUhpclMxZmN1blJRVUxXbUVPZ0VJNDcxblB5WFFyMklDTUxVWWhDUkM4eHphOUtIR3gtZk40TkdzLThacWMzLUhrNE04QnBuS2RtVkxBV0U?oc=5",
     "published": "2026-09-18",
     "summary": "广期所调整碳酸锂期货相关合约交易指令每次最小开仓下单数量、交易手续费标准及交易限额&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "2026年证券期货业“质量月”｜一文读懂基金“质量月”背后的投资者获得感",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRnRpZHFQNEhsMDZKaWpwMjZpSks4X3pxZEtia1g4Y1QwVXlzV0pQNWcxTy10V2N4MXFVTEctU1hTMFVIQjAxQUhla284ejBSLUVXRDVSX2gzYTBNM2dRTDVscFQtOVgzaVZ6amdXVW9Rd29ZdlgtY2g3LWpXdkRKc01PVWZ6T1k?oc=5",
-    "published": "2026-09-18",
-    "summary": "2026年证券期货业“质量月”｜一文读懂基金“质量月”背后的投资者获得感&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国泰君安期货公司增资至75亿元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SdTdhS2kyVEI2WDdwdjU1X3JjdkkzTENaa0ZpckFIWDFQcWRFaU1KajFYOThKTm85cng4RF9rN05fM1ZhM2ljR3pFOGtSNUlvQmZKRV9SV2xUdHRlVVlmR0FKelQ4ZTFHUEpVSElKNzg3OUZrcDNQeg?oc=5",
-    "published": "2026-09-18",
-    "summary": "国泰君安期货公司增资至75亿元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
