@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-05T17:05:43Z
-var NEWS_FETCHED_AT="2026-10-05T17:05:43Z";
+// 生成:2026-10-06T01:17:59Z
+var NEWS_FETCHED_AT="2026-10-06T01:17:59Z";
 var GPU_NEWS=[
+  {
+    "title": "美债新的风险隐匿在国债期货合约细则中 “CTD切换”或加剧抛售",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWU5wYWFTb1pyWFppTnlidGJHWHFOWUlFS3FjUXRKdnVWdUV6d0dHSk8xWG9tOVIzOVRQbTBFcDVKYk5xUzFhUFdHdjU3NVoyWmlfTzJ1cjNRcjNSb0FxYUdWQ245WHdhNDE4RDJOUVpKRG9KM2xwTWJhbEFsR0xqZXZUNlRFYjQ?oc=5",
+    "published": "2026-10-05",
+    "summary": "美债新的风险隐匿在国债期货合约细则中 “CTD切换”或加剧抛售&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "盘前：纳指期货跌0.1% 交易员紧盯美债收益率与油价",
     "source": "新浪财经",
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "芝加哥期货交易所谷物与大豆期货上涨 豆粕涨2.58%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaXVOR3JuMW9qTHFLVThDNHpWRVlMdGtVZ20zU29jbXJBWUprYkk4UGpZa1hwY1NHUGM4YlNrY1gwSS0wcmlkUWxVaDJWWVdIckF2a2lYaUNXcEU0YjlBUkZMek1lNS16SWI1V05xamJlcDlsQ0VEWlRtcFkzWHo0SFh2bGpiZXdjR1I2NEgwTkx0ZTA?oc=5",
-    "published": "2026-09-16",
-    "summary": "芝加哥期货交易所谷物与大豆期货上涨 豆粕涨2.58%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
