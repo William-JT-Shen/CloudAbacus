@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-07T15:30:10Z
-var NEWS_FETCHED_AT="2026-10-07T15:30:10Z";
+// 生成:2026-10-07T21:20:40Z
+var NEWS_FETCHED_AT="2026-10-07T21:20:40Z";
 var GPU_NEWS=[
+  {
+    "title": "期货资讯丨周度财经日历（2026.10.8-2026.10.9）",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1hsb05BU0wxbGVBVkFUZjhwUG8wMUhZeGJwWk9oYWx2R2ZsakZ4Tk82SjZvR3duV1dMa1J1UTVBZ3JnMGdqT2tSamdZVzROSGFueGhsd1laOWVLTWZDNHJucTJBT3ZjYUpfMVhMbkQtQmd2eER3d1VvNk9nZmFTR3V0VzFNVE1UZW5ZTXJn?oc=5",
+    "published": "2026-10-07",
+    "summary": "期货资讯丨周度财经日历（2026.10.8-2026.10.9）&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "法国国债期货在六个月最大涨幅后下跌",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaGRYanVLY3Bzb3pPOV9LdUpwa05FNzRzaDNDLWg0WVVNNVZtSm0zdFZvZWtKNWE3NHh2ZFppVHZaaXhUdXRial9kU2VjdWRPN0ZGYS1HTWZ0YUZZTmUzWnZyWUF1RVBkWk9hdVhXRmZUUVlNNnpQUlMxa0JaRDBvOGpaLXFZUG8?oc=5",
     "published": "2026-09-20",
     "summary": "9月21日周末要闻：原油期货走高交易员关注中东供应风险与外交动向特朗普称胡塞武装同意不与美交战&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中国信通院云大所副所长何阳：我国初步具备开展算力期货研究条件",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yVVBua2JzS1o2YTFwRWhGN3pfZXEwY05iSHJGSFJoNEpMdHVKZXBqQ280dlhQbHZGUzRTY1lGOFNCaGNTcmdGcjlPMEM2OXBZX2Jid29jSVdIeVZIT0VjSEhvUVgwZmJPcUtvVWQyS29uYXkzSlR5Qg?oc=5",
-    "published": "2026-09-20",
-    "summary": "中国信通院云大所副所长何阳：我国初步具备开展算力期货研究条件&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
