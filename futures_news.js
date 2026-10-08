@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-07T21:20:40Z
-var NEWS_FETCHED_AT="2026-10-07T21:20:40Z";
+// 生成:2026-10-08T05:48:24Z
+var NEWS_FETCHED_AT="2026-10-08T05:48:24Z";
 var GPU_NEWS=[
+  {
+    "title": "哪个网站能查期货公司评级和排名",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSFBLOVo5N3JtbzVuRU95eDZ0b3NEX1NKVk9wR3BLTUk1N3JxUURZcF81RUdxNVRULUV3TkNjY0ZSRG5XUHl3NHZqZGRCZFdLZjFMTmpRMmx6bURoSGFqZ2Z0dWdOeFRMMUdrMUs4RWM3a2pORHVPWFU2ZlkyYmZBR1dMeWxmd1pIQzY4ZQ?oc=5",
+    "published": "2026-10-08",
+    "summary": "哪个网站能查期货公司评级和排名&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "期货资讯丨周度财经日历（2026.10.8-2026.10.9）",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX3I4X240YkhweldWc3piaDh5ckVLUUpjbHdEUHVkWVF6WGRmeGppR1kzQXcyNkltMWJ3T2NmWHVBQXZMVG5TaFE2N3dBZGFnb1VWZnRIUkk0dGE2T3BjRHNHNTBnX0JnRF9XVjdYdmMwY1A4N0lSNnJyVDdxNVFlS1BYZUhDYXVfcjRtTQ?oc=5",
     "published": "2026-09-22",
     "summary": "光大期货：9月22日金融日报&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "9月21日周末要闻：原油期货走高交易员关注中东供应风险与外交动向特朗普称胡塞武装同意不与美交战",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaGRYanVLY3Bzb3pPOV9LdUpwa05FNzRzaDNDLWg0WVVNNVZtSm0zdFZvZWtKNWE3NHh2ZFppVHZaaXhUdXRial9kU2VjdWRPN0ZGYS1HTWZ0YUZZTmUzWnZyWUF1RVBkWk9hdVhXRmZUUVlNNnpQUlMxa0JaRDBvOGpaLXFZUG8?oc=5",
-    "published": "2026-09-20",
-    "summary": "9月21日周末要闻：原油期货走高交易员关注中东供应风险与外交动向特朗普称胡塞武装同意不与美交战&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
