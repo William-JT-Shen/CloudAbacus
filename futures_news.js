@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-10-08T05:48:24Z
-var NEWS_FETCHED_AT="2026-10-08T05:48:24Z";
+// 生成:2026-10-08T15:31:34Z
+var NEWS_FETCHED_AT="2026-10-08T15:31:34Z";
 var GPU_NEWS=[
+  {
+    "title": "富时中国A50指数期货跌超1%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNPQ1FHWDZUQUJVZHc3b1ZWQlQwZ2JlNFpHRUtibVctUXFhMVJYRFVPUFdyc2FhVEp5WlU5SUtEMUsxU2ZwYThlUXZiQzI5QTRBdDk3MDEwNHk0WHZySFdmdnItNjN0OWlyTDV2LXQwNUlUT2pzd1Z6eGtLNzNQTg?oc=5",
+    "published": "2026-10-08",
+    "summary": "富时中国A50指数期货跌超1%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "永安期货跌2.07%，成交额4955.47万元，主力资金净流出178.62万元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcTZWRXdTamdJRUtxQWc1WGVZZDZSVVRxbW9waVROVzZYQ09EOTBFTjIyVVRTVXRjeXEzYmZRb0NfMGFYUGlhalhPWkpqcVJidDNBa1hkbjhpMmdlNDc3WU85b2VYVjJjNWtjQk9HNG1HSGtyQkFhTmkyWHpJejA3TnlZWlh2UzUtRnlvZQ?oc=5",
+    "published": "2026-10-08",
+    "summary": "永安期货跌2.07%，成交额4955.47万元，主力资金净流出178.62万元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中冶置业收购五矿地产有限100%股权",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4016996199075969?f=rss",
+    "published": "2026-10-08",
+    "summary": "10月8日，中冶置业集团有限公司公告，为落实中国五矿房地产板块专业化整合战略部署，实现地产业务的集中管理和专业化经营，公司实施两笔关联交易。\n  交易1为下属子公司中冶置业香港有限公司拟收购爱邦企业有限公司所持有的五矿地产有限公司100%股权，以经备案的评估值转让，采用现金交易方式完成，完成后公司将五矿地产有限纳入合并范围。\n  交易2为交易1完成后，五矿地产有限境内全资子公司五矿建设投资管理（北京）有限公司将所持五矿城市更新（北京）有限公司100%股权转让至公司股东五矿地产集团有限公司，以2026年6月30日为审计基准日，以经审计后的五矿城新归母净资产作为交易对价，采用现金交易方式完成。\n  本次交易为中国五矿体系内股权调整，各方同受中国五矿控制，将依规履行各项审批及变更程序。交易方式及交易价格确定方式符合国务院国资委关于企业国有资产交易流转以及中央企业国有产权协议转让等事项的有关规定，且已严格按照法律法规及公司章程履行内部决策程序。\n  交易各方方面，爱邦企业由五矿有色100%持股；中冶置业香港为中冶置业集团全资子公司，截至2026年6月末资产总额16亿元；五矿建设北京截至2026",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "哪个网站能查期货公司评级和排名",
     "source": "新浪财经",
@@ -80,6 +116,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXgwYVZRZEtnNVdEdVlmcURORm9uVFZUZVRoSWpzcldSeEF5TVF1SHBlVDNTT0h4Q1ZhYkNnODRNUFU2a0Vqd1didW9DN0otRUFPV0FyMjdSTi0tcFlaaU03OTJDUTc3NE14SUxUbjVrVXY2TDNhVm1vVFg0RnR6c2U4MGlDeVk?oc=5",
     "published": "2026-10-06",
     "summary": "盘前：纳指期货涨0.62% 美债收益率回落&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "南方东英黄金期货每日杠杆(2x)产品（7299）公布交易数据 每单位资产净值21.1352港元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa3QwbHlEYTJkZEdRM0k4UTVVWF9uNG16NjQxRlZXdm4zUzdDUXo0UzF2ZHM5a0trNnpfZk5pTnJrRHo5Qko4VTZoTC1zN005RDdTckY2R1lRaldBWGRYOWJ0LWVXOENVXzMyLTlqWVAxbFNselJzaXJ5UlVqU1oxNGJBWWVZc28?oc=5",
+    "published": "2026-10-05",
+    "summary": "南方东英黄金期货每日杠杆(2x)产品（7299）公布交易数据 每单位资产净值21.1352港元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -548,54 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQnZEc1BzbTk3eS1aMU9xVnZ3eF9BdnI2Zi1kMUl5dkw5QmdQVWJGdkQxMHRFeFdnUUJZRlNLclNsTTlLTm1iTjM1Z3A4WTlJSlBpUlBLdkRIams3WkpCZUl3b1J3cEpTNEZBNEF4WXlmd09sY2g3M2NleWdXOU96ZVY4OVB5bUU?oc=5",
     "published": "2026-09-22",
     "summary": "盘前：纳指期货跌0.02% 布油跌破100美元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "光大期货：9月22日矿钢煤焦日报",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTF90N2FhNldIMGlvWHJZb19lSi1fazE5Um1XZFd3ZVMxdldwdkY5cGhTTnY0RlJ1QzZRRWZLUU5wWFhKcWRLRHhTSF9CcWZRRFM0QTkzQTdkRWhlX25XSWMyODZhUFBLY2ZJeEl4MHVsYzZJbWlOaVRpWWdUSVE0NGdQZ0xKT2ZJWm0yb3MyaDhVTlQwZmIyMVY4WjRkaFpfb21sYnJQaUlfNGJ2RTFpWjVORFZVZXA2MzJvSmpOVGV5ZE9vMUc5R0hYYkV3S2dOSjRuNE8tbmZLc3NoV1Eza05yRQ?oc=5",
-    "published": "2026-09-22",
-    "summary": "光大期货：9月22日矿钢煤焦日报&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Kalshi向美国商品期货交易委员会申请，拟在平台推出保证金交易",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSFR4bHh3a2xaVVhDcTJYSko1dFIyQ1RuTzZNeDBDOUlmTHY1djYydldSaENyc256bHQyRWlQUmJ5cTQ0UFRYaDZCSlRkQ0lEZktqSm5Qek93OGVnMjhsdU9yenZUZjh1SWJ2Z2Vmdk80X28xTUlUYUZBNHVZSkJ0cWRSV3JydUVQNUxWdTNxZGxUbEpaSnAwS1gxS3Y?oc=5",
-    "published": "2026-09-22",
-    "summary": "Kalshi向美国商品期货交易委员会申请，拟在平台推出保证金交易&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中粮资本成员企业获评2026年期货公司分类评价A类AA级",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUkxlVjB2NUxvLTZDUlZraDlYR2lWSElYd0ZQLVpMMU8tU09jcUpqcHluVWZNMktvUU1UTS0zaDQxZTV3T3NXUVJqckhHQnllcTBKaklFZXFZY0RZWVBtSDNranlQOTAtOG9VYkJNTG1vZGx0dXhueFNlWjVURHFBVXpiOVhUd2V1Y0NZ?oc=5",
-    "published": "2026-09-22",
-    "summary": "中粮资本成员企业获评2026年期货公司分类评价A类AA级&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "光大期货：9月22日金融日报",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX3I4X240YkhweldWc3piaDh5ckVLUUpjbHdEUHVkWVF6WGRmeGppR1kzQXcyNkltMWJ3T2NmWHVBQXZMVG5TaFE2N3dBZGFnb1VWZnRIUkk0dGE2T3BjRHNHNTBnX0JnRF9XVjdYdmMwY1A4N0lSNnJyVDdxNVFlS1BYZUhDYXVfcjRtTQ?oc=5",
-    "published": "2026-09-22",
-    "summary": "光大期货：9月22日金融日报&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
