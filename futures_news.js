@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-10-08T21:17:04Z
-var NEWS_FETCHED_AT="2026-10-08T21:17:04Z";
+// 生成:2026-10-09T05:51:26Z
+var NEWS_FETCHED_AT="2026-10-09T05:51:26Z";
 var GPU_NEWS=[
+  {
+    "title": "8点1氪丨国际金价回调，金饰克价已暴跌约150元；A股千元股仅剩3只；711印度门店全部关闭",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4017873472884616?f=rss",
+    "published": "2026-10-09",
+    "summary": "今日热点导览\n  \n   粤万年青：澄清董事长欧先涛未涉航班冲突传闻，已报案处理\n   711印度门店全部关闭\n   2026年诺贝尔文学奖揭晓\n   腾讯据悉考虑发行至多50亿美元离岸债券\n   消息称三星手机四季度最高减产30%\n   Manus完成超5亿美元新一轮融资\n  \n  TOP 3大新闻\n  国际金价显著回调，金饰克价已暴跌约150元\n  近期，国际金价经历显著回调，COMEX黄金期货跌破每盎司4200美元，国内沪金击穿每克900元关口，品牌金饰价格较高点累计下跌每克150元左右。受金价下行带动，深圳水贝首饰金挂牌价回落至每克1061元。\n  金价回调叠加节日促销，让这个全国最大的黄金珠宝集散地迎来了外地游客的购金热潮。一名黄金导购表示，国庆期间每天至少带30到40组外地客户到水贝购买黄金。与此同时，水贝市场的“国际面孔”悄然增多，钻石类首饰和高品质金饰尤其受到海外游客的青睐。（央视财经）\n  A股千元股仅剩3只：联讯仪器、源杰科技、贵州茅台\n  受半导体、通信板块走低影响，10月8日高价股群体中权重最大的科技类个股普遍下跌。其中，寒武纪跌幅近3%，股价收报于981元，收",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "36氪首发｜「闹翻天PLAYFULLY」获青山资本投资，为世界造一张“中国球星卡”",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3987542281862149?f=rss",
+    "published": "2026-10-09",
+    "summary": "作者｜任彩茹\n  36氪获悉，新兴收藏级卡牌公司「闹翻天PLAYFULLY」（以下简称“闹翻天”）近期完成新一轮融资，青山资本领投，天使轮老股东Adam Zhu持续追投，领甪资本担任长期财务顾问。本轮资金将主要用于全球顶级体育IP的获取与拓展、产品研发与工艺创新以及全球化全渠道建设。\n  「闹翻天」创立于2024年下半年，核心团队深耕文体IP运营、潮流衍生品开发与卡牌行业多年。公司创始人曹磊拥有20年体育产业运营及投资经验，曾在全球最大体育管理公司IMG任职多年，也曾在苏宁投资、曜为资本、复星集团、IDG等机构负责文体投资与产业运营。\n  2024年8月，闹翻天以电竞头部IP王者荣耀职业联赛（KPL）衍生品切入市场，产品上线首月营收突破百万元，首年即完成千万级营收并实现盈利。在此基础上，团队将核心方向聚焦于自身具备资源壁垒与专业沉淀的赛道——顶级体育IP与球星卡。\n  2025年3月，闹翻天拿下阿根廷国家足球队为期五年的亚洲独家授权合作，并与足球巨星梅西达成官方球星卡签字合作。随后又于2026年7月再度锁定比利时国家足球队的独家授权，并通过旗下球星卡品牌「HEROCK」在世界杯期间陆续",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "东京金融交易所将推出新的日本央行利率期货",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWlg4Z3Q3TndVVGMwMXYwWHhBVU9PS0l2OTNiQkpCcURqUXptZFZVS283N0gwbm1odWpIWEtPUnF6UHFIdlFpcGxFbWRIWUwxc05iaFowc2p4dTh5WEZ4bENuNlRtOVpyZ1h0UnN1eGl5OEIya0JjaDRkbVlvaXNXa0J0RnNrMTlnUFRDQUpXVnJsSG1lVHpoV2Vlb04?oc=5",
+    "published": "2026-10-08",
+    "summary": "东京金融交易所将推出新的日本央行利率期货&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "富时中国A50指数期货跌超1%",
     "source": "新浪财经",
@@ -560,42 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVW9rWVlMQy13OHRTTDN4d2JBdmtOclpKR3Q1SzJQQzJtdmJ3VjJ6X005R0dQekF2UVRMWmRNVTBmS012d0diby04YzM1OWVVWG44VWl4TFRodFFwYk13X0NRNWUyVE1uT0REekQ4c1FXcnJhSzF0dGhjZ2hNX3MxX2lfb3Z6cENJV1BMVDRJSmtuWWZkNEpiLTNtQktta2hEcjVEdDh6cGpjNmloZXk1YWtqdUpOSTFZQmpJdGpMeUw0NGFxbXdGVlM2akZSLXZQNFN1TlhWb1FaaVU?oc=5",
     "published": "2026-09-22",
     "summary": "光大期货0922热点追踪： 924两周年！地产系品种的“预期”和“现实”差多远？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "多家期货机构接连被点名",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaktTX2JjbXpQOEpBOUlFcVN2d0ZwVDZyTktiZ3o5MEJqbEY1Ml9fQlVGZzhrUjNJUHllSC1vY05GaWpzeDJqM2s1UVZvOTN0cXNxaVQ3bnR6MHU0bmx3d1dpT0ZsaktYckFOQWlMcUV6X0Q3NGdoRmJOc3hrdVR4enByNG5USHNaQ2tmYVRLdUhYZDZHMW9qWFlNZkdPakJ1SjlyN05rY2cwSHlxN0FBSXdkUjZEbEczYkFJVk90b2s2ZFlPS3FrSzdiSXZIdw?oc=5",
-    "published": "2026-09-22",
-    "summary": "多家期货机构接连被点名&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所推出英伟达GPU租赁期货合约的计划遇阻，监管机构延长审查",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTnV0R25ISHhldVJBV2VsM0tnZjNwZE1Eb19fb1d0REV2OG9ocksydmYtTzhoN29valdOd2lLNHU1allLYUg3WFlXTHFCUkpqaDdSRGg4MjZiWkxhX3ZYZGllNENGX3RQSThaZ2NCTzB1X25CUi0yT3FvWFpJbjQ4cVhHeE15dXJMZ19CQ1FYSXBZQmhianR4UjZiSEI?oc=5",
-    "published": "2026-09-22",
-    "summary": "芝商所推出英伟达GPU租赁期货合约的计划遇阻，监管机构延长审查&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "盘前：纳指期货跌0.02% 布油跌破100美元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQnZEc1BzbTk3eS1aMU9xVnZ3eF9BdnI2Zi1kMUl5dkw5QmdQVWJGdkQxMHRFeFdnUUJZRlNLclNsTTlLTm1iTjM1Z3A4WTlJSlBpUlBLdkRIams3WkpCZUl3b1J3cEpTNEZBNEF4WXlmd09sY2g3M2NleWdXOU96ZVY4OVB5bUU?oc=5",
-    "published": "2026-09-22",
-    "summary": "盘前：纳指期货跌0.02% 布油跌破100美元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
