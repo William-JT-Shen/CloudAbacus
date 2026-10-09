@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-09T15:14:21Z
-var NEWS_FETCHED_AT="2026-10-09T15:14:21Z";
+// 生成:2026-10-09T20:47:20Z
+var NEWS_FETCHED_AT="2026-10-09T20:47:20Z";
 var GPU_NEWS=[
   {
     "title": "8点1氪丨国际金价回调，金饰克价已暴跌约150元；A股千元股仅剩3只；711印度门店全部关闭",
@@ -24,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "光大期货1008热点追踪：能化涨停潮！哪些品种是真缺货？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPT2RRM21MZ2FZdWFuczlCMEg0WjZYNlVmM1o5R2NFUm9DNlNCb3RDMXNCUVl6akh0eHJSSXJERHpHalhOTHdaOFRGOFFHeF9hX0hQZ1FSa1hBS0RGa0tncmQ5VkRlZEZEQXUtU0ZZQmFYUlJHOW55M0pXWk9pS3lFZndsa2tJQ2ZGV0N5ZjRaRTRhM1VfRUVsUHYyQW5KcHFORVYzQldGSVZGcWc2QkdpTnhYZEVhdmpULUFsXzc5TU9ZSDBzbXhvVFJvSzFxb0ZjREpfN19EekpJbnFpTm1zS25IVGs?oc=5",
+    "published": "2026-10-08",
+    "summary": "光大期货1008热点追踪：能化涨停潮！哪些品种是真缺货？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "光大期货0922热点追踪： 924两周年！地产系品种的“预期”和“现实”差多远？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVW9rWVlMQy13OHRTTDN4d2JBdmtOclpKR3Q1SzJQQzJtdmJ3VjJ6X005R0dQekF2UVRMWmRNVTBmS012d0diby04YzM1OWVVWG44VWl4TFRodFFwYk13X0NRNWUyVE1uT0REekQ4c1FXcnJhSzF0dGhjZ2hNX3MxX2lfb3Z6cENJV1BMVDRJSmtuWWZkNEpiLTNtQktta2hEcjVEdDh6cGpjNmloZXk1YWtqdUpOSTFZQmpJdGpMeUw0NGFxbXdGVlM2akZSLXZQNFN1TlhWb1FaaVU?oc=5",
-    "published": "2026-09-22",
-    "summary": "光大期货0922热点追踪： 924两周年！地产系品种的“预期”和“现实”差多远？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
