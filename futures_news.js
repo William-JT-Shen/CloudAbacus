@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-10T14:27:20Z
-var NEWS_FETCHED_AT="2026-10-10T14:27:20Z";
+// 生成:2026-10-10T20:01:10Z
+var NEWS_FETCHED_AT="2026-10-10T20:01:10Z";
 var GPU_NEWS=[
   {
     "title": "成年人要的「安心」，有时是一支笔给的",
@@ -531,6 +531,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa2xCQXh2TjVGbGRsS1E1X1JHVGsxZks5ZVVKckh5dUVQQlY2Nlo5UlNYaVZ4VWpHSWYxdE9uRzNMem9Jazd5U01Uak80WVNzQ1VEbmlxeVAzM0hBbHFkeFZoMkxJR29wNnprZmFtNTBPZFR1TXpQYlBGYk9ZYVU5S3pKbU9UZFgyVHpLNGxHNUY5MEpkLURrYjZjelotSkhHREo5aUZxZ1dWak04SjBuQUFyOE9wdEViVzU2YzFaNlBBdUNTREp2YV9WNTlnVTJESlNoZDFHcld1R3dZb3c?oc=5",
+    "published": "2026-09-23",
+    "summary": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "盘前：纳指期货跌0.24% 油价连跌5天",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcUh4MllKdk5LQ2JFaDVWNjc2MDVsZG9UZVJadW55M0NvUXJmbHBkMEZPSUx0bDVudmZtMTU2TzZyQW5JSVhpRTM2NzI4ZzNhTEduRExvOTNsT0xQTUl4a0JlaVdTYVhWbGFnSUM5RFpOLUs0Mmw0MFgwLUlwQkJhTkYyNFNuWDg?oc=5",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN0k1UVE4TUxMNHk3QThwMzhSTHRqVDR6VjFFRldGbmwtOXl2Smo3c2xIM0lFc212dVI0VW9iTGstMFRIckFOVy1NT2YxbzlILVhIa3VfZjV2VFcwQ18xU3R0eGpLaGNlajIxQk5SZG1fakJUV1k4R1p2Um5nY3dMVDRELVEwSkdNNV9lOA?oc=5",
     "published": "2026-09-23",
     "summary": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月23日）&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "百亿元级商品期货增至16个 贵金属板块最“吸金”",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSE1Za2JxRFNpWFMwODgxTEMtallIVlZaOC1vRWxHTXRmcm5VQ05NSE1DeVppaUFDTExhekFLVjJ1QXdjU1FZdnZvZVMwX0E1bkpIZjBRSkxBcGF3Z0hfRTRqc2NRX3dfR0Jwb0FNRl9XTnVPUWJfZk5CTUJCXzNKag?oc=5",
-    "published": "2026-09-23",
-    "summary": "百亿元级商品期货增至16个 贵金属板块最“吸金”&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
