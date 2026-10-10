@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-10T05:34:35Z
-var NEWS_FETCHED_AT="2026-10-10T05:34:35Z";
+// 生成:2026-10-10T14:27:20Z
+var NEWS_FETCHED_AT="2026-10-10T14:27:20Z";
 var GPU_NEWS=[
+  {
+    "title": "成年人要的「安心」，有时是一支笔给的",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4019731047731078?f=rss",
+    "published": "2026-10-10",
+    "summary": "在快节奏、高强度的现代都市里，我们每天都在被推着向前，生活似乎随时处于一种微小的失控与无序之中。\n  当一切都可以被屏幕与算法快速替代，我们反而开始怀念那些看得见、摸得着的实感。重新拿起一支笔，在纸页间划掉一项任务、记下一个灵感，这种极为具体的书写，正在成为成年人的“精神兜底”：不管今天多乱，至少这一笔，是自己说了算。\n  很多时候，这种让人安心的感觉，就来自于桌边那支握感舒适、落笔顺畅的好笔。\n  地铁站偶遇：成年人重新为笔停留的瞬间\n  在上海陆家嘴地铁站的地下换乘通道里，人流仿佛被按下了快进键。\n  人群总是踩着几乎一致的急促节奏向前走着，通道两旁的巨幅大屏上，轮番交替着华丽的广告。这些光鲜亮丽的视觉符号早已构成了顶级金融区某种固定的都市背景板。\n  但在刚刚过去的十一假期，人们却在这里遇到了一个有点特别的广告。\n  大屏上整齐铺开的是一片清爽、干净的蓝白背景。画面里没有夸张的特效，也没有奢华的产品展示，主角是身着浅绿色西装与干练衬衫的知名歌手周笔畅。她或微笑着手握一支造型利落的淡蓝色中性笔指向镜头，或侧身与巨型中性笔轻快互动；一旁配着极为醒目的黑体大字——“KAYOU卡游文具，",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "8点1氪丨国际金价回调，金饰克价已暴跌约150元；A股千元股仅剩3只；711印度门店全部关闭",
     "source": "36氪",
@@ -128,6 +140,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLW84QmdodnFWWG1vcTZ3X1JqMmlfWnF2Q3FDRm5jRFdWUVlPWk5vT3U5OTBDTFR6QlkyQk9hQndjWVNTQVlRTkRlejlIWVRWR1VSeU9kVGxzbmExQ05TbHlvYlFERWJwczZPN0VyemIzRFBwSTFUTVVrc085VzZUX3VvSjVoMm8?oc=5",
     "published": "2026-10-07",
     "summary": "法国国债期货在六个月最大涨幅后下跌&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "伦敦黄金期货“复活”！洲际交易所入场，挑战纽约主导格局",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1dTJlQ0hJdkttMnpSQXg2LWkzX3pBYTJlMGFRcUo0dGFFdERrQkIyTE0ya0xsa0p6eWxEUURLUlVyNWQ5NkVmbTAySWR5ZW03TTVTNG0yS3dyTG5tdVNiRDdzYjBndjM0UXV4V24xUnJMUDF1THlWNA?oc=5",
+    "published": "2026-10-06",
+    "summary": "伦敦黄金期货“复活”！洲际交易所入场，挑战纽约主导格局&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSE1Za2JxRFNpWFMwODgxTEMtallIVlZaOC1vRWxHTXRmcm5VQ05NSE1DeVppaUFDTExhekFLVjJ1QXdjU1FZdnZvZVMwX0E1bkpIZjBRSkxBcGF3Z0hfRTRqc2NRX3dfR0Jwb0FNRl9XTnVPUWJfZk5CTUJCXzNKag?oc=5",
     "published": "2026-09-23",
     "summary": "百亿元级商品期货增至16个 贵金属板块最“吸金”&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "华尔街GPU算力期货遇监管阻力，芝商所上市计划推迟",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM29BZXRrX0Z6SVgxbXNvQ2lGeGxNUHp6QUp4RHFldzdSZ2JNdExHTlhHaWw3MmRPYzdaRG1EbkJnMzlPTUNiN0wwWDhMYzFySEZFRlc4TjRUT3NLYTRRcEtiR1JfeGZTbjhUb0VMWm16cnVtWHBvWk9ILU1zVkg2TXFodEtudVE?oc=5",
-    "published": "2026-09-23",
-    "summary": "华尔街GPU算力期货遇监管阻力，芝商所上市计划推迟&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOGJGYnVoYjdac0ZpclZBR3pYMDRNc0pVYktjdnVOWmNUdEJoV0FnM3lqUXQxZHpNN2dueHd6WlA2OGFmek12eXlYcUpqdEYtTEhfSkM0eUVmN0pSSWozazFGVkxPMFRna21SUGJGeEh1YS1qTDZJbVE2WXotRUo3c194NlR2dUE?oc=5",
-    "published": "2026-09-23",
-    "summary": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
