@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-09T20:47:20Z
-var NEWS_FETCHED_AT="2026-10-09T20:47:20Z";
+// 生成:2026-10-10T05:34:35Z
+var NEWS_FETCHED_AT="2026-10-10T05:34:35Z";
 var GPU_NEWS=[
   {
     "title": "8点1氪丨国际金价回调，金饰克价已暴跌约150元；A股千元股仅剩3只；711印度门店全部关闭",
@@ -24,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "快讯：纯苯期货、甲醇期货主力合约相继触及涨停",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDNlSnc1MGhfb1lwZUhJN3lSRS1OWVBPbXpnakhnVWVMdWM5LW5JZDJHb0xXUlBiLUZXM08xUFlsYXUxam1KY0JteWZJQV9SbzZlZm5lZDVtS3ZSeXJIUE5TQzN4RjAxUUhHNDF1S3RNb1pWMlRVbGZxLTVvekF4N3Q4YnNnVEpxZ3o2bA?oc=5",
+    "published": "2026-10-08",
+    "summary": "快讯：纯苯期货、甲醇期货主力合约相继触及涨停&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -588,18 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "流量是租来的，信任是攒下来的：跨境电商增长逻辑正在重写｜超级会氪厅嘉宾金句",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3995682644725637?f=rss",
-    "published": "2026-09-23",
-    "summary": "流量越来越贵，利润越来越薄，跨境电商的下一个增长引擎在哪？\n  过去几年，“以流量换销量”的投放逻辑正在逐渐失效。以亚马逊平台为例，各品类CPC连续多年上涨，部分关键词获客成本不断拉高，大量卖家陷入“生意越做越大、利润越来越薄”的怪圈。流量驱动的粗放增长走到尽头，其深层原因在于：流量本质是“租”来的，停投即停效；而信任是“攒”下来的，能够持续产生复利。\n  当品牌信任从加分项变为影响转化率的关键变量，行业增长的底层逻辑正从“流量依赖”转向“信任复利”。\n  一个清晰信号是，独立站占中国品牌出海跨境电商交易额的比重不断提高，DTC模式正在成为越来越多头部卖家的选择——商家不再只追求更快拿到第一单，而是更看重用户留存与复购，从一次性买量走向长期经营用户资产。\n  2026年9月16日，36氪「深水规则」·出海系列超级会氪厅第二场落地上海。围绕“从“流量依赖”到“信任复利”——品牌信任如何成为跨境电商的终极壁垒”这一主题，乐歌股份跨境业务市场经理张翼飞、Ocean Stone管理合伙人杨飞、阿里云中小企业应用高级产品专家王霄三位一线实战派，分别从独立站操盘、品牌增长与AI外贸、数字身份与域名",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
