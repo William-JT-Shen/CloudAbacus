@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-10-12T05:42:06Z
-var NEWS_FETCHED_AT="2026-10-12T05:42:06Z";
+// 生成:2026-10-12T17:44:44Z
+var NEWS_FETCHED_AT="2026-10-12T17:44:44Z";
 var GPU_NEWS=[
+  {
+    "title": "国债期货早盘收盘集体上涨",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xWk5qT09Lb3pYLTJxc1J3YzBRS0NFNDJ0U0JWcGR0T29GQm9BelBBbVB5TDIwOWpuY3V3UjJsR1pXSmw0QUJzZnlMcHhwS01rRGlwOFFQX0hfUXM0NVhQN1pQY1JQekhTVE4wVTZqR2NnLURjdFRHeg?oc=5",
+    "published": "2026-10-12",
+    "summary": "国债期货早盘收盘集体上涨&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "港股异动 | 锂矿股早盘下挫 碳酸锂期货跌破11万关口 供应侧复产、扩产压制锂价",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTklBUWdSSkJEN3E0NEg0dGo4dXlKdlI1SS1ZQllzUnF1QTlVb3NlVDBXc1RxcTY5Y1c2NWZTcFRRSWlwSzd5SkZxckxBNUFySnRIYTFxQmdsSVNfVGRqZzdsV01WWmlaVlNoaVktbUpZaW1jWG1nRmZyMVlkWXNMSnNkblE5NExVdTNjSlVWcTVKUlY3cFE?oc=5",
+    "published": "2026-10-12",
+    "summary": "港股异动 | 锂矿股早盘下挫 碳酸锂期货跌破11万关口 供应侧复产、扩产压制锂价&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "碳酸锂期货再度大跌创年内新低，5月至今已近腰斩",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZVlldnpkMlZBWlJqUVFfX1M2ZG93VHRWMDBHekRlUFpxZWZUOG5IemZpNGxYZzI3U0NrX3h0d0paUzJXSFRsMmtSVkttRmFmSFZmbG1BUDY2dl9fbTVWeFBiV2tLRUg5Mko0Mkp1UjVKN2xPN1E5UmZDR095OHVDbg?oc=5",
+    "published": "2026-10-12",
+    "summary": "碳酸锂期货再度大跌创年内新低，5月至今已近腰斩&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "白犀牛完成1亿美元C轮融资，L4无人配送生态布局提速｜36氪首发",
     "source": "36氪",
@@ -560,42 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa2xCQXh2TjVGbGRsS1E1X1JHVGsxZks5ZVVKckh5dUVQQlY2Nlo5UlNYaVZ4VWpHSWYxdE9uRzNMem9Jazd5U01Uak80WVNzQ1VEbmlxeVAzM0hBbHFkeFZoMkxJR29wNnprZmFtNTBPZFR1TXpQYlBGYk9ZYVU5S3pKbU9UZFgyVHpLNGxHNUY5MEpkLURrYjZjelotSkhHREo5aUZxZ1dWak04SjBuQUFyOE9wdEViVzU2YzFaNlBBdUNTREp2YV9WNTlnVTJESlNoZDFHcld1R3dZb3c?oc=5",
     "published": "2026-09-23",
     "summary": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "盘前：纳指期货跌0.24% 油价连跌5天",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcUh4MllKdk5LQ2JFaDVWNjc2MDVsZG9UZVJadW55M0NvUXJmbHBkMEZPSUx0bDVudmZtMTU2TzZyQW5JSVhpRTM2NzI4ZzNhTEduRExvOTNsT0xQTUl4a0JlaVdTYVhWbGFnSUM5RFpOLUs0Mmw0MFgwLUlwQkJhTkYyNFNuWDg?oc=5",
-    "published": "2026-09-23",
-    "summary": "盘前：纳指期货跌0.24% 油价连跌5天&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国商品期货交易委员会主席：“事件提及合约” 的交易活动令人担忧",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ1NhRnRBNFJ4OGRJTVlMd29PZWUxcUdIYkpLNi1DZHVoNG9QaFZPWG1IZUUxRU0telpxX082OTE0UjJjclZCRDNvNHBWTkhsQURJMk01SFllb1dmT05KUGI2c0V0R3lDMWtIWkFjWWtSNUtiNDBSOWVULUxwRnpESUhPYjZ0WDk4UjNTX0phSWF4cWU0bXE1OFlqWWR0cS1TNmlYVHJMdlBVbDcyRk8yTkM5UG9kekhsd3BSQXdWVlplTGhScXpRN1g2b25xYVZKSzRXOFVYWjhRR1Q2eWY0?oc=5",
-    "published": "2026-09-23",
-    "summary": "美国商品期货交易委员会主席：“事件提及合约” 的交易活动令人担忧&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "CBOT农产品期货主力合约收盘全线下跌，玉米期货跌1.49%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBodjN0eUdja1RNMmQ4M3lvZldWeUJWWTlQVDI3ZGVic1B2cTUzNWY2RjZHMGZ0SHZBTkpDOFZHLVNybnNRRk9YelpUQndlMnBTZzdiNF9GUXNlOE1uMElhbnlaVmc5Q1dzWFJvenh3cnVaV3hQRUdGSQ?oc=5",
-    "published": "2026-09-23",
-    "summary": "CBOT农产品期货主力合约收盘全线下跌，玉米期货跌1.49%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
