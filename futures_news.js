@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-11T20:11:01Z
-var NEWS_FETCHED_AT="2026-10-11T20:11:01Z";
+// 生成:2026-10-12T05:42:06Z
+var NEWS_FETCHED_AT="2026-10-12T05:42:06Z";
 var GPU_NEWS=[
+  {
+    "title": "白犀牛完成1亿美元C轮融资，L4无人配送生态布局提速｜36氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4005486834880384?f=rss",
+    "published": "2026-10-12",
+    "summary": "无人物流赛道持续火热。\n  36氪独家获悉，L4级自动驾驶企业白犀牛近日已完成C轮融资，金额1亿美元，由隐山资本领投，湘潭国资、深重投、湖南财信、韩国友利金融集团、博正资本等跟投。资金将重点投向L4端到端技术与物理AI能力迭代、城市运营网络持续拓展。\n  白犀牛成立于2019年4月，由前百度自动驾驶团队成员朱磊和夏添共同创立，是一家提供全栈式无人配送解决方案、并实现无人车常态化运营的自动驾驶技术公司。公司自成立以来已获超8轮融资，本轮为公司历史上最大单笔融资。\n  \n  白犀牛无人车\n  “每一轮融资，我们都坚持引入与公司发展阶段契合的股东”，白犀牛CFO于洋向36氪表示。本轮融资的一大特点，是构建了“产业+政府+金融”的复合型资本结构——多元背景的资本带来的不只是资金本身，更是一张生态化的资源网络：资本不仅为公司输血，更带来场景、路权、金融服务与全球化拓展的多重杠杆。\n  领投股东普洛斯隐山资本，是中国物流供应链股权投资中最懂资产与场景的产业派之一，今年已连续两次向白犀牛注资。\n  普洛斯遍布全球的产业资源，不仅为白犀牛提供了稳定的业务订单，也为其全球化拓展打开了通道；韩国友利金融集",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "成年人要的「安心」，有时是一支笔给的",
     "source": "36氪",
@@ -116,6 +128,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSFBLOVo5N3JtbzVuRU95eDZ0b3NEX1NKVk9wR3BLTUk1N3JxUURZcF81RUdxNVRULUV3TkNjY0ZSRG5XUHl3NHZqZGRCZFdLZjFMTmpRMmx6bURoSGFqZ2Z0dWdOeFRMMUdrMUs4RWM3a2pORHVPWFU2ZlkyYmZBR1dMeWxmd1pIQzY4ZQ?oc=5",
     "published": "2026-10-08",
     "summary": "哪个网站能查期货公司评级和排名&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国股指期货小幅走低 关注美联储会议纪要",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ01Ha0Zna2RYTjUwZ1MyczVjcEJwb2Y1cTFBMDQ5TF9yd1g2T2FzU3FXa1pwWkJOVURQc2w3bm5SV0lYazl1Z3hYbDRVLUNaeXRNajBuWWNNcmNSdnVDZGNIVFdHRXhndnozT2NWZnlQdjlnWnB0VGNMRWJoYmhma0dfLTNMM2s?oc=5",
+    "published": "2026-10-07",
+    "summary": "美国股指期货小幅走低 关注美联储会议纪要&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -572,30 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBodjN0eUdja1RNMmQ4M3lvZldWeUJWWTlQVDI3ZGVic1B2cTUzNWY2RjZHMGZ0SHZBTkpDOFZHLVNybnNRRk9YelpUQndlMnBTZzdiNF9GUXNlOE1uMElhbnlaVmc5Q1dzWFJvenh3cnVaV3hQRUdGSQ?oc=5",
     "published": "2026-09-23",
     "summary": "CBOT农产品期货主力合约收盘全线下跌，玉米期货跌1.49%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股期货与欧股走低，油价转涨，Meta获摩根大通看好，大空头看空美光科技",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50Uzg5OFlmcEJwQmsySk9XVDk1bUlZY2RJNzdGX1paNlZ4X3c4T2p1ODdENEJ2Q011aGVhMFFtUFBZdEViWGZJX2pCOExNbTZLQmJTaV91SzNtc05ZODVKb24zQWFLOWZsSU1hV0IyQ01fUUdZOENRVQ?oc=5",
-    "published": "2026-09-23",
-    "summary": "美股期货与欧股走低，油价转涨，Meta获摩根大通看好，大空头看空美光科技&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月23日）",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN0k1UVE4TUxMNHk3QThwMzhSTHRqVDR6VjFFRldGbmwtOXl2Smo3c2xIM0lFc212dVI0VW9iTGstMFRIckFOVy1NT2YxbzlILVhIa3VfZjV2VFcwQ18xU3R0eGpLaGNlajIxQk5SZG1fakJUV1k4R1p2Um5nY3dMVDRELVEwSkdNNV9lOA?oc=5",
-    "published": "2026-09-23",
-    "summary": "最新上期所燃料油期货仓单变动-每日更新查询（2026年9月23日）&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
