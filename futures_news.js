@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-13T01:59:57Z
-var NEWS_FETCHED_AT="2026-10-13T01:59:57Z";
+// 生成:2026-10-13T11:40:47Z
+var NEWS_FETCHED_AT="2026-10-13T11:40:47Z";
 var GPU_NEWS=[
+  {
+    "title": "黑海局势缓和预期带动小麦期货连跌四日",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qb0phQkRSSjdjVXQ1dHZjVHlId2VGYUNXRGx6XzVvQk1VRFJHWGlBMnZiWnlOX0MzS21SZ3R1Vk9qeTZXdHJqNFZKejZqN2ZvLUVJQ0ZqNVMyN05LcVY1eG1uVVN4bHZYV1ppMThXTDRRTW1ZOHh2Vg?oc=5",
+    "published": "2026-10-12",
+    "summary": "黑海局势缓和预期带动小麦期货连跌四日&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美国债市：国债期货基本持平 假期交投清淡",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0c2ZXQ1U5NEdVbEUyblpHOGhwUW05NFVRRkxuQXh2encyZENQa3hHZW95UzZCVldKdnFHMnRKYTBVNWpoN2I1TjNTMkFwejBJa1diVVlpajhrQmdqMkVLb2FXQ3hTdnFOZlBGUWlzLVBYdV9ZZFd4Zw?oc=5",
     "published": "2026-09-24",
     "summary": "日本日经指数期货早盘下跌0.1%。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "上海金融监管局：优化智能算力资源配置",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iUWdDVzR2RG1LbU9iT1FmempaWnhqOXNkWmVZVEREQzFUVHpHcU5sYUc5Wlpfd2cxaWlEMXdmeUFwME94aDJMYVQ0YWdoN1g2dndCMW9RN21Damt0UGx4RWlkcjJGclZmZFFlSXNLYkVSc1RoVmFLRA?oc=5",
-    "published": "2026-09-24",
-    "summary": "上海金融监管局：优化智能算力资源配置&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
