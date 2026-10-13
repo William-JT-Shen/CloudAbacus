@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-13T11:40:47Z
-var NEWS_FETCHED_AT="2026-10-13T11:40:47Z";
+// 生成:2026-10-13T19:12:51Z
+var NEWS_FETCHED_AT="2026-10-13T19:12:51Z";
 var GPU_NEWS=[
   {
     "title": "黑海局势缓和预期带动小麦期货连跌四日",
@@ -84,6 +84,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "光大期货：10月9日软商品日报",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWVhwZ2o5R0V4bzlXbDNJQnA3TzJZZ1VVWVNvdmp5Slh1Mk11Y1ZZMmZXLXpHZVN0b0FnMjNXSnFfSlBRaW51UVNPa1V6aFUwYmhZNXZrdlJpV1l3YTBGZFlmVUlwUW02U09BajZPOWFaSnE1YVpqVE1XMkY4ZmY2ekFNWERsZDZmYUpRUmg4NG5mdDlYdGw1NGhJZlB1b1pDckVCSm9pc29VRGhSbm9WUGRRSlIxSGlLeU1CMVVJRlc0YmNwTGg5ZE50c29KUmZnLUk5ZEs3ZVFkQzg?oc=5",
+    "published": "2026-10-09",
+    "summary": "光大期货：10月9日软商品日报&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdWRWbm5NWUhRX29aWWM5enVsbVdPUU5yZUItSVJCSUZjNDdGR1p4MEVCY01RUW94Z0NIRzdvWmhFQW43WExfeUNkQnBXanlpR2Z3NTQyLUtCNzBZWXdIVUp1OE11Mm10RkZtTTRGWmNrVjR6QS1ZSVYxR0dmV2U0dVduOEtZQS1SQW9feA?oc=5",
     "published": "2026-09-25",
     "summary": "光大期货中秋节特别节目：期货人爱吃什么月饼\"馅\"？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "日本日经指数期货早盘下跌0.1%。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0c2ZXQ1U5NEdVbEUyblpHOGhwUW05NFVRRkxuQXh2encyZENQa3hHZW95UzZCVldKdnFHMnRKYTBVNWpoN2I1TjNTMkFwejBJa1diVVlpajhrQmdqMkVLb2FXQ3hTdnFOZlBGUWlzLVBYdV9ZZFd4Zw?oc=5",
-    "published": "2026-09-24",
-    "summary": "日本日经指数期货早盘下跌0.1%。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
