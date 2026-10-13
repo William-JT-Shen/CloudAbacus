@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-12T17:44:44Z
-var NEWS_FETCHED_AT="2026-10-12T17:44:44Z";
+// 生成:2026-10-13T01:59:57Z
+var NEWS_FETCHED_AT="2026-10-13T01:59:57Z";
 var GPU_NEWS=[
+  {
+    "title": "美国债市：国债期货基本持平 假期交投清淡",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96V19rZllqZ1RkOFpOb0l6MWI5N3oxVjFIbENnZkI1RWxQMWtOU0tWR0xiOUVyakdmeW5nSXZ1clZFaFZUc09ZZWZKZ2FBaFN1aC13bE9DTmhMSWhrWnVoZzNadXNMY2hVSUFRSm1uQS1VWm9wNi1wSjN3?oc=5",
+    "published": "2026-10-12",
+    "summary": "美国债市：国债期货基本持平 假期交投清淡&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "国债期货早盘收盘集体上涨",
     "source": "新浪财经",
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iUWdDVzR2RG1LbU9iT1FmempaWnhqOXNkWmVZVEREQzFUVHpHcU5sYUc5Wlpfd2cxaWlEMXdmeUFwME94aDJMYVQ0YWdoN1g2dndCMW9RN21Damt0UGx4RWlkcjJGclZmZFFlSXNLYkVSc1RoVmFLRA?oc=5",
     "published": "2026-09-24",
     "summary": "上海金融监管局：优化智能算力资源配置&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa2xCQXh2TjVGbGRsS1E1X1JHVGsxZks5ZVVKckh5dUVQQlY2Nlo5UlNYaVZ4VWpHSWYxdE9uRzNMem9Jazd5U01Uak80WVNzQ1VEbmlxeVAzM0hBbHFkeFZoMkxJR29wNnprZmFtNTBPZFR1TXpQYlBGYk9ZYVU5S3pKbU9UZFgyVHpLNGxHNUY5MEpkLURrYjZjelotSkhHREo5aUZxZ1dWak04SjBuQUFyOE9wdEViVzU2YzFaNlBBdUNTREp2YV9WNTlnVTJESlNoZDFHcld1R3dZb3c?oc=5",
-    "published": "2026-09-23",
-    "summary": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
