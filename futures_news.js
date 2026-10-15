@@ -1,7 +1,212 @@
 // GPU算力期货新闻
-// 生成:2026-10-14T20:09:56Z
-var NEWS_FETCHED_AT="2026-10-14T20:09:56Z";
+// 生成:2026-10-15T04:21:25Z
+var NEWS_FETCHED_AT="2026-10-15T04:21:25Z";
 var GPU_NEWS=[
+  {
+    "title": "OpenAI Engineer, Who Is Charged With Planting Bug, Advised Saudis",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html",
+    "published": "2026-10-15",
+    "summary": "The employee, now fired, had said he advised government agencies in Saudi Arabia. He was also listed as a partner at a venture firm with a Saudi prince.",
+    "full_text": "The San Francisco offices of OpenAI. According to a court filing, a thumb-size recording device wrapped in toilet paper was found plugged into the back of a television in an executive conference room.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "8点1氪丨微信、淘宝、美团等应用，拒绝接入豆包手机助手；苹果成为全球第二家市值破5万亿美元企业；美国9月CPI同比增长3.7%，高于预期",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4026385299165321?f=rss",
+    "published": "2026-10-15",
+    "summary": "今日热点导览\n  绿泡泡短剧可查看朋友在看剧目\n  A股三大指数集体收跌，全市场近4500股下跌\n  OpenAI办公室发现隐藏录音设备，涉事员工被捕\n  德国拟2027年开征含糖饮料税\n  华尔街大空头警示美股：现40年未见极端市场失衡\n  TOP3大新闻\n  微信、淘宝、美团等151款应用拒绝豆包手机助手GUI自动化操作\n  10月14日，豆包手机助手SAEP协议公示期结束，共有151款应用声明拒绝其GUI屏幕自动化操作，微信、淘宝、美团、快手、DeepSeek等高频App在列。拒绝仅代表禁止AI自动点击代操作，App仍可正常手动安装使用。其中腾讯系65款、阿里系23款应用上榜，覆盖社交、电商、办公等核心场景。SAEP协议让开发者自主决定AI操作权限，此次大量头部应用拒绝，将限制豆包手机跨应用自动办事的核心能力。（界面新闻）\n  苹果成为全球第二家市值破5万亿美元企业&nbsp;\n  北京时间10月15日凌晨，美股苹果公司收盘上涨0.5%，最新股价报342.96美元，总市值50052亿美元。这是苹果首次以5万亿美元的市值收盘，苹果也成为继英伟达之后，全球第二家达成这一市值里程碑的企",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "总裁直管信息部，一家创新药企的AI试验",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4026591408066432?f=rss",
+    "published": "2026-10-15",
+    "summary": "文｜胡香赟\n  编辑｜海若镜\n  2026年，先声药业（02096.HK）总裁周云曙把信息部划归自己直管了。\n  近期的一场媒体交流会中，他对36氪提到：“在先声，我们现在要求管理层带头，在工作中‘拥抱’AI，不是提倡而是必须。AI的价值来自如何应用，首先要真正去用、会用、不断训练，这是基础。”\n  放在全球制药企业积极拥抱AI的语境里，这个动作不算令人意外。海外，跨国药企已经开始重资产投入。例如，礼来与英伟达共建AI联合创新实验室。在国内，9月下旬，金斯瑞、近岸蛋白等多只“AI4S概念股”轮番大涨；一级市场上，不少“小天才们”用AI改变生命科学的叙事，首轮融资便能拿到数亿元估值。\n  不过，一个很难回避的现象是，大药企既有的成熟研发体系运转多年，效率已经很高，AI想要真正嵌入其中，从外挂工具变成内化能力，比技术本身更难的是组织层面的松动。毕竟，对于不自带AI基因的药企来说，怎样评估AI在工作中的实际价值就是个大问题。\n  在这个意义上，周云曙亲自牵头，走的或许是一条相对激进的路子。他坦言，初期，先声内部很多同事想用AI，但并不知道如何用，“我们确实也花了很多Token做探索”。最终，",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "曾获李泽湘、明势资本投资，这家公司想做一台会“掌镜”的摄影机器人｜早期项目",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4026612843696776?f=rss",
+    "published": "2026-10-15",
+    "summary": "作者&nbsp;|&nbsp;张子怡\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，成立于2023年的越千创新，曾在种子轮获得李泽湘投资；目前，公司已完成天使轮融资，明势创投、南山战新投、初心资本参与投资。\n  越千创新第一款产品以力平衡摄影机械臂Cilin X为切入点，结合智能化、轻量化的软硬件设计，尝试降低独立创作者和小型拍摄团队编排、执行和复现镜头运动的门槛。公司将Cilin X视为“专业摄影能力产品化”的第一步。\n  摄影机械臂常用于影视、广告和产品拍摄。它能够托着相机在空间中运动，精确复现相同轨迹，拍出人手难以完成的环绕、俯冲或高速跟随镜头。然而长期以来，摄影机械臂价格昂贵，设备庞大，使用门槛极高。\n  以英国厂商MRMC的Bolt为例，其产品搭配轨道后，相机运动速度最高可达12米/秒，负载20公斤，但设备连同底座重约600公斤，主要服务于专业摄影场景；近年推出的Cinebot Mini和Cinebot Nano已经明显缩小，但机械臂本体仍分别重33.5公斤和25公斤。\n  另一方面，全球视频创作者生态也在发生新的变化。\n  视频平台Wistia在2025年的调研显",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "Senators Question Meta’s Data Center Tax Strategy",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/10/14/technology/meta-senators-tax-avoidance.html",
+    "published": "2026-10-14",
+    "summary": "Democrats on the Senate Finance Committee sent a letter to Mark Zuckerberg, Meta’s chief executive, questioning the company’s $6.6 billion in tax breaks.",
+    "full_text": "Meta has claimed to the Internal Revenue Service that the data centers it is building across the country to power its new generative A.I. efforts are “experimental.”",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "Netflix, Facing Slowing Growth, Cuts 6% of Its Work Force",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/10/14/business/media/netflix-layoffs-ted-sarandos.html",
+    "published": "2026-10-14",
+    "summary": "The streamer’s share price is down more than 40 percent over the last year as the company has struggled with stalling engagement.",
+    "full_text": "This is the company’s widest round of job cuts since 2022, when Netflix experienced a rare dip in subscriber figures.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "Anthropic Says Revenue Jumped 45% to $16.8 Billion in Third Quarter",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/10/14/technology/anthropic-ipo-revenue-profit.html",
+    "published": "2026-10-14",
+    "summary": "The company held an investor meeting on Wednesday as it plans a blockbuster initial public offering as soon as next month.",
+    "full_text": "Anthropic’s chief executive, Dario Amodei, speaking to Marc Benioff, who runs Salesforce, last month in San Francisco.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "F.B.I. Arrests OpenAI Employee Accused of Planting Bug in Office",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/10/13/technology/openai-worker-arrested-bugging.html",
+    "published": "2026-10-14",
+    "summary": "OpenAI said that the employee had placed a device built to evade detection and that he had planned to secretly record meetings in other sensitive spaces.",
+    "full_text": "The San Francisco offices of OpenAI, where a recording device was discovered during a sweep of a conference room, the company said.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "8点1氪丨茶百道涉IPO欺诈，被暂停交易；苹果连夜发布3款智能家居新品，总市值再创历史新高；DeepSeek将完成1000亿元融资",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4025027267580036?f=rss",
+    "published": "2026-10-14",
+    "summary": "今日热点导览\n  字节跳动Seed单独设立大模型安全与对齐部门\n  爆火促销被指加盟商买单，霸王茶姬回应\n  拒签《暗影蜘蛛侠》AI授权协议，美知名演员尼古拉斯·凯奇“硬刚”亚马逊\n  梁文锋或再投一家机器人公司\n  峰学蔚来武亮回应财产转移相关质疑\n  腾讯启动50亿美元债券发行，为AI支出募资\n  TOP3大新闻\n  茶百道涉IPO欺诈，被暂停交易\n  36氪获悉，香港证监会公告，已对两个集团采取行动，因它们涉嫌参与欺诈计划，意图就首次公开招股的股份需求营造虚假或非真实的表象。证监会亦已指示港交所，自10月13日上午9时正起暂停茶百道股份交易。香港证监会高度关注，茶百道的首次公开招股可能曾被人为操纵，意图就茶百道的股份需求营造非真实的表象。在证监会继续进行调查期间，暂停茶百道的股份交易，对为该股维持一个有秩序和公平的市场及维护投资大众的利益是有需要或合宜的。\n  苹果连夜发布3款智能家居新品，总市值再创历史新高\n  10月13日晚间，苹果举办“欢迎回家”新品发布会，一次性推出三款硬件：首款智能家庭中枢HomeView、第二代HomePod mini、全新Apple TV 4K。Ho",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "雅诗兰黛集团启动2026年粉红丝带公益行动，三年累计捐赠1000万元｜最前线",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4025372677181314?f=rss",
+    "published": "2026-10-14",
+    "summary": "36氪获悉，10月13日，雅诗兰黛集团在上海浦东美术馆举行2026年粉红丝带公益点亮仪式，宣布启动新一年度乳腺癌防治公益行动。今年，集团将与中国妇女发展基金会继续合作，围绕基层医生与女性、异地务工女性及职业院校学生等群体开展乳腺健康筛查、医生培训、义诊和校园科普等活动，项目重点落地贵州、广东和山东。集团还计划于2027年投入使用一辆乳腺健康义诊车，将筛查和医疗服务延伸至偏远地区。\n  这项公益行动已在中国持续开展二十余年。根据雅诗兰黛集团披露的数据，2023年起，集团与中国妇女发展基金会开展为期三年的“乳腺健康关爱”项目，累计捐赠1000万元。截至目前，项目已为450名困难乳腺癌患者提供治疗资助，为4481名困境妇女开展乳腺健康筛查，并向5400名乳腺癌患者发放关爱物资。此外，项目累计开展16场乳腺健康宣传活动，并在北京、上海、武汉等城市开展校园科普活动。\n  2026年的项目延续了此前以疾病预防、健康教育和患者援助为核心的模式，但进��步强调基层医疗资源的可及性。相比于单纯的健康知识传播，筛查、诊断和后续治疗涉及医疗资源、经济负担及地理距离等多重因素。世界卫生组织指出，乳腺癌的早期发",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "2026年度「焦点」产品计划重磅启动",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4025592761864321?f=rss",
+    "published": "2026-10-14",
+    "summary": "让更多好产品被看见。",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "Apple Introduces HomeView, a $299 Tablet for the Home",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/10/13/technology/apple-homeview-tablet.html",
+    "published": "2026-10-13",
+    "summary": "Apple unveiled the device as it continues its foray into artificial intelligence and tries to prove it can still innovate.",
+    "full_text": "Apple unveils its new “Apple HomeView” and a suite of “HomeCollection” smart home devices during an event in New York City on Tuesday.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "36氪首发丨达晨投过的老牌减速器厂商完成数亿元B轮融资，已供货多家头部机器人企业",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4023807119789956?f=rss",
+    "published": "2026-10-13",
+    "summary": "作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  \n   本文约1500字，建议阅读3分钟\n  \n  硬氪获悉，近日，浙江三凯机电有限公司（以下简称“三凯机电”）宣布完成数亿元B轮股权融资。本轮融资由工业母机产业投资基金与物产中大投资联合领投，财通资本、温岭海和融智跟投。募集资金将主要用于深化人形机器人关节减速器及驱动一体化技术的研发迭代，扩大精密减速器产能建设，加速高端传动部件的国产化替代进程。去年年底，三凯机电曾获达晨财智领投过亿元A轮融资。\n  三凯机电成立于2007年，是国内较早开展精密行星减速机自主研发并量产的企业，于2012年量产。三凯机电创始人兼CEO江建斌向硬氪介绍，目前国内自动化领域已广泛应用三凯机电的行星减速机。\n  据介绍，三凯机电的精密行星齿轮减速器凭借独特的齿形修形技术，回差可稳定控制在1弧分以内，扭转刚性高，能保证工业母机在重载、高速下的加工稳定性与超高精度。同时，减速器采用优质合金钢与核心热处理工艺，依托精度管控和装配工艺提升，在加工一致性上处于国内第一梯队。\n  目前公司精密减速器已广泛应用于机床与CNC、AGV/AMR",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh"
+  },
+  {
+    "title": "请以我的名字呼唤我，36183672，WISE 2026来了",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4023959820291975?f=rss",
+    "published": "2026-10-13",
+    "summary": "用口述的方式，把这件事从头说一遍。\n  \n  按惯例，这应该是一篇WISE的官宣稿。\n  写大会时间、地点、嘉宾阵容、议程亮点——按这个套路写，安全、规整、不出错。\n  但今年，我跟36氪的每个人都说，我不想这么写了。\n  今年我们感触太深。深到我第一次想用我自己的口述方��，把这件事从头说一遍。\n  不是说官网该有的信息不重要——时间、地点、嘉宾，我都会讲。但在那之前，我想先讲一件事。\n  01 讲一篇小绿书\n  最近我们内容团队出了一篇文章，叫《王已易位》。\n  我看完之后，深有感触。这种感触不是审美上的——是战略上的。\n  我得说一句比较真实的话。\n  36氪作为科技与商业媒体平台，这些年为什么能站住？本质上，是因为我们始终在最快、最准地观察和记录中国最活跃的那批公司。互联网时代，我们跟着互联网公司一起成长。我们看见他们，他们看见我们。互信是靠一篇一篇报道、一年一年观察建立的。\n  但今天，这件事在变。\n  不久的将来，中国最大、最好的公司，可能已经不再是我们最熟悉的被叫做“互联网”的公司了。它们是硬科技公司。是AI公司，是机器人公司，是脑机接口公司......也包括大量的、过去",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh"
+  },
+  {
+    "title": "百万token做赌注，字节把AI游戏这条路打通关了！",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4023934543892354?f=rss",
+    "published": "2026-10-13",
+    "summary": "文丨句号&nbsp;\n  编辑丨果脯&nbsp;\n  “没有人类了！” &nbsp;\n  字面意义上的，字节跳动用Seedance模型开发了一款“全AI”游戏。9月23日，朝夕光年旗下的江南工作室在steam平台发布《不问凡尘》EA版本，88%的好评率将字节推上了游戏界头版。&nbsp;\n  如果只是一款口碑爆棚的RPG，这似乎也并不稀奇，但如果它是集齐AI美术、AI配音、AI代码的“3A”游戏，获得如此好评，仿佛就有点“新鲜事”的意味。EA上线才三天，连我这样一个从未接触过修仙题材的人， 也整整玩了30个小时。&nbsp;\n  \n  steam商店页面\n  和“一句话生成”的AI游戏相比，《不问凡尘》的“完整”是它的最大优势，AI元素在制作中扮演的角色不只是一种美工工具。制作组花了一年时间，给玩家呈现了一番AI理解的修仙世界。“市面上AI浓度最高”，是总制作人昕玠对这款游戏的评价。&nbsp;\n  在AI跑出的世界观下， 与NPC人机对话成为了游戏的一大卖点。玩家能在对话中产生一种，“人类在学习AI的同时，AI也在变得更像人类”的感觉。这种与AI在同一片天地下从陌生到熟识的过程，恰恰",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "科氪 | 一加 16 产品力全面升级，打造史上最强「全能旗舰」",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4024086738047106?f=rss",
+    "published": "2026-10-13",
+    "summary": "2026 年 10 月 12 日，一加正式发布年度数字旗舰一加 16。新机秉持「性能之上，解锁更强」的产品主张，在持续领跑性能赛道的基础上，实现影像、屏幕、续航等产品力全面升级，打造史上最强「巅峰性能旗舰」。一加 16 首批搭载第六代骁龙 8 超级至尊版，配合全新一代风驰游戏内核，带来史无前例的「185FPS 极速枪神」体验；全球首发 185Hz 第四代东方屏，还配备 LUMO 2 亿风光影像系统、9000mAh 超大容量冰川电池等旗舰配置，以全面硬核实力树立年度性能旗舰新标杆。一加 16 现已开启预售，10 月 13 日全渠道正式开售，国补到手价 5199&nbsp;元起。\n  \n  官方图片\n  一加中国区总裁李杰在发布会上表示，一加手机今年再次以 18% 的销量增速保持行业第一，是目前唯一保持两位数增长的手机品牌。凭借极致的游戏性能体验，一加手机获得了超 68% 超高刷手游玩家的选择，用户净推荐值连续三年上涨，市场口碑屡创历史新高。从率先推动 165Hz 超高帧普及，到引领全行业游戏体验进阶，一加持续突破性能边界、推高行业上限。作为一加有史以来的最强旗舰，一加 16 的游戏表现与",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "Meta Unveils New Series of Advanced A.I. Models",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/10/12/technology/meta-muse-wonder-full-models.html",
+    "published": "2026-10-12",
+    "summary": "The new models, Muse Wonder and Muse Wonder Full, are meant to compete with cutting-edge A.I. models from rivals like Anthropic and OpenAI.",
+    "full_text": "Mark Zuckerberg, Meta’s chief executive, revamped his company’s A.I. division last year after setbacks in developing the technology.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "黑海局势缓和预期带动小麦期货连跌四日",
     "source": "新浪财经",
@@ -392,210 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxPTkVDSVZ1MjNYeExYTWpFYVFRWkdrRmFTUzdoUEplWW1KTmN1ZVNnbk1la0kzRnRMMFJWR3F5TTMtWGdIWk1rSTlJLTVLSmlna2xuWS11NGxIRnlpZWt1cVYzMzFsaUhOdXA1ZVJLLWFmajRuMzdLSV9OdXVtOExnSzlsN0RxSnJQZHlBSzNXSXFMUmx5cjlmb3FZajhqY1Iyc0Q1WXFVT3FWZlZNTF9vUFVyRDdRN0VHOU5YRk1zMWsyR2ZGMmxkU0lPbmJvcnREYzkzMnl0UDF6Nm1ic2IxR0xJUko1SmhsbUQyRFVjOTNZWnp1dnpvd1dKVGwwSEIxMjRmZmtHOG1CaldCUW5jOWpTUFR2VzdzSGxZT2tpRDQ1N2lVTWlNSTc0WTJaN3dBR0pNTDNxbGllNmQ4VXlUQzFxYnVOb2k0dHpSOFoxeUdEclZLZnFkMkQxaGtITmVfLWtaSzU2WkNtbUJMNV80UkxDS0VGOTdZQ0FBSnRMZTVUYXNoMTdlRldfdVQwbE9IQnlRak5haXFkUXZ5dzR5c3ZRbDhSVE5QZi1IXzVQdFhpYU93UkhYanY5MURkbnBnQXBkUlZ1VkplcmpFUm5iR2ctbFcweWlGYWdHTXFNYmJmZGswcHVuLV81NktSSkZCanExQTl4c0p5ampLYl9RdUFSaFkyaExxX0N2dnppcGJwcmVsa0t1VXhUbkV1VzduQ0lnZUxQRmpzaXllOWtSMlVvcHppaEh2YWVORG9qS1VUNFpUT2FlQ2ZkSDlab1lfaVNMVkg3NWNlelkzc09CS2FFRmR5R3RoazluZXBB?oc=5",
     "published": "2026-10-02",
     "summary": "55万亿元！上海提出建全球资管中心新目标：未来五年加速落地期权、期货等创新产品&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所（CME Group）暂停推出全天候 10 桶原油期货合约的计划。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82cGVNNVNRcnh4M3FhbWlVLTFKYU9LdkxMRlVLVUhheDdyNEotOW13empyVlpUcXJkMDFHcVIzNndoeHJjbFN0aEl2SFRtYUJPMnV5SWYwSndpZ0pFb21lbkZMTnkzR09RMDlpcnBVYWwxdmJ3UjRiOQ?oc=5",
-    "published": "2026-10-02",
-    "summary": "芝商所（CME Group）暂停推出全天候 10 桶原油期货合约的计划。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所：若不开展进一步尽职调查就推出能源全天候交易，可能会带来额外风险，对此存在担忧。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FbkYzdExZMk1jTU1NZjdTV20xd0pmMFE3aWpiUzNnSTBxam5SOXlJZVRUNE5CQ3lGNnFrY0cxTmw5aUpaUURseG16bjV3U0R4SGt0STJ4dW91cHJfTzE4UVBxZXBjVmdaeUdseVZQckhjSTZ2SHdpOQ?oc=5",
-    "published": "2026-10-02",
-    "summary": "芝商所：若不开展进一步尽职调查就推出能源全天候交易，可能会带来额外风险，对此存在担忧。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所谈及暂停推出全天候10 桶原油期货合约计划一事：希望美国商品期货交易委员会解决“不公平现象”，重建公平竞争环境。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zRTN1SU1SMWZQQm5CS1o4N2xzdmVfRGVMOEd0YnotSWwwM2wwNjZfZlRyaTkyeWF0OUVVOWE2alV0czNpalFfUi1TUUNDdEYxVGNmcUxHRk56ay1MRjNkX0ktY1pPU0tGcFJ1NTlnTE1VU2Y0TTNvSw?oc=5",
-    "published": "2026-10-02",
-    "summary": "芝商所谈及暂停推出全天候10 桶原油期货合约计划一事：希望美国商品期货交易委员会解决“不公平现象”，重建公平竞争环境。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "韩国重申回购警示 韩国国债期货上涨",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWGdSQ2pQMXRPMERuSVdqMHZEanp6Qy1aaVNDQWRJTWdEZVgtYmhVLVh4WUhkZ084TUlvT2d1VVBnQXc1TWRfb2g1bjdqc1kxaE5VWjBfVWdDYU5FUmtBRmRDNWtsUFNZNGR5MEhTcEQ3X1dHdEFzdkh5NVVRNW1Nekl4bUZCSTE5cHg1b3RydS1TdjVJREZJbW9OWXI?oc=5",
-    "published": "2026-09-30",
-    "summary": "韩国重申回购警示 韩国国债期货上涨&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "从欧洲到大湾区：香港如何打造全球硬科技人才的\"超级通道\"",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3995406571933824?f=rss",
-    "published": "2026-09-29",
-    "summary": "九月上旬，Aleksandr Gorbunov 从德国远赴中国香港，参与大湾区考察之旅。访问行程第三天，他在前海与机械人互动，又搭乘无人驾驶出租车穿梭深圳街道，近距离体验大湾区前沿科技的落地应用。\n  三个月前，他还在德国慕尼黑的会场里，为一座从未到访的城市设计创科解决方案。九月，他已踏上行程，用五天时间走过香港、前海与南沙。\n  这是香港人才服务办公室（香港人才办）与欧洲科技联合会（EuroTech Federation）合办的国际创科马拉松的后半程。二十位包括大赛得奖者在内的访问团成员于九月来到香港及其他大湾区城市，展开了一场深度实地考察。\n  \n  一场以香港为命题的欧洲竞赛\n  这场国际创科赛事于2026年6月6至7日在德国慕尼黑举行，吸引逾1,200名来自超过25个国家、100余所高校的申请者，其中250名决赛者以团队形式展开逾30小时角逐，最终选出十六位优胜者。\n  赛题的设定紧扣现实：方案必须结合香港的实际需求、市场环境与监管条件，于金融科技、医疗科技、智慧城市，以及人工智能和机器人这四个赛道提出创科方案，这促使参赛者主动研究这座城市。赛事期间，已有团队联络逾200位香港",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "做CTA策略选哪家期货公司服务好？探索东证期货量化服务体系",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYnYyeC1UNzBQb2lZTXRZR3R6NVNKeFhQVGw4aDgyNUdLUWsyU1JEYUtpdE9kYzhtbVMyN1U2eXYzclFKcVJRaGp6bEM0WmJ3cjJQbXVPMmlLMjhiRjBfV3JURWZlMlB6MlFKcTRqeDhJTmhRTExaNHljWnNXZWJRVEJ3aGgtczRm?oc=5",
-    "published": "2026-09-28",
-    "summary": "做CTA策略选哪家期货公司服务好？探索东证期货量化服务体系&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "钯金期货日内跌5%，现报1211.50美元/盎司。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWHZxbnBpcEc3SlNrZGFlT3VKMVN6ck91MHA2Und5YzFwWGFsUmQ5LTRtZzlwQWdwODZOQV8zWVZveko5LVBjRmpQcUVHUnpGVUpNQVNWZmloQ2ZfekN6Z2ExSnQ4akx3cXhXb1hqRmdWSnlaaUZ3dXAtbG5RbFJDX19rbw?oc=5",
-    "published": "2026-09-28",
-    "summary": "钯金期货日内跌5%，现报1211.50美元/盎司。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货热门专题浏览指南：2026 年一站式获取市场热点",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWGd3VWVCQXBncjBERGpUVjR1MVFTXzk1T1ZzT19sdFJZUG4yVUsxa0NYc2RPUllWU1FDUFF1cC1teXFrZnlnTU96czFVSUdUMUJweVdZRHpkMWhnWE9pdE92U2hMcXBCOU1LM0dTLWJoOFRnVUEwTEpVYmJCaXBpaFk4S3dLMFNzU0E?oc=5",
-    "published": "2026-09-28",
-    "summary": "期货热门专题浏览指南：2026 年一站式获取市场热点&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "云栖大会探展手记：游戏与AI正在碰撞出更多火花",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4002939061981062?f=rss",
-    "published": "2026-09-28",
-    "summary": "AI是2026年游戏行业最受关注的关键词之一。\n  过去几年，厂商和玩家还在反复讨论AI渗透游戏行业的利弊，也有人因为AI带来的变化而焦虑，行业里一度出现了一些盲目的尝试。\n  如今，关于AI的讨论风向似乎完全变了。从业者似乎终于形成共识：AI已经不可逆地更改游戏全行业的底层代码。新的问题变成了，站在AI的肩膀上，哪些过去依赖大量人工才能实现的事情，如今可以被重新优化，以及游戏这种互动媒介此前还有哪些创造力没有被充分释放。\n  这种变化的前提，是已经有先行者走在了前面。\n  今年云栖大会的「游戏互娱」展区十分热闹，一批先行者正在和阿里云一道展示着最新成果。\n  \n  云栖大会上的游戏展区&nbsp;\n  看完游戏展区，我最直观的感受是：AI对于游戏行业的改造，正在从零散的单点尝试，走向更系统的渗透。这种改变不仅限于为了压缩成本和工期，用AI生成游戏资产或代码，而是覆盖从技术基建、游戏设计、研发、发行的全链路。\n  在这些探索创新背后，阿里云在游戏云领域已经连续5年位列中国市场第一，覆盖全球数亿玩家，同时也是国内游戏云模型服务市场的第一。这意味着，今天讨论AI与游戏的关系，已经不是一家云",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "光大期货：9月28日金融日报",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc0pUdzJNVzBIdnoweDN1Z1lSbGNxTzhaMm1nVmtiay1XMWNrVmtuM3NHUXpsakZuOHpELXJ5U1R0OGVZUWFoZ19oRFlqR210eUpmTkRvanhPTW1pSmtmQ3MyUHEtSnRhMHVsNEdXZ21DYXBzNXJFT2wxNzZNeTdzdW10emR6djRhV0xnVg?oc=5",
-    "published": "2026-09-28",
-    "summary": "光大期货：9月28日金融日报&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "广金期货重点品种资金流向与基差日报 20260924",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaU1qOXg1TlFFRlp5bVhsSWt1NV9aYUJ0WTBiR3pMUjZJc1ZKZGx1WkRqd0hrTHpXNmNuWnluZ1h6NGJVb19jRWlfT0VZa3lSaFBqbG5DVGo4S1FaRmg4M01TWmdtc2pia19FSkRSYkpHRGZjdFpKR3BGU2NkODF6Q1JIRlJkLXlHalpvRXR3?oc=5",
-    "published": "2026-09-28",
-    "summary": "广金期货重点品种资金流向与基差日报 20260924&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国30年期国债期货下跌5个基点，布伦特原油价格上涨1.4%。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUEJHVkp4bGNSRnBPS0tjejgwRGdrTXQyU2tTbE85UTN6a012QmM5VGJnSDRJdzhXOGNpWXkxLWVIOXByZ3dnZjVFRlJsb3R1M2s0WHNjcVBLQU1ibm9sei03SmNMQ0hMVGdkZE9kOW9XallyYTQ1MkxRQU55V24yWWNfaw?oc=5",
-    "published": "2026-09-27",
-    "summary": "美国30年期国债期货下跌5个基点，布伦特原油价格上涨1.4%。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "标普500股指期货下跌0.1%，纳斯达克股指期货下跌0.1%。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSlVFN1ZFZ1BNZGY3aDRpaV9vRlB1UVEtQ2VuZmVHSWtxMWtYeTVCZTN1eWcxYklHSXVCcGVhbHd1bWx3RUZBRHk1d1loTnVsb2dfbzhnNEZaM04wLW5HT3lnVDJKaEljS3JMa0xPei1URldQZUpYTmdkSUw3V0djdWdwYw?oc=5",
-    "published": "2026-09-27",
-    "summary": "标普500股指期货下跌0.1%，纳斯达克股指期货下跌0.1%。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "圣农发展拟斥资最高1亿元开展商品期货套期保值 锁定12个月内原材料价格波动风险",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSUFsQzJ2S3MzNjhTSl9ZM1FCTGxWTTJYYldZR0JLVlcyN1BHazkzYm1OdDZldnpaS2pXb0dqcjZINFRKc3hDU3c0ZnZBOVlaUmQwMzdkLVFHRUZpXzFzUzF3a1VGUDlLV1hVdW1iWU9PUFNGOGNFTUQ2dm11TTgwVDBkSFlNQ1U?oc=5",
-    "published": "2026-09-27",
-    "summary": "圣农发展拟斥资最高1亿元开展商品期货套期保值 锁定12个月内原材料价格波动风险&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中国信通院何阳：我国初步具备开展算力期货研究条件",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5RMHhYMzNzR25aWTZVQlZEbG1kS2hYRjBlanpPX0dscEhGelBWRmkzNUZIV01aeUFOZHZ4RzFDQnZhdW56NDY4MVZtVHRvMlIzbGNaMi1HUWZ0c0xFc0Q0TUU2ek5fcTZ3aVF2VGJjRDJfS2pxV2JwTA?oc=5",
-    "published": "2026-09-27",
-    "summary": "中国信通院何阳：我国初步具备开展算力期货研究条件&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "平安期货袁建峰：AI加速重塑期货客户服务",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY1NyYTdxSVl2SFdZM0VqVHlPd3ZvcmExODU3ajkyOWFVT1M0N0V4bTJqMVdFam5TMjdhd1hUbnYtc2RjUm84RHNKR1B2ZXA3R3gtNEJoaFk2VlhlTnlKc09EaXRhWG11a21GUnFsd2Fza2pWdEQxd2IzTlYzRVltUQ?oc=5",
-    "published": "2026-09-26",
-    "summary": "平安期货袁建峰：AI加速重塑期货客户服务&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "光大期货中秋节特别节目：期货人爱吃什么月饼\"馅\"？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdWRWbm5NWUhRX29aWWM5enVsbVdPUU5yZUItSVJCSUZjNDdGR1p4MEVCY01RUW94Z0NIRzdvWmhFQW43WExfeUNkQnBXanlpR2Z3NTQyLUtCNzBZWXdIVUp1OE11Mm10RkZtTTRGWmNrVjR6QS1ZSVYxR0dmV2U0dVduOEtZQS1SQW9feA?oc=5",
-    "published": "2026-09-25",
-    "summary": "光大期货中秋节特别节目：期货人爱吃什么月饼\"馅\"？&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
