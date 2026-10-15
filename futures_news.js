@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-15T19:51:21Z
-var NEWS_FETCHED_AT="2026-10-15T19:51:21Z";
+// 生成:2026-10-15T23:01:31Z
+var NEWS_FETCHED_AT="2026-10-15T23:01:31Z";
 var GPU_NEWS=[
   {
     "title": "OpenAI Engineer, Who Is Charged With Planting Bug, Advised Saudis",
