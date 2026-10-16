@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-16T13:12:19Z
-var NEWS_FETCHED_AT="2026-10-16T13:12:19Z";
+// 生成:2026-10-16T19:32:34Z
+var NEWS_FETCHED_AT="2026-10-16T19:32:34Z";
 var GPU_NEWS=[
   {
     "title": "老板向AI许愿，员工让AI滚蛋｜深氪",
