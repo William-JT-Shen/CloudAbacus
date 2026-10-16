@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-16T04:15:54Z
-var NEWS_FETCHED_AT="2026-10-16T04:15:54Z";
+// 生成:2026-10-16T13:12:19Z
+var NEWS_FETCHED_AT="2026-10-16T13:12:19Z";
 var GPU_NEWS=[
+  {
+    "title": "老板向AI许愿，员工让AI滚蛋｜深氪",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4028378674205313?f=rss",
+    "published": "2026-10-16",
+    "summary": "文丨赵芮&nbsp;\n  编辑丨张雨忻&nbsp;\n  老板的“许愿池”&nbsp;\n  “你知道马斯克怎么管理员工吗？”听到这句拷问，胡芯兰感觉不妙。&nbsp;\n  对面的这位老板，来自一家重工业企业，员工规模过万。在社交媒体上，老板看到过马斯克用Agent代替真人员工工作的新闻，不禁燃起同样的念头。他对胡芯兰直言不讳：“能不能帮我把整个信息化部门都裁掉？我每天就跟Agent沟通。”&nbsp;\n  在胡芯兰接触的大量老板中，关于“裁员”的愿望普遍存在。他们来自金融、制造、互联网等不同行业，公司规模从几百人到上万不等。有的试探性地递来话头：“你觉不觉得，我们公司的人员有些冗余？”有的则抛出终极问题：“最多能裁员多少？”这位效仿马斯克的，是她遇到的最激进的一位。&nbsp;\n  还有一些老板，虽没明说裁员，但却希望AI能监控员工的一举一动。“能不能给我装一个Agent，记录每名员工每天做了什么、产出了什么、项目进展到哪一步，最好还能随时监控和调用这些Agent，再根据完整日志计算每个人的投入产出比。”&nbsp;\n  胡芯兰心里清楚，提出这种需求的老板，只是暂时还没把裁员摆在明面上，",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "OpenAI Engineer, Who Is Charged With Planting Bug, Advised Saudis",
     "source": "NYT Tech",
@@ -585,18 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTFpyc2ZVa3JzaWFkbW94Z2JJeVk3eWkxOXNjZW16VkxGZWtTbEpPTWpmejFRYWZ4Y0gwT1BVU1g1bWFvamJhaFZaemwxYW1YZU53RTR6ZmNnNnFCTlZxajhMbWZnNktpQlpyb3FnOXVvaDQ1Mk42LVlrRFowazN2NQ?oc=5",
     "published": "2026-10-02",
     "summary": "芝商所撤回推出全天候10桶原油期货合约的申请&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "55万亿元！上海提出建全球资管中心新目标：未来五年加速落地期权、期货等创新产品",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxPTkVDSVZ1MjNYeExYTWpFYVFRWkdrRmFTUzdoUEplWW1KTmN1ZVNnbk1la0kzRnRMMFJWR3F5TTMtWGdIWk1rSTlJLTVLSmlna2xuWS11NGxIRnlpZWt1cVYzMzFsaUhOdXA1ZVJLLWFmajRuMzdLSV9OdXVtOExnSzlsN0RxSnJQZHlBSzNXSXFMUmx5cjlmb3FZajhqY1Iyc0Q1WXFVT3FWZlZNTF9vUFVyRDdRN0VHOU5YRk1zMWsyR2ZGMmxkU0lPbmJvcnREYzkzMnl0UDF6Nm1ic2IxR0xJUko1SmhsbUQyRFVjOTNZWnp1dnpvd1dKVGwwSEIxMjRmZmtHOG1CaldCUW5jOWpTUFR2VzdzSGxZT2tpRDQ1N2lVTWlNSTc0WTJaN3dBR0pNTDNxbGllNmQ4VXlUQzFxYnVOb2k0dHpSOFoxeUdEclZLZnFkMkQxaGtITmVfLWtaSzU2WkNtbUJMNV80UkxDS0VGOTdZQ0FBSnRMZTVUYXNoMTdlRldfdVQwbE9IQnlRak5haXFkUXZ5dzR5c3ZRbDhSVE5QZi1IXzVQdFhpYU93UkhYanY5MURkbnBnQXBkUlZ1VkplcmpFUm5iR2ctbFcweWlGYWdHTXFNYmJmZGswcHVuLV81NktSSkZCanExQTl4c0p5ampLYl9RdUFSaFkyaExxX0N2dnppcGJwcmVsa0t1VXhUbkV1VzduQ0lnZUxQRmpzaXllOWtSMlVvcHppaEh2YWVORG9qS1VUNFpUT2FlQ2ZkSDlab1lfaVNMVkg3NWNlelkzc09CS2FFRmR5R3RoazluZXBB?oc=5",
-    "published": "2026-10-02",
-    "summary": "55万亿元！上海提出建全球资管中心新目标：未来五年加速落地期权、期货等创新产品&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
