@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-10-17T04:05:53Z
-var NEWS_FETCHED_AT="2026-10-17T04:05:53Z";
+// 生成:2026-10-17T12:08:09Z
+var NEWS_FETCHED_AT="2026-10-17T12:08:09Z";
 var GPU_NEWS=[
+  {
+    "title": "禾赛不只想卖激光雷达｜最前线",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4028766019719557?f=rss",
+    "published": "2026-10-17",
+    "summary": "图片来源 禾赛科技\n  文｜肖漫编辑｜袁斯来\n  “我们不是为了卖激光雷达又造了一个 Kosmo。”在 Kosmo 发布会前，李一帆先明确了这一点。\n  Kosmo 是禾赛科技近日发布的三维世界数据引擎，由全球首款 8K 超高清 AI 空间相机 Kosmo One 和 AI 驱动的云平台 Kosmo World 组成。前者负责采集真实世界的空间信息，后者将这些信息重建为能够被 AI 理解、交互和训练的三维场景。\n  这是禾赛在激光雷达主营业务之外的一次延伸。过去，禾赛主要向汽车和机器人提供感知硬件；现在，它希望进一步参与物理 AI 的训练过程，把真实世界转化为可供 AI 使用的数据资产。\n  这也是李一帆从零部件提供商走向物理 AI 的核心基础设施提供商的第一步。\n  从激光雷达迈向物理 AI 核心基础设施\n  物理 AI 要真正走向规模化，至少需要解决两个问题：机器人如何在真实世界中完成动作，以及 AI 如何获得足够多、足够好的真实世界数据。\n  禾赛正在围绕这两个问题布局两项业务：机器人运动引擎与三维世界数据引擎。Kosmo 是后者首次系统性的产品化落地。\n  \n  图片来源 禾赛",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "贵金属板块集体飘红 钯期货主力涨超3%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYmdLdTZQSGRtWDN0ek42MEJBOVRLSVQxaHRuMjN2THlrZDRpSTkydDRIeUtZeGtocTZCclJnUG1yVVpVT19iQ1VfcmZDOTVuOXFOelV6Nnk4R0NnYkljNXFweExBVEdaLUFZTjY1RmV6bVQtRVFfY01zdmJKQnV5akhuY29TOHAxX2ExQw?oc=5",
+    "published": "2026-10-16",
+    "summary": "贵金属板块集体飘红 钯期货主力涨超3%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "老板向AI许愿，员工让AI滚蛋｜深氪",
     "source": "36氪",
@@ -573,30 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VM3VlVzRvOEx2WDNmdlhBYUUxNWFvRDZPdi1meW0wWUN4SUhjc2NIWjlXNDMwLURHTEg1Mm5DR1FCY0xOSFNSRktNd0hXNGZ4TTRyMGtXSFdMX0NPdUxMTFkxWFRFQm5tMHp3S3ZjSnBrSzhNZ0M5aA?oc=5",
     "published": "2026-10-05",
     "summary": "美股盘前丨道指期货涨0.1% 高通美股盘前涨逾1%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝加哥期权交易所拟推出“恐慌指数”VIX永续期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOVMzcmR6bG9iQzZjaHJBYWg2UTJqbC1VNTB4aFBtb0UzWDV3ak1qMDlSWUpEWlJ0dlVLeTh1Zk9TdVJrUUgySWJlVTBUM01WTkpOT0t3TGFJQ1Y0X0xUVHpIdmVfa1pMV0lxU2V2dnBzRS1lemZzNlNwVUtYejFtbUJ5cEREaHBIWUYyQmEyWk84cG9iSTlvZFRuYkpRa1ZfUFpfcGNvODhiNjMzZVpuOHFmWk9HaHBZQnc2cm8wVlJJX0Q1Yy1aZVZSUDBFYnMx?oc=5",
-    "published": "2026-10-02",
-    "summary": "芝加哥期权交易所拟推出“恐慌指数”VIX永续期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所撤回推出全天候10桶原油期货合约的申请",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTFpyc2ZVa3JzaWFkbW94Z2JJeVk3eWkxOXNjZW16VkxGZWtTbEpPTWpmejFRYWZ4Y0gwT1BVU1g1bWFvamJhaFZaemwxYW1YZU53RTR6ZmNnNnFCTlZxajhMbWZnNktpQlpyb3FnOXVvaDQ1Mk42LVlrRFowazN2NQ?oc=5",
-    "published": "2026-10-02",
-    "summary": "芝商所撤回推出全天候10桶原油期货合约的申请&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
