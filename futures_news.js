@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-17T12:08:09Z
-var NEWS_FETCHED_AT="2026-10-17T12:08:09Z";
+// 生成:2026-10-17T18:23:17Z
+var NEWS_FETCHED_AT="2026-10-17T18:23:17Z";
 var GPU_NEWS=[
   {
     "title": "禾赛不只想卖激光雷达｜最前线",
@@ -85,6 +85,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "正信期货：马棕增库兑现，短期连棕或反复磨底",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON01xbnhWd1pvV21HcS1RYy1DYUFWTGxmU1BvRlVxQmx2SFpiUTRHTmh2S1RoWTQwQndPeU5iUGYzSEZxSFpiTkZwMW1tM1ZMLWE4cGZvRXFqT1hFbDQwcmpqVkZrUlNGNmhodzRTTEdmbDRuU3l4c1B1Qk9CeXk4RVl0UWs4cDIzTERoNg?oc=5",
+    "published": "2026-10-14",
+    "summary": "正信期货：马棕增库兑现，短期连棕或反复磨底&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -585,18 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcC1sM3Y1ZGtrVGtxbTVNdHlKREZmQzhrN09EM013OFJnOTg3RU9YNEZLLUZOZXBtM3lmdXNhV05UYVhBRzFBc196YUNaME53eFZINl9RNm5fZzhNckI0ZGtMYjhrZTRhaXlMamtNN0dLTXhhcUxqS255SXB2ZFI1NWRWRlE1SGthWTNieHBiS2RZVXNXM2JMOEpMTEp3Mmw3c2Q5eUxmNkdhWDJqajEtcXZ4RGRRVHIwMTRoY19rX2lsMFNTREFYTG5ZNHNGYlFRWEdmaTdTaVQyWU5ldGc?oc=5",
     "published": "2026-10-05",
     "summary": "盘前：纳指期货跌0.1% 交易员紧盯美债收益率与油价&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股盘前丨道指期货涨0.1% 高通美股盘前涨逾1%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VM3VlVzRvOEx2WDNmdlhBYUUxNWFvRDZPdi1meW0wWUN4SUhjc2NIWjlXNDMwLURHTEg1Mm5DR1FCY0xOSFNSRktNd0hXNGZ4TTRyMGtXSFdMX0NPdUxMTFkxWFRFQm5tMHp3S3ZjSnBrSzhNZ0M5aA?oc=5",
-    "published": "2026-10-05",
-    "summary": "美股盘前丨道指期货涨0.1% 高通美股盘前涨逾1%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
