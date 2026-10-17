@@ -25473,7 +25473,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.95
+            "price_usd": 3.27
           },
           {
             "platform": "CoreWeave",
@@ -25491,7 +25491,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 1.73
+            "price_usd": 1.33
           },
           {
             "platform": "CoreWeave",
@@ -25551,7 +25551,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.12
+            "price_usd": 0.08
           }
         ],
         "NVIDIA L4": [
@@ -25571,7 +25571,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.4
+            "price_usd": 0.53
           }
         ],
         "RTX 5090": [
@@ -25619,19 +25619,19 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.16
-          }
-        ],
-        "NVIDIA RTX 4080 / 4080 Super": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.15
           }
         ],
         "RTX 4060": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.08
+          }
+        ],
+        "NVIDIA RTX 4080 / 4080 Super": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.24
           }
         ],
         "NVIDIA RTX 3060 / 3060 Ti": [
@@ -25683,7 +25683,17 @@ var PRICE_HISTORY_DATA = {
         "RTX 2070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.07
+          }
+        ],
+        "NVIDIA A100 (80GB SXM)": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.4
+          },
+          {
+            "platform": "JarvisLabs",
+            "price_usd": 0.44
           }
         ],
         "NVIDIA T4": [
@@ -25701,7 +25711,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.4
+            "price_usd": 0.53
           }
         ],
         "NVIDIA GH200": [
@@ -25714,12 +25724,6 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "Paperspace",
             "price_usd": 1.84
-          }
-        ],
-        "NVIDIA A100 (80GB SXM)": [
-          {
-            "platform": "JarvisLabs",
-            "price_usd": 0.44
           }
         ],
         "NVIDIA A100 (40GB PCIe)": [

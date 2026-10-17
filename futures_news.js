@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-17T18:23:17Z
-var NEWS_FETCHED_AT="2026-10-17T18:23:17Z";
+// 生成:2026-10-17T22:11:42Z
+var NEWS_FETCHED_AT="2026-10-17T22:11:42Z";
 var GPU_NEWS=[
   {
     "title": "禾赛不只想卖激光雷达｜最前线",
@@ -12,6 +12,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "盘前：纳指期货跌0.12% 沃什讲话后加息押注仅剩15%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTG9rZnBDeDZUcWJHdVQ3VFFaM2dTdXJWZDUtVXQzZ2hVdkJKM0oxdVc4OFJSQkpHVWs0cEc1WHFTYUg3MW5BVnRXQ213X1d1R09LcTVFZXFSVkVqVXNnVDFzMjF6Zy00dHY2NjZfdUM5LUI5WTR6RkdIdzFTY1BzaTIzS3EzemZXaEctQng1RzNTczlYSGtxWFlRM3k?oc=5",
+    "published": "2026-10-16",
+    "summary": "盘前：纳指期货跌0.12% 沃什讲话后加息押注仅剩15%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -585,18 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWU5wYWFTb1pyWFppTnlidGJHWHFOWUlFS3FjUXRKdnVWdUV6d0dHSk8xWG9tOVIzOVRQbTBFcDVKYk5xUzFhUFdHdjU3NVoyWmlfTzJ1cjNRcjNSb0FxYUdWQ245WHdhNDE4RDJOUVpKRG9KM2xwTWJhbEFsR0xqZXZUNlRFYjQ?oc=5",
     "published": "2026-10-05",
     "summary": "美债新的风险隐匿在国债期货合约细则中 “CTD切换”或加剧抛售&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "盘前：纳指期货跌0.1% 交易员紧盯美债收益率与油价",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcC1sM3Y1ZGtrVGtxbTVNdHlKREZmQzhrN09EM013OFJnOTg3RU9YNEZLLUZOZXBtM3lmdXNhV05UYVhBRzFBc196YUNaME53eFZINl9RNm5fZzhNckI0ZGtMYjhrZTRhaXlMamtNN0dLTXhhcUxqS255SXB2ZFI1NWRWRlE1SGthWTNieHBiS2RZVXNXM2JMOEpMTEp3Mmw3c2Q5eUxmNkdhWDJqajEtcXZ4RGRRVHIwMTRoY19rX2lsMFNTREFYTG5ZNHNGYlFRWEdmaTdTaVQyWU5ldGc?oc=5",
-    "published": "2026-10-05",
-    "summary": "盘前：纳指期货跌0.1% 交易员紧盯美债收益率与油价&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
