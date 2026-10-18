@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-17T22:11:42Z
-var NEWS_FETCHED_AT="2026-10-17T22:11:42Z";
+// 生成:2026-10-18T04:13:39Z
+var NEWS_FETCHED_AT="2026-10-18T04:13:39Z";
 var GPU_NEWS=[
+  {
+    "title": "前华为车BU世界模型基模负责人创业，杭州具身大脑公司获近亿元融资｜硬氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4025325566054529?f=rss",
+    "published": "2026-10-18",
+    "summary": "作者｜黄楠\n  编辑｜袁斯来\n  硬氪获悉，具身大脑公司「格物通智」已完成近亿元天使轮融资，投资方包括匹克投资、鸿富资产、杭州资本、杭州人才集团、某省级具身产投及多家头部上市公司。资金将主要用于物理反演世界模型的大规模预训练与技术迭代、硬件与本体构建等，加快人才引进和规模扩充，并推进多个场景PoC验证和真实数据采集。Maple Pledge 枫承资本出任本轮独家私募股权融资顾问。\n  格物通智卡位杭州，于2026年8月成立，首轮即获得杭州市级层面三支基金的支持，包括杭州润苗基金、杭州颠覆性成果转化基金、杭州人才基金，是国家具身智能应用中试基地生态伙伴、‌杭创具身智能营成员。\n  公司面向真实产业场景研发自进化的灵巧操作智能，依托触觉-视觉为主的多模态数据真实闭环构建 “物理反演世界模型 + PSI物理自进化” 技术体系，为机器人提供有“手感”的具身大脑并在持续作业中自主沉淀实操经验、将“工龄”变成能力，实现越用越适配场景的持续进化。\n  本轮资方中，匹克投资作为国内头部运动科技履产业集团，已同格物通制签订战略合作协议，公司将围绕鞋履制造对 \"双柔+一高精\"，即柔性制造、柔性材料、亚毫米",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "禾赛不只想卖激光雷达｜最前线",
     "source": "36氪",
@@ -197,6 +209,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "瑞达期货(002961)早盘涨停 金融街论坛年会将发布系列金融改革政策",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLVYzSUZySzFZM1BWZDd0MVdPSVktMmpmWHlELWduaTR6QVdCc2JuZDhyWVVuYlBhQmFaSmVDbTRwUUJaaVJPQlhhcDVnYTAyTzJ2U2FtZmE1YWZMSV9LU2FBaUI0MmJycGJaN3FpbjRxa1FJbGxSS3ZCS0NQbzQ3Sg?oc=5",
+    "published": "2026-10-13",
+    "summary": "瑞达期货(002961)早盘涨停 金融街论坛年会将发布系列金融改革政策&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -573,30 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa3QwbHlEYTJkZEdRM0k4UTVVWF9uNG16NjQxRlZXdm4zUzdDUXo0UzF2ZHM5a0trNnpfZk5pTnJrRHo5Qko4VTZoTC1zN005RDdTckY2R1lRaldBWGRYOWJ0LWVXOENVXzMyLTlqWVAxbFNselJzaXJ5UlVqU1oxNGJBWWVZc28?oc=5",
     "published": "2026-10-05",
     "summary": "南方东英黄金期货每日杠杆(2x)产品（7299）公布交易数据 每单位资产净值21.1352港元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "原糖期货创近两年新高 全球供应趋紧担忧升温",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbzFQYXkyazBIR1oxRkVrZWhlVThONFdIWXhYMjFrakpGTkpwTzRuVnhnUFdWemlYY1dWZlVEbXp0Tk9zd1Fxam43VG9GVmtXX3pOM1p1VHRjRzJxRThfVngyR0NrbTF4T1lMZTRJQ0pyem5tbkZZaEpBUG9wYzlXZmdibTJTUmM?oc=5",
-    "published": "2026-10-05",
-    "summary": "原糖期货创近两年新高 全球供应趋紧担忧升温&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美债新的风险隐匿在国债期货合约细则中 “CTD切换”或加剧抛售",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWU5wYWFTb1pyWFppTnlidGJHWHFOWUlFS3FjUXRKdnVWdUV6d0dHSk8xWG9tOVIzOVRQbTBFcDVKYk5xUzFhUFdHdjU3NVoyWmlfTzJ1cjNRcjNSb0FxYUdWQ245WHdhNDE4RDJOUVpKRG9KM2xwTWJhbEFsR0xqZXZUNlRFYjQ?oc=5",
-    "published": "2026-10-05",
-    "summary": "美债新的风险隐匿在国债期货合约细则中 “CTD切换”或加剧抛售&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
