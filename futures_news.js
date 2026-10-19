@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-18T22:24:13Z
-var NEWS_FETCHED_AT="2026-10-18T22:24:13Z";
+// 生成:2026-10-19T04:22:31Z
+var NEWS_FETCHED_AT="2026-10-19T04:22:31Z";
 var GPU_NEWS=[
+  {
+    "title": "聚焦在轨服务，要打造太空机器人集群，「国宇星辰」完成近亿元A轮融资｜36氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4032195238482313?f=rss",
+    "published": "2026-10-19",
+    "summary": "文&nbsp;|&nbsp;阿至\n  商业航天的叙事，正在从“把卫星送上天”过渡至“卫星上天后”怎么管、怎么运营。\n  除了组网建设加速，一个直观的信号是，低轨星座的补网压力也正在逼近。根据NASA戈达德航天中心此前发布的研究数据，2020至2024年间，有583颗星链卫星从极低地球轨道坠落。而为了防止失控与碰撞，卫星的主动变轨和避让动作也变得愈发频繁。根据SpaceX 7月向美国联邦通信委员会（FCC）提交的报告，仅半年内，星链卫星执行的避让动作次数就超20万次。\n  当几万颗卫星陆续铺满近地轨道，问题被摆到台前：谁来负责太空中的“管、修、加、清”？\n  答案在国外已经有人跑通。日本的Astroscale 以碎片清理起家，2024年登陆东京证券交易所，营收四年增长约五倍；意大利的D-Orbit用20余次轨道运输任务验证了客户付费意愿；美国Space Logistics的MEV-1在2020年完成首次商业在轨延寿，为一颗工作了19年的GEO卫星续命五年。根据Fortune Business Insights的报告，全球在轨服务市场正处于稳定增长通道，预计从2026年的31.8亿美元增长",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "前华为车BU世界模型基模负责人创业，杭州具身大脑公司获近亿元融资｜硬氪首发",
     "source": "36氪",
@@ -585,18 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXgwYVZRZEtnNVdEdVlmcURORm9uVFZUZVRoSWpzcldSeEF5TVF1SHBlVDNTT0h4Q1ZhYkNnODRNUFU2a0Vqd1didW9DN0otRUFPV0FyMjdSTi0tcFlaaU03OTJDUTc3NE14SUxUbjVrVXY2TDNhVm1vVFg0RnR6c2U4MGlDeVk?oc=5",
     "published": "2026-10-06",
     "summary": "盘前：纳指期货涨0.62% 美债收益率回落&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "南方东英黄金期货每日杠杆(2x)产品（7299）公布交易数据 每单位资产净值21.1352港元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa3QwbHlEYTJkZEdRM0k4UTVVWF9uNG16NjQxRlZXdm4zUzdDUXo0UzF2ZHM5a0trNnpfZk5pTnJrRHo5Qko4VTZoTC1zN005RDdTckY2R1lRaldBWGRYOWJ0LWVXOENVXzMyLTlqWVAxbFNselJzaXJ5UlVqU1oxNGJBWWVZc28?oc=5",
-    "published": "2026-10-05",
-    "summary": "南方东英黄金期货每日杠杆(2x)产品（7299）公布交易数据 每单位资产净值21.1352港元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
