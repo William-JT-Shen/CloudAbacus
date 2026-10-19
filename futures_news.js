@@ -1,7 +1,55 @@
 // GPU算力期货新闻
-// 生成:2026-10-19T15:32:06Z
-var NEWS_FETCHED_AT="2026-10-19T15:32:06Z";
+// 生成:2026-10-19T21:01:53Z
+var NEWS_FETCHED_AT="2026-10-19T21:01:53Z";
 var GPU_NEWS=[
+  {
+    "title": "光大期货1019热点追踪：燃料油独自大涨，这件事跟你的油费有什么关系？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ2I1Q0FsMW5mdGQzdllIWUd5czRJeEFBQ3ZOdl9MNXhsazdwcmMyY0hSQmZ0N1oxUFZ0bVRReHlqUjVaOFItd095YmFPM1VTZmZLS0dEbGdnZFkyVmlSOVEwenJLcnVfeEtNa2ZjYkhHSENyUFZ6OHc0R0JNcXZXNWNMVWpQVmJvTDhvYQ?oc=5",
+    "published": "2026-10-19",
+    "summary": "光大期货1019热点追踪：燃料油独自大涨，这件事跟你的油费有什么关系？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "期货夜盘开盘整体下行 燃油逆势走强涨超1%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JbmpXUzdneGdjQ0F2bEhjaWVsVUpjend0MWFyWldXb1dPYzNFSXlwTGFtSWJ3UmNUS2hZNGVBQVFFWFA4Q0loSG0zLWFBeldBYzJVdy1Ma3dwaUtPclIzQnA0Q3ZvYjhiNXhVaWZSclpCUVZtazVGVw?oc=5",
+    "published": "2026-10-19",
+    "summary": "期货夜盘开盘整体下行 燃油逆势走强涨超1%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "芝商所拟于2026年底前推出欧洲乳制品期货与期权合约",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaXV5NExaSVNDWF9oTDI0bGxzUV95cWRTLTJ5ZVpIUDBneTZLMzc1dGtKRlh1b3czSm1iVG1oLU15eFlkTVlZT0Rsb19KblNRdDF3SWY3R2pWdHZDdEs2TzlnOHNseEctUkJITnh6YUtLRzhFdTBvYXFBUWlxcWhRSlZjSzZTTFZsQTlRb2M3TF83RUVBZnp1MDNCMlc?oc=5",
+    "published": "2026-10-19",
+    "summary": "芝商所拟于2026年底前推出欧洲乳制品期货与期权合约&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中金财富期货：黄金表现较为稳定",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaFpVNmVqa2thcUxGTk5FVm42ZHo3ampXMDVIWHBtTTd0M1UxOG9pUkp0b3NpR0wza2szVTF3QndhaUVHaFZQX3BONWRsSl9rRmxGd1R5ZUtnUzlZNEhGNTVVaDRjT0ZXeHNfd29wNXEybGhMRU1CVnhzUVdMYVpTdw?oc=5",
+    "published": "2026-10-19",
+    "summary": "中金财富期货：黄金表现较为稳定&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%",
     "source": "新浪财经",
@@ -549,54 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1hsb05BU0wxbGVBVkFUZjhwUG8wMUhZeGJwWk9oYWx2R2ZsakZ4Tk82SjZvR3duV1dMa1J1UTVBZ3JnMGdqT2tSamdZVzROSGFueGhsd1laOWVLTWZDNHJucTJBT3ZjYUpfMVhMbkQtQmd2eER3d1VvNk9nZmFTR3V0VzFNVE1UZW5ZTXJn?oc=5",
     "published": "2026-10-07",
     "summary": "期货资讯丨周度财经日历（2026.10.8-2026.10.9）&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "法国国债期货在六个月最大涨幅后下跌",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLW84QmdodnFWWG1vcTZ3X1JqMmlfWnF2Q3FDRm5jRFdWUVlPWk5vT3U5OTBDTFR6QlkyQk9hQndjWVNTQVlRTkRlejlIWVRWR1VSeU9kVGxzbmExQ05TbHlvYlFERWJwczZPN0VyemIzRFBwSTFUTVVrc085VzZUX3VvSjVoMm8?oc=5",
-    "published": "2026-10-07",
-    "summary": "法国国债期货在六个月最大涨幅后下跌&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "伦敦黄金期货“复活”！洲际交易所入场，挑战纽约主导格局",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1dTJlQ0hJdkttMnpSQXg2LWkzX3pBYTJlMGFRcUo0dGFFdERrQkIyTE0ya0xsa0p6eWxEUURLUlVyNWQ5NkVmbTAySWR5ZW03TTVTNG0yS3dyTG5tdVNiRDdzYjBndjM0UXV4V24xUnJMUDF1THlWNA?oc=5",
-    "published": "2026-10-06",
-    "summary": "伦敦黄金期货“复活”！洲际交易所入场，挑战纽约主导格局&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股盘前丨三大股指期货齐涨 Constellation Energy盘前涨超10%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04SENabklubUlCaDMzbnFmeDlXakhaei1YNGRKUXhMR3daTWNSbmpRLTFUNFh3WXMtTEVkVTNkTm5TV2hsakd2VUxnbFE0RWtBeVN6cE8zTUNWcWVyVm9LeEdKM3ZVM1B2SjZpWHlQRXpLUHZRTHg5Zw?oc=5",
-    "published": "2026-10-06",
-    "summary": "美股盘前丨三大股指期货齐涨 Constellation Energy盘前涨超10%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股盘前要点丨美国股指期货、欧股集体上涨，OpenAI在其智能体擅访澳数据后采取新防范措施",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOODlKQlFyMk1RYXlGUllSWW5vTWY2V3hJUkVEOW1fOW9GbHkzdUp2LUxhVjE2U0NOVmMwcEtOQXRCU1hweHR0c05td2FlbzE1cGpqMk04UmFkLUJZUFpaRE1QQlMtVzgwQXNxWGdvX1BJd0JLV2R3R1d6UzlrNVZyUg?oc=5",
-    "published": "2026-10-06",
-    "summary": "美股盘前要点丨美国股指期货、欧股集体上涨，OpenAI在其智能体擅访澳数据后采取新防范措施&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
