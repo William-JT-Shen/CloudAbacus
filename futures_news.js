@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-19T04:22:31Z
-var NEWS_FETCHED_AT="2026-10-19T04:22:31Z";
+// 生成:2026-10-19T15:32:06Z
+var NEWS_FETCHED_AT="2026-10-19T15:32:06Z";
 var GPU_NEWS=[
+  {
+    "title": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLXdDUmdTeFRXekstWW1vNVFXRW9Yck1lQmQwZGYwWjNRUTU5ajRGNzVQQUlHMjQ1VTlqa0YybkM5WmxqclZGazNWWktiVEhEaTdrd1JVdUUzNkM1M29pLV9OZE52YnVDY1VZU0pCczhTSnh5bGRMOHhYWmNQd2NFbzR6T0l3Rnc?oc=5",
+    "published": "2026-10-19",
+    "summary": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "聚焦在轨服务，要打造太空机器人集群，「国宇星辰」完成近亿元A轮融资｜36氪首发",
     "source": "36氪",
@@ -36,6 +48,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "两倍做多波动率指数期货ETF收涨15.36%，成交额3.12亿美元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMEZfdk0tVUtuaFcySWEteG9MOUIzUUtCeC1BbFpaNFJ4a1NCTzctRVBGdzlNbE1EdHcxTjY3eXpZSmhpYm1fNjhtYmVSbExweTJrUHhUMDcwVnMzcW9pTlRjMHZkam5fZm8yanc3bnVJR3Fqb0tjVHkzUnBfOFA1QjJGVnVhbGxzb3NSemR3?oc=5",
+    "published": "2026-10-16",
+    "summary": "两倍做多波动率指数期货ETF收涨15.36%，成交额3.12亿美元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -573,30 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOODlKQlFyMk1RYXlGUllSWW5vTWY2V3hJUkVEOW1fOW9GbHkzdUp2LUxhVjE2U0NOVmMwcEtOQXRCU1hweHR0c05td2FlbzE1cGpqMk04UmFkLUJZUFpaRE1QQlMtVzgwQXNxWGdvX1BJd0JLV2R3R1d6UzlrNVZyUg?oc=5",
     "published": "2026-10-06",
     "summary": "美股盘前要点丨美国股指期货、欧股集体上涨，OpenAI在其智能体擅访澳数据后采取新防范措施&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货缩 14 亿，现货转正：BTC 多空博弈",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUVtcllUMHdheEFRN3JYcUR2NG5pN2ZSbnJIX0xJRm1Xbmp3bGFIRzFhZ2JJQ1Q2anBqTFFweWN6Uk5tSjV0OU1fdGYyNTN6eFhBanNJaW9nMWdPUFRkOWtpQThDb3pWUThldkdXbFZjUjFHNHNvTm56Xzlfd2NJckM3OEFzWHdBcEp6a1V1YXhOTHJF?oc=5",
-    "published": "2026-10-06",
-    "summary": "期货缩 14 亿，现货转正：BTC 多空博弈&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "盘前：纳指期货涨0.62% 美债收益率回落",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXgwYVZRZEtnNVdEdVlmcURORm9uVFZUZVRoSWpzcldSeEF5TVF1SHBlVDNTT0h4Q1ZhYkNnODRNUFU2a0Vqd1didW9DN0otRUFPV0FyMjdSTi0tcFlaaU03OTJDUTc3NE14SUxUbjVrVXY2TDNhVm1vVFg0RnR6c2U4MGlDeVk?oc=5",
-    "published": "2026-10-06",
-    "summary": "盘前：纳指期货涨0.62% 美债收益率回落&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
