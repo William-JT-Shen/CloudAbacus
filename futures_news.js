@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-19T21:01:53Z
-var NEWS_FETCHED_AT="2026-10-19T21:01:53Z";
+// 生成:2026-10-20T04:33:03Z
+var NEWS_FETCHED_AT="2026-10-20T04:33:03Z";
 var GPU_NEWS=[
+  {
+    "title": "华泰期货：三大机构继续下调全球石油需求增长",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNc29fUm4xNWtHZGMxdnBlQnhsbmRlTnY2TXE1bnczN3VBMzN6TVE5c0F4WjZWZi1xaGdqTDVSamNQbUE3c2RJd3F6OFJiaEtjMmc4MWZfSG1xM1U1d0c4QUdtQ2tVZTdOcldSQ1lqT3BnN0dhMC1rRl9sUl93N0tPWkdnd0xWTlVfNGh0LXVIS0hyN1lrSld0S0UyRDlMd2hrYXNiTjVyNVVoa21BRm43VEJBZk9vZWNwZG5OWVNGMzNDNDZvWXVwT0FvZm5HN19Nanc3bDZvOVRIUzJybllrdmQ1Zw?oc=5",
+    "published": "2026-10-19",
+    "summary": "华泰期货：三大机构继续下调全球石油需求增长&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "光大期货1019热点追踪：燃料油独自大涨，这件事跟你的油费有什么关系？",
     "source": "新浪财经",
@@ -296,6 +308,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "国际原油期货持续走低",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oaDB4dmx5Yko0UXM2THlBUUFoclBLUW5fd3pYdzR4YmtWSGJwZGZUU25VWkItUjJ4RThadXI0Rk5aU2Q5c2JYNnFXdEE4QmNnSmR6eTZWMmlKbGd0TWFXQ0duUU9jRGVwRGQ1SnRVNE4xSFozNUJJRA?oc=5",
+    "published": "2026-10-13",
+    "summary": "国际原油期货持续走低&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "瑞达期货(002961)早盘涨停 金融街论坛年会将发布系列金融改革政策",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLVYzSUZySzFZM1BWZDd0MVdPSVktMmpmWHlELWduaTR6QVdCc2JuZDhyWVVuYlBhQmFaSmVDbTRwUUJaaVJPQlhhcDVnYTAyTzJ2U2FtZmE1YWZMSV9LU2FBaUI0MmJycGJaN3FpbjRxa1FJbGxSS3ZCS0NQbzQ3Sg?oc=5",
@@ -573,30 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSFBLOVo5N3JtbzVuRU95eDZ0b3NEX1NKVk9wR3BLTUk1N3JxUURZcF81RUdxNVRULUV3TkNjY0ZSRG5XUHl3NHZqZGRCZFdLZjFMTmpRMmx6bURoSGFqZ2Z0dWdOeFRMMUdrMUs4RWM3a2pORHVPWFU2ZlkyYmZBR1dMeWxmd1pIQzY4ZQ?oc=5",
     "published": "2026-10-08",
     "summary": "哪个网站能查期货公司评级和排名&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国股指期货小幅走低 关注美联储会议纪要",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ01Ha0Zna2RYTjUwZ1MyczVjcEJwb2Y1cTFBMDQ5TF9yd1g2T2FzU3FXa1pwWkJOVURQc2w3bm5SV0lYazl1Z3hYbDRVLUNaeXRNajBuWWNNcmNSdnVDZGNIVFdHRXhndnozT2NWZnlQdjlnWnB0VGNMRWJoYmhma0dfLTNMM2s?oc=5",
-    "published": "2026-10-07",
-    "summary": "美国股指期货小幅走低 关注美联储会议纪要&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货资讯丨周度财经日历（2026.10.8-2026.10.9）",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1hsb05BU0wxbGVBVkFUZjhwUG8wMUhZeGJwWk9oYWx2R2ZsakZ4Tk82SjZvR3duV1dMa1J1UTVBZ3JnMGdqT2tSamdZVzROSGFueGhsd1laOWVLTWZDNHJucTJBT3ZjYUpfMVhMbkQtQmd2eER3d1VvNk9nZmFTR3V0VzFNVE1UZW5ZTXJn?oc=5",
-    "published": "2026-10-07",
-    "summary": "期货资讯丨周度财经日历（2026.10.8-2026.10.9）&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
