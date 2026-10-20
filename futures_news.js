@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-20T13:32:51Z
-var NEWS_FETCHED_AT="2026-10-20T13:32:51Z";
+// 生成:2026-10-20T19:59:59Z
+var NEWS_FETCHED_AT="2026-10-20T19:59:59Z";
 var GPU_NEWS=[
   {
     "title": "硬氪首发丨虚拟电厂公司完成数亿元融资，预计2027年盈利",
@@ -24,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "原油期货期权护航能源安全",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhdThvNDVvOElRRjVXN1FBYWFybWd2UmtkbjBEeVBudlhtSGdCc3lOZmNfTGFfbm4wcGFmZFRJbkVNeTBON0Q0Q2g3NXVFUlBQcURDUGtRTE5tWmFMMUctdHBEdUcxV1k3REFXWjA1MzhyRnpHT3c?oc=5",
+    "published": "2026-10-19",
+    "summary": "原油期货期权护航能源安全&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -585,18 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNPQ1FHWDZUQUJVZHc3b1ZWQlQwZ2JlNFpHRUtibVctUXFhMVJYRFVPUFdyc2FhVEp5WlU5SUtEMUsxU2ZwYThlUXZiQzI5QTRBdDk3MDEwNHk0WHZySFdmdnItNjN0OWlyTDV2LXQwNUlUT2pzd1Z6eGtLNzNQTg?oc=5",
     "published": "2026-10-08",
     "summary": "富时中国A50指数期货跌超1%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "永安期货跌2.07%，成交额4955.47万元，主力资金净流出178.62万元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcTZWRXdTamdJRUtxQWc1WGVZZDZSVVRxbW9waVROVzZYQ09EOTBFTjIyVVRTVXRjeXEzYmZRb0NfMGFYUGlhalhPWkpqcVJidDNBa1hkbjhpMmdlNDc3WU85b2VYVjJjNWtjQk9HNG1HSGtyQkFhTmkyWHpJejA3TnlZWlh2UzUtRnlvZQ?oc=5",
-    "published": "2026-10-08",
-    "summary": "永安期货跌2.07%，成交额4955.47万元，主力资金净流出178.62万元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
