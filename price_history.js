@@ -25437,7 +25437,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 3.27
+            "price_usd": 3.34
           },
           {
             "platform": "CoreWeave",
@@ -25455,7 +25455,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.33
+            "price_usd": 1.79
           },
           {
             "platform": "CoreWeave",
@@ -25488,10 +25488,6 @@ var PRICE_HISTORY_DATA = {
           {
             "platform": "RunPod",
             "price_usd": 0.33
-          },
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.27
           }
         ],
         "NVIDIA RTX 4090": [
@@ -25501,7 +25497,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.18
+            "price_usd": 0.2
           },
           {
             "platform": "TensorDock",
@@ -25535,7 +25531,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.47
+            "price_usd": 0.4
           }
         ],
         "RTX 5090": [
@@ -25589,7 +25585,7 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.24
+            "price_usd": 0.27
           }
         ],
         "RTX 4060": [
@@ -25598,16 +25594,16 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.08
           }
         ],
-        "NVIDIA RTX 3060 / 3060 Ti": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.03
-          }
-        ],
         "NVIDIA RTX 3080 / 3080 Ti": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.11
+          }
+        ],
+        "NVIDIA RTX 3060 / 3060 Ti": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.03
           }
         ],
         "NVIDIA RTX 3070 / 3070 Ti": [
@@ -25619,12 +25615,6 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 2080 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
-          }
-        ],
-        "RTX 2060": [
-          {
-            "platform": "Vast.ai",
             "price_usd": 0.09
           }
         ],
@@ -25634,26 +25624,32 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.25
           }
         ],
-        "RTX 2070": [
+        "RTX 2060": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.09
           }
         ],
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.1
+            "price_usd": 0.13
           },
           {
             "platform": "DataCrunch",
-            "price_usd": 10.49
+            "price_usd": 10.59
+          }
+        ],
+        "RTX 2070": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.06
           }
         ],
         "NVIDIA A100 (80GB SXM)": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.47
+            "price_usd": 0.4
           },
           {
             "platform": "JarvisLabs",
@@ -25669,13 +25665,13 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA Tesla P100 / P40": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.07
+            "price_usd": 0.09
           }
         ],
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.47
+            "price_usd": 0.4
           }
         ],
         "NVIDIA GH200": [
