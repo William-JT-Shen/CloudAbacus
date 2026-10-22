@@ -1,7 +1,55 @@
 // GPU算力期货新闻
-// 生成:2026-10-22T19:59:53Z
-var NEWS_FETCHED_AT="2026-10-22T19:59:53Z";
+// 生成:2026-10-22T23:13:52Z
+var NEWS_FETCHED_AT="2026-10-22T23:13:52Z";
 var GPU_NEWS=[
+  {
+    "title": "光大期货：1022热点追踪：新低伴随缩量，期指何时企稳？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUVZFQ3pjeklmc0V4bnhZRWxJQTViaFYzbnBHUXZvT2hXbWl5cVVsM3RjaFFRVVFoUVJVQzVoN0VxXzdRZXp0eHhzZWFCSmdPXzkxSnZmT2h2TmhFaUhfVDQ5b0hpbk5fdC1yMU5qUEVORF95eVpzRnRsZTFMX1U3QVQ0aWN5UEs0d0MzSmxVNVJNcHAzNlBLcEhldFJoTG5VZWtRRUhRUFNQRGpnUTZnTUJaNDhHdUw3NXp4aUN1ZGFuUFlDX1FBTXNNNENkWWtwOUk0ZU10cjRTbFVOQVlCczlaV05Ba0M3?oc=5",
+    "published": "2026-10-22",
+    "summary": "光大期货：1022热点追踪：新低伴随缩量，期指何时企稳？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中泰期货(01461.HK)：2026年面向专业投资者非公开发行次级债券(第一期)发行完毕",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUTZjRlkxRkxQM20zbUtUd1I3LWYwTklISUlpTk8zZlhJYXFiNjNYbG1lRE54QkI2eGhWM0xhRFFJWEp4NkdRNHpMSHVzU1dMaWRlaEIxRDduV0ljVWd2NTN2U0FOQ3ZydjdnV0JQbEhvNTZNSHRuUkVfMUlvUW1WNQ?oc=5",
+    "published": "2026-10-22",
+    "summary": "中泰期货(01461.HK)：2026年面向专业投资者非公开发行次级债券(第一期)发行完毕&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "纽约商品交易所11月天然气期货结算价为每百万英热单位2.7960美元。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15YllKSV8yQ1NqWjItYzFuakNLUWNWSkJOa0lxMDhRWng1SlZxWGFnOGh3M3F6aEc2WTh5VlY5bkxlbkFIT3pKSzRuS3JpNVNiZGVBcFNEMjJKc2gteERFTnY5RG5qMEdPTmpMZ0lEMmJLM1lRVHlyeA?oc=5",
+    "published": "2026-10-22",
+    "summary": "纽约商品交易所11月天然气期货结算价为每百万英热单位2.7960美元。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "关于对长安期货有限公司山东分公司采取出具警示函措施的决定",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWUhXa1BlR3RmSjhvazlySmFYQ0c4c2FUN3JyYjNGRzI5dVdPem1aaFp4Q3drcTA0S3NMTVVCM0I4TkpEUlhxUXFUeUgxLURVUnJLOUwyRVVRNXJ6RFF4Sm50MkVvQmd3QjJWUVR2NGxiZEFrSU1UWDJjRE5mOGxlYg?oc=5",
+    "published": "2026-10-22",
+    "summary": "关于对长安期货有限公司山东分公司采取出具警示函措施的决定&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "广州金控期货贵金属日度报告20261021",
     "source": "新浪财经",
@@ -549,54 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTklBUWdSSkJEN3E0NEg0dGo4dXlKdlI1SS1ZQllzUnF1QTlVb3NlVDBXc1RxcTY5Y1c2NWZTcFRRSWlwSzd5SkZxckxBNUFySnRIYTFxQmdsSVNfVGRqZzdsV01WWmlaVlNoaVktbUpZaW1jWG1nRmZyMVlkWXNMSnNkblE5NExVdTNjSlVWcTVKUlY3cFE?oc=5",
     "published": "2026-10-12",
     "summary": "港股异动 | 锂矿股早盘下挫 碳酸锂期货跌破11万关口 供应侧复产、扩产压制锂价&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "碳酸锂期货再度大跌创年内新低，5月至今已近腰斩",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZVlldnpkMlZBWlJqUVFfX1M2ZG93VHRWMDBHekRlUFpxZWZUOG5IemZpNGxYZzI3U0NrX3h0d0paUzJXSFRsMmtSVkttRmFmSFZmbG1BUDY2dl9fbTVWeFBiV2tLRUg5Mko0Mkp1UjVKN2xPN1E5UmZDR095OHVDbg?oc=5",
-    "published": "2026-10-12",
-    "summary": "碳酸锂期货再度大跌创年内新低，5月至今已近腰斩&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "白犀牛完成1亿美元C轮融资，L4无人配送生态布局提速｜36氪首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4005486834880384?f=rss",
-    "published": "2026-10-12",
-    "summary": "无人物流赛道持续火热。\n  36氪独家获悉，L4级自动驾驶企业白犀牛近日已完成C轮融资，金额1亿美元，由隐山资本领投，湘潭国资、深重投、湖南财信、韩国友利金融集团、博正资本等跟投。资金将重点投向L4端到端技术与物理AI能力迭代、城市运营网络持续拓展。\n  白犀牛成立于2019年4月，由前百度自动驾驶团队成员朱磊和夏添共同创立，是一家提供全栈式无人配送解决方案、并实现无人车常态化运营的自动驾驶技术公司。公司自成立以来已获超8轮融资，本轮为公司历史上最大单笔融资。\n  \n  白犀牛无人车\n  “每一轮融资，我们都坚持引入与公司发展阶段契合的股东”，白犀牛CFO于洋向36氪表示。本轮融资的一大特点，是构建了“产业+政府+金融”的复合型资本结构——多元背景的资本带来的不只是资金本身，更是一张生态化的资源网络：资本不仅为公司输血，更带来场景、路权、金融服务与全球化拓展的多重杠杆。\n  领投股东普洛斯隐山资本，是中国物流供应链股权投资中最懂资产与场景的产业派之一，今年已连续两次向白犀牛注资。\n  普洛斯遍布全球的产业资源，不仅为白犀牛提供了稳定的业务订单，也为其全球化拓展打开了通道；韩国友利金融集",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "成年人要的「安心」，有时是一支笔给的",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4019731047731078?f=rss",
-    "published": "2026-10-10",
-    "summary": "在快节奏、高强度的现代都市里，我们每天都在被推着向前，生活似乎随时处于一种微小的失控与无序之中。\n  当一切都可以被屏幕与算法快速替代，我们反而开始怀念那些看得见、摸得着的实感。重新拿起一支笔，在纸页间划掉一项任务、记下一个灵感，这种极为具体的书写，正在成为成年人的“精神兜底”：不管今天多乱，至少这一笔，是自己说了算。\n  很多时候，这种让人安心的感觉，就来自于桌边那支握感舒适、落笔顺畅的好笔。\n  地铁站偶遇：成年人重新为笔停留的瞬间\n  在上海陆家嘴地铁站的地下换乘通道里，人流仿佛被按下了快进键。\n  人群总是踩着几乎一致的急促节奏向前走着，通道两旁的巨幅大屏上，轮番交替着华丽的广告。这些光鲜亮丽的视觉符号早已构成了顶级金融区某种固定的都市背景板。\n  但在刚刚过去的十一假期，人们却在这里遇到了一个有点特别的广告。\n  大屏上整齐铺开的是一片清爽、干净的蓝白背景。画面里没有夸张的特效，也没有奢华的产品展示，主角是身着浅绿色西装与干练衬衫的知名歌手周笔畅。她或微笑着手握一支造型利落的淡蓝色中性笔指向镜头，或侧身与巨型中性笔轻快互动；一旁配着极为醒目的黑体大字——“KAYOU卡游文具，",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "光大期货：10月9日软商品日报",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWVhwZ2o5R0V4bzlXbDNJQnA3TzJZZ1VVWVNvdmp5Slh1Mk11Y1ZZMmZXLXpHZVN0b0FnMjNXSnFfSlBRaW51UVNPa1V6aFUwYmhZNXZrdlJpV1l3YTBGZFlmVUlwUW02U09BajZPOWFaSnE1YVpqVE1XMkY4ZmY2ekFNWERsZDZmYUpRUmg4NG5mdDlYdGw1NGhJZlB1b1pDckVCSm9pc29VRGhSbm9WUGRRSlIxSGlLeU1CMVVJRlc0YmNwTGg5ZE50c29KUmZnLUk5ZEs3ZVFkQzg?oc=5",
-    "published": "2026-10-09",
-    "summary": "光大期货：10月9日软商品日报&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
