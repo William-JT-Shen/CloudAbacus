@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-22T13:44:12Z
-var NEWS_FETCHED_AT="2026-10-22T13:44:12Z";
+// 生成:2026-10-22T19:59:53Z
+var NEWS_FETCHED_AT="2026-10-22T19:59:53Z";
 var GPU_NEWS=[
+  {
+    "title": "广州金控期货贵金属日度报告20261021",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMkJPTWhGb2tLbnpETUNvWE1YSnEwbFJacXVNNDdFa2FFaDd1STVZUXhsMU5PQzdyN1pnSzNDMUZPcFhWQWlwS1gxVGFTNEVIc1pXajZGT0hrdS0yUWFWQXYzcmFuMGlaamJTTENtSmxFS3lGY2hkSkw2VVRTdGE2N0tUZW05TTNDZnphZDh3?oc=5",
+    "published": "2026-10-22",
+    "summary": "广州金控期货贵金属日度报告20261021&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "纳斯达克100指数期货跌幅扩大至1.5%",
     "source": "新浪财经",
@@ -589,18 +601,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "8点1氪丨国际金价回调，金饰克价已暴跌约150元；A股千元股仅剩3只；711印度门店全部关闭",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4017873472884616?f=rss",
-    "published": "2026-10-09",
-    "summary": "今日热点导览\n  \n   粤万年青：澄清董事长欧先涛未涉航班冲突传闻，已报案处理\n   711印度门店全部关闭\n   2026年诺贝尔文学奖揭晓\n   腾讯据悉考虑发行至多50亿美元离岸债券\n   消息称三星手机四季度最高减产30%\n   Manus完成超5亿美元新一轮融资\n  \n  TOP 3大新闻\n  国际金价显著回调，金饰克价已暴跌约150元\n  近期，国际金价经历显著回调，COMEX黄金期货跌破每盎司4200美元，国内沪金击穿每克900元关口，品牌金饰价格较高点累计下跌每克150元左右。受金价下行带动，深圳水贝首饰金挂牌价回落至每克1061元。\n  金价回调叠加节日促销，让这个全国最大的黄金珠宝集散地迎来了外地游客的购金热潮。一名黄金导购表示，国庆期间每天至少带30到40组外地客户到水贝购买黄金。与此同时，水贝市场的“国际面孔”悄然增多，钻石类首饰和高品质金饰尤其受到海外游客的青睐。（央视财经）\n  A股千元股仅剩3只：联讯仪器、源杰科技、贵州茅台\n  受半导体、通信板块走低影响，10月8日高价股群体中权重最大的科技类个股普遍下跌。其中，寒武纪跌幅近3%，股价收报于981元，收",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
