@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-10-22T04:24:40Z
-var NEWS_FETCHED_AT="2026-10-22T04:24:40Z";
+// 生成:2026-10-22T13:44:12Z
+var NEWS_FETCHED_AT="2026-10-22T13:44:12Z";
 var GPU_NEWS=[
+  {
+    "title": "纳斯达克100指数期货跌幅扩大至1.5%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ3BjVXRzU3FHdzFHYW9UWVNWdEpjOTdhbFlJSUZJakprYi1aM282bDR2eDNLaUtVVF9Da0VPX1ZzN1BvRGd0bHBRN2k0UFF4Y2RtZFR5OHpZbk5HYWsxN194am1WVFJFaGJTZjlEOFpYaHVnNnY2azdXSHZhWm9sd2F5RDluMk5feE5hUlVxZw?oc=5",
+    "published": "2026-10-22",
+    "summary": "纳斯达克100指数期货跌幅扩大至1.5%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "两倍做多波动率指数期货ETF收跌2.98%，成交额7474.53万美元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeGpNV2NJU3RaTkNWYjNTR0dBMXlMNFZEdFAzYnNHdVdNT0U2LUJ4dUQ5ODVScjRUM0xzc1ctckJrclM1NXl0R1c3WWdfTUdSSUR6Z3ZvUkoyMFpYdnRwZzFhQVQ0N2JabFNIb2dKTE91U0RzM0lxSGNodnNhZmxVRUkxc0JjVTJCUFRtZjZ3?oc=5",
+    "published": "2026-10-21",
+    "summary": "两倍做多波动率指数期货ETF收跌2.98%，成交额7474.53万美元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "LME金属期货收盘涨跌不一",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xdUV6R1B6YUNSS0c5dTcydFBvbWFwc2pzVWNrWWhnbDFITWlqWllRbkJMNDlvTGVpaTRoMFk5dXpPZkVaR2hSNHBfRldqWms3YVVzdnJ0eGlGVTN4WUtvLTJydmdmNlhWS2NJUWdLc1dPaVc4eGZhZw?oc=5",
+    "published": "2026-10-21",
+    "summary": "LME金属期货收盘涨跌不一&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "原油系期货主力合约短线拉升",
     "source": "新浪财经",
@@ -565,42 +601,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "36氪首发｜「闹翻天PLAYFULLY」获青山资本投资，为世界造一张“中国球星卡”",
-    "source": "36氪",
-    "url": "https://36kr.com/p/3987542281862149?f=rss",
-    "published": "2026-10-09",
-    "summary": "作者｜任彩茹\n  36氪获悉，新兴收藏级卡牌公司「闹翻天PLAYFULLY」（以下简称“闹翻天”）近期完成新一轮融资，青山资本领投，天使轮老股东Adam Zhu持续追投，领甪资本担任长期财务顾问。本轮资金将主要用于全球顶级体育IP的获取与拓展、产品研发与工艺创新以及全球化全渠道建设。\n  「闹翻天」创立于2024年下半年，核心团队深耕文体IP运营、潮流衍生品开发与卡牌行业多年。公司创始人曹磊拥有20年体育产业运营及投资经验，曾在全球最大体育管理公司IMG任职多年，也曾在苏宁投资、曜为资本、复星集团、IDG等机构负责文体投资与产业运营。\n  2024年8月，闹翻天以电竞头部IP王者荣耀职业联赛（KPL）衍生品切入市场，产品上线首月营收突破百万元，首年即完成千万级营收并实现盈利。在此基础上，团队将核心方向聚焦于自身具备资源壁垒与专业沉淀的赛道——顶级体育IP与球星卡。\n  2025年3月，闹翻天拿下阿根廷国家足球队为期五年的亚洲独家授权合作，并与足球巨星梅西达成官方球星卡签字合作。随后又于2026年7月再度锁定比利时国家足球队的独家授权，并通过旗下球星卡品牌「HEROCK」在世界杯期间陆续",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "快讯：纯苯期货、甲醇期货主力合约相继触及涨停",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDNlSnc1MGhfb1lwZUhJN3lSRS1OWVBPbXpnakhnVWVMdWM5LW5JZDJHb0xXUlBiLUZXM08xUFlsYXUxam1KY0JteWZJQV9SbzZlZm5lZDVtS3ZSeXJIUE5TQzN4RjAxUUhHNDF1S3RNb1pWMlRVbGZxLTVvekF4N3Q4YnNnVEpxZ3o2bA?oc=5",
-    "published": "2026-10-08",
-    "summary": "快讯：纯苯期货、甲醇期货主力合约相继触及涨停&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "光大期货1008热点追踪：能化涨停潮！哪些品种是真缺货？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPT2RRM21MZ2FZdWFuczlCMEg0WjZYNlVmM1o5R2NFUm9DNlNCb3RDMXNCUVl6akh0eHJSSXJERHpHalhOTHdaOFRGOFFHeF9hX0hQZ1FSa1hBS0RGa0tncmQ5VkRlZEZEQXUtU0ZZQmFYUlJHOW55M0pXWk9pS3lFZndsa2tJQ2ZGV0N5ZjRaRTRhM1VfRUVsUHYyQW5KcHFORVYzQldGSVZGcWc2QkdpTnhYZEVhdmpULUFsXzc5TU9ZSDBzbXhvVFJvSzFxb0ZjREpfN19EekpJbnFpTm1zS25IVGs?oc=5",
-    "published": "2026-10-08",
-    "summary": "光大期货1008热点追踪：能化涨停潮！哪些品种是真缺货？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
