@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-10-23T04:29:17Z
-var NEWS_FETCHED_AT="2026-10-23T04:29:17Z";
+// 生成:2026-10-23T13:20:26Z
+var NEWS_FETCHED_AT="2026-10-23T13:20:26Z";
 var GPU_NEWS=[
+  {
+    "title": "陈子昊：提升人民币资产吸引力，需要增加优质资产供给",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLXVJZUVxMDl2RHNBZjBYY1VBV2doSWtsdDRzd3dNa19QSW9zNFlXRnNkcGpNWTdwb1FWQmVKU3FOS0lEVXhGOWRMV0U3X0xaTUIxM2NVamljOTlTWEp6VV92a2ZmUGZVRmNWU1RPc0JSSjVGVkthaWNPSGtCN1JjcDlDemJDM2FrTTFTamNWY1IzNjdLODlsTTA0ZVdKRXRFSHFtZjV0eEwtNW9HUHExaUI0aGJDN0I1MUVJSGlyZUJueXExU3IxdHZxRTlMUkxXa3dRbw?oc=5",
+    "published": "2026-10-23",
+    "summary": "陈子昊：提升人民币资产吸引力，需要增加优质资产供给&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "三个月融两轮，要把遥感数据卖成“情报”，「瑞启深空」获超亿元天使+轮融资｜36氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4038309503997065?f=rss",
+    "published": "2026-10-23",
+    "summary": "36氪获悉，瑞启深空科技（苏州）有限公司（以下简称“瑞启深空”）近日完成超亿元天使+轮融资。本轮融资由东吴创新领投，苏创投、火炬电子、乾融资本、金雨茂物等机构跟投，资金将用于卫星研制与发射、地面系统搭建以及早期商业化交付。\n  瑞启深空成立于2026年3月，是一家以天基能力为底座、以AI为驱动的智能遥感星座公司，业务覆盖智能遥感数据服务、卫星研制和星座运营。\n  这是瑞启深空在三个月内完成的第二轮融资。加上此前2.2亿元天使轮融资，累计融资金额近3.5亿元。在商业航天一级市场资金向头部集中的当下，这样的节奏对于早期项目而言是一个积极信号。\n  瑞启深空由创始人、董事长兼CEO杜一光联合吉天星舟等发起创立。任露泉、林君、段广仁三位院士作为首席科学家，分别在仿生智能遥感、地理空间信息体系、卫星及星座智能控制等方向提供技术支撑。\n  已验证技术和可预期的商业进展是资本加注的重要因素。杜一光给出了一组数字：瑞启深空在三个月时间内积累了超6000万在手订单，与全球领先海运企业、头部矿业集团、大型金融公司等客户达成智能情报产品合作意向，预计年底在手订单总额将达2亿元，实现3000万元的营业收入。\n",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "苹果期货近月合约触及跌停 主力合约续创五年新低",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSHFGekxBcWxiQjNiZVBFTW9nX0c1ZGZjRGZHZDI4bVZrcElENTh6TFlYamw3dkExTEhBUlY3RGNQeXhLUFB5YmFYN09tQkVVSldGc0hianpvQzJ0STFLSmx4N0w5aktYSEtZZmNHMUg4RThhSUpncVF1Qko3NDZBSklEZmd6cDRXeEFIVDVtOGJqUWpNYWt2QmlCSWhpQTNKVWc?oc=5",
+    "published": "2026-10-22",
+    "summary": "苹果期货近月合约触及跌停 主力合约续创五年新低&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "光大期货：1022热点追踪：新低伴随缩量，期指何时企稳？",
     "source": "新浪财经",
@@ -561,42 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qb0phQkRSSjdjVXQ1dHZjVHlId2VGYUNXRGx6XzVvQk1VRFJHWGlBMnZiWnlOX0MzS21SZ3R1Vk9qeTZXdHJqNFZKejZqN2ZvLUVJQ0ZqNVMyN05LcVY1eG1uVVN4bHZYV1ppMThXTDRRTW1ZOHh2Vg?oc=5",
     "published": "2026-10-12",
     "summary": "黑海局势缓和预期带动小麦期货连跌四日&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国债市：国债期货基本持平 假期交投清淡",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96V19rZllqZ1RkOFpOb0l6MWI5N3oxVjFIbENnZkI1RWxQMWtOU0tWR0xiOUVyakdmeW5nSXZ1clZFaFZUc09ZZWZKZ2FBaFN1aC13bE9DTmhMSWhrWnVoZzNadXNMY2hVSUFRSm1uQS1VWm9wNi1wSjN3?oc=5",
-    "published": "2026-10-12",
-    "summary": "美国债市：国债期货基本持平 假期交投清淡&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "国债期货早盘收盘集体上涨",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xWk5qT09Lb3pYLTJxc1J3YzBRS0NFNDJ0U0JWcGR0T29GQm9BelBBbVB5TDIwOWpuY3V3UjJsR1pXSmw0QUJzZnlMcHhwS01rRGlwOFFQX0hfUXM0NVhQN1pQY1JQekhTVE4wVTZqR2NnLURjdFRHeg?oc=5",
-    "published": "2026-10-12",
-    "summary": "国债期货早盘收盘集体上涨&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "港股异动 | 锂矿股早盘下挫 碳酸锂期货跌破11万关口 供应侧复产、扩产压制锂价",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTklBUWdSSkJEN3E0NEg0dGo4dXlKdlI1SS1ZQllzUnF1QTlVb3NlVDBXc1RxcTY5Y1c2NWZTcFRRSWlwSzd5SkZxckxBNUFySnRIYTFxQmdsSVNfVGRqZzdsV01WWmlaVlNoaVktbUpZaW1jWG1nRmZyMVlkWXNMSnNkblE5NExVdTNjSlVWcTVKUlY3cFE?oc=5",
-    "published": "2026-10-12",
-    "summary": "港股异动 | 锂矿股早盘下挫 碳酸锂期货跌破11万关口 供应侧复产、扩产压制锂价&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
