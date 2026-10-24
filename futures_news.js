@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-24T04:19:30Z
-var NEWS_FETCHED_AT="2026-10-24T04:19:30Z";
+// 生成:2026-10-24T12:42:24Z
+var NEWS_FETCHED_AT="2026-10-24T12:42:24Z";
 var GPU_NEWS=[
+  {
+    "title": "拿到2亿美金融资，Today AI回答了Personal AI的十个核心问题",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4039749830120583?f=rss",
+    "published": "2026-10-24",
+    "summary": "文｜邓咏仪\n  编辑｜张雨忻\n  近一个月，包括Muse、Instinct在内的Personal AI产品引起全球轰动，成为最受关注的AI创业赛道。其中，Muse上线22天就突破500万次下载——ChatGPT当年花了56天才达到这一数字——难得地为AI应用赛道争了一口气。&nbsp;\n  一家AI公司Today AI也许比Muse探索得更早。创始人齐俊元曾创办Teambition，之后在阿里、字节等大厂负责过各类产品。今年初组建团队后，Today AI自9月9日起陆续上线了国际版和国内版本。&nbsp;\n  用一句话概括，Today希望做的是用户的“私人助理”。通过用户授权Today的信息、应用数据后，Today将会在持续对话中积累记忆，目标是成为一个以“人”而非任务来组织的通用助手。&nbsp;\n  和其他Personal AI产品相比，Today尤其强调AI助手要“像人”。这个坚持体现在产品的方方面面：用户在注册时，必须给AI助手起一个名字；在对话时，Today从一开始就坚持不以任务划分窗口，所有交互都在一个窗口完成。&nbsp;\n  有意思的是，很多年以前，当齐俊元还在创业时，",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "陈子昊：提升人民币资产吸引力，需要增加优质资产供给",
     "source": "新浪财经",
@@ -156,6 +168,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "富时中国A50指数期货低开，现跌0.26%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OdHZKVXgzSWJQUFN0SlZ0Njc4clQ5QklTUVRkbjc5N1lNeDRablhVTkdVcnMyZ2NtaDFIQW9hTFh2YmtZWlhTTUdyS0dhN2wxYkEwNHBfa2JTY3R1Wk1LQl96bmdaWmR0VG9UVXRlMmIzZFRZVjA1Vg?oc=5",
+    "published": "2026-10-20",
+    "summary": "富时中国A50指数期货低开，现跌0.26%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -576,31 +600,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "Meta Unveils New Series of Advanced A.I. Models",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/10/12/technology/meta-muse-wonder-full-models.html",
-    "published": "2026-10-12",
-    "summary": "The new models, Muse Wonder and Muse Wonder Full, are meant to compete with cutting-edge A.I. models from rivals like Anthropic and OpenAI.",
-    "full_text": "Mark Zuckerberg, Meta’s chief executive, revamped his company’s A.I. division last year after setbacks in developing the technology.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "黑海局势缓和预期带动小麦期货连跌四日",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qb0phQkRSSjdjVXQ1dHZjVHlId2VGYUNXRGx6XzVvQk1VRFJHWGlBMnZiWnlOX0MzS21SZ3R1Vk9qeTZXdHJqNFZKejZqN2ZvLUVJQ0ZqNVMyN05LcVY1eG1uVVN4bHZYV1ppMThXTDRRTW1ZOHh2Vg?oc=5",
-    "published": "2026-10-12",
-    "summary": "黑海局势缓和预期带动小麦期货连跌四日&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
