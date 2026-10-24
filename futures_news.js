@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-24T12:42:24Z
-var NEWS_FETCHED_AT="2026-10-24T12:42:24Z";
+// 生成:2026-10-24T18:45:48Z
+var NEWS_FETCHED_AT="2026-10-24T18:45:48Z";
 var GPU_NEWS=[
   {
     "title": "拿到2亿美金融资，Today AI回答了Personal AI的十个核心问题",
@@ -116,6 +116,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ3BjVXRzU3FHdzFHYW9UWVNWdEpjOTdhbFlJSUZJakprYi1aM282bDR2eDNLaUtVVF9Da0VPX1ZzN1BvRGd0bHBRN2k0UFF4Y2RtZFR5OHpZbk5HYWsxN194am1WVFJFaGJTZjlEOFpYaHVnNnY2azdXSHZhWm9sd2F5RDluMk5feE5hUlVxZw?oc=5",
     "published": "2026-10-22",
     "summary": "纳斯达克100指数期货跌幅扩大至1.5%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "科技巨头财报表现不一叠加油价走高 美股期货走低",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeWJuTEdQaUFLM1JRR0pnbHRqSGJzS1M1TGExX1NQcGtpbzd2MFlySG1icUNLbWZVc3dKUHVmLUd3MTEtTGxQUDMybFlzZEpmRV8xZUJ4SmNhQ0JVRzZFdERyeVl0T2dvRTVudFh4VmdQbEUya0JKcDJ4U0FhY2tMZUQzbllGeE93NE9Za3BTQ1F0QVdibGc?oc=5",
+    "published": "2026-10-21",
+    "summary": "科技巨头财报表现不一叠加油价走高 美股期货走低&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -584,18 +596,6 @@ var GPU_NEWS=[
     "url": "https://36kr.com/p/4023934543892354?f=rss",
     "published": "2026-10-13",
     "summary": "文丨句号&nbsp;\n  编辑丨果脯&nbsp;\n  “没有人类了！” &nbsp;\n  字面意义上的，字节跳动用Seedance模型开发了一款“全AI”游戏。9月23日，朝夕光年旗下的江南工作室在steam平台发布《不问凡尘》EA版本，88%的好评率将字节推上了游戏界头版。&nbsp;\n  如果只是一款口碑爆棚的RPG，这似乎也并不稀奇，但如果它是集齐AI美术、AI配音、AI代码的“3A”游戏，获得如此好评，仿佛就有点“新鲜事”的意味。EA上线才三天，连我这样一个从未接触过修仙题材的人， 也整整玩了30个小时。&nbsp;\n  \n  steam商店页面\n  和“一句话生成”的AI游戏相比，《不问凡尘》的“完整”是它的最大优势，AI元素在制作中扮演的角色不只是一种美工工具。制作组花了一年时间，给玩家呈现了一番AI理解的修仙世界。“市面上AI浓度最高”，是总制作人昕玠对这款游戏的评价。&nbsp;\n  在AI跑出的世界观下， 与NPC人机对话成为了游戏的一大卖点。玩家能在对话中产生一种，“人类在学习AI的同时，AI也在变得更像人类”的感觉。这种与AI在同一片天地下从陌生到熟识的过程，恰恰",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "科氪 | 一加 16 产品力全面升级，打造史上最强「全能旗舰」",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4024086738047106?f=rss",
-    "published": "2026-10-13",
-    "summary": "2026 年 10 月 12 日，一加正式发布年度数字旗舰一加 16。新机秉持「性能之上，解锁更强」的产品主张，在持续领跑性能赛道的基础上，实现影像、屏幕、续航等产品力全面升级，打造史上最强「巅峰性能旗舰」。一加 16 首批搭载第六代骁龙 8 超级至尊版，配合全新一代风驰游戏内核，带来史无前例的「185FPS 极速枪神」体验；全球首发 185Hz 第四代东方屏，还配备 LUMO 2 亿风光影像系统、9000mAh 超大容量冰川电池等旗舰配置，以全面硬核实力树立年度性能旗舰新标杆。一加 16 现已开启预售，10 月 13 日全渠道正式开售，国补到手价 5199&nbsp;元起。\n  \n  官方图片\n  一加中国区总裁李杰在发布会上表示，一加手机今年再次以 18% 的销量增速保持行业第一，是目前唯一保持两位数增长的手机品牌。凭借极致的游戏性能体验，一加手机获得了超 68% 超高刷手游玩家的选择，用户净推荐值连续三年上涨，市场口碑屡创历史新高。从率先推动 165Hz 超高帧普及，到引领全行业游戏体验进阶，一加持续突破性能边界、推高行业上限。作为一加有史以来的最强旗舰，一加 16 的游戏表现与",
     "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
     "lang": "zh",
     "images": [
