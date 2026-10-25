@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-24T22:25:49Z
-var NEWS_FETCHED_AT="2026-10-24T22:25:49Z";
+// 生成:2026-10-25T04:23:59Z
+var NEWS_FETCHED_AT="2026-10-25T04:23:59Z";
 var GPU_NEWS=[
   {
     "title": "拿到2亿美金融资，Today AI回答了Personal AI的十个核心问题",
