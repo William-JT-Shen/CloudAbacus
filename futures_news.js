@@ -1,7 +1,55 @@
 // GPU算力期货新闻
-// 生成:2026-10-25T22:28:06Z
-var NEWS_FETCHED_AT="2026-10-25T22:28:06Z";
+// 生成:2026-10-26T04:27:04Z
+var NEWS_FETCHED_AT="2026-10-26T04:27:04Z";
 var GPU_NEWS=[
+  {
+    "title": "长安期货范磊：选举将至地缘维持，油价或加剧运行幅度",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQVRScEE1Vnh0cDZtaG9JVWtuay1rdGp3WVprNmVRMEVoRm8tREYtRU1FZTE0T21ERHY5MUtIbnBLZUlmQnZOeDRRczlTU3BSMWZrcVNKU0hLaHYxVW95WHlMckZfbVZqVy1iRWFNQ09KQUdxZ2Jpc2hGYVpYME9GOVJpeGc2T0dROVJfN2ZHd01UUkF2RWhHSEdXMHRHaXhENGVSU08wY3pOUWpLY1lSX2VZYndRUnJfWmpzRDgzbGk3eXFiWlVLeU1qaDh3NHdpMkRxNHNjNzRNTVZHZmh0ZzFvTDE?oc=5",
+    "published": "2026-10-26",
+    "summary": "长安期货范磊：选举将至地缘维持，油价或加剧运行幅度&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "华泰期货：宏观超级周来临，关注价格波动风险",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYlBmZm50X0MzNWZaeGJIdmY1cEpGUHJUVG5Ld1ZheVpSd1RkbG00bUZLVm94WWdUZmoxTk5JbjM3ZVFHRjBFWk1mZEF5NHp6ZXkyQm5Ma1RqRUtQU0dlbkZmemZEdzQ2dElpMW81MUVFandhMEQ4bGpRVUN1Tnh4enhVTy1iV29FNml0QWp3SHpZVTNBMGVVTWxWa3ZGZWxMa2JnSnh3REpTejFxdGVYNlRJRzZiR2dPbjh3UlZ5M2g4bFM0dF9YU3JvU3dQRkxjYmNNbnVDcFhMSVBqb1BXcmZEMA?oc=5",
+    "published": "2026-10-26",
+    "summary": "华泰期货：宏观超级周来临，关注价格波动风险&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "上海交大教授创业，瞄准太空制造，「今控科技」完成数千万元天使轮融资｜36氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4042095201620869?f=rss",
+    "published": "2026-10-26",
+    "summary": "商业航天的下一站，可能不只是将更多卫星送入太空，而是让机器人在太空真正“干起活来”。\n  随着低轨卫星互联网、太空算力平台和商业空间站加速发展，越来越多的高价值设备部署在轨道上。谁来完成设备维护、模块更换、精密装配，乃至未来的太空制造，正成为新的产业命题。\n  在地面，这些工作已大量由工业机器人承担，但微重力、强辐照和极端温差的太空环境，对机器人可靠控制、精细操作和自主决策提出了更高要求。\n  36氪获悉，近日，太空智能机器人公司「今控科技」完成数千万元天使轮融资，由鼎晖VGC领投，上海交大菡源资产、国科绿色基金、灵巧智能等跟投。&nbsp;本轮融资将主要用于太空机器人核心器件研发、在轨验证及产品工程化。\n  今控科技成立于2026年4月，由上海交通大学教授、博士生导师何俊创立。公司聚焦太空机器人领域，以太空制造为长期方向，致力于构建未来太空制造的智能作业底座。\n  目前，公司自主研发的智能控制器、伺服驱动器、关节模组、多维力传感器等核心器件，已完成热真空、高低温、辐照等环境试验，计划于2026年底搭载一颗算力卫星入轨验证。\n  2027年年中，公司还计划将“今控一号”机器人送入轨道，",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "标普500指数期货上涨0.4%，纳斯达克100指数期货上涨0.6%。",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xTmJqMG1mempKbmU0TC1UVWIyUjVEcDZESWxDWng0RWZBOS1YMS1iajY5NHlnaWRTRWpOcDQ3cXZZS01rMFIyZmE0dk9wZzg5N2VwYm5wa0xJSXFIWW43Tnh3MF8wSWN4Vy1xbDhMQ3NUaWJwc1d6Xw?oc=5",
+    "published": "2026-10-25",
+    "summary": "标普500指数期货上涨0.4%，纳斯达克100指数期货上涨0.6%。&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "拿到2亿美金融资，Today AI回答了Personal AI的十个核心问题",
     "source": "36氪",
@@ -558,51 +606,5 @@ var GPU_NEWS=[
     "images": [
       "data:;base64,="
     ]
-  },
-  {
-    "title": "国际原油期货持续走低",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oaDB4dmx5Yko0UXM2THlBUUFoclBLUW5fd3pYdzR4YmtWSGJwZGZUU25VWkItUjJ4RThadXI0Rk5aU2Q5c2JYNnFXdEE4QmNnSmR6eTZWMmlKbGd0TWFXQ0duUU9jRGVwRGQ1SnRVNE4xSFozNUJJRA?oc=5",
-    "published": "2026-10-13",
-    "summary": "国际原油期货持续走低&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "瑞达期货(002961)早盘涨停 金融街论坛年会将发布系列金融改革政策",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLVYzSUZySzFZM1BWZDd0MVdPSVktMmpmWHlELWduaTR6QVdCc2JuZDhyWVVuYlBhQmFaSmVDbTRwUUJaaVJPQlhhcDVnYTAyTzJ2U2FtZmE1YWZMSV9LU2FBaUI0MmJycGJaN3FpbjRxa1FJbGxSS3ZCS0NQbzQ3Sg?oc=5",
-    "published": "2026-10-13",
-    "summary": "瑞达期货(002961)早盘涨停 金融街论坛年会将发布系列金融改革政策&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Apple Introduces HomeView, a $299 Tablet for the Home",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/10/13/technology/apple-homeview-tablet.html",
-    "published": "2026-10-13",
-    "summary": "Apple unveiled the device as it continues its foray into artificial intelligence and tries to prove it can still innovate.",
-    "full_text": "Apple unveils its new “Apple HomeView” and a suite of “HomeCollection” smart home devices during an event in New York City on Tuesday.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "36氪首发丨达晨投过的老牌减速器厂商完成数亿元B轮融资，已供货多家头部机器人企业",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4023807119789956?f=rss",
-    "published": "2026-10-13",
-    "summary": "作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  \n   本文约1500字，建议阅读3分钟\n  \n  硬氪获悉，近日，浙江三凯机电有限公司（以下简称“三凯机电”）宣布完成数亿元B轮股权融资。本轮融资由工业母机产业投资基金与物产中大投资联合领投，财通资本、温岭海和融智跟投。募集资金将主要用于深化人形机器人关节减速器及驱动一体化技术的研发迭代，扩大精密减速器产能建设，加速高端传动部件的国产化替代进程。去年年底，三凯机电曾获达晨财智领投过亿元A轮融资。\n  三凯机电成立于2007年，是国内较早开展精密行星减速机自主研发并量产的企业，于2012年量产。三凯机电创始人兼CEO江建斌向硬氪介绍，目前国内自动化领域已广泛应用三凯机电的行星减速机。\n  据介绍，三凯机电的精密行星齿轮减速器凭借独特的齿形修形技术，回差可稳定控制在1弧分以内，扭转刚性高，能保证工业母机在重载、高速下的加工稳定性与超高精度。同时，减速器采用优质合金钢与核心热处理工艺，依托精度管控和装配工艺提升，在加工一致性上处于国内第一梯队。\n  目前公司精密减速器已广泛应用于机床与CNC、AGV/AMR",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh"
   }
 ];
