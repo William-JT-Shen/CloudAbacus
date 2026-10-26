@@ -1,7 +1,20 @@
 // GPU算力期货新闻
-// 生成:2026-10-26T15:07:55Z
-var NEWS_FETCHED_AT="2026-10-26T15:07:55Z";
+// 生成:2026-10-26T21:01:17Z
+var NEWS_FETCHED_AT="2026-10-26T21:01:17Z";
 var GPU_NEWS=[
+  {
+    "title": "The Key Numbers From Anthropic’s IPO Filing",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html",
+    "published": "2026-10-26",
+    "summary": "We broke down the A.I. company’s key figures, which give insight into the health of its business, its future plans and who’s in charge.",
+    "full_text": "Anthropic’s Code W/ Claude event in San Francisco in May. In a filing, the company provided rare insight into the business of a “frontier” A.I. lab that makes cutting-edge A.I. models.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "对话单伟建：好CEO发大财，坏CEO请走开",
     "source": "36氪",
@@ -588,19 +601,6 @@ var GPU_NEWS=[
     "published": "2026-10-14",
     "summary": "The company held an investor meeting on Wednesday as it plans a blockbuster initial public offering as soon as next month.",
     "full_text": "Anthropic’s chief executive, Dario Amodei, speaking to Marc Benioff, who runs Salesforce, last month in San Francisco.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "F.B.I. Arrests OpenAI Employee Accused of Planting Bug in Office",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/10/13/technology/openai-worker-arrested-bugging.html",
-    "published": "2026-10-14",
-    "summary": "OpenAI said that the employee had placed a device built to evade detection and that he had planned to secretly record meetings in other sensitive spaces.",
-    "full_text": "The San Francisco offices of OpenAI, where a recording device was discovered during a sweep of a conference room, the company said.",
     "lang": "en",
     "title_cn": "",
     "summary_cn": "",
