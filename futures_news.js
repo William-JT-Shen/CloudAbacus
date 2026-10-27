@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-10-27T14:37:48Z
-var NEWS_FETCHED_AT="2026-10-27T14:37:48Z";
+// 生成:2026-10-27T20:36:37Z
+var NEWS_FETCHED_AT="2026-10-27T20:36:37Z";
 var GPU_NEWS=[
+  {
+    "title": "永安期货A股股东户数增加1842户增幅6.08%，流通A股户均持股4.52万股降幅6.07%，户均持股市值54.55万元降幅8.71%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMDE1VG5uYUlhTWtWX2VfRE5yNTdPb3RISy0wV3dSU1VsdFVwVURMTXBhTUVwS3VSSjdNT3NGSzJBTi1jTnAxblVKYzBMV2xHeG1udnpoc1o4NnBTX0NNR1ctcEhPMDJLOW4wOW1PYy13ODRWdnBmakNfQkdzQmRkTldqQkdRbmFXdkxwOA?oc=5",
+    "published": "2026-10-27",
+    "summary": "永安期货A股股东户数增加1842户增幅6.08%，流通A股户均持股4.52万股降幅6.07%，户均持股市值54.55万元降幅8.71%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美股盘前丨股指期货齐涨 英伟达盘前涨1%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xa2VTSV9jdzJHaW1CNnY4eUY0TWltTDhURmVzTDVLTkRjbTZ0QVFaNlVyMnJLWWhmeHEtTWpwN28ybzFMYV9XWkxMYzdfWjh0MHZqdmNkMWRNTjlVZHlvMWFhR3RpcEI2MW9hVHp6SzBFX1AxaElYVA?oc=5",
+    "published": "2026-10-27",
+    "summary": "美股盘前丨股指期货齐涨 英伟达盘前涨1%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "当AI学会了预测，发现马斯克的预测不靠谱",
     "source": "36氪",
@@ -578,30 +602,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "曾获李泽湘、明势资本投资，这家公司想做一台会“掌镜”的摄影机器人｜早期项目",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4026612843696776?f=rss",
-    "published": "2026-10-15",
-    "summary": "作者&nbsp;|&nbsp;张子怡\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，成立于2023年的越千创新，曾在种子轮获得李泽湘投资；目前，公司已完成天使轮融资，明势创投、南山战新投、初心资本参与投资。\n  越千创新第一款产品以力平衡摄影机械臂Cilin X为切入点，结合智能化、轻量化的软硬件设计，尝试降低独立创作者和小型拍摄团队编排、执行和复现镜头运动的门槛。公司将Cilin X视为“专业摄影能力产品化”的第一步。\n  摄影机械臂常用于影视、广告和产品拍摄。它能够托着相机在空间中运动，精确复现相同轨迹，拍出人手难以完成的环绕、俯冲或高速跟随镜头。然而长期以来，摄影机械臂价格昂贵，设备庞大，使用门槛极高。\n  以英国厂商MRMC的Bolt为例，其产品搭配轨道后，相机运动速度最高可达12米/秒，负载20公斤，但设备连同底座重约600公斤，主要服务于专业摄影场景；近年推出的Cinebot Mini和Cinebot Nano已经明显缩小，但机械臂本体仍分别重33.5公斤和25公斤。\n  另一方面，全球视频创作者生态也在发生新的变化。\n  视频平台Wistia在2025年的调研显",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "正信期货：马棕增库兑现，短期连棕或反复磨底",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON01xbnhWd1pvV21HcS1RYy1DYUFWTGxmU1BvRlVxQmx2SFpiUTRHTmh2S1RoWTQwQndPeU5iUGYzSEZxSFpiTkZwMW1tM1ZMLWE4cGZvRXFqT1hFbDQwcmpqVkZrUlNGNmhodzRTTEdmbDRuU3l4c1B1Qk9CeXk4RVl0UWs4cDIzTERoNg?oc=5",
-    "published": "2026-10-14",
-    "summary": "正信期货：马棕增库兑现，短期连棕或反复磨底&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
