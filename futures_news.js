@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-26T21:01:17Z
-var NEWS_FETCHED_AT="2026-10-26T21:01:17Z";
+// 生成:2026-10-27T04:46:06Z
+var NEWS_FETCHED_AT="2026-10-27T04:46:06Z";
 var GPU_NEWS=[
+  {
+    "title": "这家全球汽零巨头，为何跨界做机器人？",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4043530020115590?f=rss",
+    "published": "2026-10-27",
+    "summary": "汽车产业链企业进入机器人领域正在成为行业新趋势。\n  一方面，整车和零部件价格战持续，企业利润承压，需要寻找新的业务方向。另一方面，以人形机器人为代表的机器人行业，被不少从业者和机构视为下一个阶段的增长主线。行业里广为流传的说法是，具身智能的上半场是自动驾驶，下半场是人形机器人。\n  在这样的判断下，包括小鹏、奇瑞、北汽、蔚来、比亚迪等在内的数十家车企，纷纷在机器人领域落子。\n  宁波的汽车零部件巨头企业「均胜电子」也加入战局。均胜电子早期靠汽车功能件起家，后来通过整合德国普瑞、群英、TechniSat，美国KSS、日本高田等优质资产，切入汽车电子与汽车安全领域，并结合中国市场进行二次创新，成为全球汽车零部件前三十强企业。目前，公司在全球20多个国家设有工厂，2025年营收超过600亿元，其中七成以上来自海外。\n  2025年，均胜电子将业务方向调整为“汽车+机器人”双轮驱动，开始布局人形机器人，定位为机器人领域的Tier1供应商，产品规划聚焦“大小脑+肢体+能源”三大领域，包括AI头部总成、能源管理系统、大小脑域控制器、电子皮肤与灵巧手、机甲等关键部件。其中的电子皮肤，即柔性触觉传感",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "The Key Numbers From Anthropic’s IPO Filing",
     "source": "NYT Tech",
@@ -588,19 +600,6 @@ var GPU_NEWS=[
     "published": "2026-10-14",
     "summary": "The streamer’s share price is down more than 40 percent over the last year as the company has struggled with stalling engagement.",
     "full_text": "This is the company’s widest round of job cuts since 2022, when Netflix experienced a rare dip in subscriber figures.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "Anthropic Says Revenue Jumped 45% to $16.8 Billion in Third Quarter",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/10/14/technology/anthropic-ipo-revenue-profit.html",
-    "published": "2026-10-14",
-    "summary": "The company held an investor meeting on Wednesday as it plans a blockbuster initial public offering as soon as next month.",
-    "full_text": "Anthropic’s chief executive, Dario Amodei, speaking to Marc Benioff, who runs Salesforce, last month in San Francisco.",
     "lang": "en",
     "title_cn": "",
     "summary_cn": "",
