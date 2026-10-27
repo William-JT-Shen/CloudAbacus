@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-27T04:46:06Z
-var NEWS_FETCHED_AT="2026-10-27T04:46:06Z";
+// 生成:2026-10-27T14:37:48Z
+var NEWS_FETCHED_AT="2026-10-27T14:37:48Z";
 var GPU_NEWS=[
+  {
+    "title": "当AI学会了预测，发现马斯克的预测不靠谱",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4043729792635779?f=rss",
+    "published": "2026-10-27",
+    "summary": "&nbsp;\n  AI预测是介于量化与主观投研之间的新物种。\n  \n  &nbsp;\n  文&nbsp;|&nbsp;刘思洁\n  编辑&nbsp;|&nbsp;张薇\n  封面来源&nbsp;|&nbsp;Pixabay\n  &nbsp;\n  2025年，25岁的Henry重仓了一只十倍股Nebius。靠着这笔投资，他在很长时间里都不需要工作。\n  Nebius是一家做AI neocloud也就是新云的公司。这并非是一家当时被普遍看好的公司，有一些持观望态度的研究这家公司的人，看的是它每个季度的利润，以及用“算力二房东”的生意模式去判断价值，但Henry觉得，“这些判断比较短视，因为很难准确预测每一个数字。”\n  Henry的视角有所不同。他看好Nebius，核心看的是公司长期、根本的驱动力，也就是人和组织。\n  比起他的投资战绩，我们更想说的是，这中间呈现出来的这个年轻人的一个更核心、更有趣的视角——\n  “选股和预测本身就是一件事情。”他说，“不同维度的理解和处理，能帮助我们更好地预测。”\n  这个视角也正是他创业的基石。本科就读于上海交通大学计算机专业，研究生在上海高级金融学院学习",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "这家全球汽零巨头，为何跨界做机器人？",
     "source": "36氪",
@@ -12,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "光大期货1023热点追踪：供应硬缺口叠加地缘溢价，燃料油涨超6%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS19vOUEyNm5TUUViZmJySGRtcG91T0FhVGE1QnJ0VUdaekNRTzBEOElYdHB4b2gtUDBtRHk4T2JBc2hMQlU1bFFydmZPZERXV25DTWJxaS1ZRlFLWUpxSmdoTUs2aDBjaGgyUk1BSHpNRFNoaDJ4TDliQjFVR05MUU9LQ25JOHg3VlU1SA?oc=5",
+    "published": "2026-10-26",
+    "summary": "光大期货1023热点追踪：供应硬缺口叠加地缘溢价，燃料油涨超6%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -579,31 +603,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "Senators Question Meta’s Data Center Tax Strategy",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/10/14/technology/meta-senators-tax-avoidance.html",
-    "published": "2026-10-14",
-    "summary": "Democrats on the Senate Finance Committee sent a letter to Mark Zuckerberg, Meta’s chief executive, questioning the company’s $6.6 billion in tax breaks.",
-    "full_text": "Meta has claimed to the Internal Revenue Service that the data centers it is building across the country to power its new generative A.I. efforts are “experimental.”",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "Netflix, Facing Slowing Growth, Cuts 6% of Its Work Force",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/10/14/business/media/netflix-layoffs-ted-sarandos.html",
-    "published": "2026-10-14",
-    "summary": "The streamer’s share price is down more than 40 percent over the last year as the company has struggled with stalling engagement.",
-    "full_text": "This is the company’s widest round of job cuts since 2022, when Netflix experienced a rare dip in subscriber figures.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
