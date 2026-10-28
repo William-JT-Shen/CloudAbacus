@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-28T05:19:20Z
-var NEWS_FETCHED_AT="2026-10-28T05:19:20Z";
+// 生成:2026-10-28T15:03:16Z
+var NEWS_FETCHED_AT="2026-10-28T15:03:16Z";
 var GPU_NEWS=[
+  {
+    "title": "瑞达期货前三季度营收10.59亿元同比增28.05%，归母净利润5.07亿元同比增31.53%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSFJ6bUN5OUpPWTU2emRfelJQYXE4VXE2M0VRVWgtLXZqU1dzdWJPS0xCaFVIQ3pxQUpGd1JiU1hrNFRqM2FvWExlcGNYUnU2MEM2N1hZU0lXc2luckRrbm9UZm1YelFiUmpxR0I2N25oVDdwUExMNWtMWURqVy1WOHNRZDhCS0N0SVE2eQ?oc=5",
+    "published": "2026-10-27",
+    "summary": "瑞达期货前三季度营收10.59亿元同比增28.05%，归母净利润5.07亿元同比增31.53%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "大阪交易所将上市日经半导体股指数期货",
     "source": "新浪财经",
@@ -589,18 +601,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "老板向AI许愿，员工让AI滚蛋｜深氪",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4028378674205313?f=rss",
-    "published": "2026-10-16",
-    "summary": "文丨赵芮&nbsp;\n  编辑丨张雨忻&nbsp;\n  老板的“许愿池”&nbsp;\n  “你知道马斯克怎么管理员工吗？”听到这句拷问，胡芯兰感觉不妙。&nbsp;\n  对面的这位老板，来自一家重工业企业，员工规模过万。在社交媒体上，老板看到过马斯克用Agent代替真人员工工作的新闻，不禁燃起同样的念头。他对胡芯兰直言不讳：“能不能帮我把整个信息化部门都裁掉？我每天就跟Agent沟通。”&nbsp;\n  在胡芯兰接触的大量老板中，关于“裁员”的愿望普遍存在。他们来自金融、制造、互联网等不同行业，公司规模从几百人到上万不等。有的试探性地递来话头：“你觉不觉得，我们公司的人员有些冗余？”有的则抛出终极问题：“最多能裁员多少？”这位效仿马斯克的，是她遇到的最激进的一位。&nbsp;\n  还有一些老板，虽没明说裁员，但却希望AI能监控员工的一举一动。“能不能给我装一个Agent，记录每名员工每天做了什么、产出了什么、项目进展到哪一步，最好还能随时监控和调用这些Agent，再根据完整日志计算每个人的投入产出比。”&nbsp;\n  胡芯兰心里清楚，提出这种需求的老板，只是暂时还没把裁员摆在明面上，",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
