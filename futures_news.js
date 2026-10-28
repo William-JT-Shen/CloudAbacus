@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-10-27T20:36:37Z
-var NEWS_FETCHED_AT="2026-10-27T20:36:37Z";
+// 生成:2026-10-28T05:19:20Z
+var NEWS_FETCHED_AT="2026-10-28T05:19:20Z";
 var GPU_NEWS=[
+  {
+    "title": "大阪交易所将上市日经半导体股指数期货",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM2JuRVREeVJQSkF1M0k4Nld6ai1sLUtrdGh1Ql9QODlkZXE4QUV0S2NLbTh0cEp1cUtITDk3cGVkbnlsSlhtRXJuTFdyc3lldS00UENPYzNiSnJ6YjhRUUdQam1PX280VUlfZXBSbGxFc2p6TzBRRkhPNnpOSHhBUg?oc=5",
+    "published": "2026-10-27",
+    "summary": "大阪交易所将上市日经半导体股指数期货&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美国商品期货交易委员会拟将“交易者持仓报告”增至每周发布两次",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZUtkZHl4cU14WnZrd29JN1d6UVVMN0VqR2oteVJndmZYUHlLcGtwTGdkR1hlVk5tYkJ2UkRYaEp0SmkzQk9DMVJGU3VqMWhQN0owR0tHWWhxbFk0ejk5X2p4TFcwbXFWZXNjeEdyVXhqYkZjbkIzd3owUkVmSnhmbQ?oc=5",
+    "published": "2026-10-27",
+    "summary": "美国商品期货交易委员会拟将“交易者持仓报告”增至每周发布两次&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "永安期货A股股东户数增加1842户增幅6.08%，流通A股户均持股4.52万股降幅6.07%，户均持股市值54.55万元降幅8.71%",
     "source": "新浪财经",
@@ -292,6 +316,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "新加坡铁矿石期货跌破90美元/吨 淡水河谷股价受矿价下行承压",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RWpBdzMtTlpYRHhYM0hVSGxCbHVZUEFHX1Rhd2ZUSG9PdlhKRlJlZXNXczNxR2RBV3BQYTFyNEFyWXQtYnBKZDllYndHTzZZcDVEYXNMOUFZeEJtMWhQdF92bmQyaWtpWFZaVjNweTJ0X05BbFRaSA?oc=5",
+    "published": "2026-10-21",
+    "summary": "新加坡铁矿石期货跌破90美元/吨 淡水河谷股价受矿价下行承压&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "我国期货市场前三季度新增客户91万个 同比增长41%",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jbXJMRWZPNzVnU2txUXRLa3VXWmxLa2dJdlhseWxJalRZZG1KTUZ4U2tDalhJcUxQdU5mUzQ5eVl3RTk4MEZGdjN3UXZhYUt0MEdyMGY2TWhFVVpYaVQ5cXNSZDRUNFhYWmxWMXA4QXFBZUhFbmJ3dA?oc=5",
@@ -561,43 +597,6 @@ var GPU_NEWS=[
     "url": "https://36kr.com/p/4028378674205313?f=rss",
     "published": "2026-10-16",
     "summary": "文丨赵芮&nbsp;\n  编辑丨张雨忻&nbsp;\n  老板的“许愿池”&nbsp;\n  “你知道马斯克怎么管理员工吗？”听到这句拷问，胡芯兰感觉不妙。&nbsp;\n  对面的这位老板，来自一家重工业企业，员工规模过万。在社交媒体上，老板看到过马斯克用Agent代替真人员工工作的新闻，不禁燃起同样的念头。他对胡芯兰直言不讳：“能不能帮我把整个信息化部门都裁掉？我每天就跟Agent沟通。”&nbsp;\n  在胡芯兰接触的大量老板中，关于“裁员”的愿望普遍存在。他们来自金融、制造、互联网等不同行业，公司规模从几百人到上万不等。有的试探性地递来话头：“你觉不觉得，我们公司的人员有些冗余？”有的则抛出终极问题：“最多能裁员多少？”这位效仿马斯克的，是她遇到的最激进的一位。&nbsp;\n  还有一些老板，虽没明说裁员，但却希望AI能监控员工的一举一动。“能不能给我装一个Agent，记录每名员工每天做了什么、产出了什么、项目进展到哪一步，最好还能随时监控和调用这些Agent，再根据完整日志计算每个人的投入产出比。”&nbsp;\n  胡芯兰心里清楚，提出这种需求的老板，只是暂时还没把裁员摆在明面上，",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "OpenAI Engineer, Who Is Charged With Planting Bug, Advised Saudis",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html",
-    "published": "2026-10-15",
-    "summary": "The employee, now fired, had said he advised government agencies in Saudi Arabia. He was also listed as a partner at a venture firm with a Saudi prince.",
-    "full_text": "The San Francisco offices of OpenAI. According to a court filing, a thumb-size recording device wrapped in toilet paper was found plugged into the back of a television in an executive conference room.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "8点1氪丨微信、淘宝、美团等应用，拒绝接入豆包手机助手；苹果成为全球第二家市值破5万亿美元企业；美国9月CPI同比增长3.7%，高于预期",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4026385299165321?f=rss",
-    "published": "2026-10-15",
-    "summary": "今日热点导览\n  绿泡泡短剧可查看朋友在看剧目\n  A股三大指数集体收跌，全市场近4500股下跌\n  OpenAI办公室发现隐藏录音设备，涉事员工被捕\n  德国拟2027年开征含糖饮料税\n  华尔街大空头警示美股：现40年未见极端市场失衡\n  TOP3大新闻\n  微信、淘宝、美团等151款应用拒绝豆包手机助手GUI自动化操作\n  10月14日，豆包手机助手SAEP协议公示期结束，共有151款应用声明拒绝其GUI屏幕自动化操作，微信、淘宝、美团、快手、DeepSeek等高频App在列。拒绝仅代表禁止AI自动点击代操作，App仍可正常手动安装使用。其中腾讯系65款、阿里系23款应用上榜，覆盖社交、电商、办公等核心场景。SAEP协议让开发者自主决定AI操作权限，此次大量头部应用拒绝，将限制豆包手机跨应用自动办事的核心能力。（界面新闻）\n  苹果成为全球第二家市值破5万亿美元企业&nbsp;\n  北京时间10月15日凌晨，美股苹果公司收盘上涨0.5%，最新股价报342.96美元，总市值50052亿美元。这是苹果首次以5万亿美元的市值收盘，苹果也成为继英伟达之后，全球第二家达成这一市值里程碑的企",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "总裁直管信息部，一家创新药企的AI试验",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4026591408066432?f=rss",
-    "published": "2026-10-15",
-    "summary": "文｜胡香赟\n  编辑｜海若镜\n  2026年，先声药业（02096.HK）总裁周云曙把信息部划归自己直管了。\n  近期的一场媒体交流会中，他对36氪提到：“在先声，我们现在要求管理层带头，在工作中‘拥抱’AI，不是提倡而是必须。AI的价值来自如何应用，首先要真正去用、会用、不断训练，这是基础。”\n  放在全球制药企业积极拥抱AI的语境里，这个动作不算令人意外。海外，跨国药企已经开始重资产投入。例如，礼来与英伟达共建AI联合创新实验室。在国内，9月下旬，金斯瑞、近岸蛋白等多只“AI4S概念股”轮番大涨；一级市场上，不少“小天才们”用AI改变生命科学的叙事，首轮融资便能拿到数亿元估值。\n  不过，一个很难回避的现象是，大药企既有的成熟研发体系运转多年，效率已经很高，AI想要真正嵌入其中，从外挂工具变成内化能力，比技术本身更难的是组织层面的松动。毕竟，对于不自带AI基因的药企来说，怎样评估AI在工作中的实际价值就是个大问题。\n  在这个意义上，周云曙亲自牵头，走的或许是一条相对激进的路子。他坦言，初期，先声内部很多同事想用AI，但并不知道如何用，“我们确实也花了很多Token做探索”。最终，",
     "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
     "lang": "zh",
     "images": [
