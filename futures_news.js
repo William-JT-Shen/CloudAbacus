@@ -1,7 +1,55 @@
 // GPU算力期货新闻
-// 生成:2026-10-28T20:58:18Z
-var NEWS_FETCHED_AT="2026-10-28T20:58:18Z";
+// 生成:2026-10-29T05:30:26Z
+var NEWS_FETCHED_AT="2026-10-29T05:30:26Z";
 var GPU_NEWS=[
+  {
+    "title": "8点1氪丨姆巴佩中国代言收入近2200万欧元；长鑫科技已被纳入上证指数；宇树科技：前三季度净利润3.87亿元，同比增长270.54%",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4046203581289345?f=rss",
+    "published": "2026-10-29",
+    "summary": "今日热点导览\n  特朗普将“正式禁用”AI一词\n  泡泡玛特回应业绩大跌，管理层称高基数叠加“炒娃降温”\n  iPhone Duo首次支持Apple Pencil，仅限USB-C款且需有线配对\n  海力士DRAM到2029年产能已售罄\n  小鹏机器人固态电池小批量量产\n  TOP3大新闻\n  姆巴佩中国代言收入近2200万欧元，占商业总收入38%\n  姆巴佩涉华不当言论事件爆发后，中国市场在不到24小时内完成品牌解约、平台清退的全链条动作，这一过程不仅在国内引发强烈反响，也迅速进入全球主流媒体的报道视野，不同定位的国际媒体从商业、体育伦理、公众人物责任等多个维度展开讨论，让这起事件成为全球体育商业领域极具标志性的反面案例。\n  英国《金融时报》第一时间将这起事件定性为“顶级体育明星触碰区域市场红线的典型失误”。报道中专门算了一笔账：姆巴佩此前在中国市场的年度代言收入接近2200万欧元，占他个人全球商业总收入的38%，这次多家头部品牌集体解约，直接让他损失了近四成的稳定商业收入，且后续几乎没有任何挽回的可能。(光明日报)\n  长鑫科技已被纳入上证指数\n  根据中证指数公司网站，长鑫科技已",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "累库压力持续加大 烧碱期货连创新低",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0ybHAtSzFoaEdMMU9TQkQyQnp2bWxPSFRxYld3c3hwWFlhRW9YeGw2Zml0MWdmbnRkWFlnTlRibUVVcF9XS3ZaalFoNTV1T0tHWllDX21BRXRqcVRMbXFHQ0V6OUZSVU5OeVZ3dXZfSS1IT3YxQk94bQ?oc=5",
+    "published": "2026-10-28",
+    "summary": "累库压力持续加大 烧碱期货连创新低&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中天期货:焦煤逼近年线 乙二醇碰涨停",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLTMyS3Roczh5Uk1BWjE2LW1xXzNCWDJya0N2aFZENTM2a1gxMzJiM3dlX3FrNmo4SzRHTU82bHdXTDk0UVRXUzhHOWJ6ZVhzZlRwbW5VQXVYbl9UdFgzdFVqb20xWDN3ZFBseC11T0wxcWk3VFd2VlVuT2VpQWFPdDloTnlLZmdpbnFfQk90RWp4akdNNWdTWW9oMHpyTzh5VUR5Tk50MTFRZHQ2UnlocThIajRWcHhGX2QyX1p6LUEwaTk3dlI3blJpbWxMbV9mT3BWTnZpQTVXWDVQNFhYQ3Fn?oc=5",
+    "published": "2026-10-28",
+    "summary": "中天期货:焦煤逼近年线 乙二醇碰涨停&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "瑞达期货公布三季报 前三季净利增加31.53%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVWRBVDc1MWdJbktmdDUtbUdTUjhuLTVhTmVYZHNBcGhfeE1FWEJleWw5c29EQVRsUkVkcWJBUnVOYVdMclF2VDUtV09HQWJodFlyREJBQVV6Qk5QWWxBb0UxMFl1TmtTR0Y1NVUyMi10VURJRkplaUhtbDNBbmlabg?oc=5",
+    "published": "2026-10-27",
+    "summary": "瑞达期货公布三季报 前三季净利增加31.53%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "瑞达期货前三季度营收10.59亿元同比增28.05%，归母净利润5.07亿元同比增31.53%",
     "source": "新浪财经",
@@ -193,6 +241,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "华泰期货：地缘局势继续推高油价，但与基本面持续背离",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSThUQzdnM2REM3M5TXNUMlRCaU5pemN0MFRJSXpsSDd3ZzgxblpfR1c5LXhqbVF5YlpTMjJiOGdLZ1F2cHQ4Y3FGNlhQX0V2M1VHclhlZWtJUmdpY2Q1LTB4ZkhyZk80RTczOWNxc2lVOEtZczk0clEyR29yMW1CQ0JVVTRXZ2swVGR5VHQyaWVQZXhPV1FqNVRvaWdKRlo5elN2aHBmcFpYNFFvMWt1eTdhbEZGdlBCa2I4OWFRRXp5MjQ1aWUxQkNMRjVneW1tb1g4SHFtY3VJbjM2Z1VJUVQ0WEg?oc=5",
+    "published": "2026-10-23",
+    "summary": "华泰期货：地缘局势继续推高油价，但与基本面持续背离&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -541,66 +601,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "前华为车BU世界模型基模负责人创业，杭州具身大脑公司获近亿元融资｜硬氪首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4025325566054529?f=rss",
-    "published": "2026-10-18",
-    "summary": "作者｜黄楠\n  编辑｜袁斯来\n  硬氪获悉，具身大脑公司「格物通智」已完成近亿元天使轮融资，投资方包括匹克投资、鸿富资产、杭州资本、杭州人才集团、某省级具身产投及多家头部上市公司。资金将主要用于物理反演世界模型的大规模预训练与技术迭代、硬件与本体构建等，加快人才引进和规模扩充，并推进多个场景PoC验证和真实数据采集。Maple Pledge 枫承资本出任本轮独家私募股权融资顾问。\n  格物通智卡位杭州，于2026年8月成立，首轮即获得杭州市级层面三支基金的支持，包括杭州润苗基金、杭州颠覆性成果转化基金、杭州人才基金，是国家具身智能应用中试基地生态伙伴、‌杭创具身智能营成员。\n  公司面向真实产业场景研发自进化的灵巧操作智能，依托触觉-视觉为主的多模态数据真实闭环构建 “物理反演世界模型 + PSI物理自进化” 技术体系，为机器人提供有“手感”的具身大脑并在持续作业中自主沉淀实操经验、将“工龄”变成能力，实现越用越适配场景的持续进化。\n  本轮资方中，匹克投资作为国内头部运动科技履产业集团，已同格物通制签订战略合作协议，公司将围绕鞋履制造对 \"双柔+一高精\"，即柔性制造、柔性材料、亚毫米",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "禾赛不只想卖激光雷达｜最前线",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4028766019719557?f=rss",
-    "published": "2026-10-17",
-    "summary": "图片来源 禾赛科技\n  文｜肖漫编辑｜袁斯来\n  “我们不是为了卖激光雷达又造了一个 Kosmo。”在 Kosmo 发布会前，李一帆先明确了这一点。\n  Kosmo 是禾赛科技近日发布的三维世界数据引擎，由全球首款 8K 超高清 AI 空间相机 Kosmo One 和 AI 驱动的云平台 Kosmo World 组成。前者负责采集真实世界的空间信息，后者将这些信息重建为能够被 AI 理解、交互和训练的三维场景。\n  这是禾赛在激光雷达主营业务之外的一次延伸。过去，禾赛主要向汽车和机器人提供感知硬件；现在，它希望进一步参与物理 AI 的训练过程，把真实世界转化为可供 AI 使用的数据资产。\n  这也是李一帆从零部件提供商走向物理 AI 的核心基础设施提供商的第一步。\n  从激光雷达迈向物理 AI 核心基础设施\n  物理 AI 要真正走向规模化，至少需要解决两个问题：机器人如何在真实世界中完成动作，以及 AI 如何获得足够多、足够好的真实世界数据。\n  禾赛正在围绕这两个问题布局两项业务：机器人运动引擎与三维世界数据引擎。Kosmo 是后者首次系统性的产品化落地。\n  \n  图片来源 禾赛",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "两倍做多波动率指数期货ETF收涨15.36%，成交额3.12亿美元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMEZfdk0tVUtuaFcySWEteG9MOUIzUUtCeC1BbFpaNFJ4a1NCTzctRVBGdzlNbE1EdHcxTjY3eXpZSmhpYm1fNjhtYmVSbExweTJrUHhUMDcwVnMzcW9pTlRjMHZkam5fZm8yanc3bnVJR3Fqb0tjVHkzUnBfOFA1QjJGVnVhbGxzb3NSemR3?oc=5",
-    "published": "2026-10-16",
-    "summary": "两倍做多波动率指数期货ETF收涨15.36%，成交额3.12亿美元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "盘前：纳指期货跌0.12% 沃什讲话后加息押注仅剩15%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTG9rZnBDeDZUcWJHdVQ3VFFaM2dTdXJWZDUtVXQzZ2hVdkJKM0oxdVc4OFJSQkpHVWs0cEc1WHFTYUg3MW5BVnRXQ213X1d1R09LcTVFZXFSVkVqVXNnVDFzMjF6Zy00dHY2NjZfdUM5LUI5WTR6RkdIdzFTY1BzaTIzS3EzemZXaEctQng1RzNTczlYSGtxWFlRM3k?oc=5",
-    "published": "2026-10-16",
-    "summary": "盘前：纳指期货跌0.12% 沃什讲话后加息押注仅剩15%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "贵金属板块集体飘红 钯期货主力涨超3%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYmdLdTZQSGRtWDN0ek42MEJBOVRLSVQxaHRuMjN2THlrZDRpSTkydDRIeUtZeGtocTZCclJnUG1yVVpVT19iQ1VfcmZDOTVuOXFOelV6Nnk4R0NnYkljNXFweExBVEdaLUFZTjY1RmV6bVQtRVFfY01zdmJKQnV5akhuY29TOHAxX2ExQw?oc=5",
-    "published": "2026-10-16",
-    "summary": "贵金属板块集体飘红 钯期货主力涨超3%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
