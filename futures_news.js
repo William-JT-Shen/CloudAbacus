@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-29T05:30:26Z
-var NEWS_FETCHED_AT="2026-10-29T05:30:26Z";
+// 生成:2026-10-29T15:10:34Z
+var NEWS_FETCHED_AT="2026-10-29T15:10:34Z";
 var GPU_NEWS=[
   {
     "title": "8点1氪丨姆巴佩中国代言收入近2200万欧元；长鑫科技已被纳入上证指数；宇树科技：前三季度净利润3.87亿元，同比增长270.54%",
@@ -12,6 +12,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "上海期货交易所：对部分客户采取限制开仓监管措施",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aYXRvNmNmU1JrUFZXNUdDdlNPdElPVkJ4NUpBdExSRm5tQTlMdDIyd0xTaDlOQXFaVlZMYXBLSnZwTXVIMXJ5RURRUjA1b1VkM09PRUxkZ3NhUTlHX3hBVnpFdjlRWFU0UG4tZ1ByMGIzZno0bDd2Mw?oc=5",
+    "published": "2026-10-28",
+    "summary": "上海期货交易所：对部分客户采取限制开仓监管措施&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -32,6 +44,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLTMyS3Roczh5Uk1BWjE2LW1xXzNCWDJya0N2aFZENTM2a1gxMzJiM3dlX3FrNmo4SzRHTU82bHdXTDk0UVRXUzhHOWJ6ZVhzZlRwbW5VQXVYbl9UdFgzdFVqb20xWDN3ZFBseC11T0wxcWk3VFd2VlVuT2VpQWFPdDloTnlLZmdpbnFfQk90RWp4akdNNWdTWW9oMHpyTzh5VUR5Tk50MTFRZHQ2UnlocThIajRWcHhGX2QyX1p6LUEwaTk3dlI3blJpbWxMbV9mT3BWTnZpQTVXWDVQNFhYQ3Fn?oc=5",
     "published": "2026-10-28",
     "summary": "中天期货:焦煤逼近年线 乙二醇碰涨停&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中天期货:乙二醇突破上行 甲醇继续拉高",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQWhXQ1N4QkhuMU1sbzhNenFVczhHVUFhOGlodjRDT2RqMDM5Q1BtU3NVN3ZVSk9jMTJjYXkxV2E5cEtqTEZqbzVpdDNzalVxLWZ2NU9sWTZwOU9mUUQ2Y1NMODMtSjI1dGhhbUFWMU9oTjMzVlNmQzVJZ0gwQ2xmWC0xbTdMdkVvRWFibG9pQ3RIaEY5clV4clZvUFFnM2c4ekFHTXR6N2hQaG1BNnNIUmloYnhmZzRiandpYzFfTmF6bFRsMmZnZzlfMklCU2ZzemtWVHMxZTdVdmg3N25VNVM3WQ?oc=5",
+    "published": "2026-10-27",
+    "summary": "中天期货:乙二醇突破上行 甲醇继续拉高&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -577,30 +601,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLXdDUmdTeFRXekstWW1vNVFXRW9Yck1lQmQwZGYwWjNRUTU5ajRGNzVQQUlHMjQ1VTlqa0YybkM5WmxqclZGazNWWktiVEhEaTdrd1JVdUUzNkM1M29pLV9OZE52YnVDY1VZU0pCczhTSnh5bGRMOHhYWmNQd2NFbzR6T0l3Rnc?oc=5",
-    "published": "2026-10-19",
-    "summary": "美股期货反弹，纳指期货涨1.4%，资金重返AI交易，CoreWeave上周暴跌25%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "聚焦在轨服务，要打造太空机器人集群，「国宇星辰」完成近亿元A轮融资｜36氪首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4032195238482313?f=rss",
-    "published": "2026-10-19",
-    "summary": "文&nbsp;|&nbsp;阿至\n  商业航天的叙事，正在从“把卫星送上天”过渡至“卫星上天后”怎么管、怎么运营。\n  除了组网建设加速，一个直观的信号是，低轨星座的补网压力也正在逼近。根据NASA戈达德航天中心此前发布的研究数据，2020至2024年间，有583颗星链卫星从极低地球轨道坠落。而为了防止失控与碰撞，卫星的主动变轨和避让动作也变得愈发频繁。根据SpaceX 7月向美国联邦通信委员会（FCC）提交的报告，仅半年内，星链卫星执行的避让动作次数就超20万次。\n  当几万颗卫星陆续铺满近地轨道，问题被摆到台前：谁来负责太空中的“管、修、加、清”？\n  答案在国外已经有人跑通。日本的Astroscale 以碎片清理起家，2024年登陆东京证券交易所，营收四年增长约五倍；意大利的D-Orbit用20余次轨道运输任务验证了客户付费意愿；美国Space Logistics的MEV-1在2020年完成首次商业在轨延寿，为一颗工作了19年的GEO卫星续命五年。根据Fortune Business Insights的报告，全球在轨服务市场正处于稳定增长通道，预计从2026年的31.8亿美元增长",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
