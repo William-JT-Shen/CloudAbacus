@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-10-30T05:30:09Z
-var NEWS_FETCHED_AT="2026-10-30T05:30:09Z";
+// 生成:2026-10-30T15:01:32Z
+var NEWS_FETCHED_AT="2026-10-30T15:01:32Z";
 var GPU_NEWS=[
+  {
+    "title": "开盘|国内期货主力合约跌多涨少，沪银跌超4%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVGI5YXFIX3NPc2JUMGlfeHZRQXlWZ3MzT2FDdkNyZ1dwQmdOZ0g5OFgxSDFLZnM2QUFoRHBUZi0zSzdlWXZmOVd1OElROV9MZW0zd09fdVhxV0p5d29TME92RUdsLW92b2JFTDhJV3VDMkRoSmdBY2hBN0tFVDNCcTROUXpnUVpxR0ZnWlBfM195cm5QdnFoYnVnUDExRjZvd3F3dUlYMmVJQmFtZE5jbzBNd3hac0lQSXlJSkFybHZvR1hyM09mNmlPOXRFb0MzcnR4ZUIwYnZVcjNNVVU5ZDM0NTA?oc=5",
+    "published": "2026-10-30",
+    "summary": "开盘|国内期货主力合约跌多涨少，沪银跌超4%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "广州金控期货市场行情日度报告20261029",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTnhMLTdvcDhhMlV0aEYyMmZCX3pUTlVOR3pvNG9TYURMMWxLcEZBdmYwLUlRRktuM3RoajNrUWE5QXhjSXhjWjlCM3dYWjZhV3YtS2F0TktYeWxqNUxnSUxveFQ2a2F1cjVocUdGNXg0dW5qSEFCeUhBWjJGd1loSlZNakJVdGJiQ2dnY1ZR?oc=5",
+    "published": "2026-10-30",
+    "summary": "广州金控期货市场行情日度报告20261029&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "AI初创企业的下半场：钱往哪里去？",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4048078906800642?f=rss",
+    "published": "2026-10-30",
+    "summary": "作者｜王晗玉\n  编辑｜张帆\n  2026年的风险投资市场，正在上演一场前所未有的“AI大分流”。据Crunchbase数据，今年上半年全球初创企业融资额约5100亿美元，已超过去年全年；仅第一季度，约80%的风险投资便流向了AI公司。OpenAI单轮融资1220亿美元、估值冲上8520亿美元，Anthropic则以9650亿美元估值反超，成为全球最有价值的AI初创企业。\n  狂热之下，分化同样剧烈：头部模型公司融资能力依旧惊人，大量垂直应用却是有用户、难见利润。\n  市场不再比模型参数，开始比应用落地，“AI下半场”的拐点叙事，正在取代此前的算力军备竞赛——对于仍在牌桌上的初创企业而言，生存规则已经变了。\n  当全球资本涌向高增长机会，下一站究竟在哪里？11月2日至3日，香港金融科技周×StartmeupHK 2026即将举行，市场目光将再度聚焦这座连接内地创新与全球资本的城市。在科技周启幕前，36氪与华映资本创始管理合伙人季薇、香港投资推广署署理初创企业总裁吕缙勇进行了深入交流，试图回答一个问题：AI初创企业的下半场，什么才是真正的判断标准？\n  拼过模型参数，再拼“数据飞轮”\n ",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "36氪首发丨前华为VP创业做AI原生电力资产运营，获宁德时代旗下基金数千万美元A轮融资",
     "source": "36氪",
@@ -12,6 +48,30 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "上期所：关于发布《上海期货交易所两方开票业务指引》的公告",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcDZ6MWV4OWNmMFlha2swLUlvY1J1bVpLUDc1YzhaT05wSk1oVDNpRURjMGJ6Vk9GSnRZYkd5UlVfTGJueWQ5Z1piNE9XTi1mVlA1X21mU1ZkaVVPQ3RzUWFHZnJXNmNjQ0Z6TUZZUEcyRjdpYUhDMHlnRXJVT0FWclNfYnRxTFE?oc=5",
+    "published": "2026-10-29",
+    "summary": "上期所：关于发布《上海期货交易所两方开票业务指引》的公告&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "中天期货:商品指数冲高回落 白银横盘震荡",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbVFwT3paM3ZtYUdnVGZ3VnBaa05JVlc3OWx6OW1mTU1EbGszOUl1bzlHZTNpSURYQ1AyckJjWVZoNDhid0YyTENmeC0xMW5Ka0tjQVh5NDd0SU1IYUFUdHVwSGIyZGtmWGU0VXJrRy1wbVFNVG9PR1BQYURQaGl3UllmdFJHNjRTb1c4YUQ2Z3NkYnhsMF9pbjVhTEc5VmhuZHZXeWFaZkExZjNsMC1TcTVNeVJLTGRxQkNJcTJreWdnYWM2R0VOV2xZMVlPY3FYbW5zQjY0d3U4OTB3OUdvNXIxWEI?oc=5",
+    "published": "2026-10-29",
+    "summary": "中天期货:商品指数冲高回落 白银横盘震荡&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -537,66 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OdHZKVXgzSWJQUFN0SlZ0Njc4clQ5QklTUVRkbjc5N1lNeDRablhVTkdVcnMyZ2NtaDFIQW9hTFh2YmtZWlhTTUdyS0dhN2wxYkEwNHBfa2JTY3R1Wk1LQl96bmdaWmR0VG9UVXRlMmIzZFRZVjA1Vg?oc=5",
     "published": "2026-10-20",
     "summary": "富时中国A50指数期货低开，现跌0.26%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "硬氪首发丨虚拟电厂公司完成数亿元融资，预计2027年盈利",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4033817271866244?f=rss",
-    "published": "2026-10-20",
-    "summary": "作者&nbsp;|&nbsp;杨媛\n  编辑&nbsp;|&nbsp;彭孝秋\n  硬氪获悉，近日，合肥原力众合能源科技有限公司（以下简称“原力能源”）完成新一轮融资。据公司披露，本轮融资金额数亿元，投资方包括合肥仁创四期创业投资合伙企业（有限合伙）、合肥仁新创业投资合伙企业（有限合伙）。本轮资金将主要用于产品及能源垂直模型研发、区域市场拓展，以及部分能源资产投资。\n  成立于2021年的原力能源，主要围绕虚拟电厂及综合能源服务开展业务，通过自研DAO OS连接光伏、储能、充电设施及工商业负荷等分布式能源资源，并参与后续资产运营和电力市场交易。\n  创始人徐瑜早期从事国际工程与贸易，此后进入能源行业，参与能源企业股权投资、能源资产投资建设及运营，并曾在电气装备、充换电、储能等企业担任高管及合伙人。目前，公司研发团队覆盖电力系统、能源交易、AI算法、软件工程和电气工程等方向。\n  过去几年，国内虚拟电厂仍较多处于资源接入、平台建设和商业模式探索阶段。随着新能源逐步参与电力市场，仅仅完成光伏、储能等能源资源的接入，并不意味着这些资源已经能够参与交易并产生收益。\n  徐瑜对硬氪表示，过去几年，",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "机构预计北京写字楼市场将于2028年企稳",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4033965080155016?f=rss",
-    "published": "2026-10-20",
-    "summary": "当前，北京办公楼市场正在经历一场跨度十年的深度调整，全面迈入以“重新定价”为标志的系统性重构时期。据仲量联行发布的《2026北京办公楼市场白皮书》数据，截至2026年第三季度，全市空置率维持在17%左右，稳居全国一线城市最低水平。同时租金继续回落，三季度末全市甲级办公楼平均租金回落至198元/平方米/月，距2018年末的历史峰值8年累计下调近50%。其中，2024年和2025年租金年均同比下滑16%以上，折射出市场心理基线的持续下移。&nbsp;\n  \n  数据来源：仲量联行研究部\n  仲量联行认为，这一深度的租金回调并非短期波动，而是顺应宏观经济转型与产业结构升级的理性回归，本质上是对办公楼资产的“重新定价”。支撑“重新定价”趋势的，是供需关系的结构性转变。北京甲级办公楼市场正迎来继2008年、2019年后的第三轮供应高峰。2026至2030年，预计新增高品质办公面积逾100万平方米，集中于CBD核心区与望京，对存量项目的续租与招商形成直接分流和竞争。&nbsp;\n  本轮放量正在进一步重塑供需天平。凭借地段与硬件优势粗放增长的周期红利已然消退，市场在结构性的“租户方市场”中步入博弈",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "原油期货期权护航能源安全",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhdThvNDVvOElRRjVXN1FBYWFybWd2UmtkbjBEeVBudlhtSGdCc3lOZmNfTGFfbm4wcGFmZFRJbkVNeTBON0Q0Q2g3NXVFUlBQcURDUGtRTE5tWmFMMUctdHBEdUcxV1k3REFXWjA1MzhyRnpHT3c?oc=5",
-    "published": "2026-10-19",
-    "summary": "原油期货期权护航能源安全&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "华泰期货：三大机构继续下调全球石油需求增长",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNc29fUm4xNWtHZGMxdnBlQnhsbmRlTnY2TXE1bnczN3VBMzN6TVE5c0F4WjZWZi1xaGdqTDVSamNQbUE3c2RJd3F6OFJiaEtjMmc4MWZfSG1xM1U1d0c4QUdtQ2tVZTdOcldSQ1lqT3BnN0dhMC1rRl9sUl93N0tPWkdnd0xWTlVfNGh0LXVIS0hyN1lrSld0S0UyRDlMd2hrYXNiTjVyNVVoa21BRm43VEJBZk9vZWNwZG5OWVNGMzNDNDZvWXVwT0FvZm5HN19Nanc3bDZvOVRIUzJybllrdmQ1Zw?oc=5",
-    "published": "2026-10-19",
-    "summary": "华泰期货：三大机构继续下调全球石油需求增长&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "光大期货1019热点追踪：燃料油独自大涨，这件事跟你的油费有什么关系？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ2I1Q0FsMW5mdGQzdllIWUd5czRJeEFBQ3ZOdl9MNXhsazdwcmMyY0hSQmZ0N1oxUFZ0bVRReHlqUjVaOFItd095YmFPM1VTZmZLS0dEbGdnZFkyVmlSOVEwenJLcnVfeEtNa2ZjYkhHSENyUFZ6OHc0R0JNcXZXNWNMVWpQVmJvTDhvYQ?oc=5",
-    "published": "2026-10-19",
-    "summary": "光大期货1019热点追踪：燃料油独自大涨，这件事跟你的油费有什么关系？&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
