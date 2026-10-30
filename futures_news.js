@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-10-29T21:01:54Z
-var NEWS_FETCHED_AT="2026-10-29T21:01:54Z";
+// 生成:2026-10-30T05:30:09Z
+var NEWS_FETCHED_AT="2026-10-30T05:30:09Z";
 var GPU_NEWS=[
+  {
+    "title": "36氪首发丨前华为VP创业做AI原生电力资产运营，获宁德时代旗下基金数千万美元A轮融资",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4047734928259592?f=rss",
+    "published": "2026-10-30",
+    "summary": "作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  \n   本文约3600字，建议阅读9分钟\n  \n  硬氪获悉，总部位于瑞典的AI原生电力资产运营商Green Voltis近日宣布完成数千万美元A轮融资，由宁德时代支持设立的美元基金Lochpine Capital 独家投资。\n  本轮融资资金将主要用于三个方面：继续加大Aether AI电力交易智能体与Chronos并网控制系统的研发投入、欧洲重点市场的业务拓展，以及AI基础设施领域的布局。\n  Green Voltis创始人史耀宏，创业前在华为工作16年，曾任华为副总裁，先后担任中东地区部总裁、软件产品线总裁、中国区政企常务副总裁、云与计算中国区总裁，长期负责华为在海外市场的业务拓展和云计算业务。2023年离开华为后投身欧洲电力市场，用AI交易和能量管理系统运营灵活性资产。\n  Green Voltis的核心团队还汇聚了来自华为、爱立信、T-Mobile等ICT领军企业，以及Rolls-Royce、Brady、Varberg Energi等电力系统与电力交易专业公司的人才。\n  如今，AI算力竞争正",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "最新上期所原油期货仓单变动-每日更新查询（2026年10月29日）",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSjEwZURrX1h4WlBXaW8yMDRDYnFtcDROZzlicTYtN2tqeW5tTVVRbkUzbzJRWnczXzdpTjB5U2VoNENVN2ZYS3prNmM0MHFlQzV2QWZYdk0zRlE4el9vajhyTkI2Zkc5Q3NsRW45MXpvX2g2a3BTSW9ZNk9aNllzRU9rV1o1NVB0NEU4cg?oc=5",
+    "published": "2026-10-29",
+    "summary": "最新上期所原油期货仓单变动-每日更新查询（2026年10月29日）&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "8点1氪丨姆巴佩中国代言收入近2200万欧元；长鑫科技已被纳入上证指数；宇树科技：前三季度净利润3.87亿元，同比增长270.54%",
     "source": "36氪",
@@ -44,6 +68,18 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLTMyS3Roczh5Uk1BWjE2LW1xXzNCWDJya0N2aFZENTM2a1gxMzJiM3dlX3FrNmo4SzRHTU82bHdXTDk0UVRXUzhHOWJ6ZVhzZlRwbW5VQXVYbl9UdFgzdFVqb20xWDN3ZFBseC11T0wxcWk3VFd2VlVuT2VpQWFPdDloTnlLZmdpbnFfQk90RWp4akdNNWdTWW9oMHpyTzh5VUR5Tk50MTFRZHQ2UnlocThIajRWcHhGX2QyX1p6LUEwaTk3dlI3blJpbWxMbV9mT3BWTnZpQTVXWDVQNFhYQ3Fn?oc=5",
     "published": "2026-10-28",
     "summary": "中天期货:焦煤逼近年线 乙二醇碰涨停&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "WTI原油期货跌破每桶100美元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vMi1ObnJVX0l2a1BiTV96ekdPa2xmTXNmNkNCSXpHVFRPUmxPNER0cmNObFlNZ1dkWGNsTG5FZV8tdW5GZW1kYW9xRWhkTWdnM1RXd01weUU0ZHc5UlBrUzRQcGZ5aEg1V1lyUnlIcmRKNlBCNjhLSw?oc=5",
+    "published": "2026-10-27",
+    "summary": "WTI原油期货跌破每桶100美元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
@@ -561,42 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ2I1Q0FsMW5mdGQzdllIWUd5czRJeEFBQ3ZOdl9MNXhsazdwcmMyY0hSQmZ0N1oxUFZ0bVRReHlqUjVaOFItd095YmFPM1VTZmZLS0dEbGdnZFkyVmlSOVEwenJLcnVfeEtNa2ZjYkhHSENyUFZ6OHc0R0JNcXZXNWNMVWpQVmJvTDhvYQ?oc=5",
     "published": "2026-10-19",
     "summary": "光大期货1019热点追踪：燃料油独自大涨，这件事跟你的油费有什么关系？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "期货夜盘开盘整体下行 燃油逆势走强涨超1%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JbmpXUzdneGdjQ0F2bEhjaWVsVUpjend0MWFyWldXb1dPYzNFSXlwTGFtSWJ3UmNUS2hZNGVBQVFFWFA4Q0loSG0zLWFBeldBYzJVdy1Ma3dwaUtPclIzQnA0Q3ZvYjhiNXhVaWZSclpCUVZtazVGVw?oc=5",
-    "published": "2026-10-19",
-    "summary": "期货夜盘开盘整体下行 燃油逆势走强涨超1%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "芝商所拟于2026年底前推出欧洲乳制品期货与期权合约",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaXV5NExaSVNDWF9oTDI0bGxzUV95cWRTLTJ5ZVpIUDBneTZLMzc1dGtKRlh1b3czSm1iVG1oLU15eFlkTVlZT0Rsb19KblNRdDF3SWY3R2pWdHZDdEs2TzlnOHNseEctUkJITnh6YUtLRzhFdTBvYXFBUWlxcWhRSlZjSzZTTFZsQTlRb2M3TF83RUVBZnp1MDNCMlc?oc=5",
-    "published": "2026-10-19",
-    "summary": "芝商所拟于2026年底前推出欧洲乳制品期货与期权合约&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中金财富期货：黄金表现较为稳定",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaFpVNmVqa2thcUxGTk5FVm42ZHo3ampXMDVIWHBtTTd0M1UxOG9pUkp0b3NpR0wza2szVTF3QndhaUVHaFZQX3BONWRsSl9rRmxGd1R5ZUtnUzlZNEhGNTVVaDRjT0ZXeHNfd29wNXEybGhMRU1CVnhzUVdMYVpTdw?oc=5",
-    "published": "2026-10-19",
-    "summary": "中金财富期货：黄金表现较为稳定&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
