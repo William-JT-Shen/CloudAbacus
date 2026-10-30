@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-30T15:01:32Z
-var NEWS_FETCHED_AT="2026-10-30T15:01:32Z";
+// 生成:2026-10-30T20:41:05Z
+var NEWS_FETCHED_AT="2026-10-30T20:41:05Z";
 var GPU_NEWS=[
+  {
+    "title": "美股盘前丨股指期货齐跌 英特尔盘前跌超25%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nUy02azFzR2tMb2JOWTVVNXlndDd5RXNnZFJ0Z1FwdnFkMjZsTF94ZnJjcnV5SlVWdFUyZmg0RlRSTWdrUk00anF5MDhxbDd0ZHQ0cnBTOXoyOXZwQi1tSGczVEE5NWV2X0ZlOFBoMExlQjdlRUFydA?oc=5",
+    "published": "2026-10-30",
+    "summary": "美股盘前丨股指期货齐跌 英特尔盘前跌超25%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "开盘|国内期货主力合约跌多涨少，沪银跌超4%",
     "source": "新浪财经",
@@ -96,6 +108,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "永安期货前三季度净利润增23% 总资产增长29.47%超千亿",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb3RhYXhDQ0Q4LXJfSlR3SkY1dVg5NXlYdHZ6OUdxUFhmU1JDY1Z3TXV1SldGbjBKbGhCX25sTmhCeWFfaG9LYkE1emZvR0VIN3diQXBEWjhDYVdHUFhEU1llNnkwWWlGX1luOWR3Nkh6eVlzNng3WnJSQl9ua25abHVhSk5qYzQ?oc=5",
+    "published": "2026-10-28",
+    "summary": "永安期货前三季度净利润增23% 总资产增长29.47%超千亿&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -573,30 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY0RsWUVLZ2w2Zk1jaFdueWsyTGhPSkRmWVFJbkdMUWpuUTZCaEw4RUpTamtsS2phVm1JWld2QzRUaUg5WnJsRVhBWENmSUJTc2ZaWmNXTmZ6STdRX1VUU21aQWY4eE44TlM2NE1Qc2IxZ3Y2VTZIVENMWUkzbXd1SA?oc=5",
     "published": "2026-10-21",
     "summary": "原油系期货主力合约短线拉升&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "36氪首发丨华为、高瓴等押注，物理空间智能基础设施公司完成超亿元融资",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4035014691345540?f=rss",
-    "published": "2026-10-21",
-    "summary": "&nbsp;\n  \n   本文约4000字，建议阅读10分钟\n  \n  作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，以物理空间引擎为基座的空间智能Infra公司「乙太科技」近日连续完成种子轮及天使轮融资，累计融资规模超亿元。其中产业投资方包括华为哈勃、嘉立创、自变量、智元、中科第五纪、软通动力。财务投资方包括高瓴、深高新投、上海半导体、中平资本、芯能创投、交源资产、Neuron VC、德石、曦晨等。\n  乙太科技成立于2025年12月，致力于以物理空间引擎为核心，构建空间智能infra。公司创始人兼CEO 杨叶青曾任HTC VIVE Chief of Staff，中国区元宇宙事业部及软件和服务事业部负责人，从0到1主导开发了国内首款元宇宙系统平台。公司核心团队来自HTC VIVE、微软、京东、美团、北京大学、香港科技大学、北京航空航天大学等知名企业及院校。\n  杨叶青向硬氪介绍，乙太科技所专注的“物理空间引擎”，并非三维重建、数字孪生或空间数据的简单叠加，而是要解决空间如何被持续认知、统一表达并可靠运行这一更基础的问题。\n  语言模型让",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "富时中国A50指数期货低开，现跌0.26%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OdHZKVXgzSWJQUFN0SlZ0Njc4clQ5QklTUVRkbjc5N1lNeDRablhVTkdVcnMyZ2NtaDFIQW9hTFh2YmtZWlhTTUdyS0dhN2wxYkEwNHBfa2JTY3R1Wk1LQl96bmdaWmR0VG9UVXRlMmIzZFRZVjA1Vg?oc=5",
-    "published": "2026-10-20",
-    "summary": "富时中国A50指数期货低开，现跌0.26%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
