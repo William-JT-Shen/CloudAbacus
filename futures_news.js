@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-31T05:16:35Z
-var NEWS_FETCHED_AT="2026-10-31T05:16:35Z";
+// 生成:2026-10-31T14:30:30Z
+var NEWS_FETCHED_AT="2026-10-31T14:30:30Z";
 var GPU_NEWS=[
   {
     "title": "9点1氪丨币安遭黑客攻击，致其30亿美元资产被冻结；“张雪机车”商标回归张雪；美股收盘纳指重挫700点，英伟达市值蒸发1.4万亿元",
@@ -12,6 +12,42 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "华泰期货：养殖场出栏稳定，猪价延续弱势",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdnhualN4djZBa3FSS3M2a1FvVkZiUnJTaTFVcTFxTkVDZ1JNZTN4WG5FZ25hTTJQd0VmRnJGSGxKTEZ1QmN4S3RJaDRGUVZWOVd6czdWc1lqaF9QV29XQld2UWt3ZWNsejM4ZnFGSmFETGRKU1huTjkwa2ZvWHFFMk00SjQ0c3BYWW9HSjBRWm5wSUVScmxwcHhFVFlJTEYzN1BrUmdUaFdyQjJKMkJaUTktejdWZFpQRXE3emZld3FnekNZbFlmdExZaFpneGdZSnVXcWcxT0J3Nm90VVM0R1N3?oc=5",
+    "published": "2026-10-30",
+    "summary": "华泰期货：养殖场出栏稳定，猪价延续弱势&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "收评|国内期货主力合约涨跌不一 苹果涨超6%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZDhEUW1zNUt1N091OElCbFpwYUQ3REtsMVQtS0RiZDZlbkJUb1ZhYThyMVlsXzUwcU5MZEUtVV9IVVByOTdheVZldG5MQ3pkaThUTG9zRHJ4Mmg2ZHY2UXItUllKZHJSaXVpRGkzZjloR1gzRVhCZDVBaUowNm1DM1RlTzFjUXYwenZlZC1RMkI2UnpmN0NxUTZ2dkxfRXJnX2dORlRpUURDQUlBOW10cDF3Z28xWFpSaUlkY19Sdm4tb01lUVlqTk9jMk5Zemw1NVQ0U1h1Z3prVHRseUl6V0VVZw?oc=5",
+    "published": "2026-10-30",
+    "summary": "收评|国内期货主力合约涨跌不一 苹果涨超6%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "最新上期所铜期货仓单变动-每日更新查询（2026年10月30日）",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcnJTMDMtVklVTkdZS2pxNEZmcU5yNFJYd3VfWnNlZG4wQ3BSVlkwRnlkSDF2ajdxcWlLZUJxeFg4bWxGZDNFbGIxbXhfTkVBTkpqOUJaeWFfRDE4aUNIa3hUT2hIcUFLN25aX0NHaXhmc0duTTMwTU81MzBoVU9MSUVUMDVxd1RaN3hnWg?oc=5",
+    "published": "2026-10-30",
+    "summary": "最新上期所铜期货仓单变动-每日更新查询（2026年10月30日）&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -561,42 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jbXJMRWZPNzVnU2txUXRLa3VXWmxLa2dJdlhseWxJalRZZG1KTUZ4U2tDalhJcUxQdU5mUzQ5eVl3RTk4MEZGdjN3UXZhYUt0MEdyMGY2TWhFVVpYaVQ5cXNSZDRUNFhYWmxWMXA4QXFBZUhFbmJ3dA?oc=5",
     "published": "2026-10-21",
     "summary": "我国期货市场前三季度新增客户91万个 同比增长41%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "科技巨头财报表现不一叠加油价走高 美股期货走低",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeWJuTEdQaUFLM1JRR0pnbHRqSGJzS1M1TGExX1NQcGtpbzd2MFlySG1icUNLbWZVc3dKUHVmLUd3MTEtTGxQUDMybFlzZEpmRV8xZUJ4SmNhQ0JVRzZFdERyeVl0T2dvRTVudFh4VmdQbEUya0JKcDJ4U0FhY2tMZUQzbllGeE93NE9Za3BTQ1F0QVdibGc?oc=5",
-    "published": "2026-10-21",
-    "summary": "科技巨头财报表现不一叠加油价走高 美股期货走低&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "两倍做多波动率指数期货ETF收跌2.98%，成交额7474.53万美元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeGpNV2NJU3RaTkNWYjNTR0dBMXlMNFZEdFAzYnNHdVdNT0U2LUJ4dUQ5ODVScjRUM0xzc1ctckJrclM1NXl0R1c3WWdfTUdSSUR6Z3ZvUkoyMFpYdnRwZzFhQVQ0N2JabFNIb2dKTE91U0RzM0lxSGNodnNhZmxVRUkxc0JjVTJCUFRtZjZ3?oc=5",
-    "published": "2026-10-21",
-    "summary": "两倍做多波动率指数期货ETF收跌2.98%，成交额7474.53万美元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "LME金属期货收盘涨跌不一",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xdUV6R1B6YUNSS0c5dTcydFBvbWFwc2pzVWNrWWhnbDFITWlqWllRbkJMNDlvTGVpaTRoMFk5dXpPZkVaR2hSNHBfRldqWms3YVVzdnJ0eGlGVTN4WUtvLTJydmdmNlhWS2NJUWdLc1dPaVc4eGZhZw?oc=5",
-    "published": "2026-10-21",
-    "summary": "LME金属期货收盘涨跌不一&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
