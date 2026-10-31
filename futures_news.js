@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-10-30T20:41:05Z
-var NEWS_FETCHED_AT="2026-10-30T20:41:05Z";
+// 生成:2026-10-31T05:16:35Z
+var NEWS_FETCHED_AT="2026-10-31T05:16:35Z";
 var GPU_NEWS=[
+  {
+    "title": "9点1氪丨币安遭黑客攻击，致其30亿美元资产被冻结；“张雪机车”商标回归张雪；美股收盘纳指重挫700点，英伟达市值蒸发1.4万亿元",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4049089058126344?f=rss",
+    "published": "2026-10-31",
+    "summary": "今日热点导览\n  \n   全球“股王”再度易主，传苹果2028年推出大屏折叠iPad\n   姆巴佩曾代言饮品被商家清理库存，部分门店单日销量为0\n   日本无印良品运营商称超2700万条用户信息或外泄，MUJI中国回应国内数据独立存储\n   首付降到4万以内，特斯拉推出“5年0息”购车方案\n   11月5日起，国内航线燃油附加费再上调\n   野人先生获首轮融资\n  \n  TOP3大新闻\n  币安遭黑客攻击，致其30亿美元资产被冻结\n  10月30日，全球最大加密货币交易所币安（Binance）曝出重大安全突发事件，市场多方消息显示该交易所热钱包疑似遭遇黑客入侵，导致其冻结了逾30亿美元的资产，并引发数字代币价格大幅下挫。币安方面表示，团队已注意到有关潜在安全问题的报告并正在积极调查，目前用户资金完全安全。此前，币安已暂停提币和币安Alpha交易。\n  加密货币存储公司Ballet Global Inc.创始人Bobby Lee表示，币安遭黑客攻击中被窃的比特币，恐怕已经不可能追回。Lee在周五接受采访时表示，那些比特币都一去不返了。被窃的比特币全都已经落到黑客手中。业界形容，这是加密货",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "美股盘前丨股指期货齐跌 英特尔盘前跌超25%",
     "source": "新浪财经",
@@ -585,18 +597,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xdUV6R1B6YUNSS0c5dTcydFBvbWFwc2pzVWNrWWhnbDFITWlqWllRbkJMNDlvTGVpaTRoMFk5dXpPZkVaR2hSNHBfRldqWms3YVVzdnJ0eGlGVTN4WUtvLTJydmdmNlhWS2NJUWdLc1dPaVc4eGZhZw?oc=5",
     "published": "2026-10-21",
     "summary": "LME金属期货收盘涨跌不一&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "原油系期货主力合约短线拉升",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY0RsWUVLZ2w2Zk1jaFdueWsyTGhPSkRmWVFJbkdMUWpuUTZCaEw4RUpTamtsS2phVm1JWld2QzRUaUg5WnJsRVhBWENmSUJTc2ZaWmNXTmZ6STdRX1VUU21aQWY4eE44TlM2NE1Qc2IxZ3Y2VTZIVENMWUkzbXd1SA?oc=5",
-    "published": "2026-10-21",
-    "summary": "原油系期货主力合约短线拉升&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
