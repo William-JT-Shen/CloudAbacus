@@ -1,7 +1,20 @@
 // GPU算力期货新闻
-// 生成:2026-10-31T14:30:30Z
-var NEWS_FETCHED_AT="2026-10-31T14:30:30Z";
+// 生成:2026-10-31T19:54:05Z
+var NEWS_FETCHED_AT="2026-10-31T19:54:05Z";
 var GPU_NEWS=[
+  {
+    "title": "How Binance’s $6.3 Billion Hack Went Down",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
+    "published": "2026-10-31",
+    "summary": "A war room. A global conference call. A founder who live-posted about the largest crypto heist in history. Inside a frantic 24 hours at the world’s biggest crypto exchange.",
+    "full_text": "Binance, the world’s largest crypto exchange, said $6.3 billion of funds are involved in what the industry is describing as crypto’s biggest-ever hack.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "9点1氪丨币安遭黑客攻击，致其30亿美元资产被冻结；“张雪机车”商标回归张雪；美股收盘纳指重挫700点，英伟达市值蒸发1.4万亿元",
     "source": "36氪",
@@ -585,18 +598,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RWpBdzMtTlpYRHhYM0hVSGxCbHVZUEFHX1Rhd2ZUSG9PdlhKRlJlZXNXczNxR2RBV3BQYTFyNEFyWXQtYnBKZDllYndHTzZZcDVEYXNMOUFZeEJtMWhQdF92bmQyaWtpWFZaVjNweTJ0X05BbFRaSA?oc=5",
     "published": "2026-10-21",
     "summary": "新加坡铁矿石期货跌破90美元/吨 淡水河谷股价受矿价下行承压&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "我国期货市场前三季度新增客户91万个 同比增长41%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jbXJMRWZPNzVnU2txUXRLa3VXWmxLa2dJdlhseWxJalRZZG1KTUZ4U2tDalhJcUxQdU5mUzQ5eVl3RTk4MEZGdjN3UXZhYUt0MEdyMGY2TWhFVVpYaVQ5cXNSZDRUNFhYWmxWMXA4QXFBZUhFbmJ3dA?oc=5",
-    "published": "2026-10-21",
-    "summary": "我国期货市场前三季度新增客户91万个 同比增长41%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
