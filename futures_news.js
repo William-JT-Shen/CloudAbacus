@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-01T14:58:25Z
-var NEWS_FETCHED_AT="2026-11-01T14:58:25Z";
+// 生成:2026-11-01T20:27:48Z
+var NEWS_FETCHED_AT="2026-11-01T20:27:48Z";
 var GPU_NEWS=[
   {
     "title": "How Binance’s $6.3 Billion Hack Went Down",
