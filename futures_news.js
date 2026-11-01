@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-10-31T23:19:15Z
-var NEWS_FETCHED_AT="2026-10-31T23:19:15Z";
+// 生成:2026-11-01T05:45:31Z
+var NEWS_FETCHED_AT="2026-11-01T05:45:31Z";
 var GPU_NEWS=[
   {
     "title": "How Binance’s $6.3 Billion Hack Went Down",
@@ -593,11 +593,11 @@ var GPU_NEWS=[
     ]
   },
   {
-    "title": "新加坡铁矿石期货跌破90美元/吨 淡水河谷股价受矿价下行承压",
+    "title": "生猪期货失守万元/吨！母猪跌破红线，猪价拐点却被谁“卡”住了？",
     "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RWpBdzMtTlpYRHhYM0hVSGxCbHVZUEFHX1Rhd2ZUSG9PdlhKRlJlZXNXczNxR2RBV3BQYTFyNEFyWXQtYnBKZDllYndHTzZZcDVEYXNMOUFZeEJtMWhQdF92bmQyaWtpWFZaVjNweTJ0X05BbFRaSA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JT1ZCWUUweWVNQmJyM2V0NFVkbi1uLXljWV9wazlJU21wS3VHRnFSZ1MwVnNaUkNzeGNfdFBDcm42RU9QbVFsWVZ3UUNuNDZxejQzRjhONVhHQXhwUzM4aTNUMWVjaG12TEd0d1V0Ym5UNk1EUFBaRw?oc=5",
     "published": "2026-10-21",
-    "summary": "新加坡铁矿石期货跌破90美元/吨 淡水河谷股价受矿价下行承压&nbsp;&nbsp;新浪财经",
+    "summary": "生猪期货失守万元/吨！母猪跌破红线，猪价拐点却被谁“卡”住了？&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
