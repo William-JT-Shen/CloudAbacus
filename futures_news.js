@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-01T05:45:31Z
-var NEWS_FETCHED_AT="2026-11-01T05:45:31Z";
+// 生成:2026-11-01T14:58:25Z
+var NEWS_FETCHED_AT="2026-11-01T14:58:25Z";
 var GPU_NEWS=[
   {
     "title": "How Binance’s $6.3 Billion Hack Went Down",
@@ -25,6 +25,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "中天期货:原油横盘震荡 沪锌横向震荡",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNM0hhLWdTeEZMMl9ETTJaci1tQ0RIeE1IazZCWExWRC1MMWlNN0NXSXlfLXM5OG1zbEF2MVlLaE1MNHdjMEFWTUtxSkN0Yi14WXNKY3JHYkVJMDJsS0tNMXJldTBXeHMtX3BnMTNQelp3S3JrcVRhUld5cHloQThDLW1QTFY3ZGRuOTVDN25PQVc0MkF2UWlOSEpBRERNUU1wSXJUaGxKSTdWcFlPWmFJeXZTOGN0TGwyNUh5cjFVMXBmZWpOVmoxUmRvNzJMN2xxZE5ZWXBiRWJuZHA2MlNSNmktaw?oc=5",
+    "published": "2026-10-30",
+    "summary": "中天期货:原油横盘震荡 沪锌横向震荡&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -169,6 +181,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "沪镍、不锈钢期货10月28日暂时止跌弱稳",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWE5ldjNlMllXTkFMSjAtRU1pLTd4ekl4enhWV28yN3RnZkUtYTZvdXYyeGN2WXFLN2pNYjVYN3VLOWVBS1RFTGRHVzRmVVNNYkdYM2xxNExpMTdhUWJqQnVBWlBtdGhua293TlNpWnJrcGVfM1pNVmlFUmdEZHR1b0xkTmlPRHlwZFcydTVR?oc=5",
+    "published": "2026-10-28",
+    "summary": "沪镍、不锈钢期货10月28日暂时止跌弱稳&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -574,30 +598,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMkJPTWhGb2tLbnpETUNvWE1YSnEwbFJacXVNNDdFa2FFaDd1STVZUXhsMU5PQzdyN1pnSzNDMUZPcFhWQWlwS1gxVGFTNEVIc1pXajZGT0hrdS0yUWFWQXYzcmFuMGlaamJTTENtSmxFS3lGY2hkSkw2VVRTdGE2N0tUZW05TTNDZnphZDh3?oc=5",
     "published": "2026-10-22",
     "summary": "广州金控期货贵金属日度报告20261021&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "纳斯达克100指数期货跌幅扩大至1.5%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ3BjVXRzU3FHdzFHYW9UWVNWdEpjOTdhbFlJSUZJakprYi1aM282bDR2eDNLaUtVVF9Da0VPX1ZzN1BvRGd0bHBRN2k0UFF4Y2RtZFR5OHpZbk5HYWsxN194am1WVFJFaGJTZjlEOFpYaHVnNnY2azdXSHZhWm9sd2F5RDluMk5feE5hUlVxZw?oc=5",
-    "published": "2026-10-22",
-    "summary": "纳斯达克100指数期货跌幅扩大至1.5%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "生猪期货失守万元/吨！母猪跌破红线，猪价拐点却被谁“卡”住了？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JT1ZCWUUweWVNQmJyM2V0NFVkbi1uLXljWV9wazlJU21wS3VHRnFSZ1MwVnNaUkNzeGNfdFBDcm42RU9QbVFsWVZ3UUNuNDZxejQzRjhONVhHQXhwUzM4aTNUMWVjaG12TEd0d1V0Ym5UNk1EUFBaRw?oc=5",
-    "published": "2026-10-21",
-    "summary": "生猪期货失守万元/吨！母猪跌破红线，猪价拐点却被谁“卡”住了？&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
