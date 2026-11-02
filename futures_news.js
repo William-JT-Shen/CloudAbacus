@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-02T05:43:10Z
-var NEWS_FETCHED_AT="2026-11-02T05:43:10Z";
+// 生成:2026-11-02T18:10:51Z
+var NEWS_FETCHED_AT="2026-11-02T18:10:51Z";
 var GPU_NEWS=[
+  {
+    "title": "算力金融化再进一步：为对冲AI基础设施投资风险，华尔街开始为GPU租金涨跌开发衍生品",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ2NITWNoN1drQXhQOXAzX0loQUwyY0I4a3AzVHJGTmxrLWpXdEx5ejVnTzFWQUNBcm1xMmpmcjNFMGQ5WEd2TExaWTJfMlQ3N0xHWUlqTXZObjVvdkVzbTBkNW05YnFjNjRUMVJsamxiRXJyeGRxd28ydzh4QTlqRndISzNaeWM?oc=5",
+    "published": "2026-11-02",
+    "summary": "算力金融化再进一步：为对冲AI基础设施投资风险，华尔街开始为GPU租金涨跌开发衍生品&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "8点1氪丨“黄金平替”，全球爆单；奇瑞高管回应智界独立；OpenAI宣布ChatGPT部分任务将与Codex共享额度",
     "source": "36氪",
@@ -586,18 +598,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUTZjRlkxRkxQM20zbUtUd1I3LWYwTklISUlpTk8zZlhJYXFiNjNYbG1lRE54QkI2eGhWM0xhRFFJWEp4NkdRNHpMSHVzU1dMaWRlaEIxRDduV0ljVWd2NTN2U0FOQ3ZydjdnV0JQbEhvNTZNSHRuUkVfMUlvUW1WNQ?oc=5",
     "published": "2026-10-22",
     "summary": "中泰期货(01461.HK)：2026年面向专业投资者非公开发行次级债券(第一期)发行完毕&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "纽约商品交易所11月天然气期货结算价为每百万英热单位2.7960美元。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15YllKSV8yQ1NqWjItYzFuakNLUWNWSkJOa0lxMDhRWng1SlZxWGFnOGh3M3F6aEc2WTh5VlY5bkxlbkFIT3pKSzRuS3JpNVNiZGVBcFNEMjJKc2gteERFTnY5RG5qMEdPTmpMZ0lEMmJLM1lRVHlyeA?oc=5",
-    "published": "2026-10-22",
-    "summary": "纽约商品交易所11月天然气期货结算价为每百万英热单位2.7960美元。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
