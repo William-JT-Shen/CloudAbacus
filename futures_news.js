@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-01T20:27:48Z
-var NEWS_FETCHED_AT="2026-11-01T20:27:48Z";
+// 生成:2026-11-02T05:43:10Z
+var NEWS_FETCHED_AT="2026-11-02T05:43:10Z";
 var GPU_NEWS=[
+  {
+    "title": "8点1氪丨“黄金平替”，全球爆单；奇瑞高管回应智界独立；OpenAI宣布ChatGPT部分任务将与Codex共享额度",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4051860578702216?f=rss",
+    "published": "2026-11-02",
+    "summary": "今日热点导览\n  币安在遭遇史上最大规模加密货币黑客盗窃案后恢复提现\n  央行、金融监管总局、证监会，今日将召开会议\n  Anthropic招股文件披露：未来“隐性债务”规模近9000亿美元\n  全球MLCC龙头，宣布扩产计划\n  苹果CEO：不会为了做AI而做产品\n  TOP3大新闻\n  中国贵金属首饰出口亮眼，全球爆单\n  海关总署数据显示，前三季度，中国贵金属首饰出口亮眼。广东是中国珠宝首饰出口的核心省份。在汕尾一家首饰加工企业，今年1至8月的销量增长明显。据介绍，今年，镶嵌培育钻石类的贵金属首饰产品，是他们最大的增长点。为了应对新增的订单，公司专门新设立了培育钻石车间，全面铺开培育钻石的生产和研制。\n  数据统计，1~9月，中国贵金属或包贵金属首饰出口金额超过102亿美元，同比增长17.55%。广东出口金额达到73亿美元，同比增长超36.54%。近年来贵金属价格高位运行，也让这里发生一种新变化。业内人士表示，贵金属价格高位运行，不仅推高珠宝首饰出口总额，也催生了海外买家的“平替需求”，他们会采购金银含量更低的首饰，或者用铜制首饰替代银饰。（第一财经）\n  奇瑞高管回应智界独立：",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "How Binance’s $6.3 Billion Hack Went Down",
     "source": "NYT Tech",
@@ -25,6 +37,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "光大期货：软商品类日报10.30",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbG5QRzVLcVlpeWFvVy1lY1RRWG1YRHNrQnRqNXpCN0ZNSmRNR2kxRDdlNnoxc1ItaUNYVEFmUnZ0WHhYRzNMb3paU3VWcHRKMVQ2elZtR0JPRzhkYWpwYmc0eGtGeHplOURDYVlwU0JTYW41LVpfRDNtejdHOEhjUlo1RFlDOE16MnhjLXYtTlllMUctM3BCaWZ5T3BFTllBTDR5QmlkTmFmaGtvUzBBWnpSNjR1ZEQ4bFA0cGZSNzZ0X2RocVJfQ29fYTg4c3FvQU1CbDNUMHZiZTl5S054SWtsaw?oc=5",
+    "published": "2026-10-30",
+    "summary": "光大期货：软商品类日报10.30&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -574,30 +598,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15YllKSV8yQ1NqWjItYzFuakNLUWNWSkJOa0lxMDhRWng1SlZxWGFnOGh3M3F6aEc2WTh5VlY5bkxlbkFIT3pKSzRuS3JpNVNiZGVBcFNEMjJKc2gteERFTnY5RG5qMEdPTmpMZ0lEMmJLM1lRVHlyeA?oc=5",
     "published": "2026-10-22",
     "summary": "纽约商品交易所11月天然气期货结算价为每百万英热单位2.7960美元。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "关于对长安期货有限公司山东分公司采取出具警示函措施的决定",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWUhXa1BlR3RmSjhvazlySmFYQ0c4c2FUN3JyYjNGRzI5dVdPem1aaFp4Q3drcTA0S3NMTVVCM0I4TkpEUlhxUXFUeUgxLURVUnJLOUwyRVVRNXJ6RFF4Sm50MkVvQmd3QjJWUVR2NGxiZEFrSU1UWDJjRE5mOGxlYg?oc=5",
-    "published": "2026-10-22",
-    "summary": "关于对长安期货有限公司山东分公司采取出具警示函措施的决定&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "广州金控期货贵金属日度报告20261021",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMkJPTWhGb2tLbnpETUNvWE1YSnEwbFJacXVNNDdFa2FFaDd1STVZUXhsMU5PQzdyN1pnSzNDMUZPcFhWQWlwS1gxVGFTNEVIc1pXajZGT0hrdS0yUWFWQXYzcmFuMGlaamJTTENtSmxFS3lGY2hkSkw2VVRTdGE2N0tUZW05TTNDZnphZDh3?oc=5",
-    "published": "2026-10-22",
-    "summary": "广州金控期货贵金属日度报告20261021&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
