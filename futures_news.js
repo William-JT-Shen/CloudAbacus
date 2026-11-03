@@ -1,7 +1,20 @@
 // GPU算力期货新闻
-// 生成:2026-11-03T11:50:27Z
-var NEWS_FETCHED_AT="2026-11-03T11:50:27Z";
+// 生成:2026-11-03T19:27:00Z
+var NEWS_FETCHED_AT="2026-11-03T19:27:00Z";
 var GPU_NEWS=[
+  {
+    "title": "Binance Says Hackers Plotted $6.3 Billion Crypto Heist for Months",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/11/03/technology/binance-hack-report.html",
+    "published": "2026-11-03",
+    "summary": "A report from the cryptocurrency exchange described a monthslong campaign involving fake job interviews that exploited an engineer’s work computer and an internal A.I. tool.",
+    "full_text": "The hackers used a computer and an internal A.I. tool to take control of the machines of two engineers on Binance’s wallet team.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "8点1氪丨iPhone Duo中国版被指偷工减料，苹果回应；罗技广告再被指用“狗”侮辱用户；Anthropic第三季度营收暴增1127%",
     "source": "36氪",
@@ -181,6 +194,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "光大期货：10月29日软商品日报",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdE9PTnFaNW1MTnFCZHRPWW01Nk9uZmd5aUZ1bjNPb0FLT193LTh2QUh1RVFjY1I5Z3pCX1UzM2pZY0gwUE9HbS03VnJnM0VGMTZ4eVYzVzcwelNXWExUV1dpZE5aQ21rWlJ5Y3JLNktCN0J5ZGR4amlqblhzOUFJTGFyLVBCVDNVakZoOXNwNlNTTFFKd3hQV241VWtveXRFMUdqRlFSQjRoMVpMcUQtM2NjNHc3UzlxVk5JaGVMRXMwWkZiQ2Zrd1doYUFQNElUVHE4YWozR0pZTW9jUG0zVWdPTTE?oc=5",
+    "published": "2026-10-29",
+    "summary": "光大期货：10月29日软商品日报&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -574,30 +599,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBidmxfSXJqOGZ6Y1B1bnVCVXB2b00yT01TSENUVHp1d0FhakxLdnNSZ3ZSRmsxVmxLYmtTb1RRN2Z6UTJGTXctZVlvZU5vV3c2dExmXzA2R1BzLVljZXZtVDhGdDdIVTVsbTZLM2xkejVoTlIwRy1CLQ?oc=5",
     "published": "2026-10-22",
     "summary": "国债期货开盘全线上涨&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "10月22日期货策略 | 黑色系、有色金属、农产品期货汇总",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVTNPcHBzS3F3VlRwOGVUZFBSUlhYRXUzZWxWZTJJTm9ZWUx6SW9vWms4Xy1DU01BVko0QWRLUWowZGNyTWFKUHFBbjFOQW1ZbnVKWFlKcDdPNkNHblJfX1B2UWdrdU50NkVLMG1SSW45Nm5ZWTJBOGhwMThGbnA3eUZtdWQtTFhxNlE?oc=5",
-    "published": "2026-10-22",
-    "summary": "10月22日期货策略 | 黑色系、有色金属、农产品期货汇总&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "广期所构建国内新能源金属期货板块、广州市创新激活绿色金融资产入选国家首批要素市场化配置综合改革试点创新举措",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SMjFDQUMwWG5OdUpjdWNCS0Jia3JhUDRYVTUxZ0Q0Rm1RUGgyMElZcXJTUmFMNDdYdlpETUxVVWw5NHp0ZmNQaVNSYzZjV29qRmFZWVg5aHM4TElZb1NicWNFOE1JMFFhMnhYQWJqMFE1MlM2enpXag?oc=5",
-    "published": "2026-10-22",
-    "summary": "广期所构建国内新能源金属期货板块、广州市创新激活绿色金融资产入选国家首批要素市场化配置综合改革试点创新举措&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
