@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-02T18:10:51Z
-var NEWS_FETCHED_AT="2026-11-02T18:10:51Z";
+// 生成:2026-11-03T02:12:03Z
+var NEWS_FETCHED_AT="2026-11-03T02:12:03Z";
 var GPU_NEWS=[
+  {
+    "title": "8点1氪丨iPhone Duo中国版被指偷工减料，苹果回应；罗技广告再被指用“狗”侮辱用户；Anthropic第三季度营收暴增1127%",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4053273336517767?f=rss",
+    "published": "2026-11-03",
+    "summary": "今日热点导览\n  \n   宇树机器人因过热退出登泰山大赛，被担架抬下山\n   苹果：第四季度营收1144.77亿美元，同比增长11.72%\n   证监会：拟优化护盘式回购\n   币安已恢复15个网络及资产提现，单日净流出约36.4亿美元\n   苹果限制“摇一摇”广告，百度网盘仍能触发跳转，知情人士回应\n   “床虱地图”小程序走红：600多家酒店被标注\n  \n  TOP 3大新闻\n  iPhone Duo被指国行美版存结构差异，苹果：受相关许可规定影响\n  近期，一位数码博主发布的iPhone Duo拆机对比视频，在数码圈层掀起诸多讨论，视频直观展示了该产品国行、美版两款机型内部结构的不同，不少网友由此质疑苹果国行版本存在硬件减配。针对上述疑问，11月2日，苹果技术人员回应称，苹果内部并没有专门针对此事发布明确说明。“据我们所知，产品生产出厂都经过工厂检测，不存在国行版本用料、硬件品质比其他版本差的情况。”上述技术人员解释道，很多海外机型具备的功能，需要拿到国内主管部门许可之后，才能够在大陆地区上线使用。许可缺位时，相关功能就无法开放，这也是不同版本硬件配置出现区分的核心原因，“就像苹",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "算力金融化再进一步：为对冲AI基础设施投资风险，华尔街开始为GPU租金涨跌开发衍生品",
     "source": "新浪财经",
@@ -217,6 +229,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "民主党中期选举若取胜，预测市场与美国商品期货交易委员会或将面临重压",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLWFfemxkWW5wYUZXUVlyUTktM21mOUpXb3Jma3A0eTJEVjBJMmx4VXdQci1KVEhDcXUtczJRRG1fcFlMdGxqT3o1MElZZWpDWExxMmNrTjkwTXlFV1AtZlNLLTJtZmVMR2tXVVk3dmxwSm1GX25CSDNUeXRuOFMwYTZfOG44X1BmcHJheWlHcE0zc3FES1ptaVF3dnpQa3VBdDVFbXlWX28wdEpFU0R1N3ZRX0FwdEpaWmRMMTN1eC01d0tYMjBPUkVDbmxqRWFEbHpCV2Q4R2loYVlfbmlV?oc=5",
+    "published": "2026-10-28",
+    "summary": "民主党中期选举若取胜，预测市场与美国商品期货交易委员会或将面临重压&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -545,6 +569,18 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "国债期货开盘全线上涨",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBidmxfSXJqOGZ6Y1B1bnVCVXB2b00yT01TSENUVHp1d0FhakxLdnNSZ3ZSRmsxVmxLYmtTb1RRN2Z6UTJGTXctZVlvZU5vV3c2dExmXzA2R1BzLVljZXZtVDhGdDdIVTVsbTZLM2xkejVoTlIwRy1CLQ?oc=5",
+    "published": "2026-10-22",
+    "summary": "国债期货开盘全线上涨&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
     "title": "10月22日期货策略 | 黑色系、有色金属、农产品期货汇总",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVTNPcHBzS3F3VlRwOGVUZFBSUlhYRXUzZWxWZTJJTm9ZWUx6SW9vWms4Xy1DU01BVko0QWRLUWowZGNyTWFKUHFBbjFOQW1ZbnVKWFlKcDdPNkNHblJfX1B2UWdrdU50NkVLMG1SSW45Nm5ZWTJBOGhwMThGbnA3eUZtdWQtTFhxNlE?oc=5",
@@ -562,42 +598,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SMjFDQUMwWG5OdUpjdWNCS0Jia3JhUDRYVTUxZ0Q0Rm1RUGgyMElZcXJTUmFMNDdYdlpETUxVVWw5NHp0ZmNQaVNSYzZjV29qRmFZWVg5aHM4TElZb1NicWNFOE1JMFFhMnhYQWJqMFE1MlM2enpXag?oc=5",
     "published": "2026-10-22",
     "summary": "广期所构建国内新能源金属期货板块、广州市创新激活绿色金融资产入选国家首批要素市场化配置综合改革试点创新举措&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "苹果期货近月合约触及跌停 主力合约续创五年新低",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSHFGekxBcWxiQjNiZVBFTW9nX0c1ZGZjRGZHZDI4bVZrcElENTh6TFlYamw3dkExTEhBUlY3RGNQeXhLUFB5YmFYN09tQkVVSldGc0hianpvQzJ0STFLSmx4N0w5aktYSEtZZmNHMUg4RThhSUpncVF1Qko3NDZBSklEZmd6cDRXeEFIVDVtOGJqUWpNYWt2QmlCSWhpQTNKVWc?oc=5",
-    "published": "2026-10-22",
-    "summary": "苹果期货近月合约触及跌停 主力合约续创五年新低&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "光大期货：1022热点追踪：新低伴随缩量，期指何时企稳？",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUVZFQ3pjeklmc0V4bnhZRWxJQTViaFYzbnBHUXZvT2hXbWl5cVVsM3RjaFFRVVFoUVJVQzVoN0VxXzdRZXp0eHhzZWFCSmdPXzkxSnZmT2h2TmhFaUhfVDQ5b0hpbk5fdC1yMU5qUEVORF95eVpzRnRsZTFMX1U3QVQ0aWN5UEs0d0MzSmxVNVJNcHAzNlBLcEhldFJoTG5VZWtRRUhRUFNQRGpnUTZnTUJaNDhHdUw3NXp4aUN1ZGFuUFlDX1FBTXNNNENkWWtwOUk0ZU10cjRTbFVOQVlCczlaV05Ba0M3?oc=5",
-    "published": "2026-10-22",
-    "summary": "光大期货：1022热点追踪：新低伴随缩量，期指何时企稳？&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中泰期货(01461.HK)：2026年面向专业投资者非公开发行次级债券(第一期)发行完毕",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUTZjRlkxRkxQM20zbUtUd1I3LWYwTklISUlpTk8zZlhJYXFiNjNYbG1lRE54QkI2eGhWM0xhRFFJWEp4NkdRNHpMSHVzU1dMaWRlaEIxRDduV0ljVWd2NTN2U0FOQ3ZydjdnV0JQbEhvNTZNSHRuUkVfMUlvUW1WNQ?oc=5",
-    "published": "2026-10-22",
-    "summary": "中泰期货(01461.HK)：2026年面向专业投资者非公开发行次级债券(第一期)发行完毕&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
