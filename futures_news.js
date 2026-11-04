@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-04T00:35:42Z
-var NEWS_FETCHED_AT="2026-11-04T00:35:42Z";
+// 生成:2026-11-04T12:01:55Z
+var NEWS_FETCHED_AT="2026-11-04T12:01:55Z";
 var GPU_NEWS=[
+  {
+    "title": "“AI+咖啡”改写产业链：新消费场景下的降本增效与青年机会",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4054786040026244?f=rss",
+    "published": "2026-11-04",
+    "summary": "随着城市节奏加快，咖啡愈发成为年轻人的日常刚需，日常之外，年轻人对咖啡的期待愈发多元，他们开始为空间氛围、风味探索和社交表达买单，线下咖啡的竞争焦点也从便利转向体验。从平价高频到体验创新，线下咖啡场景正在经历深刻的重构。与此同时，AI技术正加速进入咖啡产业链，被改变的不仅是出品效率，更引发了岗位能力、培训体系与青年就业方向的连锁反应。\n  10月31日下午，由鄞州区发展和改革局、36氪主办的“AiPartner带着AI上前线——宁波咖啡生活周场景创新交流会”在云创浙理青年国度成功举办，活动现场采用“双圆桌”形式展开探讨。第一场圆桌聚焦新消费场景下的产业链变化与青年机会，来自云创蔚来集团、美刻AI、宁波勇诚资产管理有限公司、陆汇集团的嘉宾们共同探讨了在新消费场景下“AI+咖啡”进入产业链如何推动产业降本增效、实现场景落地，以及如何挖掘青年创业就业的新机遇。\n  1. 降本增效：AI赋能线下商业的底层逻辑\n  在全行业拥抱AI技术的背景下，如何避免新技术沦为单纯的营销噱头成为行业关注的重点。纵观整场圆桌的探讨，产业链各方达成了一个清晰的共识，即AI技术的落地不能脱离真实的商业诉求，其核心价",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "Binance Says Hackers Plotted $6.3 Billion Crypto Heist for Months",
     "source": "NYT Tech",
@@ -74,6 +86,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "财中ETF风向标｜中证500股指期货行情更新，中证500跌2.91%，中证500ETF国泰(561350)跌2.91%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUsxVS1sRmdodWp5VXNsUkdhUXdsWVQ0S3NwajlmN3IwdVhTRHlzQzNWM2VWOWppZXVlZXhDYlRtV2tzS25vV01wSWRKNWRkdHJaTWhVS3c3RkQyb0lQNm5Mc3QzWkstbzUwd0lTak1faXVOeWNDSUNwTFdSLUMzMw?oc=5",
+    "published": "2026-10-30",
+    "summary": "财中ETF风向标｜中证500股指期货行情更新，中证500跌2.91%，中证500ETF国泰(561350)跌2.91%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -575,30 +599,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLXVJZUVxMDl2RHNBZjBYY1VBV2doSWtsdDRzd3dNa19QSW9zNFlXRnNkcGpNWTdwb1FWQmVKU3FOS0lEVXhGOWRMV0U3X0xaTUIxM2NVamljOTlTWEp6VV92a2ZmUGZVRmNWU1RPc0JSSjVGVkthaWNPSGtCN1JjcDlDemJDM2FrTTFTamNWY1IzNjdLODlsTTA0ZVdKRXRFSHFtZjV0eEwtNW9HUHExaUI0aGJDN0I1MUVJSGlyZUJueXExU3IxdHZxRTlMUkxXa3dRbw?oc=5",
     "published": "2026-10-23",
     "summary": "陈子昊：提升人民币资产吸引力，需要增加优质资产供给&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "三个月融两轮，要把遥感数据卖成“情报”，「瑞启深空」获超亿元天使+轮融资｜36氪首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4038309503997065?f=rss",
-    "published": "2026-10-23",
-    "summary": "36氪获悉，瑞启深空科技（苏州）有限公司（以下简称“瑞启深空”）近日完成超亿元天使+轮融资。本轮融资由东吴创新领投，苏创投、火炬电子、乾融资本、金雨茂物等机构跟投，资金将用于卫星研制与发射、地面系统搭建以及早期商业化交付。\n  瑞启深空成立于2026年3月，是一家以天基能力为底座、以AI为驱动的智能遥感星座公司，业务覆盖智能遥感数据服务、卫星研制和星座运营。\n  这是瑞启深空在三个月内完成的第二轮融资。加上此前2.2亿元天使轮融资，累计融资金额近3.5亿元。在商业航天一级市场资金向头部集中的当下，这样的节奏对于早期项目而言是一个积极信号。\n  瑞启深空由创始人、董事长兼CEO杜一光联合吉天星舟等发起创立。任露泉、林君、段广仁三位院士作为首席科学家，分别在仿生智能遥感、地理空间信息体系、卫星及星座智能控制等方向提供技术支撑。\n  已验证技术和可预期的商业进展是资本加注的重要因素。杜一光给出了一组数字：瑞启深空在三个月时间内积累了超6000万在手订单，与全球领先海运企业、头部矿业集团、大型金融公司等客户达成智能情报产品合作意向，预计年底在手订单总额将达2亿元，实现3000万元的营业收入。\n",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "国债期货开盘全线上涨",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBidmxfSXJqOGZ6Y1B1bnVCVXB2b00yT01TSENUVHp1d0FhakxLdnNSZ3ZSRmsxVmxLYmtTb1RRN2Z6UTJGTXctZVlvZU5vV3c2dExmXzA2R1BzLVljZXZtVDhGdDdIVTVsbTZLM2xkejVoTlIwRy1CLQ?oc=5",
-    "published": "2026-10-22",
-    "summary": "国债期货开盘全线上涨&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
