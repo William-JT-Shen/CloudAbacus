@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-03T19:27:00Z
-var NEWS_FETCHED_AT="2026-11-03T19:27:00Z";
+// 生成:2026-11-04T00:35:42Z
+var NEWS_FETCHED_AT="2026-11-04T00:35:42Z";
 var GPU_NEWS=[
   {
     "title": "Binance Says Hackers Plotted $6.3 Billion Crypto Heist for Months",
