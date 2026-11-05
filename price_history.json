@@ -25497,7 +25497,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.57
+            "price_usd": 7.75
           },
           {
             "platform": "CoreWeave",
@@ -25515,7 +25515,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.0
+            "price_usd": 2.39
           },
           {
             "platform": "CoreWeave",
@@ -25575,7 +25575,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.11
+            "price_usd": 0.09
           }
         ],
         "NVIDIA L4": [
@@ -25595,7 +25595,7 @@
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.47
+            "price_usd": 0.52
           }
         ],
         "RTX 5090": [
@@ -25634,16 +25634,16 @@
             "price_usd": 0.08
           }
         ],
-        "NVIDIA RTX 4080 / 4080 Super": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.21
-          }
-        ],
         "NVIDIA RTX 4070 Ti / 4070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.12
+          }
+        ],
+        "NVIDIA RTX 4080 / 4080 Super": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.17
           }
         ],
         "NVIDIA RTX 4060 Ti": [
@@ -25694,12 +25694,6 @@
             "price_usd": 0.06
           }
         ],
-        "RTX 2070": [
-          {
-            "platform": "Vast.ai",
-            "price_usd": 0.05
-          }
-        ],
         "RTX 6000": [
           {
             "platform": "Vast.ai",
@@ -25710,10 +25704,16 @@
             "price_usd": 11.8
           }
         ],
+        "RTX 2070": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.05
+          }
+        ],
         "RTX 2080": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.13
+            "price_usd": 0.52
           }
         ],
         "NVIDIA GH200": [
