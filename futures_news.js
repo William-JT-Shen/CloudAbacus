@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-11-05T00:51:52Z
-var NEWS_FETCHED_AT="2026-11-05T00:51:52Z";
+// 生成:2026-11-05T12:08:49Z
+var NEWS_FETCHED_AT="2026-11-05T12:08:49Z";
 var GPU_NEWS=[
+  {
+    "title": "品牌驱动下的全球扩张，出海企业如何守住「数字资产」？｜超级会氪厅活动回顾",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4056300575298688?f=rss",
+    "published": "2026-11-05",
+    "summary": "2026年，中国品牌全球化正从“规模出海”转向“资产出海”。出海体量持续增长，但品牌溢价能力、渠道话语权以及商标域名的持有状况仍然滞后于整体规模。关税调整、平台规则收紧、各地合规要求细化，也使以订单和成本为核心的出海方式难以为继。\n  在这种背景下，出海企业正在从三个方向重新配置资源：一是产能的地理再布局，生产基地向离客户更近、贸易规则更稳定的地区转移；二是市场决策的数据化，把预算从经验判断转为可验证的依据；三是品牌标识的资产化，域名、商标等海外客户接触的第一入口被纳入统一的资产台账管理。\n  2026年10月29日，36氪在北京举办「深水规则」·出海系列超级会氪厅第三场活动。活动以“品牌驱动下的全球扩张与数字资产保护”为主题，邀请佩蒂股份产业合作总监戈剑峰、广大大商务总监吴泽、阿里云中小企业应用高级产品专家王霄等嘉宾，围绕海外产能布局、AI出海投放、全球品牌全栈能力等议题，与参会出海企业代表展开深入探讨。\n  \n  从越南到柬埔寨：海外产能布局的“选址经”\n  在超级观点环节，佩蒂股份产业合作总监戈剑峰以《佩蒂海外生产基地布局的决策逻辑与经验分享》为主题进行分享。他介绍，佩蒂股份成立",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "钱怎么花，资产怎么守，路径怎么走：品牌出海的三道命题｜超级会氪厅嘉宾金句",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4056464430847109?f=rss",
+    "published": "2026-11-05",
+    "summary": "过去几年，中国企业出海业务规模持续增长，但品牌溢价能力、渠道话语权以及数字资产积累与管理水平，未能跟上业务规模扩张的步伐。关税调整、平台规则收紧、各地合规要求细化，让以订单获取和成本控制为核心的出海方式越来越难以为继。\n  当规模增长触及天花板，行业底层逻辑正从“规模出海”转向“资产出海”。&nbsp;\n  越来越多企业开始重新配置资源：产能向离客户更近、规则更稳定的地区迁移；投放预算从经验判断转向数据验证；域名、商标、官网被纳入统一的资产台账，沉淀为真正属于自己的数字身份。\n  这些变化看似分散在产能、投放和品牌建设不同环节，实则指向同一个方向——出海竞争的重心，正从短期的订单与流量，转向长期可持有的数字资产。品牌出海的下半场，拼的不仅仅是把货卖出去，更是把资产留下来。\n  2026年10月29日，36氪「深水规则」·出海系列超级会氪厅第三场落地北京。围绕“品牌驱动下的全球扩张与数字资产保护”这一主题，佩蒂股份产业合作总监戈剑峰、广大大商务总监吴泽、阿里云中小企业应用高级产品专家王霄三位实战派嘉宾，分别从海外产能布局、AI出海投放、全球品牌全栈能力等视角，分享前沿洞察与一线实战经验，",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "南华期货股东会审议通过变更注册资本及修订《公司章程》议案 同意比例99.95%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ2JGemQwTHBDc3JybHp3WXdJVmRsZlJnS19ScEp5d1Fudmtnc1FRcXhCQ1duV2tvR2ViSml2OVhTT3ZZZ1JWWndEVXB4NmplcFBsLTQyX0FYTHd5TzRoZWpfa2RVZ3V0eEJHcEJyZG5iZ2RZM0duT3ZKemdXbTVzSmV5Q256SWt3?oc=5",
+    "published": "2026-11-04",
+    "summary": "南华期货股东会审议通过变更注册资本及修订《公司章程》议案 同意比例99.95%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "“AI+咖啡”改写产业链：新消费场景下的降本增效与青年机会",
     "source": "36氪",
@@ -563,42 +599,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xTmJqMG1mempKbmU0TC1UVWIyUjVEcDZESWxDWng0RWZBOS1YMS1iajY5NHlnaWRTRWpOcDQ3cXZZS01rMFIyZmE0dk9wZzg5N2VwYm5wa0xJSXFIWW43Tnh3MF8wSWN4Vy1xbDhMQ3NUaWJwc1d6Xw?oc=5",
     "published": "2026-10-25",
     "summary": "标普500指数期货上涨0.4%，纳斯达克100指数期货上涨0.6%。&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "拿到2亿美金融资，Today AI回答了Personal AI的十个核心问题",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4039749830120583?f=rss",
-    "published": "2026-10-24",
-    "summary": "文｜邓咏仪\n  编辑｜张雨忻\n  近一个月，包括Muse、Instinct在内的Personal AI产品引起全球轰动，成为最受关注的AI创业赛道。其中，Muse上线22天就突破500万次下载——ChatGPT当年花了56天才达到这一数字——难得地为AI应用赛道争了一口气。&nbsp;\n  一家AI公司Today AI也许比Muse探索得更早。创始人齐俊元曾创办Teambition，之后在阿里、字节等大厂负责过各类产品。今年初组建团队后，Today AI自9月9日起陆续上线了国际版和国内版本。&nbsp;\n  用一句话概括，Today希望做的是用户的“私人助理”。通过用户授权Today的信息、应用数据后，Today将会在持续对话中积累记忆，目标是成为一个以“人”而非任务来组织的通用助手。&nbsp;\n  和其他Personal AI产品相比，Today尤其强调AI助手要“像人”。这个坚持体现在产品的方方面面：用户在注册时，必须给AI助手起一个名字；在对话时，Today从一开始就坚持不以任务划分窗口，所有交互都在一个窗口完成。&nbsp;\n  有意思的是，很多年以前，当齐俊元还在创业时，",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "华泰期货：地缘局势继续推高油价，但与基本面持续背离",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSThUQzdnM2REM3M5TXNUMlRCaU5pemN0MFRJSXpsSDd3ZzgxblpfR1c5LXhqbVF5YlpTMjJiOGdLZ1F2cHQ4Y3FGNlhQX0V2M1VHclhlZWtJUmdpY2Q1LTB4ZkhyZk80RTczOWNxc2lVOEtZczk0clEyR29yMW1CQ0JVVTRXZ2swVGR5VHQyaWVQZXhPV1FqNVRvaWdKRlo5elN2aHBmcFpYNFFvMWt1eTdhbEZGdlBCa2I4OWFRRXp5MjQ1aWUxQkNMRjVneW1tb1g4SHFtY3VJbjM2Z1VJUVQ0WEg?oc=5",
-    "published": "2026-10-23",
-    "summary": "华泰期货：地缘局势继续推高油价，但与基本面持续背离&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "陈子昊：提升人民币资产吸引力，需要增加优质资产供给",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLXVJZUVxMDl2RHNBZjBYY1VBV2doSWtsdDRzd3dNa19QSW9zNFlXRnNkcGpNWTdwb1FWQmVKU3FOS0lEVXhGOWRMV0U3X0xaTUIxM2NVamljOTlTWEp6VV92a2ZmUGZVRmNWU1RPc0JSSjVGVkthaWNPSGtCN1JjcDlDemJDM2FrTTFTamNWY1IzNjdLODlsTTA0ZVdKRXRFSHFtZjV0eEwtNW9HUHExaUI0aGJDN0I1MUVJSGlyZUJueXExU3IxdHZxRTlMUkxXa3dRbw?oc=5",
-    "published": "2026-10-23",
-    "summary": "陈子昊：提升人民币资产吸引力，需要增加优质资产供给&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
