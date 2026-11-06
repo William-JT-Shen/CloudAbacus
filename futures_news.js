@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-05T21:56:34Z
-var NEWS_FETCHED_AT="2026-11-05T21:56:34Z";
+// 生成:2026-11-06T06:15:56Z
+var NEWS_FETCHED_AT="2026-11-06T06:15:56Z";
 var GPU_NEWS=[
+  {
+    "title": "米哈游退出，交大系基金投资接手「零唯一思」｜36氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4056456893993857?f=rss",
+    "published": "2026-11-06",
+    "summary": "文｜胡香赟\n  编辑｜海若镜\n  10月底，米哈游已退出上海零唯一思科技有限公司（下称“零唯一思”）股东行列。36氪获悉，近日，这家由上海交通大学教授吕宝粮创办的脑机接口公司，正式完成重组，并获得来自交大菡源资产数百万元的独家投资。该资金将用于团队组建与脑电基础模型研发。\n  零唯一思成立于2021年底，最早从情感脑机接口切入，探索脑电、眼动信号在抑郁、焦虑等情绪障碍客观评估中的应用，曾推出过多模态情绪评估系统“情绪X光机”和脑电基础模型。\n  本次，公司联合创始人、总经理石立臣对36氪表示，未来，将从情感脑机接口技术拓展到脑电基础模型和通用神经解码平台，采取底层技术研发与应用探索并行的策略。石立臣为上海交通大学计算机学院博士，师从吕宝粮教授。他曾任货拉拉技术总监、滴滴首席算法工程师、百度高级工程师，有过6年创业经历。\n  石立臣认为，这种拓展“是从具体应用向底层共性技术的延伸，并非更换赛道”。传统脑电解码算法，特征表达和任务决策系统同时训练，只能使用任务相关的标注数据；数据标注成本高、数据规模和多样性受限，导致解码能力有限；此外，算法与设备、任务高度绑定，换一个设备或换一个场景，往往",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "品牌驱动下的全球扩张，出海企业如何守住「数字资产」？｜超级会氪厅活动回顾",
     "source": "36氪",
@@ -587,18 +599,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORHd3Vk1KMGhnOWE3dUhqdkZMbmRrNVN6RVB0aUNxQlBHTkZaVTVoY1oySkFyX1VueTZqQWNqbVdsbW9aMDR2bnY1d2N6R2ZheDk0ZjlaS1AtQTNkSHhIV3lIV2J4ZUJ5anRuYVFMdU53WDJlOHAwVWN4TEl2UWRMcDZNc2NSSWRncWdNNA?oc=5",
     "published": "2026-10-25",
     "summary": "今日期货市场重要快讯汇总｜2026年10月25日&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "标普500指数期货上涨0.4%，纳斯达克100指数期货上涨0.6%。",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xTmJqMG1mempKbmU0TC1UVWIyUjVEcDZESWxDWng0RWZBOS1YMS1iajY5NHlnaWRTRWpOcDQ3cXZZS01rMFIyZmE0dk9wZzg5N2VwYm5wa0xJSXFIWW43Tnh3MF8wSWN4Vy1xbDhMQ3NUaWJwc1d6Xw?oc=5",
-    "published": "2026-10-25",
-    "summary": "标普500指数期货上涨0.4%，纳斯达克100指数期货上涨0.6%。&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
