@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-11-08T05:46:08Z
-var NEWS_FETCHED_AT="2026-11-08T05:46:08Z";
+// 生成:2026-11-08T15:00:22Z
+var NEWS_FETCHED_AT="2026-11-08T15:00:22Z";
 var GPU_NEWS=[
+  {
+    "title": "中天期货:沪锌大幅下破 乙二醇短线修复",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMmYwbm9fNGFWdWNmY3BZVmpOdFNzVk5mM1hiRjBzRUNWb29Weld3YTVqV042d0hmTkFFeG16aEY2ZFJkbkIxa2JOZlFCTXlDa0g0RF92ZHFITmc0dWRMZXNKU0NXV2pOT0xqV1R6emZfLUZhQkZqU0J5N3FTYUU3UVJtWjJVWkdJaV96Zw?oc=5",
+    "published": "2026-11-06",
+    "summary": "中天期货:沪锌大幅下破 乙二醇短线修复&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "米哈游退出，交大系基金投资接手「零唯一思」",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4056456893993857?f=rss",
+    "published": "2026-11-06",
+    "summary": "文｜胡香赟\n  编辑｜海若镜\n  10月底，米哈游已退出上海零唯一思科技有限公司（下称“零唯一思”）股东行列。36氪获悉，近日，这家由上海交通大学教授吕宝粮创办的脑机接口公司，正式完成重组，并获得来自交大菡源资产数百万元的独家投资。该资金将用于团队组建与脑电基础模型研发。\n  零唯一思成立于2021年底，最早从情感脑机接口切入，探索脑电、眼动信号在抑郁、焦虑等情绪障碍客观评估中的应用，曾推出过多模态情绪评估系统“情绪X光机”和脑电基础模型。\n  本次，公司联合创始人、总经理石立臣对36氪表示，未来，将从情感脑机接口技术拓展到脑电基础模型和通用神经解码平台，采取底层技术研发与应用探索并行的策略。石立臣为上海交通大学计算机学院博士，师从吕宝粮教授。他曾任货拉拉技术总监、滴滴首席算法工程师、百度高级工程师，有过6年创业经历。\n  石立臣认为，这种拓展“是从具体应用向底层共性技术的延伸，并非更换赛道”。传统脑电解码算法，特征表达和任务决策系统同时训练，只能使用任务相关的标注数据；数据标注成本高、数据规模和多样性受限，导致解码能力有限；此外，算法与设备、任务高度绑定，换一个设备或换一个场景，往往",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "米哈游退出，交大系基金投资接手「零唯一思」｜36氪首发",
     "source": "36氪",
@@ -575,30 +599,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYlBmZm50X0MzNWZaeGJIdmY1cEpGUHJUVG5Ld1ZheVpSd1RkbG00bUZLVm94WWdUZmoxTk5JbjM3ZVFHRjBFWk1mZEF5NHp6ZXkyQm5Ma1RqRUtQU0dlbkZmemZEdzQ2dElpMW81MUVFandhMEQ4bGpRVUN1Tnh4enhVTy1iV29FNml0QWp3SHpZVTNBMGVVTWxWa3ZGZWxMa2JnSnh3REpTejFxdGVYNlRJRzZiR2dPbjh3UlZ5M2g4bFM0dF9YU3JvU3dQRkxjYmNNbnVDcFhMSVBqb1BXcmZEMA?oc=5",
     "published": "2026-10-26",
     "summary": "华泰期货：宏观超级周来临，关注价格波动风险&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "上海交大教授创业，瞄准太空制造，「今控科技」完成数千万元天使轮融资｜36氪首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4042095201620869?f=rss",
-    "published": "2026-10-26",
-    "summary": "商业航天的下一站，可能不只是将更多卫星送入太空，而是让机器人在太空真正“干起活来”。\n  随着低轨卫星互联网、太空算力平台和商业空间站加速发展，越来越多的高价值设备部署在轨道上。谁来完成设备维护、模块更换、精密装配，乃至未来的太空制造，正成为新的产业命题。\n  在地面，这些工作已大量由工业机器人承担，但微重力、强辐照和极端温差的太空环境，对机器人可靠控制、精细操作和自主决策提出了更高要求。\n  36氪获悉，近日，太空智能机器人公司「今控科技」完成数千万元天使轮融资，由鼎晖VGC领投，上海交大菡源资产、国科绿色基金、灵巧智能等跟投。&nbsp;本轮融资将主要用于太空机器人核心器件研发、在轨验证及产品工程化。\n  今控科技成立于2026年4月，由上海交通大学教授、博士生导师何俊创立。公司聚焦太空机器人领域，以太空制造为长期方向，致力于构建未来太空制造的智能作业底座。\n  目前，公司自主研发的智能控制器、伺服驱动器、关节模组、多维力传感器等核心器件，已完成热真空、高低温、辐照等环境试验，计划于2026年底搭载一颗算力卫星入轨验证。\n  2027年年中，公司还计划将“今控一号”机器人送入轨道，",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "今日期货市场重要快讯汇总｜2026年10月25日",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORHd3Vk1KMGhnOWE3dUhqdkZMbmRrNVN6RVB0aUNxQlBHTkZaVTVoY1oySkFyX1VueTZqQWNqbVdsbW9aMDR2bnY1d2N6R2ZheDk0ZjlaS1AtQTNkSHhIV3lIV2J4ZUJ5anRuYVFMdU53WDJlOHAwVWN4TEl2UWRMcDZNc2NSSWRncWdNNA?oc=5",
-    "published": "2026-10-25",
-    "summary": "今日期货市场重要快讯汇总｜2026年10月25日&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
