@@ -1,7 +1,31 @@
 // GPU算力期货新闻
-// 生成:2026-11-08T20:23:06Z
-var NEWS_FETCHED_AT="2026-11-08T20:23:06Z";
+// 生成:2026-11-09T05:56:21Z
+var NEWS_FETCHED_AT="2026-11-09T05:56:21Z";
 var GPU_NEWS=[
+  {
+    "title": "香港与内地企业“拼船出海”，全球人才看见更多可能",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4054854397187205?f=rss",
+    "published": "2026-11-09",
+    "summary": "国家“十五五”规划明确提出“统筹教育强国、科技强国、人才强国建设”，围绕全方位培养、引进、用好人才作出系统安排。配合国家“十五五”规划，《香港第一个五年规划》也提出打造香港为国际高端人才集聚高地，并制定了“针对性引进有助国家和香港发展所需的人才”策略。\n  在此背景下，“香港·全球人才机遇展——伦敦站”，这个由香港人才服务办公室（香港人才办）主办、粤港澳大湾区发展办公室和香港驻伦敦经济贸易办事处作为合作单位的活动，于10月17日及18日在伦敦盛大举行。机遇展汇聚来自50多家香港与北京市、上海市、西安市，以及大湾区内地城市的企业，共提供超过200个职位空缺，涵盖了银行金融、创新科技、工程建造及专业服务等领域，不仅为国际英才拓展了更多选择空间，更彰显香港与内地城市的强劲联动，合力出海。\n  \n  对于许多正考虑跨境职业发展的专业人士而言，这次机遇展的意义不仅在于规模，更在于它把通常分散在不同渠道的职位与行业信息，集中到了一个可以面对面交流的空间里，让选择不再是一个城市与另一个城市之间的取舍，而是整个区域内多种职业路径的组合。\n  从展位到对话：连接如何发生？\n  两日活动共吸引逾4,500",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "「国家队」的作业不好抄",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4061923101660041?f=rss",
+    "published": "2026-11-09",
+    "summary": "作者&nbsp;|&nbsp;黄绎达\n  编辑&nbsp;|&nbsp;张帆\n  时隔两年，A股投资者又听到了一个熟悉的声音：“924又来了？”\n  11月2日，央行、金融监管总局和证监会再度联手，推出了一系列稳定资本市场的政策举措：包括开展新一轮证券、基金、保险公司互换便利操作，将股票回购增持再贷款转为长期制度性安排，并将再贷款利率由1.25%降至1%。\n  与此同时，证监会宣布拟优化上市公司股份回购规则，进一步放宽回购条件，并推动新募集的18只主动ETF加快建仓，为市场提供增量资金支持。中国国新、中国诚通等“国家队”资金的投资动向也再次引发市场关注，由此进一步强化了投资者对“国家队”在市场低迷时期入场的预期。\n  更为关键的是，上述举措很容易让投资者联想到2024年9月24日的那场政策发布会。当时，央行行长潘功胜在介绍首期5000亿元互换便利工具时明确表示，如果实施效果良好，还可以再来5000亿元，甚至第三个5000亿元。这番近乎“弹药无限”的表态，极大提振了投资者信心，随后A股开启了一轮迅猛上涨，由此诞生了令人印象深刻的“924行情”。\n  不过，与当时的政策力度相比，本轮央行的",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "中天期货:沪锌大幅下破 乙二醇短线修复",
     "source": "新浪财经",
@@ -579,30 +603,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "长安期货范磊：选举将至地缘维持，油价或加剧运行幅度",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQVRScEE1Vnh0cDZtaG9JVWtuay1rdGp3WVprNmVRMEVoRm8tREYtRU1FZTE0T21ERHY5MUtIbnBLZUlmQnZOeDRRczlTU3BSMWZrcVNKU0hLaHYxVW95WHlMckZfbVZqVy1iRWFNQ09KQUdxZ2Jpc2hGYVpYME9GOVJpeGc2T0dROVJfN2ZHd01UUkF2RWhHSEdXMHRHaXhENGVSU08wY3pOUWpLY1lSX2VZYndRUnJfWmpzRDgzbGk3eXFiWlVLeU1qaDh3NHdpMkRxNHNjNzRNTVZHZmh0ZzFvTDE?oc=5",
-    "published": "2026-10-26",
-    "summary": "长安期货范磊：选举将至地缘维持，油价或加剧运行幅度&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "华泰期货：宏观超级周来临，关注价格波动风险",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYlBmZm50X0MzNWZaeGJIdmY1cEpGUHJUVG5Ld1ZheVpSd1RkbG00bUZLVm94WWdUZmoxTk5JbjM3ZVFHRjBFWk1mZEF5NHp6ZXkyQm5Ma1RqRUtQU0dlbkZmemZEdzQ2dElpMW81MUVFandhMEQ4bGpRVUN1Tnh4enhVTy1iV29FNml0QWp3SHpZVTNBMGVVTWxWa3ZGZWxMa2JnSnh3REpTejFxdGVYNlRJRzZiR2dPbjh3UlZ5M2g4bFM0dF9YU3JvU3dQRkxjYmNNbnVDcFhMSVBqb1BXcmZEMA?oc=5",
-    "published": "2026-10-26",
-    "summary": "华泰期货：宏观超级周来临，关注价格波动风险&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
