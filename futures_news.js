@@ -1,7 +1,20 @@
 // GPU算力期货新闻
-// 生成:2026-11-10T12:28:16Z
-var NEWS_FETCHED_AT="2026-11-10T12:28:16Z";
+// 生成:2026-11-10T21:47:21Z
+var NEWS_FETCHED_AT="2026-11-10T21:47:21Z";
 var GPU_NEWS=[
+  {
+    "title": "Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/11/10/technology/alice-huang-megaspeed-nvidia-jensen-huang.html",
+    "published": "2026-11-10",
+    "summary": "Alice Huang, who U.S. intelligence determined is a Chinese asset, emerged from the high-flying world of Shanghai finance to work with tech titans and obtain essential A.I. chips.",
+    "full_text": "Jensen Huang and Alice Huang have been photographed together on several occasions. In this photo, posted to Weibo, they are at a Shanghai restaurant, Pujiang Huaiyan.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "让eVTOL从产品成为商品，交易与运力服务商「零界航空」完成千万元天使轮融资｜36氪首发",
     "source": "36氪",
@@ -591,18 +604,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "The Key Numbers From Anthropic’s IPO Filing",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html",
-    "published": "2026-10-26",
-    "summary": "We broke down the A.I. company’s key figures, which give insight into the health of its business, its future plans and who’s in charge.",
-    "full_text": "Anthropic’s Code W/ Claude event in San Francisco in May. In a filing, the company provided rare insight into the business of a “frontier” A.I. lab that makes cutting-edge A.I. models.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
