@@ -1,7 +1,32 @@
 // GPU算力期货新闻
-// 生成:2026-11-11T05:52:33Z
-var NEWS_FETCHED_AT="2026-11-11T05:52:33Z";
+// 生成:2026-11-12T01:54:34Z
+var NEWS_FETCHED_AT="2026-11-12T01:54:34Z";
 var GPU_NEWS=[
+  {
+    "title": "美AI算力期货市场推出遇阻",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OeHBlMTVoczBUZ0RjTno5UnFIY0hPR2toSi1GeE40OXhfbzVCNXFxOEVoWVdGQkRkT05zeTh1cE5pa2Z3YmR1QTVQajYtcllvY3VWMFpORVd5d1UxdHdBU1JuMC01aldfSjJ1YlR4dXZFemFneGwyXw?oc=5",
+    "published": "2026-11-11",
+    "summary": "美AI算力期货市场推出遇阻&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "Nvidia’s Board Is Meeting to Discuss Jensen Huang’s Future",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/11/11/technology/nvidia-jensen-huang.html",
+    "published": "2026-11-11",
+    "summary": "Mr. Huang has been under scrutiny for an affair with a woman said to be a Chinese spy, as well as a relationship with an executive at his A.I. chip company.",
+    "full_text": "Few Silicon Valley executives have been as synonymous with their companies as Jensen Huang, the co-founder and chief executive of Nvidia.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "8点1氪丨英伟达及黄仁勋遭股东集体诉讼，市值两天蒸发2.85万亿；Anthropic正式启动IPO路演；阿里拟分拆平头哥独立上市",
     "source": "36氪",
@@ -579,30 +604,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股盘前丨股指期货齐涨 英伟达盘前涨1%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xa2VTSV9jdzJHaW1CNnY4eUY0TWltTDhURmVzTDVLTkRjbTZ0QVFaNlVyMnJLWWhmeHEtTWpwN28ybzFMYV9XWkxMYzdfWjh0MHZqdmNkMWRNTjlVZHlvMWFhR3RpcEI2MW9hVHp6SzBFX1AxaElYVA?oc=5",
-    "published": "2026-10-27",
-    "summary": "美股盘前丨股指期货齐涨 英伟达盘前涨1%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "当AI学会了预测，发现马斯克的预测不靠谱",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4043729792635779?f=rss",
-    "published": "2026-10-27",
-    "summary": "&nbsp;\n  AI预测是介于量化与主观投研之间的新物种。\n  \n  &nbsp;\n  文&nbsp;|&nbsp;刘思洁\n  编辑&nbsp;|&nbsp;张薇\n  封面来源&nbsp;|&nbsp;Pixabay\n  &nbsp;\n  2025年，25岁的Henry重仓了一只十倍股Nebius。靠着这笔投资，他在很长时间里都不需要工作。\n  Nebius是一家做AI neocloud也就是新云的公司。这并非是一家当时被普遍看好的公司，有一些持观望态度的研究这家公司的人，看的是它每个季度的利润，以及用“算力二房东”的生意模式去判断价值，但Henry觉得，“这些判断比较短视，因为很难准确预测每一个数字。”\n  Henry的视角有所不同。他看好Nebius，核心看的是公司长期、根本的驱动力，也就是人和组织。\n  比起他的投资战绩，我们更想说的是，这中间呈现出来的这个年轻人的一个更核心、更有趣的视角——\n  “选股和预测本身就是一件事情。”他说，“不同维度的理解和处理，能帮助我们更好地预测。”\n  这个视角也正是他创业的基石。本科就读于上海交通大学计算机专业，研究生在上海高级金融学院学习",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
