@@ -1,7 +1,44 @@
 // GPU算力期货新闻
-// 生成:2026-11-12T01:54:34Z
-var NEWS_FETCHED_AT="2026-11-12T01:54:34Z";
+// 生成:2026-11-12T12:30:49Z
+var NEWS_FETCHED_AT="2026-11-12T12:30:49Z";
 var GPU_NEWS=[
+  {
+    "title": "中天期货:商品指数下跌减速震荡 白银低位震荡",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUXdLM05WWFZrU2ZNblNNOEFUaFd4ckt1eklpMFNaSW93VjhiNFZ5a2I0Nk55WEdaY3EweEs5SmRqM0xvWkl4dEphQzVMOTd5UHFzMkV6U1hZUFdqWlhwSnAzZDhWamFJeG92RGxtUHNiR3gxVkJOMmQxTFVHal9uRHJ4TnItbW83T1NsQw?oc=5",
+    "published": "2026-11-12",
+    "summary": "中天期货:商品指数下跌减速震荡 白银低位震荡&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "Nvidia’s Board Is Weighing Jensen Huang’s Future",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/11/11/technology/nvidia-jensen-huang.html",
+    "published": "2026-11-12",
+    "summary": "Mr. Huang has been under scrutiny for an affair with a woman said to be a Chinese spy, as well as for a relationship with an executive at his A.I. chip company.",
+    "full_text": "Few Silicon Valley executives have been as synonymous with their companies as Jensen Huang, the co-founder and chief executive of Nvidia.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "元宝搜索上线，腾讯再争默认入口​",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4066338158695304?f=rss",
+    "published": "2026-11-12",
+    "summary": "昨日，腾讯旗下元宝搜索正式面向普通用户开放，提供独立网站so.qq.com，用户也可以在最新版QQ浏览器中，将其设为默认搜索引擎。\n  此前，腾讯已于通过腾讯云，面向开发者和企业开放元宝搜索服务。此次上线的网页版与其共享技术底座，将此前供AI产品调用的能力，进一步拓展成面向普通用户的产品。\n  在回答36氪关于“腾讯为何继续扩大搜索布局”的提问时，腾讯元宝搜索网页版产品负责人李锐章表示，团队更多从用户需求出发考虑这件事。相关能力已在元宝、WorkBuddy、ima等产品中使用，而大量用户仍习惯通过网页查找内容，大模型让团队看到了解决原有体验问题的机会。\n  按照腾讯方面此前披露的数据，这套能力已支撑WorkBuddy、ima、腾讯金融科技、腾讯视频等50多个核心业务，日均调用量达数亿次。其中，ima将其用于结合知识库与公网信息回答问题，腾讯视频则用于支持根据剧情、模糊描述找片。\n  在李锐章看来，市场规模是产品做好之后的结果。但让用户换一个默认入口，需要面对已经发生变化的市场。\n  中国互联网络信息中心第57次《中国互联网络发展状况统计报告》显示，截至2025年12月，中国搜索引擎用户",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "美AI算力期货市场推出遇阻",
     "source": "新浪财经",
@@ -564,42 +601,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSFJ6bUN5OUpPWTU2emRfelJQYXE4VXE2M0VRVWgtLXZqU1dzdWJPS0xCaFVIQ3pxQUpGd1JiU1hrNFRqM2FvWExlcGNYUnU2MEM2N1hZU0lXc2luckRrbm9UZm1YelFiUmpxR0I2N25oVDdwUExMNWtMWURqVy1WOHNRZDhCS0N0SVE2eQ?oc=5",
     "published": "2026-10-27",
     "summary": "瑞达期货前三季度营收10.59亿元同比增28.05%，归母净利润5.07亿元同比增31.53%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "大阪交易所将上市日经半导体股指数期货",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM2JuRVREeVJQSkF1M0k4Nld6ai1sLUtrdGh1Ql9QODlkZXE4QUV0S2NLbTh0cEp1cUtITDk3cGVkbnlsSlhtRXJuTFdyc3lldS00UENPYzNiSnJ6YjhRUUdQam1PX280VUlfZXBSbGxFc2p6TzBRRkhPNnpOSHhBUg?oc=5",
-    "published": "2026-10-27",
-    "summary": "大阪交易所将上市日经半导体股指数期货&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美国商品期货交易委员会拟将“交易者持仓报告”增至每周发布两次",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZUtkZHl4cU14WnZrd29JN1d6UVVMN0VqR2oteVJndmZYUHlLcGtwTGdkR1hlVk5tYkJ2UkRYaEp0SmkzQk9DMVJGU3VqMWhQN0owR0tHWWhxbFk0ejk5X2p4TFcwbXFWZXNjeEdyVXhqYkZjbkIzd3owUkVmSnhmbQ?oc=5",
-    "published": "2026-10-27",
-    "summary": "美国商品期货交易委员会拟将“交易者持仓报告”增至每周发布两次&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "永安期货A股股东户数增加1842户增幅6.08%，流通A股户均持股4.52万股降幅6.07%，户均持股市值54.55万元降幅8.71%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMDE1VG5uYUlhTWtWX2VfRE5yNTdPb3RISy0wV3dSU1VsdFVwVURMTXBhTUVwS3VSSjdNT3NGSzJBTi1jTnAxblVKYzBMV2xHeG1udnpoc1o4NnBTX0NNR1ctcEhPMDJLOW4wOW1PYy13ODRWdnBmakNfQkdzQmRkTldqQkdRbmFXdkxwOA?oc=5",
-    "published": "2026-10-27",
-    "summary": "永安期货A股股东户数增加1842户增幅6.08%，流通A股户均持股4.52万股降幅6.07%，户均持股市值54.55万元降幅8.71%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
