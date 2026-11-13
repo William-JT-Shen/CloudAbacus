@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-12T22:12:44Z
-var NEWS_FETCHED_AT="2026-11-12T22:12:44Z";
+// 生成:2026-11-13T06:18:32Z
+var NEWS_FETCHED_AT="2026-11-13T06:18:32Z";
 var GPU_NEWS=[
+  {
+    "title": "新加坡铁矿石期货延续跌势 迈向四日连跌",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcnQ5YWhDT2hlN2NrZkNxLUtUaVpLWEZDa2NKS3RQTTQ0TXA5WWlkMkRPNHlVUEp4U2dIbnhLSklCVTVJLUZpakpkdmpkU01Pb0IyUkpCbWkyYUVIdUhzRklGeVlBMlVvOEVoblNINU55b1d2clhwSFBaUnRQYVhMeGo5RC1fQTQ?oc=5",
+    "published": "2026-11-12",
+    "summary": "新加坡铁矿石期货延续跌势 迈向四日连跌&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "中天期货:商品指数下跌减速震荡 白银低位震荡",
     "source": "新浪财经",
@@ -589,18 +601,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVWRBVDc1MWdJbktmdDUtbUdTUjhuLTVhTmVYZHNBcGhfeE1FWEJleWw5c29EQVRsUkVkcWJBUnVOYVdMclF2VDUtV09HQWJodFlyREJBQVV6Qk5QWWxBb0UxMFl1TmtTR0Y1NVUyMi10VURJRkplaUhtbDNBbmlabg?oc=5",
     "published": "2026-10-27",
     "summary": "瑞达期货公布三季报 前三季净利增加31.53%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "瑞达期货前三季度营收10.59亿元同比增28.05%，归母净利润5.07亿元同比增31.53%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSFJ6bUN5OUpPWTU2emRfelJQYXE4VXE2M0VRVWgtLXZqU1dzdWJPS0xCaFVIQ3pxQUpGd1JiU1hrNFRqM2FvWExlcGNYUnU2MEM2N1hZU0lXc2luckRrbm9UZm1YelFiUmpxR0I2N25oVDdwUExMNWtMWURqVy1WOHNRZDhCS0N0SVE2eQ?oc=5",
-    "published": "2026-10-27",
-    "summary": "瑞达期货前三季度营收10.59亿元同比增28.05%，归母净利润5.07亿元同比增31.53%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
