@@ -1,7 +1,20 @@
 // GPU算力期货新闻
-// 生成:2026-11-13T06:18:32Z
-var NEWS_FETCHED_AT="2026-11-13T06:18:32Z";
+// 生成:2026-11-13T16:07:23Z
+var NEWS_FETCHED_AT="2026-11-13T16:07:23Z";
 var GPU_NEWS=[
+  {
+    "title": "Wall Street Braces for Anthropic’s Spending",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html",
+    "published": "2026-11-13",
+    "summary": "The company’s financial picture may get murky as it deals with employee stock compensation and the growing costs of artificial intelligence.",
+    "full_text": "Supported by\nA Look Under the Hood of Anthropic’s Plans Reveals Big Spending Ahead\nThe company’s financial picture may get murky as it deals with employee stock compensation and the growing costs of artificial intelligence.\n![A television screen is displayed above a stock trading floor.](https://static01.nyt.com/images/2026/11/12/multimedia/12biz-anthropic-reality-kzlm/12biz-anthropic-reality-kzlm-articleLarge.jpg?quality=75&auto=avif&disable=upscale)\nDario Amodei, Anthropic’s chief executive, introduced his artificial intelligence company to potential stock market investors this week with a sublime vision. He predicted the end of cancer and mental illness within a decade, and a transformation of cognitive work. “If we do this right, we can create an age of miracles,” he said in a marketing video for Anthropic’s initial public offering.\nWall Street is grappling with how much it may cost to get to utopia.\nStock analysts at Goldman Sachs, the investment bank leading Anthropic’s I.P.O., have told investors privately this week that they forecast the company will burn through more than $65 billion next year, and another $41 billion in 2028, said two people familiar with those discussions. Those totals would make Anthropic’s spending among the most aggressive corporate bets on funding the giant A.I. infrastructure build-out.\n“We are in aggressive investment mode,” Krishna Rao, Anthropic’s chief financial officer, said in the video, without discussing specific spending forecasts.\nThat spending would create a drastically different financial picture than Anthropic has shown recently. The company generated cash from its business in the first nine months of this year, its I.P.O. prospectus shows, a feat in the expensive business of A.I. model development. It has barely spent the $141 billion it raised privately from investors.\nThe listing on Nasdaq, expected next Thursday, could value Anthropic at $1.4 trillion. It would not only cement its status as one of the world’s most prominent companies but hand it additional firepower to help it pull further ahead of well-heeled rivals like OpenAI and Alphabet. The I.P.O. would deliver Anthropic an additional $100 billion to spend, and make it easier to raise even more money to fund those huge commitments.\nBut Anthropic’s public debut will lead to costs that don’t appear today. It said in the prospectus it anticipated about $40 billion of expenses in the coming years tied to preexisting stock grants it has given employees that haven’t yet hit its accounting books.\nRelated Content\nAdvertisement",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "新加坡铁矿石期货延续跌势 迈向四日连跌",
     "source": "新浪财经",
@@ -589,18 +602,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQWhXQ1N4QkhuMU1sbzhNenFVczhHVUFhOGlodjRDT2RqMDM5Q1BtU3NVN3ZVSk9jMTJjYXkxV2E5cEtqTEZqbzVpdDNzalVxLWZ2NU9sWTZwOU9mUUQ2Y1NMODMtSjI1dGhhbUFWMU9oTjMzVlNmQzVJZ0gwQ2xmWC0xbTdMdkVvRWFibG9pQ3RIaEY5clV4clZvUFFnM2c4ekFHTXR6N2hQaG1BNnNIUmloYnhmZzRiandpYzFfTmF6bFRsMmZnZzlfMklCU2ZzemtWVHMxZTdVdmg3N25VNVM3WQ?oc=5",
     "published": "2026-10-27",
     "summary": "中天期货:乙二醇突破上行 甲醇继续拉高&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "瑞达期货公布三季报 前三季净利增加31.53%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVWRBVDc1MWdJbktmdDUtbUdTUjhuLTVhTmVYZHNBcGhfeE1FWEJleWw5c29EQVRsUkVkcWJBUnVOYVdMclF2VDUtV09HQWJodFlyREJBQVV6Qk5QWWxBb0UxMFl1TmtTR0Y1NVUyMi10VURJRkplaUhtbDNBbmlabg?oc=5",
-    "published": "2026-10-27",
-    "summary": "瑞达期货公布三季报 前三季净利增加31.53%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
