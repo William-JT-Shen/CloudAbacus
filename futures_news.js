@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-14T11:23:06Z
-var NEWS_FETCHED_AT="2026-11-14T11:23:06Z";
+// 生成:2026-11-14T17:55:33Z
+var NEWS_FETCHED_AT="2026-11-14T17:55:33Z";
 var GPU_NEWS=[
+  {
+    "title": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPMVdVTjlWZUM0MEFRSTRqaDlQdmNXUzFZSFRXT3ZxU0JNcllVNi1GRmRnZ21Xd0tvS19sakdadnZmVG5JcDgyUFIzWS1rdWY5MFZjSmY1NnRKRXNJNVFDZ3RIOHdnWEhYWl9EOHlrWGVRb3Q2eGlBd0hRX1JQSTBReDlLZkk1eEtKMHM1YnpkeU9CVFU2TGhuOFJ4Mk1OVFMzSi1ZNzRTWkR6N0Zxa0poTldUMWVqaHhmTWhzN05CNy1iSW9Vem5tVkVHVXNBX2NmR20zVVU5ZnF1NHlESUhYMWZBX2lUY2R6RTQ1WjdTWWwzbDA3REdGc0JHSHRpa1BVdmhWT1BGbXQwQWNqelZmQVZzV1ZaRlZIcUVSTHVEMGZOVzBlTkxTRVRvRzl2RGhuaEE?oc=5",
+    "published": "2026-11-14",
+    "summary": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "Wall Street Braces for Anthropic’s Spending",
     "source": "NYT Tech",
@@ -590,18 +602,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vMi1ObnJVX0l2a1BiTV96ekdPa2xmTXNmNkNCSXpHVFRPUmxPNER0cmNObFlNZ1dkWGNsTG5FZV8tdW5GZW1kYW9xRWhkTWdnM1RXd01weUU0ZHc5UlBrUzRQcGZ5aEg1V1lyUnlIcmRKNlBCNjhLSw?oc=5",
     "published": "2026-10-27",
     "summary": "WTI原油期货跌破每桶100美元&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中天期货:乙二醇突破上行 甲醇继续拉高",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQWhXQ1N4QkhuMU1sbzhNenFVczhHVUFhOGlodjRDT2RqMDM5Q1BtU3NVN3ZVSk9jMTJjYXkxV2E5cEtqTEZqbzVpdDNzalVxLWZ2NU9sWTZwOU9mUUQ2Y1NMODMtSjI1dGhhbUFWMU9oTjMzVlNmQzVJZ0gwQ2xmWC0xbTdMdkVvRWFibG9pQ3RIaEY5clV4clZvUFFnM2c4ekFHTXR6N2hQaG1BNnNIUmloYnhmZzRiandpYzFfTmF6bFRsMmZnZzlfMklCU2ZzemtWVHMxZTdVdmg3N25VNVM3WQ?oc=5",
-    "published": "2026-10-27",
-    "summary": "中天期货:乙二醇突破上行 甲醇继续拉高&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
