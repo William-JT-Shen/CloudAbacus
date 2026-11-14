@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-14T00:52:29Z
-var NEWS_FETCHED_AT="2026-11-14T00:52:29Z";
+// 生成:2026-11-14T11:23:06Z
+var NEWS_FETCHED_AT="2026-11-14T11:23:06Z";
 var GPU_NEWS=[
   {
     "title": "Wall Street Braces for Anthropic’s Spending",
