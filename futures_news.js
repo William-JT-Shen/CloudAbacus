@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-15T15:35:56Z
-var NEWS_FETCHED_AT="2026-11-15T15:35:56Z";
+// 生成:2026-11-15T21:00:22Z
+var NEWS_FETCHED_AT="2026-11-15T21:00:22Z";
 var GPU_NEWS=[
+  {
+    "title": "洪灏展望2027：洊雷未止，一波万波 · 资产轮动压缩至3个月，10年美债破5%后的终局推演",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWRQT1hsX2V2YkhoM28zeXVpMlJ2YzJyS256ZFlwc2p0VHp1SWFKd2dpY1ZsbEE1VlZERElVUlZMVWQyVTRkMFJ1N1AtN0NZWHhnVTA2Tkd0ZXpWVmEwWmZDRjJHRU9UYVRBNWpfcUhBNzBmLWNZUm9wYUd1LUY4MUlXU1JIb3FHUVE?oc=5",
+    "published": "2026-11-14",
+    "summary": "洪灏展望2027：洊雷未止，一波万波 · 资产轮动压缩至3个月，10年美债破5%后的终局推演&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核",
     "source": "新浪财经",
@@ -590,18 +602,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLTMyS3Roczh5Uk1BWjE2LW1xXzNCWDJya0N2aFZENTM2a1gxMzJiM3dlX3FrNmo4SzRHTU82bHdXTDk0UVRXUzhHOWJ6ZVhzZlRwbW5VQXVYbl9UdFgzdFVqb20xWDN3ZFBseC11T0wxcWk3VFd2VlVuT2VpQWFPdDloTnlLZmdpbnFfQk90RWp4akdNNWdTWW9oMHpyTzh5VUR5Tk50MTFRZHQ2UnlocThIajRWcHhGX2QyX1p6LUEwaTk3dlI3blJpbWxMbV9mT3BWTnZpQTVXWDVQNFhYQ3Fn?oc=5",
     "published": "2026-10-28",
     "summary": "中天期货:焦煤逼近年线 乙二醇碰涨停&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "WTI原油期货跌破每桶100美元",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vMi1ObnJVX0l2a1BiTV96ekdPa2xmTXNmNkNCSXpHVFRPUmxPNER0cmNObFlNZ1dkWGNsTG5FZV8tdW5GZW1kYW9xRWhkTWdnM1RXd01weUU0ZHc5UlBrUzRQcGZ5aEg1V1lyUnlIcmRKNlBCNjhLSw?oc=5",
-    "published": "2026-10-27",
-    "summary": "WTI原油期货跌破每桶100美元&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
