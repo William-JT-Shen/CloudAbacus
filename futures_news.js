@@ -1,7 +1,32 @@
 // GPU算力期货新闻
-// 生成:2026-11-16T06:03:01Z
-var NEWS_FETCHED_AT="2026-11-16T06:03:01Z";
+// 生成:2026-11-16T18:20:27Z
+var NEWS_FETCHED_AT="2026-11-16T18:20:27Z";
 var GPU_NEWS=[
+  {
+    "title": "How Sam Bankman-Fried Lost Out on a $35 Billion Jackpot From Anthropic",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/11/16/technology/sam-bankman-fried-anthropic.html",
+    "published": "2026-11-16",
+    "summary": "The founder of the collapsed FTX crypto exchange, who is serving prison time for fraud, would have made a windfall from a $500 million investment in Anthropic.",
+    "full_text": "Supported by\nHow Sam Bankman-Fried Lost Out on a $35 Billion Jackpot From Anthropic\nThe founder of the collapsed FTX crypto exchange, who is serving prison time for fraud, would have made a windfall from a $500 million investment in Anthropic.\n![Sam Bankman-Fried, wearing a navy blue suit jacket over a white shirt, walks past TV cameras, with a man in a dark gray suit holding onto one of Mr. Fried's arms.](https://static01.nyt.com/images/2026/11/13/multimedia/00biz-sbf-anthropic-bzgc/00biz-sbf-anthropic-bzgc-articleLarge.jpg?quality=75&auto=avif&disable=upscale)\nSam Bankman-Fried, the convicted cryptocurrency fraudster, lives in a 30-person unit at the federal prison in Lompoc, Calif., a barbed-wire compound about a million miles away from his former life as a technology billionaire in the Bahamas.\nFor the most part, Mr. Bankman-Fried, 34, tries not to think about all the “could-have-beens,” he said on a recent call. But one has become difficult to ignore.\nIn late 2021, the heyday of his FTX crypto exchange, Mr. Bankman-Fried spent $500 million on a 13.5 percent stake in a little-known artificial intelligence start-up called Anthropic. This week, Anthropic is set for an initial public offering that is expected to value the company at $1.4 trillion, potentially one of the largest Wall Street debuts in history.\nAt that valuation, Mr. Bankman-Fried’s investment, diluted over several years, would now be worth an eye-watering $35 billion — about the size of FTX’s entire business at its peak.\nBut the shares are gone. They were tied up in bankruptcy court until 2024, when executives overseeing the scattered remains of FTX sold the Anthropic stake for $1.34 billion — a tiny fraction of its current value.\nFor Anthropic, the fate of those shares is an odd quirk of history. For Mr. Bankman-Fried, it’s a source of extreme frustration and resentment. Even after a fraud conviction, a failed appeal and a succession of public humiliations, he is still trying to prove his innocence, arguing that FTX had sufficient resources to avoid bankruptcy.\nRelated Content\nAdvertisement",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
+  {
+    "title": "杨哲轩谈数据编译、模型能力与机器人如何重新进入真实世界",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4072117363495816?f=rss",
+    "published": "2026-11-16",
+    "summary": "▲从一只瓷杯到可复用的数据资产——编译发生在每一次操作之后。\n  桌上摆着几只茶杯。采集者戴上头戴设备，把杯子逐一拿起、移开，再放回原位。设备记录了连续视频和惯性测量单元（IMU）数据。看上去，动作已经被完整保存。可一旦任务结束，这段经验通常也就结束了。它没有自然地变成下一次可以调用的能力。\n  但在杨哲轩看来，问题恰恰在这里：动作被记录下来，只是事情的开始。视频告诉我们发生过什么，却没有告诉模型下一步该怎么做。它缺少动力学、意图、空间关系，也缺少失败之后如何恢复的经验。要让一次整理茶杯的动作变成可复用的智能，系统还要把任务拆成步骤，用结构化语言对齐，再补回手部姿态、运动轨迹和动作意图。\n  杨哲轩的判断很明确：“我的判断，语言，特定地说，结构化的语言，才是唯一可以对齐的东西。”在他看来，只有先把任务写成模型能够理解、检索和复用的结构，物理世界里的动作才可能从一次性经验变成下一次可以调用的智能。\n  \n  ▲桌上摆着几只茶杯。动作被记录下来，只是开始。\n  从行业层面来看，具身智能进入数据规模化阶段后，采集量快速增长，高质量数据的缺口却依然很大。36氪今年5月曾援引行业共识称，训练具备",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "多家券商股东出手 期货行业迎密集增资",
     "source": "新浪财经",
@@ -578,30 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb3RhYXhDQ0Q4LXJfSlR3SkY1dVg5NXlYdHZ6OUdxUFhmU1JDY1Z3TXV1SldGbjBKbGhCX25sTmhCeWFfaG9LYkE1emZvR0VIN3diQXBEWjhDYVdHUFhEU1llNnkwWWlGX1luOWR3Nkh6eVlzNng3WnJSQl9ua25abHVhSk5qYzQ?oc=5",
     "published": "2026-10-28",
     "summary": "永安期货前三季度净利润增23% 总资产增长29.47%超千亿&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "上海期货交易所：对部分客户采取限制开仓监管措施",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aYXRvNmNmU1JrUFZXNUdDdlNPdElPVkJ4NUpBdExSRm5tQTlMdDIyd0xTaDlOQXFaVlZMYXBLSnZwTXVIMXJ5RURRUjA1b1VkM09PRUxkZ3NhUTlHX3hBVnpFdjlRWFU0UG4tZ1ByMGIzZno0bDd2Mw?oc=5",
-    "published": "2026-10-28",
-    "summary": "上海期货交易所：对部分客户采取限制开仓监管措施&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "累库压力持续加大 烧碱期货连创新低",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0ybHAtSzFoaEdMMU9TQkQyQnp2bWxPSFRxYld3c3hwWFlhRW9YeGw2Zml0MWdmbnRkWFlnTlRibUVVcF9XS3ZaalFoNTV1T0tHWllDX21BRXRqcVRMbXFHQ0V6OUZSVU5OeVZ3dXZfSS1IT3YxQk94bQ?oc=5",
-    "published": "2026-10-28",
-    "summary": "累库压力持续加大 烧碱期货连创新低&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
