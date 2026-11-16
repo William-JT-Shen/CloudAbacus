@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-15T21:00:22Z
-var NEWS_FETCHED_AT="2026-11-15T21:00:22Z";
+// 生成:2026-11-16T06:03:01Z
+var NEWS_FETCHED_AT="2026-11-16T06:03:01Z";
 var GPU_NEWS=[
+  {
+    "title": "多家券商股东出手 期货行业迎密集增资",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9TclhqdE1GVnlXRXB2cE5PenVJLTJOa3NKOC1VNjltV0VYSFFGWjBXdmpzTWtsVGp2WXJVSDVyeElNQ3Y2WUtEWHlOQ2YyVzNSNGpZTDhVT2NaOTRDY1FfOHRzSGRLUHh3R05QckY5LUdmLTM3cnFlYQ?oc=5",
+    "published": "2026-11-15",
+    "summary": "多家券商股东出手 期货行业迎密集增资&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "洪灏展望2027：洊雷未止，一波万波 · 资产轮动压缩至3个月，10年美债破5%后的终局推演",
     "source": "新浪财经",
@@ -590,18 +602,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0ybHAtSzFoaEdMMU9TQkQyQnp2bWxPSFRxYld3c3hwWFlhRW9YeGw2Zml0MWdmbnRkWFlnTlRibUVVcF9XS3ZaalFoNTV1T0tHWllDX21BRXRqcVRMbXFHQ0V6OUZSVU5OeVZ3dXZfSS1IT3YxQk94bQ?oc=5",
     "published": "2026-10-28",
     "summary": "累库压力持续加大 烧碱期货连创新低&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中天期货:焦煤逼近年线 乙二醇碰涨停",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLTMyS3Roczh5Uk1BWjE2LW1xXzNCWDJya0N2aFZENTM2a1gxMzJiM3dlX3FrNmo4SzRHTU82bHdXTDk0UVRXUzhHOWJ6ZVhzZlRwbW5VQXVYbl9UdFgzdFVqb20xWDN3ZFBseC11T0wxcWk3VFd2VlVuT2VpQWFPdDloTnlLZmdpbnFfQk90RWp4akdNNWdTWW9oMHpyTzh5VUR5Tk50MTFRZHQ2UnlocThIajRWcHhGX2QyX1p6LUEwaTk3dlI3blJpbWxMbV9mT3BWTnZpQTVXWDVQNFhYQ3Fn?oc=5",
-    "published": "2026-10-28",
-    "summary": "中天期货:焦煤逼近年线 乙二醇碰涨停&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
