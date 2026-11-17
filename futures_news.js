@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-16T18:20:27Z
-var NEWS_FETCHED_AT="2026-11-16T18:20:27Z";
+// 生成:2026-11-17T02:53:59Z
+var NEWS_FETCHED_AT="2026-11-17T02:53:59Z";
 var GPU_NEWS=[
+  {
+    "title": "8点1氪丨DeepSeek因算力不足限额；英伟达董事会没考虑让黄仁勋回公司担任CEO；AI演员代言美瞳广告被罚6.82万",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4073099271230601?f=rss",
+    "published": "2026-11-17",
+    "summary": "今日热点导览\n  阿里正式发布Qwen4，智能体及编程能力进阶\n  金饰价格连跌5个交易日，盘中跌破3900美元/盎司\n  三星将为SpaceX生产卫星芯片，目标2030年投入运行\n  大麦娱乐：因专注发展个人事业，樊路远辞任董事会主席及首席执行官\n  英伟达AI算力合约份额下跌，英伟达GPU占比仅39%\n  TOP3大新闻\n  因算力不足，DeepSeek对App/网页版限额使用\n  DeepSeek对App/网页版的长对话进行了限额使用。多名用户反馈，DeepSeek提示因“算力不足，不再支持超过7天不活跃的长对话”，并对单次输入文字的上限进行了调整，缩短至4万字左右。此外，还会限制每日的对话额度，当用户日使用量达到上限时，会提示“因服务器繁忙，使用额度已达上限。”\n  此次限额是DeepSeek近期算力紧张状态的延续。据DeepSeek官方状态页记录，2026年10月以来平台已发生8起服务中断，涉及对话服务及V4 Pro、V4.1 Flash的API。8月至10月，V4.1Flash API的可用性为99.46%，折算下来全年约有47.3小时不可用。(科创板日报、IT之家)\n  ",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "How Sam Bankman-Fried Lost Out on a $35 Billion Jackpot From Anthropic",
     "source": "NYT Tech",
@@ -591,18 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWE5ldjNlMllXTkFMSjAtRU1pLTd4ekl4enhWV28yN3RnZkUtYTZvdXYyeGN2WXFLN2pNYjVYN3VLOWVBS1RFTGRHVzRmVVNNYkdYM2xxNExpMTdhUWJqQnVBWlBtdGhua293TlNpWnJrcGVfM1pNVmlFUmdEZHR1b0xkTmlPRHlwZFcydTVR?oc=5",
     "published": "2026-10-28",
     "summary": "沪镍、不锈钢期货10月28日暂时止跌弱稳&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "永安期货前三季度净利润增23% 总资产增长29.47%超千亿",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb3RhYXhDQ0Q4LXJfSlR3SkY1dVg5NXlYdHZ6OUdxUFhmU1JDY1Z3TXV1SldGbjBKbGhCX25sTmhCeWFfaG9LYkE1emZvR0VIN3diQXBEWjhDYVdHUFhEU1llNnkwWWlGX1luOWR3Nkh6eVlzNng3WnJSQl9ua25abHVhSk5qYzQ?oc=5",
-    "published": "2026-10-28",
-    "summary": "永安期货前三季度净利润增23% 总资产增长29.47%超千亿&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
