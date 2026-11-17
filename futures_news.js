@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-17T02:53:59Z
-var NEWS_FETCHED_AT="2026-11-17T02:53:59Z";
+// 生成:2026-11-17T13:04:17Z
+var NEWS_FETCHED_AT="2026-11-17T13:04:17Z";
 var GPU_NEWS=[
+  {
+    "title": "第十六届香港国际金融论坛暨第七届领航「9+2」粤港湾大湾区发展论坛",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4073736741344384?f=rss",
+    "published": "2026-11-17",
+    "summary": "具身智能正加速迈向全球产业落地，「十五五」开局与香港「超级联系人」角色深化，为硬科技出海打开新窗口。\n  11月23日,第十六届香港国际金融论坛暨第七届领航「9+2」粤港澳大湾区发展论坛·香港国际具身智能峰会启幕,汇聚国内顶尖具身智能头部企业与核心决策者,依言托香港国际化场景、合规体系与全球资本网路，打通「研发一验证一部署」闭环,推动中国具身智能从技术验证走向全球部署,从产产品出口走向品牌出海,共建人机共融新生态。",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "8点1氪丨DeepSeek因算力不足限额；英伟达董事会没考虑让黄仁勋回公司担任CEO；AI演员代言美瞳广告被罚6.82万",
     "source": "36氪",
@@ -12,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "党业深度融合，大有期货跨省结对赋能乡村振兴",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNOTdFaVMtR0xKX0t0MGl6R01OX1NVR1NQZmNKRUZyUl84ZXdlY3pfVzVNTVhiOUJnMVJZZEpLamt3V0I1TEJFUU9fN2tjdUZWaWVpT3BDTy1JNGRQU2JDeEpjdGNCa1UxaGJnMF8zeHNaOVNCeWdsMWJScE0?oc=5",
+    "published": "2026-11-16",
+    "summary": "党业深度融合，大有期货跨省结对赋能乡村振兴&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -37,6 +61,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "掘金中国资产 海外资金看多信号密集显现",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SQktWbVlnM3lwTjF4UHpvc3A0Z1g2WVFVdklTSDJLcVpOQkFtOVNFaDgxYlVvaFVUbGVTYlk1Wl9lOUtlMkFZTG95SVJjQjhKTjA4QXRkcDNXRFctZFhKb3RvY2tVcTh5MnFSNFFxZV9JdERGQjV3TA?oc=5",
+    "published": "2026-11-15",
+    "summary": "掘金中国资产 海外资金看多信号密集显现&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -567,42 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSjEwZURrX1h4WlBXaW8yMDRDYnFtcDROZzlicTYtN2tqeW5tTVVRbkUzbzJRWnczXzdpTjB5U2VoNENVN2ZYS3prNmM0MHFlQzV2QWZYdk0zRlE4el9vajhyTkI2Zkc5Q3NsRW45MXpvX2g2a3BTSW9ZNk9aNllzRU9rV1o1NVB0NEU4cg?oc=5",
     "published": "2026-10-29",
     "summary": "最新上期所原油期货仓单变动-每日更新查询（2026年10月29日）&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "8点1氪丨姆巴佩中国代言收入近2200万欧元；长鑫科技已被纳入上证指数；宇树科技：前三季度净利润3.87亿元，同比增长270.54%",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4046203581289345?f=rss",
-    "published": "2026-10-29",
-    "summary": "今日热点导览\n  特朗普将“正式禁用”AI一词\n  泡泡玛特回应业绩大跌，管理层称高基数叠加“炒娃降温”\n  iPhone Duo首次支持Apple Pencil，仅限USB-C款且需有线配对\n  海力士DRAM到2029年产能已售罄\n  小鹏机器人固态电池小批量量产\n  TOP3大新闻\n  姆巴佩中国代言收入近2200万欧元，占商业总收入38%\n  姆巴佩涉华不当言论事件爆发后，中国市场在不到24小时内完成品牌解约、平台清退的全链条动作，这一过程不仅在国内引发强烈反响，也迅速进入全球主流媒体的报道视野，不同定位的国际媒体从商业、体育伦理、公众人物责任等多个维度展开讨论，让这起事件成为全球体育商业领域极具标志性的反面案例。\n  英国《金融时报》第一时间将这起事件定性为“顶级体育明星触碰区域市场红线的典型失误”。报道中专门算了一笔账：姆巴佩此前在中国市场的年度代言收入接近2200万欧元，占他个人全球商业总收入的38%，这次多家头部品牌集体解约，直接让他损失了近四成的稳定商业收入，且后续几乎没有任何挽回的可能。(光明日报)\n  长鑫科技已被纳入上证指数\n  根据中证指数公司网站，长鑫科技已",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "民主党中期选举若取胜，预测市场与美国商品期货交易委员会或将面临重压",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLWFfemxkWW5wYUZXUVlyUTktM21mOUpXb3Jma3A0eTJEVjBJMmx4VXdQci1KVEhDcXUtczJRRG1fcFlMdGxqT3o1MElZZWpDWExxMmNrTjkwTXlFV1AtZlNLLTJtZmVMR2tXVVk3dmxwSm1GX25CSDNUeXRuOFMwYTZfOG44X1BmcHJheWlHcE0zc3FES1ptaVF3dnpQa3VBdDVFbXlWX28wdEpFU0R1N3ZRX0FwdEpaWmRMMTN1eC01d0tYMjBPUkVDbmxqRWFEbHpCV2Q4R2loYVlfbmlV?oc=5",
-    "published": "2026-10-28",
-    "summary": "民主党中期选举若取胜，预测市场与美国商品期货交易委员会或将面临重压&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "沪镍、不锈钢期货10月28日暂时止跌弱稳",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWE5ldjNlMllXTkFMSjAtRU1pLTd4ekl4enhWV28yN3RnZkUtYTZvdXYyeGN2WXFLN2pNYjVYN3VLOWVBS1RFTGRHVzRmVVNNYkdYM2xxNExpMTdhUWJqQnVBWlBtdGhua293TlNpWnJrcGVfM1pNVmlFUmdEZHR1b0xkTmlPRHlwZFcydTVR?oc=5",
-    "published": "2026-10-28",
-    "summary": "沪镍、不锈钢期货10月28日暂时止跌弱稳&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
