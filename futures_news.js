@@ -1,7 +1,55 @@
 // GPU算力期货新闻
-// 生成:2026-11-18T17:10:37Z
-var NEWS_FETCHED_AT="2026-11-18T17:10:37Z";
+// 生成:2026-11-19T01:51:52Z
+var NEWS_FETCHED_AT="2026-11-19T01:51:52Z";
 var GPU_NEWS=[
+  {
+    "title": "AI早报|三星电机与英伟达扩大AI芯片组件合作，加密期货押注料Anthropic估值可达1.7万亿美元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Vek9YUVpQaWYtUWQ5bVZqNWtWZHRqcmhqdG1lTEZuUmdzZUF6U0ZVZGUyOEIyVDRmQm9heDQyUXd4eHltNDM4MHhiWnFFSWY5NkxHTDZsZHVJNGRVdmw1N3ZBZWlHM2VZSXJ3YWl3eEdfejhqUXpNZ2JUNTQ0RDg?oc=5",
+    "published": "2026-11-19",
+    "summary": "AI早报|三星电机与英伟达扩大AI芯片组件合作，加密期货押注料Anthropic估值可达1.7万亿美元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "开盘|国内期货主力合约跌多涨少 液化石油气（LPG）、SC原油跌近5%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX29vYUFCYzc4NmRxcUh5NzBtUnRIRVZabFh2TU9MTjk3R0JRa0o2Tm5Kb0lFN2NVNmNvVndRd2Z2NmZXWTJ6Zzc1bkpPOWk2YVZBY3FHaTR6b1ZrNzcwNjRLb0UyUXRrWXhBMUJIOFpZOTZ4Q0R1VXBRVjlnNjlwVVR4d0hUbE5tSWdIcw?oc=5",
+    "published": "2026-11-19",
+    "summary": "开盘|国内期货主力合约跌多涨少 液化石油气（LPG）、SC原油跌近5%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "8点1氪丨Anthropic IPO定价83美元；iPhone Duo铰链风波升级；浑水宣布做空英伟达",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4075920892581000?f=rss",
+    "published": "2026-11-19",
+    "summary": "今日热点导览\n  \n   OpenAI发布GPT-6.2 Astra，GPT-6.2双模型分层定价\n   董明珠APEC现场寻找合作机会，称格力研发机器人十几年了\n   马斯克：预计SpaceX不会向OpenAI出售任何算力\n   大疆Osmo Pocket 4系列涨价，最高涨560元\n   三星电机与英伟达扩大在AI芯片组件方面的合作\n  \n  TOP 3大新闻\n  Anthropic IPO定价每股83美元\n  当地时间11月18日，Anthropic将其IPO发行价定为每股83美元，这一定价高于该公司此前的预估。该公司将于周四在纳斯达克开始交易。首席执行官达里奥·阿莫代伊及其他联合创始人将敲响纳斯达克交易所的开市钟。\n  此次IPO可能使公司估值达到1.5万亿美元。另外，此前有消息人士称，鉴于投资者需求强劲，Anthropic还扩大了此次发行规模，但未透露具体增加幅度。（界面新闻、金十数据）\n  iPhone Duo铰链风波升级，消息称苹果曾要求供应商撤下声明\n  11月18日，苹果被指曾对韩国零部件供应商Fine M-Tec提出异议，促使后者撤回有关折叠手机质量问题的声明。该事",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "「镁伽科技」完成近2亿美元融资，建设直接面向真实世界的AI智能基础设施｜36氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4075322592187524?f=rss",
+    "published": "2026-11-19",
+    "summary": "文｜胡香赟\n  编辑｜海若镜\n  36氪获悉，近日，镁伽科技已完成新一轮近2亿美元融资。本轮融资由阿曼苏丹国主权财富基金阿曼投资局（OIA）参与投资，亚投资本、Granite Asia、创新工场等老股东加注，招银国际、苏创投、三江招商集团等机构跟投，覆盖国际主权资本、头部金融资本及地方国资产业资本等。\n  当前，AI for Science想要真正跑通绕不开一个底层问题：数据。成规模、高质量、可复用的科研数据目前仍是稀缺资源，而国内绝大多数生命科学实验室的设备和耗材仍不具备大规模、一致性产生数据的能力。\n  镁伽创始人、首席执行官黄瑜清曾将其形容为“科学家们对数据日益增长的需求，和相对落后的生产力之间的矛盾”。也正是这一矛盾，让AI自动化实验室在今年的AI4S投资热潮中再度迎来了自己的小高峰。\n  随着人工智能从数字世界走向真实世界，仅有数据还不够，需要推动AI真正进入科学研究、实验室、生产线等复杂物理系统，连接模型、数据、软件、硬件与物理执行，完成从思考、设计到执行、观测、持续反馈学习和优化的完整过程。\n  \n  图源：镁伽科技\n  在国内，镁伽科技是较早布局该方向的公司之一。成立十",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "第十六届香港国际金融论坛暨第七届领航「9+2」粤港湾大湾区发展论坛",
     "source": "36氪",
@@ -559,54 +607,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "光大期货：10月29日软商品日报",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdE9PTnFaNW1MTnFCZHRPWW01Nk9uZmd5aUZ1bjNPb0FLT193LTh2QUh1RVFjY1I5Z3pCX1UzM2pZY0gwUE9HbS03VnJnM0VGMTZ4eVYzVzcwelNXWExUV1dpZE5aQ21rWlJ5Y3JLNktCN0J5ZGR4amlqblhzOUFJTGFyLVBCVDNVakZoOXNwNlNTTFFKd3hQV241VWtveXRFMUdqRlFSQjRoMVpMcUQtM2NjNHc3UzlxVk5JaGVMRXMwWkZiQ2Zrd1doYUFQNElUVHE4YWozR0pZTW9jUG0zVWdPTTE?oc=5",
-    "published": "2026-10-29",
-    "summary": "光大期货：10月29日软商品日报&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "上期所：关于发布《上海期货交易所两方开票业务指引》的公告",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcDZ6MWV4OWNmMFlha2swLUlvY1J1bVpLUDc1YzhaT05wSk1oVDNpRURjMGJ6Vk9GSnRZYkd5UlVfTGJueWQ5Z1piNE9XTi1mVlA1X21mU1ZkaVVPQ3RzUWFHZnJXNmNjQ0Z6TUZZUEcyRjdpYUhDMHlnRXJVT0FWclNfYnRxTFE?oc=5",
-    "published": "2026-10-29",
-    "summary": "上期所：关于发布《上海期货交易所两方开票业务指引》的公告&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中天期货:商品指数冲高回落 白银横盘震荡",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbVFwT3paM3ZtYUdnVGZ3VnBaa05JVlc3OWx6OW1mTU1EbGszOUl1bzlHZTNpSURYQ1AyckJjWVZoNDhid0YyTENmeC0xMW5Ka0tjQVh5NDd0SU1IYUFUdHVwSGIyZGtmWGU0VXJrRy1wbVFNVG9PR1BQYURQaGl3UllmdFJHNjRTb1c4YUQ2Z3NkYnhsMF9pbjVhTEc5VmhuZHZXeWFaZkExZjNsMC1TcTVNeVJLTGRxQkNJcTJreWdnYWM2R0VOV2xZMVlPY3FYbW5zQjY0d3U4OTB3OUdvNXIxWEI?oc=5",
-    "published": "2026-10-29",
-    "summary": "中天期货:商品指数冲高回落 白银横盘震荡&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "最新上期所原油期货仓单变动-每日更新查询（2026年10月29日）",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSjEwZURrX1h4WlBXaW8yMDRDYnFtcDROZzlicTYtN2tqeW5tTVVRbkUzbzJRWnczXzdpTjB5U2VoNENVN2ZYS3prNmM0MHFlQzV2QWZYdk0zRlE4el9vajhyTkI2Zkc5Q3NsRW45MXpvX2g2a3BTSW9ZNk9aNllzRU9rV1o1NVB0NEU4cg?oc=5",
-    "published": "2026-10-29",
-    "summary": "最新上期所原油期货仓单变动-每日更新查询（2026年10月29日）&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
