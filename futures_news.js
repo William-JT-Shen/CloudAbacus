@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-19T12:48:46Z
-var NEWS_FETCHED_AT="2026-11-19T12:48:46Z";
+// 生成:2026-11-19T23:02:08Z
+var NEWS_FETCHED_AT="2026-11-19T23:02:08Z";
 var GPU_NEWS=[
   {
     "title": "华泰期货：市场开启risk-off模式，资金流向防御性配置",
@@ -84,6 +84,30 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "盘前：纳指期货涨0.75% 英伟达财报超预期",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOUlUYXllQjBENEV4UHljNXFVSE5WUnU0cWpobXI4YTZQVlFyOGxhLVVoTHFnYWZkMFZFQ1plSXJSRGZsNU9YUmh2RktPT2NLZE41ZF90UV93MjFRTVZ6M0lLMm5sSWhVdEFrRVFzVGdNVlI3Zmcwb2xnOWMtNFBlUncyTm5WaktuUFlaZGlHRmpucEJYTXc2Mk9rR2o?oc=5",
+    "published": "2026-11-18",
+    "summary": "盘前：纳指期货涨0.75% 英伟达财报超预期&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "美股前瞻 | 三大股指期货涨跌不一 英伟达强劲财报缓解AI交易疑虑 Anthropic IPO定价在即",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ0RaWWhYa0h2Z1V1UUVaXzFmZVNDUy1vOHA0d0R1SmtjZlY2ZGJOVzNVc2NFajdPWUpTVmxIaWMtcV9fOVJka3RORW9mZXpKS0JCU2RLZEdEU3FSSU82MFhBaVAzOW9zaVhlZFVYRlY0UllqeW9mNDN0Sk1oNGVsMjRJeXY0eVkyNzFZVzln?oc=5",
+    "published": "2026-11-18",
+    "summary": "美股前瞻 | 三大股指期货涨跌不一 英伟达强劲财报缓解AI交易疑虑 Anthropic IPO定价在即&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -579,30 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZDhEUW1zNUt1N091OElCbFpwYUQ3REtsMVQtS0RiZDZlbkJUb1ZhYThyMVlsXzUwcU5MZEUtVV9IVVByOTdheVZldG5MQ3pkaThUTG9zRHJ4Mmg2ZHY2UXItUllKZHJSaXVpRGkzZjloR1gzRVhCZDVBaUowNm1DM1RlTzFjUXYwenZlZC1RMkI2UnpmN0NxUTZ2dkxfRXJnX2dORlRpUURDQUlBOW10cDF3Z28xWFpSaUlkY19Sdm4tb01lUVlqTk9jMk5Zemw1NVQ0U1h1Z3prVHRseUl6V0VVZw?oc=5",
     "published": "2026-10-30",
     "summary": "收评|国内期货主力合约涨跌不一 苹果涨超6%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "最新上期所铜期货仓单变动-每日更新查询（2026年10月30日）",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcnJTMDMtVklVTkdZS2pxNEZmcU5yNFJYd3VfWnNlZG4wQ3BSVlkwRnlkSDF2ajdxcWlLZUJxeFg4bWxGZDNFbGIxbXhfTkVBTkpqOUJaeWFfRDE4aUNIa3hUT2hIcUFLN25aX0NHaXhmc0duTTMwTU81MzBoVU9MSUVUMDVxd1RaN3hnWg?oc=5",
-    "published": "2026-10-30",
-    "summary": "最新上期所铜期货仓单变动-每日更新查询（2026年10月30日）&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "美股盘前丨股指期货齐跌 英特尔盘前跌超25%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nUy02azFzR2tMb2JOWTVVNXlndDd5RXNnZFJ0Z1FwdnFkMjZsTF94ZnJjcnV5SlVWdFUyZmg0RlRSTWdrUk00anF5MDhxbDd0ZHQ0cnBTOXoyOXZwQi1tSGczVEE5NWV2X0ZlOFBoMExlQjdlRUFydA?oc=5",
-    "published": "2026-10-30",
-    "summary": "美股盘前丨股指期货齐跌 英特尔盘前跌超25%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
