@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-11-19T01:51:52Z
-var NEWS_FETCHED_AT="2026-11-19T01:51:52Z";
+// 生成:2026-11-19T12:48:46Z
+var NEWS_FETCHED_AT="2026-11-19T12:48:46Z";
 var GPU_NEWS=[
+  {
+    "title": "华泰期货：市场开启risk-off模式，资金流向防御性配置",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeW9MUTRHcDU2bFNKNk44d3dKdVV5SGRpRHNwUHE0R1VENUs0NHBTcEFPa2kyWWsyV3o1YkYyeXlfMzNnUjZIQ3lJeTQ5bDhHQkJOblNnMDEtVXdlbGZjWHRvQ2laLTJLX0NGcTk1b1lXaUdOdXlvU3ZiandCb1I4QWh1VS1yR2Vhb1ZMaQ?oc=5",
+    "published": "2026-11-19",
+    "summary": "华泰期货：市场开启risk-off模式，资金流向防御性配置&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "从「借船出海」到「造船出海」，DTC品牌如何拿回全球增长的主权？｜超级会氪厅",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4076327009391753?f=rss",
+    "published": "2026-11-19",
+    "summary": "过去几年，通过亚马逊、Shopee、TikTok Shop等跨境电商平台“借船出海”是中国品牌的主流选择。平台提供流量、履约和支付基础设施，卖家只要铺产品、投广告，生意就能滚动起来。\n  但到了2026年，越来越多品牌发现这条路径正在逐渐失效，主流平台的佣金与广告成本持续上升，品牌对海外流量和用户的掌控力被不断压缩。\n  与此同时，独立站不仅客单价与毛利水平明显优于平台模式，“轻资产、高杠杆”的路径也已被一批出海品牌跑通，逐渐成为出海品牌新的增长极。不同于依靠平台，DTC不是渠道选择，而是品牌主权的重新确立，通过拿回定价权、用户数据与品牌沟通渠道，把流量生意变成用户资产。\n  但“造船”显然远比“借船”复杂，这也是过往品牌优先选择借助平台出海的现实原因。独立站建站、选品、流量冷启动到红人与内容投入等环节都需要品牌自建能力。\n  不仅如此，随着AI重写获客规则，GEO时代独立站如何被“看到”、DTC本地化从翻译适配到文化共生、支付和物流等品牌信任体系如何保证……这些问题是每一个出海DTC品牌走向自主“造船”都必须回答的命题。\n  DTC是品牌主权的重新确立\n  在平台模式下，品牌与消费者",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "三个月四轮，估值近百亿，浙大、阿里系具身大脑公司再获新融资｜硬氪首发",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4075109837149321?f=rss",
+    "published": "2026-11-19",
+    "summary": "作者｜黄楠\n  编辑｜袁斯来\n  硬氪获悉，具身大脑企业「原力无限INFIFORCE」近日完成数千万元Pre-B轮融资，由杭州市属国有资本投资运营平台杭州资本独家投资。资金将重点投向具身大脑AtomBrain的技术研发，持续深耕真实落地场景，推进产品工程化打磨与规模化产业化落地。\n  这是公司在三个月内完成的第四轮融资，此前，原力无限已接连完成近10亿元A轮、A+轮融资，10月获浙江省级国资平台浙创投近亿元投资。目前估值近百亿元。\n  本轮融资也是千亿国资对具身大脑方向的持续加码。独家投资方杭州资本拥有超1100亿元资产及超2400亿元基金合作规模，宇树科技、强脑科技、云深处科技等杭州明星硬科技企业背后，均有杭州资本的投资身影。\n  原力无限成立于2023年，公司聚焦通用具身智能大脑的研发。公司以隐式世界模型（Latent World Model）为核心技术路线，融合具身基础模型、持续学习、场景化后训练与脑身协同能力，构建了具身大脑AtomBrain、全栈具身数据运营及多形态机器人本体为核心的完整技术与产品体系。\n  \n  原力无限具身本体矩阵（图源/企业）\n  原力无限创始团队由顶级",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
   {
     "title": "AI早报|三星电机与英伟达扩大AI芯片组件合作，加密期货押注料Anthropic估值可达1.7万亿美元",
     "source": "新浪财经",
@@ -48,6 +84,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "华泰期货：美国限制算力远程获取，有何影响？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZURwMzJGdV8yX0dsMEVSWkRsSjlSbXJNdmMxZDZ1TFdTbDQ0d2VJOERzOXVXRWdhOWtDVzIydXBxVzh1LXVCWWxxTHgtS0RGa0FCTElZeG5OdlRlSzJmOWI5MWpieEFqYVNaT1RPMGkybjZwdVN6Q2poakFsVzNsQzhvZEJDYTFxSHBZUA?oc=5",
+    "published": "2026-11-18",
+    "summary": "华泰期货：美国限制算力远程获取，有何影响？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -559,54 +607,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "开盘|国内期货主力合约跌多涨少，沪银跌超4%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVGI5YXFIX3NPc2JUMGlfeHZRQXlWZ3MzT2FDdkNyZ1dwQmdOZ0g5OFgxSDFLZnM2QUFoRHBUZi0zSzdlWXZmOVd1OElROV9MZW0zd09fdVhxV0p5d29TME92RUdsLW92b2JFTDhJV3VDMkRoSmdBY2hBN0tFVDNCcTROUXpnUVpxR0ZnWlBfM195cm5QdnFoYnVnUDExRjZvd3F3dUlYMmVJQmFtZE5jbzBNd3hac0lQSXlJSkFybHZvR1hyM09mNmlPOXRFb0MzcnR4ZUIwYnZVcjNNVVU5ZDM0NTA?oc=5",
-    "published": "2026-10-30",
-    "summary": "开盘|国内期货主力合约跌多涨少，沪银跌超4%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "广州金控期货市场行情日度报告20261029",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTnhMLTdvcDhhMlV0aEYyMmZCX3pUTlVOR3pvNG9TYURMMWxLcEZBdmYwLUlRRktuM3RoajNrUWE5QXhjSXhjWjlCM3dYWjZhV3YtS2F0TktYeWxqNUxnSUxveFQ2a2F1cjVocUdGNXg0dW5qSEFCeUhBWjJGd1loSlZNakJVdGJiQ2dnY1ZR?oc=5",
-    "published": "2026-10-30",
-    "summary": "广州金控期货市场行情日度报告20261029&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "AI初创企业的下半场：钱往哪里去？",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4048078906800642?f=rss",
-    "published": "2026-10-30",
-    "summary": "作者｜王晗玉\n  编辑｜张帆\n  2026年的风险投资市场，正在上演一场前所未有的“AI大分流”。据Crunchbase数据，今年上半年全球初创企业融资额约5100亿美元，已超过去年全年；仅第一季度，约80%的风险投资便流向了AI公司。OpenAI单轮融资1220亿美元、估值冲上8520亿美元，Anthropic则以9650亿美元估值反超，成为全球最有价值的AI初创企业。\n  狂热之下，分化同样剧烈：头部模型公司融资能力依旧惊人，大量垂直应用却是有用户、难见利润。\n  市场不再比模型参数，开始比应用落地，“AI下半场”的拐点叙事，正在取代此前的算力军备竞赛——对于仍在牌桌上的初创企业而言，生存规则已经变了。\n  当全球资本涌向高增长机会，下一站究竟在哪里？11月2日至3日，香港金融科技周×StartmeupHK 2026即将举行，市场目光将再度聚焦这座连接内地创新与全球资本的城市。在科技周启幕前，36氪与华映资本创始管理合伙人季薇、香港投资推广署署理初创企业总裁吕缙勇进行了深入交流，试图回答一个问题：AI初创企业的下半场，什么才是真正的判断标准？\n  拼过模型参数，再拼“数据飞轮”\n ",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "36氪首发丨前华为VP创业做AI原生电力资产运营，获宁德时代旗下基金数千万美元A轮融资",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4047734928259592?f=rss",
-    "published": "2026-10-30",
-    "summary": "作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  \n   本文约3600字，建议阅读9分钟\n  \n  硬氪获悉，总部位于瑞典的AI原生电力资产运营商Green Voltis近日宣布完成数千万美元A轮融资，由宁德时代支持设立的美元基金Lochpine Capital 独家投资。\n  本轮融资资金将主要用于三个方面：继续加大Aether AI电力交易智能体与Chronos并网控制系统的研发投入、欧洲重点市场的业务拓展，以及AI基础设施领域的布局。\n  Green Voltis创始人史耀宏，创业前在华为工作16年，曾任华为副总裁，先后担任中东地区部总裁、软件产品线总裁、中国区政企常务副总裁、云与计算中国区总裁，长期负责华为在海外市场的业务拓展和云计算业务。2023年离开华为后投身欧洲电力市场，用AI交易和能量管理系统运营灵活性资产。\n  Green Voltis的核心团队还汇聚了来自华为、爱立信、T-Mobile等ICT领军企业，以及Rolls-Royce、Brady、Varberg Energi等电力系统与电力交易专业公司的人才。\n  如今，AI算力竞争正",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
