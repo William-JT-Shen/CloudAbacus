@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-19T23:02:08Z
-var NEWS_FETCHED_AT="2026-11-19T23:02:08Z";
+// 生成:2026-11-20T06:56:31Z
+var NEWS_FETCHED_AT="2026-11-20T06:56:31Z";
 var GPU_NEWS=[
   {
     "title": "华泰期货：市场开启risk-off模式，资金流向防御性配置",
