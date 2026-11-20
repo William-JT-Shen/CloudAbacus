@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-20T06:56:31Z
-var NEWS_FETCHED_AT="2026-11-20T06:56:31Z";
+// 生成:2026-11-20T16:56:59Z
+var NEWS_FETCHED_AT="2026-11-20T16:56:59Z";
 var GPU_NEWS=[
+  {
+    "title": "光大期货1119热点追踪：加息预期重定价，铜寒冬是否开启？",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTTBOa0xWWnlKcTI4cDlJaEQ4X24xeUVFMTVFS1A5RVFKVERRenN5OExhd1B0SjBBdlh1YWtCQm5WcjdNdDVRZ3Q2N2REUzlORUdnM2lPQmFueFcwenRCWFRLU3BOc1VSZV8tUXNxemJjOUwwdmZhNWFqbmkza0wtcnZneDZNWmtuQUZtVg?oc=5",
+    "published": "2026-11-19",
+    "summary": "光大期货1119热点追踪：加息预期重定价，铜寒冬是否开启？&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "华泰期货：市场开启risk-off模式，资金流向防御性配置",
     "source": "新浪财经",
@@ -591,18 +603,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdnhualN4djZBa3FSS3M2a1FvVkZiUnJTaTFVcTFxTkVDZ1JNZTN4WG5FZ25hTTJQd0VmRnJGSGxKTEZ1QmN4S3RJaDRGUVZWOVd6czdWc1lqaF9QV29XQld2UWt3ZWNsejM4ZnFGSmFETGRKU1huTjkwa2ZvWHFFMk00SjQ0c3BYWW9HSjBRWm5wSUVScmxwcHhFVFlJTEYzN1BrUmdUaFdyQjJKMkJaUTktejdWZFpQRXE3emZld3FnekNZbFlmdExZaFpneGdZSnVXcWcxT0J3Nm90VVM0R1N3?oc=5",
     "published": "2026-10-30",
     "summary": "华泰期货：养殖场出栏稳定，猪价延续弱势&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "收评|国内期货主力合约涨跌不一 苹果涨超6%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZDhEUW1zNUt1N091OElCbFpwYUQ3REtsMVQtS0RiZDZlbkJUb1ZhYThyMVlsXzUwcU5MZEUtVV9IVVByOTdheVZldG5MQ3pkaThUTG9zRHJ4Mmg2ZHY2UXItUllKZHJSaXVpRGkzZjloR1gzRVhCZDVBaUowNm1DM1RlTzFjUXYwenZlZC1RMkI2UnpmN0NxUTZ2dkxfRXJnX2dORlRpUURDQUlBOW10cDF3Z28xWFpSaUlkY19Sdm4tb01lUVlqTk9jMk5Zemw1NVQ0U1h1Z3prVHRseUl6V0VVZw?oc=5",
-    "published": "2026-10-30",
-    "summary": "收评|国内期货主力合约涨跌不一 苹果涨超6%&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
