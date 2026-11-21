@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-21T12:26:28Z
-var NEWS_FETCHED_AT="2026-11-21T12:26:28Z";
+// 生成:2026-11-21T21:36:10Z
+var NEWS_FETCHED_AT="2026-11-21T21:36:10Z";
 var GPU_NEWS=[
   {
     "title": "最前线｜半导体业务成主线，TCL中环增持中环领先股权至98.52%",
@@ -12,6 +12,30 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "美股期指齐跌 纳指期货跌近2% Anthropic盘前跌逾10% | 今夜看点",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JRF9NSDRIVlUzUkM4MWNHU19BRWhjMUlidVJiLTBEZ3BDRnBVRGJfR0tpNVFfaUhtS2V6bVJ1WkQ5OUgtNjBaRVdkMkN1c0txR1dyRndrZE1nUFNQNmJGV2s4eHFpU3hSdk5xY1M5a2VMcWxNd0tkNQ?oc=5",
+    "published": "2026-11-20",
+    "summary": "美股期指齐跌 纳指期货跌近2% Anthropic盘前跌逾10% | 今夜看点&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "盘前：纳指期货跌1.94% Anthropic跌超13%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNFFNYV9EdzVKeFZGME4yZ09ZNW4wNHR1QjVhS08tV2tyTEw4WWJqOHN0VFFYOHRuUTRWa1daMm5tZDZ5QWhLc3FqMjZmekhnN3BlVkZmTjJxenN0aVRSOXVwb0NSZXkyNHJLVmFERmowU0NxQW8zUnJBN2E4alhxSldOZHZ5WkVScE9RRFFNT0tpZW9QcXF4SnFkSVo?oc=5",
+    "published": "2026-11-20",
+    "summary": "盘前：纳指期货跌1.94% Anthropic跌超13%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -205,6 +229,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "期货市场每日资金排行榜",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV0Vwekp6d0NIMFNtd3pfVjBEXy1PWDNwRlpWNENUNzJxeEQ1emttYWd2VE03VzhNM2l2aU9ld1VKd0FqdktXS2x6dXBjbDdFUlphWTU4d1FTOEdDYi1QTEl6UHdRVkMtUjFoQzMzQjJmeEQwZ0Vmc09RbWp4WXJ4ZzM4eGphYnRaZ1dSUThlMktrd21TeDdGNjZ0SEc?oc=5",
+    "published": "2026-11-16",
+    "summary": "期货市场每日资金排行榜&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -571,43 +607,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "8点1氪丨“黄金平替”，全球爆单；奇瑞高管回应智界独立；OpenAI宣布ChatGPT部分任务将与Codex共享额度",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4051860578702216?f=rss",
-    "published": "2026-11-02",
-    "summary": "今日热点导览\n  币安在遭遇史上最大规模加密货币黑客盗窃案后恢复提现\n  央行、金融监管总局、证监会，今日将召开会议\n  Anthropic招股文件披露：未来“隐性债务”规模近9000亿美元\n  全球MLCC龙头，宣布扩产计划\n  苹果CEO：不会为了做AI而做产品\n  TOP3大新闻\n  中国贵金属首饰出口亮眼，全球爆单\n  海关总署数据显示，前三季度，中国贵金属首饰出口亮眼。广东是中国珠宝首饰出口的核心省份。在汕尾一家首饰加工企业，今年1至8月的销量增长明显。据介绍，今年，镶嵌培育钻石类的贵金属首饰产品，是他们最大的增长点。为了应对新增的订单，公司专门新设立了培育钻石车间，全面铺开培育钻石的生产和研制。\n  数据统计，1~9月，中国贵金属或包贵金属首饰出口金额超过102亿美元，同比增长17.55%。广东出口金额达到73亿美元，同比增长超36.54%。近年来贵金属价格高位运行，也让这里发生一种新变化。业内人士表示，贵金属价格高位运行，不仅推高珠宝首饰出口总额，也催生了海外买家的“平替需求”，他们会采购金银含量更低的首饰，或者用铜制首饰替代银饰。（第一财经）\n  奇瑞高管回应智界独立：",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "How Binance’s $6.3 Billion Hack Went Down",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
-    "published": "2026-10-31",
-    "summary": "A war room. A global conference call. A founder who live-posted about the largest crypto heist in history. Inside a frantic 24 hours at the world’s biggest crypto exchange.",
-    "full_text": "Binance, the world’s largest crypto exchange, said $6.3 billion of funds are involved in what the industry is describing as crypto’s biggest-ever hack.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "9点1氪丨币安遭黑客攻击，致其30亿美元资产被冻结；“张雪机车”商标回归张雪；美股收盘纳指重挫700点，英伟达市值蒸发1.4万亿元",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4049089058126344?f=rss",
-    "published": "2026-10-31",
-    "summary": "今日热点导览\n  \n   全球“股王”再度易主，传苹果2028年推出大屏折叠iPad\n   姆巴佩曾代言饮品被商家清理库存，部分门店单日销量为0\n   日本无印良品运营商称超2700万条用户信息或外泄，MUJI中国回应国内数据独立存储\n   首付降到4万以内，特斯拉推出“5年0息”购车方案\n   11月5日起，国内航线燃油附加费再上调\n   野人先生获首轮融资\n  \n  TOP3大新闻\n  币安遭黑客攻击，致其30亿美元资产被冻结\n  10月30日，全球最大加密货币交易所币安（Binance）曝出重大安全突发事件，市场多方消息显示该交易所热钱包疑似遭遇黑客入侵，导致其冻结了逾30亿美元的资产，并引发数字代币价格大幅下挫。币安方面表示，团队已注意到有关潜在安全问题的报告并正在积极调查，目前用户资金完全安全。此前，币安已暂停提币和币安Alpha交易。\n  加密货币存储公司Ballet Global Inc.创始人Bobby Lee表示，币安遭黑客攻击中被窃的比特币，恐怕已经不可能追回。Lee在周五接受采访时表示，那些比特币都一去不返了。被窃的比特币全都已经落到黑客手中。业界形容，这是加密货",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
