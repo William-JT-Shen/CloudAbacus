@@ -1,7 +1,20 @@
 // GPU算力期货新闻
-// 生成:2026-11-20T16:56:59Z
-var NEWS_FETCHED_AT="2026-11-20T16:56:59Z";
+// 生成:2026-11-21T01:21:23Z
+var NEWS_FETCHED_AT="2026-11-21T01:21:23Z";
 var GPU_NEWS=[
+  {
+    "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
+    "source": "NYT Tech",
+    "url": "https://www.nytimes.com/2026/11/20/us/politics/nvidia-alice-huang-chips-china.html",
+    "published": "2026-11-20",
+    "summary": "Companies linked to Alice Huang, the woman at the heart of the Nvidia scandal, are part of a network of Chinese tech firms and defense contractors that need advanced computing power.",
+    "full_text": "The woman at the center of the Nvidia scandal has ties to China’s defense industry and the People’s Liberation Army.",
+    "lang": "en",
+    "title_cn": "",
+    "summary_cn": "",
+    "full_text_cn": "",
+    "translated": true
+  },
   {
     "title": "光大期货1119热点追踪：加息预期重定价，铜寒冬是否开启？",
     "source": "新浪财经",
@@ -591,18 +604,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNM0hhLWdTeEZMMl9ETTJaci1tQ0RIeE1IazZCWExWRC1MMWlNN0NXSXlfLXM5OG1zbEF2MVlLaE1MNHdjMEFWTUtxSkN0Yi14WXNKY3JHYkVJMDJsS0tNMXJldTBXeHMtX3BnMTNQelp3S3JrcVRhUld5cHloQThDLW1QTFY3ZGRuOTVDN25PQVc0MkF2UWlOSEpBRERNUU1wSXJUaGxKSTdWcFlPWmFJeXZTOGN0TGwyNUh5cjFVMXBmZWpOVmoxUmRvNzJMN2xxZE5ZWXBiRWJuZHA2MlNSNmktaw?oc=5",
     "published": "2026-10-30",
     "summary": "中天期货:原油横盘震荡 沪锌横向震荡&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "华泰期货：养殖场出栏稳定，猪价延续弱势",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdnhualN4djZBa3FSS3M2a1FvVkZiUnJTaTFVcTFxTkVDZ1JNZTN4WG5FZ25hTTJQd0VmRnJGSGxKTEZ1QmN4S3RJaDRGUVZWOVd6czdWc1lqaF9QV29XQld2UWt3ZWNsejM4ZnFGSmFETGRKU1huTjkwa2ZvWHFFMk00SjQ0c3BYWW9HSjBRWm5wSUVScmxwcHhFVFlJTEYzN1BrUmdUaFdyQjJKMkJaUTktejdWZFpQRXE3emZld3FnekNZbFlmdExZaFpneGdZSnVXcWcxT0J3Nm90VVM0R1N3?oc=5",
-    "published": "2026-10-30",
-    "summary": "华泰期货：养殖场出栏稳定，猪价延续弱势&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
