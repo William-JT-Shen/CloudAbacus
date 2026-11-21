@@ -1,7 +1,43 @@
 // GPU算力期货新闻
-// 生成:2026-11-21T01:21:23Z
-var NEWS_FETCHED_AT="2026-11-21T01:21:23Z";
+// 生成:2026-11-21T12:26:28Z
+var NEWS_FETCHED_AT="2026-11-21T12:26:28Z";
 var GPU_NEWS=[
+  {
+    "title": "最前线｜半导体业务成主线，TCL中环增持中环领先股权至98.52%",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4078863230800768?f=rss",
+    "published": "2026-11-21",
+    "summary": "近日，&nbsp;TCL中环（002129.SZ）公告称，拟向50名交易对方发行股份，购买中环领先65.80%的股份。交易完成后，其持股比例将由32.72%升至98.52%。\n  同时，本次购买资产的股份发行价为7.59元/股，交易对价尚待审计评估后协商确定。公司还拟募集配套资金，主要用于中环领先项目建设。目前交易处于预案阶段，尚需履行后续审议及监管程序。\n  11 月 16 日，TCL 中环也召开了媒体沟通会。36 氪从沟通会获悉，这笔交易发生在两项主业的不同周期位置：光伏业务仍在修复，半导体硅片业务已出现盈利改善。\n  TCL中环希望在AI需求向上游材料传导的过程中，提高半导体业务的权益贡献，同时提升公司的资源配置与管理效率。\n  增持背后考量\n  据公司披露，2026年前三季度，中环领先实现营收49亿元，同比增长15%，整体实现盈亏平衡。其中，第三季度营收18.58亿元，同比增长23%；净利润8000万元，并实现单季度经营性盈利。\n  从一季度亏损、二季度微利，到三季度盈利改善，中环领先的经营变化，是此次增持的重要背景。管理层表示，今年二季度以来，公司在业务端感受到AI及泛工业需",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh",
+    "images": [
+      "data:;base64,="
+    ]
+  },
+  {
+    "title": "中国证监会北京监管局对万金庭出具警示函并计入证券期货市场诚信档案",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT1JEcmxCQ01oZVhWbTlmeE54ZE8zTTV2c0s2X21QajYtajZSVmpJY0s1N3Q5czNVaF9WcEFMU25JTzZUc1Rmd3B2T3N4QXYyQUtNOFh5Y2NiTllLU3NqNVFpWi1iN1ZIVnJNN01LZXVkSDk1YmUzOElieEQ0MkI5dXBCdV8zeGhEck5uQmln?oc=5",
+    "published": "2026-11-20",
+    "summary": "中国证监会北京监管局对万金庭出具警示函并计入证券期货市场诚信档案&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "光大期货、大连飞创信息技术联合申报项目荣获“金融科技发展奖”二等奖",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04eFNBWWVRemlSVlNhT2dRTDhLMHZqc2hSRjNSV0pXbk13VEFxc1RTZExVUjNKR0VyLUY3b3o2ekUtbjJvUFVyUGRQUXJTXzBHRDFhQXpTV0xQREQ2OXVwWXl6dmtKUWFsNm15SmtsemxQMG5tVjQwRw?oc=5",
+    "published": "2026-11-20",
+    "summary": "光大期货、大连飞创信息技术联合申报项目荣获“金融科技发展奖”二等奖&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
     "source": "NYT Tech",
@@ -572,42 +608,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "财中ETF风向标｜中证500股指期货行情更新，中证500跌2.91%，中证500ETF国泰(561350)跌2.91%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUsxVS1sRmdodWp5VXNsUkdhUXdsWVQ0S3NwajlmN3IwdVhTRHlzQzNWM2VWOWppZXVlZXhDYlRtV2tzS25vV01wSWRKNWRkdHJaTWhVS3c3RkQyb0lQNm5Mc3QzWkstbzUwd0lTak1faXVOeWNDSUNwTFdSLUMzMw?oc=5",
-    "published": "2026-10-30",
-    "summary": "财中ETF风向标｜中证500股指期货行情更新，中证500跌2.91%，中证500ETF国泰(561350)跌2.91%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "光大期货：软商品类日报10.30",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbG5QRzVLcVlpeWFvVy1lY1RRWG1YRHNrQnRqNXpCN0ZNSmRNR2kxRDdlNnoxc1ItaUNYVEFmUnZ0WHhYRzNMb3paU3VWcHRKMVQ2elZtR0JPRzhkYWpwYmc0eGtGeHplOURDYVlwU0JTYW41LVpfRDNtejdHOEhjUlo1RFlDOE16MnhjLXYtTlllMUctM3BCaWZ5T3BFTllBTDR5QmlkTmFmaGtvUzBBWnpSNjR1ZEQ4bFA0cGZSNzZ0X2RocVJfQ29fYTg4c3FvQU1CbDNUMHZiZTl5S054SWtsaw?oc=5",
-    "published": "2026-10-30",
-    "summary": "光大期货：软商品类日报10.30&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中天期货:原油横盘震荡 沪锌横向震荡",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNM0hhLWdTeEZMMl9ETTJaci1tQ0RIeE1IazZCWExWRC1MMWlNN0NXSXlfLXM5OG1zbEF2MVlLaE1MNHdjMEFWTUtxSkN0Yi14WXNKY3JHYkVJMDJsS0tNMXJldTBXeHMtX3BnMTNQelp3S3JrcVRhUld5cHloQThDLW1QTFY3ZGRuOTVDN25PQVc0MkF2UWlOSEpBRERNUU1wSXJUaGxKSTdWcFlPWmFJeXZTOGN0TGwyNUh5cjFVMXBmZWpOVmoxUmRvNzJMN2xxZE5ZWXBiRWJuZHA2MlNSNmktaw?oc=5",
-    "published": "2026-10-30",
-    "summary": "中天期货:原油横盘震荡 沪锌横向震荡&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
