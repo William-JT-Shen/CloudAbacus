@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-22T06:23:15Z
-var NEWS_FETCHED_AT="2026-11-22T06:23:15Z";
+// 生成:2026-11-22T16:11:39Z
+var NEWS_FETCHED_AT="2026-11-22T16:11:39Z";
 var GPU_NEWS=[
   {
     "title": "新浪财经_金融信息服务商",
@@ -193,6 +193,30 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "开盘|国内期货主力合约跌多涨少 铂、集运欧线跌超3%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV0FzaVo0REwxazlfazdReHhwYlJRcTNwYjZ4dVY5VlZ4XzUwQ25xTi1HbldRMk5IMll3cVpQQzM4b2NQamIwdXhNZzVqQnhEZGNGaWYxbExQTDZnOEVCVEFkUTVYd0p3TVY5c05uOFpnSFpHLWYzUWRZcUF5V0VQdkVud2xxOVlKeXBxNQ?oc=5",
+    "published": "2026-11-18",
+    "summary": "开盘|国内期货主力合约跌多涨少 铂、集运欧线跌超3%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
+  {
+    "title": "广州金控期货市场行情日度报告20261117",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV3ZZc2NMdV9ESUlKLXh5R1NtcE42NmcxOXdBVkN2RHVyN042STkwUzNBYl9DQnhiUk9rY0xGOWktZGwyRWk2M0lIRTdFT2VwUFc3d1B5blhWbFJWc2ZlY1hrbXdJbWVvdWh3U3lqQWM0al9FV2M4LV9OZnFRM2U3MENMdEV3UFcxR2U4LWZR?oc=5",
+    "published": "2026-11-18",
+    "summary": "广州金控期货市场行情日度报告20261117&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -578,30 +602,6 @@ var GPU_NEWS=[
     "url": "https://36kr.com/p/4056464430847109?f=rss",
     "published": "2026-11-05",
     "summary": "过去几年，中国企业出海业务规模持续增长，但品牌溢价能力、渠道话语权以及数字资产积累与管理水平，未能跟上业务规模扩张的步伐。关税调整、平台规则收紧、各地合规要求细化，让以订单获取和成本控制为核心的出海方式越来越难以为继。\n  当规模增长触及天花板，行业底层逻辑正从“规模出海”转向“资产出海”。&nbsp;\n  越来越多企业开始重新配置资源：产能向离客户更近、规则更稳定的地区迁移；投放预算从经验判断转向数据验证；域名、商标、官网被纳入统一的资产台账，沉淀为真正属于自己的数字身份。\n  这些变化看似分散在产能、投放和品牌建设不同环节，实则指向同一个方向——出海竞争的重心，正从短期的订单与流量，转向长期可持有的数字资产。品牌出海的下半场，拼的不仅仅是把货卖出去，更是把资产留下来。\n  2026年10月29日，36氪「深水规则」·出海系列超级会氪厅第三场落地北京。围绕“品牌驱动下的全球扩张与数字资产保护”这一主题，佩蒂股份产业合作总监戈剑峰、广大大商务总监吴泽、阿里云中小企业应用高级产品专家王霄三位实战派嘉宾，分别从海外产能布局、AI出海投放、全球品牌全栈能力等视角，分享前沿洞察与一线实战经验，",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "南华期货股东会审议通过变更注册资本及修订《公司章程》议案 同意比例99.95%",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ2JGemQwTHBDc3JybHp3WXdJVmRsZlJnS19ScEp5d1Fudmtnc1FRcXhCQ1duV2tvR2ViSml2OVhTT3ZZZ1JWWndEVXB4NmplcFBsLTQyX0FYTHd5TzRoZWpfa2RVZ3V0eEJHcEJyZG5iZ2RZM0duT3ZKemdXbTVzSmV5Q256SWt3?oc=5",
-    "published": "2026-11-04",
-    "summary": "南华期货股东会审议通过变更注册资本及修订《公司章程》议案 同意比例99.95%&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "“AI+咖啡”改写产业链：新消费场景下的降本增效与青年机会",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4054786040026244?f=rss",
-    "published": "2026-11-04",
-    "summary": "随着城市节奏加快，咖啡愈发成为年轻人的日常刚需，日常之外，年轻人对咖啡的期待愈发多元，他们开始为空间氛围、风味探索和社交表达买单，线下咖啡的竞争焦点也从便利转向体验。从平价高频到体验创新，线下咖啡场景正在经历深刻的重构。与此同时，AI技术正加速进入咖啡产业链，被改变的不仅是出品效率，更引发了岗位能力、培训体系与青年就业方向的连锁反应。\n  10月31日下午，由鄞州区发展和改革局、36氪主办的“AiPartner带着AI上前线——宁波咖啡生活周场景创新交流会”在云创浙理青年国度成功举办，活动现场采用“双圆桌”形式展开探讨。第一场圆桌聚焦新消费场景下的产业链变化与青年机会，来自云创蔚来集团、美刻AI、宁波勇诚资产管理有限公司、陆汇集团的嘉宾们共同探讨了在新消费场景下“AI+咖啡”进入产业链如何推动产业降本增效、实现场景落地，以及如何挖掘青年创业就业的新机遇。\n  1. 降本增效：AI赋能线下商业的底层逻辑\n  在全行业拥抱AI技术的背景下，如何避免新技术沦为单纯的营销噱头成为行业关注的重点。纵观整场圆桌的探讨，产业链各方达成了一个清晰的共识，即AI技术的落地不能脱离真实的商业诉求，其核心价",
     "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
     "lang": "zh",
     "images": [
