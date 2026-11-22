@@ -1,7 +1,19 @@
 // GPU算力期货新闻
-// 生成:2026-11-21T21:36:10Z
-var NEWS_FETCHED_AT="2026-11-21T21:36:10Z";
+// 生成:2026-11-22T06:23:15Z
+var NEWS_FETCHED_AT="2026-11-22T06:23:15Z";
 var GPU_NEWS=[
+  {
+    "title": "新浪财经_金融信息服务商",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9PS3Z1VFAxaDRraFNaWUF2OUE4a1FsZEZlV2NoYi1YcFVQWXFIRF9FWUVVYnRlbHFVYjBlVE9fUkZwdw?oc=5",
+    "published": "2026-11-22",
+    "summary": "新浪财经_金融信息服务商&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    ]
+  },
   {
     "title": "最前线｜半导体业务成主线，TCL中环增持中环领先股权至98.52%",
     "source": "36氪",
@@ -12,6 +24,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "沪镍、不锈钢期货11月20日继续跌价",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRHEwMEtjOVJzYTNOcm9oNXctQjRndkdnTTc0SWdKQUdsek50aFhxM3FzaC1nNWI3Q3VtUEh5SFlhc0tZenJRUDJ6X2s1VjA1RVFXemxjOEhnVE1qbHpyazdWLXhxa1E2c0JIRTBoamt6b1V6aUJMeE5yZkZOVTFuYjdqRThHdWhkVnV5X0NR?oc=5",
+    "published": "2026-11-20",
+    "summary": "沪镍、不锈钢期货11月20日继续跌价&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -169,6 +193,18 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
+    ]
+  },
+  {
+    "title": "国内商品期货多数收跌，乙二醇、铂跌超4%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5KRVhmMjNKOWdZVUtjOHRfR21SUVFvRnoxWTlLRlk3NnNFdHg1VmRULU5fSUtVenRUd1NRQjRLMkpfMWoxd2xPRXIwVWhwYkg1X2FwYkItSjFzRlQxbnBTNTIya0RBUnhnV2ZjQjhUMHhvZWNuVUlRdQ?oc=5",
+    "published": "2026-11-18",
+    "summary": "国内商品期货多数收跌，乙二醇、铂跌超4%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh",
+    "images": [
+      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   },
   {
@@ -570,43 +606,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "Binance Says Hackers Plotted $6.3 Billion Crypto Heist for Months",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/11/03/technology/binance-hack-report.html",
-    "published": "2026-11-03",
-    "summary": "A report from the cryptocurrency exchange described a monthslong campaign involving fake job interviews that exploited an engineer’s work computer and an internal A.I. tool.",
-    "full_text": "The hackers used a computer and an internal A.I. tool to take control of the machines of two engineers on Binance’s wallet team.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "8点1氪丨iPhone Duo中国版被指偷工减料，苹果回应；罗技广告再被指用“狗”侮辱用户；Anthropic第三季度营收暴增1127%",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4053273336517767?f=rss",
-    "published": "2026-11-03",
-    "summary": "今日热点导览\n  \n   宇树机器人因过热退出登泰山大赛，被担架抬下山\n   苹果：第四季度营收1144.77亿美元，同比增长11.72%\n   证监会：拟优化护盘式回购\n   币安已恢复15个网络及资产提现，单日净流出约36.4亿美元\n   苹果限制“摇一摇”广告，百度网盘仍能触发跳转，知情人士回应\n   “床虱地图”小程序走红：600多家酒店被标注\n  \n  TOP 3大新闻\n  iPhone Duo被指国行美版存结构差异，苹果：受相关许可规定影响\n  近期，一位数码博主发布的iPhone Duo拆机对比视频，在数码圈层掀起诸多讨论，视频直观展示了该产品国行、美版两款机型内部结构的不同，不少网友由此质疑苹果国行版本存在硬件减配。针对上述疑问，11月2日，苹果技术人员回应称，苹果内部并没有专门针对此事发布明确说明。“据我们所知，产品生产出厂都经过工厂检测，不存在国行版本用料、硬件品质比其他版本差的情况。”上述技术人员解释道，很多海外机型具备的功能，需要拿到国内主管部门许可之后，才能够在大陆地区上线使用。许可缺位时，相关功能就无法开放，这也是不同版本硬件配置出现区分的核心原因，“就像苹",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "算力金融化再进一步：为对冲AI基础设施投资风险，华尔街开始为GPU租金涨跌开发衍生品",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ2NITWNoN1drQXhQOXAzX0loQUwyY0I4a3AzVHJGTmxrLWpXdEx5ejVnTzFWQUNBcm1xMmpmcjNFMGQ5WEd2TExaWTJfMlQ3N0xHWUlqTXZObjVvdkVzbTBkNW05YnFjNjRUMVJsamxiRXJyeGRxd28ydzh4QTlqRndISzNaeWM?oc=5",
-    "published": "2026-11-02",
-    "summary": "算力金融化再进一步：为对冲AI基础设施投资风险，华尔街开始为GPU租金涨跌开发衍生品&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
