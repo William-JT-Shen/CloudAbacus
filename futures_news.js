@@ -1,7 +1,34 @@
 // GPU算力期货新闻
-// 生成:2026-11-23T14:22:38Z
-var NEWS_FETCHED_AT="2026-11-23T14:22:38Z";
+// 生成:2026-11-24T02:58:02Z
+var NEWS_FETCHED_AT="2026-11-24T02:58:02Z";
 var GPU_NEWS=[
+  {
+    "title": "从SFF看下一代支付：技术之外，信任才是核心变量",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4082408874185606?f=rss",
+    "published": "2026-11-24",
+    "summary": "作者｜王晗玉\n  编辑｜张帆\n  &nbsp;\n  当人工智能从辅助工具进化到可以代为生成指令、发起采购，商业交易的因果链条正被重新改写。\n  据机构预测，到2030年，智能体有望介入全球规模3-5万亿美元的消费商业活动。但技术向前演进的同时，身份核验、授权边界、纠纷定责等信任短板，成为横在产业规模化面前的现实阻碍。\n  作为亚太金融科技的风向标，每年的新加坡金融科技节（Singapore FinTech Festival，简称 SFF）是观察行业前沿重要的窗口。今年SFF，智能体商业不再只是概念探讨，而集体走出演示沙盘，向真实的消费者与企业交易场景渗透。\n  \n  本届SFF万事达卡展台\n  与此同时，面向小微经营者的普惠数字收款方案、跨市场协同的技术研发模式，也成为行业讨论的焦点。智能体商业加速落地之下，整个支付产业正在重新思考：行业需要构建怎样的底层能力，才能适配下一代商业的需求。\n  智能体交易，卡点不在技术在可信\n  今年SFF大会上，智能体商业是贯穿全场的核心话题。\n  多家展台搭建的体验场景，直观展示AI、数据、身份、支付如何共同驱动智能经济，包含智能体支付方案、AI驱动",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh"
+  },
+  {
+    "title": "美国国债期货下跌 美股大涨提振风险情绪",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWmhaQmVGaEFlWlNfX3lyNXd5Sm04b3Y0eURwWTFzZTVmRlA0WWpIQkZZZ3lBZVo2TDJVUzZ6bkxZMkFZa3ZCOFNFdFZqYWZOeHBEV0FZNVA1WWRON2I0MkRmdjc2ZG9NMnJkTHFqR0Q2WnZwd2J3TVFGVmVUMUdVTVpDTHpZd05NSW5LdF9VUDU4MGJhV3JUNWJtLW0?oc=5",
+    "published": "2026-11-23",
+    "summary": "美国国债期货下跌 美股大涨提振风险情绪&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
+  },
+  {
+    "title": "两倍做多波动率指数期货ETF收跌27.81%，成交额2.16亿美元",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORUpMS0xfeDd6M0ZwWjQ0RS1uVEN6XzBna08zZE9MRnVZTDBaVm1faXh0aGpBS0tUaXdTclJha2VKZmFURU41VHBza3NHLWhTYnJ1NlVFVVgwVE1yYWpnWVlWUnZ5b2dQTkdmeTFEMU92MUJMZl82cVFEbUZCVm9JVjFGYnFuWHRHVEpBM3JB?oc=5",
+    "published": "2026-11-23",
+    "summary": "两倍做多波动率指数期货ETF收跌27.81%，成交额2.16亿美元&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
+  },
   {
     "title": "华夏饲料豆粕期货ETF(159985)已连续60日获得资金净申购，区间净流入额1.62亿元",
     "source": "新浪财经",
@@ -179,6 +206,15 @@ var GPU_NEWS=[
     "summary_cn": "",
     "full_text_cn": "",
     "translated": true
+  },
+  {
+    "title": "夜盘期货收盘：沪铜收跌0.64% 氧化铝收涨1.70%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZWQ4UmMtSUsza1pzbnRMZVI4M2dEelFlNkx5Q2I1ajc5NlNvWVFDMjZLZ3NLVnFkVTZtQW1jR2RpRVBOQzdGTlpfNko5anF0VFhzSFZ6S1B6YW1kS3BIckN3TXh3ZHAzWnFIaW4wS0pETlU5RGp0alJEMlpzS3E5Qk9MVEpxbTA?oc=5",
+    "published": "2026-11-19",
+    "summary": "夜盘期货收盘：沪铜收跌0.64% 氧化铝收涨1.70%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
   },
   {
     "title": "光大期货1119热点追踪：加息预期重定价，铜寒冬是否开启？",
@@ -373,6 +409,15 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "天津证监局对财达期货有限公司采取监管谈话措施",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYjA4bVNNOVp5ZHNqdWlxS20xMVJFWHVMSDJBQzBaUnVCTGhUcGNLNlE1YlVkOUliSlozeVppOS1TZDFvcmc1U3pXazdRWHVWS0szakZDa2dzZWtFeHBqaWotSlhtOEl4UzJoZDg5YzhzZkZEVzRDTEJhOFZudjFhNmtVSjNOQ28?oc=5",
+    "published": "2026-11-16",
+    "summary": "天津证监局对财达期货有限公司采取监管谈话措施&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
+  },
+  {
     "title": "期货市场每日资金排行榜",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV0Vwekp6d0NIMFNtd3pfVjBEXy1PWDNwRlpWNENUNzJxeEQ1emttYWd2VE03VzhNM2l2aU9ld1VKd0FqdktXS2x6dXBjbDdFUlphWTU4d1FTOEdDYi1QTEl6UHdRVkMtUjFoQzMzQjJmeEQwZ0Vmc09RbWp4WXJ4ZzM4eGphYnRaZ1dSUThlMktrd21TeDdGNjZ0SEc?oc=5",
@@ -541,68 +586,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Nvidia’s Board Is Meeting to Discuss Jensen Huang’s Future",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/11/11/technology/nvidia-jensen-huang.html",
-    "published": "2026-11-11",
-    "summary": "Mr. Huang has been under scrutiny for an affair with a woman said to be a Chinese spy, as well as a relationship with an executive at his A.I. chip company.",
-    "full_text": "Few Silicon Valley executives have been as synonymous with their companies as Jensen Huang, the co-founder and chief executive of Nvidia.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "8点1氪丨英伟达及黄仁勋遭股东集体诉讼，市值两天蒸发2.85万亿；Anthropic正式启动IPO路演；阿里拟分拆平头哥独立上市",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4064610635781257?f=rss",
-    "published": "2026-11-11",
-    "summary": "今日热点导览\n  外交部：中美双方就两国元首年内互动安排保持着沟通\n  全球芯片LOF于11月10日下午开市起停牌至收市\n  董明珠回应格力电器业绩下滑&nbsp;\n  宝马选定LG新能源、三星SDI供应下一代动力电池\n  百事公司北美业务陷入困境，裁员1000人\n  TOP3大新闻\n  黄仁勋及英伟达，被指控涉嫌欺诈股东\n  当地时间9日，美股收盘五分钟后，英伟达及黄仁勋便遭到股东集体诉讼，指控其涉嫌欺诈股东。分析师认为，一旦黄仁勋离任，英伟达将面临巨大的接班难题。现年63岁的黄仁勋是英伟达的核心支柱，金融数据服务商FactSet的数据显示，黄仁勋是英伟达第五大股东，持股约3.58%。分析师认为，公司目前没有成熟的接班计划，倘若黄仁勋离职，这将是一次大规模的领导层更替，而公司并未为此做好准备。\n  受到黄仁勋出轨事件持续发酵影响，算力芯片巨头周二继续下跌超5%，单日市值蒸发超2090亿美元，约合人民币1.39万亿元。本周前两天，公司市值累计蒸发超4200亿美元，相当于2.85万亿元。（第一财经、财联社）\n  Anthropic正式启动IPO路演，发布相关路演视频\n  Anthropi",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "对话英矽智能任峰：年轻的AI4S创业者，我羡慕你们的野心和创造力",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4059772128646019?f=rss",
-    "published": "2026-11-11",
-    "summary": "文｜胡香赟\n  编辑｜海若镜\n  2026年，51岁的任峰身边，开始出现越来越多30岁出头的年轻同行。\n  任峰是英矽智能（03696.HK）的联席首席执行官。今年上半年，英矽智能正式宣布盈利，依托生成式AI平台Pharma.AI开发的35个管线资产进入PCC（临床前候选化合物），基于AI技术平台和管线的BD合作披露金额达到110亿美元，位居国内AI制药类企业之首。\n  任峰所处的制药行业，原本最为看重产业积淀、研发经验，可以说有些“论资排辈”的意思。但如今，AI正悄然改写这套运行多年的规则。凭借大语言模型的能力，年轻的博士生们尝试将传统的经验科学变为工程问题，也因此在而立的年纪，便能以创业者的身份走到台前，收获不菲融资与高估值。\n  他们和“任峰们”之间的代际差极其鲜明。\n  后者曾大多以谨慎、克制的传统科学家形象面对资本市场和大众，“做80分、讲60分”是那个时代的生存哲学，保守一点没有错，毕竟太激进往往会翻车。就像任峰，2020年，面对英矽智能的加盟邀请，这位出身传统制药体系的“老兵”先花了近半年做顾问，反复求证AI制药“是真是假”，直到确信AI“在特定场景下确实能提效、做出创新",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal?",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/11/10/technology/alice-huang-megaspeed-nvidia-jensen-huang.html",
-    "published": "2026-11-10",
-    "summary": "Alice Huang, who U.S. intelligence determined is a Chinese asset, emerged from the high-flying world of Shanghai finance to work with tech titans and obtain essential A.I. chips.",
-    "full_text": "Jensen Huang and Alice Huang have been photographed together on several occasions. In this photo, posted to Weibo, they are at a Shanghai restaurant, Pujiang Huaiyan.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "让eVTOL从产品成为商品，交易与运力服务商「零界航空」完成千万元天使轮融资｜36氪首发",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4063336242549893?f=rss",
-    "published": "2026-11-10",
-    "summary": "36氪获悉，eVTOL交易与运力服务商安徽天泽零界航空有限公司（以下简称“零界航空”）近日完成千万元天使轮融资，由上海互翔投资管理有限公司独家投资。本轮资金将主要用于推进验证基地的建设与运营、完善OC运行体系、拓展主机厂合作网络、建设数字化平台与专业团队等。\n  今年5月，民航局披露过一组数据：国内已有19个无人驾驶航空器完成型号审定，在审型号超过70个。航空器下线指日可待，但属于它们的航线却还没有画好。一个更朴素的问题来到台前：造出来之后，谁来买、谁来飞、谁来为每一次飞行兜底？\n  这是一段横亘在产品和商品之间的空白。\n  “主机厂负责把技术变成产品，造出安全、可靠、成本可控的航空器。而运行是另一套逻辑，要面对的是安全责任、空域协调、属地资源、机队调度、客户账期等诸多问题。”零界航空创始人吴振亚说。\n  换句话说，eVTOL要真正成为商品，靠的不再是制造能力的延伸，而是投入真实场景、跑通商业闭环的运行能力。零界航空切入的正是这一段：不造飞机，专注交付后的持续运营与资产流转，让飞机真正飞得起来、算得过账。\n  起飞前，先想好怎么“落地”\n  零界航空的起点是一段招商引资的历史。在推动主",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
     ]
   }
 ];
