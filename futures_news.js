@@ -1,7 +1,34 @@
 // GPU算力期货新闻
-// 生成:2026-11-24T02:58:02Z
-var NEWS_FETCHED_AT="2026-11-24T02:58:02Z";
+// 生成:2026-11-24T14:45:26Z
+var NEWS_FETCHED_AT="2026-11-24T14:45:26Z";
 var GPU_NEWS=[
+  {
+    "title": "美股盘前：纳指期货跌幅迅速扩大至1%，芯片股普跌，英伟达、SK海力士、闪迪、英特尔集体下跌",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10dTUtbC1rVjBqRHpCR09oeldrSS1KSUxmck1qcG41ZWNfeEs5VnF6VGpDLVdIVGlwV3N0NkVka0VhVkZObktYMFJ5YVctal8tOTdSRWtZTUJ1RGVnWlEwSTJuRFM0ZkNvTmZ5Si1OcXlkaWhVeFRmaA?oc=5",
+    "published": "2026-11-24",
+    "summary": "美股盘前：纳指期货跌幅迅速扩大至1%，芯片股普跌，英伟达、SK海力士、闪迪、英特尔集体下跌&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
+  },
+  {
+    "title": "AI交易疑虑再起，美股股指期货跌幅 扩大",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbktzUkhDY1UtbEwzZUFHQkpJZDR4bndxMnEzQmFuU1dwNHJqR2tqZEhEaE1wLWN0cGl1V0dtWGFlT1ZvYS1INktmT3gzS042SldkV2VWNlJOaUE2eXRRRWs2NDUxT0R0TGNUb0Q0X2RleVQ1OC1IMmtiZDFKdVdRUA?oc=5",
+    "published": "2026-11-24",
+    "summary": "AI交易疑虑再起，美股股指期货跌幅 扩大&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
+  },
+  {
+    "title": "最前线丨联想擎天发布敦煌城市超级智能体，统一多模态交互入口",
+    "source": "36氪",
+    "url": "https://36kr.com/p/4083749704116616?f=rss",
+    "published": "2026-11-24",
+    "summary": "图源/企业\n  作者丨欧雪\n  编辑丨袁斯来\n  智慧城市的概念演进多年后，行业对其评价标准正在发生变化。\n  过去十年，以“城市大脑”为代表的3.0阶段主要解决的是数据汇聚与可视化呈现，核心逻辑是“建平台、接数据、做看板”。但这种模式在落地中暴露出明显的结构性缺陷：各委办局的业务系统依然垂直孤立，AI能力被封装在一个个具体应用里，城市管理者面对跨域问题时，仍需人工在不同系统间协调。也就是说，所谓的“智慧”，更多停留在感知层，而非决策执行层。\n  11月20日，联想与敦煌联合发布的城市超级智能体，以及同期联想与IDC联合出品的《城市超级智能体白皮书》，为行业提供了一个观察智慧城市4.0落地路径的样本。\n  其中，IDC在报告中预测，到2027年中国70%的城市将在各系统与数据中部署AI智能体。这指向了一个行业共识：AI的角色正从辅助观察向代理执行迁移。\n  当前，城市AI落地其实主要存在两个关键堵点。\n  一是AI应用体系的碎片化。各地智慧城市项目长期采用“一场景一采购”模式，文旅、交通、安防各自建设系统，彼此不共享记忆与技能，财政资金反复投入而数据资产沉淀在各自服务器中。\n  二是算",
+    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh"
+  },
   {
     "title": "从SFF看下一代支付：技术之外，信任才是核心变量",
     "source": "36氪",
@@ -409,6 +436,15 @@ var GPU_NEWS=[
     ]
   },
   {
+    "title": "因资管业务缺乏主动管理等问题，财达期货被监管谈话",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96VUpSMWhDNmtyZTkwbzVOS3N1RVdrV1Z0eXJVZURNdkJiUlFsSkRycm1nNC16UjVlNmFwZE96dkZQSkRBb1Vma3pZbzZQXzFNdjVoWmVrc0IxOVZOVHU3Z2RjQXV5ZEVWWWFnS3BMb0pnUkhYR3cwcA?oc=5",
+    "published": "2026-11-16",
+    "summary": "因资管业务缺乏主动管理等问题，财达期货被监管谈话&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
+  },
+  {
     "title": "天津证监局对财达期货有限公司采取监管谈话措施",
     "source": "新浪财经",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYjA4bVNNOVp5ZHNqdWlxS20xMVJFWHVMSDJBQzBaUnVCTGhUcGNLNlE1YlVkOUliSlozeVppOS1TZDFvcmc1U3pXazdRWHVWS0szakZDa2dzZWtFeHBqaWotSlhtOEl4UzJoZDg5YzhzZkZEVzRDTEJhOFZudjFhNmtVSjNOQ28?oc=5",
@@ -533,55 +569,6 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcnQ5YWhDT2hlN2NrZkNxLUtUaVpLWEZDa2NKS3RQTTQ0TXA5WWlkMkRPNHlVUEp4U2dIbnhLSklCVTVJLUZpakpkdmpkU01Pb0IyUkpCbWkyYUVIdUhzRklGeVlBMlVvOEVoblNINU55b1d2clhwSFBaUnRQYVhMeGo5RC1fQTQ?oc=5",
     "published": "2026-11-12",
     "summary": "新加坡铁矿石期货延续跌势 迈向四日连跌&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "中天期货:商品指数下跌减速震荡 白银低位震荡",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUXdLM05WWFZrU2ZNblNNOEFUaFd4ckt1eklpMFNaSW93VjhiNFZ5a2I0Nk55WEdaY3EweEs5SmRqM0xvWkl4dEphQzVMOTd5UHFzMkV6U1hZUFdqWlhwSnAzZDhWamFJeG92RGxtUHNiR3gxVkJOMmQxTFVHal9uRHJ4TnItbW83T1NsQw?oc=5",
-    "published": "2026-11-12",
-    "summary": "中天期货:商品指数下跌减速震荡 白银低位震荡&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Nvidia’s Board Is Weighing Jensen Huang’s Future",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/11/11/technology/nvidia-jensen-huang.html",
-    "published": "2026-11-12",
-    "summary": "Mr. Huang has been under scrutiny for an affair with a woman said to be a Chinese spy, as well as for a relationship with an executive at his A.I. chip company.",
-    "full_text": "Few Silicon Valley executives have been as synonymous with their companies as Jensen Huang, the co-founder and chief executive of Nvidia.",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
-  },
-  {
-    "title": "元宝搜索上线，腾讯再争默认入口​",
-    "source": "36氪",
-    "url": "https://36kr.com/p/4066338158695304?f=rss",
-    "published": "2026-11-12",
-    "summary": "昨日，腾讯旗下元宝搜索正式面向普通用户开放，提供独立网站so.qq.com，用户也可以在最新版QQ浏览器中，将其设为默认搜索引擎。\n  此前，腾讯已于通过腾讯云，面向开发者和企业开放元宝搜索服务。此次上线的网页版与其共享技术底座，将此前供AI产品调用的能力，进一步拓展成面向普通用户的产品。\n  在回答36氪关于“腾讯为何继续扩大搜索布局”的提问时，腾讯元宝搜索网页版产品负责人李锐章表示，团队更多从用户需求出发考虑这件事。相关能力已在元宝、WorkBuddy、ima等产品中使用，而大量用户仍习惯通过网页查找内容，大模型让团队看到了解决原有体验问题的机会。\n  按照腾讯方面此前披露的数据，这套能力已支撑WorkBuddy、ima、腾讯金融科技、腾讯视频等50多个核心业务，日均调用量达数亿次。其中，ima将其用于结合知识库与公网信息回答问题，腾讯视频则用于支持根据剧情、模糊描述找片。\n  在李锐章看来，市场规模是产品做好之后的结果。但让用户换一个默认入口，需要面对已经发生变化的市场。\n  中国互联网络信息中心第57次《中国互联网络发展状况统计报告》显示，截至2025年12月，中国搜索引擎用户",
-    "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
-    "lang": "zh",
-    "images": [
-      "data:;base64,="
-    ]
-  },
-  {
-    "title": "美AI算力期货市场推出遇阻",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OeHBlMTVoczBUZ0RjTno5UnFIY0hPR2toSi1GeE40OXhfbzVCNXFxOEVoWVdGQkRkT05zeTh1cE5pa2Z3YmR1QTVQajYtcllvY3VWMFpORVd5d1UxdHdBU1JuMC01aldfSjJ1YlR4dXZFemFneGwyXw?oc=5",
-    "published": "2026-11-11",
-    "summary": "美AI算力期货市场推出遇阻&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh",
     "images": [
