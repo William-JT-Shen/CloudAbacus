@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-24T14:45:26Z
-var NEWS_FETCHED_AT="2026-11-24T14:45:26Z";
+// 生成:2026-11-25T00:34:31Z
+var NEWS_FETCHED_AT="2026-11-25T00:34:31Z";
 var GPU_NEWS=[
   {
     "title": "美股盘前：纳指期货跌幅迅速扩大至1%，芯片股普跌，英伟达、SK海力士、闪迪、英特尔集体下跌",
@@ -36,6 +36,15 @@ var GPU_NEWS=[
     "published": "2026-11-24",
     "summary": "作者｜王晗玉\n  编辑｜张帆\n  &nbsp;\n  当人工智能从辅助工具进化到可以代为生成指令、发起采购，商业交易的因果链条正被重新改写。\n  据机构预测，到2030年，智能体有望介入全球规模3-5万亿美元的消费商业活动。但技术向前演进的同时，身份核验、授权边界、纠纷定责等信任短板，成为横在产业规模化面前的现实阻碍。\n  作为亚太金融科技的风向标，每年的新加坡金融科技节（Singapore FinTech Festival，简称 SFF）是观察行业前沿重要的窗口。今年SFF，智能体商业不再只是概念探讨，而集体走出演示沙盘，向真实的消费者与企业交易场景渗透。\n  \n  本届SFF万事达卡展台\n  与此同时，面向小微经营者的普惠数字收款方案、跨市场协同的技术研发模式，也成为行业讨论的焦点。智能体商业加速落地之下，整个支付产业正在重新思考：行业需要构建怎样的底层能力，才能适配下一代商业的需求。\n  智能体交易，卡点不在技术在可信\n  今年SFF大会上，智能体商业是贯穿全场的核心话题。\n  多家展台搭建的体验场景，直观展示AI、数据、身份、支付如何共同驱动智能经济，包含智能体支付方案、AI驱动",
     "full_text": "ç«å±±å¼æ    æ­£å¨è¿è¡å®å¨æ£æµ...   ä¸ºä¿éæ¨çè®¿é®å®å¨ï¼ç³»ç»æ­£å¨æ£æµå½åç½ç»ç¯å¢ï¼è¯¥è¿ç¨éå¸¸éè¦å ç§éï¼è¯·èå¿ç­å¾",
+    "lang": "zh"
+  },
+  {
+    "title": "期货监控中心：保险机构期货市场资金规模年内增幅超100%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVGgtelpIRVIxZVNZenhDWW1mUkJUYlBuOWdhSGpwUk9XQUI3bjZ6WEdyNmQ1ejVHX0VCMlRnbzAySXlvRlJteEdHekFCYnpueHFtV1FWWmNOcmhLczdzMkpJWlAtZnhXdE5aWHQ2UWs5TV9BMEZaWlpDaDQ3YmRXeG5MZl9yNTVRY1FRSW5pMkFqWUpHRmQwUGVYU3JfdU1pa0E?oc=5",
+    "published": "2026-11-23",
+    "summary": "期货监控中心：保险机构期货市场资金规模年内增幅超100%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
     "lang": "zh"
   },
   {
@@ -562,17 +571,5 @@ var GPU_NEWS=[
     "summary_cn": "",
     "full_text_cn": "",
     "translated": true
-  },
-  {
-    "title": "新加坡铁矿石期货延续跌势 迈向四日连跌",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcnQ5YWhDT2hlN2NrZkNxLUtUaVpLWEZDa2NKS3RQTTQ0TXA5WWlkMkRPNHlVUEp4U2dIbnhLSklCVTVJLUZpakpkdmpkU01Pb0IyUkpCbWkyYUVIdUhzRklGeVlBMlVvOEVoblNINU55b1d2clhwSFBaUnRQYVhMeGo5RC1fQTQ?oc=5",
-    "published": "2026-11-12",
-    "summary": "新加坡铁矿石期货延续跌势 迈向四日连跌&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
   }
 ];
