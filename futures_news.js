@@ -1,7 +1,16 @@
 // GPU算力期货新闻
-// 生成:2026-11-25T00:34:31Z
-var NEWS_FETCHED_AT="2026-11-25T00:34:31Z";
+// 生成:2026-11-25T14:08:24Z
+var NEWS_FETCHED_AT="2026-11-25T14:08:24Z";
 var GPU_NEWS=[
+  {
+    "title": "盘前：黄仁勋回归行情仅维持一天？纳指期货跌1.44%",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR3ltN3V0R2RMalJOeTl6MFU1ODhPTmFja3hqQ016SnFBTHVpbmNVVUdRLS1rMzJZU0pDWlRIZ2xqSHZRMTZTQmVVRWEzc3JqQ1FFbEFuOTdOTVdiajhLYjNuUXVQaDNLOVN2TU0xV295RmN3Y0ZhZUVkSldnWkJFLUMyN1Vlcmc?oc=5",
+    "published": "2026-11-24",
+    "summary": "盘前：黄仁勋回归行情仅维持一天？纳指期货跌1.44%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
+  },
   {
     "title": "美股盘前：纳指期货跌幅迅速扩大至1%，芯片股普跌，英伟达、SK海力士、闪迪、英特尔集体下跌",
     "source": "新浪财经",
@@ -242,6 +251,15 @@ var GPU_NEWS=[
     "summary_cn": "",
     "full_text_cn": "",
     "translated": true
+  },
+  {
+    "title": "期货交易记录第2136天",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUnhIUVEzNkYwUlFRRUowbFZoaW02WGdkeFBqT3ZxdHM1bkZoWnR3dUF0TWN1VUtyUXB5aXZ6azlRemxQcm1LNDZTM1ZFNG5zd19CaHVONWctOFdTdXBCTjBEYXJ0aHNVWkhkbEUzN1RPNXBIUS1PRERMbGR0MVhBVw?oc=5",
+    "published": "2026-11-19",
+    "summary": "期货交易记录第2136天&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
   },
   {
     "title": "夜盘期货收盘：沪铜收跌0.64% 氧化铝收涨1.70%",
@@ -546,30 +564,5 @@ var GPU_NEWS=[
     "images": [
       "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
-  },
-  {
-    "title": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPMVdVTjlWZUM0MEFRSTRqaDlQdmNXUzFZSFRXT3ZxU0JNcllVNi1GRmRnZ21Xd0tvS19sakdadnZmVG5JcDgyUFIzWS1rdWY5MFZjSmY1NnRKRXNJNVFDZ3RIOHdnWEhYWl9EOHlrWGVRb3Q2eGlBd0hRX1JQSTBReDlLZkk1eEtKMHM1YnpkeU9CVFU2TGhuOFJ4Mk1OVFMzSi1ZNzRTWkR6N0Zxa0poTldUMWVqaHhmTWhzN05CNy1iSW9Vem5tVkVHVXNBX2NmR20zVVU5ZnF1NHlESUhYMWZBX2lUY2R6RTQ1WjdTWWwzbDA3REdGc0JHSHRpa1BVdmhWT1BGbXQwQWNqelZmQVZzV1ZaRlZIcUVSTHVEMGZOVzBlTkxTRVRvRzl2RGhuaEE?oc=5",
-    "published": "2026-11-14",
-    "summary": "华尔街GPU算力期货推进受阻，美国商品期货交易委员会延长审核&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    ]
-  },
-  {
-    "title": "Wall Street Braces for Anthropic’s Spending",
-    "source": "NYT Tech",
-    "url": "https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html",
-    "published": "2026-11-13",
-    "summary": "The company’s financial picture may get murky as it deals with employee stock compensation and the growing costs of artificial intelligence.",
-    "full_text": "Supported by\nA Look Under the Hood of Anthropic’s Plans Reveals Big Spending Ahead\nThe company’s financial picture may get murky as it deals with employee stock compensation and the growing costs of artificial intelligence.\n![A television screen is displayed above a stock trading floor.](https://static01.nyt.com/images/2026/11/12/multimedia/12biz-anthropic-reality-kzlm/12biz-anthropic-reality-kzlm-articleLarge.jpg?quality=75&auto=avif&disable=upscale)\nDario Amodei, Anthropic’s chief executive, introduced his artificial intelligence company to potential stock market investors this week with a sublime vision. He predicted the end of cancer and mental illness within a decade, and a transformation of cognitive work. “If we do this right, we can create an age of miracles,” he said in a marketing video for Anthropic’s initial public offering.\nWall Street is grappling with how much it may cost to get to utopia.\nStock analysts at Goldman Sachs, the investment bank leading Anthropic’s I.P.O., have told investors privately this week that they forecast the company will burn through more than $65 billion next year, and another $41 billion in 2028, said two people familiar with those discussions. Those totals would make Anthropic’s spending among the most aggressive corporate bets on funding the giant A.I. infrastructure build-out.\n“We are in aggressive investment mode,” Krishna Rao, Anthropic’s chief financial officer, said in the video, without discussing specific spending forecasts.\nThat spending would create a drastically different financial picture than Anthropic has shown recently. The company generated cash from its business in the first nine months of this year, its I.P.O. prospectus shows, a feat in the expensive business of A.I. model development. It has barely spent the $141 billion it raised privately from investors.\nThe listing on Nasdaq, expected next Thursday, could value Anthropic at $1.4 trillion. It would not only cement its status as one of the world’s most prominent companies but hand it additional firepower to help it pull further ahead of well-heeled rivals like OpenAI and Alphabet. The I.P.O. would deliver Anthropic an additional $100 billion to spend, and make it easier to raise even more money to fund those huge commitments.\nBut Anthropic’s public debut will lead to costs that don’t appear today. It said in the prospectus it anticipated about $40 billion of expenses in the coming years tied to preexisting stock grants it has given employees that haven’t yet hit its accounting books.\nRelated Content\nAdvertisement",
-    "lang": "en",
-    "title_cn": "",
-    "summary_cn": "",
-    "full_text_cn": "",
-    "translated": true
   }
 ];
