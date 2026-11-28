@@ -25191,7 +25191,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 2.92
+            "price_usd": 2.66
           },
           {
             "platform": "CoreWeave",
@@ -25234,6 +25234,10 @@ var PRICE_HISTORY_DATA = {
             "price_usd": 0.79
           },
           {
+            "platform": "Vast.ai",
+            "price_usd": 0.83
+          },
+          {
             "platform": "CoreWeave",
             "price_usd": 2.25
           }
@@ -25245,7 +25249,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.31
+            "price_usd": 0.4
           }
         ],
         "NVIDIA RTX 4090": [
@@ -25289,7 +25293,7 @@ var PRICE_HISTORY_DATA = {
           },
           {
             "platform": "Vast.ai",
-            "price_usd": 0.36
+            "price_usd": 0.47
           }
         ],
         "RTX 5090": [
@@ -25313,7 +25317,7 @@ var PRICE_HISTORY_DATA = {
         "RTX 5060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.08
+            "price_usd": 0.07
           }
         ],
         "RTX 5070": [
@@ -25331,13 +25335,13 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA RTX 4080 / 4080 Super": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.17
+            "price_usd": 0.2
           }
         ],
         "NVIDIA RTX 4060 Ti": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.05
+            "price_usd": 0.07
           }
         ],
         "NVIDIA RTX 4070 Ti / 4070": [
@@ -25379,13 +25383,13 @@ var PRICE_HISTORY_DATA = {
         "RTX 2070": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.06
+            "price_usd": 0.07
           }
         ],
         "RTX 6000": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.14
+            "price_usd": 0.13
           },
           {
             "platform": "DataCrunch",
@@ -25413,13 +25417,19 @@ var PRICE_HISTORY_DATA = {
         "NVIDIA T4": [
           {
             "platform": "Vast.ai",
-            "price_usd": 0.14
+            "price_usd": 0.15
           }
         ],
         "NVIDIA Tesla P100 / P40": [
           {
             "platform": "Vast.ai",
             "price_usd": 0.07
+          }
+        ],
+        "RTX 2080": [
+          {
+            "platform": "Vast.ai",
+            "price_usd": 0.47
           }
         ],
         "NVIDIA GH200": [
