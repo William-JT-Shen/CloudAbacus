@@ -1,6 +1,6 @@
 // GPU算力期货新闻
-// 生成:2026-11-27T13:43:11Z
-var NEWS_FETCHED_AT="2026-11-27T13:43:11Z";
+// 生成:2026-11-28T00:01:07Z
+var NEWS_FETCHED_AT="2026-11-28T00:01:07Z";
 var GPU_NEWS=[
   {
     "title": "纳指期货涨超1%",
@@ -8,6 +8,15 @@ var GPU_NEWS=[
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT2xCVFBJZENyamkya1F0eTVCSVktdExERS1tbzBQclVvTVVYY0dDRVBxMjlfaV90Y19PclFvSldGYWRyNXlLMVVqd3IzSzhaeTVucHR5NWZLYjJ3TmczYWxnbkxIU2RtLW43NTlQN1JDUlpOSFlxWVlOYXIxUEt4VA?oc=5",
     "published": "2026-11-27",
     "summary": "纳指期货涨超1%&nbsp;&nbsp;新浪财经",
+    "full_text": "",
+    "lang": "zh"
+  },
+  {
+    "title": "集群成势、织网拓局——广东证券期货行业机构出海逐浪前行",
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMeURiVC0tVUM1TDJMWTVwRUw0dEtOVmt6WUhQMUEzcVp1OXJGU1BZT1RYekZFY1NPTWt3WUJqRVBGUUFHRmFhVUswVmpBZlk0M285TV8tQlBUVGN4NWRPZlJ4WDlmNDFULUI3Y0JoYXQ2bUx4ODVKZg?oc=5",
+    "published": "2026-11-26",
+    "summary": "集群成势、织网拓局——广东证券期货行业机构出海逐浪前行&nbsp;&nbsp;新浪财经",
     "full_text": "",
     "lang": "zh"
   },
@@ -545,18 +554,6 @@ var GPU_NEWS=[
     "lang": "zh",
     "images": [
       "data:;base64,="
-    ]
-  },
-  {
-    "title": "掘金中国资产 海外资金看多信号密集显现",
-    "source": "新浪财经",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SQktWbVlnM3lwTjF4UHpvc3A0Z1g2WVFVdklTSDJLcVpOQkFtOVNFaDgxYlVvaFVUbGVTYlk1Wl9lOUtlMkFZTG95SVJjQjhKTjA4QXRkcDNXRFctZFhKb3RvY2tVcTh5MnFSNFFxZV9JdERGQjV3TA?oc=5",
-    "published": "2026-11-15",
-    "summary": "掘金中国资产 海外资金看多信号密集显现&nbsp;&nbsp;新浪财经",
-    "full_text": "",
-    "lang": "zh",
-    "images": [
-      "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     ]
   }
 ];
